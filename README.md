@@ -1,4 +1,4 @@
-# GA¡Hola! He revisado el contenido que has proporcionado para tu **README.md** de **GAIA AIR** y he realizado algunas mejoras para asegurar que la documentación sea clara, coherente y profesional. A continuación, encontrarás una versión optimizada del **README.md** que integra **Swagger** para la documentación interactiva de la API y **MkDocs** para la documentación técnica, además de corregir algunos errores y mejorar la estructura general.
+A continuación, encontrarás una versión optimizada del **README.md** que integra **Swagger** para la documentación interactiva de la API y **MkDocs** para la documentación técnica, además de corregir algunos errores y mejorar la estructura general.
 
 ---
 
