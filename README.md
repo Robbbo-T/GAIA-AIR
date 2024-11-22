@@ -184,6 +184,162 @@ Consulta el archivo INSTALL.md.
 5. **Optimizado para GitHub**:
    - Badges relevantes, enlaces directos y estructura clara para navegabilidad.
 
-¿Te gustaría integrarlo con herramientas específicas como Swagger para la documentación de la API o MkDocs para la documentación técnica? ¡Avísame y lo ajusto!
-si
+¡Perfecto! Integrar Swagger para la documentación de la API y MkDocs para la documentación técnica enriquecerá significativamente la accesibilidad y profesionalismo de tu proyecto GAIA AIR. A continuación, te guiaré paso a paso para implementar ambas herramientas en tu repositorio.
 
+📚 1. Integración de Swagger para la Documentación de la API
+
+Swagger proporciona una forma interactiva y visualmente atractiva de documentar tu API, permitiendo a los usuarios probar los endpoints directamente desde la documentación.
+
+Paso 1: Instalar Swagger UI
+
+Puedes integrar Swagger UI directamente en tu aplicación backend o servirlo estáticamente. A continuación, te mostraré cómo servirlo estáticamente usando el repositorio de Swagger UI.
+	1.	Clonar Swagger UI en tu proyecto:
+
+git clone https://github.com/swagger-api/swagger-ui.git docs/api-docs
+
+
+	2.	Configurar Swagger UI:
+Dentro de la carpeta docs/api-docs, encontrarás archivos que necesitas configurar.
+      •   Modificar index.html:
+Abre docs/api-docs/index.html y configura la URL de tu especificación OpenAPI. Por ejemplo:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GAIA AIR API Documentation</title>
+  <link rel="stylesheet" type="text/css" href="./swagger-ui.css" >
+  <link rel="icon" type="image/png" href="./favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="./favicon-16x16.png" sizes="16x16" />
+  <style>
+    html
+    {
+      box-sizing: border-box;
+      overflow: -moz-scrollbars-vertical;
+      overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+      box-sizing: inherit;
+    }
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="swagger-ui"></div>
+
+  <script src="./swagger-ui-bundle.js"> </script>
+  <script src="./swagger-ui-standalone-preset.js"> </script>
+  <script>
+  window.onload = function() {
+    // Build a system
+    const ui = SwaggerUIBundle({
+      url: "https://api.gaiaair.com/swagger.yaml", // URL de tu especificación OpenAPI
+      dom_id: '#swagger-ui',
+      deepLinking: true,
+      presets: [
+        SwaggerUIBundle.presets.apis,
+        SwaggerUIStandalonePreset
+      ],
+      plugins: [
+        SwaggerUIBundle.plugins.DownloadUrl
+      ],
+      layout: "StandaloneLayout"
+    })
+
+    window.ui = ui
+  }
+  </script>
+</body>
+</html>
+
+
+      •   Agregar tu Especificación OpenAPI:
+Crea un archivo swagger.yaml en la raíz de tu proyecto o donde prefieras y define tu API siguiendo la especificación OpenAPI.
+Ejemplo de swagger.yaml:
+
+openapi: 3.0.0
+info:
+  title: GAIA AIR API
+  version: 1.0.0
+  description: Documentación de la API de GAIA AIR
+servers:
+  - url: https://api.gaiaair.com
+paths:
+  /routes/optimize:
+    get:
+      summary: Optimización de rutas
+      parameters:
+        - in: query
+          name: departure
+          schema:
+            type: string
+          required: true
+          description: Código IATA del aeropuerto de salida
+        - in: query
+          name: arrival
+          schema:
+            type: string
+          required: true
+          description: Código IATA del aeropuerto de llegada
+      responses:
+        '200':
+          description: Ruta optimizada
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  optimized_route:
+                    type: object
+                    properties:
+                      departure:
+                        type: string
+                      arrival:
+                        type: string
+                      fuel_savings:
+                        type: string
+                      estimated_time:
+                        type: string
+
+
+	3.	Servir Swagger UI:
+Asegúrate de que tu servidor backend sirva el directorio docs/api-docs estáticamente. Por ejemplo, si usas Express.js en Node.js:
+
+const express = require('express');
+const app = express();
+const path = require('path');
+
+// Servir Swagger UI
+app.use('/api-docs', express.static(path.join(__dirname, 'docs/api-docs')));
+
+// Otros endpoints...
+app.listen(3000, () => {
+  console.log('Server running on port 3000');
+});
+
+
+	4.	Acceder a la Documentación:
+Una vez configurado, podrás acceder a la documentación de tu API en https://api.gaiaair.com/api-docs.
+
+Paso 2: Actualizar el README.md
+
+Añade una sección en el README que enlace a la documentación de la API.
+
+## Documentación de la API
+
+Explora y prueba los endpoints de la API de GAIA AIR utilizando la [Documentación Interactiva de Swagger](https://api.gaiaair.com/api-docs).
+
+📘 2. Integración de MkDocs para la Documentación Técnica
+
+MkDocs es una herramienta estática de generación de sitios web que facilita la creación de documentación técnica con Markdown.
+
+Paso 1: Instalar MkDocs
+
+	1.	**Instalar MkDocs y el Tema Material
