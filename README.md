@@ -1661,4 +1661,61 @@ Con estas mejoras y recomendaciones, tu **README.md** y la documentación de **G
 7. **Próximos Pasos y Recomendaciones:**
    - Las secciones de **Próximos Pasos Recomendados** y **Recomendaciones Finales** ofrecen una hoja de ruta clara para futuras mejoras y mantenimientos del proyecto, lo que facilita la gestión y expansión continua.
 
-Si hay alguna otra sección que desees añadir o modificar, o si necesitas asistencia adicional con algún aspecto específico de la documentación, no dudes en hacérmelo saber. ¡Estoy aquí para ayudarte a llevar **GAIA AIR** al siguiente nivel!
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.plot.ly/plotly-2.20.0.min.js"></script>
+</head>
+<body>
+    <div id="plotly-3d-model" style="width:100%;height:100%;"></div>
+    <script>
+        var data = [
+            {
+                x: [0, 0, 0, -1, 1, 0],
+                y: [0, -0.5, 1, -1, -1, -1.5],
+                z: [3, 0, 0, 0, 0, 0],
+                mode: 'markers+text',
+                marker: {
+                    size: [10, 8, 6, 6, 6, 6],
+                    color: ['blue', 'red', 'green', 'yellow', 'yellow', 'orange'],
+                    opacity: 0.8
+                },
+                text: [
+                    "Aircraft Body",
+                    "Center of Gravity (CG)",
+                    "Passenger Section",
+                    "Cargo Zone 1",
+                    "Cargo Zone 2",
+                    "Fuel Tank"
+                ],
+                type: 'scatter3d'
+            },
+            {
+                x: [0, 0, null, 0, 0, null, 0, -1, null, 0, 1, null, 0, 0, null],
+                y: [0, -0.5, null, 0, 1, null, 0, -1, null, 0, -1, null, 0, -1.5, null],
+                z: [3, 0, null, 3, 0, null, 3, 0, null, 3, 0, null, 3, 0, null],
+                mode: 'lines',
+                line: {
+                    color: 'gray',
+                    width: 2
+                },
+                type: 'scatter3d',
+                opacity: 0.5
+            }
+        ];
+
+        var layout = {
+            title: "Interactive 3D Model: Aircraft Weight and Balance System",
+            scene: {
+                xaxis: {title: "X-Axis"},
+                yaxis: {title: "Y-Axis"},
+                zaxis: {title: "Z-Axis"}
+            },
+            margin: {l: 0, r: 0, b: 0, t: 40}
+        };
+
+        Plotly.newPlot('plotly-3d-model', data, layout);
+    </script>
+</body>
+</html>
+ !
