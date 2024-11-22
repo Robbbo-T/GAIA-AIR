@@ -10,22 +10,16 @@
 
 ---
 
-## **ATA 01 - Políticas de Mantenimiento**
-
-### 01-00-00 - Política de Mantenimiento
-
-- **01-10-00 Estrategias de Mantenimiento Preventivo**
-
-  - **Ambas Versiones**: Uso de IA y ML para prever fallos, con sistemas de monitoreo en tiempo real distribuidos en zonas críticas del avión.
-
-- **01-20-00 Procedimientos de Mantenimiento Correctivo**
-
-  - **Versión de Largo Alcance**: Mantenimiento en hubs principales con instalaciones especializadas para sistemas híbridos.
-  - **Versión Regional**: Mantenimiento descentralizado en aeropuertos regionales, facilitado por la modularidad de los sistemas eléctricos.
-
-- **01-30-00 Gestión de Repuestos y Suministros**
-
-  - **Ambas Versiones**: Uso de blockchain para trazabilidad y transparencia, con almacenamiento de piezas en zonas designadas del fuselaje para acceso rápido.
+1. [01-00-00 Introducción General](#010000-introducción-general)
+2. [01-01-00 Objetivos de Weight and Balance](#010100-objetivos-de-weight-and-balance)
+3. [01-02-00 Procedimientos para Asegurar una Distribución Equilibrada de Peso](#010200-procedimientos-para-asegurar-una-distribución-equilibrada-de-peso)
+4. [01-03-00 Innovaciones en Optimización Dinámica del Balance](#010300-innovaciones-en-optimización-dinámica-del-balance)
+5. [01-04-00 Impacto en el Consumo de Combustible y Estabilidad de Vuelo](#010400-impacto-en-el-consumo-de-combustible-y-estabilidad-de-vuelo)
+6. [01-05-00 Especificaciones Técnicas](#010500-especificaciones-técnicas)
+7. [01-06-00 Gestión de Riesgos](#010600-gestión-de-riesgos)
+8. [01-07-00 Glosario Integrado](#010700-glosario-integrado)
+9. [01-08-00 Próximos Pasos Sugeridos](#010800-próximos-pasos-sugeridos)
+10. [01-09-00 Conclusión Final](#010900-conclusión-final)
 
 ---
 
