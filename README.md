@@ -343,3 +343,112 @@ MkDocs es una herramienta estática de generación de sitios web que facilita la
 Paso 1: Instalar MkDocs
 
 	1.	**Instalar MkDocs y el Tema Material
+pip install mkdocs mkdocs-material
+
+Paso 2: Configurar MkDocs
+
+Crea un archivo mkdocs.yml en la raíz del proyecto:
+
+site_name: GAIA AIR Docs
+site_url: https://gaiaair-docs.com
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - API:
+      - Optimización de Rutas: api/routes.md
+      - Seguridad Predictiva: api/security.md
+  - Tecnologías:
+      - Perceptrón Cuántico: docs/perceptron.md
+      - Filtro de Kalman: docs/kalman_filter.md
+markdown_extensions:
+  - codehilite
+  - admonition
+  - toc:
+      permalink: true
+
+Paso 3: Crear Archivos Markdown
+
+Crea la estructura de la carpeta docs/ y los archivos correspondientes.
+   •   index.md
+
+# Bienvenido a GAIA AIR Docs
+
+Explora nuestra documentación técnica, desde la API hasta los conceptos avanzados.
+
+   •   api/routes.md
+
+# API: Optimización de Rutas
+
+## Endpoint: `/routes/optimize`
+
+### Descripción
+Optimiza rutas aéreas para reducir el consumo de combustible y tiempo.
+
+### Parámetros
+| Parámetro  | Tipo    | Requerido | Descripción                     |
+|------------|---------|-----------|---------------------------------|
+| `departure`| `string`| Sí        | Código IATA del aeropuerto de salida |
+| `arrival`  | `string`| Sí        | Código IATA del aeropuerto de llegada |
+
+### Ejemplo de Respuesta
+
+```json
+{
+  "optimized_route": {
+    "departure": "JFK",
+    "arrival": "LHR",
+    "fuel_savings": "18%",
+    "estimated_time": "6h 45m"
+  }
+}
+
+Paso 4: Servir la Documentación Localmente
+
+```bash
+mkdocs serve
+
+Accede a la documentación en http://127.0.0.1:8000.
+
+Paso 5: Desplegar en GitHub Pages
+
+mkdocs gh-deploy
+
+📋 Resumen Final en README.md
+
+# GAIA AIR: Revolucionando la Aviación con Inteligencia Verde
+
+[![API Docs](https://img.shields.io/badge/API-Swagger-blue)](https://api.gaiaair.com/api-docs)
+[![Technical Docs](https://img.shields.io/badge/Docs-MkDocs-brightgreen)](https://gaiaair-docs.com)
+
+## Documentación
+
+1. [Swagger: Documentación de la API](https://api.gaiaair.com/api-docs)
+2. [MkDocs: Documentación Técnica](https://gaiaair-docs.com)
+
+## Características Destacadas
+
+1. 🌍 **Optimización de Rutas**: Ahorro de hasta 20% en combustible.
+2. 📊 **Visualización de Datos**: Gráficos avanzados en tiempo real.
+3. 🔒 **Seguridad Predictiva**: Identificación temprana de riesgos.
+4. 💡 **Liderazgo Tecnológico**: Uso de computación cuántica.
+
+## Cómo Contribuir
+
+1. Haz un Fork del repositorio.
+2. Crea una rama para tu contribución:
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+
+	3.	Realiza tus cambios y envía un Pull Request.
+
+Consulta CONTRIBUTING.md para más detalles.
+
+Contacto
+
+Para consultas o sugerencias:
+   •   Email: contacto@gaiaair.com
+   •   LinkedIn: Amedeo Pelliccia
+   •   GitHub: GAIA AIR
+
+¡Con Swagger y MkDocs, tu documentación será interactiva, accesible y profesional, asegurando la mejor experiencia para los desarrolladores y usuarios técnicos! Si necesitas ayuda adicional, no dudes en pedírmela. 🚀
