@@ -185,3 +185,5 @@ Consulta el archivo INSTALL.md.
    - Badges relevantes, enlaces directos y estructura clara para navegabilidad.
 
 ¿Te gustaría integrarlo con herramientas específicas como Swagger para la documentación de la API o MkDocs para la documentación técnica? ¡Avísame y lo ajusto!
+si
+
