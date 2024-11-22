@@ -1,14 +1,19 @@
 ## **ATA 00 - General**
 
-### 00-00-00 - Introducción General
-
-- **00-00-01 Antecedentes**: Contexto histórico y motivación detrás del desarrollo del GAIA AIR, enfatizando la necesidad de soluciones sostenibles para diferentes segmentos del mercado aeronáutico.
-- **00-00-02 Objetivos del Proyecto**: Innovación tecnológica avanzada y sostenibilidad ambiental, adaptada a las necesidades de largo alcance y operaciones regionales.
-- **00-00-03 Alcance y Delimitaciones**: Definición del alcance del estudio para ambas versiones y sus limitaciones.
-- **00-00-04 Metodología Utilizada**: Enfoque multidisciplinario y herramientas empleadas para el diseño y zonificación de los sistemas.
-- **00-00-05 Resumen Ejecutivo**: Síntesis de los aspectos clave del proyecto, incluyendo las diferencias y similitudes entre las dos versiones.
-
+1. [Introducción General](#introducción-general)
+2. [Un Futuro 100% Verde](#un-futuro-100-verde)
+3. [Objetivos Verdes de GAIA-AIR](#objetivos-verdes-de-gaia-air)
+4. [Innovaciones Verdes del Sistema](#innovaciones-verdes-del-sistema)
+5. [Impacto Ambiental Positivo](#impacto-ambiental-positivo)
+6. [Descripción del Sistema](#descripción-del-sistema)
+7. [Especificaciones Técnicas](#especificaciones-técnicas)
+8. [Gestión de Riesgos](#gestión-de-riesgos)
+9. [Glosario Integrado](#glosario-integrado)
+10. [Próximos Pasos Sugeridos](#próximos-pasos-sugeridos)
+11. [Conclusión Final](#conclusión-final)
+    
 ---
+## **ATA 01 - WEIGHT AND BALANCE**
 
 1. [01-00-00 Introducción General](#010000-introducción-general)
 2. [01-01-00 Objetivos de Weight and Balance](#010100-objetivos-de-weight-and-balance)
@@ -22,6 +27,8 @@
 10. [01-09-00 Conclusión Final](#010900-conclusión-final)
 
 ---
+
+## **ATA 02 - Operaciones**
 
 1. [02-00-00 Introducción General](#020000-introducción-general)
 2. [02-01-00 Gestión de Vuelos](#020100-gestión-de-vuelos)
