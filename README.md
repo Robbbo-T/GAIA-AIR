@@ -54,6 +54,6 @@ We invite **investors**, **collaborators**, and **industry leaders** to join the
 ### 📂 [Explore the Repository](https://github.com/Robbbo-T/GAIA-AIR-CSDB)
 
 For inquiries, collaborations, or investment opportunities, please contact us at:
-📧 **[Your Contact Email Here]**
+📧 **[amedeo.pelliccia@gmail.com]**
 
 ---
