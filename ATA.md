@@ -23,23 +23,16 @@
 
 ---
 
-## **ATA 02 - Operaciones**
-
-### 02-00-00 - Operaciones Generales
-
-- **02-10-00 Gestión de Vuelos**
-
-  - **Versión de Largo Alcance**: Optimización de rutas intercontinentales mediante IA y gemelos digitales, considerando zonas de vuelo de alta eficiencia.
-  - **Versión Regional**: Enfoque en rutas cortas con alta frecuencia, optimizando despegues y aterrizajes en zonas congestionadas.
-
-- **02-20-00 Coordinación de Tripulación**
-
-  - **Ambas Versiones**: Uso de asistentes inteligentes y ML para gestionar horarios y distribución de tripulación en zonas de descanso y servicio.
-
-- **02-30-00 Interacción con Control de Tráfico Aéreo**
-
-  - **Ambas Versiones**: Comunicación segura y eficiente utilizando tecnologías cuánticas, con sistemas de comunicación ubicados en zonas de fácil acceso para mantenimiento.
-
+1. [02-00-00 Introducción General](#020000-introducción-general)
+2. [02-01-00 Gestión de Vuelos](#020100-gestión-de-vuelos)
+3. [02-02-00 Coordinación de Tripulación](#020200-coordinación-de-tripulación)
+4. [02-03-00 Interacción con Control de Tráfico Aéreo](#020300-interacción-con-control-de-tráfico-aéreo)
+5. [02-04-00 Optimización de Recursos Operativos](#020400-optimización-de-recursos-operativos)
+6. [02-05-00 Especificaciones Técnicas](#020500-especificaciones-técnicas)
+7. [02-06-00 Gestión de Riesgos Operativos](#020600-gestión-de-riesgos-operativos)
+8. [02-07-00 Glosario Integrado](#020700-glosario-integrado)
+9. [02-08-00 Próximos Pasos Sugeridos](#020800-próximos-pasos-sugeridos)
+10. [02-09-00 Conclusión Final](#020900-conclusión-final)
 ---
 
 ## **ATA 03 - Dimensiones y Áreas**
