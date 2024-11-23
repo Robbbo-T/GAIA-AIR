@@ -1,4 +1,3 @@
-
 # **ATA 03: Dimensiones y Áreas**
 
 ---
