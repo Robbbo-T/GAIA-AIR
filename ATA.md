@@ -1,3 +1,5 @@
+# I-ATA
+
 ## **ATA 00 - General**
 
 1. [Introducción General](#introducción-general)
@@ -13,6 +15,7 @@
 11. [Conclusión Final](#conclusión-final)
     
 ---
+
 ## **ATA 01 - WEIGHT AND BALANCE**
 
 1. [01-00-00 Introducción General](#010000-introducción-general)
@@ -44,9 +47,6 @@
 
 ## **ATA 03 - Dimensiones y Áreas**
 
-# **ATA 03: Dimensiones y Áreas**
-
-
 1. [03-00-00 Introducción General](#030000-introducción-general)  
 2. [03-01-00 Especificaciones Dimensionales](#030100-especificaciones-dimensionales)  
 3. [03-02-00 Distribución de Áreas](#030200-distribución-de-áreas)  
@@ -57,7 +57,8 @@
 8. [03-07-00 Gestión de Riesgos](#030700-gestión-de-riesgos)  
 9. [03-08-00 Glosario Integrado](#030800-glosario-integrado)  
 10. [03-09-00 Próximos Pasos Sugeridos](#030900-próximos-pasos-sugeridos)  
-11. [03-10-00 Conclusión Final](#031000-conclusión-final)  
+11. [03-10-00 Conclusión Final](#031000-conclusión-final)
+    
 ---
 
 ## 📓 **ATA 04 - Luces de Navegación**
