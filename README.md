@@ -742,6 +742,83 @@ Siguiendo las directrices de la Air Transport Association (ATA), es fundamental 
 
 ---
 
+## 📚 Guía Adicional para Mejorar la Documentación
+
+### 🧮 Integración de Notación Matemática con LaTeX en Markdown
+[...]
+#### 1. Matemáticas en Línea (Inline Math)
+[...]
+#### 2. Matemáticas en Bloque (Block Math)
+[...]
+#### 3. Ecuaciones Numeradas
+[...]
+#### 4. Matrices y Otros Elementos Avanzados
+[...]
+## 🛠 Aplicación en tu README.md
+[...]
+### 1. Optimización de Rutas
+[...]
+### 2. Reducción de Emisiones de Carbono
+[...]
+### 3. Predicciones de Seguridad Basadas en IA
+[...]
+## 📌 Recomendaciones para Implementar Notación Matemática
+[...]
+## 🚀 Conclusión Final
+[...]
+### Próximos Pasos Recomendados
+[...]
+
+## DMC-GAIA-00-97-00-A: Modelado Matemático del Sistema de Propulsión Avanzada
+
+### Introducción
+[...]
+### 1. Descripción General del Sistema
+[...]
+### 2. Representación mediante Grafos Dirigidos
+El sistema se puede representar mediante un grafo dirigido, donde los nodos representan los subsistemas y las aristas indican el flujo de energía, materia o información entre ellos.
+
+#### 2.1 Nodos (V)
+[...]
+#### 2.2 Aristas (E)
+[...]
+### 3. Modelado Matemático de los Subsistemas
+
+#### 3.1 Sistema de Entrada (S_input)
+[...]
+#### 3.2 Electrolizadores Compactos (S_electrolizadores)
+[...]
+#### 3.3 Gestión Térmica (S_termal)
+[...]
+#### 3.4 Redes Neuronales Distribuidas (S_neuroredes)
+[...]
+#### 3.5 Distribución Eléctrica (S_electrico)
+[...]
+#### 3.6 Propulsión Central (S_central)
+[...]
+### 4. Integración de los Subsistemas en el Modelo Global
+
+#### 4.1 Variables de Estado (\(\mathbf{x}\))
+[...]
+#### 4.2 Ecuaciones Dinámicas del Sistema
+[...]
+### 5. Análisis del Sistema
+
+#### 5.1 Estabilidad y Control
+[...]
+#### 5.2 Simulación y Validación
+[...]
+### 6. Aplicación en GAIA AIR
+[...]
+### 7. Cumplimiento Normativo
+[...]
+### 8. Conclusión
+[...]
+### 9. Próximos Pasos
+[...]
+### 10. Actualizaciones y Revisión
+[...]
+
 ## **25. DMC-GAIA-00-97-00-A: Modelado Matemático del Sistema de Propulsión Avanzada**
 
 ### **Introducción**
