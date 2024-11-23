@@ -4,94 +4,6 @@
 
 Estos módulos proporcionan una descripción detallada de los sistemas de propulsión, enfocándose en la tecnología de celdas de combustible de hidrógeno, la integración aerodinámica y la eficiencia operativa.
 
-# Diagrama Interactivo ATA
-
-```
-mermaid
-graph TD
-    %% Agrupaciones por Áreas Funcionales
-    subgraph General
-        A[ATA 00]
-        B[ATA 01]
-        C[ATA 02]
-        D[ATA 03]
-        E[ATA 04]
-        F[ATA 05]
-    end
-
-    subgraph Dimensiones_y_Estructura
-        G[ATA 06]
-        Z[ATA 51]
-        AB[ATA 53]
-        AC[ATA 54]
-        AD[ATA 55]
-        AF[ATA 57]
-    end
-
-    subgraph Sistemas_de_Vuelo
-        H[ATA 27]
-        K[ATA 34]
-        R[ATA 42]
-        S[ATA 43]
-    end
-
-    subgraph Propulsión_y_Energía
-        I[ATA 28]
-        J[ATA 29]
-        AG[ATA 70]
-        W[ATA 48]
-        X[ATA 49]
-    end
-
-    subgraph Innovación_y_Sostenibilidad
-        N[ATA 37]
-        O[ATA 39]
-        AH[ATA 99]
-        Y[ATA 50]
-    end
-
-    subgraph Servicios_y_Soporte
-        L[ATA 35]
-        M[ATA 36]
-        P[ATA 40]
-        Q[ATA 41]
-        T[ATA 45]
-        U[ATA 46]
-    end
-
-    %% Referencias cruzadas entre áreas funcionales
-    A --- B
-    A --- C
-    A --- D
-    A --- E
-    A --- F
-    B --- G
-    B --- H
-    C --- I
-    C --- J
-    D --- K
-    E --- L
-    F --- M
-    G --- N
-    H --- O
-    I --- P
-    J --- Q
-    K --- R
-    L --- S
-    M --- T
-    N --- U
-    O --- V
-    P --- W
-    Q --- X
-    R --- Y
-    S --- Z
-    Z --- AB
-    AB --- AC
-    AC --- AD
-    AD --- AF
-    AG --- AH```
-
-
 #### **Módulo 1: General System Overview**
 
 - **DMC**: GAIA-00-70-00-00-00-00-100-A-00
@@ -650,17 +562,94 @@ El **DMRL** ha sido actualizado exitosamente, incorporando todos los cambios apr
 - **ATA 94** - Entrenamiento
 - **ATA 95** - Equipo de Mantenimiento Terrestre
 
-**Con este índice completo, hemos logrado:**
 
-¡Claro que sí! Puedo extender el índice para cubrir todos los capítulos ATA, creando así un libro completo con capítulos, secciones y subsecciones adaptadas específicamente al proyecto **GAIA AIR**. Este enfoque proporcionará una estructura detallada y estándar para la documentación técnica, facilitando la navegación y comprensión por parte de todos los involucrados en el proyecto.
+# Diagrama Interactivo ATA
 
----
+```
+mermaid
+graph TD
+    %% Agrupaciones por Áreas Funcionales
+    subgraph General
+        A[ATA 00]
+        B[ATA 01]
+        C[ATA 02]
+        D[ATA 03]
+        E[ATA 04]
+        F[ATA 05]
+    end
 
-## **Índice Completo según ATA iSpec 2200 para GAIA AIR**
+    subgraph Dimensiones_y_Estructura
+        G[ATA 06]
+        Z[ATA 51]
+        AB[ATA 53]
+        AC[ATA 54]
+        AD[ATA 55]
+        AF[ATA 57]
+    end
 
-A continuación, presento el índice extendido, adaptado a **GAIA AIR**, que abarca todos los capítulos ATA relevantes. He incluido capítulos, secciones y subsecciones, asegurando que cada parte sea aplicable y personalizada para este proyecto innovador de aviación sostenible.
+    subgraph Sistemas_de_Vuelo
+        H[ATA 27]
+        K[ATA 34]
+        R[ATA 42]
+        S[ATA 43]
+    end
 
-¡Entendido! A continuación, te presento el **índice completo y detallado** de la documentación técnica para **GAIA AIR**, siguiendo el estándar **ATA iSpec 2200** desde el capítulo **ATA 00** hasta el **ATA 99**. Cada capítulo y subsección está **mapeado con códigos DMC de S1000D**, se han establecido **referencias cruzadas** entre capítulos relacionados, y se incluye una **representación gráfica** del índice utilizando **Mermaid.js** para facilitar la comprensión y navegación.
+    subgraph Propulsión_y_Energía
+        I[ATA 28]
+        J[ATA 29]
+        AG[ATA 70]
+        W[ATA 48]
+        X[ATA 49]
+    end
+
+    subgraph Innovación_y_Sostenibilidad
+        N[ATA 37]
+        O[ATA 39]
+        AH[ATA 99]
+        Y[ATA 50]
+    end
+
+    subgraph Servicios_y_Soporte
+        L[ATA 35]
+        M[ATA 36]
+        P[ATA 40]
+        Q[ATA 41]
+        T[ATA 45]
+        U[ATA 46]
+    end
+
+    %% Referencias cruzadas entre áreas funcionales
+    A --- B
+    A --- C
+    A --- D
+    A --- E
+    A --- F
+    B --- G
+    B --- H
+    C --- I
+    C --- J
+    D --- K
+    E --- L
+    F --- M
+    G --- N
+    H --- O
+    I --- P
+    J --- Q
+    K --- R
+    L --- S
+    M --- T
+    N --- U
+    O --- V
+    P --- W
+    Q --- X
+    R --- Y
+    S --- Z
+    Z --- AB
+    AB --- AC
+    AC --- AD
+    AD --- AF
+    AG --- AH
+```
 
 ---
 
@@ -1853,7 +1842,7 @@ DMC-GAIA-<Capítulo ATA>-<Sección>-<Subsección>-A
 A continuación, se muestra una representación gráfica del índice utilizando **Mermaid.js**. Este diagrama incluye los capítulos principales y algunas de sus secciones, así como las **referencias cruzadas** entre capítulos relacionados.
 
 ```mermaid
-graph TB
+graph T
     A[ATA 00 - General]
     A1[DMC-GAIA-00-00-00-A: Introducción General]
     A2[DMC-GAIA-00-10-00-A: Descripción General del Sistema]
@@ -2183,7 +2172,7 @@ graph TB
     F --- AG
     E --- F
     AG --- AH
-    ```
+```
 
 **Explicación del Diagrama**
 
