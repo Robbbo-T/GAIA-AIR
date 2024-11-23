@@ -992,28 +992,337 @@ Siguiendo las directrices de la **Air Transport Association (ATA)**, es fundamen
 
 ---
 
+---
+
+## DMC-GAIA-00-97-00-A: Modelado Matemático del Sistema de Propulsión Avanzada
+
+### Introducción
+
+En esta sección, se presenta el modelado matemático detallado del sistema de propulsión avanzada utilizado en **GAIA AIR**. El objetivo es proporcionar una comprensión profunda de los subsistemas y sus interacciones, permitiendo análisis precisos y optimización del rendimiento del sistema.
+
+**Referencia:** Para información sobre sistemas de propulsión y energías alternativas, consulte [DMC-GAIA-70-00-00-A (ATA 70 - Motor)](#dmc-gaia-70-00-00-a-introducción-general) y [DMC-GAIA-80-00-00-A (ATA 80 - Sistemas de Energía Alternativa)](#dmc-gaia-80-00-00-a-introducción-general).
+
+---
+
+### 1. Descripción General del Sistema
+
+El sistema de propulsión avanzada se compone de varios subsistemas interconectados:
+
+- **S_central**: Propulsión Central Hidroeléctrica
+- **S_electrolizadores**: Electrolizadores Compactos
+- **S_termal**: Gestión Térmica
+- **S_neuroredes**: Redes Neuronales Distribuidas
+- **S_input**: Sistema de Entrada
+- **S_electrico**: Distribución Eléctrica
+
+Estos subsistemas trabajan en conjunto para generar el empuje necesario de manera eficiente y sostenible.
+
+---
+
+### 2. Representación mediante Grafos Dirigidos
+
+El sistema se puede representar mediante un **grafo dirigido**, donde los nodos representan los subsistemas y las aristas indican el flujo de energía, materia o información entre ellos.
+
+#### 2.1 Nodos (V)
+
+- \( v_1 \): Sistema de Entrada (\( S_{\text{input}} \))
+- \( v_2 \): Electrolizadores Compactos (\( S_{\text{electrolizadores}} \))
+- \( v_3 \): Gestión Térmica (\( S_{\text{termal}} \))
+- \( v_4 \): Redes Neuronales Distribuidas (\( S_{\text{neuroredes}} \))
+- \( v_5 \): Distribución Eléctrica (\( S_{\text{electrico}} \))
+- \( v_6 \): Propulsión Central (\( S_{\text{central}} \))
+
+#### 2.2 Aristas (E)
+
+Las conexiones entre los nodos se representan mediante aristas dirigidas:
+
+- \( (v_1 \rightarrow v_2) \): El sistema de entrada suministra energía a los electrolizadores.
+- \( (v_1 \rightarrow v_5) \): El sistema de entrada alimenta la distribución eléctrica.
+- \( (v_1 \rightarrow v_4) \): El sistema de entrada proporciona datos a las redes neuronales.
+- \( (v_2 \rightarrow v_3) \): Los electrolizadores generan calor gestionado por el sistema térmico.
+- \( (v_3 \rightarrow v_6) \): La gestión térmica aporta energía al sistema de propulsión.
+- \( (v_5 \rightarrow v_6) \): La distribución eléctrica suministra energía al sistema de propulsión.
+- \( (v_4 \rightarrow v_6) \): Las redes neuronales optimizan el funcionamiento del sistema de propulsión.
+
+---
+
+### 3. Modelado Matemático de los Subsistemas
+
+#### 3.1 Sistema de Entrada (\( S_{\text{input}} \))
+
+Proporciona energía eléctrica y datos al sistema.
+
+- **Variables:**
+  - \( P_{\text{in}} \): Potencia eléctrica de entrada.
+  - \( D_{\text{in}} \): Datos de entrada para las redes neuronales.
+
+#### 3.2 Electrolizadores Compactos (\( S_{\text{electrolizadores}} \))
+
+Convierten energía eléctrica en hidrógeno mediante electrólisis.
+
+- **Ecuación de Producción de Hidrógeno:**
+
+  \[
+  \dot{m}_{\text{H}_2} = \eta_{\text{elec}} \cdot \frac{P_{\text{elec}}}{E_{\text{H}_2}}
+  \]
+
+  Donde:
+
+  - \( \dot{m}_{\text{H}_2} \): Flujo másico de hidrógeno producido (kg/s).
+  - \( \eta_{\text{elec}} \): Eficiencia del electrolizador.
+  - \( P_{\text{elec}} \): Potencia eléctrica suministrada al electrolizador (W).
+  - \( E_{\text{H}_2} \): Energía específica del hidrógeno (J/kg).
+
+#### 3.3 Gestión Térmica (\( S_{\text{termal}} \))
+
+Gestiona el calor residual generado por los electrolizadores y otros subsistemas.
+
+- **Ecuación de Transferencia de Calor:**
+
+  \[
+  Q_{\text{termal}} = m_{\text{fluid}} \cdot c_p \cdot \Delta T
+  \]
+
+  Donde:
+
+  - \( Q_{\text{termal}} \): Calor transferido (J).
+  - \( m_{\text{fluid}} \): Masa del fluido térmico (kg).
+  - \( c_p \): Capacidad calorífica específica (J/(kg·K)).
+  - \( \Delta T \): Diferencia de temperatura (K).
+
+#### 3.4 Redes Neuronales Distribuidas (\( S_{\text{neuroredes}} \))
+
+Optimizan y controlan el funcionamiento del sistema mediante aprendizaje automático.
+
+- **Función de Control:**
+
+  \[
+  \mathbf{u}(t) = \mathcal{F}(\mathbf{x}(t), D_{\text{in}})
+  \]
+
+  Donde:
+
+  - \( \mathbf{u}(t) \): Señales de control en el tiempo \( t \).
+  - \( \mathbf{x}(t) \): Estado del sistema en el tiempo \( t \).
+  - \( D_{\text{in}} \): Datos de entrada.
+
+#### 3.5 Distribución Eléctrica (\( S_{\text{electrico}} \))
+
+Distribuye la energía eléctrica a los subsistemas que lo requieren.
+
+- **Balance de Potencia:**
+
+  \[
+  P_{\text{in}} = P_{\text{elec}} + P_{\text{cargas}} + P_{\text{pérdidas}}
+  \]
+
+  Donde:
+
+  - \( P_{\text{cargas}} \): Potencia consumida por otros subsistemas.
+  - \( P_{\text{pérdidas}} \): Pérdidas en la distribución eléctrica.
+
+#### 3.6 Propulsión Central (\( S_{\text{central}} \))
+
+Genera empuje utilizando energía eléctrica e hidrógeno.
+
+- **Empuje Total:**
+
+  \[
+  F_{\text{total}} = F_{\text{eléctrico}} + F_{\text{hidrógeno}}
+  \]
+
+- **Empuje Eléctrico:**
+
+  \[
+  F_{\text{eléctrico}} = \eta_{\text{motor}} \cdot \frac{P_{\text{motor}}}{v}
+  \]
+
+  Donde:
+
+  - \( \eta_{\text{motor}} \): Eficiencia del motor eléctrico.
+  - \( P_{\text{motor}} \): Potencia eléctrica suministrada al motor.
+  - \( v \): Velocidad del flujo de aire (m/s).
+
+- **Empuje por Hidrógeno:**
+
+  \[
+  F_{\text{hidrógeno}} = \dot{m}_{\text{H}_2} \cdot v_e
+  \]
+
+  Donde:
+
+  - \( v_e \): Velocidad de escape de los gases (m/s).
+
+---
+
+### 4. Integración de los Subsistemas en el Modelo Global
+
+#### 4.1 Variables de Estado (\( \mathbf{x} \))
+
+Definimos el vector de estado del sistema:
+
+\[
+\mathbf{x} = \begin{bmatrix}
+\dot{m}_{\text{H}_2} \\
+T_{\text{termal}} \\
+P_{\text{motor}} \\
+F_{\text{total}} \\
+\end{bmatrix}
+\]
+
+#### 4.2 Ecuaciones Dinámicas del Sistema
+
+1. **Producción de Hidrógeno:**
+
+   \[
+   \frac{d\dot{m}_{\text{H}_2}}{dt} = \eta_{\text{elec}} \cdot \frac{P_{\text{elec}}}{E_{\text{H}_2}}
+   \]
+
+2. **Gestión Térmica:**
+
+   \[
+   \frac{dT_{\text{termal}}}{dt} = \frac{1}{m_{\text{fluid}} \cdot c_p} \left( Q_{\text{gen}} - Q_{\text{utilizado}} \right)
+   \]
+
+3. **Balance de Potencia:**
+
+   \[
+   P_{\text{motor}} = P_{\text{in}} - P_{\text{elec}} - P_{\text{pérdidas}}
+   \]
+
+4. **Empuje Total:**
+
+   \[
+   F_{\text{total}} = \eta_{\text{motor}} \cdot \frac{P_{\text{motor}}}{v} + \dot{m}_{\text{H}_2} \cdot v_e
+   \]
+
+5. **Control del Sistema:**
+
+   \[
+   \mathbf{u}(t) = \mathcal{F}(\mathbf{x}(t), D_{\text{in}})
+   \]
+
+---
+
+### 5. Análisis del Sistema
+
+#### 5.1 Estabilidad y Control
+
+Las **Redes Neuronales Distribuidas** implementan algoritmos de control avanzados para mantener el sistema en condiciones óptimas de operación.
+
+- **Objetivo de Control:**
+
+  Minimizar una función de costo \( J \) que incluye términos como consumo de energía, emisiones y desviación del empuje deseado.
+
+- **Función de Costo:**
+
+  \[
+  J = \int_{t_0}^{t_f} \left( w_1 \cdot (F_{\text{total}} - F_{\text{deseado}})^2 + w_2 \cdot P_{\text{total}} + w_3 \cdot \dot{m}_{\text{emisiones}} \right) dt
+  \]
+
+  Donde \( w_1, w_2, w_3 \) son ponderaciones asignadas a cada término.
+
+#### 5.2 Simulación y Validación
+
+Se recomienda realizar simulaciones del sistema utilizando software especializado para validar el modelo y optimizar los parámetros de control.
+
+**Referencia:** Para información sobre simulaciones y modelos computacionales, consulte [DMC-GAIA-91-00-00-A (ATA 91 - Gráficos y Diagramas)](#dmc-gaia-91-00-00-a-introducción-general) y [DMC-GAIA-94-30-00-A (ATA 94 - Sistemas de Simulación)](#dmc-gaia-94-30-00-a-sistemas-de-simulación).
+
+---
+
+### 6. Aplicación en GAIA AIR
+
+El modelado matemático desarrollado es fundamental para:
+
+- **Diseño y Optimización del Sistema de Propulsión:** Permite ajustar los parámetros para maximizar la eficiencia y minimizar las emisiones.
+- **Implementación de Estrategias de Control Avanzadas:** Las redes neuronales pueden adaptarse a condiciones cambiantes y mejorar el rendimiento en tiempo real.
+- **Evaluación de la Eficiencia Energética y Sostenibilidad:** Proporciona métricas clave para cumplir con objetivos ambientales y normativas.
+
+---
+
+### 7. Cumplimiento Normativo
+
+El sistema y su modelado cumplen con las normativas y estándares aplicables:
+
+- **DO-160G:** Condiciones ambientales y procedimientos de prueba para equipos aerotransportados.
+- **DO-178C:** Consideraciones de software en sistemas aeronáuticos y certificación.
+- **DO-254:** Certificación de hardware aeronáutico.
+- **ISO 9001:** Sistema de gestión de la calidad.
+- **ISO 14001:** Sistema de gestión ambiental.
+
+**Referencia:** Consulte [DMC-GAIA-00-20-03-A (Cumplimiento con Normativas Aeronáuticas)](#dmc-gaia-00-20-03-a-cumplimiento-con-normativas-aeronáuticas).
+
+---
+
+### 8. Conclusión
+
+El modelado matemático detallado del sistema de propulsión avanzada proporciona una base sólida para el desarrollo y mejora continua de **GAIA AIR**. Este enfoque permite:
+
+- **Análisis Preciso del Rendimiento:** Identificación de áreas de mejora y optimización.
+- **Simulación y Pruebas Virtuales:** Reducción de costos y tiempos mediante la validación previa al prototipo físico.
+- **Cumplimiento Normativo y Sostenibilidad:** Asegura que el sistema cumple con las regulaciones y contribuye a la sostenibilidad ambiental.
+
+---
+
+### 9. Próximos Pasos
+
+1. **Validación Experimental:**
+
+   - Realizar pruebas de laboratorio y vuelos de prueba para validar el modelo matemático con datos reales.
+
+2. **Optimización de Parámetros:**
+
+   - Ajustar las variables y coeficientes del modelo para maximizar la eficiencia y el rendimiento.
+
+3. **Integración con AMPEL y Robbotix:**
+
+   - Incorporar el modelo en los gemelos digitales y simuladores para mejorar la precisión de las simulaciones y el aprendizaje automático.
+
+**Referencia:** Para información sobre integración con sistemas avanzados, consulte [DMC-GAIA-00-96-00-A](#dmc-gaia-00-96-00-a-integración-de-ampel-y-robbotix-en-gaia-air).
+
+---
+
+### 10. Actualizaciones y Revisión
+
+Este documento será revisado y actualizado periódicamente para reflejar avances en el modelado, resultados de pruebas y cambios en normativas.
+
+**Referencia:** Consulte [DMC-GAIA-00-00-00-A (Introducción General)](#dmc-gaia-00-00-00-a-introducción-general) para información sobre el proceso de actualización de documentación.
+
+---
+
+**Nota:** Toda la información técnica aquí presentada es confidencial y propiedad de **GAIA AIR**. Su distribución o reproducción sin autorización está prohibida.
+
+---
+
 # Notas Finales
 
-Esta documentación ha sido actualizada para incluir las últimas innovaciones y desarrollos de **GAIA AIR**, asegurando una cobertura integral y actualizada de todos los aspectos técnicos y operativos del sistema. Se ha integrado el cumplimiento con los estándares de documentación técnica **S1000D** y **ATA Spec 100**, lo que garantiza una presentación estandarizada y profesional de la información.
-
-Nuestro compromiso es mantener esta documentación viva, reflejando constantemente los avances y mejoras que se implementan en **GAIA AIR**. Invitamos a todos los interesados a profundizar en los contenidos aquí presentados y a unirse a nosotros en el camino hacia una aviación más sostenible, eficiente y tecnológicamente avanzada.
-
----
-
-# Contacto
-
-*(El contenido de esta sección se mantiene igual que en la versión anterior.)*
-
----
-
-# Licencia
-
-*(El contenido de esta sección se mantiene igual que en la versión anterior.)*
+Este modelado matemático es esencial para el avance tecnológico y competitivo de **GAIA AIR**. Al incluirlo en nuestra documentación técnica, garantizamos que todos los departamentos involucrados tengan acceso a información precisa y actualizada, facilitando la colaboración y el cumplimiento de objetivos comunes.
 
 ---
 
 # Gracias
 
-¡Gracias por dedicar tiempo a leer esta documentación! Esperamos que haya sido informativa y útil. Si tienes preguntas o deseas colaborar con nosotros, estamos a tu disposición.
+¡Gracias por tu dedicación y esfuerzo en el desarrollo de este proyecto innovador! Tu trabajo es fundamental para el éxito y la visión de **GAIA AIR** en liderar la aviación sostenible y tecnológica del futuro.
 
 ---
+
+# Apoyo Adicional
+
+Si necesitas asistencia adicional o tienes preguntas sobre este documento, no dudes en ponerte en contacto con el departamento de ingeniería o el equipo de documentación técnica.
+
+---
+
+# Licencia
+
+Este documento está protegido bajo las leyes de propiedad intelectual y es para uso exclusivo de **GAIA AIR**. Todos los derechos reservados.
+
+---
+
+# Fin del Documento
+
+---
+
+*Este documento ha sido preparado siguiendo los estándares **S1000D** y **ATA Spec 100**, asegurando consistencia y cumplimiento con las mejores prácticas de la industria aeronáutica.*
+
+---
+
