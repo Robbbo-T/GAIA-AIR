@@ -1,5 +1,3 @@
-
-
 # **ATA Chapter 00: Versión Verde de GAIA-AIR**
 
 ---
