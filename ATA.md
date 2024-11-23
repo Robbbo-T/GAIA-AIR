@@ -4,6 +4,90 @@
 
 Estos módulos proporcionan una descripción detallada de los sistemas de propulsión, enfocándose en la tecnología de celdas de combustible de hidrógeno, la integración aerodinámica y la eficiencia operativa.
 
+graph TD
+    %% Agrupaciones por Áreas Funcionales
+    subgraph General
+        A[ATA 00]
+        B[ATA 01]
+        C[ATA 02]
+        D[ATA 03]
+        E[ATA 04]
+        F[ATA 05]
+    end
+
+    subgraph Dimensiones_y_Estructura
+        G[ATA 06]
+        Z[ATA 51]
+        AB[ATA 53]
+        AC[ATA 54]
+        AD[ATA 55]
+        AF[ATA 57]
+    end
+
+    subgraph Sistemas_de_Vuelo
+        H[ATA 27]
+        K[ATA 34]
+        R[ATA 42]
+        S[ATA 43]
+    end
+
+    subgraph Propulsión_y_Energía
+        I[ATA 28]
+        J[ATA 29]
+        AG[ATA 70]
+        W[ATA 48]
+        X[ATA 49]
+    end
+
+    subgraph Innovación_y_Sostenibilidad
+        N[ATA 37]
+        O[ATA 39]
+        AH[ATA 99]
+        Y[ATA 50]
+    end
+
+    subgraph Servicios_y_Soporte
+        L[ATA 35]
+        M[ATA 36]
+        P[ATA 40]
+        Q[ATA 41]
+        T[ATA 45]
+        U[ATA 46]
+    end
+
+    %% Referencias cruzadas entre áreas funcionales
+    A --- B
+    A --- C
+    A --- D
+    A --- E
+    A --- F
+    B --- G
+    B --- H
+    C --- I
+    C --- J
+    D --- K
+    E --- L
+    F --- M
+    G --- N
+    H --- O
+    I --- P
+    J --- Q
+    K --- R
+    L --- S
+    M --- T
+    N --- U
+    O --- V
+    P --- W
+    Q --- X
+    R --- Y
+    S --- Z
+    Z --- AB
+    AB --- AC
+    AC --- AD
+    AD --- AF
+    AG --- AH
+
+
 #### **Módulo 1: General System Overview**
 
 - **DMC**: GAIA-00-70-00-00-00-00-100-A-00
