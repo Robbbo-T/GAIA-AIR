@@ -4,6 +4,11 @@
 
 Estos módulos proporcionan una descripción detallada de los sistemas de propulsión, enfocándose en la tecnología de celdas de combustible de hidrógeno, la integración aerodinámica y la eficiencia operativa.
 
+# Diagrama Interactivo ATA
+
+A continuación se muestra el diagrama con las agrupaciones por áreas funcionales y las referencias cruzadas:
+
+```mermaid
 graph TD
     %% Agrupaciones por Áreas Funcionales
     subgraph General
