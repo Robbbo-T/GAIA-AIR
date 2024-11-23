@@ -6,8 +6,6 @@ Estos módulos proporcionan una descripción detallada de los sistemas de propul
 
 # Diagrama Interactivo ATA
 
-A continuación se muestra el diagrama con las agrupaciones por áreas funcionales y las referencias cruzadas:
-
 ```mermaid
 graph TD
     %% Agrupaciones por Áreas Funcionales
