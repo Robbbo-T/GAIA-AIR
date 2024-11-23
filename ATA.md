@@ -6,7 +6,8 @@ Estos módulos proporcionan una descripción detallada de los sistemas de propul
 
 # Diagrama Interactivo ATA
 
-```mermaid
+```
+mermaid
 graph TD
     %% Agrupaciones por Áreas Funcionales
     subgraph General
@@ -88,7 +89,7 @@ graph TD
     AB --- AC
     AC --- AD
     AD --- AF
-    AG --- AH
+    AG --- AH```
 
 
 #### **Módulo 1: General System Overview**
