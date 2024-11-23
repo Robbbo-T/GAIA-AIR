@@ -1842,7 +1842,7 @@ DMC-GAIA-<Capítulo ATA>-<Sección>-<Subsección>-A
 A continuación, se muestra una representación gráfica del índice utilizando **Mermaid.js**. Este diagrama incluye los capítulos principales y algunas de sus secciones, así como las **referencias cruzadas** entre capítulos relacionados.
 
 ```mermaid
-graph T
+graph TD
     A[ATA 00 - General]
     A1[DMC-GAIA-00-00-00-A: Introducción General]
     A2[DMC-GAIA-00-10-00-A: Descripción General del Sistema]
