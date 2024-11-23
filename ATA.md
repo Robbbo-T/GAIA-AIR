@@ -44,25 +44,20 @@
 
 ## **ATA 03 - Dimensiones y Áreas**
 
-### 03-00-00 - Especificaciones Dimensionales
+# **ATA 03: Dimensiones y Áreas**
 
-- **03-10-00 Dimensiones del Fuselaje**
 
-  - **Versión de Largo Alcance**: Fuselaje de mayor longitud y diámetro para acomodar hasta 250 pasajeros, con zonificación que incluye clases múltiples (primera, business y económica).
-  - **Versión Regional**: Fuselaje más compacto, optimizado para eficiencia aerodinámica y capacidad de pasajeros entre 70 y 100, con una sola clase de servicio.
-
-- **03-20-00 Dimensiones de las Alas**
-
-  - **Ambas Versiones**: Uso de nanotubos de carbono (CNT) y diseños topológicamente optimizados. La versión de largo alcance presenta alas de mayor envergadura para mejorar la sustentación en vuelos largos, mientras que la versión regional tiene alas optimizadas para maniobrabilidad en rutas cortas.
-
-- **03-30-00 Dimensiones de la Cola**
-
-  - **Ambas Versiones**: Estabilizadores verticales y horizontales con materiales compuestos avanzados, adaptados al tamaño y requerimientos de estabilidad de cada versión.
-
----
-
-¡Entendido! A continuación, presento una **versión mejorada e integrada** del capítulo **ATA 04 - Luces de Navegación** para el proyecto **GAIA AIR**. Esta versión incluye detalles adicionales, especificaciones técnicas, procedimientos de mantenimiento y diagramas visuales para asegurar una documentación completa y bien estructurada.
-
+1. [03-00-00 Introducción General](#030000-introducción-general)  
+2. [03-01-00 Especificaciones Dimensionales](#030100-especificaciones-dimensionales)  
+3. [03-02-00 Distribución de Áreas](#030200-distribución-de-áreas)  
+4. [03-03-00 Optimización del Espacio](#030300-optimización-del-espacio)  
+5. [03-04-00 Materiales y Estructuras](#030400-materiales-y-estructuras)  
+6. [03-05-00 Sistemas de Zonificación](#030500-sistemas-de-zonificación)  
+7. [03-06-00 Especificaciones Técnicas](#030600-especificaciones-técnicas)  
+8. [03-07-00 Gestión de Riesgos](#030700-gestión-de-riesgos)  
+9. [03-08-00 Glosario Integrado](#030800-glosario-integrado)  
+10. [03-09-00 Próximos Pasos Sugeridos](#030900-próximos-pasos-sugeridos)  
+11. [03-10-00 Conclusión Final](#031000-conclusión-final)  
 ---
 
 ## 📓 **ATA 04 - Luces de Navegación**
