@@ -1,5 +1,4 @@
-
-# **ATA 02: Operaciones**
+**ATA 02: Operaciones**
 
 ---
 
