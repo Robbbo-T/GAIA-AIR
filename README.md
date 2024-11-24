@@ -161,7 +161,874 @@ Este capítulo proporciona una descripción detallada de la arquitectura y los c
 
 - **Superficies Adaptativas:** Diseño aerodinámico avanzado que permite a las aeronaves ajustar sus superficies en respuesta a las condiciones de vuelo, optimizando el rendimiento y reduciendo el consumo de energía.
   
-  *Referencia:* Para más detalles, consulte [DMC-GAIA-27-00-00-A (ATA 27 - Controles de Vuelo)](#dmc-gaia-27-00-00-a-controles-de-vuelo) y [DMC-GAIA-55-00-00-A (ATA 55 - Estabilizadores)](#dmc-gaia-55-00-00-a-estabilizadores).
+  *Referencia:* Para más detalles, consulte [DMC-GAIA-27-00-00-A (ATA # GAIA AIR Regional (-R) - Data Module Requirements List (DMRL) de Sistemas y Estructuras GAIA AIR
+
+## Data Modules Comunes a las Versiones Long Range (-A) y Regional (-R)
+
+Este documento presenta la lista de Data Modules (DMCs) que son comunes a las versiones Long Range (-A) y Regional (-R) de GAIA AIR. Estos DMCs abarcan los sistemas y estructuras que comparten ambas variantes de la aeronave, conforme a los estándares **S1000D** y **ATA Spec 100**.
+
+---
+
+# .Bi🌏.ploT
+## ChatQuantum
+
+Este documento presenta la lista de Data Modules (DMCs) que son comunes a las versiones Long Range (-A) y Regional (-R) de GAIA AIR. Estos DMCs abarcan los sistemas y estructuras que comparten ambas variantes de la aeronave, conforme a los estándares **S1000D** y **ATA Spec 100**. Estará completo con el texto relevante y las representaciones gráficas y audiovisuales de soporte.
+
+---
+
+## Índice General de DMCs Comunes
+
+A continuación se presenta el listado de los DMCs comunes a ambas versiones, organizados por capítulos ATA.
+
+### Tabla de DMCs Comunes
+
+| **ATA Chapter** | **DMC Code**                | **Título**                                  |
+|-----------------|-----------------------------|---------------------------------------------|
+| ATA 00          | DMC-GAIA-00-00-00           | Introducción General                        |
+| ATA 00          | DMC-GAIA-00-00-01           | Un Futuro 100% Verde                         |
+| ATA 00          | DMC-GAIA-00-00-02           | Objetivos de GAIA AIR                        |
+| ATA 00          | DMC-GAIA-00-00-03           | Innovaciones del Sistema                     |
+| ATA 00          | DMC-GAIA-00-00-04           | Impacto Ambiental Positivo                   |
+| ATA 10          | DMC-GAIA-00-10-00           | Descripción General del Sistema              |
+| ATA 10          | DMC-GAIA-00-10-01           | Especificaciones Técnicas Principales         |
+| ATA 10          | DMC-GAIA-00-10-02           | Diseño y Arquitectura de GAIA AIR             |
+| ATA 20          | DMC-GAIA-00-20-00           | Gestión de Riesgos y Cumplimiento Normativo   |
+| ATA 20          | DMC-GAIA-00-20-01           | Identificación de Riesgos                     |
+| ATA 20          | DMC-GAIA-00-20-02           | Estrategias de Mitigación                     |
+| ATA 20          | DMC-GAIA-00-20-03           | Cumplimiento con Normativas Aeronáuticas      |
+| ATA 20          | DMC-GAIA-00-20-04           | Estándares de Documentación Técnica           |
+| ATA 20          | DMC-GAIA-00-20-04.1         | S1000D                                       |
+| ATA 20          | DMC-GAIA-00-20-04.2         | ATA Spec 100                                 |
+| ATA 30          | DMC-GAIA-00-30-00           | Glosario y Definiciones                      |
+| ATA 30          | DMC-GAIA-00-30-01           | Términos Técnicos Clave                      |
+| ATA 30          | DMC-GAIA-00-30-02           | Abreviaturas y Acrónimos                      |
+| ATA 40          | DMC-GAIA-00-40-00           | Próximos Pasos y Conclusiones                 |
+| ATA 40          | DMC-GAIA-00-40-01           | Recomendaciones Futuras                       |
+| ATA 40          | DMC-GAIA-00-40-02           | Conclusión Final                              |
+| ATA 50          | DMC-GAIA-00-50-00           | Sistemas de Captura de CO₂                     |
+| ATA 60          | DMC-GAIA-00-60-00           | Introducción a Propulsiones y Propulsores Verdes|
+| ATA 70          | DMC-GAIA-00-70-00           | Superficies Adaptativas y Diseño por Optimización Topológica |
+| ATA 80          | DMC-GAIA-00-80-00           | Materiales y Nuevas Aplicaciones Nanotecnológicas |
+| ATA 90          | DMC-GAIA-00-90-00           | Optimización de Rutas con Algoritmos de Vanguardia |
+| ATA 91          | DMC-GAIA-00-91-00           | Mantenimiento Predictivo Avanzado             |
+| ATA 94          | DMC-GAIA-00-94-00           | Entrenamiento                                 |
+| ATA 99          | DMC-GAIA-00-99-00           | Misceláneos                                   |
+| ATA 01          | DMC-GAIA-01-00-00           | Introducción General                          |
+| ATA 01          | DMC-GAIA-01-10-00           | Especificaciones de Peso                      |
+| ATA 01          | DMC-GAIA-01-10-01           | Peso Máximo de Despegue (MTOW)                |
+| ATA 01          | DMC-GAIA-01-10-02           | Peso en Vacío Operacional (OEW)               |
+| ATA 01          | DMC-GAIA-01-10-03           | Peso Máximo de Aterrizaje (MLW)               |
+| ATA 01          | DMC-GAIA-01-20-00           | Balance y Centro de Gravedad                   |
+| ATA 01          | DMC-GAIA-01-20-01           | Cálculo del Centro de Gravedad                 |
+| ATA 01          | DMC-GAIA-01-20-02           | Limitaciones de Balance                        |
+| ATA 01          | DMC-GAIA-01-20-03           | Procedimientos de Carga y Estiba               |
+| ATA 02          | DMC-GAIA-02-00-00           | Introducción General                           |
+| ATA 02          | DMC-GAIA-02-10-00           | Límites Operacionales                          |
+| ATA 02          | DMC-GAIA-02-10-01           | Velocidades Máximas                            |
+| ATA 02          | DMC-GAIA-02-10-02           | Altitudes Máximas de Operación                 |
+| ATA 02          | DMC-GAIA-02-10-03           | Temperaturas de Operación                      |
+| ATA 02          | DMC-GAIA-02-20-00           | Limitaciones de Emisiones y Ruido              |
+| ATA 02          | DMC-GAIA-02-20-01           | Cumplimiento con Normativas de Emisión         |
+| ATA 02          | DMC-GAIA-02-20-02           | Niveles de Ruido y Certificación Acústica      |
+| ATA 02          | DMC-GAIA-02-30-00           | Restricciones en Espacio Aéreo                  |
+| ATA 02          | DMC-GAIA-02-30-01           | Operación en Espacios Aéreos Restringidos       |
+| ATA 02          | DMC-GAIA-02-30-02           | Compatibilidad con Navegación CNS/ATM           |
+| ATA 03          | DMC-GAIA-03-00-00           | Dimensiones y Áreas                            |
+| ATA 03          | DMC-GAIA-03-01-00           | Especificaciones Dimensionales                  |
+| ATA 03          | DMC-GAIA-03-01-01           | Dimensiones Generales                           |
+| ATA 03          | DMC-GAIA-03-01-02           | Dimensiones de las Alas                         |
+| ATA 03          | DMC-GAIA-03-02-00           | Distribución de Áreas                           |
+| ATA 03          | DMC-GAIA-03-02-01           | Distribución Interior                           |
+| ATA 03          | DMC-GAIA-03-02-02           | Distribución Exterior                           |
+| ATA 03          | DMC-GAIA-03-03-00           | Optimización del Espacio                        |
+| ATA 03          | DMC-GAIA-03-03-01           | Técnicas de Maximización del Espacio             |
+| ATA 03          | DMC-GAIA-03-04-00           | Materiales y Estructuras                        |
+| ATA 03          | DMC-GAIA-03-04-01           | Materiales Compuestos Utilizados                |
+| ATA 03          | DMC-GAIA-03-04-02           | Propiedades de las Estructuras                  |
+| ATA 03          | DMC-GAIA-03-05-00           | Sistemas de Zonificación                        |
+| ATA 03          | DMC-GAIA-03-05-01           | Zonificación de Cabina                          |
+| ATA 03          | DMC-GAIA-03-05-02           | Zonificación de Sistemas Críticos               |
+| ATA 03          | DMC-GAIA-03-06-00           | Diagramas de Dimensiones                        |
+| ATA 03          | DMC-GAIA-03-06-01           | Dimensiones Detalladas                          |
+| ATA 03          | DMC-GAIA-03-07-00           | Gestión de Riesgos                              |
+| ATA 03          | DMC-GAIA-03-07-01           | Identificación de Riesgos                       |
+| ATA 03
+
+# .Bi🌏.ploT
+## ChatQuantum
+
+Este documento presenta la lista de Data Modules (DMCs) que son comunes a las versiones Long Range (-A) y Regional (-R) de GAIA AIR. Estos DMCs abarcan los sistemas y estructuras que comparten ambas variantes de la aeronave, conforme a los estándares **S1000D** y **ATA Spec 100**. Estará completo con el texto relevante y las representaciones gráficas y audiovisuales de soporte.
+
+**Nota:** Las versiones para mantenimiento y training serán oportunamente versionificadas según especificaciones técnicas propias de cada modelo.
+
+---
+
+## Índice General de DMCs Comunes
+
+A continuación se presenta el listado de los DMCs comunes a ambas versiones, organizados por capítulos ATA.
+
+### Tabla de DMCs Comunes
+
+| **ATA Chapter** | **DMC Code**                | **Título**                                  |
+|-----------------|-----------------------------|---------------------------------------------|
+| ATA 00          | DMC-GAIA-00-00-00           | Introducción General                        |
+| ATA 00          | DMC-GAIA-00-00-01           | Un Futuro 100% Verde                        |
+| ATA 00          | DMC-GAIA-00-00-02           | Objetivos de GAIA AIR                        |
+| ATA 00          | DMC-GAIA-00-00-03           | Innovaciones del Sistema                     |
+| ATA 00          | DMC-GAIA-00-00-04           | Impacto Ambiental Positivo                   |
+| ATA 10          | DMC-GAIA-00-10-00           | Descripción General del Sistema              |
+| ATA 10          | DMC-GAIA-00-10-01           | Especificaciones Técnicas Principales         |
+| ATA 10          | DMC-GAIA-00-10-02           | Diseño y Arquitectura de GAIA AIR             |
+| ATA 20          | DMC-GAIA-00-20-00           | Gestión de Riesgos y Cumplimiento Normativo   |
+| ATA 20          | DMC-GAIA-00-20-01           | Identificación de Riesgos                     |
+| ATA 20          | DMC-GAIA-00-20-02           | Estrategias de Mitigación                     |
+| ATA 20          | DMC-GAIA-00-20-03           | Cumplimiento con Normativas Aeronáuticas      |
+| ATA 20          | DMC-GAIA-00-20-04           | Estándares de Documentación Técnica           |
+| ATA 20          | DMC-GAIA-00-20-04.1         | S1000D                                       |
+| ATA 20          | DMC-GAIA-00-20-04.2         | ATA Spec 100                                 |
+| ATA 30          | DMC-GAIA-00-30-00           | Glosario y Definiciones                      |
+| ATA 30          | DMC-GAIA-00-30-01           | Términos Técnicos Clave                      |
+| ATA 30          | DMC-GAIA-00-30-02           | Abreviaturas y Acrónimos                      |
+| ATA 40          | DMC-GAIA-00-40-00           | Próximos Pasos y Conclusiones                 |
+| ATA 40          | DMC-GAIA-00-40-01           | Recomendaciones Futuras                       |
+| ATA 40          | DMC-GAIA-00-40-02           | Conclusión Final                              |
+| ATA 50          | DMC-GAIA-00-50-00           | Sistemas de Captura de CO₂                     |
+| ATA 60          | DMC-GAIA-00-60-00           | Introducción a Propulsiones y Propulsores Verdes|
+| ATA 70          | DMC-GAIA-00-70-00           | Superficies Adaptativas y Diseño por Optimización Topológica |
+| ATA 80          | DMC-GAIA-00-80-00           | Materiales y Nuevas Aplicaciones Nanotecnológicas |
+| ATA 90          | DMC-GAIA-00-90-00           | Optimización de Rutas con Algoritmos de Vanguardia |
+| ATA 91          | DMC-GAIA-00-91-00           | Mantenimiento Predictivo Avanzado             |
+| ATA 94          | DMC-GAIA-00-94-00           | Entrenamiento                                 |
+| ATA 99          | DMC-GAIA-00-99-00           | Misceláneos                                   |
+| ATA 01          | DMC-GAIA-01-00-00           | Introducción General                          |
+| ATA 01          | DMC-GAIA-01-10-00           | Especificaciones de Peso                      |
+| ATA 01          | DMC-GAIA-01-10-01           | Peso Máximo de Despegue (MTOW)                |
+| ATA 01          | DMC-GAIA-01-10-02           | Peso en Vacío Operacional (OEW)               |
+| ATA 01          | DMC-GAIA-01-10-03           | Peso Máximo de Aterrizaje (MLW)               |
+| ATA 01          | DMC-GAIA-01-20-00           | Balance y Centro de Gravedad                   |
+| ATA 01          | DMC-GAIA-01-20-01           | Cálculo del Centro de Gravedad                 |
+| ATA 01          | DMC-GAIA-01-20-02           | Limitaciones de Balance                        |
+| ATA 01          | DMC-GAIA-01-20-03           | Procedimientos de Carga y Estiba               |
+| ATA 02          | DMC-GAIA-02-00-00           | Introducción General                           |
+| ATA 02          | DMC-GAIA-02-10-00           | Límites Operacionales                          |
+| ATA 02          | DMC-GAIA-02-10-01           | Velocidades Máximas                            |
+| ATA 02          | DMC-GAIA-02-10-02           | Altitudes Máximas de Operación                 |
+| ATA 02          | DMC-GAIA-02-10-03           | Temperaturas de Operación                      |
+| ATA 02          | DMC-GAIA-02-20-00           | Limitaciones de Emisiones y Ruido              |
+| ATA 02          | DMC-GAIA-02-20-01           | Cumplimiento con Normativas de Emisión         |
+| ATA 02          | DMC-GAIA-02-20-02           | Niveles de Ruido y Certificación Acústica      |
+| ATA 02          | DMC-GAIA-02-30-00           | Restricciones en Espacio Aéreo                  |
+| ATA 02          | DMC-GAIA-02-30-01           | Operación en Espacios Aéreos Restringidos       |
+| ATA 02          | DMC-GAIA-02-30-02           | Compatibilidad con Navegación CNS/ATM           |
+| ATA 03          | DMC-GAIA-03-00-00           | Dimensiones y Áreas                            |
+| ATA 03          | DMC-GAIA-03-01-00           | Especificaciones Dimensionales                  |
+| ATA 03          | DMC-GAIA-03-01-01           | Dimensiones Generales                           |
+| ATA 03          | DMC-GAIA-03-01-02           | Dimensiones de las Alas                         |
+| ATA 03          | DMC-GAIA-03-02-00           | Distribución de Áreas                           |
+| ATA 03          | DMC-GAIA-03-02-01           | Distribución Interior                           |
+| ATA 03          | DMC-GAIA-03-02-02           | Distribución Exterior                           |
+| ATA 03          | DMC-GAIA-03-03-00           | Optimización del Espacio                        |
+| ATA 03          | DMC-GAIA-03-03-01           | Técnicas de Maximización del Espacio             |
+| ATA 03          | DMC-GAIA-03-04-00           | Materiales y Estructuras                        |
+| ATA 03          | DMC-GAIA-03-04-01           | Materiales Compuestos Utilizados                |
+| ATA 03          | DMC-GAIA-03-04-02           | Propiedades de las Estructuras                  |
+| ATA 03          | DMC-GAIA-03-05-00           | Sistemas de Zonificación                        |
+| ATA 03          | DMC-GAIA-03-05-01           | Zonificación de Cabina                          |
+| ATA 03          | DMC-GAIA-03-05-02           | Zonificación de Sistemas Críticos               |
+| ATA 03          | DMC-GAIA-03-06-00           | Diagramas de Dimensiones                        |
+| ATA 03          | DMC-GAIA-03-06-01           | Dimensiones Detalladas                          |
+| ATA 03          | DMC-GAIA-03-07-00           | Gestión de Riesgos                              |
+| ATA 03          | DMC-GAIA-03-07-01           | Identificación de Riesgos                       |
+| ATA 03          | DMC-GAIA-03-07-02           | Evaluación de Riesgos                           |
+| ATA 03          | DMC-GAIA-03-07-03           | Mitigación de Riesgos                           |
+| ATA 04          | DMC-GAIA-04-00-00           | Limitaciones de Aeronavegabilidad                |
+| ATA 04          | DMC-GAIA-04-10-00           | Certificaciones y Cumplimientos                 |
+| ATA 04          | DMC-GAIA-04-10-01           | Certificación FAA                               |
+| ATA 04          | DMC-GAIA-04-10-02           | Certificación EASA                              |
+| ATA 04          | DMC-GAIA-04-10-03           | Otras Certificaciones Internacionales           |
+| ATA 04          | DMC-GAIA-04-20-00           | Requisitos de Mantenimiento                     |
+| ATA 04          | DMC-GAIA-04-20-01           | Programas de Mantenimiento Aprobados            |
+| ATA 04          | DMC-GAIA-04-20-02           | Cumplimiento con ADs y SBs                      |
+| ATA 05          | DMC-GAIA-05-00-00           | Límites de Tiempo / Verificaciones de Mantenimiento |
+| ATA 05          | DMC-GAIA-05-10-00           | Intervalos de Mantenimiento                     |
+| ATA 05          | DMC-GAIA-05-20-00           | Procedimientos de Mantenimiento                 |
+| ATA 05          | DMC-GAIA-05-30-00           | Requisitos Especiales                           |
+| ATA 05          | DMC-GAIA-05-30-02           | Inspecciones No Destructivas (NDI) Específicas de la Versión Regional |
+| ATA 20          | DMC-GAIA-20-00-00           | Prácticas Estándar - Fuselaje                   |
+| ATA 20          | DMC-GAIA-20-10-00           | Materiales y Procesos                           |
+| ATA 20          | DMC-GAIA-20-10-01           | Uso de Materiales Compuestos                    |
+| ATA 20          | DMC-GAIA-20-10-02           | Técnicas de Unión y Ensamblaje                  |
+| ATA 20          | DMC-GAIA-20-20-00           | Procedimientos de Reparación                    |
+| ATA 20          | DMC-GAIA-20-20-01           | Reparaciones Estructurales                      |
+| ATA 20          | DMC-GAIA-20-20-02           | Sustitución de Componentes                      |
+| ATA 20          | DMC-GAIA-20-30-00           | Prácticas de Seguridad                          |
+| ATA 20          | DMC-GAIA-20-30-01           | Manejo de Materiales Peligrosos                 |
+| ATA 20          | DMC-GAIA-20-30-02           | Equipos de Protección Personal                  |
+| ATA 21          | DMC-GAIA-21-00-00           | Sistema de Aire Acondicionado                   |
+| ATA 21          | DMC-GAIA-21-10-00           | Descripción y Funcionamiento                    |
+| ATA 21          | DMC-GAIA-21-20-00           | Procedimientos de Mantenimiento                 |
+| ATA 21          | DMC-GAIA-21-30-00           | Control Ambiental en Cabina                     |
+| ATA 22          | DMC-GAIA-22-00-00           | Vuelo Automático                                |
+| ATA 22          | DMC-GAIA-22-10-00           | Sistemas de Control de Vuelo Automático         |
+| ATA 22          | DMC-GAIA-22-20-00           | Integración con Sistemas de Navegación          |
+| ATA 22          | DMC-GAIA-22-30-00           | Protocolos de Seguridad y Redundancia           |
+| ATA 23          | DMC-GAIA-23-00-00           | Comunicaciones                                  |
+| ATA 23          | DMC-GAIA-23-10-00           | Sistemas de Comunicación Interna                |
+| ATA 23          | DMC-GAIA-23-20-00           | Sistemas de Comunicación Externa                |
+| ATA 23          | DMC-GAIA-23-30-00           | Enlaces de Datos y Telemetría                   |
+| ATA 24          | DMC-GAIA-24-00-00           | Energía Eléctrica                               |
+| ATA 24          | DMC-GAIA-24-10-00           | Generación y Distribución de Energía            |
+| ATA 24          | DMC-GAIA-24-20-00           | Sistemas de Almacenamiento                      |
+| ATA 24          | DMC-GAIA-24-30-00           | Gestión de Energía y Eficiencia                 |
+| ATA 25          | DMC-GAIA-25-00-00           | Equipamiento de Cabina                          |
+| ATA 25          | DMC-GAIA-25-10-00           | Configuración de Asientos                       |
+| ATA 25          | DMC-GAIA-25-20-00           | Sistemas de Entretenimiento                     |
+| ATA 25          | DMC-GAIA-25-30-00           | Accesorios y Comodidades                        |
+| ATA 26          | DMC-GAIA-26-00-00           | Protección contra Incendios                     |
+| ATA 26          | DMC-GAIA-26-10-00           | Sistemas de Detección                           |
+| ATA 26          | DMC-GAIA-26-20-00           | Sistemas de Extinción                           |
+| ATA 26          | DMC-GAIA-26-30-00           | Procedimientos de Emergencia                   |
+| ATA 27          | DMC-GAIA-27-00-00           | Controles de Vuelo                              |
+| ATA 27          | DMC-GAIA-27-10-00           | Superficies de Control                          |
+| ATA 27          | DMC-GAIA-27-20-00           | Sistemas de Actuación                           |
+| ATA 27          | DMC-GAIA-27-30-00           | Mantenimiento y Ajuste de Controles             |
+| ATA 31          | DMC-GAIA-31-00-00           | Indicadores                                     |
+| ATA 31          | DMC-GAIA-31-10-00           | Sistemas de Indicación                          |
+| ATA 31          | DMC-GAIA-31-20-00           | Interfaces Hombre-Máquina                       |
+| ATA 31          | DMC-GAIA-31-30-00           | Diagnóstico de Sistemas                         |
+| ATA 34          | DMC-GAIA-34-00-00           | Navegación                                      |
+| ATA 34          | DMC-GAIA-34-10-00           | Sistemas de Navegación                          |
+| ATA 34          | DMC-GAIA-34-20-00           | Sistemas de Vigilancia                          |
+| ATA 34          | DMC-GAIA-34-30-00           | Integración con Sistemas de Vuelo Automático     |
+| ATA 45          | DMC-GAIA-45-00-00           | Sistema de Mantenimiento Central                |
+| ATA 45          | DMC-GAIA-45-10-00           | Funcionalidades del Sistema                     |
+| ATA 45          | DMC-GAIA-45-20-00           | Interfaz de Usuario                             |
+| ATA 50          | DMC-GAIA-50-00-00           | Tecnologías Digitales Avanzadas                 |
+| ATA 50          | DMC-GAIA-50-10-00           | Gemelo Digital                                  |
+| ATA 50          | DMC-GAIA-50-20-00           | Blockchain en la Cadena de Suministros           |
+| ATA 50          | DMC-GAIA-50-30-00           | Computación Cuántica en Operaciones              |
+| ATA 91          | DMC-GAIA-91-00-00           | Gráficos y Diagramas                            |
+| ATA 91          | DMC-GAIA-91-10-00           | Diagramas de Sistema                            |
+| ATA 91          | DMC-GAIA-91-20-00           | Planos Eléctricos                               |
+| ATA 91          | DMC-GAIA-91-30-00           | Diagramas de Flujo                              |
+| ATA 94          | DMC-GAIA-94-00-00           | Entrenamiento                                   |
+| ATA 94          | DMC-GAIA-94-10-00           | Programas de Capacitación                       |
+| ATA 94          | DMC-GAIA-94-20-00           | Recursos de Formación                            |
+| ATA 94          | DMC-GAIA-94-30-00           | Sistemas de Simulación                          |
+| ATA 99          | DMC-GAIA-99-00-00           | Misceláneos                                     |
+| ATA 99          | DMC-GAIA-99-10-00           | Información Adicional                           |
+| ATA 99          | DMC-GAIA-99-20-00           | Procedimientos Especiales                       |
+| ATA 99          | DMC-GAIA-99-30-00           | Contactos de Soporte Técnico                    |
+
+**Nota:** Los DMCs listados anteriormente son comunes en contenido y estructura para ambas versiones Long Range (-A) y Regional (-R) de GAIA AIR. Las diferencias específicas de cada versión se abordan en DMCs particulares que tratan aspectos únicos de cada variante, como sistemas de propulsión específicos, adaptaciones estructurales o capacidades operativas.
+
+---
+
+## Notas Finales
+
+Este listado de DMCs comunes facilita la gestión y mantenimiento de la documentación técnica compartida entre ambas versiones de la aeronave, optimizando recursos y asegurando consistencia en la información proporcionada.
+
+---
+
+# GAIA AIR - Módulos Específicos de la Versión Regional (-R)
+
+Este documento presenta los Data Modules (DMCs) que son específicos de la versión Regional (-R) de GAIA AIR. Estos módulos abarcan los sistemas, estructuras y características que son únicos de esta variante y no están presentes en la versión Long Range (-A).
+
+## Índice de Módulos Específicos de la Versión Regional (-R)
+
+A continuación, se detallan los DMCs específicos de la versión Regional (-R), organizados por capítulos ATA.
+
+### Tabla de Módulos Específicos de la Versión Regional (-R)
+
+#### ATA 70 - Motor (Power Plant)
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-70-00-00-R  | Introducción General al Sistema de Propulsión Regional                      |
+| DMC-GAIA-70-00-01-R  | Sistemas de Propulsión Termoeléctricos para la Versión Regional             |
+| DMC-GAIA-70-10-00-R  | Motores Termoeléctricos                                                     |
+| DMC-GAIA-70-10-01-R  | Diseño y Funcionamiento de Motores Termoeléctricos                          |
+| DMC-GAIA-70-10-02-R  | Ventajas Ambientales de los Motores Termoeléctricos                          |
+| DMC-GAIA-70-20-00-R  | Integración con las Dimensiones y Áreas de la Aeronave Regional               |
+| DMC-GAIA-70-20-01-R  | Ubicación y Configuración de Motores en la Versión Regional                   |
+| DMC-GAIA-70-20-02-R  | Integración con Sistemas Internos Específicos                                 |
+| DMC-GAIA-70-30-00-R  | Mantenimiento del Motor para la Versión Regional                               |
+| DMC-GAIA-70-30-01-R  | Inspecciones y Verificaciones Específicas de Motores Termoeléctricos          |
+| DMC-GAIA-70-30-02-R  | Reparaciones y Actualizaciones de Sistemas Termoeléctricos                     |
+| DMC-GAIA-70-40-00-R  | Innovaciones en Almacenamiento Energético para la Versión Regional               |
+| DMC-GAIA-70-40-01-R  | Nuevas Tecnologías de Baterías en la Versión Regional                            |
+| DMC-GAIA-70-40-02-R  | Sistemas Termoeléctricos Avanzados                                              |
+| DMC-GAIA-70-50-00-R  | Impacto Ambiental y Ciclo de Vida de la Tecnología en la Versión Regional       |
+| DMC-GAIA-70-50-01-R  | Análisis del Ciclo de Vida Específico de la Versión Regional                     |
+| DMC-GAIA-70-50-02-R  | Estrategias de Reducción de Huella de Carbono en la Versión Regional              |
+
+#### ATA 80 - Sistemas de Energía Alternativa
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-80-00-00-R  | Introducción a los Sistemas de Energía Alternativa para la Versión Regional |
+| DMC-GAIA-80-10-00-R  | Sistemas Termoeléctricos                                                     |
+| DMC-GAIA-80-10-01-R  | Integración de Sistemas Termoeléctricos en la Aeronave                       |
+| DMC-GAIA-80-10-02-R  | Control y Gestión de Energía Termoeléctrica                                  |
+| DMC-GAIA-80-20-00-R  | Sistemas de Almacenamiento de Energía Específicos                            |
+| DMC-GAIA-80-20-01-R  | Baterías de Alta Densidad para la Versión Regional                            |
+| DMC-GAIA-80-20-02-R  | Sistemas de Almacenamiento Térmico                                           |
+| DMC-GAIA-80-30-00-R  | Gestión Inteligente de Energía en la Versión Regional                         |
+| DMC-GAIA-80-30-01-R  | Sistemas de Control de Energía Específicos                                   |
+| DMC-GAIA-80-30-02-R  | Algoritmos de Optimización Energética Adaptados                              |
+
+#### ATA 96 - Integración de AMPEL y Robbotix en GAIA AIR
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-00-96-01-R  | AMPEL - Gemelo Digital Dinámico en Tiempo Real para la Versión Regional      |
+| DMC-GAIA-00-96-02-R  | Robbotix - Simulador de Vuelo Mejorado con AR/VR/XR para la Versión Regional |
+| DMC-GAIA-00-96-03-R  | Integración con GAIA AIR Regional                                           |
+| DMC-GAIA-00-96-04-R  | Cumplimiento Normativo y Estándares Aplicables a la Versión Regional         |
+| DMC-GAIA-00-96-05-R  | Análisis Económico de Recursos para la Versión Regional                      |
+
+#### ATA 97 - Modelado Matemático del Sistema de Propulsión Avanzada
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-00-97-06-R  | Aplicación en GAIA AIR Regional                                             |
+
+#### ATA 05 - Límites de Tiempo / Verificaciones de Mantenimiento
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-05-30-02-R  | Inspecciones No Destructivas (NDI) Específicas de la Versión Regional        |
+
+#### ATA 28 - Combustible
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-28-10-00-R  | Sistemas de Almacenamiento de Energía para la Versión Regional               |
+| DMC-GAIA-28-20-00-R  | Procedimientos de Carga y Descarga Específicos                             |
+| DMC-GAIA-28-30-00-R  | Seguridad en el Manejo de Baterías y Sistemas Termoeléctricos               |
+| DMC-GAIA-28-10-01-R  | Tanques de Hidrógeno Líquido                                                |
+| DMC-GAIA-28-10-02-R  | Aislamiento Térmico y Seguridad                                            |
+| DMC-GAIA-28-20-01-R  | Protocolos de Carga y Descarga                                              |
+| DMC-GAIA-28-20-02-R  | Equipos Especializados para Hidrógeno                                       |
+| DMC-GAIA-28-30-01-R  | Procedimientos de Emergencia                                                |
+| DMC-GAIA-28-30-02-R  | Formación y Capacitación del Personal                                      |
+
+#### ATA 71 - Sistema de Propulsión
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-71-00-00-R  | Introducción al Sistema de Propulsión Específico de la Versión Regional      |
+| DMC-GAIA-71-10-00-R  | Componentes Principales de los Motores Termoeléctricos                      |
+| DMC-GAIA-71-20-00-R  | Sistemas de Control Adaptados                                               |
+| DMC-GAIA-71-30-00-R  | Mantenimiento y Operación Específica                                        |
+
+---
+
+## Notas Finales
+
+La identificación de los DMCs específicos de la versión Regional (-R) es crucial para garantizar que la documentación técnica refleje con precisión las características únicas de esta variante de GAIA AIR. Esto facilita la gestión, mantenimiento y operación eficiente de la aeronave, asegurando el cumplimiento normativo y la seguridad operacional.
+
+---
+
+# GAIA AIR - Módulos Específicos de la Versión Long Range (-A)
+
+Este documento presenta los Data Modules (DMCs) que son específicos de la versión Long Range (-A) de GAIA AIR. Estos módulos abarcan los sistemas, estructuras y características únicas de esta variante que no están presentes en la versión Regional (-R).
+
+## Índice de Módulos Específicos de la Versión Long Range (-A)
+
+A continuación, se detallan los DMCs específicos de la versión Long Range (-A), organizados por capítulos ATA.
+
+### Tabla de Módulos Específicos de la Versión Long Range (-A)
+
+#### ATA 70 - Motor (Power Plant)
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-70-00-00-A  | Introducción General al Sistema de Propulsión Long Range                    |
+| DMC-GAIA-70-00-01-A  | Motores Híbridos de Hidrógeno para la Versión Long Range                     |
+| DMC-GAIA-70-10-00-A  | Motores Híbridos de Hidrógeno                                                |
+| DMC-GAIA-70-10-01-A  | Diseño y Funcionamiento de Motores Híbridos de Hidrógeno                     |
+| DMC-GAIA-70-10-02-A  | Ventajas Ambientales de los Motores de Hidrógeno                             |
+| DMC-GAIA-70-20-00-A  | Integración con las Dimensiones y Áreas de la Aeronave Long Range              |
+| DMC-GAIA-70-20-01-A  | Ubicación y Configuración de Motores en la Versión Long Range                   |
+| DMC-GAIA-70-20-02-A  | Integración con Sistemas Internos Específicos                                 |
+| DMC-GAIA-70-30-00-A  | Mantenimiento del Motor para la Versión Long Range                              |
+| DMC-GAIA-70-30-01-A  | Inspecciones y Verificaciones Específicas de Motores de Hidrógeno               |
+| DMC-GAIA-70-30-02-A  | Reparaciones y Actualizaciones de Sistemas de Hidrógeno                          |
+| DMC-GAIA-70-40-00-A  | Innovaciones en Almacenamiento Energético para la Versión Long Range              |
+| DMC-GAIA-70-40-01-A  | Tecnologías de Almacenamiento de Hidrógeno Líquido                              |
+| DMC-GAIA-70-40-02-A  | Sistemas de Almacenamiento Criogénico                                           |
+| DMC-GAIA-70-50-00-A  | Impacto Ambiental y Ciclo de Vida de la Tecnología en la Versión Long Range       |
+| DMC-GAIA-70-50-01-A  | Análisis del Ciclo de Vida Específico de la Versión Long Range                    |
+| DMC-GAIA-70-50-02-A  | Estrategias de Reducción de Huella de Carbono en la Versión Long Range             |
+
+#### ATA 28 - Combustible
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-28-00-00-A  | Introducción al Sistema de Combustible de Hidrógeno                           |
+| DMC-GAIA-28-10-00-A  | Sistemas de Almacenamiento de Hidrógeno para la Versión Long Range              |
+| DMC-GAIA-28-10-01-A  | Tanques de Hidrógeno Líquido                                                  |
+| DMC-GAIA-28-10-02-A  | Aislamiento Térmico y Seguridad                                               |
+| DMC-GAIA-28-20-00-A  | Procedimientos de Repostaje de Hidrógeno                                      |
+| DMC-GAIA-28-20-01-A  | Protocolos de Carga y Descarga                                                |
+| DMC-GAIA-28-20-02-A  | Equipos Especializados para Hidrógeno                                         |
+| DMC-GAIA-28-30-00-A  | Seguridad en el Manejo de Hidrógeno                                           |
+| DMC-GAIA-28-30-01-A  | Procedimientos de Emergencia                                                  |
+| DMC-GAIA-28-30-02-A  | Formación y Capacitación del Personal                                        |
+
+#### ATA 73 - Sistema de Combustible del Motor
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-73-00-00-A  | Introducción al Sistema de Combustible del Motor de Hidrógeno                 |
+| DMC-GAIA-73-10-00-A  | Almacenamiento y Suministro de Hidrógeno                                      |
+| DMC-GAIA-73-10-01-A  | Tanques de Presión y Líneas de Suministro                                     |
+| DMC-GAIA-73-10-02-A  | Válvulas y Sensores Específicos                                               |
+| DMC-GAIA-73-20-00-A  | Sistemas de Bombeo y Transferencia de Hidrógeno                                 |
+| DMC-GAIA-73-20-01-A  | Bombas Criogénicas                                                            |
+| DMC-GAIA-73-20-02-A  | Control de Flujo y Presión                                                     |
+| DMC-GAIA-73-30-00-A  | Monitoreo y Control del Combustible de Hidrógeno                               |
+| DMC-GAIA-73-30-01-A  | Sistemas de Detección de Fugas                                                 |
+| DMC-GAIA-73-30-02-A  | Sistemas de Alerta y Notificación                                              |
+
+#### ATA 74 - Sistema de Encendido
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-74-00-00-A  | Introducción al Sistema de Encendido para Motores de Hidrógeno                |
+| DMC-GAIA-74-10-00-A  | Componentes del Sistema de Encendido Específicos                              |
+| DMC-GAIA-74-10-01-A  | Unidades de Encendido Adaptadas                                               |
+| DMC-GAIA-74-10-02-A  | Bujías Especiales para Hidrógeno                                               |
+| DMC-GAIA-74-20-00-A  | Mantenimiento del Sistema de Encendido                                        |
+| DMC-GAIA-74-20-01-A  | Procedimientos de Prueba y Verificación                                       |
+| DMC-GAIA-74-20-02-A  | Sustitución de Componentes                                                     |
+
+#### ATA 80 - Sistemas de Energía Alternativa
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-80-00-00-A  | Introducción a los Sistemas de Energía Alternativa para la Versión Long Range |
+| DMC-GAIA-80-10-00-A  | Sistemas de Energía Solar Integrados                                         |
+| DMC-GAIA-80-10-01-A  | Integración de Paneles Solares en la Estructura                              |
+| DMC-GAIA-80-10-02-A  | Gestión y Almacenamiento de Energía Solar                                    |
+| DMC-GAIA-80-20-00-A  | Sistemas de Almacenamiento Criogénico                                         |
+| DMC-GAIA-80-20-01-A  | Tecnologías de Almacenamiento Avanzadas                                       |
+| DMC-GAIA-80-20-02-A  | Mantenimiento de Sistemas Criogénicos                                         |
+| DMC-GAIA-80-30-00-A  | Gestión Inteligente de Energía en la Versión Long Range                         |
+| DMC-GAIA-80-30-01-A  | Sistemas de Control de Energía Específicos                                     |
+| DMC-GAIA-80-30-02-A  | Algoritmos de Optimización Energética Adaptados                                |
+
+#### ATA 96 - Integración de AMPEL y Robbotix en GAIA AIR
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-00-96-01-A  | AMPEL - Gemelo Digital Dinámico en Tiempo Real para la Versión Long Range      |
+| DMC-GAIA-00-96-02-A  | Robbotix - Simulador de Vuelo Mejorado con AR/VR/XR para la Versión Long Range |
+| DMC-GAIA-00-96-03-A  | Integración con GAIA AIR Long Range                                           |
+| DMC-GAIA-00-96-04-A  | Cumplimiento Normativo y Estándares Aplicables a la Versión Long Range         |
+| DMC-GAIA-00-96-05-A  | Análisis Económico de Recursos para la Versión Long Range                       |
+
+#### ATA 97 - Modelado Matemático del Sistema de Propulsión Avanzada
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-00-97-06-A  | Aplicación en GAIA AIR Long Range                                             |
+
+#### ATA 05 - Límites de Tiempo / Verificaciones de Mantenimiento
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-05-30-02-A  | Inspecciones No Destructivas (NDI) Específicas de la Versión Long Range        |
+
+#### ATA 71 - Sistema de Propulsión
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-71-00-00-A  | Introducción al Sistema de Propulsión Específico de la Versión Long Range      |
+| DMC-GAIA-71-10-00-A  | Componentes Principales de los Motores Híbridos de Hidrógeno                      |
+| DMC-GAIA-71-20-00-A  | Sistemas de Control Adaptados                                               |
+| DMC-GAIA-71-30-00-A  | Mantenimiento y Operación Específica                                        |
+
+---
+
+## Notas Finales
+
+La identificación de los DMCs específicos de cada versión (Regional -R y Long Range -A) es esencial para asegurar que la documentación técnica refleje con precisión las características únicas de cada variante de GAIA AIR. Esto facilita la gestión, mantenimiento y operación eficiente de la aeronave, asegurando el cumplimiento normativo y la seguridad operacional.
+
+---
+
+# GAIA AIR - Módulos Específicos de la Versión Long Range (-A)
+
+Este documento presenta los Data Modules (DMCs) que son específicos de la versión Long Range (-A) de GAIA AIR. Estos módulos abarcan los sistemas, estructuras y características únicas de esta variante que no están presentes en la versión Regional (-R).
+
+## Índice de Módulos Específicos de la Versión Long Range (-A)
+
+A continuación, se detallan los DMCs específicos de la versión Long Range (-A), organizados por capítulos ATA.
+
+### Tabla de Módulos Específicos de la Versión Long Range (-A)
+
+#### ATA 70 - Motor (Power Plant)
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-70-00-00-A  | Introducción General al Sistema de Propulsión Long Range                    |
+| DMC-GAIA-70-00-01-A  | Motores Híbridos de Hidrógeno para la Versión Long Range                     |
+| DMC-GAIA-70-10-00-A  | Motores Híbridos de Hidrógeno                                                |
+| DMC-GAIA-70-10-01-A  | Diseño y Funcionamiento de Motores Híbridos de Hidrógeno                     |
+| DMC-GAIA-70-10-02-A  | Ventajas Ambientales de los Motores de Hidrógeno                             |
+| DMC-GAIA-70-20-00-A  | Integración con las Dimensiones y Áreas de la Aeronave Long Range              |
+| DMC-GAIA-70-20-01-A  | Ubicación y Configuración de Motores en la Versión Long Range                   |
+| DMC-GAIA-70-20-02-A  | Integración con Sistemas Internos Específicos                                 |
+| DMC-GAIA-70-30-00-A  | Mantenimiento del Motor para la Versión Long Range                              |
+| DMC-GAIA-70-30-01-A  | Inspecciones y Verificaciones Específicas de Motores de Hidrógeno               |
+| DMC-GAIA-70-30-02-A  | Reparaciones y Actualizaciones de Sistemas de Hidrógeno                          |
+| DMC-GAIA-70-40-00-A  | Innovaciones en Almacenamiento Energético para la Versión Long Range              |
+| DMC-GAIA-70-40-01-A  | Tecnologías de Almacenamiento de Hidrógeno Líquido                              |
+| DMC-GAIA-70-40-02-A  | Sistemas de Almacenamiento Criogénico                                           |
+| DMC-GAIA-70-50-00-A  | Impacto Ambiental y Ciclo de Vida de la Tecnología en la Versión Long Range       |
+| DMC-GAIA-70-50-01-A  | Análisis del Ciclo de Vida Específico de la Versión Long Range                    |
+| DMC-GAIA-70-50-02-A  | Estrategias de Reducción de Huella de Carbono en la Versión Long Range             |
+
+#### ATA 28 - Combustible
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-28-00-00-A  | Introducción al Sistema de Combustible de Hidrógeno                           |
+| DMC-GAIA-28-10-00-A  | Sistemas de Almacenamiento de Hidrógeno para la Versión Long Range              |
+| DMC-GAIA-28-10-01-A  | Tanques de Hidrógeno Líquido                                                  |
+| DMC-GAIA-28-10-02-A  | Aislamiento Térmico y Seguridad                                               |
+| DMC-GAIA-28-20-00-A  | Procedimientos de Repostaje de Hidrógeno                                      |
+| DMC-GAIA-28-20-01-A  | Protocolos de Carga y Descarga                                                |
+| DMC-GAIA-28-20-02-A  | Equipos Especializados para Hidrógeno                                         |
+| DMC-GAIA-28-30-00-A  | Seguridad en el Manejo de Hidrógeno                                           |
+| DMC-GAIA-28-30-01-A  | Procedimientos de Emergencia                                                  |
+| DMC-GAIA-28-30-02-A  | Formación y Capacitación del Personal                                        |
+
+#### ATA 73 - Sistema de Combustible del Motor
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-73-00-00-A  | Introducción al Sistema de Combustible del Motor de Hidrógeno                 |
+| DMC-GAIA-73-10-00-A  | Almacenamiento y Suministro de Hidrógeno                                      |
+| DMC-GAIA-73-10-01-A  | Tanques de Presión y Líneas de Suministro                                     |
+| DMC-GAIA-73-10-02-A  | Válvulas y Sensores Específicos                                               |
+| DMC-GAIA-73-20-00-A  | Sistemas de Bombeo y Transferencia de Hidrógeno                                 |
+| DMC-GAIA-73-20-01-A  | Bombas Criogénicas                                                            |
+| DMC-GAIA-73-20-02-A  | Control de Flujo y Presión                                                     |
+| DMC-GAIA-73-30-00-A  | Monitoreo y Control del Combustible de Hidrógeno                               |
+| DMC-GAIA-73-30-01-A  | Sistemas de Detección de Fugas                                                 |
+| DMC-GAIA-73-30-02-A  | Sistemas de Alerta y Notificación                                              |
+
+#### ATA 74 - Sistema de Encendido
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-74-00-00-A  | Introducción al Sistema de Encendido para Motores de Hidrógeno                |
+| DMC-GAIA-74-10-00-A  | Componentes del Sistema de Encendido Específicos                              |
+| DMC-GAIA-74-10-01-A  | Unidades de Encendido Adaptadas                                               |
+| DMC-GAIA-74-10-02-A  | Bujías Especiales para Hidrógeno                                               |
+| DMC-GAIA-74-20-00-A  | Mantenimiento del Sistema de Encendido                                        |
+| DMC-GAIA-74-20-01-A  | Procedimientos de Prueba y Verificación                                       |
+| DMC-GAIA-74-20-02-A  | Sustitución de Componentes                                                     |
+
+#### ATA 80 - Sistemas de Energía Alternativa
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-80-00-00-A  | Introducción a los Sistemas de Energía Alternativa para la Versión Long Range |
+| DMC-GAIA-80-10-00-A  | Sistemas de Energía Solar Integrados                                         |
+| DMC-GAIA-80-10-01-A  | Integración de Paneles Solares en la Estructura                              |
+| DMC-GAIA-80-10-02-A  | Gestión y Almacenamiento de Energía Solar                                    |
+| DMC-GAIA-80-20-00-A  | Sistemas de Almacenamiento Criogénico                                         |
+| DMC-GAIA-80-20-01-A  | Tecnologías de Almacenamiento Avanzadas                                       |
+| DMC-GAIA-80-20-02-A  | Mantenimiento de Sistemas Criogénicos                                         |
+| DMC-GAIA-80-30-00-A  | Gestión Inteligente de Energía en la Versión Long Range                         |
+| DMC-GAIA-80-30-01-A  | Sistemas de Control de Energía Específicos                                     |
+| DMC-GAIA-80-30-02-A  | Algoritmos de Optimización Energética Adaptados                                |
+
+#### ATA 96 - Integración de AMPEL y Robbotix en GAIA AIR
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-00-96-01-A  | AMPEL - Gemelo Digital Dinámico en Tiempo Real para la Versión Long Range      |
+| DMC-GAIA-00-96-02-A  | Robbotix - Simulador de Vuelo Mejorado con AR/VR/XR para la Versión Long Range |
+| DMC-GAIA-00-96-03-A  | Integración con GAIA AIR Long Range                                           |
+| DMC-GAIA-00-96-04-A  | Cumplimiento Normativo y Estándares Aplicables a la Versión Long Range         |
+| DMC-GAIA-00-96-05-A  | Análisis Económico de Recursos para la Versión Long Range                      |
+
+#### ATA 97 - Modelado Matemático del Sistema de Propulsión Avanzada
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-00-97-06-A  | Aplicación en GAIA AIR Long Range                                             |
+
+#### ATA 05 - Límites de Tiempo / Verificaciones de Mantenimiento
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-05-30-02-A  | Inspecciones No Destructivas (NDI) Específicas de la Versión Long Range        |
+
+#### ATA 71 - Sistema de Propulsión
+
+| **DMC Code**        | **Título**                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| DMC-GAIA-71-00-00-A  | Introducción al Sistema de Propulsión Específico de la Versión Long Range      |
+| DMC-GAIA-71-10-00-A  | Componentes Principales de los Motores Híbridos de Hidrógeno                      |
+| DMC-GAIA-71-20-00-A  | Sistemas de Control Adaptados                                               |
+| DMC-GAIA-71-30-00-A  | Mantenimiento y Operación Específica                                        |
+
+---
+
+## Notas Finales
+
+La identificación de los DMCs específicos de cada versión (Regional -R y Long Range -A) es esencial para asegurar que la documentación técnica refleje con precisión las características únicas de cada variante de GAIA AIR. Esto facilita la gestión, mantenimiento y operación eficiente de la aeronave, asegurando el cumplimiento normativo y la seguridad operacional.
+
+---
+
+# Conclusión
+
+La identificación de los DMCs específicos de cada versión de GAIA AIR (Long Range -A y Regional -R) es crucial para garantizar que la documentación técnica refleje con precisión las características únicas de cada variante. Esto facilita la gestión, mantenimiento y operación eficiente de la aeronave, asegurando el cumplimiento normativo y la seguridad operacional.
+
+---
+
+# Notas Finales
+
+La identificación de los DMCs específicos de cada versión (Regional -R y Long Range -A) es esencial para asegurar que la documentación técnica refleje con precisión las características únicas de cada variante de GAIA AIR. Esto facilita la gestión, mantenimiento y operación eficiente de la aeronave, asegurando el cumplimiento normativo y la seguridad operacional.
+
+---
+
+# Resumen Final
+
+Este documento presenta una estructura detallada de los **Data Module Requirements List (DMRL)** para los sistemas y estructuras de **GAIA AIR**, abarcando tanto los **Data Modules Comunes** a las versiones **Long Range (-A)** y **Regional (-R)**, como los **Módulos Específicos** de cada versión. La organización sigue los estándares **S1000D** y **ATA Spec 100**, asegurando la coherencia, modularidad y facilidad de mantenimiento de la documentación técnica.
+
+### Principales Secciones Incluidas:
+
+1. **Data Modules Comunes a las Versiones Long Range (-A) y Regional (-R)**
+   - Índice General
+   - Tabla de DMCs Comunes
+   - Notas Finales
+
+2. **GAIA AIR - Módulos Específicos de la Versión Regional (-R)**
+   - Índice de Módulos Específicos
+   - Tabla de Módulos Específicos por ATA Chapter
+   - Notas Finales
+
+3. **GAIA AIR - Módulos Específicos de la Versión Long Range (-A)**
+   - Índice de Módulos Específicos
+   - Tabla de Módulos Específicos por ATA Chapter
+   - Notas Finales
+
+---
+
+# Cómo Contribuir
+
+Si deseas contribuir a esta documentación, por favor, sigue las pautas establecidas en los estándares **S1000D** y **ATA Spec 100**. Puedes enviar tus aportes a través de los canales de **Contacto** proporcionados al final de este documento.
+
+---
+
+# Contacto
+
+Para cualquier duda o para obtener más información sobre la documentación técnica de **GAIA AIR**, por favor, contacta con nuestro equipo a través de los siguientes canales:
+
+- **Correo Electrónico:** soporte@gaiaair.com
+- **Teléfono:** +34 123 456 789
+- **Sitio Web:** [www.gaiaair.com](http://www.gaiaair.com)
+
+---
+
+# Licencia
+
+Este documento está licenciado bajo la **Licencia de Documentación Técnica S1000D**. Para más detalles sobre los términos y condiciones, consulta la sección de **Licencia** en este documento.
+
+---
+
+# FAQ - Preguntas Frecuentes
+
+**Q1:** ¿Qué es GAIA AIR?
+
+**A1:** GAIA AIR es una aeronave avanzada diseñada para ofrecer soluciones de largo alcance y regionales, integrando tecnologías sostenibles y sistemas de inteligencia artificial.
+
+**Q2:** ¿Cuál es la diferencia entre las versiones Long Range (-A) y Regional (-R)?
+
+**A2:** La versión Long Range (-A) está equipada con motores híbridos de hidrógeno y sistemas de energía avanzada, mientras que la versión Regional (-R) utiliza sistemas termoeléctricos específicos adaptados para operaciones regionales.
+
+**Q3:** ¿Cómo se asegura la documentación técnica?
+
+**A3:** La documentación técnica sigue los estándares **S1000D** y **ATA Spec 100**, asegurando consistencia, modularidad y cumplimiento normativo.
+
+---
+
+# Referencias
+
+- **S1000D:** [Link al estándar S1000D](https://www.s1000d.org)
+- **ATA Spec 100:** [Link al estándar ATA Spec 100](https://www.ata.org)
+
+---
+
+# Visualización de Datos
+
+Incluye gráficos, diagramas y mapas de procesos para facilitar la comprensión de los sistemas y estructuras de GAIA AIR. Todos los diagramas están diseñados siguiendo las directrices visuales de **S1000D**.
+
+---
+
+# Flujo de API
+
+Documentación detallada sobre las APIs utilizadas en GAIA AIR, incluyendo endpoints, métodos, parámetros y ejemplos de uso conforme a **S1000D**.
+
+---
+
+# Mapa de Procesos
+
+Un mapa de procesos detallado que muestra las interacciones entre los diferentes módulos de GAIA AIR, asegurando una visión clara de las operaciones y flujos de trabajo.
+
+---
+
+# Publicación
+
+Esta documentación está lista para ser publicada en el sistema de gestión documental de **TerraBrain SuperSystem**, asegurando que todos los usuarios autorizados puedan acceder a la información de manera eficiente y segura.
+
+---
+
+# Finalización
+
+Con la finalización de todos los módulos clave y la estructuración completa de la **Documentación Técnica Completa** de **GAIA AIR**, estás listo para proceder con la publicación. Asegúrate de seguir las recomendaciones mencionadas anteriormente para garantizar que la documentación sea de alta calidad, esté bien organizada y cumpla con todos los estándares requeridos.
+
+¡Felicidades por alcanzar este hito en el desarrollo de **GAIA AIR**!
+
+---
+
+# Licencia y Derechos
+
+Este documento está protegido por derechos de autor y está licenciado bajo la **Licencia de Documentación Técnica S1000D**. Para más información sobre los términos y condiciones, consulta la sección de **Licencia** en este documento.
+
+---
+
+# Cómo Contribuir
+
+Si deseas contribuir a esta documentación, por favor, sigue las pautas establecidas en los estándares **S1000D** y **ATA Spec 100**. Puedes enviar tus aportes a través de los canales de **Contacto** proporcionados al final de este documento.
+
+---
+
+# Resumen Final
+
+Este documento presenta una estructura detallada de los **Data Module Requirements List (DMRL)** para los sistemas y estructuras de **GAIA AIR**, abarcando tanto los **Data Modules Comunes** a las versiones **Long Range (-A)** y **Regional (-R)**, como los **Módulos Específicos** de cada versión. La organización sigue los estándares **S1000D** y **ATA Spec 100**, asegurando la coherencia, modularidad y facilidad de mantenimiento de la documentación técnica.
+
+### Principales Secciones Incluidas:
+
+1. **Data Modules Comunes a las Versiones Long Range (-A) y Regional (-R)**
+   - Índice General
+   - Tabla de DMCs Comunes
+   - Notas Finales
+
+2. **GAIA AIR - Módulos Específicos de la Versión Regional (-R)**
+   - Índice de Módulos Específicos
+   - Tabla de Módulos Específicos por ATA Chapter
+   - Notas Finales
+
+3. **GAIA AIR - Módulos Específicos de la Versión Long Range (-A)**
+   - Índice de Módulos Específicos
+   - Tabla de Módulos Específicos por ATA Chapter
+   - Notas Finales
+
+---
+
+Esta guía asegura que tu documentación técnica sea completa, coherente y alineada con los estándares de la industria aeronáutica, facilitando su publicación y uso efectivo en **GAIA AIR**.
+
+
+---
+
+# FAQ - Preguntas Frecuentes
+
+**Q1:** ¿Qué es GAIA AIR?
+
+**A1:** GAIA AIR es una aeronave avanzada diseñada para ofrecer soluciones de largo alcance y regionales, integrando tecnologías sostenibles y sistemas de inteligencia artificial.
+
+**Q2:** ¿Cuál es la diferencia entre las versiones Long Range (-A) y Regional (-R)?
+
+**A2:** La versión Long Range (-A) está equipada con motores híbridos de hidrógeno y sistemas de energía avanzada, mientras que la versión Regional (-R) utiliza sistemas termoeléctricos específicos adaptados para operaciones regionales.
+
+**Q3:** ¿Cómo se asegura la documentación técnica?
+
+**A3:** La documentación técnica sigue los estándares **S1000D** y **ATA Spec 100**, asegurando consistencia, modularidad y cumplimiento normativo.
+
+---
+
+# Referencias
+
+- **S1000D:** [Link al estándar S1000D](https://www.s1000d.org)
+- **ATA Spec 100:** [Link al estándar ATA Spec 100](https://www.ata.org)
+
+---
+
+# Visualización de Datos
+
+Incluye gráficos, diagramas y mapas de procesos para facilitar la comprensión de los sistemas y estructuras de GAIA AIR. Todos los diagramas están diseñados siguiendo las directrices visuales de **S1000D**.
+
+---
+
+# Flujo de API
+
+Documentación detallada sobre las APIs utilizadas en GAIA AIR, incluyendo endpoints, métodos, parámetros y ejemplos de uso conforme a **S1000D**.
+
+---
+
+# Mapa de Procesos
+
+Un mapa de procesos detallado que muestra las interacciones entre los diferentes módulos de GAIA AIR, asegurando una visión clara de las operaciones y flujos de trabajo.
+
+---
+
+# Publicación
+
+Esta documentación está lista para ser publicada en el sistema de gestión documental de **TerraBrain SuperSystem**, asegurando que todos los usuarios autorizados puedan acceder a la información de manera eficiente y segura.
+
+---
+
+# Finalización
+
+Con la finalización de todos los módulos clave y la estructuración completa de la **Documentación Técnica Completa** de **GAIA AIR**, estás listo para proceder con la publicación. Asegúrate de seguir las recomendaciones mencionadas anteriormente para garantizar que la documentación sea de alta calidad, esté bien organizada y cumpla con todos los estándares requeridos.
+
+¡Felicidades por alcanzar este hito en el desarrollo de **GAIA AIR**!
+
+---
+
+# Licencia y Derechos
+
+Este documento está protegido por derechos de autor y está licenciado bajo la **Licencia de Documentación Técnica S1000D**. Para más información sobre los términos y condiciones, consulta la sección de **Licencia** en este documento.
+
+---
+
+# Cómo Contribuir
+
+Si deseas contribuir a esta documentación, por favor, sigue las pautas establecidas en los estándares **S1000D** y **ATA Spec 100**. Puedes enviar tus aportes a través de los canales de **Contacto** proporcionados al final de este documento.
+
+---
+
+# Resumen Final
+
+Este documento presenta una estructura detallada de los **Data Module Requirements List (DMRL)** para los sistemas y estructuras de **GAIA AIR**, abarcando tanto los **Data Modules Comunes** a las versiones **Long Range (-A)** y **Regional (-R)**, como los **Módulos Específicos** de cada versión. La organización sigue los estándares **S1000D** y **ATA Spec 100**, asegurando la coherencia, modularidad y facilidad de mantenimiento de la documentación técnica.
+
+### Principales Secciones Incluidas:
+
+1. **Data Modules Comunes a las Versiones Long Range (-A) y Regional (-R)**
+   - Índice General
+   - Tabla de DMCs Comunes
+   - Notas Finales
+
+2. **GAIA AIR - Módulos Específicos de la Versión Regional (-R)**
+   - Índice de Módulos Específicos
+   - Tabla de Módulos Específicos por ATA Chapter
+   - Notas Finales
+
+3. **GAIA AIR - Módulos Específicos de la Versión Long Range (-A)**
+   - Índice de Módulos Específicos
+   - Tabla de Módulos Específicos por ATA Chapter
+   - Notas Finales
+
+---
+
+Esta guía asegura que tu documentación técnica sea completa, coherente y alineada con los estándares de la industria aeronáutica, facilitando su publicación y uso efectivo en **GAIA AIR**.27 - Controles de Vuelo)](#dmc-gaia-27-00-00-a-controles-de-vuelo) y [DMC-GAIA-55-00-00-A (ATA 55 - Estabilizadores)](#dmc-gaia-55-00-00-a-estabilizadores).
 
 ---
 
@@ -1923,393 +2790,9 @@ Tu **README.md** para **GAIA AIR** ahora está optimizado para ser más claro, v
 5. **Realizar Pruebas de Despliegue:** Después de implementar Swagger y MkDocs, realiza pruebas para asegurarte de que la documentación se despliega correctamente y es accesible.
 6. **Solicitar Retroalimentación:** Pide a colaboradores y usuarios que revisen la documentación y proporcionen feedback para mejoras continuas.
 
----
-# .Bi🌏.ploT
-# ChatQuantum 
-
-**GAIA AIR Regional (-R)** - Data Module Requirements List (DMRL) de Sistemas y Estructuras
-GAIA AIR - Data Modules Comunes a las Versiones Long Range (-A) y Regional (-R)
-
-Este documento presenta la lista de Data Modules (DMCs) que son comunes a las versiones Long Range (-A) y Regional (-R) de GAIA AIR. Estos DMCs abarcan los sistemas y estructuras que comparten ambas variantes de la aeronave, conforme a los estándares S1000D y ATA Spec 100.
-
-## Índice General de DMCs Comunes
-
-A continuación se presenta el listado de los DMCs comunes a ambas versiones, organizados por capítulos ATA.
-
-# Tabla de DMCs Comunes
-
-ATA Chapter	DMC Code	Título
-ATA 00	DMC-GAIA-00-00-00	Introducción General
-	DMC-GAIA-00-00-01	Un Futuro 100% Verde
-	DMC-GAIA-00-00-02	Objetivos de GAIA AIR
-	DMC-GAIA-00-00-03	Innovaciones del Sistema
-	DMC-GAIA-00-00-04	Impacto Ambiental Positivo
-	DMC-GAIA-00-10-00	Descripción General del Sistema
-	DMC-GAIA-00-10-01	Especificaciones Técnicas Principales
-	DMC-GAIA-00-10-02	Diseño y Arquitectura de GAIA AIR
-	DMC-GAIA-00-20-00	Gestión de Riesgos y Cumplimiento Normativo
-	DMC-GAIA-00-20-01	Identificación de Riesgos
-	DMC-GAIA-00-20-02	Estrategias de Mitigación
-	DMC-GAIA-00-20-03	Cumplimiento con Normativas Aeronáuticas
-	DMC-GAIA-00-20-04	Estándares de Documentación Técnica
-	DMC-GAIA-00-20-04.1	S1000D
-	DMC-GAIA-00-20-04.2	ATA Spec 100
-	DMC-GAIA-00-30-00	Glosario y Definiciones
-	DMC-GAIA-00-30-01	Términos Técnicos Clave
-	DMC-GAIA-00-30-02	Abreviaturas y Acrónimos
-	DMC-GAIA-00-40-00	Próximos Pasos y Conclusiones
-	DMC-GAIA-00-40-01	Recomendaciones Futuras
-	DMC-GAIA-00-40-02	Conclusión Final
-	DMC-GAIA-00-50-00	Sistemas de Captura de CO₂
-	DMC-GAIA-00-60-00	Introducción a Propulsiones y Propulsores Verdes
-	DMC-GAIA-00-70-00	Superficies Adaptativas y Diseño por Optimización Topológica
-	DMC-GAIA-00-80-00	Materiales y Nuevas Aplicaciones Nanotecnológicas
-	DMC-GAIA-00-90-00	Optimización de Rutas con Algoritmos de Vanguardia
-	DMC-GAIA-00-91-00	Mantenimiento Predictivo Avanzado
-	DMC-GAIA-00-92-00	Guiado Autónomo
-	DMC-GAIA-00-93-00	Blockchain en la Cadena de Suministros
-	DMC-GAIA-00-94-00	Estrategias de Influencia y Liderazgo para la Sostenibilidad
-	DMC-GAIA-00-95-00	Formación y Profesionalización con VR/AR/XR
-	DMC-GAIA-00-96-00	Integración de AMPEL y Robbotix en GAIA AIR
-	DMC-GAIA-00-97-00	Modelado Matemático del Sistema de Propulsión Avanzada
-	DMC-GAIA-00-98-00	FAQ - Preguntas Frecuentes
-	DMC-GAIA-00-99-00	Referencias
-	DMC-GAIA-00-100-00	Contacto
-	DMC-GAIA-00-101-00	Licencia y Derechos
-ATA 01	DMC-GAIA-01-00-00	Introducción General
-	DMC-GAIA-01-10-00	Especificaciones de Peso
-	DMC-GAIA-01-10-01	Peso Máximo de Despegue (MTOW)
-	DMC-GAIA-01-10-02	Peso en Vacío Operacional (OEW)
-	DMC-GAIA-01-10-03	Peso Máximo de Aterrizaje (MLW)
-	DMC-GAIA-01-20-00	Balance y Centro de Gravedad
-	DMC-GAIA-01-20-01	Cálculo del Centro de Gravedad
-	DMC-GAIA-01-20-02	Limitaciones de Balance
-	DMC-GAIA-01-20-03	Procedimientos de Carga y Estiba
-ATA 02	DMC-GAIA-02-00-00	Introducción General
-	DMC-GAIA-02-10-00	Límites Operacionales
-	DMC-GAIA-02-10-01	Velocidades Máximas
-	DMC-GAIA-02-10-02	Altitudes Máximas de Operación
-	DMC-GAIA-02-10-03	Temperaturas de Operación
-	DMC-GAIA-02-20-00	Limitaciones de Emisiones y Ruido
-	DMC-GAIA-02-20-01	Cumplimiento con Normativas de Emisión
-	DMC-GAIA-02-20-02	Niveles de Ruido y Certificación Acústica
-	DMC-GAIA-02-30-00	Restricciones en Espacio Aéreo
-	DMC-GAIA-02-30-01	Operación en Espacios Aéreos Restringidos
-	DMC-GAIA-02-30-02	Compatibilidad con Navegación CNS/ATM
-ATA 03	DMC-GAIA-03-00-00	Dimensiones y Áreas
-	DMC-GAIA-03-01-00	Especificaciones Dimensionales
-	DMC-GAIA-03-01-01	Dimensiones Generales
-	DMC-GAIA-03-01-02	Dimensiones de las Alas
-	DMC-GAIA-03-02-00	Distribución de Áreas
-	DMC-GAIA-03-02-01	Distribución Interior
-	DMC-GAIA-03-02-02	Distribución Exterior
-	DMC-GAIA-03-03-00	Optimización del Espacio
-	DMC-GAIA-03-03-01	Técnicas de Maximización del Espacio
-	DMC-GAIA-03-04-00	Materiales y Estructuras
-	DMC-GAIA-03-04-01	Materiales Compuestos Utilizados
-	DMC-GAIA-03-04-02	Propiedades de las Estructuras
-	DMC-GAIA-03-05-00	Sistemas de Zonificación
-	DMC-GAIA-03-05-01	Zonificación de Cabina
-	DMC-GAIA-03-05-02	Zonificación de Sistemas Críticos
-	DMC-GAIA-03-06-00	Diagramas de Dimensiones
-	DMC-GAIA-03-06-01	Dimensiones Detalladas
-	DMC-GAIA-03-07-00	Gestión de Riesgos
-	DMC-GAIA-03-07-01	Identificación de Riesgos
-	DMC-GAIA-03-07-02	Evaluación de Riesgos
-	DMC-GAIA-03-07-03	Mitigación de Riesgos
-ATA 04	DMC-GAIA-04-00-00	Limitaciones de Aeronavegabilidad
-	DMC-GAIA-04-10-00	Certificaciones y Cumplimientos
-	DMC-GAIA-04-10-01	Certificación FAA
-	DMC-GAIA-04-10-02	Certificación EASA
-	DMC-GAIA-04-10-03	Otras Certificaciones Internacionales
-	DMC-GAIA-04-20-00	Requisitos de Mantenimiento
-	DMC-GAIA-04-20-01	Programas de Mantenimiento Aprobados
-	DMC-GAIA-04-20-02	Cumplimiento con ADs y SBs
-ATA 05	DMC-GAIA-05-00-00	Límites de Tiempo / Verificaciones de Mantenimiento
-	DMC-GAIA-05-10-00	Intervalos de Mantenimiento
-	DMC-GAIA-05-20-00	Procedimientos de Mantenimiento
-	DMC-GAIA-05-30-00	Requisitos Especiales
-ATA 20	DMC-GAIA-20-00-00	Prácticas Estándar - Fuselaje
-	DMC-GAIA-20-10-00	Materiales y Procesos
-	DMC-GAIA-20-10-01	Uso de Materiales Compuestos
-	DMC-GAIA-20-10-02	Técnicas de Unión y Ensamblaje
-	DMC-GAIA-20-20-00	Procedimientos de Reparación
-	DMC-GAIA-20-20-01	Reparaciones Estructurales
-	DMC-GAIA-20-20-02	Sustitución de Componentes
-	DMC-GAIA-20-30-00	Prácticas de Seguridad
-	DMC-GAIA-20-30-01	Manejo de Materiales Peligrosos
-	DMC-GAIA-20-30-02	Equipos de Protección Personal
-ATA 21	DMC-GAIA-21-00-00	Sistema de Aire Acondicionado
-	DMC-GAIA-21-10-00	Descripción y Funcionamiento
-	DMC-GAIA-21-20-00	Procedimientos de Mantenimiento
-	DMC-GAIA-21-30-00	Control Ambiental en Cabina
-ATA 22	DMC-GAIA-22-00-00	Vuelo Automático
-	DMC-GAIA-22-10-00	Sistemas de Control de Vuelo Automático
-	DMC-GAIA-22-20-00	Integración con Sistemas de Navegación
-	DMC-GAIA-22-30-00	Protocolos de Seguridad y Redundancia
-ATA 23	DMC-GAIA-23-00-00	Comunicaciones
-	DMC-GAIA-23-10-00	Sistemas de Comunicación Interna
-	DMC-GAIA-23-20-00	Sistemas de Comunicación Externa
-	DMC-GAIA-23-30-00	Enlaces de Datos y Telemetría
-ATA 24	DMC-GAIA-24-00-00	Energía Eléctrica
-	DMC-GAIA-24-10-00	Generación y Distribución de Energía
-	DMC-GAIA-24-20-00	Sistemas de Almacenamiento
-	DMC-GAIA-24-30-00	Gestión de Energía y Eficiencia
-ATA 25	DMC-GAIA-25-00-00	Equipamiento de Cabina
-	DMC-GAIA-25-10-00	Configuración de Asientos
-	DMC-GAIA-25-20-00	Sistemas de Entretenimiento
-	DMC-GAIA-25-30-00	Accesorios y Comodidades
-ATA 26	DMC-GAIA-26-00-00	Protección contra Incendios
-	DMC-GAIA-26-10-00	Sistemas de Detección
-	DMC-GAIA-26-20-00	Sistemas de Extinción
-	DMC-GAIA-26-30-00	Procedimientos de Emergencia
-ATA 27	DMC-GAIA-27-00-00	Controles de Vuelo
-	DMC-GAIA-27-10-00	Superficies de Control
-	DMC-GAIA-27-20-00	Sistemas de Actuación
-	DMC-GAIA-27-30-00	Mantenimiento y Ajuste de Controles
-ATA 31	DMC-GAIA-31-00-00	Indicadores
-	DMC-GAIA-31-10-00	Sistemas de Indicación
-	DMC-GAIA-31-20-00	Interfaces Hombre-Máquina
-	DMC-GAIA-31-30-00	Diagnóstico de Sistemas
-ATA 34	DMC-GAIA-34-00-00	Navegación
-	DMC-GAIA-34-10-00	Sistemas de Navegación
-	DMC-GAIA-34-20-00	Sistemas de Vigilancia
-	DMC-GAIA-34-30-00	Integración con Sistemas de Vuelo Automático
-ATA 45	DMC-GAIA-45-00-00	Sistema de Mantenimiento Central
-	DMC-GAIA-45-10-00	Funcionalidades del Sistema
-	DMC-GAIA-45-20-00	Interfaz de Usuario
-ATA 50	DMC-GAIA-50-00-00	Tecnologías Digitales Avanzadas
-	DMC-GAIA-50-10-00	Gemelo Digital
-	DMC-GAIA-50-20-00	Blockchain en la Cadena de Suministro
-	DMC-GAIA-50-30-00	Computación Cuántica en Operaciones
-ATA 91	DMC-GAIA-91-00-00	Gráficos y Diagramas
-	DMC-GAIA-91-10-00	Diagramas de Sistema
-	DMC-GAIA-91-20-00	Planos Eléctricos
-	DMC-GAIA-91-30-00	Diagramas de Flujo
-ATA 94	DMC-GAIA-94-00-00	Entrenamiento
-	DMC-GAIA-94-10-00	Programas de Capacitación
-	DMC-GAIA-94-20-00	Recursos de Formación
-	DMC-GAIA-94-30-00	Sistemas de Simulación
-ATA 99	DMC-GAIA-99-00-00	Misceláneos
-	DMC-GAIA-99-10-00	Información Adicional
-	DMC-GAIA-99-20-00	Procedimientos Especiales
-	DMC-GAIA-99-30-00	Contactos de Soporte Técnico
-
-Nota: Los DMCs listados anteriormente son comunes en contenido y estructura para ambas versiones Long Range (-A) y Regional (-R) de GAIA AIR. Las diferencias específicas de cada versión se abordan en DMCs particulares que tratan aspectos únicos de cada variante, como sistemas de propulsión específicos, adaptaciones estructurales o capacidades operativas.
-
-Notas Finales
-
-Este listado de DMCs comunes facilita la gestión y mantenimiento de la documentación técnica compartida entre ambas versiones de la aeronave, optimizando recursos y asegurando consistencia en la información proporcionada.
 
 
-## GAIA AIR - Módulos Específicos de la Versión Regional (-R)
-
-Este documento presenta los Data Modules (DMCs) que son específicos de la versión Regional (-R) de GAIA AIR. Estos módulos abarcan los sistemas, estructuras y características que son únicos de esta variante y no están presentes en la versión Long Range (-A).
-
-Índice de Módulos Específicos de la Versión Regional (-R)
-
-A continuación, se detallan los DMCs específicos de la versión Regional (-R), organizados por capítulos ATA.
-
-Tabla de Módulos Específicos de la Versión Regional (-R)
-
-ATA 70 - Motor (Power Plant)
-
-DMC Code	Título
-DMC-GAIA-70-00-00-R	Introducción General al Sistema de Propulsión Regional
-DMC-GAIA-70-00-01-R	Sistemas de Propulsión Termoeléctricos para la Versión Regional
-DMC-GAIA-70-10-00-R	Motores Termoeléctricos
-DMC-GAIA-70-10-01-R	Diseño y Funcionamiento de Motores Termoeléctricos
-DMC-GAIA-70-10-02-R	Ventajas Ambientales de los Motores Termoeléctricos
-DMC-GAIA-70-20-00-R	Integración con las Dimensiones y Áreas de la Aeronave Regional
-DMC-GAIA-70-20-01-R	Ubicación y Configuración de Motores en la Versión Regional
-DMC-GAIA-70-20-02-R	Integración con Sistemas Internos Específicos
-DMC-GAIA-70-30-00-R	Mantenimiento del Motor para la Versión Regional
-DMC-GAIA-70-30-01-R	Inspecciones y Verificaciones Específicas de Motores Termoeléctricos
-DMC-GAIA-70-30-02-R	Reparaciones y Actualizaciones de Sistemas Termoeléctricos
-DMC-GAIA-70-40-00-R	Innovaciones en Almacenamiento Energético para la Versión Regional
-DMC-GAIA-70-40-01-R	Nuevas Tecnologías de Baterías en la Versión Regional
-DMC-GAIA-70-40-02-R	Sistemas Termoeléctricos Avanzados
-DMC-GAIA-70-50-00-R	Impacto Ambiental y Ciclo de Vida de la Tecnología en la Versión Regional
-DMC-GAIA-70-50-01-R	Análisis del Ciclo de Vida Específico de la Versión Regional
-DMC-GAIA-70-50-02-R	Estrategias de Reducción de Huella de Carbono en la Versión Regional
-
-ATA 80 - Sistemas de Energía Alternativa
-
-DMC Code	Título
-DMC-GAIA-80-00-00-R	Introducción a los Sistemas de Energía Alternativa para la Versión Regional
-DMC-GAIA-80-10-00-R	Sistemas Termoeléctricos
-DMC-GAIA-80-10-01-R	Integración de Sistemas Termoeléctricos en la Aeronave
-DMC-GAIA-80-10-02-R	Control y Gestión de Energía Termoeléctrica
-DMC-GAIA-80-20-00-R	Sistemas de Almacenamiento de Energía Específicos
-DMC-GAIA-80-20-01-R	Baterías de Alta Densidad para la Versión Regional
-DMC-GAIA-80-20-02-R	Sistemas de Almacenamiento Térmico
-DMC-GAIA-80-30-00-R	Gestión Inteligente de Energía en la Versión Regional
-DMC-GAIA-80-30-01-R	Sistemas de Control de Energía Específicos
-DMC-GAIA-80-30-02-R	Algoritmos de Optimización Energética Adaptados
-
-ATA 96 - Integración de AMPEL y Robbotix en GAIA AIR
-
-DMC Code	Título
-DMC-GAIA-00-96-01-R	AMPEL - Gemelo Digital Dinámico en Tiempo Real para la Versión Regional
-DMC-GAIA-00-96-02-R	Robbotix - Simulador de Vuelo Mejorado con AR/VR/XR para la Versión Regional
-DMC-GAIA-00-96-03-R	Integración con GAIA AIR Regional
-DMC-GAIA-00-96-04-R	Cumplimiento Normativo y Estándares Aplicables a la Versión Regional
-DMC-GAIA-00-96-05-R	Análisis Económico de Recursos para la Versión Regional
-
-ATA 97 - Modelado Matemático del Sistema de Propulsión Avanzada
-
-DMC Code	Título
-DMC-GAIA-00-97-06-R	Aplicación en GAIA AIR Regional
-
-ATA 05 - Límites de Tiempo / Verificaciones de Mantenimiento
-
-DMC Code	Título
-DMC-GAIA-05-30-02-R	Inspecciones No Destructivas (NDI) Específicas de la Versión Regional
-
-ATA 28 - Combustible
-
-DMC Code	Título
-DMC-GAIA-28-10-00-R	Sistemas de Almacenamiento de Energía para la Versión Regional
-DMC-GAIA-28-20-00-R	Procedimientos de Carga y Descarga Específicos
-DMC-GAIA-28-30-00-R	Seguridad en el Manejo de Baterías y Sistemas Termoeléctricos
-
-ATA 71 - Sistema de Propulsión
-
-DMC Code	Título
-DMC-GAIA-71-00-00-R	Introducción al Sistema de Propulsión Específico de la Versión Regional
-DMC-GAIA-71-10-00-R	Componentes Principales de los Motores Termoeléctricos
-DMC-GAIA-71-20-00-R	Sistemas de Control Adaptados
-DMC-GAIA-71-30-00-R	Mantenimiento y Operación Específica
-
-
-Notas Finales
-
-La identificación de los DMCs específicos de la versión Regional (-R) es crucial para garantizar que la documentación técnica refleje con precisión las características únicas de esta variante de GAIA AIR. Esto facilita la gestión, mantenimiento y operación eficiente de la aeronave, asegurando el cumplimiento normativo y la seguridad operacional.
-
-
-## GAIA AIR - Módulos Específicos de la Versión Long Range (-A)
-
-Este documento presenta los Data Modules (DMCs) que son específicos de la versión Long Range (-A) de GAIA AIR. Estos módulos abarcan los sistemas, estructuras y características únicas de esta variante que no están presentes en la versión Regional (-R).
-
-Índice de Módulos Específicos de la Versión Long Range (-A)
-
-A continuación, se detallan los DMCs específicos de la versión Long Range (-A), organizados por capítulos ATA.
-
-Tabla de Módulos Específicos de la Versión Long Range (-A)
-
-ATA 70 - Motor (Power Plant)
-
-DMC Code	Título
-DMC-GAIA-70-00-00-A	Introducción General al Sistema de Propulsión Long Range
-DMC-GAIA-70-00-01-A	Motores Híbridos de Hidrógeno para la Versión Long Range
-DMC-GAIA-70-10-00-A	Motores Híbridos de Hidrógeno
-DMC-GAIA-70-10-01-A	Diseño y Funcionamiento de Motores Híbridos de Hidrógeno
-DMC-GAIA-70-10-02-A	Ventajas Ambientales de los Motores de Hidrógeno
-DMC-GAIA-70-20-00-A	Integración con las Dimensiones y Áreas de la Aeronave Long Range
-DMC-GAIA-70-20-01-A	Ubicación y Configuración de Motores en la Versión Long Range
-DMC-GAIA-70-20-02-A	Integración con Sistemas Internos Específicos
-DMC-GAIA-70-30-00-A	Mantenimiento del Motor para la Versión Long Range
-DMC-GAIA-70-30-01-A	Inspecciones y Verificaciones Específicas de Motores de Hidrógeno
-DMC-GAIA-70-30-02-A	Reparaciones y Actualizaciones de Sistemas de Hidrógeno
-DMC-GAIA-70-40-00-A	Innovaciones en Almacenamiento Energético para la Versión Long Range
-DMC-GAIA-70-40-01-A	Tecnologías de Almacenamiento de Hidrógeno Líquido
-DMC-GAIA-70-40-02-A	Sistemas de Almacenamiento Criogénico
-DMC-GAIA-70-50-00-A	Impacto Ambiental y Ciclo de Vida de la Tecnología en la Versión Long Range
-DMC-GAIA-70-50-01-A	Análisis del Ciclo de Vida Específico de la Versión Long Range
-DMC-GAIA-70-50-02-A	Estrategias de Reducción de Huella de Carbono en la Versión Long Range
-
-ATA 28 - Combustible
-
-DMC Code	Título
-DMC-GAIA-28-00-00-A	Introducción al Sistema de Combustible de Hidrógeno
-DMC-GAIA-28-10-00-A	Sistemas de Almacenamiento de Hidrógeno para la Versión Long Range
-DMC-GAIA-28-10-01-A	Tanques de Hidrógeno Líquido
-DMC-GAIA-28-10-02-A	Aislamiento Térmico y Seguridad
-DMC-GAIA-28-20-00-A	Procedimientos de Repostaje de Hidrógeno
-DMC-GAIA-28-20-01-A	Protocolos de Carga y Descarga
-DMC-GAIA-28-20-02-A	Equipos Especializados para Hidrógeno
-DMC-GAIA-28-30-00-A	Seguridad en el Manejo de Hidrógeno
-DMC-GAIA-28-30-01-A	Procedimientos de Emergencia
-DMC-GAIA-28-30-02-A	Formación y Capacitación del Personal
-
-ATA 73 - Sistema de Combustible del Motor
-
-DMC Code	Título
-DMC-GAIA-73-00-00-A	Introducción al Sistema de Combustible del Motor de Hidrógeno
-DMC-GAIA-73-10-00-A	Almacenamiento y Suministro de Hidrógeno
-DMC-GAIA-73-10-01-A	Tanques de Presión y Líneas de Suministro
-DMC-GAIA-73-10-02-A	Válvulas y Sensores Específicos
-DMC-GAIA-73-20-00-A	Sistemas de Bombeo y Transferencia de Hidrógeno
-DMC-GAIA-73-20-01-A	Bombas Criogénicas
-DMC-GAIA-73-20-02-A	Control de Flujo y Presión
-DMC-GAIA-73-30-00-A	Monitoreo y Control del Combustible de Hidrógeno
-DMC-GAIA-73-30-01-A	Sistemas de Detección de Fugas
-DMC-GAIA-73-30-02-A	Sistemas de Alerta y Notificación
-
-ATA 74 - Sistema de Encendido
-
-DMC Code	Título
-DMC-GAIA-74-00-00-A	Introducción al Sistema de Encendido para Motores de Hidrógeno
-DMC-GAIA-74-10-00-A	Componentes del Sistema de Encendido Específicos
-DMC-GAIA-74-10-01-A	Unidades de Encendido Adaptadas
-DMC-GAIA-74-10-02-A	Bujías Especiales para Hidrógeno
-DMC-GAIA-74-20-00-A	Mantenimiento del Sistema de Encendido
-DMC-GAIA-74-20-01-A	Procedimientos de Prueba y Verificación
-DMC-GAIA-74-20-02-A	Sustitución de Componentes
-
-ATA 80 - Sistemas de Energía Alternativa
-
-DMC Code	Título
-DMC-GAIA-80-00-00-A	Introducción a los Sistemas de Energía Alternativa para la Versión Long Range
-DMC-GAIA-80-10-00-A	Sistemas de Energía Solar Integrados
-DMC-GAIA-80-10-01-A	Integración de Paneles Solares en la Estructura
-DMC-GAIA-80-10-02-A	Gestión y Almacenamiento de Energía Solar
-DMC-GAIA-80-20-00-A	Sistemas de Almacenamiento Criogénico
-DMC-GAIA-80-20-01-A	Tecnologías de Almacenamiento Avanzadas
-DMC-GAIA-80-20-02-A	Mantenimiento de Sistemas Criogénicos
-DMC-GAIA-80-30-00-A	Gestión Inteligente de Energía en la Versión Long Range
-DMC-GAIA-80-30-01-A	Sistemas de Control de Energía Específicos
-DMC-GAIA-80-30-02-A	Algoritmos de Optimización Energética Adaptados
-
-ATA 96 - Integración de AMPEL y Robbotix en GAIA AIR
-
-DMC Code	Título
-DMC-GAIA-00-96-01-A	AMPEL - Gemelo Digital Dinámico en Tiempo Real para la Versión Long Range
-DMC-GAIA-00-96-02-A	Robbotix - Simulador de Vuelo Mejorado con AR/VR/XR para la Versión Long Range
-DMC-GAIA-00-96-03-A	Integración con GAIA AIR Long Range
-DMC-GAIA-00-96-04-A	Cumplimiento Normativo y Estándares Aplicables a la Versión Long Range
-DMC-GAIA-00-96-05-A	Análisis Económico de Recursos para la Versión Long Range
-
-ATA 97 - Modelado Matemático del Sistema de Propulsión Avanzada
-
-DMC Code	Título
-DMC-GAIA-00-97-06-A	Aplicación en GAIA AIR Long Range
-
-ATA 05 - Límites de Tiempo / Verificaciones de Mantenimiento
-
-DMC Code	Título
-DMC-GAIA-05-30-02-A	Inspecciones No Destructivas (NDI) Específicas de la Versión Long Range
-
-ATA 71 - Sistema de Propulsión
-
-DMC Code	Título
-DMC-GAIA-71-00-00-A	Introducción al Sistema de Propulsión Específico de la Versión Long Range
-DMC-GAIA-71-10-00-A	Componentes Principales de los Motores Híbridos de Hidrógeno
-DMC-GAIA-71-20-00-A	Sistemas de Control Adaptados
-DMC-GAIA-71-30-00-A	Mantenimiento y Operación Específica
-
-Estos módulos son específicos de la versión Long Range (-A) de GAIA AIR y abarcan tecnologías y sistemas que no están presentes en la versión Regional (-R), como los motores híbridos de hidrógeno, sistemas de combustible de hidrógeno, almacenamiento criogénico y adaptaciones específicas en la integración de tecnologías como AMPEL y Robbotix.
-
-Notas Finales
-
-La identificación de los DMCs específicos de la versión Long Range (-A) es crucial para garantizar que la documentación técnica refleje con precisión las características únicas de esta variante de GAIA AIR. Esto facilita la gestión, mantenimiento y operación eficiente de la aeronave, asegurando el cumplimiento normativo y la seguridad operacional.
-
-Actualizaciones y Revisión:
-
-Este listado será actualizado periódicamente para incluir nuevos módulos o modificaciones que sean relevantes a la versión Long Range (-A).
-
-
-## 📚 Guía Adicional para Mejorar la Documentación
+## 📚 Guía Adicional para Mejorar la Documentació.
 
 ### 🧮 Integración de Notación Matemática con LaTeX en Markdown
 
