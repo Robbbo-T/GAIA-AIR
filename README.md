@@ -1,5 +1,8 @@
 # **GAIA AIR - Proyecto de Aviación Sostenible e Innovadora**
 
+![image](https://github.com/user-attachments/assets/d403ef2e-e414-4e1d-b879-0a1674897d3c)
+
+
 ## **ATA 00 - Introducción General**
 
 Bienvenido a la documentación técnica completa de **GAIA AIR** (Green AI-powered Autonomous Robotics Aircraft). Este documento tiene como objetivo proporcionar una visión detallada y exhaustiva de nuestro innovador proyecto que combina tecnologías de inteligencia artificial, computación cuántica, nanotecnología y energías renovables para revolucionar la industria de la aviación. A través de esta documentación, exploraremos los fundamentos, objetivos, innovaciones y el impacto ambiental positivo que **GAIA AIR** aporta al mundo de la aeronáutica y al medio ambiente.
