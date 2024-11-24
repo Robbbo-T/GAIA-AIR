@@ -11,6 +11,9 @@ Bienvenido a la documentación técnica completa de **GAIA AIR** (Green AI-power
 
 ---
 
+![image](https://github.com/user-attachments/assets/1f604e14-4755-46b8-95ee-0ee1c33694a5)
+
+
 ## **Índice de Contenidos**
 
 1. [Un Futuro 100% Verde](#dmc-gaia-00-00-01-a-un-futuro-100-verde)
@@ -671,6 +674,9 @@ Implementamos propulsores verdes, sistemas de captura de CO₂ y materiales sost
 **GAIA AIR** ofrece una suite de herramientas avanzadas para la visualización de datos, diseñada para proporcionar a los usuarios insights profundos y accionables sobre las operaciones y el rendimiento del sistema.
 
 *Referencia:* Para sistemas de información y gráficos, consulte [DMC-GAIA-46-00-00-A (ATA 46 - Sistemas de Información)](#dmc-gaia-46-00-00-a-sistemas-de-informacion) y [DMC-GAIA-91-00-00-A (ATA 91 - Gráficos y Diagramas)](#dmc-gaia-91-00-00-a-graficos-y-diagramas).
+
+![image](https://github.com/user-attachments/assets/af33d52b-e7c2-4039-bf8d-5f833d080aef)
+
 
 ### **Características Principales**
 - **Tableros de Control Personalizables:** Los usuarios pueden crear y personalizar dashboards que muestran métricas clave en tiempo real, como consumo de combustible, emisiones, rendimiento de motores y más.
