@@ -1,6 +1,7 @@
 # **GAIA AIR - Proyecto de Aviación Sostenible e Innovadora**
 
-![image](https://github.com/user-attachments/assets/d403ef2e-e414-4e1d-b879-0a1674897d3c)
+![image](https://github.com/user-attachments/assets/c20ed92c-58cd-491f-b076-95cb303c2932)
+
 
 ![image](https://github.com/user-attachments/assets/6ff0c805-8069-4466-812d-6c0dc333e118)
 
@@ -48,6 +49,10 @@ Bienvenido a la documentación técnica completa de **GAIA AIR** (Green AI-power
 30. [Licencia](#licencia)
 
 ---
+
+
+
+![image](https://github.com/user-attachments/assets/d403ef2e-e414-4e1d-b879-0a1674897d3c)
 
 ## **1. DMC-GAIA-00-00-01-A: Un Futuro 100% Verde**
 
