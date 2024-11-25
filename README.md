@@ -1,4 +1,5 @@
-GAIA AIR
+![image](https://github.com/user-attachments/assets/3348c94e-2b07-4519-9090-1d268fc63842)
+
 
 # **GAIA AIR - Proyecto de Aviación Sostenible e Innovadora**
 
