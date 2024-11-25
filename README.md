@@ -1,4 +1,4 @@
-![Uploading image.png…](GAIA AIR)
+GAIA AIR
 
 # **GAIA AIR - Proyecto de Aviación Sostenible e Innovadora**
 
