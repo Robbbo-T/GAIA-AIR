@@ -1,5 +1,4 @@
 # **Gaia Bill of Directives (GBD)**
-
 ## **Requirements and Guidelines for the System Designer**
 
 ---
@@ -49,9 +48,10 @@
     - [GBD0200.3.4 PART 3](#gbd020034-part-3)
       - [CHAPTER 4 ATA 100 / I-SPEC 2200 CHAPTERS](#chapter-4-ata-100--i-spec-2200-chapters)
 - [Glosario de Acrónimos](#glosario-de-acrónimos)
-- [Próximos Pasos para la Implementación](#próximos-pasos-para-la-implementación)
+- [Próximos Pasos para la Implementación](#pr%C3%B3ximos-pasos-para-la-implementaci%C3%B3n)
 - [Notas y Comentarios](#notas-y-comentarios)
-- [Finalización](#finalización)
+- [Finalización](#finalizaci%C3%B3n)
+- [Anexos](#anexos)
 
 ---
 
@@ -188,23 +188,19 @@ El proceso de diseño es un conjunto estructurado de actividades destinadas a tr
 
 ###### **3.1 Gestión de Configuración**
 
-- Asegura el control y seguimiento de cambios en el sistema y su documentación.
-- Mantiene la trazabilidad entre requisitos, diseño, implementación y pruebas.
+Asegura el control y seguimiento de cambios en el sistema y su documentación. Mantiene la trazabilidad entre requisitos, diseño, implementación y pruebas.
 
 ###### **3.2 Gestión de Riesgos**
 
-- Identifica y analiza riesgos potenciales.
-- Implementa estrategias de mitigación y seguimiento.
+Identifica y analiza riesgos potenciales. Implementa estrategias de mitigación y seguimiento.
 
 ###### **3.3 Aseguramiento de Calidad**
 
-- Verifica el cumplimiento de estándares y procedimientos.
-- Realiza auditorías internas y revisiones periódicas.
+Verifica el cumplimiento de estándares y procedimientos. Realiza auditorías internas y revisiones periódicas.
 
 ###### **3.4 Mejora Continua**
 
-- Evalúa el desempeño del proceso.
-- Implementa acciones de mejora basadas en lecciones aprendidas.
+Evalúa el desempeño del proceso. Implementa acciones de mejora basadas en lecciones aprendidas.
 
 ##### **4. Herramientas y Técnicas**
 
@@ -217,6 +213,7 @@ El proceso de diseño es un conjunto estructurado de actividades destinadas a tr
 
 Un proceso de diseño bien estructurado es fundamental para el éxito de los proyectos en **GAIA AIR**. Siguiendo las fases y prácticas descritas, se asegura la calidad, confiabilidad y cumplimiento de los sistemas desarrollados.
 
+---
 
 # **Part 1 - Product Related Requirements and Guidelines**
 
@@ -473,12 +470,6 @@ La gestión efectiva de los datos fuente es esencial para la creación de public
 # **Part 2 - Process Related Requirements and Guidelines**
 
 ## **GBD0200 MODULE**
-
-### **GBD0200.2.1 PART 2**
-
-#### **CHAPTER 1 SYSTEM DEVELOPMENT**
-
----
 
 ### **GBD0200.2.1 PART 2**
 
@@ -771,18 +762,6 @@ La verificación rigurosa del sistema es esencial para garantizar que el product
 
 ---
 
-# **Notas y Comentarios**
-
-- **Comentarios Generales:**
-  - Se recomienda continuar desarrollando los capítulos restantes siguiendo la misma estructura y nivel de detalle.
-  - Es importante involucrar a expertos en cada área para asegurar la precisión y relevancia del contenido.
-
-- **Sugerencias de Mejora:**
-  - Incluir ejemplos específicos o estudios de caso para ilustrar conceptos clave.
-  - Añadir referencias cruzadas entre secciones relacionadas para facilitar la navegación.
-
----
-
 # **Part 3 - Documentation**
 
 ## **GBD0200 MODULE**
@@ -913,16 +892,16 @@ La estandarización de formatos de documentos asegura que toda la documentación
 
 ###### **2.1 Formato de Archivo**
 
-- **Documentos de Texto:** Preferiblemente en formato **Microsoft Word (.docx)** o **LibreOffice Writer (.odt)**.
-- **Hojas de Cálculo:** Utilizar **Microsoft Excel (.xlsx)** o **LibreOffice Calc (.ods)**.
-- **Presentaciones:** Emplear **Microsoft PowerPoint (.pptx)** o **LibreOffice Impress (.odp)**.
-- **Documentos PDF:** Para distribuciones finales y versiones controladas, utilizar el formato **PDF/A** para asegurar la preservación a largo plazo.
-- **Archivos de Imagen:** Utilizar formatos **PNG** o **JPEG** para imágenes, gráficos y diagramas.
+- **Documentos de Texto:** Preferiblemente en formato Microsoft Word (.docx) o LibreOffice Writer (.odt).
+- **Hojas de Cálculo:** Utilizar Microsoft Excel (.xlsx) o LibreOffice Calc (.ods).
+- **Presentaciones:** Emplear Microsoft PowerPoint (.pptx) o LibreOffice Impress (.odp).
+- **Documentos PDF:** Para distribuciones finales y versiones controladas, utilizar el formato PDF/A para asegurar la preservación a largo plazo.
+- **Archivos de Imagen:** Utilizar formatos PNG o JPEG para imágenes, gráficos y diagramas.
 
 ###### **2.2 Estilos y Plantillas**
 
 - **Plantillas Corporativas:** Utilizar las plantillas oficiales de **GAIA AIR** para mantener una imagen coherente.
-- **Tipografía:** Fuente estándar **Arial** o **Calibri**, tamaño 11 o 12 para texto normal.
+- **Tipografía:** Fuente estándar Arial o Calibri, tamaño 11 o 12 para texto normal.
 - **Márgenes y Espaciado:** Márgenes de 2.5 cm en todos los lados, interlineado de 1.15.
 
 ##### **3. Elementos de Formato**
@@ -937,7 +916,7 @@ La estandarización de formatos de documentos asegura que toda la documentación
 
 ###### **3.2 Tabla de Contenidos**
 
-- Incluir una tabla de contenidos automática que refleje las secciones y subsecciones del documento.
+Incluir una tabla de contenidos automática que refleje las secciones y subsecciones del documento.
 
 ###### **3.3 Encabezados y Pies de Página**
 
@@ -953,8 +932,8 @@ La estandarización de formatos de documentos asegura que toda la documentación
 
 ###### **3.5 Listas y Numeraciones**
 
-- Utilizar viñetas para listas no secuenciales.
-- Utilizar numeración para pasos o elementos secuenciales.
+- **Viñetas:** Utilizar viñetas para listas no secuenciales.
+- **Numeración:** Utilizar numeración para pasos o elementos secuenciales.
 
 ###### **3.6 Tablas y Figuras**
 
@@ -964,18 +943,18 @@ La estandarización de formatos de documentos asegura que toda la documentación
 
 ###### **3.7 Notas y Referencias**
 
-- Incluir notas al pie para aclaraciones o referencias adicionales.
-- Citar fuentes externas según las normas APA o IEEE, según corresponda.
+- **Notas al Pie:** Incluir notas al pie para aclaraciones o referencias adicionales.
+- **Citas:** Citar fuentes externas según las normas APA o IEEE, según corresponda.
 
 ##### **4. Nomenclatura de Archivos**
 
-- Utilizar un esquema consistente para nombrar archivos, que incluya:
-  - **Código del Documento:** Por ejemplo, GBD0200.
-  - **Título Abreviado:** Una breve descripción del contenido.
-  - **Versión:** Indicar la versión o número de revisión.
-  - **Fecha:** Formato AAAA-MM-DD para facilitar el ordenamiento.
+Utilizar un esquema consistente para nombrar archivos, que incluya:
 
-**Ejemplo:** GBD0200_DocumentationRequirements_v1.0_2024-01-15.docx
+- **Código del Documento:** Por ejemplo, GBD0200.
+- **Título Abreviado:** Una breve descripción del contenido.
+- **Versión:** Indicar la versión o número de revisión.
+- **Fecha:** Formato AAAA-MM-DD para facilitar el ordenamiento.
+- **Ejemplo:** GBD0200_DocumentationRequirements_v1.0_2024-01-15.docx
 
 ##### **5. Accesibilidad y Legibilidad**
 
@@ -985,7 +964,7 @@ La estandarización de formatos de documentos asegura que toda la documentación
 
 ##### **6. Idioma y Estilo**
 
-- **Idioma Oficial:** La documentación se redactará en **español**.
+- **Idioma Oficial:** La documentación se redactará en español.
 - **Claridad y Concisión:** Utilizar un lenguaje claro, evitando ambigüedades.
 - **Voz Activa:** Preferir la voz activa sobre la pasiva para mayor claridad.
 - **Terminología Consistente:** Utilizar términos y definiciones consistentes a lo largo del documento, apoyándose en el glosario.
@@ -1010,6 +989,9 @@ La estandarización de formatos de documentos asegura que toda la documentación
 
 El uso de formatos estándar en la documentación contribuye a la eficiencia y eficacia en la comunicación dentro de **GAIA AIR** y **Robbbo-Tx AGI**. Siguiendo las directrices establecidas en este capítulo, se garantiza una presentación profesional y una gestión más sencilla de la documentación.
 
+---
+
+### **GBD0200.3.3 PART 3**
 
 #### **CHAPTER 3 DATA MODULES FOR GAIA AIR LONG RANGE (-A) VERSION**
 
@@ -1017,46 +999,46 @@ Este capítulo presenta los Módulos de Datos (DMCs) específicos de la versión
 
 ##### **1. Introducción**
 
-La variante Long Range (-A) de GAIA AIR incorpora tecnologías avanzadas y sistemas especializados para lograr un mayor alcance y eficiencia. Este capítulo detalla los DMCs asociados con estos sistemas, proporcionando una referencia completa para su diseño, operación y mantenimiento.
+La variante Long Range (-A) de **GAIA AIR** incorpora tecnologías avanzadas y sistemas especializados para lograr un mayor alcance y eficiencia. Este capítulo detalla los DMCs asociados con estos sistemas, proporcionando una referencia completa para su diseño, operación y mantenimiento.
 
 ##### **2. Tabla de Módulos Específicos de la Versión Long Range (-A)**
 
 ###### **ATA 70 - Motor (Power Plant)**
 
-| DMC Code               | Título                                                               |
-|------------------------|----------------------------------------------------------------------|
-| DMC-GAIA-70-00-00-A    | Introducción General al Sistema de Propulsión Long Range             |
-| DMC-GAIA-70-00-01-A    | Motores Híbridos de Hidrógeno para la Versión Long Range             |
-| DMC-GAIA-70-10-00-A    | Motores Híbridos de Hidrógeno                                        |
-| DMC-GAIA-70-10-01-A    | Diseño y Funcionamiento de Motores Híbridos de Hidrógeno             |
-| DMC-GAIA-70-10-02-A    | Ventajas Ambientales de los Motores de Hidrógeno                     |
-| DMC-GAIA-70-20-00-A    | Integración con las Dimensiones y Áreas de la Aeronave               |
-| DMC-GAIA-70-20-01-A    | Ubicación y Configuración de Motores en la Versión Long Range        |
-| DMC-GAIA-70-20-02-A    | Integración con Sistemas Internos Específicos                        |
-| DMC-GAIA-70-30-00-A    | Mantenimiento del Motor para la Versión Long Range                   |
-| DMC-GAIA-70-30-01-A    | Inspecciones y Verificaciones Específicas de Motores de Hidrógeno    |
-| DMC-GAIA-70-30-02-A    | Reparaciones y Actualizaciones de Sistemas de Hidrógeno              |
-| DMC-GAIA-70-40-00-A    | Innovaciones en Almacenamiento Energético                            |
-| DMC-GAIA-70-40-01-A    | Tecnologías de Almacenamiento de Hidrógeno Líquido                   |
-| DMC-GAIA-70-40-02-A    | Sistemas de Almacenamiento Criogénico                                |
-| DMC-GAIA-70-50-00-A    | Impacto Ambiental y Ciclo de Vida de la Tecnología                   |
-| DMC-GAIA-70-50-01-A    | Análisis del Ciclo de Vida Específico de la Versión Long Range       |
-| DMC-GAIA-70-50-02-A    | Estrategias de Reducción de Huella de Carbono                        |
+| **DMC Code**               | **Título**                                                   |
+|----------------------------|--------------------------------------------------------------|
+| DMC-GAIA-70-00-00-A        | Introducción General al Sistema de Propulsión Long Range      |
+| DMC-GAIA-70-00-01-A        | Motores Híbridos de Hidrógeno para la Versión Long Range      |
+| DMC-GAIA-70-10-00-A        | Motores Híbridos de Hidrógeno                                 |
+| DMC-GAIA-70-10-01-A        | Diseño y Funcionamiento de Motores Híbridos de Hidrógeno      |
+| DMC-GAIA-70-10-02-A        | Ventajas Ambientales de los Motores de Hidrógeno              |
+| DMC-GAIA-70-20-00-A        | Integración con las Dimensiones y Áreas de la Aeronave        |
+| DMC-GAIA-70-20-01-A        | Ubicación y Configuración de Motores en la Versión Long Range  |
+| DMC-GAIA-70-20-02-A        | Integración con Sistemas Internos Específicos                 |
+| DMC-GAIA-70-30-00-A        | Mantenimiento del Motor para la Versión Long Range            |
+| DMC-GAIA-70-30-01-A        | Inspecciones y Verificaciones Específicas de Motores de Hidrógeno |
+| DMC-GAIA-70-30-02-A        | Reparaciones y Actualizaciones de Sistemas de Hidrógeno       |
+| DMC-GAIA-70-40-00-A        | Innovaciones en Almacenamiento Energético                     |
+| DMC-GAIA-70-40-01-A        | Tecnologías de Almacenamiento de Hidrógeno Líquido            |
+| DMC-GAIA-70-40-02-A        | Sistemas de Almacenamiento Criogénico                          |
+| DMC-GAIA-70-50-00-A        | Impacto Ambiental y Ciclo de Vida de la Tecnología            |
+| DMC-GAIA-70-50-01-A        | Análisis del Ciclo de Vida Específico de la Versión Long Range |
+| DMC-GAIA-70-50-02-A        | Estrategias de Reducción de Huella de Carbono                  |
 
 ###### **ATA 28 - Combustible**
 
-| DMC Code               | Título                                                               |
-|------------------------|----------------------------------------------------------------------|
-| DMC-GAIA-28-00-00-A    | Introducción al Sistema de Combustible de Hidrógeno                  |
-| DMC-GAIA-28-10-00-A    | Sistemas de Almacenamiento de Hidrógeno                              |
-| DMC-GAIA-28-10-01-A    | Tanques de Hidrógeno Líquido                                         |
-| DMC-GAIA-28-10-02-A    | Aislamiento Térmico y Seguridad                                      |
-| DMC-GAIA-28-20-00-A    | Procedimientos de Repostaje de Hidrógeno                             |
-| DMC-GAIA-28-20-01-A    | Protocolos de Carga y Descarga                                       |
-| DMC-GAIA-28-20-02-A    | Equipos Especializados para Hidrógeno                                |
-| DMC-GAIA-28-30-00-A    | Seguridad en el Manejo de Hidrógeno                                  |
-| DMC-GAIA-28-30-01-A    | Procedimientos de Emergencia                                         |
-| DMC-GAIA-28-30-02-A    | Formación y Capacitación del Personal                                |
+| **DMC Code**               | **Título**                                                   |
+|----------------------------|--------------------------------------------------------------|
+| DMC-GAIA-28-00-00-A        | Introducción al Sistema de Combustible de Hidrógeno          |
+| DMC-GAIA-28-10-00-A        | Sistemas de Almacenamiento de Hidrógeno                      |
+| DMC-GAIA-28-10-01-A        | Tanques de Hidrógeno Líquido                                  |
+| DMC-GAIA-28-10-02-A        | Aislamiento Térmico y Seguridad                               |
+| DMC-GAIA-28-20-00-A        | Procedimientos de Repostaje de Hidrógeno                      |
+| DMC-GAIA-28-20-01-A        | Protocolos de Carga y Descarga                                 |
+| DMC-GAIA-28-20-02-A        | Equipos Especializados para Hidrógeno                           |
+| DMC-GAIA-28-30-00-A        | Seguridad en el Manejo de Hidrógeno                             |
+| DMC-GAIA-28-30-01-A        | Procedimientos de Emergencia                                   |
+| DMC-GAIA-28-30-02-A        | Formación y Capacitación del Personal                           |
 
 *(La tabla continúa con los DMCs correspondientes a los ATA Chapters impactados por la variante Long Range (-A).)*
 
@@ -1070,159 +1052,138 @@ Este capítulo proporciona una visión general de los capítulos ATA 100 / I-SPE
 
 ##### **1. Sección General**
 
-1. **00 - Introducción / General de la Aeronave**
-2. **01-04 - Información Operativa (Reservado para uso de aerolíneas)**
-3. **05 - Inspecciones Periódicas**
-   - 10 - Límites de tiempo
-   - 20 - Chequeos programados de mantenimiento
-   - 50 - Chequeos no programados de mantenimiento
-4. **06 - Dimensiones y Áreas**
-5. **07 - Elevación y Apuntalamiento (Lifting & Shoring)**
-6. **08 - Nivelación y Pesaje (Leveling & Weighing)**
-7. **09 - Remolque y Rodaje (Towing & Taxiing)**
-8. **10 - Parqueo, Amarre, Almacenamiento y Retorno a Servicio**
+- **00 - Introducción / General de la Aeronave**
+- **01-04 - Información Operativa (Reservado para uso de aerolíneas)**
+- **05 - Inspecciones Periódicas**
+- **10 - Límites de tiempo**
+- **20 - Chequeos programados de mantenimiento**
+- **50 - Chequeos no programados de mantenimiento**
+- **06 - Dimensiones y Áreas**
+- **07 - Elevación y Apuntalamiento (Lifting & Shoring)**
+- **08 - Nivelación y Pesaje (Leveling & Weighing)**
+- **09 - Remolque y Rodaje (Towing & Taxiing)**
+- **10 - Parqueo, Amarre, Almacenamiento y Retorno a Servicio**
 
 ##### **2. Sección Sistemas de la Aeronave**
 
-1. **20 - Prácticas Estándar de la Aeronave**
-2. **21 - Aire Acondicionado**
-3. **22 - Vuelo Automático (Auto Flight)**
-4. **23 - Comunicaciones**
-5. **24 - Energía Eléctrica**
-6. **25 - Equipos y Mobiliario**
-7. **26 - Protección Contra Incendios**
-8. **27 - Controles de Vuelo**
-9. **28 - Combustible**
-10. **29 - Potencia Hidráulica**
-11. **30 - Protección Contra Hielo y Lluvia**
-12. **31 - Sistemas de Indicadores / Grabadores**
-13. **32 - Tren de Aterrizaje**
-14. **33 - Luces**
-15. **34 - Navegación**
-16. **35 - Oxígeno**
-17. **36 - Sistemas Neumáticos**
-18. **37 - Sistemas de Vacío**
-19. **38 - Agua y Residuos**
-20. **39 - Paneles Eléctricos y Electrónicos / Compartimentos**
+- **20 - Prácticas Estándar de la Aeronave**
+- **21 - Aire Acondicionado**
+- **22 - Vuelo Automático (Auto Flight)**
+- **23 - Comunicaciones**
+- **24 - Energía Eléctrica**
+- **25 - Equipos y Mobiliario**
+- **26 - Protección Contra Incendios**
+- **27 - Controles de Vuelo**
+- **28 - Combustible**
+- **29 - Potencia Hidráulica**
+- **30 - Protección Contra Hielo y Lluvia**
+- **31 - Sistemas de Indicadores / Grabadores**
+- **32 - Tren de Aterrizaje**
+- **33 - Luces**
+- **34 - Navegación**
+- **35 - Oxígeno**
+- **36 - Sistemas Neumáticos**
+- **37 - Sistemas de Vacío**
+- **38 - Agua y Residuos**
+- **39 - Paneles Eléctricos y Electrónicos / Compartimentos**
 
 ##### **3. Sección Estructuras**
 
-1. **50 - Compartimentos de Carga y Accesorios**
-2. **51 - Prácticas Estándar y Estructuras Generales**
-3. **52 - Puertas**
-4. **53 - Fuselaje**
-5. **54 - Nacelles y Pylons**
-6. **55 - Estabilizadores**
-7. **56 - Ventanas**
-8. **57 - Alas**
+- **50 - Compartimentos de Carga y Accesorios**
+- **51 - Prácticas Estándar y Estructuras Generales**
+- **52 - Puertas**
+- **53 - Fuselaje**
+- **54 - Nacelles y Pylons**
+- **55 - Estabilizadores**
+- **56 - Ventanas**
+- **57 - Alas**
 
 ##### **4. Sección Propulsión**
 
-1. **70 - Prácticas Estándar del Motor**
-2. **71 - Planta de Potencia General**
-3. **72 - Motores (Turbina / Hélice / Reciprocante)**
-4. **73 - Combustible del Motor**
-5. **74 - Encendido**
-6. **75 - Aire del Motor**
-7. **76 - Controles del Motor**
-8. **77 - Indicadores del Motor**
-9. **78 - Escape**
-10. **79 - Aceite**
-11. **80 - Arranque**
+- **70 - Prácticas Estándar del Motor**
+- **71 - Planta de Potencia General**
+- **72 - Motores (Turbina / Hélice / Reciprocante)**
+- **73 - Combustible del Motor**
+- **74 - Encendido**
+- **75 - Aire del Motor**
+- **76 - Controles del Motor**
+- **77 - Indicadores del Motor**
+- **78 - Escape**
+- **79 - Aceite**
+- **80 - Arranque**
 
 ##### **5. Sistemas Complementarios**
 
-1. **42 - Aviónica Modular Integrada**
-2. **44 - Sistemas de Cabina**
-3. **45 - Sistema de Mantenimiento Centralizado (CMS)**
-4. **46 - Sistemas de Información**
-5. **49 - Potencia Auxiliar a Bordo**
-6. **91 - Gráficos**
-7. **97 - Reportes de Cableado**
-
-# **Notas y Comentarios**
-
-- **Comentarios Generales:**
-  - Asegurar que todas las secciones estén completamente desarrolladas antes de la publicación final.
-  - Revisar la consistencia en el uso de términos y acrónimos a lo largo del documento.
-
-- **Sugerencias de Mejora:**
-  - Incorporar diagramas adicionales para visualizar mejor los procesos descritos.
-  - Implementar enlaces a documentos externos relevantes para mayor referencia.
-
-- **Recomendaciones Técnicas:**
-  - Utilizar plantillas estandarizadas para mantener la uniformidad en la documentación.
-  - Implementar un sistema de versionado para rastrear cambios y actualizaciones en el documento.
+- **42 - Aviónica Modular Integrada**
+- **44 - Sistemas de Cabina**
+- **45 - Sistema de Mantenimiento Centralizado (CMS)**
+- **46 - Sistemas de Información**
+- **49 - Potencia Auxiliar a Bordo**
+- **91 - Gráficos**
+- **97 - Reportes de Cableado**
 
 ---
 
 # **Glosario de Acrónimos**
 
-## **Acrónimos Utilizados en la Documentación**
-
-| **Acrónimo** | **Significado**                                       | **Descripción**                                                                                                                                                                     |
-|--------------|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **AGI**      | Inteligencia Artificial General                       | Un tipo de inteligencia artificial que puede entender, aprender y aplicar conocimientos de manera general.                                                                          |
-| **API**      | Interfaz de Programación de Aplicaciones              | Conjunto de reglas y protocolos para construir e interactuar con software y aplicaciones.                                                                                           |
-| **AWM**      | Aircraft Wiring Manual                                | Manual que detalla el cableado de aeronaves, incluyendo diagramas y especificaciones técnicas.                                                                                        |
-| **ASM**      | Aircraft Systems Manual                                | Manual que describe los sistemas de una aeronave, sus funciones y procedimientos operativos.                                                                                         |
-| **AWL**      | Aircraft Wiring List                                   | Lista detallada de todos los cables y conexiones en el sistema de cableado de una aeronave.                                                                                           |
-| **AMM**      | Aircraft Maintenance Manual                            | Manual que proporciona instrucciones detalladas para el mantenimiento y reparación de aeronaves.                                                                                        |
-| **TSM**      | Troubleshooting Manual                                 | Manual que ofrece procedimientos para identificar y resolver problemas técnicos en los sistemas de la aeronave.                                                                          |
-| **FCOM**     | Flight Crew Operating Manual                           | Manual que contiene información operativa y procedimientos para la tripulación de vuelo.                                                                                                |
-| **IPC**      | Illustrated Parts Catalogue                            | Catálogo que muestra visualmente las partes de una aeronave, facilitando su identificación y localización.                                                                               |
-| **CMM**      | Component Maintenance Manual                           | Manual que detalla los procedimientos de mantenimiento para componentes específicos de la aeronave.                                                                                      |
-| **SDN**      | System Description Note                                | Documento que describe las características y funcionalidades de un sistema específico dentro de la aeronave.                                                                             |
-| **ESDN**     | Enhanced System Description Note                       | Versión mejorada del SDN que incluye detalles adicionales para una comprensión más profunda del sistema.                                                                                 |
-| **DAL**      | Design Assurance Level                                 | Nivel de aseguramiento de diseño requerido para garantizar la seguridad y confiabilidad del sistema.                                                                                    |
-| **RBAC**     | Control de Acceso Basado en Roles                      | Método de restringir el acceso a recursos del sistema basándose en los roles de los usuarios dentro de una organización.                                                                  |
-| **ML**       | Machine Learning                                       | Subcampo de la inteligencia artificial que se centra en el desarrollo de algoritmos que permiten a las máquinas aprender de los datos.                                                   |
-| **CI/CD**    | Integración Continua y Despliegue Continuo             | Prácticas de desarrollo de software donde los cambios se integran y despliegan de manera frecuente y automática.                                                                           |
-| **MQTT**     | Message Queuing Telemetry Transport                     | Protocolo de mensajería ligero utilizado para la transmisión de datos de sensores en tiempo real.                                                                                        |
-| **ESD**      | Electrostatic Discharge                                | Descarga electrostática que puede dañar componentes electrónicos sensibles.                                                                                                         |
-| **SDD**      | System Description Document                            | Documento que describe detalladamente los sistemas de una aeronave, incluyendo su arquitectura y diseño.                                                                                |
-| **ECAM**     | Electronic Centralized Aircraft Monitor                 | Sistema que proporciona información en tiempo real sobre el estado de los sistemas críticos de la aeronave.                                                                               |
-| **ELK Stack**| Elasticsearch, Logstash, Kibana                         | Conjunto de herramientas utilizadas para la gestión y visualización de logs y monitoreo de sistemas.                                                                                     |
-| **AWS SNS**  | Amazon Web Services Simple Notification Service        | Servicio de notificaciones gestionado que facilita la comunicación entre diferentes servicios y aplicaciones.                                                                           |
-| **Twilio**   | Twilio                                                 | Plataforma de comunicación que permite enviar y recibir mensajes y llamadas a través de APIs.                                                                                           |
-| **Apache Kafka**| Apache Kafka                                       | Plataforma distribuida de transmisión de datos en tiempo real utilizada para construir pipelines de datos y aplicaciones de streaming.                                                  |
-| **TensorFlow**| TensorFlow                                           | Biblioteca de código abierto para machine learning desarrollada por Google.                                                                                                         |
-| **PyTorch**  | PyTorch                                                | Biblioteca de machine learning de código abierto desarrollada por Facebook.                                                                                                         |
-| **Redis**    | Redis                                                   | Almacén de estructura de datos en memoria utilizado como base de datos, caché y agente de mensajes.                                                                                     |
-| **RabbitMQ** | RabbitMQ                                               | Broker de mensajes que implementa el protocolo AMQP, utilizado para manejar colas de mensajes.                                                                                        |
-| **Prometheus**| Prometheus                                           | Sistema de monitoreo y alerta de código abierto diseñado para registrar métricas en tiempo real.                                                                                         |
-| **Grafana**  | Grafana                                                | Plataforma de análisis y monitoreo de código abierto que permite crear dashboards interactivos.                                                                                         |
-| **Ansible**  | Ansible                                                | Herramienta de automatización de TI que facilita la gestión de configuraciones y despliegues de aplicaciones.                                                                             |
-| **Puppet**   | Puppet                                                 | Herramienta de gestión de configuración que automatiza la administración de infraestructuras de TI.                                                                                     |
-| **Jest**     | Jest                                                   | Framework de pruebas de JavaScript utilizado para realizar pruebas unitarias y de integración.                                                                                          |
-| **PyTest**   | PyTest                                                 | Framework de pruebas de Python utilizado para realizar pruebas unitarias y funcionales.                                                                                                |
-| **Postman**  | Postman                                                | Herramienta de colaboración para desarrollo de APIs que facilita las pruebas y el desarrollo de servicios.                                                                               |
-| **Selenium** | Selenium                                               | Herramienta de automatización para pruebas de aplicaciones web, permitiendo la simulación de interacciones de usuarios.                                                                    |
-| **GBD**      | Gaia Bill of Directives                                | Documento fundamental que establece las directrices y normativas para el desarrollo y operación de GAIA AIR.                                                                              |
-
-## **Acrónimos Adicionales Recomendados**
-
-| **Acrónimo** | **Significado**                                       | **Descripción**                                                                                                                                                                     |
-|--------------|-------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **HMI**      | Human-Machine Interface                                | Interfaz que facilita la interacción entre los operadores humanos y los sistemas automatizados.                                                                                     |
-| **PLC**      | Programmable Logic Controller                          | Dispositivo industrial utilizado para la automatización de procesos electromecánicos.                                                                                              |
-| **RTOS**     | Real-Time Operating System                             | Sistema operativo diseñado para manejar aplicaciones que requieren procesamiento en tiempo real.                                                                                   |
-| **CAD**      | Computer-Aided Design                                   | Uso de software para crear, modificar, analizar o optimizar diseños.                                                                                                                 |
-| **CAE**      | Computer-Aided Engineering                              | Uso de software para la simulación y análisis de ingeniería.                                                                                                                       |
-| **CMMS**     | Computerized Maintenance Management System            | Sistema de software que ayuda en la planificación, seguimiento y optimización de las actividades de mantenimiento.                                                                   |
-| **BOM**      | Bill of Materials                                       | Lista detallada de las materias primas, subcomponentes, componentes intermedios, ensamblajes y piezas necesarias para fabricar un producto.                                         |
-| **ERP**      | Enterprise Resource Planning                            | Sistema de gestión empresarial que integra todas las facetas de una operación, incluyendo planificación, manufactura, ventas y marketing.                                            |
-| **KPI**      | Key Performance Indicator                               | Métricas utilizadas para evaluar el éxito de una organización o de una actividad particular en la que está involucrada.                                                              |
-| **SLA**      | Service Level Agreement                                 | Acuerdo entre un proveedor de servicios y un cliente que especifica el nivel de servicio esperado.                                                                                   |
-| **UAV**      | Unmanned Aerial Vehicle                                 | Vehículo aéreo no tripulado utilizado para diversas aplicaciones, incluyendo vigilancia y entrega de mercancías.                                                                      |
-| **OTA**      | Over-The-Air                                            | Método de distribución de actualizaciones de software y firmware a dispositivos electrónicos sin necesidad de una conexión física.                                                   |
-| **VR/AR**    | Virtual Reality/Augmented Reality                       | Tecnologías que crean entornos simulados o aumentan el entorno real con información digital.                                                                                          |
-| **IoT**      | Internet of Things                                       | Red de dispositivos físicos, vehículos, electrodomésticos y otros elementos incorporados con electrónica, software, sensores y conectividad que les permite conectarse e intercambiar datos. |
-| **DCS**      | Distributed Control System                               | Sistema de control industrial que distribuye las tareas de control a varios controladores locales conectados por una red.                                                            |
-| **MES**      | Manufacturing Execution System                           | Sistema que gestiona y monitorea el trabajo en planta, desde la recepción de órdenes de producción hasta la entrega de productos terminados.                                             |
-| **FMEA**     | Failure Modes and Effects Analysis                      | Método sistemático para identificar posibles fallas en un sistema y sus efectos, con el fin de priorizar acciones preventivas.                                                        |
-| **DFMEA**    | Design Failure Modes and Effects Analysis               | Variante de FMEA enfocada en el diseño de productos para identificar y mitigar fallos potenciales en etapas tempranas del desarrollo.                                                 |
-| **PFMEA**    | Process Failure Modes and Effects Analysis              | Variante de FMEA enfocada en los procesos de fabricación para identificar y mitigar fallos potenciales en las etapas de producción.                                                    |
+| **Acrónimo** | **Significado**                                   | **Descripción**                                                                                      |
+|--------------|---------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| **AGI**      | Inteligencia Artificial General                   | Un tipo de inteligencia artificial que puede entender, aprender y aplicar conocimientos de manera general. |
+| **API**      | Interfaz de Programación de Aplicaciones           | Conjunto de reglas y protocolos para construir e interactuar con software y aplicaciones.           |
+| **AWM**      | Aircraft Wiring Manual                             | Manual que detalla el cableado de aeronaves, incluyendo diagramas y especificaciones técnicas.        |
+| **ASM**      | Aircraft Systems Manual                            | Manual que describe los sistemas de una aeronave, sus funciones y procedimientos operativos.        |
+| **AWL**      | Aircraft Wiring List                               | Lista detallada de todos los cables y conexiones en el sistema de cableado de una aeronave.          |
+| **AMM**      | Aircraft Maintenance Manual                        | Manual que proporciona instrucciones detalladas para el mantenimiento y reparación de aeronaves.     |
+| **TSM**      | Troubleshooting Manual                             | Manual que ofrece procedimientos para identificar y resolver problemas técnicos en los sistemas de la aeronave. |
+| **FCOM**     | Flight Crew Operating Manual                       | Manual que contiene información operativa y procedimientos para la tripulación de vuelo.             |
+| **IPC**      | Illustrated Parts Catalogue                        | Catálogo que muestra visualmente las partes de una aeronave, facilitando su identificación y localización. |
+| **CMM**      | Component Maintenance Manual                       | Manual que detalla los procedimientos de mantenimiento para componentes específicos de la aeronave.  |
+| **SDN**      | System Description Note                            | Documento que describe las características y funcionalidades de un sistema específico dentro de la aeronave. |
+| **ESDN**     | Enhanced System Description Note                   | Versión mejorada del SDN que incluye detalles adicionales para una comprensión más profunda del sistema. |
+| **DAL**      | Design Assurance Level                             | Nivel de aseguramiento de diseño requerido para garantizar la seguridad y confiabilidad del sistema. |
+| **RBAC**     | Control de Acceso Basado en Roles                  | Método de restringir el acceso a recursos del sistema basándose en los roles de los usuarios dentro de una organización. |
+| **ML**       | Machine Learning                                   | Subcampo de la inteligencia artificial que se centra en el desarrollo de algoritmos que permiten a las máquinas aprender de los datos. |
+| **CI/CD**    | Integración Continua y Despliegue Continuo          | Prácticas de desarrollo de software donde los cambios se integran y despliegan de manera frecuente y automática. |
+| **MQTT**     | Message Queuing Telemetry Transport                 | Protocolo de mensajería ligero utilizado para la transmisión de datos de sensores en tiempo real.    |
+| **ESD**      | Electrostatic Discharge                            | Descarga electrostática que puede dañar componentes electrónicos sensibles.                          |
+| **SDD**      | System Description Document                         | Documento que describe detalladamente los sistemas de una aeronave, incluyendo su arquitectura y diseño. |
+| **ECAM**     | Electronic Centralized Aircraft Monitor            | Sistema que proporciona información en tiempo real sobre el estado de los sistemas críticos de la aeronave. |
+| **ELK Stack**| Elasticsearch, Logstash, Kibana                     | Conjunto de herramientas utilizadas para la gestión y visualización de logs y monitoreo de sistemas.  |
+| **AWS SNS**  | Amazon Web Services Simple Notification Service     | Servicio de notificaciones gestionado que facilita la comunicación entre diferentes servicios y aplicaciones. |
+| **Twilio**   | Twilio                                              | Plataforma de comunicación que permite enviar y recibir mensajes y llamadas a través de APIs.         |
+| **Apache Kafka** | Apache Kafka                                    | Plataforma distribuida de transmisión de datos en tiempo real utilizada para construir pipelines de datos y aplicaciones de streaming. |
+| **TensorFlow** | TensorFlow                                      | Biblioteca de código abierto para machine learning desarrollada por Google.                           |
+| **PyTorch**  | PyTorch                                             | Biblioteca de machine learning de código abierto desarrollada por Facebook.                           |
+| **Redis**    | Redis                                               | Almacén de estructura de datos en memoria utilizado como base de datos, caché y agente de mensajes.   |
+| **RabbitMQ** | RabbitMQ                                            | Broker de mensajes que implementa el protocolo AMQP, utilizado para manejar colas de mensajes.        |
+| **Prometheus** | Prometheus                                       | Sistema de monitoreo y alerta de código abierto diseñado para registrar métricas en tiempo real.       |
+| **Grafana**  | Grafana                                             | Plataforma de análisis y monitoreo de código abierto que permite crear dashboards interactivos.        |
+| **Ansible**  | Ansible                                             | Herramienta de automatización de TI que facilita la gestión de configuraciones y despliegues de aplicaciones. |
+| **Puppet**   | Puppet                                              | Herramienta de gestión de configuración que automatiza la administración de infraestructuras de TI.    |
+| **Jest**     | Jest                                                | Framework de pruebas de JavaScript utilizado para realizar pruebas unitarias y de integración.          |
+| **PyTest**   | PyTest                                              | Framework de pruebas de Python utilizado para realizar pruebas unitarias y funcionales.                |
+| **Postman**  | Postman                                             | Herramienta de colaboración para desarrollo de APIs que facilita las pruebas y el desarrollo de servicios. |
+| **Selenium** | Selenium                                            | Herramienta de automatización para pruebas de aplicaciones web, permitiendo la simulación de interacciones de usuarios. |
+| **GBD**      | Gaia Bill of Directives                             | Documento fundamental que establece las directrices y normativas para el desarrollo y operación de **GAIA AIR**. |
+| **HMI**      | Human-Machine Interface                             | Interfaz que facilita la interacción entre los operadores humanos y los sistemas automatizados.        |
+| **PLC**      | Programmable Logic Controller                       | Dispositivo industrial utilizado para la automatización de procesos electromecánicos.                   |
+| **RTOS**     | Real-Time Operating System                          | Sistema operativo diseñado para manejar aplicaciones que requieren procesamiento en tiempo real.        |
+| **CAD**      | Computer-Aided Design                                | Uso de software para crear, modificar, analizar o optimizar diseños.                                   |
+| **CAE**      | Computer-Aided Engineering                           | Uso de software para la simulación y análisis de ingeniería.                                         |
+| **CMMS**     | Computerized Maintenance Management System          | Sistema de software que ayuda en la planificación, seguimiento y optimización de las actividades de mantenimiento. |
+| **BOM**      | Bill of Materials                                    | Lista detallada de las materias primas, subcomponentes, componentes intermedios, ensamblajes y piezas necesarias para fabricar un producto. |
+| **ERP**      | Enterprise Resource Planning                         | Sistema de gestión empresarial que integra todas las facetas de una operación, incluyendo planificación, manufactura, ventas y marketing. |
+| **KPI**      | Key Performance Indicator                           | Métricas utilizadas para evaluar el éxito de una organización o de una actividad particular en la que está involucrada. |
+| **SLA**      | Service Level Agreement                              | Acuerdo entre un proveedor de servicios y un cliente que especifica el nivel de servicio esperado.      |
+| **UAV**      | Unmanned Aerial Vehicle                              | Vehículo aéreo no tripulado utilizado para diversas aplicaciones, incluyendo vigilancia y entrega de mercancías. |
+| **OTA**      | Over-The-Air                                        | Método de distribución de actualizaciones de software y firmware a dispositivos electrónicos sin necesidad de una conexión física. |
+| **VR/AR**    | Virtual Reality/Augmented Reality                    | Tecnologías que crean entornos simulados o aumentan el entorno real con información digital.            |
+| **IoT**      | Internet of Things                                   | Red de dispositivos físicos, vehículos, electrodomésticos y otros elementos incorporados con electrónica, software, sensores y conectividad que les permite conectarse e intercambiar datos. |
+| **DCS**      | Distributed Control System                           | Sistema de control industrial que distribuye las tareas de control a varios controladores locales conectados por una red. |
+| **MES**      | Manufacturing Execution System                       | Sistema que gestiona y monitorea el trabajo en planta, desde la recepción de órdenes de producción hasta la entrega de productos terminados. |
+| **FMEA**     | Failure Modes and Effects Analysis                   | Método sistemático para identificar posibles fallas en un sistema y sus efectos, con el fin de priorizar acciones preventivas. |
+| **DFMEA**    | Design Failure Modes and Effects Analysis            | Variante de FMEA enfocada en el diseño de productos para identificar y mitigar fallos potenciales en etapas tempranas del desarrollo. |
+| **PFMEA**    | Process Failure Modes and Effects Analysis           | Variante de FMEA enfocada en los procesos de fabricación para identificar y mitigar fallos potenciales en las etapas de producción. |
 
 ---
 
@@ -1241,7 +1202,7 @@ Este capítulo proporciona una visión general de los capítulos ATA 100 / I-SPE
 
 3. **Automatizar la Actualización del Glosario:**
    - **Acción:** Considera el uso de scripts o herramientas que escaneen tu documentación en busca de acrónimos y sugieran actualizaciones al glosario.
-   - **Herramientas Sugeridas:** Utiliza herramientas como **Markdownlint** para mantener la consistencia en el uso de acrónimos.
+   - **Herramientas Sugeridas:** Utiliza herramientas como Markdownlint para mantener la consistencia en el uso de acrónimos.
 
 4. **Formación y Capacitación:**
    - **Acción:** Proporciona formación al equipo sobre la importancia de mantener el glosario actualizado y cómo utilizarlo eficazmente.
@@ -1252,7 +1213,7 @@ Este capítulo proporciona una visión general de los capítulos ATA 100 / I-SPE
    - **Frecuencia Recomendada:** Cada trimestre o al finalizar cada fase del proyecto.
 
 6. **Incorporar el Glosario en Herramientas de Documentación:**
-   - **Acción:** Si utilizas herramientas como **MkDocs** o **Docusaurus**, integra el glosario como una página adicional que sea fácil de navegar.
+   - **Acción:** Si utilizas herramientas como MkDocs o Docusaurus, integra el glosario como una página adicional que sea fácil de navegar.
    - **Ejemplo para MkDocs:**
      ```yaml
      nav:
@@ -1269,26 +1230,27 @@ Este capítulo proporciona una visión general de los capítulos ATA 100 / I-SPE
    - **Beneficio:** Permite mejoras continuas basadas en la experiencia real de los usuarios.
 
 8. **Actualizar Todas las Referencias de ABD a GBD:**
-   - **Acción:** Reemplaza todas las instancias de **ABD** por **GBD** en todo el documento para mantener la coherencia.
+   - **Acción:** Reemplaza todas las instancias de ABD por GBD en todo el documento para mantener la coherencia.
    - **Herramientas Sugeridas:** Utiliza la función de "Buscar y Reemplazar" en tu editor de texto para realizar este cambio de manera eficiente.
 
 ---
 
 # **Notas y Comentarios**
 
-*(Esta sección está destinada exclusivamente a comentarios, sugerencias y notas sobre el documento. No forma parte del contenido oficial del DPOC.)*
+**Comentarios Generales:**
 
-- **Comentarios Generales:**
-  - Asegurar que todas las secciones estén completamente desarrolladas antes de la publicación final.
-  - Revisar la consistencia en el uso de términos y acrónimos a lo largo del documento.
-  
-- **Sugerencias de Mejora:**
-  - Incorporar diagramas adicionales para visualizar mejor los procesos descritos.
-  - Implementar enlaces a documentos externos relevantes para mayor referencia.
-  
-- **Recomendaciones Técnicas:**
-  - Utilizar plantillas estandarizadas para mantener la uniformidad en la documentación.
-  - Implementar un sistema de versionado para rastrear cambios y actualizaciones en el documento.
+- Asegurar que todas las secciones estén completamente desarrolladas antes de la publicación final.
+- Revisar la consistencia en el uso de términos y acrónimos a lo largo del documento.
+
+**Sugerencias de Mejora:**
+
+- Incorporar diagramas adicionales para visualizar mejor los procesos descritos.
+- Implementar enlaces a documentos externos relevantes para mayor referencia.
+
+**Recomendaciones Técnicas:**
+
+- Utilizar plantillas estandarizadas para mantener la uniformidad en la documentación.
+- Implementar un sistema de versionado para rastrear cambios y actualizaciones en el documento.
 
 ---
 
@@ -1301,12 +1263,12 @@ Para cualquier duda adicional o para contribuir al desarrollo de este documento,
 **¡Gracias por tu atención y colaboración continua en GAIA AIR! 🚀**
 
 ---
-```
+
 # **Anexos**
 
 ## **Gaia Bill of Directives (GBD) - Guía para Diseño, Operaciones y Mantenimiento Sostenible**
 
-Este anexo proporciona una descripción detallada del enfoque de GAIA AIR hacia el diseño, operaciones y mantenimiento con énfasis en soluciones sostenibles y responsables.
+Este anexo proporciona una descripción detallada del enfoque de **GAIA AIR** hacia el diseño, operaciones y mantenimiento con énfasis en soluciones sostenibles y responsables.
 
 ### **Propósito**
 
@@ -1364,10 +1326,10 @@ Este sistema está diseñado para:
 
 ### **Áreas de Aplicación**
 
-1. **Diseño y desarrollo sostenible**: Métodos innovadores para integrar tecnologías verdes en sistemas aeronáuticos.
-2. **Mantenimiento ambientalmente responsable**: Herramientas predictivas para minimizar impacto ambiental.
-3. **Gestión de proyectos complejos con foco verde**: Algoritmos cuánticos para optimizar recursos energéticos.
-4. **Publicaciones técnicas y formación eco-responsable**: Documentos y gráficos que destacan enfoques sostenibles.
+1. **Diseño y desarrollo sostenible:** Métodos innovadores para integrar tecnologías verdes en sistemas aeronáuticos.
+2. **Mantenimiento ambientalmente responsable:** Herramientas predictivas para minimizar impacto ambiental.
+3. **Gestión de proyectos complejos con foco verde:** Algoritmos cuánticos para optimizar recursos energéticos.
+4. **Publicaciones técnicas y formación eco-responsable:** Documentos y gráficos que destacan enfoques sostenibles.
 
 ### **Ejemplos de Solicitudes**
 
@@ -1378,10 +1340,143 @@ Este sistema está diseñado para:
 
 ---
 
-# **Notas Adicionales**
+# **Glosario de Acrónimos**
 
-La integración de los contenidos proporcionados en este documento busca ofrecer una guía exhaustiva y detallada que abarque todos los aspectos críticos del proyecto **GAIA AIR**. Se ha incorporado la información de los capítulos ATA relevantes, los DMCs específicos de la versión Long Range (-A) y las directrices para el diseño sostenible y la utilización de tecnologías avanzadas.
+| **Acrónimo** | **Significado**                                   | **Descripción**                                                                                      |
+|--------------|---------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| **AGI**      | Inteligencia Artificial General                   | Un tipo de inteligencia artificial que puede entender, aprender y aplicar conocimientos de manera general. |
+| **API**      | Interfaz de Programación de Aplicaciones           | Conjunto de reglas y protocolos para construir e interactuar con software y aplicaciones.           |
+| **AWM**      | Aircraft Wiring Manual                             | Manual que detalla el cableado de aeronaves, incluyendo diagramas y especificaciones técnicas.        |
+| **ASM**      | Aircraft Systems Manual                            | Manual que describe los sistemas de una aeronave, sus funciones y procedimientos operativos.        |
+| **AWL**      | Aircraft Wiring List                               | Lista detallada de todos los cables y conexiones en el sistema de cableado de una aeronave.          |
+| **AMM**      | Aircraft Maintenance Manual                        | Manual que proporciona instrucciones detalladas para el mantenimiento y reparación de aeronaves.     |
+| **TSM**      | Troubleshooting Manual                             | Manual que ofrece procedimientos para identificar y resolver problemas técnicos en los sistemas de la aeronave. |
+| **FCOM**     | Flight Crew Operating Manual                       | Manual que contiene información operativa y procedimientos para la tripulación de vuelo.             |
+| **IPC**      | Illustrated Parts Catalogue                        | Catálogo que muestra visualmente las partes de una aeronave, facilitando su identificación y localización. |
+| **CMM**      | Component Maintenance Manual                       | Manual que detalla los procedimientos de mantenimiento para componentes específicos de la aeronave.  |
+| **SDN**      | System Description Note                            | Documento que describe las características y funcionalidades de un sistema específico dentro de la aeronave. |
+| **ESDN**     | Enhanced System Description Note                   | Versión mejorada del SDN que incluye detalles adicionales para una comprensión más profunda del sistema. |
+| **DAL**      | Design Assurance Level                             | Nivel de aseguramiento de diseño requerido para garantizar la seguridad y confiabilidad del sistema. |
+| **RBAC**     | Control de Acceso Basado en Roles                  | Método de restringir el acceso a recursos del sistema basándose en los roles de los usuarios dentro de una organización. |
+| **ML**       | Machine Learning                                   | Subcampo de la inteligencia artificial que se centra en el desarrollo de algoritmos que permiten a las máquinas aprender de los datos. |
+| **CI/CD**    | Integración Continua y Despliegue Continuo          | Prácticas de desarrollo de software donde los cambios se integran y despliegan de manera frecuente y automática. |
+| **MQTT**     | Message Queuing Telemetry Transport                 | Protocolo de mensajería ligero utilizado para la transmisión de datos de sensores en tiempo real.    |
+| **ESD**      | Electrostatic Discharge                            | Descarga electrostática que puede dañar componentes electrónicos sensibles.                          |
+| **SDD**      | System Description Document                         | Documento que describe detalladamente los sistemas de una aeronave, incluyendo su arquitectura y diseño. |
+| **ECAM**     | Electronic Centralized Aircraft Monitor            | Sistema que proporciona información en tiempo real sobre el estado de los sistemas críticos de la aeronave. |
+| **ELK Stack**| Elasticsearch, Logstash, Kibana                     | Conjunto de herramientas utilizadas para la gestión y visualización de logs y monitoreo de sistemas.  |
+| **AWS SNS**  | Amazon Web Services Simple Notification Service     | Servicio de notificaciones gestionado que facilita la comunicación entre diferentes servicios y aplicaciones. |
+| **Twilio**   | Twilio                                              | Plataforma de comunicación que permite enviar y recibir mensajes y llamadas a través de APIs.         |
+| **Apache Kafka** | Apache Kafka                                    | Plataforma distribuida de transmisión de datos en tiempo real utilizada para construir pipelines de datos y aplicaciones de streaming. |
+| **TensorFlow** | TensorFlow                                      | Biblioteca de código abierto para machine learning desarrollada por Google.                           |
+| **PyTorch**  | PyTorch                                             | Biblioteca de machine learning de código abierto desarrollada por Facebook.                           |
+| **Redis**    | Redis                                               | Almacén de estructura de datos en memoria utilizado como base de datos, caché y agente de mensajes.   |
+| **RabbitMQ** | RabbitMQ                                            | Broker de mensajes que implementa el protocolo AMQP, utilizado para manejar colas de mensajes.        |
+| **Prometheus** | Prometheus                                       | Sistema de monitoreo y alerta de código abierto diseñado para registrar métricas en tiempo real.       |
+| **Grafana**  | Grafana                                             | Plataforma de análisis y monitoreo de código abierto que permite crear dashboards interactivos.        |
+| **Ansible**  | Ansible                                             | Herramienta de automatización de TI que facilita la gestión de configuraciones y despliegues de aplicaciones. |
+| **Puppet**   | Puppet                                              | Herramienta de gestión de configuración que automatiza la administración de infraestructuras de TI.    |
+| **Jest**     | Jest                                                | Framework de pruebas de JavaScript utilizado para realizar pruebas unitarias y de integración.          |
+| **PyTest**   | PyTest                                              | Framework de pruebas de Python utilizado para realizar pruebas unitarias y funcionales.                |
+| **Postman**  | Postman                                             | Herramienta de colaboración para desarrollo de APIs que facilita las pruebas y el desarrollo de servicios. |
+| **Selenium** | Selenium                                            | Herramienta de automatización para pruebas de aplicaciones web, permitiendo la simulación de interacciones de usuarios. |
+| **GBD**      | Gaia Bill of Directives                             | Documento fundamental que establece las directrices y normativas para el desarrollo y operación de **GAIA AIR**. |
+| **HMI**      | Human-Machine Interface                             | Interfaz que facilita la interacción entre los operadores humanos y los sistemas automatizados.        |
+| **PLC**      | Programmable Logic Controller                       | Dispositivo industrial utilizado para la automatización de procesos electromecánicos.                   |
+| **RTOS**     | Real-Time Operating System                          | Sistema operativo diseñado para manejar aplicaciones que requieren procesamiento en tiempo real.        |
+| **CAD**      | Computer-Aided Design                                | Uso de software para crear, modificar, analizar o optimizar diseños.                                   |
+| **CAE**      | Computer-Aided Engineering                           | Uso de software para la simulación y análisis de ingeniería.                                         |
+| **CMMS**     | Computerized Maintenance Management System          | Sistema de software que ayuda en la planificación, seguimiento y optimización de las actividades de mantenimiento. |
+| **BOM**      | Bill of Materials                                    | Lista detallada de las materias primas, subcomponentes, componentes intermedios, ensamblajes y piezas necesarias para fabricar un producto. |
+| **ERP**      | Enterprise Resource Planning                         | Sistema de gestión empresarial que integra todas las facetas de una operación, incluyendo planificación, manufactura, ventas y marketing. |
+| **KPI**      | Key Performance Indicator                           | Métricas utilizadas para evaluar el éxito de una organización o de una actividad particular en la que está involucrada. |
+| **SLA**      | Service Level Agreement                              | Acuerdo entre un proveedor de servicios y un cliente que especifica el nivel de servicio esperado.      |
+| **UAV**      | Unmanned Aerial Vehicle                              | Vehículo aéreo no tripulado utilizado para diversas aplicaciones, incluyendo vigilancia y entrega de mercancías. |
+| **OTA**      | Over-The-Air                                        | Método de distribución de actualizaciones de software y firmware a dispositivos electrónicos sin necesidad de una conexión física. |
+| **VR/AR**    | Virtual Reality/Augmented Reality                    | Tecnologías que crean entornos simulados o aumentan el entorno real con información digital.            |
+| **IoT**      | Internet of Things                                   | Red de dispositivos físicos, vehículos, electrodomésticos y otros elementos incorporados con electrónica, software, sensores y conectividad que les permite conectarse e intercambiar datos. |
+| **DCS**      | Distributed Control System                           | Sistema de control industrial que distribuye las tareas de control a varios controladores locales conectados por una red. |
+| **MES**      | Manufacturing Execution System                       | Sistema que gestiona y monitorea el trabajo en planta, desde la recepción de órdenes de producción hasta la entrega de productos terminados. |
+| **FMEA**     | Failure Modes and Effects Analysis                   | Método sistemático para identificar posibles fallas en un sistema y sus efectos, con el fin de priorizar acciones preventivas. |
+| **DFMEA**    | Design Failure Modes and Effects Analysis            | Variante de FMEA enfocada en el diseño de productos para identificar y mitigar fallos potenciales en etapas tempranas del desarrollo. |
+| **PFMEA**    | Process Failure Modes and Effects Analysis           | Variante de FMEA enfocada en los procesos de fabricación para identificar y mitigar fallos potenciales en las etapas de producción. |
 
-Si se requieren más ajustes o incorporaciones de contenido, por favor, indicar las secciones específicas a modificar o ampliar.
+---
+
+# **Próximos Pasos para la Implementación**
+
+1. **Revisar y Completar el Glosario:**
+   - **Acción:** Revisa el glosario actual y añade cualquier acrónimo adicional que se utilice en la documentación.
+   - **Herramientas Sugeridas:** Utiliza herramientas de búsqueda dentro de tu editor de texto para identificar acrónimos no definidos.
+
+2. **Integrar Enlaces Internos:**
+   - **Acción:** Asegúrate de que cada vez que se utilice un acrónimo en el texto, se incluya un enlace al glosario.
+   - **Ejemplo:**
+     ```markdown
+     El sistema utiliza **API** ([Interfaz de Programación de Aplicaciones](#api)) para la comunicación entre servicios.
+     ```
+
+3. **Automatizar la Actualización del Glosario:**
+   - **Acción:** Considera el uso de scripts o herramientas que escaneen tu documentación en busca de acrónimos y sugieran actualizaciones al glosario.
+   - **Herramientas Sugeridas:** Utiliza herramientas como Markdownlint para mantener la consistencia en el uso de acrónimos.
+
+4. **Formación y Capacitación:**
+   - **Acción:** Proporciona formación al equipo sobre la importancia de mantener el glosario actualizado y cómo utilizarlo eficazmente.
+   - **Beneficio:** Mejora la consistencia y reduce errores en la documentación técnica.
+
+5. **Revisión Periódica del Glosario:**
+   - **Acción:** Establece un calendario para revisar y actualizar el glosario regularmente.
+   - **Frecuencia Recomendada:** Cada trimestre o al finalizar cada fase del proyecto.
+
+6. **Incorporar el Glosario en Herramientas de Documentación:**
+   - **Acción:** Si utilizas herramientas como MkDocs o Docusaurus, integra el glosario como una página adicional que sea fácil de navegar.
+   - **Ejemplo para MkDocs:**
+     ```yaml
+     nav:
+       - Home: index.md
+       - Glosario de Acrónimos: glosario.md
+       - Parte 1: parte1.md
+       - Parte 2: parte2.md
+       - Parte 3: parte3.md
+     ```
+
+7. **Feedback de los Usuarios:**
+   - **Acción:** Recoge feedback de los usuarios sobre la claridad y utilidad del glosario.
+   - **Métodos:** Encuestas, sesiones de revisión, o comentarios directos.
+   - **Beneficio:** Permite mejoras continuas basadas en la experiencia real de los usuarios.
+
+8. **Actualizar Todas las Referencias de ABD a GBD:**
+   - **Acción:** Reemplaza todas las instancias de ABD por GBD en todo el documento para mantener la coherencia.
+   - **Herramientas Sugeridas:** Utiliza la función de "Buscar y Reemplazar" en tu editor de texto para realizar este cambio de manera eficiente.
+
+---
+
+# **Notas y Comentarios**
+
+**Comentarios Generales:**
+
+- Asegurar que todas las secciones estén completamente desarrolladas antes de la publicación final.
+- Revisar la consistencia en el uso de términos y acrónimos a lo largo del documento.
+
+**Sugerencias de Mejora:**
+
+- Incorporar diagramas adicionales para visualizar mejor los procesos descritos.
+- Implementar enlaces a documentos externos relevantes para mayor referencia.
+
+**Recomendaciones Técnicas:**
+
+- Utilizar plantillas estandarizadas para mantener la uniformidad en la documentación.
+- Implementar un sistema de versionado para rastrear cambios y actualizaciones en el documento.
+
+---
+
+# **Finalización**
+
+Este documento está diseñado para ser una guía completa y detallada para los diseñadores de sistemas en el proyecto **GAIA AIR** y **Robbbo-Tx AGI**. Asegura que todos los aspectos críticos del diseño, desarrollo, validación y mantenimiento sean abordados de manera estructurada y conforme a los estándares de la industria.
+
+Para cualquier duda adicional o para contribuir al desarrollo de este documento, por favor, contacta con el equipo de documentación a través de los canales proporcionados en la sección de **Contacto**.
+
+**¡Gracias por tu atención y colaboración continua en GAIA AIR! 🚀**
+
 ---
 
