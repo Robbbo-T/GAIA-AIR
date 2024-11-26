@@ -1,4 +1,3 @@
-```markdown
 # **Gaia Bill of Directives (GBD)**
 
 ## **Requirements and Guidelines for the System Designer**
