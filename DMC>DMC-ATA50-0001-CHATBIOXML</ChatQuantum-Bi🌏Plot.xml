@@ -1,3 +1,8 @@
+Para visualizar las ilustraciones referenciadas en el archivo XML, debes acceder a las URLs especificadas en las etiquetas `<iframe>`. Aquí tienes los enlaces directos a las ilustraciones:
+
+- [Diagrama Sankey: Flujo de Datos](https://github.com/Robbbo-T/GAIA-AIR/blob/main/DMC%3EDMC-ATA50-0001-CHATBIOXML%3C/sankey_diagram.html)
+- [Grafo de Capacidades](https://github.com/Robbbo-T/GAIA-AIR/blob/main/DMC%3EDMC-ATA50-0001-CHATBIOXML%3C/capacities_graph.html)
+
 <iframe src="sankey_diagram.html" width="800" height="600"></iframe>
 <iframe src="capacities_graph.html" width="800" height="600"></iframe>
 <!DOCTYPE html>
