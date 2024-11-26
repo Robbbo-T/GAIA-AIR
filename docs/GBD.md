@@ -523,7 +523,8 @@ La gestión efectiva de los datos fuente es esencial para la creación de public
 
 #### **CHAPTER 1 SYSTEM DEVELOPMENT**
 
-```markdown
+---
+
 ### **GBD0200.2.1 PART 2**
 
 #### **CHAPTER 1 SYSTEM DEVELOPMENT**
@@ -835,7 +836,236 @@ Para consultas o aportes adicionales, por favor, contacte al equipo responsable 
 
 ---
 
-```
+# **Part 3 - Documentation**
+
+## **GBD0200 MODULE**
+
+### **GBD0200.3.1 PART 3**
+
+#### **CHAPTER 1 DOCUMENTATION REQUIREMENTS**
+
+Este capítulo establece los requisitos para la documentación necesaria en el desarrollo y operación de sistemas para **GAIA AIR** y **Robbbo-Tx AGI**. Una documentación adecuada y completa es esencial para garantizar la calidad, la trazabilidad y el cumplimiento de las normativas aplicables.
+
+##### **1. Introducción**
+
+La documentación es un componente crítico en todo proyecto de ingeniería, proporcionando una referencia oficial que guía a los equipos de desarrollo, operación y mantenimiento. Este capítulo define los tipos de documentos requeridos, su contenido mínimo y las responsabilidades asociadas con su creación y mantenimiento.
+
+##### **2. Tipos de Documentación Requerida**
+
+La documentación requerida se clasifica en varias categorías:
+
+###### **2.1 Documentación de Requisitos**
+
+- **Especificación de Requisitos del Sistema (SRS):** Detalla los requisitos funcionales y no funcionales del sistema.
+- **Especificación de Requisitos de Software (SRS):** Describe los requisitos específicos del software a desarrollar.
+
+###### **2.2 Documentación de Diseño**
+
+- **Documento de Arquitectura del Sistema (SAD):** Describe la estructura general del sistema y sus componentes.
+- **Diseño Detallado del Software (SDD):** Proporciona detalles sobre el diseño de cada módulo de software.
+- **Esquemas y Diagramas:** Incluyen diagramas de bloques, diagramas de flujo, UML, entre otros.
+
+###### **2.3 Documentación de Desarrollo**
+
+- **Código Fuente:** Debe estar bien comentado y seguir las convenciones de codificación establecidas.
+- **Registros de Control de Versiones:** Historial de cambios en el código y la documentación.
+
+###### **2.4 Documentación de Pruebas**
+
+- **Plan de Pruebas:** Define el enfoque, los recursos y el cronograma para las actividades de prueba.
+- **Casos de Prueba:** Detallan los escenarios de prueba y los resultados esperados.
+- **Informes de Pruebas:** Documentan los resultados de las pruebas realizadas y cualquier issue encontrado.
+
+###### **2.5 Documentación de Gestión de Proyectos**
+
+- **Plan del Proyecto:** Incluye el alcance, cronograma, recursos y riesgos del proyecto.
+- **Informes de Progreso:** Proporcionan actualizaciones regulares sobre el estado del proyecto.
+
+###### **2.6 Documentación de Calidad**
+
+- **Plan de Calidad:** Define los estándares y procedimientos de calidad aplicables al proyecto.
+- **Registros de Auditoría:** Documentan los hallazgos y acciones tomadas durante las auditorías de calidad.
+
+###### **2.7 Documentación de Mantenimiento**
+
+- **Manual de Mantenimiento:** Instrucciones detalladas para el mantenimiento preventivo y correctivo.
+- **Historial de Mantenimiento:** Registro de todas las actividades de mantenimiento realizadas.
+
+###### **2.8 Documentación de Usuario**
+
+- **Manual de Usuario:** Guía para los usuarios finales sobre cómo operar el sistema.
+- **Guías de Referencia Rápida:** Materiales condensados para facilitar el uso diario del sistema.
+
+###### **2.9 Documentación de Seguridad**
+
+- **Análisis de Riesgos y Peligros (HRA):** Identifica y evalúa los riesgos asociados con el sistema.
+- **Plan de Seguridad del Sistema:** Describe las medidas de seguridad implementadas y procedimientos de respuesta.
+
+##### **3. Contenido Mínimo de los Documentos**
+
+Cada documento debe incluir, como mínimo:
+
+- **Portada:** Título, número de documento, versión, fecha y autor(es).
+- **Índice:** Listado de secciones y subsecciones con números de página.
+- **Historial de Revisiones:** Tabla con registro de cambios, fechas y responsables.
+- **Contenido Principal:** Información detallada según el propósito del documento.
+- **Anexos (si aplica):** Información adicional o complementaria.
+
+##### **4. Estándares y Normativas Aplicables**
+
+La documentación debe cumplir con los siguientes estándares:
+
+- **ISO/IEC/IEEE 15289:** Contenido de información para el ciclo de vida de sistemas y software.
+- **ISO 9001:** Sistemas de gestión de la calidad — Requisitos.
+- **ARP 4754A:** Directrices para el desarrollo de aeronaves civiles y sistemas.
+- **DO-178C:** Consideraciones de software en la certificación de sistemas y equipos aeronáuticos.
+- **DO-254:** Guía de aseguramiento de diseño para hardware electrónico aeronáutico.
+
+##### **5. Control y Gestión de Documentos**
+
+- **Identificación Unívoca:** Cada documento debe tener un código único que facilite su identificación y seguimiento.
+- **Control de Versiones:** Implementar un sistema de control de versiones para rastrear cambios y mantener la trazabilidad.
+- **Aprobación y Revisión:** Establecer procesos formales para la revisión y aprobación de documentos.
+- **Distribución y Acceso:** Definir niveles de acceso y asegurar que los documentos estén disponibles para las partes interesadas pertinentes.
+
+##### **6. Responsabilidades**
+
+- **Autores:** Son responsables de la creación y actualización del contenido de los documentos.
+- **Revisores:** Validan el contenido, verifican la conformidad con los estándares y proporcionan feedback.
+- **Gestor de Documentación:** Coordina el control de versiones, almacenamiento y distribución de los documentos.
+
+##### **7. Almacenamiento y Seguridad**
+
+- **Repositorios Centralizados:** Utilizar sistemas de gestión documental o repositorios compartidos para almacenar los documentos.
+- **Copias de Seguridad:** Implementar políticas de backup para prevenir la pérdida de información.
+- **Confidencialidad:** Asegurar que los documentos sensibles estén protegidos y solo accesibles por personal autorizado.
+
+##### **8. Actualización y Mantenimiento**
+
+- **Revisiones Periódicas:** Establecer un calendario para la revisión y actualización de los documentos.
+- **Registro de Cambios:** Documentar todas las modificaciones realizadas, incluyendo la razón del cambio y el autor.
+- **Comunicación de Cambios:** Notificar a las partes afectadas sobre actualizaciones significativas en la documentación.
+
+##### **9. Conclusión**
+
+Una documentación completa y bien gestionada es esencial para el éxito de **GAIA AIR** y **Robbbo-Tx AGI**. Cumplir con los requisitos establecidos en este capítulo garantiza la coherencia, calidad y confiabilidad de la información a lo largo del ciclo de vida del sistema.
+
+---
+
+### **GBD0200.3.2 PART 3**
+
+#### **CHAPTER 2 DOCUMENT FORMATS**
+
+Este capítulo define los formatos estándar para la creación y presentación de documentos en **GAIA AIR** y **Robbbo-Tx AGI**. El uso de formatos consistentes facilita la lectura, comprensión y gestión de la documentación.
+
+##### **1. Introducción**
+
+La estandarización de formatos de documentos asegura que toda la documentación cumpla con un conjunto de criterios de calidad y presentación. Esto mejora la comunicación entre equipos y asegura que la información sea fácilmente accesible y utilizable.
+
+##### **2. Formatos Estándar**
+
+###### **2.1 Formato de Archivo**
+
+- **Documentos de Texto:** Preferiblemente en formato **Microsoft Word (.docx)** o **LibreOffice Writer (.odt)**.
+- **Hojas de Cálculo:** Utilizar **Microsoft Excel (.xlsx)** o **LibreOffice Calc (.ods)**.
+- **Presentaciones:** Emplear **Microsoft PowerPoint (.pptx)** o **LibreOffice Impress (.odp)**.
+- **Documentos PDF:** Para distribuciones finales y versiones controladas, utilizar el formato **PDF/A** para asegurar la preservación a largo plazo.
+- **Archivos de Imagen:** Utilizar formatos **PNG** o **JPEG** para imágenes, gráficos y diagramas.
+
+###### **2.2 Estilos y Plantillas**
+
+- **Plantillas Corporativas:** Utilizar las plantillas oficiales de **GAIA AIR** para mantener una imagen coherente.
+- **Tipografía:** Fuente estándar **Arial** o **Calibri**, tamaño 11 o 12 para texto normal.
+- **Márgenes y Espaciado:** Márgenes de 2.5 cm en todos los lados, interlineado de 1.15.
+
+##### **3. Elementos de Formato**
+
+###### **3.1 Portada**
+
+- **Logo de GAIA AIR:** Incluir en la parte superior de la portada.
+- **Título del Documento:** Claro y descriptivo.
+- **Número de Documento y Versión:** Para control y trazabilidad.
+- **Fecha de Emisión:** Fecha en que se emite la versión actual del documento.
+- **Autor(es):** Nombre(s) del responsable(s) de la creación del documento.
+
+###### **3.2 Tabla de Contenidos**
+
+- Incluir una tabla de contenidos automática que refleje las secciones y subsecciones del documento.
+
+###### **3.3 Encabezados y Pies de Página**
+
+- **Encabezado:** Nombre del documento y número de página.
+- **Pie de Página:** Información de confidencialidad y propiedad intelectual, si aplica.
+
+###### **3.4 Estilos de Títulos**
+
+- **Título 1:** Fuente Arial, tamaño 16, negrita.
+- **Título 2:** Fuente Arial, tamaño 14, negrita.
+- **Título 3:** Fuente Arial, tamaño 12, negrita.
+- **Título 4:** Fuente Arial, tamaño 11, negrita.
+
+###### **3.5 Listas y Numeraciones**
+
+- Utilizar viñetas para listas no secuenciales.
+- Utilizar numeración para pasos o elementos secuenciales.
+
+###### **3.6 Tablas y Figuras**
+
+- **Tablas:** Numeradas secuencialmente (Tabla 1, Tabla 2, etc.), con título en la parte superior.
+- **Figuras:** Numeradas secuencialmente (Figura 1, Figura 2, etc.), con título en la parte inferior.
+- **Referencias en el Texto:** Hacer referencia a las tablas y figuras en el cuerpo del documento.
+
+###### **3.7 Notas y Referencias**
+
+- Incluir notas al pie para aclaraciones o referencias adicionales.
+- Citar fuentes externas según las normas APA o IEEE, según corresponda.
+
+##### **4. Nomenclatura de Archivos**
+
+- Utilizar un esquema consistente para nombrar archivos, que incluya:
+  - **Código del Documento:** Por ejemplo, GBD0200.
+  - **Título Abreviado:** Una breve descripción del contenido.
+  - **Versión:** Indicar la versión o número de revisión.
+  - **Fecha:** Formato AAAA-MM-DD para facilitar el ordenamiento.
+
+**Ejemplo:** GBD0200_DocumentationRequirements_v1.0_2024-01-15.docx
+
+##### **5. Accesibilidad y Legibilidad**
+
+- **Contraste Adecuado:** Asegurar que el texto sea legible con suficiente contraste respecto al fondo.
+- **Uso de Color:** No depender únicamente del color para transmitir información; combinar con formas o patrones.
+- **Texto Alternativo:** Incluir descripciones para imágenes y gráficos para facilitar la accesibilidad.
+
+##### **6. Idioma y Estilo**
+
+- **Idioma Oficial:** La documentación se redactará en **español**.
+- **Claridad y Concisión:** Utilizar un lenguaje claro, evitando ambigüedades.
+- **Voz Activa:** Preferir la voz activa sobre la pasiva para mayor claridad.
+- **Terminología Consistente:** Utilizar términos y definiciones consistentes a lo largo del documento, apoyándose en el glosario.
+
+##### **7. Revisión y Aprobación**
+
+- **Proceso de Revisión:** Establecer un proceso de revisión por pares antes de la aprobación final.
+- **Control de Cambios:** Registrar modificaciones y actualizaciones en el historial de revisiones.
+
+##### **8. Almacenamiento y Distribución**
+
+- **Ubicación Centralizada:** Almacenar los documentos en un repositorio accesible para los miembros autorizados del equipo.
+- **Control de Acceso:** Implementar permisos adecuados para proteger la información confidencial.
+- **Distribución Controlada:** Asegurar que solo las versiones aprobadas se distribuyan a las partes interesadas.
+
+##### **9. Actualización de Plantillas**
+
+- **Responsabilidad:** El equipo de gestión de documentación es responsable de mantener y actualizar las plantillas estándar.
+- **Comunicación de Cambios:** Notificar al equipo sobre actualizaciones en las plantillas o formatos para asegurar su adopción.
+
+##### **10. Conclusión**
+
+El uso de formatos estándar en la documentación contribuye a la eficiencia y eficacia en la comunicación dentro de **GAIA AIR** y **Robbbo-Tx AGI**. Siguiendo las directrices establecidas en este capítulo, se garantiza una presentación profesional y una gestión más sencilla de la documentación.
+
+---
+
+---
 
 ---
 
