@@ -1,4 +1,6 @@
+```markdown
 # **Gaia Bill of Directives (GBD)**
+
 ## **Requirements and Guidelines for the System Designer**
 
 ---
@@ -21,10 +23,6 @@
       - [CHAPTER 2 DESIGN PROCESS OVERVIEW](#chapter-2-design-process-overview)
 - [Part 1 - Product Related Requirements and Guidelines](#part-1---product-related-requirements-and-guidelines)
   - [GBD0200 MODULE](#gbd0200-module-1)
-    - [GBD0200.1.1 PART 1](#gbd020011-part-1)
-      - [CHAPTER 1 SYSTEM SPECIFICATION AND INTERFACES](#chapter-1-system-specification-and-interfaces)
-    - [GBD0200.1.2 PART 1](#gbd020012-part-1)
-      - [CHAPTER 2 GUIDELINES FOR EQUIPMENT/SYSTEM PURCHASER TECHNICAL SPECIFICATIONS](#chapter-2-guidelines-for-equipmentsystem-purchaser-technical-specifications)
     - [GBD0200.1.3 PART 1](#gbd020013-part-1)
       - [CHAPTER 3 SAFETY/RELIABILITY REQUIREMENTS](#chapter-3-safetyreliability-requirements)
     - [GBD0200.1.4 PART 1](#gbd020014-part-1)
@@ -41,23 +39,20 @@
       - [CHAPTER 3 SYSTEM VALIDATION](#chapter-3-system-validation)
     - [GBD0200.2.4 PART 2](#gbd020024-part-2)
       - [CHAPTER 4 SYSTEM VERIFICATION](#chapter-4-system-verification)
-    - [GBD0200.2.5 PART 2](#gbd020025-part-2)
-      - [CHAPTER 5 SUPPLIER/PURCHASER CO-ORDINATION](#chapter-5-supplierpurchaser-co-ordination)
-    - [GBD0200.2.6 PART 2](#gbd020026-part-2)
-      - [CHAPTER 6 CONFIGURATION MANAGEMENT](#chapter-6-configuration-management)
-    - [GBD0200.2.7 PART 2](#gbd020027-part-2)
-      - [CHAPTER 7 CERTIFICATION](#chapter-7-certification)
-    - [GBD0200.2.8 PART 2](#gbd020028-part-2)
-      - [CHAPTER 8 SYSTEM SUPPLIER](#chapter-8-system-supplier)
-    - [GBD0200.2.9 PART 2](#gbd020029-part-2)
-      - [CHAPTER 9 A/C REALISATION](#chapter-9-ac-realisation)
 - [Part 3 - Documentation](#part-3---documentation)
   - [GBD0200 MODULE](#gbd0200-module-3)
     - [GBD0200.3.1 PART 3](#gbd020031-part-3)
       - [CHAPTER 1 DOCUMENTATION REQUIREMENTS](#chapter-1-documentation-requirements)
     - [GBD0200.3.2 PART 3](#gbd020032-part-3)
       - [CHAPTER 2 DOCUMENT FORMATS](#chapter-2-document-formats)
+    - [GBD0200.3.3 PART 3](#gbd020033-part-3)
+      - [CHAPTER 3 DATA MODULES FOR GAIA AIR LONG RANGE (-A) VERSION](#chapter-3-data-modules-for-gaia-air-long-range--a-version)
+    - [GBD0200.3.4 PART 3](#gbd020034-part-3)
+      - [CHAPTER 4 ATA 100 / I-SPEC 2200 CHAPTERS](#chapter-4-ata-100--i-spec-2200-chapters)
 - [Glosario de Acrónimos](#glosario-de-acrónimos)
+- [Próximos Pasos para la Implementación](#próximos-pasos-para-la-implementación)
+- [Notas y Comentarios](#notas-y-comentarios)
+- [Finalización](#finalización)
 
 ---
 
@@ -69,46 +64,35 @@
 
 #### **CHAPTER 1 GENERAL**
 
-Bienvenido al **Gaia Bill of Directives (GBD)**, el documento que establece los requisitos y directrices para el diseñador del sistema en el proyecto **GAIA AIR** y **Robbbo-Tx AGI**. Este capítulo proporciona una visión general de los objetivos, el alcance y las responsabilidades asociadas con el diseño y desarrollo de sistemas dentro del marco de GAIA AIR.
+En este capítulo se presentan los fundamentos y el alcance general del **Gaia Bill of Directives (GBD)**. Se establece el propósito del documento y su importancia para los diseñadores de sistemas involucrados en el proyecto **GAIA AIR** y **Robbbo-Tx AGI**.
 
 ##### **1. Objetivo del Documento**
 
-El objetivo principal de este documento es proporcionar una guía clara y detallada sobre los requisitos y procedimientos que deben seguirse durante el diseño, desarrollo, validación y certificación de sistemas para GAIA AIR. Esto asegura que todos los sistemas cumplan con los estándares de seguridad, calidad y rendimiento establecidos.
+El **Gaia Bill of Directives (GBD)** es una recopilación de requisitos, directrices y estándares que deben seguirse en el diseño, desarrollo y mantenimiento de los sistemas de **GAIA AIR**. Su objetivo es asegurar la coherencia, calidad y cumplimiento normativo en todos los aspectos del proyecto.
 
 ##### **2. Alcance**
 
-Este documento es aplicable a todos los equipos y sistemas desarrollados para GAIA AIR, incluyendo hardware, software y procesos asociados. Cubre todas las fases del ciclo de vida del sistema, desde la concepción y diseño hasta la producción, operación y mantenimiento.
+Este documento abarca:
 
-##### **3. Referencias**
+- **Requisitos del Producto:** Especificaciones técnicas y funcionales que deben cumplir los sistemas.
+- **Requisitos del Proceso:** Directrices para los procesos de desarrollo, verificación y validación.
+- **Documentación:** Estándares y formatos para la creación y gestión de la documentación técnica.
+- **Glosario y Acrónimos:** Definiciones de términos y acrónimos utilizados en el proyecto.
 
-Para garantizar la coherencia y cumplimiento normativo, este documento se alinea con las siguientes normativas y estándares:
+##### **3. Audiencia Destinada**
 
-- **ARP 4754A**: Guidelines for Development of Civil Aircraft and Systems.
-- **DO-178C**: Software Considerations in Airborne Systems and Equipment Certification.
-- **DO-254**: Design Assurance Guidance for Airborne Electronic Hardware.
-- **ISO 9001**: Sistemas de gestión de la calidad — Requisitos.
-- **Regulaciones de la EASA y FAA**: Requisitos aplicables de las autoridades aeronáuticas.
+Este documento está dirigido a:
 
-##### **4. Definiciones y Abreviaturas**
+- Diseñadores e ingenieros de sistemas.
+- Gerentes de proyecto y líderes técnicos.
+- Equipos de verificación, validación y aseguramiento de calidad.
+- Personal de documentación técnica.
 
-Para una comprensión clara de los términos utilizados en este documento, se proporciona un [Glosario de Acrónimos](#glosario-de-acrónimos) al final del mismo.
+##### **4. Referencias**
 
-##### **5. Responsabilidades**
-
-- **Diseñador del Sistema**: Responsable de cumplir con los requisitos y directrices establecidos en este documento.
-- **Equipo de Gestión de Proyectos**: Garantiza que los diseñadores tengan acceso a este documento y comprendan sus obligaciones.
-- **Auditores de Calidad**: Verifican el cumplimiento de los procedimientos y estándares descritos.
-
-##### **6. Estructura del Documento**
-
-El GBD está organizado en las siguientes partes:
-
-- **Part 0**: General
-- **Part 1**: Requisitos y Directrices Relacionados con el Producto
-- **Part 2**: Requisitos y Directrices Relacionados con el Proceso
-- **Part 3**: Documentación
-
-Cada parte contiene módulos y capítulos específicos que detallan los aspectos clave a considerar.
+- **GBD (Gaia Bill of Directives):** Documentación interna de **GAIA AIR**.
+- **Estándares de la Industria:** ARP 4754A, DO-178C, DO-254, ISO 9001.
+- **Regulaciones Aeronáuticas:** EASA, FAA y otras autoridades pertinentes.
 
 ---
 
@@ -116,152 +100,124 @@ Cada parte contiene módulos y capítulos específicos que detallan los aspectos
 
 #### **CHAPTER 2 DESIGN PROCESS OVERVIEW**
 
-En este capítulo se proporciona una visión general del proceso de diseño para los sistemas dentro de **GAIA AIR** y **Robbbo-Tx AGI**, asegurando el cumplimiento con el **Gaia Bill of Directives (GBD)** y la alineación con los estándares de la industria.
+Este capítulo proporciona una visión general del proceso de diseño que se debe seguir en el desarrollo de sistemas para **GAIA AIR** y **Robbbo-Tx AGI**. Se destacan las fases clave del proceso y las actividades asociadas a cada una.
 
-##### **1. Introducción**
+##### **1. Introducción al Proceso de Diseño**
 
-El proceso de diseño es una metodología estructurada que guía el desarrollo de sistemas desde la concepción hasta la implementación y mantenimiento. Garantiza que todos los requisitos sean satisfechos, los riesgos sean gestionados y el producto final sea seguro, confiable y cumpla con las regulaciones aplicables.
+El proceso de diseño es un conjunto estructurado de actividades destinadas a transformar los requisitos en un sistema operativo que cumpla con las expectativas de los stakeholders y las regulaciones aplicables.
 
 ##### **2. Fases del Proceso de Diseño**
 
-El proceso de diseño se divide en varias fases clave:
+###### **2.1 Definición de Requisitos**
 
-###### **2.1 Conceptualización**
-
-- **Objetivo:** Definir los conceptos de alto nivel y evaluar la viabilidad del sistema.
+- **Objetivo:** Capturar y documentar las necesidades y expectativas de los stakeholders.
 - **Actividades:**
-  - Identificar las necesidades del usuario y los requisitos operativos.
-  - Realizar estudios de viabilidad iniciales.
-  - Desarrollar conceptos preliminares del sistema.
+  - Reunir información de clientes, reguladores y otras partes interesadas.
+  - Analizar y priorizar requisitos.
+  - Documentar requisitos funcionales y no funcionales.
 - **Resultados:**
-  - Documentos de diseño conceptual.
-  - Requisitos iniciales del sistema.
+  - Documento de Especificación de Requisitos del Sistema (SRS).
 
-###### **2.2 Diseño Preliminar**
+###### **2.2 Diseño del Sistema**
 
-- **Objetivo:** Desarrollar una arquitectura detallada del sistema y asignar requisitos a subsistemas.
+- **Objetivo:** Desarrollar una solución técnica que cumpla con los requisitos.
 - **Actividades:**
-  - Refinar los requisitos del sistema.
-  - Desarrollar la arquitectura del sistema y las interfaces.
-  - Asignar requisitos a componentes y subsistemas.
+  - Definir la arquitectura del sistema.
+  - Seleccionar tecnologías y componentes.
+  - Crear modelos y prototipos.
 - **Resultados:**
-  - Diagramas de arquitectura del sistema.
-  - Documentos de control de interfaces.
-  - Especificaciones actualizadas de requisitos.
+  - Documento de Diseño del Sistema (SDD).
+  - Modelos y diagramas de arquitectura.
 
-###### **2.3 Diseño Detallado**
+###### **2.3 Implementación**
 
-- **Objetivo:** Crear diseños detallados para todos los componentes del sistema.
+- **Objetivo:** Construir el sistema conforme al diseño.
 - **Actividades:**
-  - Desarrollar diseños detallados de hardware y software.
-  - Definir especificaciones de componentes.
-  - Preparar esquemas y modelos detallados.
+  - Desarrollo de software y hardware.
+  - Integración de componentes.
+  - Codificación y fabricación.
 - **Resultados:**
-  - Documentos de diseño detallado.
-  - Especificaciones de componentes.
-  - Prototipos (si aplica).
+  - Código fuente y binarios ejecutables.
+  - Hardware ensamblado.
+  - Documentación de implementación.
 
-###### **2.4 Implementación**
+###### **2.4 Verificación**
 
-- **Objetivo:** Construir e integrar los componentes del sistema.
+- **Objetivo:** Asegurar que el sistema implementado cumple con las especificaciones de diseño.
 - **Actividades:**
-  - Fabricar componentes de hardware.
-  - Desarrollar código de software.
-  - Integrar hardware y software.
+  - Pruebas unitarias y de integración.
+  - Revisiones de código y diseño.
+  - Inspecciones y análisis.
 - **Resultados:**
-  - Sistema integrado.
-  - Registros de fabricación y ensamblaje.
+  - Informes de pruebas y resultados de verificación.
+  - Registro de incidencias y acciones correctivas.
 
-###### **2.5 Verificación y Validación**
+###### **2.5 Validación**
 
-- **Objetivo:** Asegurar que el sistema cumple con todos los requisitos y funciona según lo previsto.
+- **Objetivo:** Confirmar que el sistema cumple con las necesidades y expectativas de los stakeholders.
 - **Actividades:**
-  - Realizar pruebas de verificación para comprobar el cumplimiento con las especificaciones.
-  - Conducir actividades de validación para confirmar que el sistema cumple su propósito previsto.
+  - Pruebas de aceptación.
+  - Evaluaciones en entorno operativo.
+  - Recopilación de feedback de usuarios.
 - **Resultados:**
-  - Planes y procedimientos de prueba.
-  - Informes de verificación y validación.
-  - Informes de discrepancias e incidencias.
+  - Aprobación de usuarios y stakeholders.
+  - Informe de validación.
 
 ###### **2.6 Certificación**
 
-- **Objetivo:** Obtener las certificaciones necesarias de las autoridades regulatorias.
+- **Objetivo:** Obtener la certificación de autoridades regulatorias.
 - **Actividades:**
-  - Preparar documentación de certificación.
-  - Coordinar con organismos de certificación (por ejemplo, EASA, FAA).
-  - Abordar cualquier hallazgo o issue identificado durante las auditorías de certificación.
+  - Preparación de documentación de certificación.
+  - Coordinación con autoridades (EASA, FAA).
+  - Realización de auditorías y cumplimiento de normativas.
 - **Resultados:**
-  - Planes de certificación.
-  - Declaraciones de cumplimiento.
-  - Aprobación de certificación.
+  - Certificados y aprobaciones regulatorias.
 
 ###### **2.7 Despliegue y Mantenimiento**
 
-- **Objetivo:** Desplegar el sistema en operación y mantener su rendimiento.
+- **Objetivo:** Poner el sistema en operación y garantizar su sostenibilidad.
 - **Actividades:**
-  - Instalar el sistema en entornos operativos.
-  - Proporcionar formación y documentación a los usuarios.
-  - Implementar planes y procedimientos de mantenimiento.
+  - Instalación en entornos operativos.
+  - Formación a usuarios y personal de soporte.
+  - Implementación de planes de mantenimiento.
 - **Resultados:**
-  - Sistema operativo.
-  - Manuales de usuario y materiales de formación.
-  - Registros de mantenimiento y actualizaciones.
+  - Sistema operativo y en producción.
+  - Documentación de usuario y mantenimiento.
+  - Planes de soporte y actualizaciones.
 
 ##### **3. Gestión del Proceso de Diseño**
 
-La gestión efectiva del proceso de diseño es crucial para el éxito del proyecto.
-
 ###### **3.1 Gestión de Configuración**
 
-- Asegura que todos los cambios al sistema y su documentación sean rastreados y controlados.
-- Mantiene la integridad y trazabilidad de los artefactos de diseño.
+- Asegura el control y seguimiento de cambios en el sistema y su documentación.
+- Mantiene la trazabilidad entre requisitos, diseño, implementación y pruebas.
 
 ###### **3.2 Gestión de Riesgos**
 
-- Identifica riesgos potenciales a lo largo del proceso de diseño.
-- Implementa estrategias de mitigación para reducir el impacto de los riesgos en el proyecto.
+- Identifica y analiza riesgos potenciales.
+- Implementa estrategias de mitigación y seguimiento.
 
 ###### **3.3 Aseguramiento de Calidad**
 
-- Garantiza que todas las actividades cumplen con los estándares y procedimientos establecidos.
-- Realiza auditorías y revisiones para verificar el cumplimiento.
+- Verifica el cumplimiento de estándares y procedimientos.
+- Realiza auditorías internas y revisiones periódicas.
 
-###### **3.4 Mejora de Procesos**
+###### **3.4 Mejora Continua**
 
-- Monitorea y evalúa continuamente el proceso de diseño.
-- Implementa mejoras basadas en retroalimentación y lecciones aprendidas.
+- Evalúa el desempeño del proceso.
+- Implementa acciones de mejora basadas en lecciones aprendidas.
 
-##### **4. Cumplimiento con Estándares**
+##### **4. Herramientas y Técnicas**
 
-El proceso de diseño se ajusta a los siguientes estándares y directrices:
+- **Herramientas de Gestión de Proyectos:** Para planificación y seguimiento.
+- **Sistemas de Control de Versiones:** Para gestionar cambios en código y documentos.
+- **Herramientas de Modelado:** Para diseñar y simular sistemas.
+- **Plataformas de Pruebas Automatizadas:** Para aumentar la eficiencia en verificación y validación.
 
-- **GBD (Gaia Bill of Directives):** Proporciona los requisitos y directrices generales específicos para GAIA AIR.
-- **ARP 4754A:** Directrices para el desarrollo de aeronaves civiles y sistemas.
-- **DO-178C y DO-254:** Estándares para el aseguramiento de desarrollo de software y hardware.
-- **ISO 9001:** Requisitos para sistemas de gestión de calidad.
+##### **5. Conclusión**
 
-##### **5. Documentación**
+Un proceso de diseño bien estructurado es fundamental para el éxito de los proyectos en **GAIA AIR**. Siguiendo las fases y prácticas descritas, se asegura la calidad, confiabilidad y cumplimiento de los sistemas desarrollados.
 
-Todas las fases del proceso de diseño deben estar debidamente documentadas. Los documentos clave incluyen:
-
-- Especificaciones de requisitos.
-- Descripciones de diseño.
-- Planes e informes de prueba.
-- Registros de gestión de configuración.
-- Documentación de certificación.
-
-##### **6. Roles y Responsabilidades**
-
-- **Diseñador del Sistema:** Lidera las actividades de diseño y asegura el cumplimiento con los requisitos.
-- **Gerente de Proyecto:** Supervisa el cronograma del proyecto, los recursos y la coordinación.
-- **Gerente de Calidad:** Asegura la adherencia a los estándares y procesos de calidad.
-- **Enlace de Certificación:** Gestiona las interacciones con las autoridades regulatorias.
-
-##### **7. Conclusión**
-
-Un proceso de diseño estructurado y bien gestionado es esencial para el desarrollo exitoso de sistemas dentro de **GAIA AIR** y **Robbbo-Tx AGI**. Siguiendo las directrices y procedimientos descritos en este capítulo, garantizamos que nuestros sistemas sean seguros, confiables y cumplan con todos los requisitos regulatorios necesarios.
-
----
 
 # **Part 1 - Product Related Requirements and Guidelines**
 
@@ -828,14 +784,6 @@ La verificación rigurosa del sistema es esencial para garantizar que el product
 
 ---
 
-# **Finalización**
-
-Este documento proporciona una guía integral para el desarrollo, verificación, validación y aseguramiento de procesos en **GAIA AIR** y **Robbbo-Tx AGI**. Su adopción y aplicación consistente contribuirán significativamente al éxito y excelencia de los proyectos.
-
-Para consultas o aportes adicionales, por favor, contacte al equipo responsable de la documentación.
-
----
-
 # **Part 3 - Documentation**
 
 ## **GBD0200 MODULE**
@@ -1063,9 +1011,149 @@ La estandarización de formatos de documentos asegura que toda la documentación
 
 El uso de formatos estándar en la documentación contribuye a la eficiencia y eficacia en la comunicación dentro de **GAIA AIR** y **Robbbo-Tx AGI**. Siguiendo las directrices establecidas en este capítulo, se garantiza una presentación profesional y una gestión más sencilla de la documentación.
 
----
+
+#### **CHAPTER 3 DATA MODULES FOR GAIA AIR LONG RANGE (-A) VERSION**
+
+Este capítulo presenta los Módulos de Datos (DMCs) específicos de la versión Long Range (-A) de **GAIA AIR**. Estos módulos abarcan los sistemas, estructuras y características únicas de esta variante que no están presentes en la versión Regional (-R).
+
+##### **1. Introducción**
+
+La variante Long Range (-A) de GAIA AIR incorpora tecnologías avanzadas y sistemas especializados para lograr un mayor alcance y eficiencia. Este capítulo detalla los DMCs asociados con estos sistemas, proporcionando una referencia completa para su diseño, operación y mantenimiento.
+
+##### **2. Tabla de Módulos Específicos de la Versión Long Range (-A)**
+
+###### **ATA 70 - Motor (Power Plant)**
+
+| DMC Code               | Título                                                               |
+|------------------------|----------------------------------------------------------------------|
+| DMC-GAIA-70-00-00-A    | Introducción General al Sistema de Propulsión Long Range             |
+| DMC-GAIA-70-00-01-A    | Motores Híbridos de Hidrógeno para la Versión Long Range             |
+| DMC-GAIA-70-10-00-A    | Motores Híbridos de Hidrógeno                                        |
+| DMC-GAIA-70-10-01-A    | Diseño y Funcionamiento de Motores Híbridos de Hidrógeno             |
+| DMC-GAIA-70-10-02-A    | Ventajas Ambientales de los Motores de Hidrógeno                     |
+| DMC-GAIA-70-20-00-A    | Integración con las Dimensiones y Áreas de la Aeronave               |
+| DMC-GAIA-70-20-01-A    | Ubicación y Configuración de Motores en la Versión Long Range        |
+| DMC-GAIA-70-20-02-A    | Integración con Sistemas Internos Específicos                        |
+| DMC-GAIA-70-30-00-A    | Mantenimiento del Motor para la Versión Long Range                   |
+| DMC-GAIA-70-30-01-A    | Inspecciones y Verificaciones Específicas de Motores de Hidrógeno    |
+| DMC-GAIA-70-30-02-A    | Reparaciones y Actualizaciones de Sistemas de Hidrógeno              |
+| DMC-GAIA-70-40-00-A    | Innovaciones en Almacenamiento Energético                            |
+| DMC-GAIA-70-40-01-A    | Tecnologías de Almacenamiento de Hidrógeno Líquido                   |
+| DMC-GAIA-70-40-02-A    | Sistemas de Almacenamiento Criogénico                                |
+| DMC-GAIA-70-50-00-A    | Impacto Ambiental y Ciclo de Vida de la Tecnología                   |
+| DMC-GAIA-70-50-01-A    | Análisis del Ciclo de Vida Específico de la Versión Long Range       |
+| DMC-GAIA-70-50-02-A    | Estrategias de Reducción de Huella de Carbono                        |
+
+###### **ATA 28 - Combustible**
+
+| DMC Code               | Título                                                               |
+|------------------------|----------------------------------------------------------------------|
+| DMC-GAIA-28-00-00-A    | Introducción al Sistema de Combustible de Hidrógeno                  |
+| DMC-GAIA-28-10-00-A    | Sistemas de Almacenamiento de Hidrógeno                              |
+| DMC-GAIA-28-10-01-A    | Tanques de Hidrógeno Líquido                                         |
+| DMC-GAIA-28-10-02-A    | Aislamiento Térmico y Seguridad                                      |
+| DMC-GAIA-28-20-00-A    | Procedimientos de Repostaje de Hidrógeno                             |
+| DMC-GAIA-28-20-01-A    | Protocolos de Carga y Descarga                                       |
+| DMC-GAIA-28-20-02-A    | Equipos Especializados para Hidrógeno                                |
+| DMC-GAIA-28-30-00-A    | Seguridad en el Manejo de Hidrógeno                                  |
+| DMC-GAIA-28-30-01-A    | Procedimientos de Emergencia                                         |
+| DMC-GAIA-28-30-02-A    | Formación y Capacitación del Personal                                |
+
+*(La tabla continúa con los DMCs correspondientes a los ATA Chapters impactados por la variante Long Range (-A).)*
 
 ---
+
+### **GBD0200.3.4 PART 3**
+
+#### **CHAPTER 4 ATA 100 / I-SPEC 2200 CHAPTERS**
+
+Este capítulo proporciona una visión general de los capítulos ATA 100 / I-SPEC 2200 relevantes para **GAIA AIR** y la versión Long Range (-A). Estos capítulos son esenciales para la organización y estandarización de la documentación técnica aeronáutica.
+
+##### **1. Sección General**
+
+1. **00 - Introducción / General de la Aeronave**
+2. **01-04 - Información Operativa (Reservado para uso de aerolíneas)**
+3. **05 - Inspecciones Periódicas**
+   - 10 - Límites de tiempo
+   - 20 - Chequeos programados de mantenimiento
+   - 50 - Chequeos no programados de mantenimiento
+4. **06 - Dimensiones y Áreas**
+5. **07 - Elevación y Apuntalamiento (Lifting & Shoring)**
+6. **08 - Nivelación y Pesaje (Leveling & Weighing)**
+7. **09 - Remolque y Rodaje (Towing & Taxiing)**
+8. **10 - Parqueo, Amarre, Almacenamiento y Retorno a Servicio**
+
+##### **2. Sección Sistemas de la Aeronave**
+
+1. **20 - Prácticas Estándar de la Aeronave**
+2. **21 - Aire Acondicionado**
+3. **22 - Vuelo Automático (Auto Flight)**
+4. **23 - Comunicaciones**
+5. **24 - Energía Eléctrica**
+6. **25 - Equipos y Mobiliario**
+7. **26 - Protección Contra Incendios**
+8. **27 - Controles de Vuelo**
+9. **28 - Combustible**
+10. **29 - Potencia Hidráulica**
+11. **30 - Protección Contra Hielo y Lluvia**
+12. **31 - Sistemas de Indicadores / Grabadores**
+13. **32 - Tren de Aterrizaje**
+14. **33 - Luces**
+15. **34 - Navegación**
+16. **35 - Oxígeno**
+17. **36 - Sistemas Neumáticos**
+18. **37 - Sistemas de Vacío**
+19. **38 - Agua y Residuos**
+20. **39 - Paneles Eléctricos y Electrónicos / Compartimentos**
+
+##### **3. Sección Estructuras**
+
+1. **50 - Compartimentos de Carga y Accesorios**
+2. **51 - Prácticas Estándar y Estructuras Generales**
+3. **52 - Puertas**
+4. **53 - Fuselaje**
+5. **54 - Nacelles y Pylons**
+6. **55 - Estabilizadores**
+7. **56 - Ventanas**
+8. **57 - Alas**
+
+##### **4. Sección Propulsión**
+
+1. **70 - Prácticas Estándar del Motor**
+2. **71 - Planta de Potencia General**
+3. **72 - Motores (Turbina / Hélice / Reciprocante)**
+4. **73 - Combustible del Motor**
+5. **74 - Encendido**
+6. **75 - Aire del Motor**
+7. **76 - Controles del Motor**
+8. **77 - Indicadores del Motor**
+9. **78 - Escape**
+10. **79 - Aceite**
+11. **80 - Arranque**
+
+##### **5. Sistemas Complementarios**
+
+1. **42 - Aviónica Modular Integrada**
+2. **44 - Sistemas de Cabina**
+3. **45 - Sistema de Mantenimiento Centralizado (CMS)**
+4. **46 - Sistemas de Información**
+5. **49 - Potencia Auxiliar a Bordo**
+6. **91 - Gráficos**
+7. **97 - Reportes de Cableado**
+
+# **Notas y Comentarios**
+
+- **Comentarios Generales:**
+  - Asegurar que todas las secciones estén completamente desarrolladas antes de la publicación final.
+  - Revisar la consistencia en el uso de términos y acrónimos a lo largo del documento.
+
+- **Sugerencias de Mejora:**
+  - Incorporar diagramas adicionales para visualizar mejor los procesos descritos.
+  - Implementar enlaces a documentos externos relevantes para mayor referencia.
+
+- **Recomendaciones Técnicas:**
+  - Utilizar plantillas estandarizadas para mantener la uniformidad en la documentación.
+  - Implementar un sistema de versionado para rastrear cambios y actualizaciones en el documento.
 
 ---
 
@@ -1215,6 +1303,86 @@ Para cualquier duda adicional o para contribuir al desarrollo de este documento,
 
 ---
 ```
+# **Anexos**
 
+## **Gaia Bill of Directives (GBD) - Guía para Diseño, Operaciones y Mantenimiento Sostenible**
+
+Este anexo proporciona una descripción detallada del enfoque de GAIA AIR hacia el diseño, operaciones y mantenimiento con énfasis en soluciones sostenibles y responsables.
+
+### **Propósito**
+
+Este sistema está diseñado para:
+
+1. **Ayudar a diseñadores** en el desarrollo de soluciones sostenibles, robustas y escalables.
+2. **Apoyar a los equipos de mantenimiento** con estrategias predictivas y correctivas avanzadas que minimicen impactos ambientales.
+3. **Asistir a autores e ilustradores** con herramientas y guías para documentar y visualizar sistemas técnicos con un enfoque en tecnología verde.
+4. **Resolver problemas complejos** utilizando enfoques cuánticos para optimización, simulación y modelado, priorizando la sostenibilidad y eficiencia energética.
+
+### **Funciones Principales**
+
+#### **1. Diseño de Sistemas Verdes**
+
+- Proponer estrategias de diseño que prioricen eficiencia energética y materiales sostenibles.
+- Facilitar la integración de tecnologías renovables en sistemas complejos.
+- Recomendar soluciones que reduzcan emisiones y promuevan la circularidad de recursos.
+
+#### **2. Operaciones y Mantenimiento Responsable**
+
+- Optimizar procesos de mantenimiento con un enfoque en reducción de desperdicios y emisiones.
+- Implementar planes de mantenimiento predictivo para tecnologías limpias, como sistemas de energía alternativa.
+- Mejorar la trazabilidad y documentación de actividades considerando métricas de impacto ambiental.
+
+#### **3. Resolución de Problemas Complejos con Algoritmos Cuánticos**
+
+- Aplicar algoritmos cuánticos para optimización de recursos energéticos y minimización de huella de carbono.
+- Simular escenarios complejos con modelos que consideren impactos ambientales.
+- Proveer soluciones sostenibles para redes logísticas, rutas de suministro y sistemas integrados.
+
+#### **4. Guía para Autores e Ilustradores**
+
+- Proveer estándares para la redacción de documentos técnicos con énfasis en sostenibilidad.
+- Establecer lineamientos para ilustraciones técnicas que resalten características verdes y ecoeficientes.
+- Garantizar que la documentación transmita el compromiso con la responsabilidad ambiental.
+
+### **Especificaciones Técnicas del GAIA AIR Quantum Portal (GQP)**
+
+| **Característica**                         | **Descripción**                                                                                                            | **Tecnología Utilizada**          |
+|--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
+| **Seguridad Web**                          | Conexión segura mediante protocolo HTTPS con cifrado TLS 1.3 para garantizar la confidencialidad y seguridad de los datos. | TLS 1.3, HTTPS                    |
+| **Gestor de Documentación**                | Sistema integrado para el seguimiento y control de versiones de documentos técnicos.                                       | Git, CI/CD, PlantUML              |
+| **Gestor de Inventarios**                  | Control automatizado de piezas y materiales críticos, incluyendo previsión de demanda mediante IA.                         | RFID, Machine Learning, Big Data  |
+| **Montajes y Techrequests**                | Módulo para recibir solicitudes técnicas y coordinar montajes basados en información actualizada.                          | REST API, JavaScript, Notificaciones |
+| **Asistente ChatQuantum**                  | Asistente de IA para consulta y resolución de problemas, capaz de procesar información en lenguaje natural.                | NLP, GPT, Python                  |
+| **Publicaciones y E-Learning**             | Plataforma para gestionar la capacitación del personal, incluyendo cursos y evaluaciones.                                  | Moodle, SCORM, HTML5              |
+| **Gestor de Cadena de Suministro**         | Trazabilidad completa desde el proveedor hasta la implementación de componentes, integrado con blockchain.                 | Blockchain, Hyperledger Fabric    |
+| **Inteligencia Cuántica para Decisiones**  | Uso de algoritmos cuánticos para optimizar la asignación de recursos y toma de decisiones complejas.                       | QNN (Quantum Neural Networks), Qiskit |
+| **Certificación y Conformidad**            | Módulo para gestionar procesos de certificación conforme a normativas internacionales.                                     | Registros Digitales, Dashboards   |
+| **Monitoreo y Reportes**                   | Sistema de informes para el seguimiento del rendimiento del portal y KPIs críticos.                                        | Dash/Plotly, SQL, Grafana         |
+| **Soporte para Sostenibilidad**            | Funciones de optimización de procesos con enfoque en economía circular y análisis de ciclo de vida (LCA).                  | LCA Software, AI Predictive Tools |
+| **Interfaces de Integración**              | APIs para conectividad con otros sistemas operacionales y plataformas de gestión.                                          | REST, GraphQL, OAuth 2.0          |
+| **Escalabilidad y Modularidad**            | Arquitectura modular que permite la implementación incremental de funciones.                                               | Microservicios, Docker, Kubernetes |
+| **Cumplimiento Normativo**                 | Aseguramiento del cumplimiento con normativas de privacidad y protección de datos (GDPR, ISO 27001).                       | Encriptación AES, AWS IAM         |
+
+### **Áreas de Aplicación**
+
+1. **Diseño y desarrollo sostenible**: Métodos innovadores para integrar tecnologías verdes en sistemas aeronáuticos.
+2. **Mantenimiento ambientalmente responsable**: Herramientas predictivas para minimizar impacto ambiental.
+3. **Gestión de proyectos complejos con foco verde**: Algoritmos cuánticos para optimizar recursos energéticos.
+4. **Publicaciones técnicas y formación eco-responsable**: Documentos y gráficos que destacan enfoques sostenibles.
+
+### **Ejemplos de Solicitudes**
+
+1. Diseñar un sistema de propulsión híbrido con materiales y procesos sostenibles.
+2. Resolver un problema de optimización de redes logísticas minimizando emisiones de carbono.
+3. Crear un esquema ilustrativo para un manual técnico de energía solar integrada.
+4. Proponer un modelo de mantenimiento predictivo para sistemas de hidrógeno líquidos.
+
+---
+
+# **Notas Adicionales**
+
+La integración de los contenidos proporcionados en este documento busca ofrecer una guía exhaustiva y detallada que abarque todos los aspectos críticos del proyecto **GAIA AIR**. Se ha incorporado la información de los capítulos ATA relevantes, los DMCs específicos de la versión Long Range (-A) y las directrices para el diseño sostenible y la utilización de tecnologías avanzadas.
+
+Si se requieren más ajustes o incorporaciones de contenido, por favor, indicar las secciones específicas a modificar o ampliar.
 ---
 
