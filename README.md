@@ -46,8 +46,8 @@ Este documento proporciona una descripción detallada de los sistemas ubicados e
 
 #### **1.1.2 Equipos Internos del Radomo**
 
-**Código de Referencia:** GAIA-34-10-00-000-00-A
 
+**Código de Referencia:** GAIA-34-10-00-000-00-A
 - **Componentes Principales:**
   - **1.1.2.1 Antena de Radar Meteorológico**
     - Sistema de radar de apertura sintética (SAR) para alta resolución.
