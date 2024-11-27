@@ -601,20 +601,906 @@ La aplicación del principio de superposición cuántica en este contexto nos pe
 6. **Nuevos FRs según evolucione el proyecto:** Mantener la identificación y priorización de nuevos FRs que surjan durante el desarrollo.
 
 ---
+¡Entendido! A continuación, continuaré ayudándote a completar la Tabla Colaborativa de Requisitos para GAIA QUANTUM PORTAL (GQP) desde FR21 hasta FR50. Además, proporcionaré una metodología y un script en Python para facilitar la asignación automática de Códigos DMC y la generación de los archivos necesarios.
 
-## **Conclusión**
+Tabla Colaborativa de Requisitos para GAIA QUANTUM PORTAL (GQP) - FR21-FR50
 
-El plan que has presentado está bien estructurado y aborda de manera efectiva los **Requisitos Funcionales (FR)** críticos para el éxito del **GAIA QUANTUM PORTAL (GQP)** dentro del marco del **ATA 70: Propulsión Verde Aeronáutica Avanzada**. Al seguir este plan, asegurarás una evolución iterativa y escalable del sistema, garantizando que cada FR sea resuelto de manera adecuada y que el proyecto avance hacia un sistema robusto y funcional.
+ID	Tipo	Descripción	Categoría	Prioridad	Estado	DMC Code
+FR21	Funcional	Implementar un sistema de backup automático diario para la ICentralSourceDB.	Seguridad	Alta	Pendiente	DMC-GAIA-46-80-00-A
+FR22	Funcional	Permitir la integración con herramientas de control de versiones como GitLab para gestionar el código fuente del GQP.	Integración con ICSDB	Media	Pendiente	DMC-GAIA-46-20-00-A
+FR23	Funcional	Desarrollar un módulo de reportes automáticos que genere informes periódicos sobre el estado del proyecto.	Gestión de Datos y Analítica	Media	Pendiente	DMC-GAIA-46-30-00-A
+FR24	Funcional	Implementar un sistema de gestión de incidencias para registrar y seguir problemas reportados por los usuarios.	Colaboración Interdisciplinaria	Alta	Pendiente	DMC-GAIA-00-00-00-A
+FR25	Funcional	Implementar capacidades de machine learning para anticipar necesidades de mantenimiento basadas en datos históricos.	Gestión de Datos y Analítica	Alta	Pendiente	DMC-GAIA-46-30-00-A
+FR26	Funcional	Implementar un sistema de notificaciones basadas en eventos que alerte a los usuarios sobre cambios críticos en tiempo real.	Gestión de Datos y Analítica	Alta	Pendiente	DMC-GAIA-46-30-00-A
+FR27	Funcional	Desarrollar un módulo de análisis financiero que permita evaluar los costos asociados a diferentes configuraciones y proyectos.	Gestión de Proyectos	Media	Pendiente	DMC-GAIA-46-30-00-A
+FR28	Funcional	Integrar un sistema de gestión de versiones para documentos técnicos, asegurando que siempre se acceda a la versión más actual.	Gestión de Configuración	Alta	Pendiente	DMC-GAIA-46-20-00-A
+FR29	Funcional	Proveer herramientas de análisis de sensibilidad para evaluar cómo variaciones en los parámetros afectan los resultados del proyecto.	Simulación y Modelado Avanzado	Media	Pendiente	DMC-GAIA-70-10-00-A
+FR30	Funcional	Implementar un sistema de gestión de calidad que monitoree y asegure que los procesos y productos cumplan con los estándares establecidos.	Aseguramiento de Calidad	Alta	Pendiente	DMC-GAIA-46-20-00-A
+FR31	Funcional	Desarrollar una interfaz de usuario accesible para personas con discapacidades, cumpliendo con las normativas de accesibilidad.	Usabilidad	Alta	Pendiente	DMC-GAIA-46-20-00-A
+FR32	Funcional	Implementar autenticación única (Single Sign-On) para simplificar el acceso de los usuarios al GQP.	Seguridad	Alta	Pendiente	DMC-GAIA-46-80-00-A
+FR33	Funcional	Desarrollar un módulo de gestión de contratos que almacene y gestione los acuerdos con proveedores y socios.	Gestión de Proyectos	Media	Pendiente	DMC-GAIA-46-20-00-A
+FR34	Funcional	Integrar un sistema de seguimiento de inventarios para gestionar los recursos utilizados en los proyectos de GAIA AIR.	Gestión de Proyectos	Media	Pendiente	DMC-GAIA-46-20-00-A
+FR35	Funcional	Proveer herramientas de colaboración asincrónica, como foros y chats, para facilitar la comunicación entre equipos remotos.	Colaboración Interdisciplinaria	Media	Pendiente	DMC-GAIA-00-00-00-A
+FR36	Funcional	Implementar un módulo de gestión de incidencias que permita la priorización y resolución eficiente de problemas reportados.	Gestión de Proyectos	Alta	Pendiente	DMC-GAIA-46-20-00-A
+FR37	Funcional	Desarrollar una funcionalidad de auto-guardado para prevenir la pérdida de datos durante sesiones de trabajo.	Usabilidad	Media	Pendiente	DMC-GAIA-46-20-00-A
+FR38	Funcional	Integrar herramientas de análisis de impacto para evaluar cómo los cambios en una configuración afectan a otras áreas del sistema.	Gestión de Configuración	Alta	Pendiente	DMC-GAIA-46-20-00-A
+FR39	Funcional	Proveer un módulo de gestión de recursos humanos que permita asignar y seguir el trabajo de los miembros del equipo.	Gestión de Proyectos	Media	Pendiente	DMC-GAIA-46-20-00-A
+FR40	Funcional	Implementar un sistema de notificaciones basadas en eventos que alerte a los usuarios sobre cambios críticos en tiempo real.	Gestión de Datos y Analítica	Alta	Pendiente	DMC-GAIA-46-30-00-A
+FR41	Funcional	Desarrollar un módulo de análisis de tendencias que identifique patrones en los datos recopilados por el GQP.	Gestión de Datos y Analítica	Media	Pendiente	DMC-GAIA-46-30-00-A
+FR42	Funcional	Proveer una API de exportación para integrar los datos del GQP con sistemas ERP y CRM utilizados por GAIA AIR.	Integración con ICSDB	Media	Pendiente	DMC-GAIA-46-20-00-A
+FR43	Funcional	Implementar un sistema de backups incrementales y completos para asegurar la recuperación de datos en caso de fallo.	Seguridad	Alta	Pendiente	DMC-GAIA-46-80-00-A
+FR44	Funcional	Desarrollar un módulo de gestión de contratos que almacene y gestione los acuerdos con proveedores y socios.	Gestión de Proyectos	Media	Pendiente	DMC-GAIA-46-20-00-A
+FR45	Funcional	Integrar un sistema de seguimiento de inventarios para gestionar los recursos utilizados en los proyectos de GAIA AIR.	Gestión de Proyectos	Media	Pendiente	DMC-GAIA-46-20-00-A
+FR46	Funcional	Implementar un sistema de auditoría que registre todas las acciones realizadas por los usuarios dentro del GQP.	Seguridad	Alta	Pendiente	DMC-GAIA-46-80-00-A
+FR47	Funcional	Desarrollar un módulo de análisis de tendencias que identifique patrones en los datos recopilados por el GQP.	Gestión de Datos y Analítica	Media	Pendiente	DMC-GAIA-46-30-00-A
+FR48	Funcional	Implementar capacidades de machine learning para mejorar la precisión de las simulaciones y predicciones realizadas por el GQP.	Simulación y Modelado Avanzado	Alta	Pendiente	DMC-GAIA-70-10-00-A
+FR49	Funcional	Proveer una API de exportación para integrar los datos del GQP con sistemas ERP y CRM utilizados por GAIA AIR.	Integración con ICSDB	Media	Pendiente	DMC-GAIA-46-20-00-A
+FR50	Funcional	Implementar un sistema de gestión de calidad que monitoree y asegure que los procesos y productos cumplan con los estándares establecidos.	Aseguramiento de Calidad	Alta	Pendiente	DMC-GAIA-46-20-00-A
 
-### **Recomendaciones Adicionales:**
-1. **Documentación Continua:** Mantén la documentación actualizada y accesible para facilitar futuras expansiones y posibles colaboraciones externas.
-2. **Automatización:** Continúa automatizando pruebas y despliegues para reducir errores humanos y mejorar la eficiencia.
-3. **Monitoreo y Feedback:** Implementa sistemas de monitoreo y recolecta feedback regularmente para identificar áreas de mejora.
-4. **Formación Continua:** Dedica tiempo a capacitarte en nuevas tecnologías y metodologías que puedan beneficiar al proyecto.
+Metodología para Agregar los FRs Restantes (FR51-FR265)
 
-**¡Adelante con el desarrollo del GAIA Quantum Portal (GQP)!** 🚀 Si necesitas asistencia adicional en cualquier etapa del proceso, no dudes en consultarme.
+Para agregar los requisitos funcionales restantes de manera eficiente, te propongo seguir esta metodología estructurada:
 
----
+1. Preparar una Fuente de Datos Estructurada
 
-**Nota:** Mantén un enfoque flexible y adaptativo, ajustando el plan según las necesidades y desafíos que surjan durante el desarrollo. La planificación detallada y la priorización adecuada te permitirán gestionar eficazmente el proyecto de manera individual.
+   •   Crear un Archivo CSV o Excel: Organiza todos los FRs desde FR21 hasta FR265 en un archivo estructurado. Asegúrate de incluir las siguientes columnas:
+      •   ID (e.g., FR21)
+      •   Tipo (Funcional)
+      •   Descripción (Descripción detallada del requisito)
+      •   Categoría (e.g., Seguridad, Gestión de Datos y Analítica)
+      •   Prioridad (Alta, Media, Baja)
+      •   Estado (Pendiente, En Progreso, Completo)
+      •   DMC Code (Inicialmente en blanco o con códigos pre-asignados si ya están disponibles)
+
+Ejemplo de frs_data.csv:
+
+ID	Tipo	Descripción	Categoría	Prioridad	Estado	DMC Code
+FR51	Funcional	[Descripción FR51]	[Categoría FR51]	[Prioridad]	[Estado]	[DMC Code FR51]
+FR52	Funcional	[Descripción FR52]	[Categoría FR52]	[Prioridad]	[Estado]	[DMC Code FR52]
+…	…	…	…	…	…	…
+FR265	Funcional	[Descripción FR265]	[Categoría FR265]	[Prioridad]	[Estado]	[DMC Code FR265]
+
+2. Automatizar la Asignación de Códigos DMC
+
+Puedes utilizar Python para automatizar la asignación de Códigos DMC basados en las Categorías de los requisitos.
+
+a) Definir el Mapeo de Categorías a Capítulos ATA
+
+# Diccionario de mapeo de Categorías a Capítulos ATA
+categoria_a_ata = {
+    'Gestión del Ciclo de Vida (PLM)': '45',
+    'Simulación y Modelado Avanzado': '70',
+    'Colaboración Interdisciplinaria': '00',
+    'Seguridad de la Información': '46',
+    'Gestión de Datos y Analítica': '46',
+    'Usabilidad': '46',
+    'Gestión de Proyectos': '46',
+    'Gestión de Configuración': '46',
+    'Aseguramiento de Calidad': '46',
+    'Integración con ICSDB': '46',
+    'Entorno de Diseño y Cálculo FEM': '70',
+    'Modelos Digitales en Tiempo Real': '46',
+    'Montajes y Techrequests': '46',
+    # Añade más categorías según sea necesario
+}
+
+b) Función para Asignar el DMC Code
+
+def asignar_dmc_code(categoria, section='20', subsection='00'):
+    ata_chapter = categoria_a_ata.get(categoria, '00')  # Default a '00' si no encuentra la categoría
+    language = 'A'  # A para Español
+    dmc_code = f'DMC-GAIA-{ata_chapter}-{section}-{subsection}-{language}'
+    return dmc_code
+
+c) Script Completo para Asignar DMC Codes y Generar Archivos
+
+import pandas as pd
+
+# Definir el mapeo de categorías a capítulos ATA
+categoria_a_ata = {
+    'Gestión del Ciclo de Vida (PLM)': '45',
+    'Simulación y Modelado Avanzado': '70',
+    'Colaboración Interdisciplinaria': '00',
+    'Seguridad de la Información': '46',
+    'Gestión de Datos y Analítica': '46',
+    'Usabilidad': '46',
+    'Gestión de Proyectos': '46',
+    'Gestión de Configuración': '46',
+    'Aseguramiento de Calidad': '46',
+    'Integración con ICSDB': '46',
+    'Entorno de Diseño y Cálculo FEM': '70',
+    'Modelos Digitales en Tiempo Real': '46',
+    'Montajes y Techrequests': '46',
+    # Añade más categorías según sea necesario
+}
+
+def asignar_dmc_code(categoria, section='20', subsection='00'):
+    ata_chapter = categoria_a_ata.get(categoria, '00')  # Default a '00' si no encuentra la categoría
+    language = 'A'  # A para Español
+    dmc_code = f'DMC-GAIA-{ata_chapter}-{section}-{subsection}-{language}'
+    return dmc_code
+
+# Leer los datos desde frs_data.csv
+frs_df = pd.read_csv('frs_data.csv')
+
+# Asignar DMC Code si está vacío
+frs_df['DMC Code'] = frs_df.apply(
+    lambda row: asignar_dmc_code(row['Categoría']) if pd.isna(row['DMC Code']) else row['DMC Code'],
+    axis=1
+)
+
+# Guardar frs.csv
+frs_df.to_csv('frs.csv', index=False, encoding='utf-8')
+
+# Crear relaciones basadas en categorías
+relaciones_data = []
+for categoria, grupo in frs_df.groupby('Categoría'):
+    frs_ids = grupo['ID'].tolist()
+    for i in range(len(frs_ids)):
+        for j in range(i + 1, len(frs_ids)):
+            relaciones_data.append({'fr1': frs_ids[i], 'fr2': frs_ids[j]})
+
+relaciones_df = pd.DataFrame(relaciones_data)
+relaciones_df.to_csv('relaciones.csv', index=False, encoding='utf-8')
+
+# Generar la tabla en Markdown
+def generar_tabla_markdown(df):
+    header = "| ID | Tipo | Descripción | Categoría | Prioridad | Estado | DMC Code |\n"
+    separator = "|----|------|-------------|-----------|-----------|--------|----------|\n"
+    rows = ""
+    for _, row in df.iterrows():
+        descripcion = row['Descripción'].replace('|', '\\|')  # Escapar caracteres de Markdown
+        rows += f"| {row['ID']} | {row['Tipo']} | {descripcion} | {row['Categoría']} | {row['Prioridad']} | {row['Estado']} | {row['DMC Code']} |\n"
+    return header + separator + rows
+
+markdown_table = generar_tabla_markdown(frs_df)
+with open('frs_table.md', 'w', encoding='utf-8') as file:
+    file.write(markdown_table)
+
+print("Archivos `frs.csv`, `relaciones.csv` y `frs_table.md` han sido generados exitosamente.")
+
+3. Implementación de la Metodología
+
+a) Crear el Archivo frs_data.csv
+
+Organiza todos los FRs desde FR21 hasta FR50 en un archivo frs_data.csv siguiendo el formato:
+
+ID,Tipo,Descripción,Categoría,Prioridad,Estado,DMC Code
+FR21,Funcional,"Implementar un sistema de backup automático diario para la ICentralSourceDB.",Seguridad,Alta,Pendiente,DMC-GAIA-46-80-00-A
+FR22,Funcional,"Permitir la integración con herramientas de control de versiones como GitLab para gestionar el código fuente del GQP.",Integración con ICSDB,Media,Pendiente,DMC-GAIA-46-20-00-A
+FR23,Funcional,"Desarrollar un módulo de reportes automáticos que genere informes periódicos sobre el estado del proyecto.",Gestión de Datos y Analítica,Media,Pendiente,DMC-GAIA-46-30-00-A
+FR24,Funcional,"Implementar un sistema de gestión de incidencias para registrar y seguir problemas reportados por los usuarios.",Colaboración Interdisciplinaria,Alta,Pendiente,DMC-GAIA-00-00-00-A
+FR25,Funcional,"Implementar capacidades de machine learning para anticipar necesidades de mantenimiento basadas en datos históricos.",Gestión de Datos y Analítica,Alta,Pendiente,DMC-GAIA-46-30-00-A
+FR26,Funcional,"Implementar un sistema de notificaciones basadas en eventos que alerte a los usuarios sobre cambios críticos en tiempo real.",Gestión de Datos y Analítica,Alta,Pendiente,DMC-GAIA-46-30-00-A
+FR27,Funcional,"Desarrollar un módulo de análisis financiero que permita evaluar los costos asociados a diferentes configuraciones y proyectos.",Gestión de Proyectos,Media,Pendiente,DMC-GAIA-46-30-00-A
+FR28,Funcional,"Integrar un sistema de gestión de versiones para documentos técnicos, asegurando que siempre se acceda a la versión más actual.",Gestión de Configuración,Alta,Pendiente,DMC-GAIA-46-20-00-A
+FR29,Funcional,"Proveer herramientas de análisis de sensibilidad para evaluar cómo variaciones en los parámetros afectan los resultados del proyecto.",Simulación y Modelado Avanzado,Media,Pendiente,DMC-GAIA-70-10-00-A
+FR30,Funcional,"Implementar un sistema de gestión de calidad que monitoree y asegure que los procesos y productos cumplan con los estándares establecidos.",Aseguramiento de Calidad,Alta,Pendiente,DMC-GAIA-46-20-00-A
+FR31,Funcional,"Desarrollar una interfaz de usuario accesible para personas con discapacidades, cumpliendo con las normativas de accesibilidad.",Usabilidad,Alta,Pendiente,DMC-GAIA-46-20-00-A
+FR32,Funcional,"Implementar autenticación única (Single Sign-On) para simplificar el acceso de los usuarios al GQP.",Seguridad,Alta,Pendiente,DMC-GAIA-46-80-00-A
+FR33,Funcional,"Desarrollar un módulo de gestión de contratos que almacene y gestione los acuerdos con proveedores y socios.",Gestión de Proyectos,Media,Pendiente,DMC-GAIA-46-20-00-A
+FR34,Funcional,"Integrar un sistema de seguimiento de inventarios para gestionar los recursos utilizados en los proyectos de GAIA AIR.",Gestión de Proyectos,Media,Pendiente,DMC-GAIA-46-20-00-A
+FR35,Funcional,"Proveer herramientas de colaboración asincrónica, como foros y chats, para facilitar la comunicación entre equipos remotos.",Colaboración Interdisciplinaria,Media,Pendiente,DMC-GAIA-00-00-00-A
+FR36,Funcional,"Implementar un módulo de gestión de incidencias que permita la priorización y resolución eficiente de problemas reportados.",Gestión de Proyectos,Alta,Pendiente,DMC-GAIA-46-20-00-A
+FR37,Funcional,"Desarrollar una funcionalidad de auto-guardado para prevenir la pérdida de datos durante sesiones de trabajo.",Usabilidad,Media,Pendiente,DMC-GAIA-46-20-00-A
+FR38,Funcional,"Integrar herramientas de análisis de impacto para evaluar cómo los cambios en una configuración afectan a otras áreas del sistema.",Gestión de Configuración,Alta,Pendiente,DMC-GAIA-46-20-00-A
+FR39,Funcional,"Proveer un módulo de gestión de recursos humanos que permita asignar y seguir el trabajo de los miembros del equipo.",Gestión de Proyectos,Media,Pendiente,DMC-GAIA-46-20-00-A
+FR40,Funcional,"Implementar un sistema de notificaciones basadas en eventos que alerte a los usuarios sobre cambios críticos en tiempo real.",Gestión de Datos y Analítica,Alta,Pendiente,DMC-GAIA-46-30-00-A
+
+b) Ejecutar el Script para Asignar los DMC Codes y Generar los Archivos
+
+	1.	Guardar el Script en un Archivo Python (por ejemplo, assign_dmc.py).
+	2.	Asegurarse de que el Archivo frs_data.csv esté en el Mismo Directorio que el Script.
+	3.	Ejecutar el Script:
+
+python assign_dmc.py
+
+Este script realizará lo siguiente:
+   •   Leerá los FRs desde frs_data.csv.
+   •   Asignará automáticamente los Códigos DMC si no están ya asignados.
+   •   Generará los archivos frs.csv, relaciones.csv y frs_table.md con la información completa.
+
+4. Actualizar el Código para Manejar Todos los FRs y Relaciones
+
+a) Definir la Clase RequisitoFuncional
+
+Si deseas trabajar con objetos más estructurados en Python, puedes definir una clase para los requisitos funcionales:
+
+class RequisitoFuncional:
+    def __init__(self, id_fr, descripcion, categoria, prioridad, estado, dmc_code):
+        self.id_fr = id_fr
+        self.descripcion = descripcion
+        self.categoria = categoria
+        self.prioridad = prioridad
+        self.estado = estado
+        self.dmc_code = dmc_code
+
+b) Construir el Grafo con NetworkX
+
+Para analizar las relaciones entre los FRs, puedes utilizar la biblioteca networkx:
+
+import networkx as nx
+import pandas as pd
+
+# Leer los datos de frs.csv y relaciones.csv
+frs_df = pd.read_csv('frs.csv')
+relaciones_df = pd.read_csv('relaciones.csv')
+
+# Crear el grafo
+G = nx.Graph()
+
+# Agregar nodos
+for _, row in frs_df.iterrows():
+    fr = RequisitoFuncional(row['ID'], row['Descripción'], row['Categoría'], row['Prioridad'], row['Estado'], row['DMC Code'])
+    G.add_node(fr.id_fr, descripcion=fr.descripcion, categoria=fr.categoria, prioridad=fr.prioridad, estado=fr.estado, dmc_code=fr.dmc_code)
+
+# Agregar aristas
+for _, row in relaciones_df.iterrows():
+    G.add_edge(row['fr1'], row['fr2'])
+
+print(f"Número de nodos: {G.number_of_nodes()}")
+print(f"Número de aristas: {G.number_of_edges()}")
+
+c) Visualizar el Grafo (Opcional)
+
+Puedes visualizar el grafo para entender mejor las interrelaciones:
+
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(15, 12))
+pos = nx.spring_layout(G, k=0.15, iterations=20)
+nx.draw_networkx_nodes(G, pos, node_size=50, node_color='skyblue')
+nx.draw_networkx_edges(G, pos, alpha=0.3)
+nx.draw_networkx_labels(G, pos, font_size=6)
+plt.title('Grafo de Requisitos Funcionales del GQP')
+plt.axis('off')
+plt.show()
+
+5. Generación de Archivos frs.csv y relaciones.csv Completos
+
+Ya has generado estos archivos con el script anterior. Asegúrate de mantenerlos actualizados a medida que añades más FRs.
+
+Conclusión y Siguientes Pasos
+
+	1.	Completa el Archivo frs_data.csv: Añade todos los FRs desde FR21 hasta FR265 siguiendo el formato establecido.
+	2.	Ejecuta el Script de Python: Asigna automáticamente los Códigos DMC y genera los archivos necesarios.
+	3.	Revisa y Valida: Verifica que los Códigos DMC se hayan asignado correctamente según las categorías.
+	4.	Actualiza y Mantén: Continúa agregando nuevos FRs y mantén los archivos actualizados para facilitar la gestión y análisis.
+
+Acción Requerida: Proporcionar Datos para FR41-FR50
+
+Por favor, proporciona la información estructurada para cada uno de los requisitos funcionales FR41 a FR50 en el siguiente formato:
+
+frs_data = [
+    # ... FR1-FR40 ...
+    {
+        'ID': 'FR41',
+        'Tipo': 'Funcional',
+        'Descripción': 'Descripción detallada del FR41.',
+        'Categoría': 'Categoría FR41',
+        'Prioridad': 'Alta/Media/Baja',
+        'Estado': 'Pendiente/En Progreso/Completo',
+        'DMC Code': 'DMC-GAIA-XX-XX-XX-A'  # Si ya tienes el código, de lo contrario, puede estar vacío
+    },
+    {
+        'ID': 'FR42',
+        'Tipo': 'Funcional',
+        'Descripción': 'Descripción detallada del FR42.',
+        'Categoría': 'Categoría FR42',
+        'Prioridad': 'Alta/Media/Baja',
+        'Estado': 'Pendiente/En Progreso/Completo',
+        'DMC Code': 'DMC-GAIA-XX-XX-XX-A'
+    },
+    # ... Hasta FR50 ...
+]
+
+Ejemplo de Cómo Proporcionar los Datos
+
+Supongamos que tienes los siguientes requisitos para FR41-FR50:
+
+frs_data = [
+    # ... FR1-FR40 ...
+    {
+        'ID': 'FR41',
+        'Tipo': 'Funcional',
+        'Descripción': 'Desarrollar un módulo de integración con sistemas ERP para sincronizar datos financieros y operativos en tiempo real.',
+        'Categoría': 'Integración con ICSDB',
+        'Prioridad': 'Alta',
+        'Estado': 'Pendiente',
+        'DMC Code': 'DMC-GAIA-46-20-00-A'
+    },
+    {
+        'ID': 'FR42',
+        'Tipo': 'Funcional',
+        'Descripción': 'Implementar un sistema de gestión de versiones para el código fuente del GQP, facilitando el seguimiento de cambios.',
+        'Categoría': 'Gestión de Configuración',
+        'Prioridad': 'Alta',
+        'Estado': 'Pendiente',
+        'DMC Code': 'DMC-GAIA-46-20-00-A'
+    },
+    {
+        'ID': 'FR43',
+        'Tipo': 'Funcional',
+        'Descripción': 'Crear un módulo para recibir solicitudes técnicas de los operadores y coordinar montajes con base en información operativa actualizada.',
+        'Categoría': 'Montajes y Techrequests',
+        'Prioridad': 'Alta',
+        'Estado': 'Pendiente',
+        'DMC Code': 'DMC-GAIA-46-20-00-A'
+    },
+    {
+        'ID': 'FR44',
+        'Tipo': 'Funcional',
+        'Descripción': 'Desarrollar un módulo de análisis de tendencias que identifique patrones en los datos recopilados por el GQP.',
+        'Categoría': 'Gestión de Datos y Analítica',
+        'Prioridad': 'Media',
+        'Estado': 'Pendiente',
+        'DMC Code': 'DMC-GAIA-46-30-00-A'
+    },
+    {
+        'ID': 'FR45',
+        'Tipo': 'Funcional',
+        'Descripción': 'Proveer una API de exportación para integrar los datos del GQP con sistemas ERP y CRM utilizados por GAIA AIR.',
+        'Categoría': 'Integración con ICSDB',
+        'Prioridad': 'Media',
+        'Estado': 'Pendiente',
+        'DMC Code': 'DMC-GAIA-46-20-00-A'
+    },
+    {
+        'ID': 'FR46',
+        'Tipo': 'Funcional',
+        'Descripción': 'Implementar un sistema de auditoría que registre todas las acciones realizadas por los usuarios dentro del GQP.',
+        'Categoría': 'Seguridad',
+        'Prioridad': 'Alta',
+        'Estado': 'Pendiente',
+        'DMC Code': 'DMC-GAIA-46-80-00-A'
+    },
+    {
+        'ID': 'FR47',
+        'Tipo': 'Funcional',
+        'Descripción': 'Desarrollar un módulo de análisis de tendencias que identifique patrones en los datos recopilados por el GQP.',
+        'Categoría': 'Gestión de Datos y Analítica',
+        'Prioridad': 'Media',
+        'Estado': 'Pendiente',
+        'DMC Code': 'DMC-GAIA-46-30-00-A'
+    },
+    {
+        'ID': 'FR48',
+        'Tipo': 'Funcional',
+        'Descripción': 'Implementar capacidades de machine learning para mejorar la precisión de las simulaciones y predicciones realizadas por el GQP.',
+        'Categoría': 'Simulación y Modelado Avanzado',
+        'Prioridad': 'Alta',
+        'Estado': 'Pendiente',
+        'DMC Code': 'DMC-GAIA-70-10-00-A'
+    },
+    {
+        'ID': 'FR49',
+        'Tipo': 'Funcional',
+        'Descripción': 'Proveer una API de exportación para integrar los datos del GQP con sistemas ERP y CRM utilizados por GAIA AIR.',
+        'Categoría': 'Integración con ICSDB',
+        'Prioridad': 'Media',
+        'Estado': 'Pendiente',
+        'DMC Code': 'DMC-GAIA-46-20-00-A'
+    },
+    {
+        'ID': 'FR50',
+        'Tipo': 'Funcional',
+        'Descripción': 'Implementar un sistema de gestión de calidad que monitoree y asegure que los procesos y productos cumplan con los estándares establecidos.',
+        'Categoría': 'Aseguramiento de Calidad',
+        'Prioridad': 'Alta',
+        'Estado': 'Pendiente',
+        'DMC Code': 'DMC-GAIA-46-20-00-A'
+    },
+]
+
+2. Automatizar la Asignación de Códigos DMC
+
+Para facilitar la asignación de Códigos DMC y la generación de los archivos necesarios, te proporciono un script en Python que puedes utilizar. Asegúrate de tener instalado Python y la biblioteca pandas. Puedes instalar pandas usando pip si no lo tienes:
+
+pip install pandas
+
+a) Preparar el Archivo frs_data.csv
+
+Organiza todos los FRs desde FR1 hasta FR265 en un archivo frs_data.csv con las siguientes columnas:
+   •   ID
+   •   Tipo
+   •   Descripción
+   •   Categoría
+   •   Prioridad
+   •   Estado
+   •   DMC Code
+
+Ejemplo de frs_data.csv:
+
+ID,Tipo,Descripción,Categoría,Prioridad,Estado,DMC Code
+FR1,Funcional,"Centralizar todos los datos relacionados con el diseño, desarrollo, producción, mantenimiento y reciclaje del avión.",Gestión del Ciclo de Vida (PLM),Alta,Pendiente,DMC-GAIA-45-00-00-A
+FR2,Funcional,"Integrar herramientas de modelado CAD 3D como Siemens NX, CATIA o Fusion 360.",Gestión del Ciclo de Vida (PLM),Alta,Pendiente,DMC-GAIA-45-10-00-A
+...
+FR50,Funcional,"Implementar un sistema de gestión de calidad que monitoree y asegure que los procesos y productos cumplan con los estándares establecidos.",Aseguramiento de Calidad,Alta,Pendiente,DMC-GAIA-46-20-00-A
+
+b) Script en Python para Asignar Códigos DMC y Generar Archivos
+
+Guarda el siguiente script en un archivo Python, por ejemplo, generar_archivos.py:
+
+import pandas as pd
+
+# Diccionario de mapeo de Categorías a Capítulos ATA
+categoria_a_ata = {
+    'Gestión del Ciclo de Vida (PLM)': '45',
+    'Simulación y Modelado Avanzado': '70',
+    'Colaboración Interdisciplinaria': '00',
+    'Seguridad': '46',
+    'Gestión de Datos y Analítica': '46',
+    'Usabilidad': '46',
+    'Gestión de Proyectos': '46',
+    'Gestión de Configuración': '46',
+    'Aseguramiento de Calidad': '46',
+    'Integración con ICSDB': '46',
+    'Entorno de Diseño y Cálculo FEM': '70',
+    'Modelos Digitales en Tiempo Real': '46',
+    'Montajes y Techrequests': '46',
+    'Seguridad de la Información': '46',
+    'Montajes y Tech Requests': '46',
+    'Mantenimiento Predictivo Cuántico': '46',
+    'Visualización de Datos Avanzada': '46',
+    'Aprendizaje Automático Cuántico': '46',
+    'Optimización de Algoritmos Cuánticos': '46',
+    'Simulación y Sostenibilidad Cuántica': '46',
+    'Soporte para Sostenibilidad': '46',
+    'Arquitectura Evolutiva': '46',
+    'Ciberseguridad': '46',
+    'Blockchain y Trazabilidad': '46',
+    'Experiencia de Usuario': '46',
+    'Tecnologías Inmersivas': '70',
+    'Formación y Desarrollo': '97',
+    'Optimización de Operaciones': '70',
+    'Big Data y Analítica': '46',
+    'Edge Computing': '46',
+    'Gestión de Energía': '70',
+    'Optimización de Rutas': '70',
+    # Añade más categorías si es necesario
+}
+
+def asignar_dmc_code(categoria, section='20', subsection='00'):
+    ata_chapter = categoria_a_ata.get(categoria, '00')  # Default a '00' si no encuentra la categoría
+    language = 'A'  # A para Español
+    dmc_code = f'DMC-GAIA-{ata_chapter}-{section}-{subsection}-{language}'
+    return dmc_code
+
+# Leer los datos desde frs_data.csv
+frs_df = pd.read_csv('frs_data.csv')
+
+# Asignar DMC Code si está vacío
+frs_df['DMC Code'] = frs_df.apply(
+    lambda row: asignar_dmc_code(row['Categoría']) if pd.isna(row['DMC Code']) or row['DMC Code'] == '' else row['DMC Code'],
+    axis=1
+)
+
+# Guardar frs.csv
+frs_df.to_csv('frs.csv', index=False, encoding='utf-8')
+
+# Crear relaciones basadas en categorías
+relaciones_data = []
+for categoria, grupo in frs_df.groupby('Categoría'):
+    frs_ids = grupo['ID'].tolist()
+    for i in range(len(frs_ids)):
+        for j in range(i + 1, len(frs_ids)):
+            relaciones_data.append({'fr1': frs_ids[i], 'fr2': frs_ids[j]})
+
+relaciones_df = pd.DataFrame(relaciones_data)
+relaciones_df.to_csv('relaciones.csv', index=False, encoding='utf-8')
+
+# Generar la tabla en Markdown
+def generar_tabla_markdown(df):
+    header = "| ID | Tipo | Descripción | Categoría | Prioridad | Estado | DMC Code |\n"
+    separator = "|----|------|-------------|-----------|-----------|--------|----------|\n"
+    rows = ""
+    for _, row in df.iterrows():
+        descripcion = row['Descripción'].replace('|', '\\|')  # Escapar caracteres especiales
+        rows += f"| {row['ID']} | {row['Tipo']} | {descripcion} | {row['Categoría']} | {row['Prioridad']} | {row['Estado']} | {row['DMC Code']} |\n"
+    return header + separator + rows
+
+markdown_table = generar_tabla_markdown(frs_df)
+with open('frs_table.md', 'w', encoding='utf-8') as file:
+    file.write(markdown_table)
+
+print("Archivos 'frs.csv', 'relaciones.csv' y 'frs_table.md' han sido generados exitosamente.")
+
+c) Ejecutar el Script
+
+	1.	Guardar el Script: Asegúrate de que el archivo generar_archivos.py esté en el mismo directorio que frs_data.csv.
+	2.	Ejecutar el Script:
+
+python generar_archivos.py
+
+Este script realizará lo siguiente:
+      •   Leerá los FRs desde frs_data.csv.
+      •   Asignará automáticamente los Códigos DMC si están vacíos.
+      •   Generará los archivos:
+         •   frs.csv: Contiene todos los FRs con sus códigos DMC asignados.
+         •   relaciones.csv: Contiene todas las relaciones entre FRs basadas en categorías.
+         •   frs_table.md: Una tabla en formato Markdown con todos los FRs.
+
+3. Continuar con FR51-FR265
+
+Una vez que hayas completado los FR41-FR50, puedes seguir añadiendo los FRs restantes siguiendo el mismo formato. Para facilitar este proceso, puedes continuar utilizando el archivo frs_data.csv y ejecutar el script para asignar automáticamente los códigos DMC y generar los archivos necesarios.
+
+4. Actualizar el Grafo con NetworkX
+
+Si deseas analizar las relaciones entre los requisitos utilizando un grafo, puedes utilizar la biblioteca networkx. A continuación, se proporciona un script para construir y visualizar el grafo:
+
+import networkx as nx
+import pandas as pd
+import matplotlib.pyplot as plt
+
+class RequisitoFuncional:
+    def __init__(self, id_fr, descripcion, categoria, prioridad, estado, dmc_code):
+        self.id_fr = id_fr
+        self.descripcion = descripcion
+        self.categoria = categoria
+        self.prioridad = prioridad
+        self.estado = estado
+        self.dmc_code = dmc_code
+
+# Leer los datos de frs.csv y relaciones.csv
+frs_df = pd.read_csv('frs.csv')
+relaciones_df = pd.read_csv('relaciones.csv')
+
+# Crear el grafo
+G = nx.Graph()
+
+# Agregar nodos al grafo
+for _, row in frs_df.iterrows():
+    fr = RequisitoFuncional(row['ID'], row['Descripción'], row['Categoría'], row['Prioridad'], row['Estado'], row['DMC Code'])
+    G.add_node(fr.id_fr, descripcion=fr.descripcion, categoria=fr.categoria, prioridad=fr.prioridad, estado=fr.estado, dmc_code=fr.dmc_code)
+
+# Agregar aristas al grafo
+for _, row in relaciones_df.iterrows():
+    G.add_edge(row['fr1'], row['fr2'])
+
+print(f"Número de nodos: {G.number_of_nodes()}")
+print(f"Número de aristas: {G.number_of_edges()}")
+
+# Visualizar el grafo (Opcional)
+plt.figure(figsize=(15, 12))
+pos = nx.spring_layout(G, k=0.15, iterations=20)
+nx.draw_networkx_nodes(G, pos, node_size=50, node_color='skyblue')
+nx.draw_networkx_edges(G, pos, alpha=0.3)
+nx.draw_networkx_labels(G, pos, font_size=6)
+plt.title('Grafo de Requisitos Funcionales del GQP')
+plt.axis('off')
+plt.show()
+
+5. Recomendaciones Finales
+
+   •   Mantén Actualizado el Archivo frs_data.csv: Cada vez que agregues nuevos FRs, actualiza este archivo y vuelve a ejecutar el script para asignar códigos DMC y generar los archivos necesarios.
+   •   Verifica las Categorías: Asegúrate de que todas las categorías utilizadas en los FRs estén incluidas en el diccionario categoria_a_ata para una correcta asignación de códigos DMC.
+   •   Automatiza el Proceso: Si tienes una gran cantidad de FRs, considera dividir el proceso en lotes manejables para evitar errores y facilitar la revisión.
+   •   Validación y Revisión: Después de generar los archivos, revisa la tabla en frs_table.md para asegurarte de que todos los FRs están correctamente asignados y que no hay duplicaciones ni errores.
+
+Estoy Aquí para Ayudarte
+
+Si necesitas más asistencia para:
+   •   Completar los FRs restantes (FR51-FR265).
+   •   Modificar o ampliar el script para adaptarse a necesidades específicas.
+   •   Realizar análisis adicionales sobre el grafo de requisitos.
+
+No dudes en indicármelo. ¡Estoy aquí para apoyarte en cada paso del proyecto GAIA QUANTUM PORTAL (GQP)! 🚀
+
+¡Mucho éxito en la continuación de tu proyecto!
+
+Tabla Colaborativa de Requisitos para GAIA QUANTUM PORTAL (GQP) - FR1-FR50
+
+ID	Tipo	Descripción	Categoría	Prioridad	Estado	DMC Code
+Intro	Descripción	Esta tabla recoge los primeros 265 requisitos identificados para el GAIA QUANTUM PORTAL (GQP). Cada requisito está clasificado por ID, tipo (Funcional o No Funcional), descripción detallada, categoría a la que pertenece, prioridad asignada y su estado actual.	General	N/A	N/A	DMC-GAIA-00-00-00-A
+FR1	Funcional	Centralizar todos los datos relacionados con el diseño, desarrollo, producción, mantenimiento y reciclaje del avión.	Gestión del Ciclo de Vida (PLM)	Alta	Pendiente	DMC-GAIA-45-00-00-A
+FR2	Funcional	Integrar herramientas de modelado CAD 3D como Siemens NX, CATIA o Fusion 360.	Gestión del Ciclo de Vida (PLM)	Alta	Pendiente	DMC-GAIA-45-10-00-A
+FR3	Funcional	Gestionar documentación técnica siguiendo estándares S1000D y ATA.	Gestión del Ciclo de Vida (PLM)	Alta	Pendiente	DMC-GAIA-45-10-00-A
+FR4	Funcional	Implementar versionado y trazabilidad utilizando sistemas como Git o soluciones PLM específicas.	Gestión del Ciclo de Vida (PLM)	Alta	Pendiente	DMC-GAIA-45-20-00-A
+FR5	Funcional	Integrar simuladores predictivos como ANSYS o Simulink para análisis estructurales y aerodinámicos.	Simulación y Modelado Avanzado	Alta	Pendiente	DMC-GAIA-70-00-00-A
+FR6	Funcional	Incorporar módulos de IA (ChatQuantum) para optimizar diseños en tiempo real.	Simulación y Modelado Avanzado	Alta	Pendiente	DMC-GAIA-70-10-00-A
+FR7	Funcional	Permitir la simulación de escenarios complejos, incluyendo condiciones climáticas extremas y fallos de sistemas.	Simulación y Modelado Avanzado	Media	Pendiente	DMC-GAIA-70-20-00-A
+FR8	Funcional	Facilitar la colaboración en tiempo real entre equipos multidisciplinarios ubicados en diferentes geografías.	Colaboración Interdisciplinaria	Alta	Pendiente	DMC-GAIA-00-00-00-A
+FR9	Funcional	Implementar control de acceso y permisos basados en roles para garantizar la seguridad de la información.	Seguridad de la Información	Alta	Pendiente	DMC-GAIA-46-80-00-A
+FR10	Funcional	Crear dashboards personalizados para seguimiento de KPIs clave del proyecto.	Gestión de Proyectos	Media	Pendiente	DMC-GAIA-46-30-00-A
+FR11	Funcional	Implementar autenticación multifactor (MFA) para aumentar la seguridad de acceso al GQP.	Seguridad	Alta	Pendiente	DMC-GAIA-46-80-00-A
+FR12	Funcional	Proveer soporte multilingüe para el GQP, permitiendo la utilización en diferentes idiomas según la región del usuario.	Usabilidad	Media	Pendiente	DMC-GAIA-46-20-00-A
+FR13	Funcional	Desarrollar un módulo de gestión de tareas que permita asignar, seguir y priorizar tareas dentro del GQP.	Gestión de Proyectos	Alta	Pendiente	DMC-GAIA-46-20-00-A
+FR14	Funcional	Implementar un sistema de notificaciones push para mantener a los usuarios informados sobre actualizaciones y eventos.	Gestión de Datos y Analítica	Media	Pendiente	DMC-GAIA-46-30-00-A
+FR15	Funcional	Integrar herramientas de análisis predictivo para anticipar necesidades de mantenimiento basadas en datos históricos.	Gestión de Datos y Analítica	Alta	Pendiente	DMC-GAIA-46-30-00-A
+FR16	Funcional	Permitir la importación y exportación de modelos FEM desde y hacia herramientas CAD compatibles.	Entorno de Diseño y Cálculo FEM	Alta	Pendiente	DMC-GAIA-70-10-00-A
+FR17	Funcional	Facilitar la colaboración en tiempo real en proyectos FEM, permitiendo que múltiples usuarios trabajen simultáneamente.	Entorno de Diseño y Cálculo FEM	Media	Pendiente	DMC-GAIA-46-10-00-A
+FR18	Funcional	Implementar gemelos digitales que reflejen los modelos físicos y conceptuales de GAIA AIR.	Modelos Digitales en Tiempo Real	Alta	Pendiente	DMC-GAIA-46-20-00-A
+FR19	Funcional	Sincronizar continuamente con herramientas CAD mediante APIs para mantener actualizados los gemelos digitales.	Modelos Digitales en Tiempo Real	Alta	Pendiente	DMC-GAIA-46-20-00-A
+FR20	Funcional	Integrar el ICSDB para centralizar todas las configuraciones y datos de sistema relacionados con GAIA AIR.	Integración con ICSDB	Alta	Pendiente	DMC-GAIA-46-20-00-A
+FR21	Funcional	Desarrollar un sistema de planificación y priorización automatizado para proyectos interdisciplinarios en el GQP.	Gestión de Proyectos	Alta	Pendiente	DMC-GAIA-46-10-00-A
+FR22	Funcional	Implementar un dashboard centralizado con indicadores clave de rendimiento (KPI) para monitorear las operaciones en tiempo real.	Visualización de Datos Avanzada	Alta	Pendiente	DMC-GAIA-46-20-00-A
+FR23	Funcional	Incorporar un módulo de análisis de riesgos que evalúe las probabilidades de fallos en las operaciones del GQP.	Ciberseguridad	Alta	Pendiente	DMC-GAIA-46-30-00-A
+FR24	Funcional	Desarrollar un sistema de notificaciones proactivas que alerte sobre posibles incumplimientos de estándares regulatorios.	Cumplimiento Normativo	Media	Pendiente	DMC-GAIA-46-40-00-A
+FR25	Funcional	Implementar una base de datos para registrar incidentes operativos y generar reportes de tendencias históricas.	Gestión de Datos y Analítica	Alta	Pendiente	DMC-GAIA-46-50-00-A
+FR26	Funcional	Crear un módulo de aprendizaje adaptativo que sugiera rutas de mejora para operadores según su rendimiento.	Formación y Desarrollo	Media	Pendiente	DMC-GAIA-97-00-00-A
+FR27	Funcional	Integrar un sistema de predicción de demanda utilizando algoritmos de machine learning para optimizar recursos.	Optimización de Recursos	Alta	Pendiente	DMC-GAIA-46-60-00-A
+FR28	Funcional	Desarrollar un simulador interactivo para entrenar operadores en escenarios críticos y de emergencia.	Simulación y Modelado Avanzado	Alta	Pendiente	DMC-GAIA-97-10-00-A
+FR29	Funcional	Proveer soporte multilingüe en todas las interfaces y módulos del GQP para operadores internacionales.	Usabilidad	Media	Pendiente	DMC-GAIA-46-70-00-A
+FR30	Funcional	Implementar un sistema de registro de auditorías que almacene evidencia digital verificable de todas las acciones realizadas en el GQP.	Blockchain y Trazabilidad	Alta	Pendiente	DMC-GAIA-46-80-00-A
+FR31	Funcional	[Por definir]	[Por definir]	[Por definir]	[Por definir]	[Por definir]
+…	…	…	…	…	…	…
+FR50	Funcional	Implementar un sistema de registro de auditorías que almacene evidencia digital verificable de todas las acciones realizadas en el GQP.	Blockchain y Trazabilidad	Alta	Pendiente	DMC-GAIA-46-80-00-A
+
+Metodología para Agregar los FRs Restantes (FR51-FR265)
+
+Para agregar los requisitos funcionales restantes de manera eficiente, sigue estos pasos:
+
+1. Preparar una Fuente de Datos Estructurada
+
+Crea un archivo CSV llamado frs_data.csv que contenga todos los requisitos funcionales desde FR1 hasta FR265. Asegúrate de incluir las siguientes columnas:
+   •   ID: Identificación del requisito (e.g., FR51).
+   •   Tipo: Funcional o No Funcional.
+   •   Descripción: Descripción detallada del requisito.
+   •   Categoría: Categoría o área funcional.
+   •   Prioridad: Alta, Media o Baja.
+   •   Estado: Pendiente, En Progreso, Completado.
+   •   DMC Code: Puede estar vacío inicialmente si se asignará automáticamente.
+
+Ejemplo de frs_data.csv:
+
+ID,Tipo,Descripción,Categoría,Prioridad,Estado,DMC Code
+FR1,Funcional,"Centralizar todos los datos relacionados con el diseño, desarrollo, producción, mantenimiento y reciclaje del avión.",Gestión del Ciclo de Vida (PLM),Alta,Pendiente,DMC-GAIA-45-00-00-A
+FR2,Funcional,"Integrar herramientas de modelado CAD 3D como Siemens NX, CATIA o Fusion 360.",Gestión del Ciclo de Vida (PLM),Alta,Pendiente,DMC-GAIA-45-10-00-A
+...
+FR50,Funcional,"Implementar un sistema de registro de auditorías que almacene evidencia digital verificable de todas las acciones realizadas en el GQP.",Blockchain y Trazabilidad,Alta,Pendiente,DMC-GAIA-46-80-00-A
+
+2. Automatizar la Asignación de Códigos DMC
+
+Utiliza un script en Python para asignar automáticamente los Códigos DMC basados en las Categorías de los requisitos. Aquí tienes un script completo para hacerlo:
+
+a) Definir el Mapeo de Categorías a Capítulos ATA
+
+# Diccionario de mapeo de Categorías a Capítulos ATA
+categoria_a_ata = {
+    'Gestión del Ciclo de Vida (PLM)': '45',
+    'Simulación y Modelado Avanzado': '70',
+    'Colaboración Interdisciplinaria': '00',
+    'Seguridad': '46',
+    'Gestión de Datos y Analítica': '46',
+    'Usabilidad': '46',
+    'Gestión de Proyectos': '46',
+    'Gestión de Configuración': '46',
+    'Aseguramiento de Calidad': '46',
+    'Integración con ICSDB': '46',
+    'Entorno de Diseño y Cálculo FEM': '70',
+    'Modelos Digitales en Tiempo Real': '46',
+    'Montajes y Techrequests': '46',
+    'Seguridad de la Información': '46',
+    'Montajes y Tech Requests': '46',
+    'Mantenimiento Predictivo Cuántico': '46',
+    'Visualización de Datos Avanzada': '46',
+    'Aprendizaje Automático Cuántico': '46',
+    'Optimización de Algoritmos Cuánticos': '46',
+    'Simulación y Sostenibilidad Cuántica': '46',
+    'Soporte para Sostenibilidad': '46',
+    'Arquitectura Evolutiva': '46',
+    'Ciberseguridad': '46',
+    'Blockchain y Trazabilidad': '46',
+    'Experiencia de Usuario': '46',
+    'Tecnologías Inmersivas': '70',
+    'Formación y Desarrollo': '97',
+    'Optimización de Operaciones': '70',
+    'Big Data y Analítica': '46',
+    'Edge Computing': '46',
+    'Gestión de Energía': '70',
+    'Optimización de Rutas': '70',
+    # Añade más categorías si es necesario
+    'Cumplimiento Normativo': '46',
+    'Optimización de Recursos': '46',
+    'Visualización de Datos Avanzada': '46',
+    'Formación y Desarrollo': '97',
+    'Optimización de Operaciones': '70',
+}
+
+b) Función para Asignar el DMC Code
+
+def asignar_dmc_code(categoria, section='20', subsection='00'):
+    ata_chapter = categoria_a_ata.get(categoria, '00')  # Default a '00' si no encuentra la categoría
+    language = 'A'  # A para Español
+    dmc_code = f'DMC-GAIA-{ata_chapter}-{section}-{subsection}-{language}'
+    return dmc_code
+
+c) Script Completo para Asignar Códigos DMC y Generar Archivos
+
+Guarda el siguiente script en un archivo Python, por ejemplo, generar_archivos.py:
+
+import pandas as pd
+
+# Diccionario de mapeo de Categorías a Capítulos ATA
+categoria_a_ata = {
+    'Gestión del Ciclo de Vida (PLM)': '45',
+    'Simulación y Modelado Avanzado': '70',
+    'Colaboración Interdisciplinaria': '00',
+    'Seguridad': '46',
+    'Gestión de Datos y Analítica': '46',
+    'Usabilidad': '46',
+    'Gestión de Proyectos': '46',
+    'Gestión de Configuración': '46',
+    'Aseguramiento de Calidad': '46',
+    'Integración con ICSDB': '46',
+    'Entorno de Diseño y Cálculo FEM': '70',
+    'Modelos Digitales en Tiempo Real': '46',
+    'Montajes y Techrequests': '46',
+    'Seguridad de la Información': '46',
+    'Montajes y Tech Requests': '46',
+    'Mantenimiento Predictivo Cuántico': '46',
+    'Visualización de Datos Avanzada': '46',
+    'Aprendizaje Automático Cuántico': '46',
+    'Optimización de Algoritmos Cuánticos': '46',
+    'Simulación y Sostenibilidad Cuántica': '46',
+    'Soporte para Sostenibilidad': '46',
+    'Arquitectura Evolutiva': '46',
+    'Ciberseguridad': '46',
+    'Blockchain y Trazabilidad': '46',
+    'Experiencia de Usuario': '46',
+    'Tecnologías Inmersivas': '70',
+    'Formación y Desarrollo': '97',
+    'Optimización de Operaciones': '70',
+    'Big Data y Analítica': '46',
+    'Edge Computing': '46',
+    'Gestión de Energía': '70',
+    'Optimización de Rutas': '70',
+    'Cumplimiento Normativo': '46',
+    'Optimización de Recursos': '46',
+    'Visualización de Datos Avanzada': '46',
+    'Formación y Desarrollo': '97',
+    'Optimización de Operaciones': '70',
+}
+
+def asignar_dmc_code(categoria, section='20', subsection='00'):
+    ata_chapter = categoria_a_ata.get(categoria, '00')  # Default a '00' si no encuentra la categoría
+    language = 'A'  # A para Español
+    dmc_code = f'DMC-GAIA-{ata_chapter}-{section}-{subsection}-{language}'
+    return dmc_code
+
+# Leer los datos desde frs_data.csv
+frs_df = pd.read_csv('frs_data.csv')
+
+# Asignar DMC Code si está vacío
+frs_df['DMC Code'] = frs_df.apply(
+    lambda row: asignar_dmc_code(row['Categoría']) if pd.isna(row['DMC Code']) or row['DMC Code'] == '' else row['DMC Code'],
+    axis=1
+)
+
+# Guardar frs.csv
+frs_df.to_csv('frs.csv', index=False, encoding='utf-8')
+
+# Crear relaciones basadas en categorías
+relaciones_data = []
+for categoria, grupo in frs_df.groupby('Categoría'):
+    frs_ids = grupo['ID'].tolist()
+    for i in range(len(frs_ids)):
+        for j in range(i + 1, len(frs_ids)):
+            relaciones_data.append({'fr1': frs_ids[i], 'fr2': frs_ids[j]})
+
+relaciones_df = pd.DataFrame(relaciones_data)
+relaciones_df.to_csv('relaciones.csv', index=False, encoding='utf-8')
+
+# Generar la tabla en Markdown
+def generar_tabla_markdown(df):
+    header = "| ID | Tipo | Descripción | Categoría | Prioridad | Estado | DMC Code |\n"
+    separator = "|----|------|-------------|-----------|-----------|--------|----------|\n"
+    rows = ""
+    for _, row in df.iterrows():
+        descripcion = row['Descripción'].replace('|', '\\|')  # Escapar caracteres especiales
+        rows += f"| {row['ID']} | {row['Tipo']} | {descripcion} | {row['Categoría']} | {row['Prioridad']} | {row['Estado']} | {row['DMC Code']} |\n"
+    return header + separator + rows
+
+markdown_table = generar_tabla_markdown(frs_df)
+with open('frs_table.md', 'w', encoding='utf-8') as file:
+    file.write(markdown_table)
+
+print("Archivos 'frs.csv', 'relaciones.csv' y 'frs_table.md' han sido generados exitosamente.")
+
+d) Ejecutar el Script
+
+	1.	Preparar el Archivo frs_data.csv: Asegúrate de que el archivo contiene todos los requisitos desde FR1 hasta FR265 con las columnas mencionadas.
+	2.	Guardar el Script: Guarda el script anterior en un archivo llamado generar_archivos.py.
+	3.	Instalar Dependencias: Asegúrate de tener instalada la biblioteca pandas. Si no la tienes, instálala usando:
+
+pip install pandas
+
+
+	4.	Ejecutar el Script:
+
+python generar_archivos.py
+
+Este script realizará lo siguiente:
+      •   Leerá los FRs desde frs_data.csv.
+      •   Asignará automáticamente los Códigos DMC si están vacíos.
+      •   Generará los archivos:
+         •   frs.csv: Contiene todos los FRs con sus códigos DMC asignados.
+         •   relaciones.csv: Contiene todas las relaciones entre FRs basadas en categorías.
+         •   frs_table.md: Una tabla en formato Markdown con todos los FRs.
+
+3. Actualizar el Código para Manejar Todos los FRs y Relaciones
+
+a) Definir la Clase RequisitoFuncional
+
+Si deseas trabajar con objetos más estructurados en Python, puedes definir una clase para los requisitos funcionales:
+
+class RequisitoFuncional:
+    def __init__(self, id_fr, descripcion, categoria, prioridad, estado, dmc_code):
+        self.id_fr = id_fr
+        self.descripcion = descripcion
+        self.categoria = categoria
+        self.prioridad = prioridad
+        self.estado = estado
+        self.dmc_code = dmc_code
+
+b) Construir el Grafo con NetworkX
+
+Para analizar las relaciones entre los FRs, puedes utilizar la biblioteca networkx. Aquí tienes un script para construir y visualizar el grafo:
+
+import networkx as nx
+import pandas as pd
+import matplotlib.pyplot as plt
+
+class RequisitoFuncional:
+    def __init__(self, id_fr, descripcion, categoria, prioridad, estado, dmc_code):
+        self.id_fr = id_fr
+        self.descripcion = descripcion
+        self.categoria = categoria
+        self.prioridad = prioridad
+        self.estado = estado
+        self.dmc_code = dmc_code
+
+# Leer los datos de frs.csv y relaciones.csv
+frs_df = pd.read_csv('frs.csv')
+relaciones_df = pd.read_csv('relaciones.csv')
+
+# Crear el grafo
+G = nx.Graph()
+
+# Agregar nodos al grafo
+for _, row in frs_df.iterrows():
+    fr = RequisitoFuncional(row['ID'], row['Descripción'], row['Categoría'], row['Prioridad'], row['Estado'], row['DMC Code'])
+    G.add_node(fr.id_fr, descripcion=fr.descripcion, categoria=fr.categoria, prioridad=fr.prioridad, estado=fr.estado, dmc_code=fr.dmc_code)
+
+# Agregar aristas al grafo
+for _, row in relaciones_df.iterrows():
+    G.add_edge(row['fr1'], row['fr2'])
+
+print(f"Número de nodos: {G.number_of_nodes()}")
+print(f"Número de aristas: {G.number_of_edges()}")
+
+# Visualizar el grafo (Opcional)
+plt.figure(figsize=(15, 12))
+pos = nx.spring_layout(G, k=0.15, iterations=20)
+nx.draw_networkx_nodes(G, pos, node_size=50, node_color='skyblue')
+nx.draw_networkx_edges(G, pos, alpha=0.3)
+nx.draw_networkx_labels(G, pos, font_size=6)
+plt.title('Grafo de Requisitos Funcionales del GQP')
+plt.axis('off')
+plt.show()
+
+4. Generación de Archivos frs.csv y relaciones.csv Completos
+
+El script proporcionado anteriormente (generar_archivos.py) ya genera estos archivos automáticamente. Asegúrate de ejecutar el script cada vez que actualices frs_data.csv para mantener los archivos actualizados.
+
+5. Recomendaciones Finales
+
+   •   Mantén Actualizado el Archivo frs_data.csv: Cada vez que agregues nuevos FRs, actualiza este archivo y ejecuta el script para asignar códigos DMC y generar los archivos necesarios.
+   •   Verifica las Categorías: Asegúrate de que todas las categorías utilizadas en los FRs estén incluidas en el diccionario categoria_a_ata para una correcta asignación de códigos DMC.
+   •   Automatiza el Proceso: Si tienes una gran cantidad de FRs, considera dividir el proceso en lotes manejables para evitar errores y facilitar la revisión.
+   •   Validación y Revisión: Después de generar los archivos, revisa la tabla en frs_table.md para asegurarte de que todos los FRs están correctamente asignados y que no hay duplicaciones ni errores.
+
+Siguientes Pasos
+
+	1.	Completar el Archivo frs_data.csv: Añade todos los requisitos desde FR51 hasta FR265 en el archivo frs_data.csv siguiendo el formato establecido.
+	2.	Ejecutar el Script: Corre el script generar_archivos.py para asignar automáticamente los Códigos DMC y generar los archivos necesarios.
+	3.	Revisar y Validar: Asegúrate de que los Códigos DMC y las relaciones están correctamente asignados.
+	4.	Analizar el Grafo: Utiliza el grafo creado para realizar análisis adicionales, como detección de comunidades o identificación de requisitos clave.
+
+Estoy Aquí para Ayudarte
+
+Si necesitas asistencia adicional para:
+   •   Completar los FRs restantes (FR51-FR265).
+   •   Modificar o ampliar el script para adaptarse a necesidades específicas.
+   •   Realizar análisis adicionales sobre el grafo de requisitos.
 
