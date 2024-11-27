@@ -7,7 +7,7 @@
 
 ## **Introduction**
 
-The **GAIA AIR AGI SOLUTIONS** program aims to revolutionize the aerospace industry by integrating advanced Artificial Intelligence (AI) technologies across all aircraft systems. This document provides a comprehensive overview of the tailored AI applications applicable to each ATA (Air Transport Association) chapter within the **GAIA AIR ECO AI SOLUTIONS** framework. By aligning AI solutions with specific aircraft systems, we aim to enhance efficiency, safety, sustainability, and passenger experience.
+The **GAIA AIR AGI SOLUTIONS** program aims to revolutionize the aerospace industry by integrating advanced Artificial Intelligence (AI) technologies across all aircraft systems. This document provides a comprehensive overview of the tailored AI applications applicable to each ATA (Air Transport Association) chapter within the **GAIA AIR** framework. By aligning AI solutions with specific aircraft systems, we aim to enhance efficiency, safety, sustainability, and passenger experience.
 
 ---
 
