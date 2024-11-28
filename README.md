@@ -87,12 +87,7 @@ La arquitectura de este sistema puede estructurarse de la siguiente manera:
 5. **Experiencias Inmersivas**: Mejora la educación, diseño y toma de decisiones mediante AR/VR/XR.
 
 ---
-
-[<html>
-<head><meta charset="utf-8" /></head>
-<body>
-    <div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script type="text/javascript">/**](https://github.com/Robbbo-T/GAIA-AIR/blob/main/docs/gaia-architecture.html)
+[Ver archivo HTML en GitHub](https://github.com/Robbbo-T/GAIA-AIR/blob/main/docs/gaia-architecture.html)
 
 
 # **Tailored AI Applications within GAIA AIR Each ATA Chapter**
