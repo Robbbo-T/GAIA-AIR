@@ -1,9 +1,202 @@
 ![image](https://github.com/user-attachments/assets/3348c94e-2b07-4519-9090-1d268fc63842)
 
-# **Tailored AI Applications within GAIA AIR ECO AI SOLUTIONS for Each ATA Chapter**
+# **Tailored AI Applications within GAIA AIR Each ATA Chapter**
 
 ---
 
+¡Entendido! A continuación, se presenta el **Listado de Solicitudes de Endpoints (EPRL)** para el **EPIC DM del Proyecto GAIA AIR Long Range**, organizado según las interfaces especificadas:
+
+### **Inicio**
+Este documento presenta una estructura organizada de los endpoints para el **GAIA AIR Long Range**, categorizados por áreas principales de la aeronave. Esta organización facilita la gestión, mantenimiento e integración de los diversos sistemas y subsistemas del avión inteligente.
+
+---
+### **Capítulos de la ATA**
+
+1. **Aircraft General**
+2. **Sistemas**
+3. **Estructura**
+4. **Hélice/Rotores**
+5. **Planta motriz**
+
+---
+
+## **1. Aircraft General**
+
+### **Descripción General**
+Gestiona aspectos generales y estructurales del avión que no están específicamente cubiertos por otras categorías. Incluye el monitoreo y mantenimiento de las estructuras principales del avión para asegurar su integridad y seguridad operativa.
+
+| **Endpoint Name**          | **Path**                              | **Descripción**                                                | **Datos Intercambiados**                           | **Protocolos**        | **Seguridad**                             | **Dependencias**                             |
+|----------------------------|---------------------------------------|----------------------------------------------------------------|----------------------------------------------------|-----------------------|-------------------------------------------|----------------------------------------------|
+| Monitoreo de Estructuras   | `/api/structures/monitoring`          | Monitorea el estado estructural del avión.                     | Datos de sensores de estrés, alertas estructurales | RESTful API, MQTT     | Autenticación JWT, Encriptación TLS        | Sensores de presión, Sistemas de monitoreo    |
+| Mantenimiento de Estructuras | `/api/structures/maintenance`       | Gestiona los procedimientos de mantenimiento de las estructuras.| Registros de mantenimiento, historial de reparaciones | RESTful API, SOAP     | Autenticación basada en roles, TLS          | Sistemas de gestión de mantenimiento, Documentación técnica |
+| Integridad Estructural     | `/api/structures/integrity`            | Evalúa la integridad estructural mediante análisis de datos.    | Datos de integridad, resultados de análisis        | RESTful API, WebSocket | Autenticación basada en roles, TLS          | Sistemas de monitoreo, Sistemas de seguridad   |
+
+---
+
+## **2. Sistemas**
+
+### **Descripción General**
+Gestiona los diversos sistemas aviónicos y subsistemas que operan dentro del avión, incluyendo navegación, vigilancia, hidráulicos, neumáticos, sistemas de agua potable, comunicaciones, entretenimiento, seguridad y más. Estos sistemas son fundamentales para el funcionamiento eficiente y seguro del avión.
+
+| **Endpoint Name**                      | **Path**                                   | **Descripción**                                                | **Datos Intercambiados**                                  | **Protocolos**                  | **Seguridad**                              | **Dependencias**                               |
+|----------------------------------------|--------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------------|---------------------------------|--------------------------------------------|------------------------------------------------|
+| Sistemas de Navegación                 | `/api/navigation/systems`                  | Gestiona los sistemas de navegación del avión.                 | Datos de navegación, comandos de ruta                      | RESTful API, AFDX (ARINC 664)    | Autenticación JWT, Encriptación TLS         | Sistemas de autopiloto, Sistemas de control de vuelo |
+| Sistemas de Vigilancia                 | `/api/navigation/surveillance`             | Gestiona los sistemas de vigilancia y monitoreo del entorno de vuelo. | Datos de vigilancia, alertas de proximidad               | RESTful API, WebSocket            | Autenticación basada en certificados, TLS   | Sistemas de navegación, Sensores de radar        |
+| Integración con Sistemas de Vuelo Automático | `/api/navigation/autopilot-integration` | Gestiona la integración con sistemas de vuelo automático.       | Comandos de vuelo automático, estados de autopiloto         | RESTful API, gRPC                  | Autenticación mutual TLS, Encriptación TLS | Sistemas de autopiloto, Sistemas de navegación    |
+| Distribución de Aire Neumático         | `/api/pneumatic/distribution`              | Gestiona la distribución de aire neumático en el avión.         | Estado de distribución, comandos de flujo de aire           | RESTful API, MQTT                  | Autenticación JWT, Encriptación TLS        | Sistemas de control de vuelo, Sensores de presión |
+| Indicaciones del Sistema Neumático     | `/api/pneumatic/indications`               | Proporciona indicaciones y alertas relacionadas con el sistema neumático. | Datos de sensores, alertas de presión                      | RESTful API, WebSocket             | Autenticación basada en roles, TLS          | Sistemas de monitoreo, Sistemas de seguridad     |
+| Distribución del Sistema de Vacío      | `/api/vacuum/distribution`                 | Gestiona la distribución del sistema de vacío en el avión.       | Estado de distribución, comandos de flujo de vacío           | RESTful API, CAN Bus               | Autenticación JWT, Encriptación TLS        | Sistemas de control de vuelo, Sensores de presión |
+| Indicaciones del Sistema de Vacío       | `/api/vacuum/indications`                  | Proporciona indicaciones y alertas relacionadas con el sistema de vacío. | Datos de sensores, alertas de presión                      | RESTful API, WebSocket             | Autenticación basada en roles, TLS          | Sistemas de monitoreo, Sistemas de seguridad     |
+| Sistemas de Agua Potable               | `/api/water-waste/potable-water`            | Gestiona los sistemas de suministro de agua potable.            | Niveles de agua, estado de bombas de agua potable            | RESTful API, MQTT                  | Autenticación JWT, Encriptación TLS        | Sistemas de monitoreo de agua, Sistemas de purificación |
+| Sistemas de Aguas Residuales           | `/api/water-waste/waste-water`              | Gestiona los sistemas de tratamiento y eliminación de aguas residuales. | Estado de sistemas de tratamiento, niveles de agua residual | RESTful API, CAN Bus               | Autenticación basada en roles, TLS          | Sistemas de monitoreo ambiental, Sistemas de seguridad |
+| Procedimientos de Gestión de Aguas     | `/api/water-waste/management-procedures`    | Gestiona los procedimientos de manejo de aguas y residuos.      | Procedimientos operativos, registros de mantenimiento        | RESTful API, SOAP                   | Autenticación basada en roles, TLS          | Sistemas de gestión de mantenimiento, Documentación técnica |
+| Paneles de Control                     | `/api/electrical-panels/control`            | Gestiona los paneles de control eléctrico y electrónico.        | Estado de paneles, comandos de control                      | RESTful API, CAN Bus                | Autenticación basada en roles, TLS          | Sistemas de monitoreo, Sistemas de autopiloto     |
+| Componentes Multipropósito             | `/api/electrical-panels/multipurpose`       | Gestiona componentes multipropósito en los paneles eléctricos.   | Estado de componentes, comandos de operación                 | RESTful API, MQTT                   | Autenticación JWT, Encriptación TLS        | Sistemas de control de energía, Sistemas de seguridad |
+| Integración de Sistemas                | `/api/multisystems/integration`             | Gestiona la integración de múltiples sistemas avionicos.        | Datos de integración, comandos de sincronización              | RESTful API, WebSocket               | Autenticación JWT, Encriptación TLS         | Sistemas de navegación, Sistemas de control de vuelo |
+| Procedimientos de Coordinación         | `/api/multisystems/coordination-procedures` | Gestiona procedimientos de coordinación entre sistemas multisistemas. | Procedimientos operativos, registros de coordinación       | RESTful API, SOAP                   | Autenticación basada en roles, TLS          | Sistemas de mantenimiento, Documentación técnica |
+| Gestión de Datos                        | `/api/information-systems/data-management` | Gestiona la recopilación, almacenamiento y análisis de datos.    | Datos operativos, datos históricos, resultados de análisis   | RESTful API, Kafka                   | Autenticación JWT, Encriptación AES-256    | Sistemas de Big Data, Sistemas de monitoreo       |
+| Seguridad de la Información             | `/api/information-systems/security`        | Gestiona la seguridad de la información en los sistemas.        | Protocolos de seguridad, estados de seguridad, alertas        | RESTful API, MQTT                    | Autenticación basada en certificados, TLS    | Sistemas de seguridad, Sistemas de monitoreo       |
+| Sistemas de Información de Vuelo        | `/api/information-systems/flight`          | Gestiona los sistemas de información específicos del vuelo.     | Datos de vuelo, estados de sistemas de vuelo                 | RESTful API, WebSocket               | Autenticación basada en roles, TLS           | Sistemas de control de vuelo, Sistemas de navegación |
+| Sistemas de Información de Mantenimiento | `/api/information-systems/maintenance`     | Gestiona los sistemas de información para el mantenimiento.      | Registros de mantenimiento, historial de reparaciones         | RESTful API, SOAP                    | Autenticación basada en roles, TLS          | Sistemas de gestión de mantenimiento, Documentación técnica |
+| Sistemas de Información de Cabina       | `/api/information-systems/cabin`           | Gestiona los sistemas de información dentro de la cabina.       | Datos de cabina, estados de sistemas de cabina                | RESTful API, MQTT                    | Autenticación basada en roles, TLS           | Sistemas de entretenimiento, Sistemas de comunicación |
+| Sistemas de Información Miscelánea      | `/api/information-systems/misc`            | Gestiona sistemas de información misceláneos.                   | Datos variados según el sistema, estados de funcionamiento     | RESTful API                          | Autenticación basada en roles, TLS           | Sistemas de control de vuelo, Sistemas de monitoreo |
+| Generación de Nitrógeno                 | `/api/inert-gas/generation`                | Gestiona la generación de nitrógeno a bordo.                     | Estado de generadores, producción de nitrógeno                | RESTful API, MQTT                    | Autenticación JWT, Encriptación AES-256    | Sistemas de seguridad, Sistemas de monitoreo     |
+| Distribución de Nitrógeno               | `/api/inert-gas/distribution`              | Gestiona la distribución de nitrógeno a diferentes sistemas.      | Flujos de nitrógeno, comandos de distribución                | RESTful API, CAN Bus                 | Autenticación basada en roles, TLS           | Sistemas de seguridad, Sensores de flujo          |
+| Mantenimiento y Operación del Sistema de Nitrógeno | `/api/inert-gas/maintenance-operation` | Gestiona el mantenimiento y la operación del sistema de generación de nitrógeno. | Registros de mantenimiento, estado de componentes          | RESTful API, SOAP                    | Autenticación basada en roles, TLS           | Sistemas de gestión de mantenimiento, Documentación técnica |
+| Gestión de Sistemas de Información      | `/api/information-systems/management`      | Gestiona los sistemas de información del avión.                  | Estado de sistemas de información, comandos de operación      | RESTful API, MQTT                    | Autenticación JWT, Encriptación TLS        | Sistemas de información, Sistemas de monitoreo    |
+| Integración de Sistemas de Información | `/api/information-systems/integration`     | Gestiona la integración de los sistemas de información.          | Datos de integración, comandos de sincronización              | RESTful API, WebSocket               | Autenticación basada en roles, TLS           | Sistemas de control de vuelo, Sistemas de monitoreo |
+| Mantenimiento de Sistemas de Información | `/api/information-systems/maintenance`     | Gestiona los procedimientos de mantenimiento de sistemas de información. | Registros de mantenimiento, historial de reparaciones         | RESTful API, SOAP                    | Autenticación basada en roles, TLS          | Sistemas de gestión de mantenimiento, Documentación técnica |
+
+| **Endpoint Name**                      | **Path**                              | **Descripción**                                                | **Datos Intercambiados**                           | **Protocolos**        | **Seguridad**                             | **Dependencias**                             |
+|----------------------------------------|---------------------------------------|----------------------------------------------------------------|----------------------------------------------------|-----------------------|-------------------------------------------|----------------------------------------------|
+| Comunicaciones Satelitales             | `/api/communications/satellite`       | Gestiona las comunicaciones vía satélite del avión.             | Datos de satélite, comandos de comunicación        | RESTful API, WebSocket | Autenticación basada en roles, TLS          | Sistemas de navegación, Sistemas de monitoreo |
+| Comunicaciones Internas                | `/api/communications/internal`        | Gestiona las comunicaciones internas entre cabina y tripulación. | Datos de comunicación interna, comandos de operación | RESTful API, MQTT     | Autenticación JWT, Encriptación TLS        | Sistemas de comunicación, Sistemas de monitoreo |
+| Sistema de Comunicaciones RF           | `/api/communications/rf-system`       | Gestiona el sistema de comunicaciones de radiofrecuencia.      | Datos de radio, comandos de transmisión            | RESTful API, MQTT     | Autenticación JWT, Encriptación TLS        | Sistemas de navegación, Sistemas de monitoreo |
+| Monitoreo de Comunicaciones            | `/api/communications/monitoring`      | Monitorea el estado de los sistemas de comunicación en tiempo real.| Lecturas de sensores, estados de sistemas           | MQTT, WebSocket       | Encriptación TLS, Autenticación JWT        | Sistemas de monitoreo, Sistemas de seguridad    |
+| Sistemas de Entretenimiento            | `/api/entertainment/systems`          | Gestiona los sistemas de entretenimiento a bordo.              | Datos de medios, comandos de reproducción          | RESTful API, WebSocket | Autenticación basada en roles, TLS          | Sistemas de comunicación, Interfaces de usuario |
+| Contenido Multimedia                   | `/api/entertainment/media`            | Gestiona el contenido multimedia disponible para los pasajeros. | Catálogo de contenido, solicitudes de reproducción | RESTful API, MQTT     | Autenticación JWT, Encriptación TLS        | Sistemas de almacenamiento, Sistemas de comunicación |
+| Personalización de Contenido           | `/api/entertainment/customization`    | Permite la personalización de las preferencias de entretenimiento de los pasajeros. | Datos de preferencias, comandos de personalización | RESTful API, MQTT     | Autenticación JWT, Encriptación AES-256    | Sistemas de usuario, Sistemas de comunicación |
+| Monitoreo de Sistemas de Entretenimiento | `/api/entertainment/monitoring` | Monitorea el estado de los sistemas de entretenimiento en tiempo real. | Lecturas de sensores, estados de sistemas           | MQTT, WebSocket       | Encriptación TLS, Autenticación JWT        | Sistemas de monitoreo, Sistemas de seguridad    |
+| Sistemas de Vigilancia                 | `/api/security/surveillance`          | Gestiona los sistemas de vigilancia y monitoreo de seguridad.  | Imágenes de cámaras, alertas de intrusión          | RESTful API, MQTT     | Autenticación JWT, Encriptación TLS        | Sistemas de cámaras, Sistemas de monitoreo    |
+| Control de Acceso                      | `/api/security/access-control`        | Gestiona el control de acceso a áreas restringidas del avión.   | Comandos de acceso, estados de puertas              | RESTful API, WebSocket | Autenticación basada en roles, TLS          | Sistemas de puertas, Sistemas de monitoreo    |
+| Sistemas de Alarma                     | `/api/security/alarm-systems`         | Gestiona los sistemas de alarma y notificación de emergencias.  | Alertas de emergencia, comandos de activación       | RESTful API, SOAP     | Autenticación basada en roles, TLS          | Sistemas de monitoreo, Sistemas de seguridad |
+| Protección contra Intrusiones         | `/api/security/intrusion-protection`  | Gestiona mecanismos de protección contra intrusiones y accesos no autorizados. | Alertas de intrusión, comandos de bloqueo           | RESTful API, MQTT      | Autenticación JWT, Encriptación TLS        | Sistemas de seguridad, Sistemas de monitoreo    |
+| Monitoreo de Seguridad                 | `/api/security/monitoring`            | Monitorea el estado de los sistemas de seguridad en tiempo real.| Lecturas de sensores, estados de sistemas           | MQTT, WebSocket       | Encriptación TLS, Autenticación JWT        | Sistemas de monitoreo, Sistemas de seguridad    |
+
+---
+
+## **3. Estructura**
+
+### **Descripción General**
+Gestiona los aspectos estructurales del avión, incluyendo materiales, procesos de fabricación, reparaciones y mantenimiento de estructuras. Asegura que la estructura del avión cumple con los estándares de seguridad y rendimiento.
+
+| **Endpoint Name**                                 | **Path**                                     | **Descripción**                                                | **Datos Intercambiados**                           | **Protocolos**        | **Seguridad**                             | **Dependencias**                             |
+|---------------------------------------------------|----------------------------------------------|----------------------------------------------------------------|----------------------------------------------------|-----------------------|-------------------------------------------|----------------------------------------------|
+| Investigación y Limpieza                         | `/api/standard-structures/investigation-cleanup` | Gestiona las prácticas de investigación, limpieza y suavidad aerodinámica. | Procedimientos de investigación, registros de limpieza | RESTful API, SOAP     | Autenticación basada en roles, TLS          | Sistemas de mantenimiento, Sistemas de monitoreo |
+| Procesos de Fabricación                           | `/api/standard-structures/processes`         | Gestiona los procesos de fabricación y ensamblaje de estructuras. | Datos de procesos, comandos de fabricación          | RESTful API, MQTT     | Autenticación JWT, Encriptación TLS        | Sistemas de fabricación, Sistemas de control de calidad |
+| Gestión de Materiales                             | `/api/standard-structures/materials`         | Gestiona los materiales utilizados en las estructuras.         | Inventario de materiales, especificaciones técnicas | RESTful API, CAN Bus  | Autenticación basada en roles, TLS          | Sistemas de gestión de materiales, Sistemas de inventario |
+| Gestión de Sujetadores                            | `/api/standard-structures/fasteners`         | Gestiona los sujetadores y componentes de unión.               | Inventario de sujetadores, comandos de ensamblaje   | RESTful API          | Autenticación basada en roles, TLS          | Sistemas de fabricación, Sistemas de control de calidad |
+| Soporte de Aeronave para Reparación y Procedimientos de Verificación | `/api/standard-structures/support-repair` | Gestiona el soporte de la aeronave para reparaciones y verificaciones de alineación. | Procedimientos operativos, registros de soporte     | RESTful API, SOAP     | Autenticación basada en roles, TLS          | Sistemas de mantenimiento, Documentación técnica |
+| Equilibrado de Superficies de Control             | `/api/standard-structures/control-surface-balancing` | Gestiona el equilibrado de las superficies de control.          | Datos de equilibrado, comandos de ajuste           | RESTful API, WebSocket | Autenticación JWT, Encriptación TLS        | Sistemas de control de vuelo, Sistemas de monitoreo |
+| Reparaciones                                      | `/api/standard-structures/repairs`           | Gestiona las reparaciones de estructuras.                      | Registros de reparaciones, estado de componentes    | RESTful API, SOAP     | Autenticación basada en roles, TLS          | Sistemas de gestión de mantenimiento, Documentación técnica |
+| Unión Eléctrica                                   | `/api/standard-structures/electrical-bonding` | Gestiona la unión eléctrica de estructuras.                    | Estados de unión eléctrica, comandos de operación   | RESTful API, CAN Bus  | Autenticación JWT, Encriptación TLS        | Sistemas eléctricos, Sistemas de monitoreo    |
+
+---
+
+## **4. Hélice/Rotores**
+
+### **Descripción General**
+Gestiona los sistemas relacionados con hélices y rotores, incluyendo diseño, mantenimiento, control y monitoreo de estos componentes críticos. Asegura el funcionamiento eficiente y seguro de los sistemas de propulsión rotatoria.
+
+| **Endpoint Name**                      | **Path**                              | **Descripción**                                                | **Datos Intercambiados**                           | **Protocolos**        | **Seguridad**                             | **Dependencias**                             |
+|----------------------------------------|---------------------------------------|----------------------------------------------------------------|----------------------------------------------------|-----------------------|-------------------------------------------|----------------------------------------------|
+| Hojas de Rotor                         | `/api/rotors/rotor-blades`            | Gestiona las hojas de rotor.                                   | Estado de hojas de rotor, comandos de operación     | RESTful API, MQTT     | Autenticación JWT, Encriptación TLS        | Sistemas de control de vuelo, Sistemas de monitoreo |
+| Cabezas de Rotor                       | `/api/rotors/rotor-heads`             | Gestiona las cabezas de rotor.                                 | Estado de cabezas de rotor, comandos de operación   | RESTful API           | Autenticación basada en roles, TLS          | Sistemas de autopiloto, Sistemas de monitoreo |
+| Ejes de Rotor/Swashplate Assemblies     | `/api/rotors/swashplate-assemblies`    | Gestiona los ejes de rotor y las swashplate assemblies.        | Estado de ejes, comandos de operación              | RESTful API, WebSocket | Autenticación basada en roles, TLS          | Sistemas de control de vuelo, Sistemas de monitoreo |
+| Indicaciones de Rotors                  | `/api/rotors/indications`              | Proporciona indicaciones y alertas sobre los rotors.           | Datos de sensores, alertas de estado                | RESTful API, MQTT      | Autenticación JWT, Encriptación TLS        | Sistemas de monitoreo, Sistemas de seguridad  |
+
+---
+
+## **5. Planta motriz**
+
+### **Descripción General**
+Gestiona los sistemas relacionados con la planta motriz del avión, incluyendo motores, propulsores, sistemas de combustible, ignición y más. Estos sistemas son fundamentales para el rendimiento y la eficiencia del avión.
+
+| **Endpoint Name**                      | **Path**                                   | **Descripción**                                                | **Datos Intercambiados**                                | **Protocolos**        | **Seguridad**                             | **Dependencias**                             |
+|----------------------------------------|--------------------------------------------|----------------------------------------------------------------|---------------------------------------------------------|-----------------------|-------------------------------------------|----------------------------------------------|
+| Descripción y Funcionamiento de Motor  | `/api/engine/design-function`              | Proporciona detalles sobre el diseño y funcionamiento del motor. | Especificaciones de motor, estados operativos           | RESTful API, MQTT     | Autenticación basada en roles, TLS        | Sistemas de propulsión, Sistemas de monitoreo |
+| Procedimientos de Mantenimiento del Motor | `/api/engine/maintenance-procedures`    | Gestiona los procedimientos de mantenimiento para el motor.      | Registros de mantenimiento, historial de reparaciones    | RESTful API, SOAP     | Autenticación basada en roles, TLS        | Sistemas de gestión de mantenimiento, Documentación técnica |
+| Ensamblaje de Propulsores               | `/api/propellers/assembly`                 | Gestiona el ensamblaje de propulsores.                        | Datos de ensamblaje, comandos de operación               | RESTful API, MQTT     | Autenticación JWT, Encriptación TLS        | Sistemas de fabricación, Sistemas de control de calidad |
+| Control de Propulsores                  | `/api/propellers/control`                   | Gestiona el control y operación de los propulsores.             | Comandos de control, estados de propulsores               | RESTful API, CAN Bus  | Autenticación basada en roles, TLS        | Sistemas de autopiloto, Sistemas de monitoreo |
+| Frenado de Propulsores                  | `/api/propellers/braking`                   | Gestiona los sistemas de frenado de propulsores.                | Comandos de frenado, estados de sistemas                  | RESTful API, WebSocket | Autenticación basada en roles, TLS        | Sistemas de seguridad, Sistemas de monitoreo |
+| Indicaciones de Propulsores             | `/api/propellers/indications`               | Proporciona indicaciones y alertas sobre los propulsores.        | Datos de sensores, alertas de estado                      | RESTful API, MQTT      | Autenticación JWT, Encriptación TLS        | Sistemas de monitoreo, Sistemas de control de vuelo |
+| Conducto de Propulsor                    | `/api/propellers/propulsion-conduit`        | Gestiona el conducto de propulsión montado en parte trasera.    | Datos de flujo, comandos de operación                     | RESTful API          | Autenticación basada en roles, TLS        | Sistemas de propulsión, Sistemas de monitoreo |
+| Descripción y Funcionamiento de Propulsores | `/api/propellers/design-function`        | Proporciona detalles sobre el diseño y funcionamiento de los propulsores. | Especificaciones de propulsores, estados operativos | RESTful API          | Autenticación basada en roles, TLS        | Sistemas de propulsión, Sistemas de monitoreo |
+| Integración de Sistemas de Propulsión    | `/api/propellers/system-integration`        | Gestiona la integración de los sistemas de propulsión.         | Datos de integración, comandos de sincronización          | RESTful API, WebSocket | Autenticación JWT, Encriptación TLS       | Sistemas de autopiloto, Sistemas de monitoreo |
+| Motores de Combustión Interna (Reciprocating Engines) | `/api/engine/internal/frontal-section` | Gestiona la sección frontal del motor de combustión interna. | Estado de sección frontal, comandos de operación          | RESTful API          | Autenticación basada en roles, TLS        | Sistemas de propulsión, Sistemas de monitoreo |
+| Motores de Combustión Interna (Reciprocating Engines) | `/api/engine/internal/power-section`  | Gestiona la sección de potencia del motor de combustión interna. | Estado de sección de potencia, comandos de operación | RESTful API          | Autenticación basada en roles, TLS        | Sistemas de propulsión, Sistemas de monitoreo |
+| Motores de Combustión Interna (Reciprocating Engines) | `/api/engine/internal/cylinders`      | Gestiona la sección de cilindros del motor de combustión interna. | Estado de cilindros, comandos de operación             | RESTful API          | Autenticación basada en roles, TLS        | Sistemas de propulsión, Sistemas de monitoreo |
+| Motores de Combustión Interna (Reciprocating Engines) | `/api/engine/internal/supercharger`   | Gestiona la sección de supercargador del motor de combustión interna. | Estado de supercargador, comandos de operación         | RESTful API          | Autenticación basada en roles, TLS        | Sistemas de propulsión, Sistemas de monitoreo |
+| Motores de Combustión Interna (Reciprocating Engines) | `/api/engine/internal/lubrication`    | Gestiona los sistemas de lubricación del motor de combustión interna. | Estado de lubricación, niveles de aceite               | RESTful API          | Autenticación basada en roles, TLS        | Sistemas de propulsión, Sistemas de monitoreo |
+| Distribución de Combustible             | `/api/engine-fuel/distribution`          | Gestiona la distribución de combustible en el motor.            | Estado de distribución, comandos de operación          | RESTful API          | Autenticación basada en roles, TLS        | Sistemas de propulsión, Sistemas de monitoreo |
+| Control de Combustible                  | `/api/engine-fuel/control`                | Gestiona el control y regulación del flujo de combustible.       | Comandos de control, estados de sistemas               | RESTful API          | Autenticación JWT, Encriptación TLS        | Sistemas de autopiloto, Sistemas de monitoreo |
+| Indicaciones de Combustible             | `/api/engine-fuel/indications`           | Proporciona indicaciones y alertas sobre el suministro de combustible. | Datos de sensores, alertas de combustible            | RESTful API, MQTT      | Autenticación JWT, Encriptación TLS        | Sistemas de monitoreo, Sistemas de seguridad  |
+| Energía Eléctrica de Ignición           | `/api/ignition/electric-energy`           | Gestiona la energía eléctrica utilizada en los sistemas de ignición. | Estado de energía, comandos de operación            | RESTful API          | Autenticación basada en roles, TLS        | Sistemas de propulsión, Sistemas de monitoreo |
+| Distribución de Ignición                | `/api/ignition/distribution`              | Gestiona la distribución de energía para los sistemas de ignición. | Estado de distribución, comandos de operación       | RESTful API          | Autenticación basada en roles, TLS        | Sistemas de propulsión, Sistemas de monitoreo |
+| Conmutación de Ignición                 | `/api/ignition/switching`                 | Gestiona los sistemas de conmutación para la ignición.           | Comandos de conmutación, estados de sistemas         | RESTful API          | Autenticación basada en roles, TLS        | Sistemas de control de vuelo, Sistemas de seguridad |
+| Antihielo de Motor                      | `/api/bleed-air/anti-icing`                | Gestiona los sistemas de antihielo en los motores.               | Estado de sistemas antihielo, comandos de operación | RESTful API          | Autenticación basada en roles, TLS        | Sistemas de propulsión, Sistemas de monitoreo |
+| Enfriamiento                            | `/api/bleed-air/cooling`                   | Gestiona los sistemas de enfriamiento utilizando aire neumático. | Estado de sistemas de enfriamiento, comandos de operación | RESTful API          | Autenticación JWT, Encriptación TLS        | Sistemas de climatización, Sistemas de monitoreo |
+| Control de Compresores                  | `/api/bleed-air/compressor-control`        | Gestiona el control de los compresores de aire neumático.        | Comandos de operación de compresores, estados de rendimiento de los compresores | RESTful API, MQTT      | Autenticación JWT, Encriptación TLS        | Sistemas de climatización, Sistemas de monitoreo, Sensores de presión |
+
+**Detalles del Endpoint Completado:**
+
+| **Campo**                  | **Valor**                                                                                                                     |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------|
+| **Datos Intercambiados**   | Comandos de operación de compresores, estados de rendimiento de los compresores                                            |
+| **Protocolos**             | RESTful API, MQTT                                                                                                              |
+| **Seguridad**              | Autenticación JWT, Encriptación TLS                                                                                           |
+| **Dependencias**           | Sistemas de climatización, Sistemas de monitoreo, Sensores de presión                                                      |
+
+**Descripción del Endpoint Completado:**
+
+#### **Control de Compresores**
+- **Path:** `/api/bleed-air/compressor-control`
+- **Descripción:** Gestiona el control de los compresores de aire neumático, asegurando su operación eficiente y segura. Permite el ajuste dinámico de los compresores según las necesidades de enfriamiento y presión del avión.
+- **Datos Intercambiados:** Comandos de operación para encender/apagar los compresores, ajustar la velocidad y monitorizar el rendimiento en tiempo real.
+- **Protocolos:** 
+  - **RESTful API:** Para operaciones estándar de control y monitoreo.
+  - **MQTT:** Para comunicación en tiempo real y transmisión de datos de rendimiento continuo.
+- **Seguridad:**
+  - **Autenticación JWT (JSON Web Tokens):** Asegura que solo usuarios y sistemas autorizados puedan acceder y controlar los compresores.
+  - **Encriptación TLS (Transport Layer Security):** Protege los datos en tránsito contra interceptaciones y accesos no autorizados.
+- **Dependencias:**
+  - **Sistemas de climatización:** Para ajustar los compresores según las necesidades de enfriamiento.
+  - **Sistemas de monitoreo:** Para supervisar el rendimiento y detectar anomalías.
+  - **Sensores de presión:** Para proporcionar datos en tiempo real sobre las condiciones operativas de los compresores.
+
+---
+
+## **Próximos Pasos**
+
+1. **Definir Interfaces Detalladas:**
+   - **Desarrollar diagramas de flujo y arquitectura para cada endpoint.**
+   - **Especificar protocolos de comunicación y estándares de integración.**
+2. **Desarrollar Especificaciones Técnicas:**
+   - **Crear documentos detallados para cada endpoint, incluyendo requisitos funcionales y no funcionales.**
+3. **Implementar Herramientas de Gestión:**
+   - **Utilizar software como Confluence o SharePoint para centralizar la documentación y facilitar el acceso a los equipos.**
+4. **Realizar Pruebas de Integración:**
+   - **Asegurar que todos los endpoints interactúan correctamente y cumplen con los requisitos del proyecto.**
+5. **Establecer un Plan de Mantenimiento:**
+   - **Definir procedimientos y calendarios para el mantenimiento regular y actualizaciones de sistemas.**
+
+---
+
+## **Conclusión**
+
+Este **Listado de Solicitudes de Endpoints (EPRL)** para el **EPIC DM** del proyecto **GAIA AIR Long Range** proporciona una guía estructurada y detallada para la integración eficiente de los sistemas y subsistemas del avión inteligente. Al organizar los endpoints según las interfaces especificadas, se facilita la coordinación entre equipos, la integración de tecnologías avanzadas y el cumplimiento de estándares de la industria aeronáutica.
+
+---
 
 ## **Introduction**
 
