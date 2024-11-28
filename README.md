@@ -73,17 +73,6 @@
 
 ---
 
-# 📄 Innovación Sostenible en GAIA AIR
-
-## 📑 Índice de Contenidos
-
-1. [**Introducción**](#introducción)  
-   - [La misión de GAIA AIR: Sostenibilidad y tecnología avanzada](#la-misión-de-gaia-air-sostenibilidad-y-tecnología-avanzada)  
-   - [Retos de la industria aeroespacial frente al cambio climático](#retos-de-la-industria-aeroespacial-frente-al-cambio-climático)  
-   - [Visión integral del ecosistema GAIA AIR](#visión-integral-del-ecosistema-gaia-air)
-
----
-
 # 1. **Introducción**
 
 ## 📌 La misión de GAIA AIR: Sostenibilidad y tecnología avanzada
