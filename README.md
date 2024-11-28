@@ -1,6 +1,6 @@
 ![image](https://github.com/user-attachments/assets/3348c94e-2b07-4519-9090-1d268fc63842)
 
-El concepto del **General AI Algorithm (GAIA)** que describes combina tecnologías avanzadas de inteligencia artificial, simulación, monitoreo y análisis en tiempo real para ofrecer un sistema holístico de optimización y gestión de datos y procesos. A continuación, se desglosan los componentes clave, sus funciones y aplicaciones prácticas:
+El concepto del **General AI Algorithm (GAIA)** que se describe combina tecnologías avanzadas de inteligencia artificial, simulación, monitoreo y análisis en tiempo real para ofrecer un sistema holístico de optimización y gestión de datos y procesos. A continuación, se desglosan los componentes clave, sus funciones y aplicaciones prácticas:
 
 ---
 
@@ -88,11 +88,11 @@ La arquitectura de este sistema puede estructurarse de la siguiente manera:
 
 ---
 
-<html>
+[<html>
 <head><meta charset="utf-8" /></head>
 <body>
     <div>            <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_SVG"></script><script type="text/javascript">if (window.MathJax && window.MathJax.Hub && window.MathJax.Hub.Config) {window.MathJax.Hub.Config({SVG: {font: "STIX-Web"}});}</script>                <script type="text/javascript">window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
-        <script type="text/javascript">/**
+        <script type="text/javascript">/**](https://github.com/Robbbo-T/GAIA-AIR/blob/main/docs/gaia-architecture.html)
 
 
 # **Tailored AI Applications within GAIA AIR Each ATA Chapter**
