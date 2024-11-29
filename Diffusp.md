@@ -94,36 +94,10 @@ DIFFUSP operates based on the principles of thermodynamics, electrodynamics, and
 
 Thermal and energy flows are managed through recovery and distribution systems that enhance overall system efficiency.
 
-## DIFFUSP - Sustainable Propulsion System
 
----
-
-## **Table of Contents**
-
-1. [Introduction](#1-introduction)
-   - [1.1. Concept of DIFFUSP](#11-concept-of-diffusp)
-   - [1.2. Objectives of the System](#12-objectives-of-the-system)
-   - [1.3. Main Applications](#13-main-applications)
-   - [1.4. Innovative Benefits](#14-innovative-benefits)
-2. [Principles of Operation](#2-principles-of-operation)
-   - [2.1. Physical Foundations](#21-physical-foundations)
-   - [2.2. Flow Dynamics](#22-flow-dynamics)
-     - [2.2.1. Thermal Flow Diagram](#221-thermal-flow-diagram)
-   - [2.3. Synergy Between Hydrogen and CO₂](#23-synergy-between-hydrogen-and-co₂)
-3. [System Architecture](#3-system-architecture)
-   - [3.1. Modular Structure](#31-modular-structure)
-     - [3.1.1. Modular Architecture Diagram](#311-modular-architecture-diagram)
-   - [3.2. Main Components](#32-main-components)
-4. [Validation and Testing](#4-validation-and-testing)
-5. [Conclusion](#5-conclusion)
-6. [Appendices](#6-appendices)
-
----
-
-## **2.2.1. Thermal Flow Diagram**
-
-```mermaid
-flowchart TD
+## **2.2.1. Thermal Flow flowchart TD
+    A[Node A] --> B[Node B]
+    B --> C[Node C]
     A[Heat Generation] --> B[Heat Collection]
     B --> C[Heat Distribution]
     C --> D[Heat Recovery Systems]
