@@ -10,7 +10,7 @@
 
 ---
 
-**1. Introduction**
+(**1. Introduction**
 
 The DIFFUSP system is an innovative solution for sustainable aviation. It integrates advanced technologies to reduce environmental impact while maintaining operational efficiency and safety. The DIFFUSP system aims to revolutionize the aerospace industry by combining cutting-edge materials, hybrid propulsion systems, artificial intelligence, blockchain technology, and quantum principles.
 
