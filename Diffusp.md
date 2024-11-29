@@ -94,7 +94,33 @@ DIFFUSP operates based on the principles of thermodynamics, electrodynamics, and
 
 Thermal and energy flows are managed through recovery and distribution systems that enhance overall system efficiency.
 
-#### **2.2.1. Thermal Flow Diagram**
+## DIFFUSP - Sustainable Propulsion System
+
+---
+
+## **Table of Contents**
+
+1. [Introduction](#1-introduction)
+   - [1.1. Concept of DIFFUSP](#11-concept-of-diffusp)
+   - [1.2. Objectives of the System](#12-objectives-of-the-system)
+   - [1.3. Main Applications](#13-main-applications)
+   - [1.4. Innovative Benefits](#14-innovative-benefits)
+2. [Principles of Operation](#2-principles-of-operation)
+   - [2.1. Physical Foundations](#21-physical-foundations)
+   - [2.2. Flow Dynamics](#22-flow-dynamics)
+     - [2.2.1. Thermal Flow Diagram](#221-thermal-flow-diagram)
+   - [2.3. Synergy Between Hydrogen and CO₂](#23-synergy-between-hydrogen-and-co₂)
+3. [System Architecture](#3-system-architecture)
+   - [3.1. Modular Structure](#31-modular-structure)
+     - [3.1.1. Modular Architecture Diagram](#311-modular-architecture-diagram)
+   - [3.2. Main Components](#32-main-components)
+4. [Validation and Testing](#4-validation-and-testing)
+5. [Conclusion](#5-conclusion)
+6. [Appendices](#6-appendices)
+
+---
+
+## **2.2.1. Thermal Flow Diagram**
 
 ```mermaid
 flowchart TD
@@ -105,52 +131,28 @@ flowchart TD
     E --> F[Component Power Supply]
     F -->|Residual Heat| B
 
-%### **2.3. Synergy Between Hydrogen and CO₂**
+Figure 2.1: Thermal flow diagram within the DIFFUSP system.
 
-The synergy between using hydrogen as a clean fuel and capturing CO₂ optimizes energy efficiency and significantly reduces greenhouse gas emissions. Hydrogen, being a zero-carbon fuel when burned, combined with advanced CO₂ capture systems, creates a closed-loop cycle that minimizes environmental impact.
+This diagram illustrates how heat is generated, collected, distributed, and recovered to maximize efficiency while supplying power to system components.
 
-#### **2.3.1. Hydrogen-CO₂ Synergy Diagram**
+2.3. Synergy Between Hydrogen and CO₂
 
-```mermaid
+The synergy between hydrogen as a clean fuel and CO₂ capture optimizes energy efficiency, creating a closed-loop system with minimal environmental impact.
+
+2.3.1. Hydrogen-CO₂ Synergy Diagram
+
 flowchart TD
     A[Hydrogen Production] --> B[Clean Energy Generation]
     C[CO₂ Capture] --> D[Transformation into Synthetic Fuels]
-    B --> E[Energy Generation]
+    B --> E[Energy Conversion]
     D --> E
     E --> F[DIFFUSP System]
 
-Figure 2.2: Synergy between hydrogen usage and CO₂ capture within the DIFFUSP system.
-
-This diagram shows how hydrogen production and usage integrate with CO₂ capture and transformation processes, creating a sustainable cycle that maximizes energy efficiency and reduces emissions.
-
-2.4. Advanced Materials
-
-DIFFUSP utilizes advanced materials to enhance durability, lightweight properties, and system efficiency.
-
-2.4.1. Synthetic Diamonds
-
-   •   High Thermal Resistance: Synthetic diamonds offer superior thermal resistance, enabling efficient operation under extreme conditions.
-   •   Durability in Extreme Conditions: These materials ensure long operational life, reducing the need for frequent maintenance.
-
-2.4.2. Nanocomposites
-
-   •   Structural Weight Reduction: Nanocomposites significantly reduce aircraft weight, improving fuel efficiency.
-   •   Enhanced Thermal Efficiency: These materials optimize heat management, preventing overheating of critical components.
-
-2.4.3. Self-Healing Materials
-
-   •   Maintenance Cost Reduction: Self-healing materials minimize operational costs by automatically repairing minor damages.
-   •   Extended System Lifespan: These materials prolong the system’s operational life by maintaining structural integrity.
-
-3. System Architecture
-
-3.1. Modular Structure
-
-The DIFFUSP system adopts a modular design to facilitate integration and scalability.
+Figure 2.2: Hydrogen-CO₂ synergy within the DIFFUSP system.
 
 3.1.1. Modular Architecture Diagram
 
-graph TD
+flowchart TD
     Module1[Propulsion Module]
     Module2[CO₂ Capture Module]
     Module3[Energy Conversion Module]
@@ -164,61 +166,12 @@ graph TD
 
 Figure 3.1: Modular architecture of the DIFFUSP system.
 
-This diagram shows how different modules (Propulsion, CO₂ Capture, Energy Conversion, and Thermal Management) are interconnected through a central hub, facilitating integration and scalability of the system.
+This modular design ensures flexibility, scalability, and ease of integration for diverse applications.
 
 Next Steps
 
-Given the above content structure, the remaining sections can be developed further to expand the document. If you would like assistance refining or completing specific areas, please specify, and I will adjust accordingly.
+Please provide further instructions for detailed development or refinement of any specific section.
 
-
-
-3.System Architecture
-
-3.1. Modular Structure
-
-The DIFFUSP system adopts a modular design to facilitate integration and scalability.
-
-3.1.1. Modular Architecture Diagram
-
-graph TD
-    Module1[Propulsion Module]
-    Module2[CO₂ Capture Module]
-    Module3[Energy Conversion Module]
-    Module4[Thermal Management Module]
-    Hub[Central Hub]
-
-    Module1 --> Hub
-    Module2 --> Hub
-    Module3 --> Hub
-    Module4 --> Hub
-
-Figure 3.1: Modular architecture of the DIFFUSP system.
-
-This diagram shows how different modules (Propulsion, CO₂ Capture, Energy Conversion, and Thermal Management) are interconnected through a central hub, facilitating integration and scalability of the system.
-
-Next Steps
-
-Given the above content structure, the remaining sections can be developed further to expand the document. If you would like assistance refining or completing specific areas, please specify, and I will adjust accordingly.
-
-3.1.1. Modular Architecture Diagram
-
-graph TD
-    Module1[Propulsion Module]
-    Module2[CO₂ Capture Module]
-    Module3[Energy Conversion Module]
-    Module4[Thermal Management Module]
-    Hub[Central Hub]
-
-    Module1 --> Hub
-    Module2 --> Hub
-    Module3 --> Hub
-    Module4 --> Hub
-
-%% Figure 3.1: Modular architecture of the DIFFUSP system.
-
-Figure 3.1: Modular architecture of the DIFFUSP system.
-
-This diagram shows how different modules (Propulsion, CO₂ Capture, Energy Conversion, and Thermal Management) are interconnected through a central hub, facilitating integration and scalability of the system.
 
 3.2. Main Components
 
