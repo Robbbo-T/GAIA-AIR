@@ -1,16 +1,16 @@
 
 
-#Airbus #A360XWLRGA
+#GAIA AIR VERSION LONG RANGE #A360XWLRGA
 
 Function(#T+#Q)(#amedeopelliccia #pelliccia #ame #amepelliccia 
-#TerraQueueing #Teraqueueing #airbus  #GreenTech #ampel #QUANTUM 
+#TerraQueueing #Teraqueueing   #GreenTech #ampel #QUANTUM 
 #Queueing
 #QUeing #Terraqueing #ROBBBO-t #Robbo-t 
 #ComputerSystems #EuropeUnited #Airbus360 #CircularAviation #A360grados #NewAircraftArtefact #NewConcept #Epic #EPICDATAMODEL #Epicglobalmodel #europe #getafe#greenfal #nanopoletanoTech#epicdm #EuropeanDigitalSystem)
 
 ### Diagram Summary
 The mindmap will have one main branch with sub-branches for each section of the specifications:
-1. **Airbus A360XWLRGA**
+1. **A360XWLRGA**
    - **Passenger Capacity**
    - **Maximum Range**
    - **Main Features and Configuration**
@@ -31,7 +31,7 @@ The mindmap will have one main branch with sub-branches for each section of the 
 
 ```mermaid
 mindmap
-  Airbus A360XWLRGA
+   A360XWLRGA
     Passenger Capacity: 250
     Maximum Range: 12,742 km (one shot)
     Main Features and Configuration
