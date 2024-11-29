@@ -1,4 +1,5 @@
-Here is the mindmap diagram illustrating the A360XWLRGA Long Range Aircraft Overview:
+ # mindmap diagram illustrating the A360XWLRGA Long Range Aircraft Overview:
+![image](https://github.com/user-attachments/assets/09e3f910-44ac-4217-9a74-029296dd0c46)
 
    •   View fullscreen
    •   Download PNG
