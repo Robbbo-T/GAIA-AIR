@@ -6,7 +6,7 @@
 
 ## **Indice**
 
-1. [Introduzione](#1-**Title:** Comprehensive Conceptual Design of the DIFFUSP System
+1. [Introduzione]
 
 ---
 
@@ -268,11 +268,7 @@ The DIFFUSP system represents a transformative approach to sustainable aviation.
 
 **Final Note**
 
-The DIFFUSP system, with its comprehensive approach combining advanced technologies and sustainable practices, positions itself as a pioneer in the future of aviation. The integration of innovative solutions ensures a significant reduction in environmental impact, improved operational efficiency, and a sustainable global operation.
-
----
-
-**End of Document**)
+The DIFFUSP system, with its comprehensive approach combining advanced technologies and sustainable practices, positions itself as a pioneer in the future of aviation. The integration of innovative solutions ensures a significant reduction in environmental impact, improved operational efficiency, and a sustainable global operation.)
    - [1.1. Concetto di DIFFUSP](#11-concetto-di-diffusp)
    - [1.2. Obiettivi del Sistema](#12-obiettivi-del-sistema)
    - [1.3. Applicazioni Principali](#13-applicazioni-principali)
