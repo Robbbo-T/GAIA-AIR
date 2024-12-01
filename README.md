@@ -18,6 +18,9 @@ GAIA AIR is a forward-thinking initiative aimed at reshaping the aviation indust
 
 ---
 
+![image](https://github.com/user-attachments/assets/a969467e-77ec-468f-93b0-bdd66440bd35)
+
+
 ## Features and Highlights
 
 ### **Sustainable Materials**
