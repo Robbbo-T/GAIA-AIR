@@ -414,6 +414,9 @@ Los motores de propulsión híbrida hidrotermoeléctrica representan una innovac
 
 ---
 
+![image](https://github.com/user-attachments/assets/d5e1d0f7-719c-4b87-b1c6-56d596ee95a6)
+
+
 ## 📌 Concepto y Diseño del Motor Hidrotermoeléctrico  
 
 ### Integración de hidrógeno, electricidad y recuperación térmica  
@@ -427,6 +430,62 @@ Los motores de propulsión híbrida hidrotermoeléctrica representan una innovac
 - **Energía dual:** Generación simultánea de energía a partir de hidrógeno y recuperación térmica.  
 - **Conversión eficiente:** Maximización del rendimiento energético con pérdidas mínimas.  
 - **Fiabilidad operativa:** Redundancia integrada para asegurar el funcionamiento en condiciones críticas.  
+
+@startuml
+title DIFFUSP: Sistema de Propulsión Distribuida con Flujos Difusivos
+
+' Definición de nodos y componentes
+node "Propulsion System" {
+    [Propulsion Module] --> [Turbine Generator]
+    [Propulsion Module] --> [Hydrogen Electrolyzer]
+    [Propulsion Module] --> [Heat Exchanger]
+}
+
+node "Fluids Network" {
+    [Air Ducts] -- [Diffusive Valves]
+    [Fuel Lines] -- [Diffusive Valves]
+    [Cooling System] -- [Heat Exchanger]
+}
+
+node "Control System" {
+    [AI Manager] --> [Logic Controller]
+    [Logic Controller] --> [Fuzzy Rule Engine]
+    [Fuzzy Rule Engine] --> [Actuator Controllers]
+    [Sensor Hub] --> [AI Manager]
+}
+
+node "Sensors" {
+    [Temperature Sensor]
+    [Pressure Sensor]
+    [Flow Rate Sensor]
+    [Energy Consumption Sensor]
+}
+
+[Sensor Hub] ..> [Sensors] : "Aggregates data from"
+
+node "Energy System" {
+    [Hydrogen Storage] -- [Hydrogen Electrolyzer]
+    [Battery Bank] -- [Power Distributor]
+    [Solar Panels] -- [Power Distributor]
+    [Power Distributor] -- [Turbine Generator]
+}
+
+[Control System] ..> [Propulsion Module] : "Monitors and Adjusts"
+[Control System] ..> [Fluids Network] : "Regulates Flow"
+[Energy System] ..> [Control System] : "Provides Power Feedback"
+
+' Añadir interfaces para mayor claridad
+interface "Data Interface" {
+}
+
+interface "Control Interface" {
+}
+
+[AI Manager] ..> "Data Interface" : "Receives Data"
+[Logic Controller] ..> "Control Interface" : "Sends Control Commands"
+[Actuator Controllers] ..> "Control Interface" : "Executes Commands"
+
+@enduml
 
 ---
 
