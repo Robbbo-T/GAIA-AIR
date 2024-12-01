@@ -431,7 +431,6 @@ Los motores de propulsión híbrida hidrotermoeléctrica representan una innovac
 - **Conversión eficiente:** Maximización del rendimiento energético con pérdidas mínimas.  
 - **Fiabilidad operativa:** Redundancia integrada para asegurar el funcionamiento en condiciones críticas.  
 
-![image](https://github.com/user-attachments/assets/5910ebde-1fe5-4743-ab89-afdd996e943f)
 
 ---
 
