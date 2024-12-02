@@ -1,4 +1,37 @@
-# This workflow will build and push a new container image to Amazon ECR,
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModuleRequirementsList>
+    <!-- Requisitos de Diseño del Producto (PDR) -->
+    <DataModuleRequirement>
+        <DMC>ATA50-PDR001</DMC>
+        <Title>Propulsion System Design Requirements</Title>
+        <Description>Define performance, safety, and emission standards for hybrid propulsion systems.</Description>
+        <Revision>1.0</Revision>
+    </DataModuleRequirement>
+    <DataModuleRequirement>
+        <DMC>ATA50-PDR002</DMC>
+        <Title>Thermal Management Design</Title>
+        <Description>Specify heat dissipation methods for the DIFFUSP thermal control subsystem.</Description>
+        <Revision>1.0</Revision>
+    </DataModuleRequirement>
+    <!-- Boletines de Servicio del Proveedor (SB) -->
+    <VendorServiceBulletin>
+        <DMC>ATA50-SB001</DMC>
+        <Title>Fuel System Upgrade Instructions</Title>
+        <Description>Provides step-by-step instructions to upgrade hydrogen storage systems to reduce thermal losses.</Description>
+        <EffectiveDate>2024-11-01</EffectiveDate>
+    </VendorServiceBulletin>
+    <VendorServiceBulletin>
+        <DMC>ATA50-SB002</DMC>
+        <Title>Propulsion Software Update</Title>
+        <Description>Details mandatory updates to hybrid propulsion software for compliance with new regulations.</Description>
+        <EffectiveDate>2024-12-15</EffectiveDate>
+    </VendorServiceBulletin>
+</DataModuleRequirementsList>                                                                                                         <Subseccion numero="1.1" titulo="Concepto de DIFFUSP" id="11-concepto-de-diffusp">
+    <Parrafo>
+        El <Emphasis>Sistema DIFFUSP</Emphasis> (Diffusion-Based Sustainable Propulsion) es una tecnología de propulsión innovadora diseñada para impulsar la aviación hacia la sostenibilidad. Combina materiales avanzados, sistemas de propulsión híbridos, inteligencia artificial y principios de física moderna para reducir el impacto ambiental sin comprometer la eficiencia operativa ni la seguridad. DIFFUSP tiene como objetivo revolucionar la industria aeroespacial estableciendo nuevos estándares de responsabilidad ambiental y avance tecnológico.
+    </Parrafo>
+</Subseccion>
+ # This workflow will build and push a new container image to Amazon ECR,
 # and then will deploy a new task definition to Amazon ECS, when there is a push to the "main" branch.
 #
 # To use this workflow, you will need to complete the following set-up steps:
