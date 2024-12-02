@@ -1,5 +1,6 @@
 1. Enfoque General para la Extracción de Datos
 
+
 	1.	Objetivo: Identificar y documentar los requisitos clave relacionados con el diseño del producto (PDR) y boletines de servicio de proveedores (Vendor Service Bulletins).
 	2.	Ámbito:
       •   Diseño del Sistema: Definiciones iniciales, subsistemas clave, interfaces y materiales avanzados.
