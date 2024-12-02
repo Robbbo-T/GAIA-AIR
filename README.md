@@ -117,7 +117,7 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ## Acknowledgments
 
-Special thanks to all contributors and supporters for making GAIA AIR possible.
+Special thanks will go to all contributors ( industry leaders, researchers, developers and engineers and supporters for making GAIA AIR possible.
 
 ## 1. Bill of Materials (BOM) for Sustainable Materials
 
@@ -1048,7 +1048,6 @@ El siguiente gráfico ilustra los resultados de las simulaciones realizadas en m
 2. **Disminución de Emisiones:** Refleja el impacto ambiental positivo de esta tecnología, con una reducción constante de contaminantes.  
 3. **Efectos de Largo Plazo:** Proyección hacia una operación completamente sostenible al maximizar el aprovechamiento energético.
 
-¿Te gustaría realizar una simulación adicional o integrar este análisis con datos de mantenimiento predictivo?
 
 ---
 
@@ -3135,10 +3134,6 @@ Gestiona el cableado del sistema de aire acondicionado de la aeronave, asegurand
 - **Integración con Sistemas de Gestión Eléctrica:**
   - **Función:** Utiliza IA para coordinar el cableado del sistema de aire acondicionado con otros sistemas eléctricos de la aeronave, asegurando una operación armoniosa y eficiente.
   - **Beneficios:** Mejora la coordinación entre sistemas, aumenta la eficiencia operativa y reduce la posibilidad de conflictos operativos.
-
----
-
-Mis disculpas por las confusiones anteriores. A continuación, detallo los capítulos ATA 22 relacionados con el **Auto Flight**, proporcionando una **Descripción General** y **Aplicaciones de IA** para cada subcapítulo que has proporcionado.
 
 ---
 
