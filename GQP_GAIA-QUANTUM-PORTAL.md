@@ -1,6 +1,132 @@
 # **Tabla Colaborativa de Requisitos para GAIA QUANTUM PORTAL (GQP)** completa en formato Markdown:
 
----
+--<
+<!DOCTYPE html><html style="overscroll-behavior:none;overflow-y:hidden"><head><title>Microsoft Loop</title><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><meta property="og:type" content="website"><meta property="og:title" content="Microsoft Loop - Think, plan and create together"><meta property="og:image" content="https://res.cdn.office.net/fluid/prod/loop-app/hashed/assets/app-preview/app-preview.149ab9046b.webp"><meta property="og:image:alt" content="The Loop app displaying a Loop page with many coauthors on the same page and a sidebar with links to other applications"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Microsoft Loop - Think, plan and create together"><meta name="twitter:image" content="https://res.cdn.office.net/fluid/prod/loop-app/hashed/assets/app-preview/app-preview.149ab9046b.webp"><meta name="twitter:image:alt" content="The Loop app displaying a Loop page with many coauthors on the same page and a sidebar with links to other applications"><meta name="apple-itunes-app" content="app-id=1637682491"><meta name="theme-color" content="#F7F9FC"><meta http-equiv="origin-trial" content="AjFp2K46b3bPvxUTVZHOcesNA1O3PsnOzM9gHaYc05EBKbPTZ8uV16F9Isy4EpUZAsMbaxao124RuWtO44XsRwMAAAB3eyJvcmlnaW4iOiJodHRwczovL2xvb3AubWljcm9zb2Z0LmNvbTo0NDMiLCJmZWF0dXJlIjoiTG9uZ0FuaW1hdGlvbkZyYW1lVGltaW5nIiwiZXhwaXJ5IjoxNzE2OTQwNzk5LCJpc1N1YmRvbWFpbiI6dHJ1ZX0="><link rel="manifest" href="/app.webmanifest"><link rel="icon" type="image/png" href="https://res.cdn.office.net/fluid/prod/loop-app/hashed/assets/favicon/favicon-small.d141cdc47e.png" sizes="48x48"><link rel="icon" type="image/png" href="https://res.cdn.office.net/fluid/prod/loop-app/hashed/assets/favicon/favicon-big.284a3c71f4.png" sizes="512x512"><link rel="icon" type="image/svg+xml" href="https://res.cdn.office.net/fluid/prod/loop-app/hashed/assets/favicon/favicon.6869e16c22.svg" sizes="any"><link rel="preconnect" href="https://ecs.office.com"><script>(function(){var browserFeatureDetectionPolicy={createScript:function(e){return"const x={};x?.x"===e?e:new Error("Unauthorized script")}};try{"undefined"!=typeof trustedTypes&&trustedTypes.createPolicy&&(browserFeatureDetectionPolicy=trustedTypes.createPolicy("@fluidx/loop-app-browser-detection",browserFeatureDetectionPolicy))}catch(e){}var supportsOptionalChaining=!1;try{eval(browserFeatureDetectionPolicy.createScript("const x={};x?.x")),supportsOptionalChaining=!0}catch(e){}supportsOptionalChaining&&void 0!==Promise.allSettled&&void 0!==new RegExp("x").dotAll&&"function"==typeof crypto.randomUUID||window.location.replace("/unsupportedBrowser.html")})()</script><script>__app_environment_script_version__=20241115015.001,__deployment_timestamp__="2024-11-21T03:58:45.264Z",__script_base_url__="https://res.cdn.office.net/fluid/prod/loop-app/hashed/",__deployment_manifest_url__="https://res.cdn.office.net/fluid/prod/loop-app/versionless/deploymentManifest.json",__deployment_ring__="prod"</script><link rel="stylesheet" href="https://res.cdn.office.net/fluid/prod/loop-app/hashed/griffel.fa025d17b96d3bb3083f.css"><script src="https://res.cdn.office.net/fluid/prod/loop-app/hashed/boot.3616ae2985ba7d7e6f5f.js"></script></head><body style="margin:0"></body></html>>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Searchable Hierarchical Index</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .search-bar {
+      margin: 20px;
+    }
+    .tree {
+      list-style: none;
+      padding-left: 20px;
+    }
+    .tree ul {
+      list-style: none;
+      padding-left: 20px;
+      display: none;
+    }
+    .tree li {
+      margin: 5px 0;
+      cursor: pointer;
+    }
+    .tree li span {
+      font-weight: bold;
+      color: #007BFF;
+    }
+    .tree li span:hover {
+      text-decoration: underline;
+    }
+    .tree .expanded > ul {
+      display: block;
+    }
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <div class="search-bar">
+    <input type="text" id="searchInput" placeholder="Search by part number or description..." oninput="searchTree()" />
+  </div>
+  <ul id="hierarchyTree" class="tree">
+    <li>
+      <span>24 - Electrical Power System</span>
+      <ul>
+        <li>
+          <span>2420 - AC Generation System</span>
+          <ul>
+            <li>2421 - AC Generator-Alternator</li>
+            <li>2422 - AC Inverter</li>
+          </ul>
+        </li>
+        <li>
+          <span>2430 - DC Generation System</span>
+          <ul>
+            <li>2431 - Battery Overheat Warning System</li>
+            <li>2432 - Battery/Charger System</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <span>25 - Equipment/Furnishings</span>
+      <ul>
+        <li>
+          <span>2510 - Flight Compartment Equipment</span>
+          <ul>
+            <li>2511 - Flight Display Unit</li>
+            <li>2512 - Control Panels</li>
+          </ul>
+        </li>
+        <li>
+          <span>2520 - Passenger Compartment Equipment</span>
+          <ul>
+            <li>2521 - Seating System</li>
+            <li>2522 - Storage Compartments</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <script>
+    // Toggle tree visibility on click
+    document.querySelectorAll(".tree li > span").forEach(item => {
+      item.addEventListener("click", function () {
+        const parent = this.parentElement;
+        parent.classList.toggle("expanded");
+      });
+    });
+
+    // Search function
+    function searchTree() {
+      const query = document.getElementById("searchInput").value.toLowerCase();
+      const treeItems = document.querySelectorAll(".tree li");
+
+      treeItems.forEach(item => {
+        item.style.display = "none";
+        item.classList.remove("highlight");
+      });
+
+      const matchingItems = Array.from(treeItems).filter(item => {
+        const text = item.innerText.toLowerCase();
+        return text.includes(query);
+      });
+
+      matchingItems.forEach(item => {
+        item.style.display = "block";
+        item.classList.add("highlight");
+
+        // Expand parent nodes
+        let parent = item.parentElement;
+        while (parent && parent.tagName === "UL") {
+          parent.style.display = "block";
+          parent.parentElement.classList.add("expanded");
+          parent = parent.parentElement.parentElement;
+        }
+      });
+    }
+  </script>
+</body>
+</html>-
 
 ### **Tabla Colaborativa de Requisitos para GAIA QUANTUM PORTAL (GQP)**
 
