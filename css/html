@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GAIA AIR - Página de Inicio</title>
+  <!-- Meta Tags para SEO y Redes Sociales -->
+  <!-- ... -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>GAIA AIR</h1>
+    <p>Sistema Aeronáutico Avanzado</p>
+  </header>
+  
+  <nav aria-label="Navegación principal">
+    <a href="#tecnicos" aria-label="Ir a Técnicos de Mantenimiento" aria-current="page">Técnicos de Mantenimiento</a>
+    <!-- Resto de los enlaces -->
+    <button id="toggleDarkMode" aria-label="Alternar modo oscuro">
+      🌙
+    </button>
+  </nav>
+  
+  <main class="container">
+    <!-- Secciones -->
+    <section class="section" id="tecnicos">
+      <h2>Técnicos de Mantenimiento</h2>
+      <ul>
+        <li><a href="#mantenimiento-programado">Mantenimiento Programado</a></li>
+        <!-- ... -->
+      </ul>
+    </section>
+    <!-- Resto de las secciones -->
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 GAIA AIR. Todos los derechos reservados.</p>
+    <p>Contacto: <a href="mailto:info@gaiaair.com">info@gaiaair.com</a></p>
+  </footer>
+  
+  <!-- Scripts -->
+  <!-- ... -->
+</body>
+</html>
