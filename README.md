@@ -42,7 +42,7 @@ GAIA AIR is a forward-thinking initiative aimed at reshaping the aviation indust
 
 **Desarrollo de la Aeronave Inteligente Verde y Sostenible y su Ecosistema (integraciones internas y externas).**
 
-*Mod GAIA-000-A El modelo de aeronave híbrida de largo alcance*
+*Mod GAIA-00-A El modelo de aeronave híbrida de largo alcance*
 
 ---
 
