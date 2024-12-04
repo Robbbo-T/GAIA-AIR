@@ -1,5 +1,27 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
   "features": {
-  }
+    "git": "latest",
+    "node": "16",
+    "python": "3.9"
+  },
+  "extensions": [
+    "ms-vscode.vscode-typescript-tslint-plugin",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "yzhang.markdown-all-in-one"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "editor.formatOnSave": true,
+    "eslint.enable": true
+  },
+  "env": {
+    "NODE_ENV": "development",
+    "API_URL": "http://localhost:3000/api"
+  },
+  "postCreateCommand": "npm install"
 }
