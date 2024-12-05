@@ -1843,13 +1843,6 @@ GAIA AIR puede implementar estas tecnologías de captura de CO₂ de las siguien
 
 💡 La integración de técnicas avanzadas de captura de CO₂ en GAIA AIR no solo asegura la neutralización total del impacto ambiental, sino que también posiciona a la aerolínea como líder en sostenibilidad en la industria aeroespacial. La sinergia entre tecnologías de captura, almacenamiento y reutilización, junto con la propulsión híbrida hidrotermoeléctrica y el sistema GAIA, establece un nuevo estándar para la aviación verde.
 
----
-
-# Fin del Documento
-
----
-
-
 
 # Conclusión Final
 
@@ -1859,13 +1852,7 @@ GAIA AIR puede implementar estas tecnologías de captura de CO₂ de las siguien
 
 ---
 
-# Fin del Modelo
-
----
-
-*El resto de los capítulos pueden formatearse de manera similar.*
-
-El concepto del **General AI Algorithm (GAIA)** que se describe combina tecnologías avanzadas de inteligencia artificial, simulación, monitoreo y análisis en tiempo real para ofrecer un sistema holístico de optimización y gestión de datos y procesos. A continuación, se desglosan los componentes clave, sus funciones y aplicaciones prácticas:
+# * **General AI Algorithm (GAIA)** for **Granular ATA Integral Application** * --> GAIAxGAIA El concepto del **General AI Algorithm (GAIA)** que se describe combina tecnologías avanzadas de inteligencia artificial, simulación, monitoreo y análisis en tiempo real para ofrecer un sistema holístico de optimización y gestión de datos y procesos. En ese contexto, donde se intenta presentar un plan de diseño y desarrollo del proyecto **GAIA AIR**, el desarrollo y la aplicación operativa de AGI se modela en función de las necesidades especificas y de los margenes de mejoras en cada sistema de la nueva aeronave, cuyo esquema esta organizado respectando las normas ATA100 y iSPEC2200  (A continuación, se desglosan los componentes clave, sus funciones y aplicaciones prácticas:
 
 ---
 
@@ -1973,7 +1960,280 @@ Este documento presenta una estructura organizada de los endpoints para el **GAI
 4. **Hélice/Rotores**
 5. **Planta motriz**
 
+# Aircraft Maintenance Manual (ATA Chapters)
+
+## **Table of Contents**
+
+### **00 Introduction / Aircraft General**
+- **00 General**
+- **01-04 Operations Information** *(Reserved for Airline Use)*
+
 ---
+
+### **05 Periodic Inspections**
+- **00 General**
+- **10 Time Limits**
+- **20 Scheduled Maintenance Checks**
+- **30 [As Required]**
+- **40 [As Required]**
+- **50 Unscheduled Maintenance Checks**
+
+---
+
+### **06 Dimensions and Areas**
+Charts, diagrams, and text showing areas, dimensions, stations, access doors/zoning, and physical locations of major structural members.
+
+---
+
+### **07 Lifting & Shoring**
+- **00 General**
+- **10 Jacking**
+- **20 Shoring**
+
+---
+
+### **08 Leveling & Weighing**
+- **00 General**
+- **10 Weighing & Balancing**
+- **20 Leveling**
+
+---
+
+### **09 Towing & Taxiing**
+- **00 General**
+- **10 Towing**
+- **20 Taxiing**
+
+---
+
+### **10 Parking, Mooring, Storage & Return To Service**
+- **00 General**
+- **10 Parking / Storage**
+- **20 Mooring**
+- **30 Return To Service**
+
+---
+
+### **11 Placards & Markings**
+- **00 General**
+- **10 Exterior Colour Schemes & Markings**
+- **20 Exterior Placards & Markings**
+- **30 Interior Placards**
+
+---
+
+### **12 Servicing Routine Maintenance**
+- **00 General**
+- **10 Replenishing**
+- **20 Scheduled Servicing**
+- **30 Unscheduled Servicing**
+
+---
+
+### **18 Vibration & Noise Analysis (Helicopter Only)**
+- **00 General**
+- **10 Vibration Analysis**
+- **20 Noise Analysis**
+
+---
+
+### **Airframe Systems**
+
+#### **20 Standard Practices - Airframe**
+- **General**
+
+#### **21 Air Conditioning**
+- **00 General**
+- **10 Compression**
+- **20 Distribution**
+- **30 Pressurization Control**
+- **40 Heating**
+- **50 Cooling**
+- **60 Temperature Control**
+- **70 Moisture / Air Contaminant Control**
+
+#### **22 Auto Flight**
+- **00 General**
+- **10 Autopilot**
+- **20 Speed-Attitude Correction**
+- **30 Auto Throttle**
+- **40 System Monitor**
+- **50 Aerodynamic Load Alleviating**
+
+#### **23 Communications**
+- **00 General**
+- **10 Speech Communications**
+- **15 SATCOM**
+- **20 Data Transmission & Automatic Calling**
+- **30 Passenger Address, Entertainment, & Comfort**
+- **40 Interphone**
+
+#### **24 Electrical Power**
+- **00 General**
+- **10 Generator Drive**
+- **20 AC Generation**
+- **30 DC Generation**
+- **40 External Power**
+- **50 AC Electrical Load Distribution**
+- **60 DC Electrical Load Distribution**
+- **70 Primary & Secondary Power**
+
+#### **25 Equipment / Furnishings**
+- **00 General**
+- **10 Flight Compartment**
+- **20 Passenger Compartment**
+- **30 Buffet / Galley**
+- **40 Lavatories**
+- **50 Cargo Compartments**
+- **60 Emergency**
+- **70 Accessory Compartments**
+
+#### **26 Fire Protection**
+- **00 General**
+- **10 Detection**
+- **20 Extinguishing**
+- **30 Explosion Suppression**
+
+#### **27 Flight Controls**
+- **00 General**
+- **10 Aileron & Tab**
+- **20 Rudder & Tab**
+- **30 Elevator & Tab**
+- **40 Horizontal Stabilizer / Stabilator**
+- **50 Flaps**
+
+---
+
+### **28 Fuel**
+- **00 General**
+- **10 Storage**
+- **20 Distribution-Drain Valves**
+- **30 Dump**
+- **40 Indicating**
+
+#### **29 Hydraulic Power**
+- **00 General**
+- **10 Main**
+- **20 Auxiliary**
+- **30 Indicating**
+
+---
+
+### **31 Indicating / Recording Systems**
+- **00 General**
+- **10 Instrument & Control Panels**
+- **20 Independent Instruments**
+- **30 Recorders**
+- **40 Central Computers**
+- **50 Central Warning Systems**
+
+---
+
+### **32 Landing Gear**
+- **00 General**
+- **10 Main Gear & Doors**
+- **20 Nose Gear / Tail Gear & Doors**
+- **30 Extension & Retraction**
+- **40 Wheels & Brakes**
+
+---
+
+### **35 Oxygen**
+- **00 General**
+- **10 Crew**
+- **20 Passenger**
+- **30 Portable**
+
+---
+
+### **36 Pneumatic**
+- **00 General**
+- **10 Distribution**
+- **20 Indicating**
+
+---
+
+### **38 Water / Waste**
+- **00 General**
+- **10 Potable**
+- **20 Wash**
+- **30 Waste Disposal**
+
+---
+
+### **42 Integrated Modular Avionics**
+- **00 General**
+- **20 Core System**
+- **30 Network Components**
+
+---
+
+### **44 Cabin Systems**
+- **00 General**
+- **10 Cabin Core System**
+- **20 Inflight Entertainment System**
+
+---
+
+### **45 Central Maintenance System (CMS)**
+- **00 General**
+- **05/19 CMS / Aircraft General**
+- **20/44 CMS / Airframe Systems**
+
+---
+
+### **46 Information Systems**
+- **00 General**
+- **10 Airplane General Information Systems**
+- **20 Flight Deck Information Systems**
+- **30 Maintenance Information Systems**
+
+---
+
+### **49 Airborne Auxiliary Power**
+- **00 General**
+- **10 Power Plant**
+- **20 Engine**
+- **30 Engine Fuel & Control**
+
+---
+
+### **Structures**
+- **50 Cargo and Accessory Compartments**
+  - **00 General**
+  - **10 Cargo Compartments**
+  - **20 Cargo Loading Systems**
+- **51 Standard Practices & Structures General**
+  - **00 General**
+  - **10 Investigation, Cleanup & Aerodynamic Smoothness**
+- **52 Doors**
+  - **00 General**
+  - **10 Passenger / Crew**
+- **53 Fuselage**
+  - **00 General**
+
+---
+
+### **70 Power Plant**
+- **00 General**
+- **71 Power Plant General**
+- **72 Engine Turbine/Turboprop, Ducted Fan/Unducted Fan**
+- **73 Engine Fuel & Control**
+- **74 Ignition**
+- **75 Air**
+- **76 Engine Controls**
+- **77 Engine Indicating**
+- **78 Exhaust**
+- **79 Oil**
+- **80 Starting**
+
+---
+
+### **Others**
+- **91 Charts**
+- **97 Wiring Reporting**
+
+
 
 ## **1. Aircraft General**
 
