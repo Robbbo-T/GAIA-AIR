@@ -1,11 +1,7 @@
-# Usa una imagen base
-FROM mcr.microsoft.com/devcontainers/universal:2
+# Utiliza una imagen base oficial de Node.js
+FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-14
 
-# Instala Node.js
-RUN apt-get update && apt-get install -y nodejs npm
-
-# Instala Python
-RUN apt-get install -y python3 python3-pip
-
-# Instala otras dependencias necesarias
-RUN pip3 install --upgrade pip
+# Instala herramientas adicionales si es necesario
+RUN apt-get update && apt-get install -y \
+    git \
+    && rm -rf /var/lib/apt/lists/*
