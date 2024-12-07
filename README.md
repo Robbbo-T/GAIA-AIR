@@ -44,6 +44,84 @@ GAIA AIR is a forward-thinking initiative aimed at reshaping the aviation indust
 
 *Mod GAIA-00-A El modelo de aeronave híbrida de largo alcance*
 
+A360XWLRGA Long Range Aircraft Overview
+│
+├── Key Specifications
+│   ├── Passenger Capacity: 250
+│   ├── Maximum Range: 12,742 km
+│   └── High-Efficiency Propulsion & Sustainable Materials
+│
+├── Fuselage and Cabin Layout
+│   ├── First Class: 20 seats (1-1-1 configuration)
+│   ├── Business Class: 40 seats (1-2-1 configuration)
+│   ├── Economy Class: 190 seats (3-3-3 configuration)
+│   ├── Amenities:
+│   │   ├── Spacious seating and ample legroom
+│   │   ├── In-flight entertainment systems
+│   │   ├── Modern lavatories and galleys
+│   │   └── Overhead bins for carry-on luggage
+│   └── Cabin Environment:
+│       ├── Advanced air conditioning & pressurization
+│       └── Noise reduction and ergonomic design
+│
+├── Wings and Fuel Capacity
+│   ├── High-efficiency CFRP wings
+│   ├── Advanced aerodynamics for reduced drag
+│   └── Integrated wing fuel tanks supporting long-range missions
+│
+├── Engines and Propulsion
+│   ├── Two high-efficiency electric propulsion motors
+│   ├── Advanced energy storage (lithium-ion battery packs)
+│   ├── Battery management system ensuring safety and longevity
+│   └── Thrust reversers for safe and efficient landing
+│
+├── Avionics and Control Systems
+│   ├── State-of-the-art Flight Management System
+│   ├── Autopilot (fly-by-wire) enhancing stability and safety
+│   ├── Navigation and communication systems (VHF, HF, Satcom)
+│   └── Integrated IoT sensors for predictive analytics and maintenance
+│
+├── Environmental Control Systems
+│   ├── High-efficiency air conditioning
+│   ├── Advanced cabin pressurization
+│   ├── Ventilation with fresh air and dehumidification
+│   └── Systems managed via digital twins for optimal conditions
+│
+├── Safety and Emergency Systems
+│   ├── Fire detection and suppression systems
+│   ├── Emergency exits with rapid-deployment slides
+│   ├── Automated oxygen supply for emergencies
+│   └── Continuous monitoring by AI-driven safety modules
+│
+├── Electrical and Hydraulic Systems
+│   ├── Robust AC/DC power distribution with redundancies
+│   ├── Hydraulic systems supporting landing gear and control surfaces
+│   └── Predictive maintenance via ML-driven diagnostics
+│
+├── Auxiliary Systems
+│   ├── Water and Waste Management Systems (efficient and hygienic)
+│   ├── Cargo handling optimization for balanced load distribution
+│   └── Integration with CMS for streamlined workflows
+│
+├── Structural Design
+│   ├── Use of advanced composites and lightweight materials
+│   ├── Reinforcements in critical areas for durability
+│   └── Lightning protection integrated into fuselage and wings
+│
+├── In-Flight Services
+│   ├── Galleys for high-capacity meal service
+│   ├── State-of-the-art in-flight entertainment (touch screens, diverse content)
+│   └── Configurable lighting and ambiance for passenger comfort
+│
+└── Maintenance and ATA Chapters
+    ├── Compliance with S1000D/ATA standards for documentation
+    ├── Maintenance Block Pages for each section (fuselage, wings, engines, etc.)
+    ├── Central Maintenance System (CMS) integration for predictive maintenance
+    ├── MTL tokens for standardized methods and procedures
+    ├── Blockchain-based parts traceability and immutable maintenance records
+    └── AR/VR training and e-learning modules for technician skill development
+
+
 ---
 
 ## Índice
