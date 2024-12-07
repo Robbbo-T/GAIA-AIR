@@ -44,6 +44,9 @@ GAIA AIR is a forward-thinking initiative aimed at reshaping the aviation indust
 
 *Mod GAIA-00-A El modelo de aeronave híbrida de largo alcance*
 
+Below is a textual representation of a mindmap diagram for the **A360XWLRGA Long Range Aircraft Overview**, capturing key components and their relationships. This ASCII-based outline can be used as a reference to create a graphical mindmap.
+
+```
 A360XWLRGA Long Range Aircraft Overview
 │
 ├── Key Specifications
@@ -120,7 +123,9 @@ A360XWLRGA Long Range Aircraft Overview
     ├── MTL tokens for standardized methods and procedures
     ├── Blockchain-based parts traceability and immutable maintenance records
     └── AR/VR training and e-learning modules for technician skill development
+```
 
+This mindmap highlights the essential features, systems, and advantages of the A360XWLRGA aircraft, reflecting how the various components, technologies, and maintenance approaches interconnect to create a high-efficiency, sustainable, and forward-thinking aviation platform.
 
 ---
 
