@@ -1,0 +1,24 @@
+{
+    "name": "GAIA AIR Development Container",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "editor.formatOnSave": true,
+        "markdownlint.config": {
+            "default": true
+        }
+    },
+    "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "yzhang.markdown-all-in-one",
+        "eamodio.gitlens",
+        "ms-azuretools.vscode-docker"
+    ],
+    "forwardPorts": [],
+    "postCreateCommand": "npm install",
+    "remoteUser": "vscode"
+}
