@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3348c94e-2b07-4519-9090-1d268fc63842)
+**![image](https://github.com/user-attachments/assets/3348c94e-2b07-4519-9090-1d268fc63842)**![t2y0c1ud](https://github.com/user-attachments/assets/380956e5-35cc-4700-a706-25e76c472974)
 
 **Documento Completo** sobre **Innovación Sostenible en GAIA AIR**  🚀✈️🌱
 
