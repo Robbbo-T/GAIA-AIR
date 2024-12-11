@@ -1,4 +1,3 @@
-¡Entendido! A continuación, ajustaré el documento para reflejar su nombre **"AGI-G-0-T-INDUSTY.md"** y su rol como **token fundacional** dentro del ecosistema AGI en GAIA AIR. Este ajuste incluirá una introducción clara sobre el propósito del token fundacional, su importancia en la estructura general del proyecto y cómo se integra con el sistema de etiquetado multidimensional e interactivo.
 
 ---
 
