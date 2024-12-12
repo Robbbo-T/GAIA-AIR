@@ -1724,8 +1724,5422 @@ Below is the **Table of Contents (ToC)** for the **Sustainable Innovation in GAI
   - 6.3.8 Development of Interplanetary Quantum Intellectual Property Management Systems
   - 6.3.9 Integration of Cryptographic Tokens with Solar-scale IP Management Platforms
 
----
-Understood. Below is the **complete ATA Chapter Matrix from 00 to 99**, incorporating both standard and hypothetical chapters (`8X`, `9X`, `33`, `35`, `46`, `47`, `80-90`, `91-99`). This matrix evaluates the impact of various emerging technologies on each ATA chapter using "X" for **direct/significant impact** and "O" for **indirect/potential impact**.
+</body>
+
+
+
+</html>
+
+
+
+Tú dijiste:
+
+
+
+IT MUST have this functionalities | **ID**     | **Tipo**     | **Descripción**                                                                                                                                                                                                                                                         | **Categoría**                               | **Prioridad** | **Estado**   |
+
+
+
+|------------|--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|---------------|--------------|
+
+
+
+| **Intro**  | Descripción  | Esta tabla recoge los primeros 210 requisitos identificados para el GAIA QUANTUM PORTAL (GQP). Cada requisito está clasificado por ID, tipo (Funcional o No Funcional), descripción detallada, categoría a la que pertenece, prioridad asignada y su estado actual.          | General                                     | N/A           | N/A          |
+
+
+
+| **FR1**    | Funcional    | Centralizar todos los datos relacionados con el diseño, desarrollo, producción, mantenimiento y reciclaje del avión.                                                                                                                                                      | Gestión del Ciclo de Vida (PLM)             | Alta          | Pendiente    |
+
+
+
+| **FR2**    | Funcional    | Integrar herramientas de modelado CAD 3D como Siemens NX, CATIA o Fusion 360.                                                                                                                                                                                            | Gestión del Ciclo de Vida (PLM)             | Alta          | Pendiente    |
+
+
+
+| **FR3**    | Funcional    | Gestionar documentación técnica siguiendo estándares S1000D y ATA.                                                                                                                                                                                                       | Gestión del Ciclo de Vida (PLM)             | Alta          | Pendiente    |
+
+
+
+| **FR4**    | Funcional    | Implementar versionado y trazabilidad utilizando sistemas como Git o soluciones PLM específicas.                                                                                                                                                                          | Gestión del Ciclo de Vida (PLM)             | Alta          | Pendiente    |
+
+
+
+| **FR5**    | Funcional    | Integrar simuladores predictivos como ANSYS o Simulink para análisis estructurales y aerodinámicos.                                                                                                                                                                       | Simulación y Modelado Avanzado              | Alta          | Pendiente    |
+
+
+
+| **FR6**    | Funcional    | Incorporar módulos de IA (ChatQuantum) para optimizar diseños en tiempo real.                                                                                                                                                                                            | Simulación y Modelado Avanzado              | Alta          | Pendiente    |
+
+
+
+| **FR7**    | Funcional    | Permitir la simulación de escenarios complejos, incluyendo consumo de hidrógeno, rutas óptimas y fallos críticos.                                                                                                                                                        | Simulación y Modelado Avanzado              | Media         | Pendiente    |
+
+
+
+| **FR8**    | Funcional    | Recolectar y procesar datos de todas las fases del proyecto utilizando plataformas de Big Data como Hadoop o Spark.                                                                                                                                                       | Gestión de Datos y Analítica                | Alta          | Pendiente    |
+
+
+
+| **FR9**    | Funcional    | Crear dashboards personalizados utilizando herramientas como Tableau, Power BI o Grafana.                                                                                                                                                                               | Gestión de Datos y Analítica                | Media         | Pendiente    |
+
+
+
+| **FR10**   | Funcional    | Implementar análisis en tiempo real con tecnologías como Kafka o AWS Kinesis.                                                                                                                                                                                            | Gestión de Datos y Analítica                | Alta          | Pendiente    |
+
+
+
+| **FR11**   | Funcional    | Proporcionar espacios digitales compartidos mediante plataformas como Microsoft Teams, Slack o Jira.                                                                                                                                                                      | Colaboración Interdisciplinaria             | Alta          | Pendiente    |
+
+
+
+| **FR12**   | Funcional    | Mantener un repositorio centralizado para asegurar una única fuente de verdad (por ejemplo, Confluence).                                                                                                                                                                  | Colaboración Interdisciplinaria             | Alta          | Pendiente    |
+
+
+
+| **FR13**   | Funcional    | Proveer manuales interactivos accesibles desde dispositivos móviles y web.                                                                                                                                                                                               | Soporte de Operaciones y Mantenimiento      | Media         | Pendiente    |
+
+
+
+| **FR14**   | Funcional    | Integrar realidad aumentada (AR) para asistencia técnica en campo utilizando dispositivos como Microsoft HoloLens.                                                                                                                                                        | Soporte de Operaciones y Mantenimiento      | Media         | Pendiente    |
+
+
+
+| **FR15**   | Funcional    | Monitorear la salud del avión en tiempo real mediante sistemas IoT.                                                                                                                                                                                                      | Soporte de Operaciones y Mantenimiento      | Alta          | Pendiente    |
+
+
+
+| **FR16**   | Funcional    | Diseñar el GQP con una arquitectura de microservicios que permita la incorporación de nuevas funcionalidades sin afectar el sistema completo.                                                                                                                             | Evolución Modular                           | Alta          | Pendiente    |
+
+
+
+| **FR17**   | Funcional    | Asegurar APIs abiertas para facilitar la integración con nuevas herramientas y tecnologías.                                                                                                                                                                              | Evolución Modular                           | Alta          | Pendiente    |
+
+
+
+| **FR18**   | Funcional    | Implementar gemelos digitales que reflejen los modelos físicos y conceptuales de GAIA AIR.                                                                                                                                                                                | Modelos Digitales en Tiempo Real            | Alta          | Pendiente    |
+
+
+
+| **FR19**   | Funcional    | Sincronizar continuamente con herramientas CAD mediante APIs como Autodesk Forge o Siemens API.                                                                                                                                                                          | Modelos Digitales en Tiempo Real            | Alta          | Pendiente    |
+
+
+
+| **FR20**   | Funcional    | Facilitar la colaboración en tiempo real mediante co-diseño y revisión simultánea.                                                                                                                                                                                       | Modelos Digitales en Tiempo Real            | Media         | Pendiente    |
+
+
+
+| **FR21**   | Funcional    | Ejecutar simulaciones dinámicas en tiempo real sobre los modelos digitales.                                                                                                                                                                                              | Modelos Digitales en Tiempo Real            | Alta          | Pendiente    |
+
+
+
+| **FR22**   | Funcional    | Utilizar algoritmos de ML para optimización continua de los modelos digitales.                                                                                                                                                                                           | Modelos Digitales en Tiempo Real            | Media         | Pendiente    |
+
+
+
+| **FR23**   | Funcional    | Integrar un entorno de diseño y cálculo FEM que permita a los usuarios crear, modificar y analizar modelos de elementos finitos directamente dentro del GQP.                                                                                                              | Entorno de Diseño y Cálculo FEM             | Alta          | Pendiente    |
+
+
+
+| **FR24**   | Funcional    | Soportar la importación y exportación de modelos FEM desde y hacia herramientas CAD compatibles (e.g., Siemens NX, CATIA, Fusion 360).                                                                                                                                    | Entorno de Diseño y Cálculo FEM             | Alta          | Pendiente    |
+
+
+
+| **FR25**   | Funcional    | Proporcionar una interfaz gráfica intuitiva para la creación y edición de mallas de elementos finitos, permitiendo ajustes automáticos y manuales.                                                                                                                       | Entorno de Diseño y Cálculo FEM             | Media         | Pendiente    |
+
+
+
+| **FR26**   | Funcional    | Ejecutar simulaciones FEM de manera eficiente, aprovechando la infraestructura en la nube para distribuir la carga de cálculo.                                                                                                                                            | Entorno de Diseño y Cálculo FEM             | Alta          | Pendiente    |
+
+
+
+| **FR27**   | Funcional    | Integrar capacidades de análisis de resultados FEM, incluyendo visualización de tensiones, deformaciones y modos de vibración.                                                                                                                                            | Entorno de Diseño y Cálculo FEM             | Media         | Pendiente    |
+
+
+
+| **FR28**   | Funcional    | Permitir la automatización de ciclos de diseño iterativos mediante scripts y macros, facilitando la optimización basada en resultados de simulaciones FEM.                                                                                                               | Entorno de Diseño y Cálculo FEM             | Media         | Pendiente    |
+
+
+
+| **FR29**   | Funcional    | Incorporar módulos de validación y verificación para comparar resultados FEM con datos experimentales o estándares de la industria.                                                                                                                                      | Entorno de Diseño y Cálculo FEM             | Alta          | Pendiente    |
+
+
+
+| **FR30**   | Funcional    | Facilitar la colaboración en tiempo real en proyectos FEM, permitiendo que múltiples usuarios trabajen simultáneamente en el mismo modelo y compartan resultados instantáneamente.                                                                                        | Entorno de Diseño y Cálculo FEM             | Media         | Pendiente    |
+
+
+
+| **FR31**   | Funcional    | Integrar el entorno FEM con el módulo de Simulación y Modelado Avanzado, permitiendo el intercambio fluido de datos y resultados.                                                                                                                                        | Modelos Digitales en Tiempo Real            | Alta          | Pendiente    |
+
+
+
+| **FR32**   | Funcional    | Integrar los resultados de análisis FEM con los gemelos digitales, actualizando automáticamente las propiedades estructurales en tiempo real.                                                                                                                            | Modelos Digitales en Tiempo Real            | Alta          | Pendiente    |
+
+
+
+| **FR33**   | Funcional    | Integrar el ICSDB para centralizar todas las configuraciones y datos de sistema relacionados con GAIA AIR.                                                                                                                                                                | Integración con ICSDB                       | Alta          | Pendiente    |
+
+
+
+| **FR34**   | Funcional    | El ICSDB debe soportar la gestión de versiones de configuraciones, permitiendo el seguimiento de cambios y la restauración de versiones anteriores.                                                                                                                      | Integración con ICSDB                       | Alta          | Pendiente    |
+
+
+
+| **FR35**   | Funcional    | Implementar funcionalidades de control de cambios que automaticen la actualización de configuraciones en el ICSDB tras modificaciones en los modelos digitales o módulos CA-SPARE.                                                                                       | Integración con ICSDB                       | Alta          | Pendiente    |
+
+
+
+| **FR36**   | Funcional    | Permitir la búsqueda y recuperación eficiente de configuraciones y datos de sistema a través de interfaces intuitivas y APIs.                                                                                                                                            | Integración con ICSDB                       | Alta          | Pendiente    |
+
+
+
+| **FR37**   | Funcional    | Integrar el ICSDB con el entorno de diseño y cálculo FEM, asegurando que las configuraciones estructurales y de simulación se gestionen adecuadamente.                                                                                                                   | Integración con ICSDB                       | Media         | Pendiente    |
+
+
+
+| **FR38**   | Funcional    | Facilitar la sincronización de datos entre el ICSDB y los gemelos digitales, asegurando que cualquier cambio en las configuraciones se refleje automáticamente en los modelos digitales.                                                                                 | Integración con ICSDB                       | Alta          | Pendiente    |
+
+
+
+| **FR39**   | Funcional    | Proveer interfaces para la importación y exportación de datos de configuraciones desde y hacia sistemas externos, utilizando estándares como XML, JSON o formatos específicos de la industria aeroespacial.                                                               | Integración con ICSDB                       | Media         | Pendiente    |
+
+
+
+| **FR40**   | Funcional    | Implementar mecanismos de auditoría y registro dentro del ICSDB para rastrear todas las modificaciones realizadas, incluyendo el usuario, la fecha y la descripción del cambio.                                                                                          | Integración con ICSDB                       | Alta          | Pendiente    |
+
+
+
+| **FR41**   | Funcional    | El ICSDB debe estar integrado con los módulos de PLM, Simulación y Modelado Avanzado, Gestión de Datos y Analítica, y Soporte de Operaciones y Mantenimiento, permitiendo un flujo de datos coherente y centralizado.                                                   | Integración con ICSDB                       | Alta          | Pendiente    |
+
+
+
+| **FR42**   | Funcional    | Facilitar la integración del ICSDB con las APIs abiertas del GQP, permitiendo que nuevas herramientas y módulos accedan y actualicen configuraciones de manera automatizada y segura.                                                                                    | Integración con ICSDB                       | Alta          | Pendiente    |
+
+
+
+| **FR43**   | Funcional    | Integrar la ICentralSourceDB como el repositorio principal para todos los datos estructurales, operativos, de mantenimiento y de configuración relacionados con GAIA AIR.                                                                                                | Base de Datos Centralizada Inteligente      | Alta          | Pendiente    |
+
+
+
+| **FR44**   | Funcional    | La ICentralSourceDB debe soportar la ingestión de datos en tiempo real desde múltiples fuentes, incluyendo sensores IoT, sistemas de simulación FEM, gemelos digitales y módulos CA-SPARE.                                                                              | Base de Datos Centralizada Inteligente      | Alta          | Pendiente    |
+
+
+
+| **FR45**   | Funcional    | Implementar capacidades de Machine Learning e Inteligencia Artificial dentro de la ICentralSourceDB para analizar datos, identificar patrones y proporcionar insights predictivos y prescriptivos.                                                                       | Base de Datos Centralizada Inteligente      | Alta          | Pendiente    |
+
+
+
+| **FR46**   | Funcional    | Proveer funcionalidades de data mining y análisis avanzado que permitan a los usuarios extraer información valiosa y tomar decisiones informadas basadas en datos históricos y en tiempo real.                                                                           | Base de Datos Centralizada Inteligente      | Media         | Pendiente    |
+
+
+
+| **FR47**   | Funcional    | Facilitar la integración de datos semiestructurados y no estructurados, asegurando que toda la información relevante se almacene y gestione de manera coherente y accesible.                                                                                             | Base de Datos Centralizada Inteligente      | Media         | Pendiente    |
+
+
+
+| **FR48**   | Funcional    | Implementar un motor de recomendaciones que utilice algoritmos de IA para sugerir optimizaciones en diseño, mantenimiento y operaciones basadas en los datos almacenados.                                                                                                | Base de Datos Centralizada Inteligente      | Media         | Pendiente    |
+
+
+
+| **FR49**   | Funcional    | Permitir la visualización interactiva de datos a través de dashboards avanzados, integrando herramientas de BI como Tableau, Power BI o Grafana.                                                                                                                        | Base de Datos Centralizada Inteligente      | Alta          | Pendiente    |
+
+
+
+| **FR50**   | Funcional    | Asegurar la integridad y consistencia de los datos mediante mecanismos de validación automática y redundancia de datos.                                                                                                                                                | Base de Datos Centralizada Inteligente      | Alta          | Pendiente    |
+
+
+
+| **FR51**   | Funcional    | La ICentralSourceDB debe estar integrada con los módulos de PLM, Simulación y Modelado Avanzado, Entorno de Diseño y Cálculo FEM, ICSDB, y Soporte de Operaciones y Mantenimiento, permitiendo un flujo de datos coherente y centralizado.                             | Base de Datos Centralizada Inteligente      | Alta          | Pendiente    |
+
+
+
+| **FR52**   | Funcional    | Facilitar la integración de la IA y ML con otros módulos del GQP, permitiendo que los modelos predictivos y prescriptivos se apliquen automáticamente a los procesos de diseño, producción y mantenimiento.                                                             | Base de Datos Centralizada Inteligente      | Media         | Pendiente    |
+
+
+
+| **FR53**   | Funcional    | Implementar un sistema de alertas para notificar a los usuarios sobre actualizaciones críticas en los modelos digitales.                                                                                                                                                 | Gestión de Datos y Analítica                | Alta          | Pendiente    |
+
+
+
+| **FR54**   | Funcional    | Integrar una función de búsqueda avanzada que permita filtrar configuraciones por múltiples parámetros.                                                                                                                                                                 | Base de Datos Centralizada Inteligente      | Media         | Pendiente    |
+
+
+
+| **FR55**   | Funcional    | Proveer una API para exportar datos de simulaciones FEM a formatos compatibles con herramientas de reporte.                                                                                                                                                             | Entorno de Diseño y Cálculo FEM             | Media         | Pendiente    |
+
+
+
+| **FR56**   | Funcional    | Desarrollar un módulo de capacitación interactiva para entrenar a los usuarios en el uso del GQP.                                                                                                                                                                       | Usabilidad                                  | Baja          | Pendiente    |
+
+
+
+| **FR57**   | Funcional    | Implementar un sistema de backup automático diario para la ICentralSourceDB.                                                                                                                                                                                            | Seguridad                                   | Alta          | Pendiente    |
+
+
+
+| **FR58**   | Funcional    | Permitir la integración con herramientas de control de versiones como GitLab para gestionar el código fuente del GQP.                                                                                                                                                   | Integración con ICSDB                       | Media         | Pendiente    |
+
+
+
+| **FR59**   | Funcional    | Desarrollar un módulo de reportes automáticos que genere informes periódicos sobre el estado del proyecto.                                                                                                                                                              | Gestión de Datos y Analítica                | Media         | Pendiente    |
+
+
+
+| **FR60**   | Funcional    | Implementar un sistema de gestión de incidencias para registrar y seguir problemas reportados por los usuarios.                                                                                                                                                         | Colaboración Interdisciplinaria             | Alta          | Pendiente    |
+
+
+
+| **FR61**   | Funcional    | Integrar un módulo de gestión de tareas que permita asignar, seguir y priorizar tareas dentro del GQP.                                                                                                                                                                  | Gestión de Proyectos                        | Alta          | Pendiente    |
+
+
+
+| **FR62**   | Funcional    | Proveer soporte multilingüe para el GQP, permitiendo la utilización en diferentes idiomas según la región del usuario.                                                                                                                                                  | Usabilidad                                  | Media         | Pendiente    |
+
+
+
+| **FR63**   | Funcional    | Implementar autenticación multifactor (MFA) para aumentar la seguridad de acceso al GQP.                                                                                                                                                                               | Seguridad                                   | Alta          | Pendiente    |
+
+
+
+| **FR64**   | Funcional    | Desarrollar un módulo de notificaciones personalizadas que permita a los usuarios configurar alertas según sus preferencias.                                                                                                                                            | Gestión de Datos y Analítica                | Media         | Pendiente    |
+
+
+
+| **FR65**   | Funcional    | Integrar capacidades de exportación de datos a formatos estándar como CSV, PDF y Excel.                                                                                                                                                                                | Gestión de Datos y Analítica                | Media         | Pendiente    |
+
+
+
+| **FR66**   | Funcional    | Proveer un historial de cambios detallado para cada configuración almacenada en el GQP.                                                                                                                                                                                | Gestión de Configuración                    | Alta          | Pendiente    |
+
+
+
+| **FR67**   | Funcional    | Implementar un sistema de comentarios y anotaciones en los modelos digitales para facilitar la colaboración entre usuarios.                                                                                                                                             | Colaboración Interdisciplinaria             | Media         | Pendiente    |
+
+
+
+| **FR68**   | Funcional    | Desarrollar un módulo de gestión de permisos que permita asignar diferentes niveles de acceso a los usuarios.                                                                                                                                                           | Seguridad                                   | Alta          | Pendiente    |
+
+
+
+| **FR69**   | Funcional    | Integrar herramientas de análisis predictivo para anticipar necesidades de mantenimiento basadas en datos históricos.                                                                                                                                                   | Gestión de Datos y Analítica                | Alta          | Pendiente    |
+
+
+
+| **FR70**   | Funcional    | Proveer un tablero de control centralizado que muestre métricas clave y KPIs del proyecto GQP.                                                                                                                                                                         | Gestión de Datos y Analítica                | Alta          | Pendiente    |
+
+
+
+| **FR71**   | Funcional    | Implementar un sistema de gestión de versiones para asegurar la trazabilidad de los cambios en el GQP.                                                                                                                                                                  | Gestión de Configuración                    | Alta          | Pendiente    |
+
+
+
+| **FR72**   | Funcional    | Desarrollar una interfaz de usuario personalizable que permita a los usuarios adaptar el GQP a sus necesidades.                                                                                                                                                         | Usabilidad                                  | Media         | Pendiente    |
+
+
+
+| **FR73**   | Funcional    | Integrar un módulo de análisis de riesgos que evalúe posibles impactos de cambios en las configuraciones.                                                                                                                                                              | Gestión de Proyectos                        | Alta          | Pendiente    |
+
+
+
+| **FR74**   | Funcional    | Proveer herramientas de visualización 3D para interactuar con modelos digitales directamente desde el GQP.                                                                                                                                                              | Simulación y Modelado Avanzado              | Alta          | Pendiente    |
+
+
+
+| **FR75**   | Funcional    | Implementar un sistema de notificaciones push para mantener a los usuarios informados sobre actualizaciones y eventos.                                                                                                                                                  | Gestión de Datos y Analítica                | Media         | Pendiente    |
+
+
+
+| **FR76**   | Funcional    | Desarrollar un módulo de integración con plataformas de almacenamiento en la nube como AWS S3, Google Cloud Storage, etc.                                                                                                                                              | Integración con ICSDB                       | Media         | Pendiente    |
+
+
+
+| **FR77**   | Funcional    | Proveer soporte para la importación de datos desde sistemas legacy utilizados en proyectos anteriores.                                                                                                                                                                 | Integración con ICSDB                       | Media         | Pendiente    |
+
+
+
+| **FR78**   | Funcional    | Implementar un sistema de auditoría que registre todas las acciones realizadas por los usuarios dentro del GQP.                                                                                                                                                         | Seguridad                                   | Alta          | Pendiente    |
+
+
+
+| **FR79**   | Funcional    | Desarrollar un módulo de análisis de tendencias que identifique patrones en los datos recopilados por el GQP.                                                                                                                                                           | Gestión de Datos y Analítica                | Media         | Pendiente    |
+
+
+
+| **FR80**   | Funcional    | Integrar capacidades de machine learning para mejorar la precisión de las simulaciones y predicciones realizadas por el GQP.                                                                                                                                            | Simulación y Modelado Avanzado              | Alta          | Pendiente    |
+
+
+
+| **FR81**   | Funcional    | Proveer una API de exportación para integrar los datos del GQP con sistemas ERP y CRM utilizados por GAIA AIR.                                                                                                                                                          | Integración con ICSDB                       | Media         | Pendiente    |
+
+
+
+| **FR82**   | Funcional    | Implementar un sistema de backups incrementales y completos para asegurar la recuperación de datos en caso de fallo.                                                                                                                                                    | Seguridad                                   | Alta          | Pendiente    |
+
+
+
+| **FR83**   | Funcional    | Desarrollar un módulo de gestión de contratos que almacene y gestione los acuerdos con proveedores y socios.                                                                                                                                                            | Gestión de Proyectos                        | Media         | Pendiente    |
+
+
+
+| **FR84**   | Funcional    | Integrar un sistema de seguimiento de inventarios para gestionar los recursos utilizados en los proyectos de GAIA AIR.                                                                                                                                                  | Gestión de Proyectos                        | Media         | Pendiente    |
+
+
+
+| **FR85**   | Funcional    | Proveer herramientas de colaboración asincrónica, como foros y chats, para facilitar la comunicación entre equipos remotos.                                                                                                                                            | Colaboración Interdisciplinaria             | Media         | Pendiente    |
+
+
+
+| **FR86**   | Funcional    | Implementar un módulo de gestión de incidencias que permita la priorización y resolución eficiente de problemas reportados.                                                                                                                                            | Gestión de Proyectos                        | Alta          | Pendiente    |
+
+
+
+| **FR87**   | Funcional    | Desarrollar una funcionalidad de auto-guardado para prevenir la pérdida de datos durante sesiones de trabajo.                                                                                                                                                           | Usabilidad                                  | Media         | Pendiente    |
+
+
+
+| **FR88**   | Funcional    | Integrar herramientas de análisis de impacto para evaluar cómo los cambios en una configuración afectan a otras áreas del sistema.                                                                                                                                     | Gestión de Configuración                    | Alta          | Pendiente    |
+
+
+
+| **FR89**   | Funcional    | Proveer un módulo de gestión de recursos humanos que permita asignar y seguir el trabajo de los miembros del equipo.                                                                                                                                                    | Gestión de Proyectos                        | Media         | Pendiente    |
+
+
+
+| **FR90**   | Funcional    | Implementar un sistema de notificaciones basadas en eventos que alerte a los usuarios sobre cambios críticos en tiempo real.                                                                                                                                            | Gestión de Datos y Analítica                | Alta          | Pendiente    |
+
+
+
+| **FR91**   | Funcional    | Desarrollar un módulo de análisis financiero que permita evaluar los costos asociados a diferentes configuraciones y proyectos.                                                                                                                                         | Gestión de Proyectos                        | Media         | Pendiente    |
+
+
+
+| **FR92**   | Funcional    | Integrar un sistema de gestión de versiones para documentos técnicos, asegurando que siempre se acceda a la versión más actual.                                                                                                                                         | Gestión de Configuración                    | Alta          | Pendiente    |
+
+
+
+| **FR93**   | Funcional    | Proveer herramientas de análisis de sensibilidad para evaluar cómo variaciones en los parámetros afectan los resultados del proyecto.                                                                                                                                    | Simulación y Modelado Avanzado              | Media         | Pendiente    |
+
+
+
+| **FR94**   | Funcional    | Implementar un sistema de gestión de calidad que monitoree y asegure que los procesos y productos cumplan con los estándares establecidos.                                                                                                                              | Aseguramiento de Calidad                    | Alta          | Pendiente    |
+
+
+
+| **FR95**   | Funcional    | Desarrollar un módulo de seguimiento de métricas de rendimiento que permita evaluar la eficiencia del GQP.                                                                                                                                                              | Gestión de Datos y Analítica                | Media         | Pendiente    |
+
+
+
+| **FR96**   | Funcional    | Integrar un sistema de gestión de incidencias de seguridad para monitorear y responder a amenazas potenciales.                                                                                                                                                          | Seguridad                                   | Alta          | Pendiente    |
+
+
+
+| **FR97**   | Funcional    | Proveer una funcionalidad de importación masiva de datos para facilitar la migración de información desde otras plataformas.                                                                                                                                            | Integración con ICSDB                       | Media         | Pendiente    |
+
+
+
+| **FR98**   | Funcional    | Implementar un módulo de gestión de feedback que permita a los usuarios reportar sugerencias y mejoras directamente en el GQP.                                                                                                                                         | Usabilidad                                  | Media         | Pendiente    |
+
+
+
+| **FR99**   | Funcional    | Desarrollar una interfaz de usuario accesible para personas con discapacidades, cumpliendo con las normativas de accesibilidad.                                                                                                                                         | Usabilidad                                  | Alta          | Pendiente    |
+
+
+
+| **FR100**  | Funcional    | Integrar un sistema de autenticación único (Single Sign-On) para simplificar el acceso de los usuarios al GQP.                                                                                                                                                          | Seguridad                                   | Alta          | Pendiente    |
+
+
+
+| **FR101**  | Funcional    | Implementar conexión segura mediante protocolo HTTPS con cifrado TLS 1.3 para garantizar la confidencialidad y seguridad de los datos. (Tecnologías Utilizadas: TLS 1.3, HTTPS)                                                                                         | Seguridad Web                               | Alta          | Pendiente    |
+
+
+
+| **FR102**  | Funcional    | Desarrollar un sistema integrado para el seguimiento y control de versiones de documentos técnicos, desde la fase de diseño hasta la certificación final. (Tecnologías Utilizadas: Git, CI/CD, PlantUML)                                                                | Gestión de Documentación                    | Alta          | Pendiente    |
+
+
+
+| **FR103**  | Funcional    | Control automatizado de piezas y materiales críticos, incluyendo previsión de demanda mediante IA y monitorización en tiempo real. (Tecnologías Utilizadas: RFID, Machine Learning, Big Data)                                                                            | Gestión de Inventarios                      | Alta          | Pendiente    |
+
+
+
+| **FR104**  | Funcional    | Crear un módulo para recibir solicitudes técnicas de los operadores y coordinar montajes con base en información operativa actualizada. (Tecnologías Utilizadas: REST API, JavaScript, Notificaciones)                                                                    | Montajes y Techrequests                     | Alta          | Pendiente    |
+
+
+
+| **FR105**  | Funcional    | Integrar un asistente de IA (ChatQuantum) para consultas y resolución de problemas, capaz de procesar información en lenguaje natural para brindar soporte contextualizado. (Tecnologías Utilizadas: NLP, GPT, Python)                                                   | Asistente ChatQuantum                       | Alta          | Pendiente    |
+
+
+
+| **FR106**  | Funcional    | Desarrollar una plataforma para gestionar la capacitación del personal, incluyendo cursos, evaluaciones y certificaciones necesarias. (Tecnologías Utilizadas: Moodle, SCORM, HTML5)                                                                                    | Publicaciones y E-Learning                  | Media         | Pendiente    |
+
+
+
+| **FR107**  | Funcional    | Implementar trazabilidad completa desde el proveedor hasta la implementación de componentes, integrado con blockchain para mayor transparencia y seguridad. (Tecnologías Utilizadas: Blockchain, Hyperledger Fabric)                                                     | Gestión de Cadena de Suministro             | Alta          | Pendiente    |
+
+
+
+| **FR108**  | Funcional    | Utilizar algoritmos cuánticos para optimizar la asignación de recursos, rutas de suministro y toma de decisiones complejas. (Tecnologías Utilizadas: QNN, Qiskit)                                                                                                       | Inteligencia Cuántica para Decisiones       | Alta          | Pendiente    |
+
+
+
+| **FR109**  | Funcional    | Desarrollar un módulo para gestionar todos los procesos de certificación conforme a normativas internacionales (e.g., EASA, FAA). (Tecnologías Utilizadas: Registros Digitales, Dashboards)                                                                             | Certificación y Conformidad                 | Alta          | Pendiente    |
+
+
+
+| **FR110**  | Funcional    | Crear un sistema de informes para el seguimiento del rendimiento del portal, con dashboards interactivos y reportes en tiempo real sobre KPIs críticos. (Tecnologías Utilizadas: Dash/Plotly, SQL, Grafana)                                                             | Monitoreo y Reportes                        | Alta          | Pendiente    |
+
+
+
+| **FR111**  | Funcional    | Implementar funciones de optimización de procesos con enfoque en la economía circular y minimización del impacto ambiental mediante análisis de ciclo de vida (LCA). (Tecnologías Utilizadas: LCA Software, AI Predictive Tools)                                        | Soporte para Sostenibilidad                 | Media         | Pendiente    |
+
+
+
+| **FR112**  | Funcional    | Desarrollar APIs para conectividad con otros sistemas operacionales y plataformas de gestión para asegurar la interoperabilidad del GQP. (Tecnologías Utilizadas: REST, GraphQL, OAuth 2.0)                                                                            | Interfaces de Integración                   | Alta          | Pendiente    |
+
+
+
+| **FR113**  | Funcional    | Diseñar una arquitectura modular que permita la implementación incremental de funciones según las necesidades de la aerolínea. (Tecnologías Utilizadas: Microservicios, Docker, Kubernetes)                                                                             | Escalabilidad y Modularidad                 | Alta          | Pendiente    |
+
+
+
+| **FR114**  | Funcional    | Asegurar el cumplimiento con normativas de privacidad y protección de datos (GDPR, ISO 27001).                                                                                                                                                                          | Cumplimiento Normativo                      | Alta          | Pendiente    |
+
+
+
+| **FR115**  | Funcional    | Implementar un sistema de monitoreo en tiempo real para supervisar el rendimiento y disponibilidad de los servicios del GQP. (Tecnologías Utilizadas: Prometheus, Grafana)                                                                                             | Monitoreo y Reportes                        | Alta          | Pendiente    |
+
+
+
+| **FR116**  | Funcional    | Desarrollar una funcionalidad de integración con sistemas de gestión de proyectos como Jira o Asana para mejorar el seguimiento de tareas. (Tecnologías Utilizadas: Jira API, Asana API)                                                                                | Gestión de Proyectos                        | Media         | Pendiente    |
+
+
+
+| **FR117**  | Funcional    | Proveer soporte para la exportación de datos a formatos compatibles con sistemas ERP utilizados por GAIA AIR. (Tecnologías Utilizadas: API REST, SOAP)                                                                                                                  | Interfaces de Integración                   | Media         | Pendiente    |
+
+
+
+| **FR118**  | Funcional    | Implementar un sistema de notificaciones por correo electrónico y SMS para alertar sobre eventos críticos en el GQP. (Tecnologías Utilizadas: SMTP, Twilio)                                                                                                          | Gestión de Datos y Analítica                | Alta          | Pendiente    |
+
+
+
+| **FR119**  | Funcional    | Desarrollar un módulo de análisis de riesgos que permita identificar, evaluar y mitigar riesgos asociados a las configuraciones del GQP. (Tecnologías Utilizadas: Herramientas de Análisis de Riesgos)                                                                  | Gestión de Proyectos                        | Alta          | Pendiente    |
+
+
+
+| **FR120**  | Funcional    | Integrar un sistema de autenticación único (Single Sign-On) para simplificar el acceso de los usuarios al GQP. (Tecnologías Utilizadas: SAML, OAuth 2.0)                                                                                                             | Seguridad                                   | Alta          | Pendiente    |
+
+
+
+| **FR121**  | Funcional    | Implementar un módulo de gestión de licencias y cumplimiento para asegurar que todas las herramientas y software utilizados en el GQP cumplen con las licencias y regulaciones correspondientes.                                                                        | Cumplimiento Normativo                      | Media         | Pendiente    |
+
+
+
+| **FR122**  | Funcional    | Desarrollar una función de autoescalado que permita al GQP ajustar automáticamente los recursos de computación en función de la carga de trabajo.                                                                                                                       | Escalabilidad y Rendimiento                 | Alta          | Pendiente    |
+
+
+
+| **FR123**  | Funcional    | Integrar un módulo de análisis de sentimientos para evaluar el feedback de los usuarios y mejorar la experiencia del usuario.                                                                                                                                          | Gestión de Datos y Analítica                | Baja          | Pendiente    |
+
+
+
+| **FR124**  | Funcional    | Proveer soporte para el almacenamiento y gestión de datos en formatos no tradicionales, como datos geoespaciales o gráficos.                                                                                                                                            | Gestión de Datos y Analítica                | Media         | Pendiente    |
+
+
+
+| **FR125**  | Funcional    | Implementar pruebas automatizadas y un pipeline de CI/CD para asegurar la calidad del código y acelerar el proceso de despliegue.                                                                                                                                      | Desarrollo Ágil                             | Alta          | Pendiente    |
+
+
+
+| **FR126**  | Funcional    | Desarrollar un módulo de simulación climática para evaluar el impacto de condiciones meteorológicas extremas en el diseño del avión.                                                                                                                                   | Simulación y Modelado Avanzado              | Media         | Pendiente    |
+
+
+
+| **FR127**  | Funcional    | Integrar capacidades de realidad virtual (VR) para revisiones inmersivas de los modelos 3D del avión.                                                                                                                                                                  | Simulación y Modelado Avanzado              | Baja          | Pendiente    |
+
+
+
+| **FR128**  | Funcional    | Proveer una funcionalidad de exportación de informes personalizados en múltiples formatos, incluyendo PDF, Excel y formatos específicos de la industria.                                                                                                               | Gestión de Datos y Analítica                | Media         | Pendiente    |
+
+
+
+| **FR129**  | Funcional    | Implementar mecanismos de inteligencia artificial para detección y prevención de intrusiones en el sistema.                                                                                                                                                            | Seguridad                                   | Alta          | Pendiente    |
+
+
+
+| **FR130**  | Funcional    | Desarrollar un sistema de gestión de documentos que permita el control y seguimiento de todos los documentos relacionados con el proyecto, incluyendo contratos, especificaciones y manuales.                                                                           | Gestión de Documentación                    | Alta          | Pendiente    |
+
+
+
+| **FR131**  | Funcional    | Integrar un módulo de cálculo de emisiones de carbono para evaluar y minimizar el impacto ambiental de las operaciones del avión.                                                                                                                                      | Sostenibilidad                              | Media         | Pendiente    |
+
+
+
+| **FR132**  | Funcional    | Implementar funciones de accesibilidad adicionales, como soporte para lectores de pantalla y navegación por teclado.                                                                                                                                                   | Usabilidad                                  | Alta          | Pendiente    |
+
+
+
+| **FR133**  | Funcional    | Proveer una funcionalidad de sandbox para probar nuevas configuraciones y funcionalidades sin afectar al entorno de producción.                                                                                                                                        | Desarrollo y Pruebas                        | Media         | Pendiente    |
+
+
+
+| **FR134**  | Funcional    | Desarrollar un módulo de gestión de eventos que permita la planificación y seguimiento de hitos clave del proyecto.                                                                                                                                                    | Gestión de Proyectos                        | Media         | Pendiente    |
+
+
+
+| **FR135**  | Funcional    | Integrar un sistema de gestión de conocimiento para capturar y compartir las lecciones aprendidas y mejores prácticas.                                                                                                                                                 | Colaboración Interdisciplinaria             | Media         | Pendiente    |
+
+
+
+| **FR136**  | Funcional    | Implementar soporte para múltiples zonas horarias y formatos de fecha/hora para usuarios en diferentes regiones.                                                                                                                                                       | Usabilidad                                  | Baja          | Pendiente    |
+
+
+
+| **FR137**  | Funcional    | Proveer capacidades de localización y regionalización, adaptando el GQP a las regulaciones y prácticas de diferentes países.                                                                                                                                           | Cumplimiento Normativo                      | Media         | Pendiente    |
+
+
+
+| **FR138**  | Funcional    | Integrar algoritmos de optimización basados en inteligencia artificial para mejorar la eficiencia en rutas de vuelo y consumo de combustible.                                                                                                                          | Inteligencia Artificial Aplicada            | Alta          | Pendiente    |
+
+
+
+| **FR139**  | Funcional    | Desarrollar un módulo de gestión de proveedores que permita evaluar y seleccionar proveedores basándose en criterios de desempeño y cumplimiento.                                                                                                                      | Gestión de Cadena de Suministro             | Media         | Pendiente    |
+
+
+
+| **FR140**  | Funcional    | Implementar funciones de chat en vivo y soporte técnico dentro del GQP para brindar asistencia inmediata a los usuarios.                                                                                                                                              | Soporte y Asistencia                        | Media         | Pendiente    |
+
+
+
+| **FR141**  | Funcional    | Implementar el **ChatQuantum Alphabet** como marco conceptual para integrar conceptos geométricos de perpendicularidad y paralelismo en diversas aplicaciones tecnológicas del GQP.                                                                                    | Arquitectura del Sistema                    | Alta          | Pendiente    |
+
+
+
+| **FR142**  | Funcional    | Desarrollar algoritmos que utilicen operadores de perpendicularidad para la selección de características independientes en modelos de aprendizaje automático, optimizando el uso de memoria y mejorando la eficiencia.                                                | Optimización de Recursos                    | Alta          | Pendiente    |
+
+
+
+| **FR143**  | Funcional    | Incorporar técnicas de reducción de dimensionalidad y transformación coherente de datos basadas en paralelismo para mantener relaciones proporcionales entre características.                                                                                           | Gestión de Datos y Analítica                | Media         | Pendiente    |
+
+
+
+| **FR144**  | Funcional    | Integrar funcionalidades de visión por computadora que utilicen la transformada de Hough para detectar líneas perpendiculares y paralelas en imágenes, mejorando la detección y seguimiento de objetos.                                                                | Visión por Computadora                      | Alta          | Pendiente    |
+
+
+
+| **FR145**  | Funcional    | Desarrollar algoritmos de control robótico que ajusten la dirección y movimiento de robots basados en relaciones geométricas de perpendicularidad y paralelismo detectadas en el entorno.                                                                              | Robótica e IA Aplicada                      | Alta          | Pendiente    |
+
+
+
+| **FR146**  | Funcional    | Implementar técnicas de optimización de recursos de memoria, como la conversión de matrices densas a dispersas y el uso de caché, para manejar grandes volúmenes de datos de manera eficiente.                                                                         | Optimización de Recursos                    | Alta          | Pendiente    |
+
+
+
+| **FR147**  | Funcional    | Incorporar modelos predictivos que garanticen la independencia de características utilizando operadores de perpendicularidad, evitando multicolinealidad y mejorando la interpretabilidad.                                                                             | Modelos Predictivos y Analítica             | Alta          | Pendiente    |
+
+
+
+| **FR148**  | Funcional    | Facilitar la coordinación de múltiples robots asegurando movimientos en direcciones paralelas para tareas que requieran sincronización, como transporte de objetos grandes.                                                                                           | Robótica Colaborativa                       | Media         | Pendiente    |
+
+
+
+| **FR149**  | Funcional    | Implementar un entorno de simulación que permita probar y visualizar algoritmos basados en el **ChatQuantum Alphabet** en aplicaciones de robótica y visión por computadora.                                                                                          | Simulación y Modelado Avanzado              | Media         | Pendiente    |
+
+
+
+| **FR150**  | Funcional    | Integrar técnicas de aprendizaje automático para la detección y prevención de intrusiones en sistemas basados en relaciones geométricas, aumentando la seguridad del GQP.                                                                                             | Seguridad                                   | Alta          | Pendiente    |
+
+
+
+| **FR151**  | Funcional    | Desarrollar pipelines automatizados que integren selección de características, optimización de memoria y control robótico basados en los operadores de GD&T (Geometric Dimensioning and Tolerancing).                                                                 | Automatización y Optimización               | Alta          | Pendiente    |
+
+
+
+| **FR152**  | Funcional    | Incorporar visualizaciones interactivas (bioplots) que muestren el impacto de los operadores GD&T en tiempo real, facilitando el análisis y comprensión de los datos.                                                                                                 | Visualización de Datos                      | Media         | Pendiente    |
+
+
+
+| **FR153**  | Funcional    | Implementar algoritmos de evolución de aprendizaje multinivel creciente con saltos logarítmicos para mejorar la eficiencia en el entrenamiento acumulado, utilizando blockchain para asegurar transparencia y seguridad.                                              | Aprendizaje Automático y Blockchain         | Alta          | Pendiente    |
+
+
+
+| **FR154**  | Funcional    | Integrar una arquitectura logarítmica multinivel que permita la escalabilidad del GQP sin comprometer la protección del modelo central, aprovechando las ventajas del aprendizaje federado.                                                                            | Arquitectura Escalable                      | Alta          | Pendiente    |
+
+
+
+| **FR155**  | Funcional    | Utilizar blockchain y contratos inteligentes para registrar actualizaciones del modelo, garantizar la transparencia y prevenir alteraciones maliciosas en el sistema.                                                                                                 | Seguridad y Trazabilidad                    | Alta          | Pendiente    |
+
+
+
+| **FR156**  | Funcional    | Implementar distribución de claves cuánticas (QKD) para aumentar la seguridad en las comunicaciones entre los diferentes niveles de la arquitectura.                                                                                                                  | Seguridad Cuántica                          | Media         | Pendiente    |
+
+
+
+| **FR157**  | Funcional    | Incorporar técnicas de autoaprendizaje y machine teaching para adaptar los parámetros del modelo según la distribución de los datos locales en cada nodo, mejorando la precisión sin necesidad de reentrenamientos completos.                                          | Aprendizaje Adaptativo                      | Alta          | Pendiente    |
+
+
+
+| **FR158**  | Funcional    | Desarrollar algoritmos de optimización multiobjetivo para equilibrar factores como eficiencia energética, precisión del modelo y rendimiento en proyectos como RobbboTx Gaia Air.                                                                                    | Optimización Multiobjetivo                  | Media         | Pendiente    |
+
+
+
+| **FR159**  | Funcional    | Implementar aprendizaje por refuerzo (Reinforcement Learning) para que el GQP pueda evolucionar basado en retroalimentación del entorno, permitiendo una mejora continua del sistema.                                                                                 | Aprendizaje por Refuerzo                    | Alta          | Pendiente    |
+
+
+
+| **FR160**  | Funcional    | Integrar pipelines de CI/CD para automatizar el despliegue de modelos y asegurar que el GQP esté continuamente evolucionando y mejorando.                                                                                                                            | Desarrollo Ágil y DevOps                    | Alta          | Pendiente    |
+
+
+
+| **FR161**  | Funcional    | Desarrollar una interfaz que permita la interacción en lenguaje natural con el GQP, eliminando barreras entre el lenguaje natural y la programación mediante el uso de NPLC (Natural Programming Languages by Computer).                                             | Interfaz de Usuario Inteligente             | Alta          | Pendiente    |
+
+
+
+| **FR162**  | Funcional    | Facilitar la colaboración humano-máquina fluida e intuitiva en el GQP, permitiendo a los usuarios describir en lenguaje natural las tareas y automatizaciones que desean implementar.                                                                                 | Colaboración Interdisciplinaria             | Alta          | Pendiente    |
+
+
+
+| **FR163**  | Funcional    | Implementar funcionalidades para filtrar proyectos de alto potencial transformador y crear una base de datos específica para la financiación dentro del GQP.                                                                                                       | Gestión de Proyectos y Financiación         | Alta          | Pendiente    |
+
+
+
+| **FR164**  | Funcional    | Integrar un asistente de IA que gestione reconocimientos y bonificaciones para profesionales que contribuyan significativamente a los proyectos, automatizando procesos de recursos humanos.                                                                          | Recursos Humanos y Reconocimientos          | Media         | Pendiente    |
+
+
+
+| **FR165**  | Funcional    | Desarrollar mecanismos para la identificación y evaluación de proyectos de alto valor, utilizando criterios como innovación, impacto estratégico, viabilidad económica y sostenibilidad.                                                                              | Evaluación de Proyectos                     | Alta          | Pendiente    |
+
+
+
+| **FR166**  | Funcional    | Incorporar algoritmos de clasificación y evaluación de proyectos basados en machine learning, entrenados con datos históricos de proyectos exitosos.                                                                                                                 | Gestión de Datos y Analítica                | Alta          | Pendiente    |
+
+
+
+| **FR167**  | Funcional    | Implementar un sistema de seguimiento de contribuciones individuales, registrando la participación de cada profesional en reuniones, documentación y desarrollo de proyectos.                                                                                      | Gestión de Recursos Humanos                 | Media         | Pendiente    |
+
+
+
+| **FR168**  | Funcional    | Integrar el GQP con sistemas de recursos humanos para automatizar reconocimientos, asignación de bonos y gestión de recompensas basadas en las contribuciones de los empleados.                                                                                    | Recursos Humanos y Reconocimientos          | Alta          | Pendiente    |
+
+
+
+| **FR169**  | Funcional    | Asegurar la transparencia y equidad en los procesos de reconocimiento y bonificación, permitiendo revisiones humanas y proporcionando feedback continuo a los empleados.                                                                                           | Ética y Transparencia                       | Alta          | Pendiente    |
+
+
+
+| **FR170**  | Funcional    | Desarrollar una base de datos estructurada para gestionar la financiación de proyectos, conectando proyectos evaluados con inversores potenciales y facilitando el seguimiento de inversiones.                                                                      | Gestión de Proyectos y Financiación         | Alta          | Pendiente    |
+
+
+
+| **FR171**  | Funcional    | Implementar mecanismos de reconocimiento profesional, como certificados digitales y distinciones formales, para empleados destacados en el GQP.                                                                                                                   | Recursos Humanos y Reconocimientos          | Media         | Pendiente    |
+
+
+
+| **FR172**  | Funcional    | Incorporar funcionalidades de automatización de informes y generación de dashboards interactivos que muestren el estado de los proyectos, inversiones y oportunidades futuras.                                                                                     | Gestión de Datos y Analítica                | Media         | Pendiente    |
+
+
+
+| **FR173**  | Funcional    | Asegurar el cumplimiento con regulaciones de privacidad de datos como GDPR o CCPA en la gestión de información de empleados y proyectos dentro del GQP.                                                                                                           | Cumplimiento Normativo                      | Alta          | Pendiente    |
+
+
+
+| **FR174**  | Funcional    | Implementar herramientas para el monitoreo continuo del rendimiento del GQP, utilizando dashboards y alertas en tiempo real para detectar anomalías y optimizar el sistema.                                                                                       | Monitoreo y Optimización                    | Alta          | Pendiente    |
+
+
+
+| **FR175**  | Funcional    | Integrar métodos de reentrenamiento de modelos de machine learning con nuevos datos para mejorar la precisión y relevancia de las evaluaciones y predicciones del GQP.                                                                                            | Aprendizaje Automático Continuo             | Alta          | Pendiente    |
+
+
+
+| **FR176**  | Funcional    | Incorporar mecanismos para recopilar y aplicar feedback de los usuarios, facilitando la adaptación del GQP a las necesidades cambiantes de la organización.                                                                                                        | Usabilidad y Experiencia de Usuario         | Media         | Pendiente    |
+
+
+
+| **FR177**  | Funcional    | Desarrollar casos de uso prácticos y ejemplos que demuestren la aplicación del GQP en diferentes escenarios, facilitando su adopción y comprensión.                                                                                                               | Documentación y Formación                   | Media         | Pendiente    |
+
+
+
+| **FR178**  | Funcional    | Implementar análisis de sentimientos y procesamiento de lenguaje natural para entender mejor la motivación y el estado emocional de los empleados, ajustando las recompensas y reconocimientos en consecuencia.                                                  | Recursos Humanos y Analítica                | Media         | Pendiente    |
+
+
+
+| **FR179**  | Funcional    | Integrar tecnologías emergentes como blockchain para registrar de manera transparente y segura las recompensas y reconocimientos otorgados en el GQP.                                                                                                            | Seguridad y Trazabilidad                    | Alta          | Pendiente    |
+
+
+
+| **FR180**  | Funcional    | Incorporar soporte multilingüe y adaptación a contextos culturales diversos, facilitando el uso del GQP en corporaciones globales y equipos multiculturales.                                                                                                     | Usabilidad                                  | Media         | Pendiente    |
+
+
+
+| **FR181**  | Funcional    | Extender las capacidades predictivas del GQP utilizando algoritmos cuánticos del sistema **AMPEL** para modelado y simulaciones avanzadas en el diseño y mantenimiento de aeronaves.                                                                               | Simulación Cuántica Avanzada                | Alta          | Pendiente    |
+
+
+
+| **FR182**  | Funcional    | Diseñar módulos de simulación climática basados en principios cuánticos para evaluar el impacto de condiciones meteorológicas extremas en entornos de alto impacto.                                                                                               | Simulación y Modelado Cuántico              | Alta          | Pendiente    |
+
+
+
+| **FR183**  | Funcional    | Implementar técnicas de optimización multiobjetivo utilizando algoritmos cuánticos para equilibrar factores como eficiencia energética, rendimiento y sostenibilidad en el diseño de aeronaves.                                                                  | Optimización Cuántica Multiobjetivo         | Alta          | Pendiente    |
+
+
+
+| **FR184**  | Funcional    | Integrar capacidades de simulación basadas en principios cuánticos para mejorar la precisión y velocidad en la resolución de problemas complejos en ingeniería aeroespacial.                                                                                      | Simulación Cuántica Avanzada                | Alta          | Pendiente    |
+
+
+
+| **FR185**  | Funcional    | Utilizar estrategias de atenuación de decoherencia en algoritmos cuánticos para optimizar el rendimiento y garantizar la longevidad operativa de los sistemas implementados en el GQP.                                                                            | Optimización de Algoritmos Cuánticos        | Media         | Pendiente    |
+
+
+
+| **FR186**  | Funcional    | Enlazar los principios evolutivos **Bit → Bot → Neuronbit** para la organización de datos y flujos de simulación en la arquitectura del GQP, facilitando la evolución continua del sistema.                                                                        | Arquitectura Evolutiva                      | Alta          | Pendiente    |
+
+
+
+| **FR187**  | Funcional    | Implementar representaciones gráficas interactivas basadas en **Grafo Bioplot** para visualizar procesos evolutivos complejos en el diseño y desarrollo de aeronaves.                                                                                            | Visualización de Datos Avanzada             | Media         | Pendiente    |
+
+
+
+| **FR188**  | Funcional    | Integrar los modelos **Bit → Bot → Neuronbit** para mejorar la gestión y procesamiento de datos en el GQP, permitiendo una toma de decisiones más informada y ágil.                                                                                                | Gestión de Datos y Analítica                | Alta          | Pendiente    |
+
+
+
+| **FR189**  | Funcional    | Desarrollar herramientas que permitan la interacción y transformación entre los niveles **Bit**, **Bot** y **Neuronbit**, facilitando la adaptación y aprendizaje del sistema.                                                                                      | Arquitectura Evolutiva                      | Media         | Pendiente    |
+
+
+
+| **FR190**  | Funcional    | Incorporar mecanismos de retroalimentación y autooptimización basados en la visión **Bit → Bot → Neuronbit** para mejorar continuamente los procesos y resultados del GQP.                                                                                        | Aprendizaje Adaptativo                      | Alta          | Pendiente    |
+
+
+
+| **FR191**  | Funcional    | Revisar y actualizar el marco de aprendizaje automático del GQP para incluir estrategias híbridas que combinen operadores de perpendicularidad y paralelismo de GD&T con algoritmos cuánticos de AMPEL.                                                           | Aprendizaje Automático Avanzado             | Alta          | Pendiente    |
+
+
+
+| **FR192**  | Funcional    | Asegurar que las herramientas de machine learning implementadas en el GQP sean capaces de manejar datos de alta dimensionalidad y complejidad, optimizando el rendimiento mediante técnicas híbridas.                                                               | Aprendizaje Automático Avanzado             | Media         | Pendiente    |
+
+
+
+| **FR193**  | Funcional    | Integrar los operadores de perpendicularidad y paralelismo descritos en los modelos GD&T para mejorar la selección de características y evitar la multicolinealidad en los modelos predictivos.                                                                  | Optimización de Modelos Predictivos         | Alta          | Pendiente    |
+
+
+
+| **FR194**  | Funcional    | Implementar algoritmos de AMPEL que utilicen estrategias híbridas para mejorar la precisión y eficiencia en el procesamiento de datos y aprendizaje automático.                                                                                                  | Aprendizaje Automático Avanzado             | Alta          | Pendiente    |
+
+
+
+| **FR195**  | Funcional    | Desarrollar modelos de aprendizaje automático que puedan combinar técnicas clásicas y cuánticas, aprovechando lo mejor de ambos enfoques para resolver problemas complejos.                                                                                       | Aprendizaje Automático Híbrido              | Alta          | Pendiente    |
+
+
+
+| **FR196**  | Funcional    | Ampliar las funcionalidades de mantenimiento predictivo del GQP mediante la implementación de capacidades de **reentrenamiento continuo** para modelos cuánticos que interactúen con datos en tiempo real.                                                        | Mantenimiento Predictivo Cuántico           | Alta          | Pendiente    |
+
+
+
+| **FR197**  | Funcional    | Utilizar algoritmos cuánticos de AMPEL para anticipar fallos y optimizar el mantenimiento de aeronaves, reduciendo tiempos de inactividad y costos operativos.                                                                                                   | Mantenimiento Predictivo Cuántico           | Alta          | Pendiente    |
+
+
+
+| **FR198**  | Funcional    | Integrar sensores avanzados y sistemas IoT que alimenten los modelos de mantenimiento predictivo con datos en tiempo real, mejorando la precisión de las predicciones.                                                                                            | Internet de las Cosas (IoT)                 | Media         | Pendiente    |
+
+
+
+| **FR199**  | Funcional    | Implementar estrategias de atenuación de decoherencia en los sistemas cuánticos utilizados para mantenimiento predictivo, asegurando la fiabilidad y estabilidad de los modelos.                                                                                   | Optimización de Algoritmos Cuánticos        | Media         | Pendiente    |
+
+
+
+| **FR200**  | Funcional    | Desarrollar interfaces que permitan a los ingenieros interactuar con los modelos de mantenimiento predictivo cuántico de manera intuitiva, facilitando la toma de decisiones y acciones correctivas.                                                              | Interfaz de Usuario Inteligente             | Alta          | Pendiente    |
+
+
+
+| **FR201**  | Funcional    | Validar y consolidar los nuevos requisitos colaborativos, asegurando que estén alineados con las estrategias sostenibles del proyecto GAIA AIR y que promuevan un impacto ambiental y ético positivo.                                                              | Cumplimiento Normativo y Ético              | Alta          | Pendiente    |
+
+
+
+| **FR202**  | Funcional    | Incorporar métricas y herramientas que permitan evaluar el impacto ambiental y ético de las nuevas funcionalidades implementadas en el GQP, facilitando la toma de decisiones responsables.                                                                     | Sostenibilidad                              | Media         | Pendiente    |
+
+
+
+| **FR203**  | Funcional    | Establecer protocolos y estándares para garantizar que las innovaciones tecnológicas introducidas en el GQP cumplan con regulaciones internacionales y mejores prácticas en sostenibilidad y ética.                                                               | Cumplimiento Normativo y Ético              | Alta          | Pendiente    |
+
+
+
+| **FR204**  | Funcional    | Fomentar la colaboración interdisciplinaria y la participación de expertos en sostenibilidad y ética en el desarrollo y validación de las nuevas funcionalidades del GQP.                                                                                        | Colaboración Interdisciplinaria             | Media         | Pendiente    |
+
+
+
+| **FR205**  | Funcional    | Desarrollar planes de formación y capacitación para el equipo de desarrollo del GQP, asegurando la comprensión y correcta implementación de los conceptos avanzados como AMPEL y **Bit → Bot → Neuronbit**.                                                        | Formación y Capacitación                    | Alta          | Pendiente    |
+
+
+
+| **FR206**  | Funcional    | Implementar un plan de gestión del cambio para facilitar la adopción de las nuevas tecnologías y prácticas en la organización, minimizando resistencias y promoviendo una cultura de innovación.                                                                  | Gestión del Cambio                          | Media         | Pendiente    |
+
+
+
+| **FR207**  | Funcional    | Actualizar la arquitectura del GQP para integrar eficientemente los nuevos módulos y funcionalidades, asegurando la escalabilidad y mantenibilidad del sistema.                                                                                                   | Arquitectura del Sistema                    | Alta          | Pendiente    |
+
+
+
+| **FR208**  | Funcional    | Realizar pruebas y validaciones exhaustivas de las nuevas funcionalidades cuánticas y evolutivas implementadas, garantizando su correcto funcionamiento y rendimiento óptimo.                                                                                     | Pruebas y Validación                        | Alta          | Pendiente    |
+
+
+
+| **FR209**  | Funcional    | Establecer mecanismos de monitoreo y retroalimentación continua para identificar oportunidades de mejora y optimizar los procesos y herramientas del GQP.                                                                                                       | Monitoreo y Optimización                    | Media         | Pendiente    |
+
+
+
+| **FR210**  | Funcional    | Promover la innovación abierta y la colaboración con instituciones académicas y de investigación para potenciar el desarrollo de tecnologías avanzadas en el GQP.                                                                                                | Colaboración Externa                        | Media         | Pendiente    |                                                                                                                                                                                          | **...**                                     | **...**       | **...**      |
+
+
+
+| **FR211**  | Funcional    | Desarrollar un módulo de integración con herramientas de análisis estadístico para realizar estudios avanzados sobre los datos recopilados por el GQP. (Tecnologías Utilizadas: R, SAS, SPSS)                                                              | Gestión de Datos y Analítica                | Media         | Pendiente    |
+
+
+
+| **FR212**  | Funcional    | Proveer una funcionalidad de personalización de la interfaz de usuario, permitiendo a los usuarios ajustar la disposición y contenido de sus dashboards. (Tecnologías Utilizadas: Custom UI Frameworks, User Preferences Storage)                                 | Usabilidad                                  | Media         | Pendiente    |
+
+
+
+| **FR213**  | Funcional    | Implementar un sistema de gestión de feedback que permita a los usuarios proporcionar retroalimentación directamente desde la interfaz del GQP. (Tecnologías Utilizadas: Feedback Tools, Surveys)                                                              | Usabilidad                                  | Media         | Pendiente    |
+
+
+
+| **FR214**  | Funcional    | Desarrollar un módulo de análisis de desempeño que evalúe la eficiencia y eficacia de las operaciones del GQP. (Tecnologías Utilizadas: Performance Analytics Tools)                                                                                           | Gestión de Datos y Analítica                | Media         | Pendiente    |
+
+
+
+| **FR215**  | Funcional    | Integrar un sistema de gestión de licencias que rastree y gestione las licencias de software utilizadas en el GQP. (Tecnologías Utilizadas: License Management Software)                                                                                           | Gestión de Proyectos                        | Media         | Pendiente    |
+
+
+
+| **FR216**  | Funcional    | Proveer una funcionalidad de gestión de configuraciones que permita a los usuarios definir, almacenar y gestionar configuraciones personalizadas del GQP. (Tecnologías Utilizadas: Configuration Management Tools)                                                  | Gestión de Configuración                    | Alta          | Pendiente    |
+
+
+
+| **FR217**  | Funcional    | Implementar un módulo de análisis de sostenibilidad que evalúe el impacto ambiental de las operaciones gestionadas por el GQP. (Tecnologías Utilizadas: Sustainability Analysis Tools)                                                                             | Soporte para Sostenibilidad                 | Media         | Pendiente    |
+
+
+
+| **FR218**  | Funcional    | Desarrollar una funcionalidad de gestión de proyectos ágiles que permita planificar, ejecutar y monitorear proyectos utilizando metodologías ágiles. (Tecnologías Utilizadas: Agile Project Management Tools, Kanban Boards)                                         | Gestión de Proyectos                        | Media         | Pendiente    |
+
+
+
+| **FR219**  | Funcional    | Proveer herramientas de visualización de datos geoespaciales para analizar información relacionada con ubicaciones geográficas. (Tecnologías Utilizadas: GIS Tools, GeoJSON)                                                                                     | Gestión de Datos y Analítica                | Media         | Pendiente    |
+
+
+
+| **FR220**  | Funcional    | Implementar un sistema de gestión de cambios que permita documentar, aprobar y rastrear cambios en las configuraciones del GQP. (Tecnologías Utilizadas: Change Management Software)                                                                                 | Gestión de Configuración                    | Alta          | Pendiente    |                                                                                                                                                                                          | **...**                                      | **...**       | **...**      |
+
+
+
+| **FR221**  | Funcional      | Implementar el marco conceptual **Bit → Bot → Neuronbit** para transicionar de datos cuánticos básicos a sistemas dinámicos evolucionados, enfatizando escalabilidad, dinamismo y mejoras modulares en el GQP.                                             | Arquitectura Evolutiva                        | Alta          | Pendiente    |
+
+
+
+| **FR222**  | Funcional      | Integrar algoritmos de mantenimiento predictivo cuántico del sistema **AMPEL** para reducir el tiempo de inactividad operativo mediante optimización cuántica avanzada y programación asistida por IA.                                                      | Mantenimiento Predictivo Cuántico             | Alta          | Pendiente    |
+
+
+
+| **FR223**  | Funcional      | Desarrollar herramientas de visualización avanzadas, como gráficos 3D y **Bioplot**, para presentar transformaciones de datos y estados cuánticos de manera interactiva y escalable.                                                                        | Visualización de Datos Avanzada               | Media         | Pendiente    |
+
+
+
+| **FR224**  | Funcional      | Incorporar integración de machine learning cuántico y tradicional para mejorar las tareas predictivas y análisis de datos en el GQP.                                                                                                                       | Aprendizaje Automático Cuántico               | Alta          | Pendiente    |
+
+
+
+| **FR225**  | Funcional      | Utilizar algoritmos cuánticos avanzados para la mitigación de decoherencia y corrección de errores en modelos predictivos, mejorando la precisión y fiabilidad de las predicciones.                                                                         | Optimización de Algoritmos Cuánticos          | Alta          | Pendiente    |
+
+
+
+| **FR226**  | Funcional      | Implementar funcionalidades de simulación cuántica para estudiar el impacto ambiental de configuraciones aeroespaciales propuestas y opciones de combustible, mejorando la sostenibilidad del proyecto.                                                    | Simulación y Sostenibilidad Cuántica          | Alta          | Pendiente    |
+
+
+
+| **FR227**  | Funcional      | Desarrollar métricas y dashboards impulsados por datos para monitorear el cumplimiento, rendimiento y progreso del proyecto en tiempo real.                                                                                                                | Monitoreo y Reportes                          | Media         | Pendiente    |
+
+
+
+| **FR228**  | No Funcional   | Garantizar medidas de seguridad como autenticación multifactor, estándares de encriptación y criptografía resistente a computación cuántica en todos los sistemas del GQP.                                                                                 | Seguridad Cibernética                         | Alta          | Pendiente    |
+
+
+
+| **FR229**  | Funcional      | Integrar blockchain para la gestión transparente de configuraciones y trazabilidad de auditorías, asegurando la integridad y seguridad de los datos.                                                                                                       | Blockchain y Trazabilidad                     | Media         | Pendiente    |
+
+
+
+| **FR230**  | Funcional      | Aprovechar algoritmos de optimización basados en computación cuántica para la gestión de la cadena de suministro y logística, mejorando la eficiencia en escenarios críticos.                                                                               | Optimización Cuántica de la Cadena de Suministro | Media         | Pendiente    |
+
+
+
+| **FR231**  | Funcional      | Incorporar características para desarrollo colaborativo con equipos interdisciplinarios, integrando herramientas como Jira, Confluence y Miro en el GQP.                                                                                                    | Herramientas de Colaboración                  | Alta          | Pendiente    |
+
+
+
+| **FR232**  | No Funcional   | Asegurar la escalabilidad y modularidad de la arquitectura del GQP para acomodar futuras actualizaciones e integraciones sin inconvenientes.                                                                                                               | Diseño del Sistema                            | Alta          | Pendiente    |
+
+
+
+| **FR233**  | Funcional      | Proporcionar soporte multilingüe y características de accesibilidad en la interfaz de usuario del GQP para equipos diversos a nivel global.                                                                                                                 | Experiencia de Usuario                        | Media         | Pendiente    |
+
+
+
+| **FR234**  | Funcional      | Implementar gemelos digitales para simular escenarios, incluyendo consumo de combustible y condiciones ambientales, mejorando la eficiencia y reduciendo emisiones.                                                                                        | Tecnología de Gemelos Digitales               | Alta          | Pendiente    |
+
+
+
+| **FR235**  | Funcional      | Desarrollar APIs para una integración fluida con herramientas de ingeniería y operacionales de terceros, garantizando la interoperabilidad del GQP.                                                                                                        | Interoperabilidad                             | Media         | Pendiente    |
+
+
+
+| **FR236**  | Funcional      | Incorporar módulos de entrenamiento asistido por IA para capacitación y mejora continua de los equipos de ingeniería y computación cuántica.                                                                                                               | Formación y Desarrollo                        | Media         | Pendiente    |
+
+
+
+| **FR237**  | Funcional      | Utilizar el marco evolutivo **Bit → Bot → Neuronbit** para optimización dinámica y toma de decisiones basadas en conocimiento dentro del GQP.                                                                                                              | Marcos Evolutivos                             | Alta          | Pendiente    |
+
+
+
+| **FR238**  | Funcional      | Desarrollar algoritmos predictivos mejorados por computación cuántica para la gestión de riesgos en la cadena de suministro en escenarios de alto riesgo.                                                                                                   | Analítica Predictiva                           | Alta          | Pendiente    |
+
+
+
+| **FR239**  | Funcional      | Asegurar que las herramientas de visualización de datos cuánticos cumplan con estándares de representación gráfica a nivel de investigación para conjuntos de datos complejos.                                                                             | Estándares de Visualización de Datos          | Media         | Pendiente    |
+
+
+
+| **FR240**  | No Funcional   | Garantizar el cumplimiento con estándares internacionales como GDPR, ISO 27001 y regulaciones de EASA en todos los aspectos del GQP.                                                                                                                       | Cumplimiento Normativo                         | Alta          | Pendiente    |
+
+
+
+| **FR241**  | Funcional      | Implementar medidas de ciberseguridad robustas, incluyendo criptografía cuántica segura, para proteger los datos y comunicaciones del GQP.                                                                                                                | Ciberseguridad                                 | Alta          | Pendiente    |
+
+
+
+| **FR242**  | Funcional      | Incorporar funciones de análisis de impacto ambiental y métricas de sostenibilidad en todas las etapas del ciclo de vida del avión gestionadas por el GQP.                                                                                                 | Sostenibilidad                                 | Media         | Pendiente    |
+
+
+
+| **FR243**  | Funcional      | Desarrollar modelos de aprendizaje automático que se mejoren continuamente basados en datos operativos en tiempo real, permitiendo una adaptación rápida a cambios en el entorno.                                                                          | Aprendizaje Automático Continuo                | Media         | Pendiente    |
+
+
+
+| **FR244**  | Funcional      | Implementar algoritmos de optimización cuántica para mejorar la eficiencia en rutas de vuelo y consumo de combustible, reduciendo costos operativos y emisiones.                                                                                           | Optimización de Operaciones                    | Alta          | Pendiente    |
+
+
+
+| **FR245**  | Funcional      | Integrar herramientas de realidad aumentada y virtual para mejorar la formación, mantenimiento y operaciones, proporcionando experiencias inmersivas a los usuarios.                                                                                       | Tecnologías Inmersivas                         | Media         | Pendiente    |                                                                                                                                                                                                             
+
+
+
+| **FR246**  | Funcional       | Desarrollar un módulo de simulación híbrida que combine cálculos clásicos y cuánticos para modelar el impacto de tecnologías emergentes en la industria aeroespacial.                                                                 | Simulación Híbrida                          | Alta          | Pendiente    |
+
+
+
+| **FR247**  | Funcional       | Implementar técnicas avanzadas de federated learning para distribuir el entrenamiento de modelos en múltiples nodos sin comprometer la privacidad de los datos.                                                                       | Aprendizaje Federado                        | Media         | Pendiente    |
+
+
+
+| **FR248**  | Funcional       | Incorporar un módulo de toma de decisiones asistido por IA que optimice la selección de proveedores, materiales y configuraciones basándose en factores económicos, sostenibles y logísticos.                                         | Toma de Decisiones Estratégicas             | Alta          | Pendiente    |
+
+
+
+| **FR249**  | Funcional       | Proveer funcionalidades de simulación socioeconómica para evaluar el impacto de las configuraciones en las comunidades locales y las economías globales.                                                                             | Simulación Socioeconómica                   | Media         | Pendiente    |
+
+
+
+| **FR250**  | Funcional       | Desarrollar un ecosistema de gemelos digitales para replicar sistemas operativos completos, integrando datos en tiempo real desde dispositivos IoT y sensores avanzados.                                                              | Tecnología de Gemelos Digitales             | Alta          | Pendiente    |
+
+
+
+| **FR251**  | Funcional       | Implementar herramientas avanzadas de gestión del conocimiento para capturar, almacenar y diseminar mejores prácticas, aprendizajes clave y desarrollos innovadores.                                                                  | Gestión del Conocimiento                    | Alta          | Pendiente    |
+
+
+
+| **FR252**  | Funcional       | Incorporar simulaciones de impacto global de regulaciones ambientales y políticas internacionales en el diseño y operación de aeronaves.                                                                                             | Regulaciones Ambientales                    | Media         | Pendiente    |
+
+
+
+| **FR253**  | Funcional       | Crear un marco de evaluación ética que considere los posibles impactos sociales y éticos de las innovaciones tecnológicas introducidas por el GQP.                                                                                   | Evaluación Ética                            | Alta          | Pendiente    |
+
+
+
+| **FR254**  | Funcional       | Desarrollar interfaces de usuario basadas en voz y gestos para facilitar la interacción en entornos inmersivos como realidad aumentada y virtual.                                                                                     | Tecnologías Inmersivas                      | Media         | Pendiente    |
+
+
+
+| **FR255**  | Funcional       | Integrar un módulo de optimización energética que evalúe configuraciones para maximizar el uso de energías renovables en todas las fases del ciclo de vida del avión.                                                                 | Optimización Energética                     | Alta          | Pendiente    |
+
+
+
+| **FR256**  | Funcional       | Proveer soporte para la integración de datos provenientes de nuevas tecnologías, como redes 6G e inteligencia perimetral, para mantener al GQP actualizado con los avances tecnológicos.                                               | Interoperabilidad Tecnológica               | Alta          | Pendiente    |
+
+
+
+| **FR257**  | Funcional       | Implementar un sistema de auditoría cuántico para garantizar la transparencia y seguridad en todas las operaciones del GQP, utilizando registros inmutables y verificables.                                                            | Seguridad Cuántica                          | Alta          | Pendiente    |
+
+
+
+| **FR258**  | Funcional       | Incorporar simulaciones de movilidad urbana e intermodalidad para evaluar el impacto de los diseños en las cadenas logísticas y el transporte sostenible.                                                                              | Simulación de Movilidad                     | Media         | Pendiente    |
+
+
+
+| **FR259**  | Funcional       | Desarrollar algoritmos de predicción basados en aprendizaje profundo para anticipar tendencias de mercado y adaptarse proactivamente a las necesidades de los clientes.                                                               | Inteligencia de Mercado                     | Alta          | Pendiente    |
+
+
+
+| **FR260**  | Funcional       | Proveer capacidades de simulación colaborativa multijugador en tiempo real para diseñadores, ingenieros y analistas de datos, mejorando la toma de decisiones en equipo.                                                              | Simulación Colaborativa                     | Media         | Pendiente    |
+
+
+
+| **FR261**  | Funcional       | Desarrollar un entorno de experimentación virtual para evaluar configuraciones disruptivas, permitiendo iteraciones rápidas y pruebas de viabilidad tecnológica antes de implementaciones físicas.                                     | Innovación Disruptiva                       | Alta          | Pendiente    |
+
+
+
+| **FR262**  | Funcional       | Implementar un sistema de aprendizaje adaptativo que ajuste dinámicamente los recursos y herramientas del GQP según las habilidades y necesidades del usuario.                                                                         | Aprendizaje Personalizado                   | Media         | Pendiente    |
+
+
+
+| **FR263**  | Funcional       | Crear un módulo de planificación de escenarios futuros que integre datos históricos, modelos predictivos y simulaciones cuánticas para proyectar resultados a largo plazo en la industria aeroespacial.                                 | Planificación Estratégica                   | Alta          | Pendiente    |
+
+
+
+| **FR264**  | Funcional       | Asegurar el cumplimiento continuo con estándares emergentes en ciberseguridad y sostenibilidad mediante la integración de sistemas de monitoreo y actualización automatizada.                                                          | Cumplimiento Dinámico                       | Alta          | Pendiente    |
+
+
+
+| **FR265**  | Funcional       | Incorporar un sistema de incentivos gamificado para promover la participación activa y la innovación dentro de la comunidad del GQP.                                                                                                  | Gamificación                                | Media         | Pendiente    | 
+
+
+
+
+
+
+
+### HTML Completo con Más Filas Añadidas
+
+
+
+
+
+
+
+```html
+
+
+
+<!DOCTYPE html>
+
+
+
+<html lang="es">
+
+
+
+<head>
+
+
+
+    <meta charset="UTF-8"/>
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+
+    <title>GAIA QUANTUM PORTAL (GQP) - Hub de Referencia IA Aeroespacial</title>
+
+
+
+    <style>
+
+
+
+        body {
+
+
+
+            font-family: Arial, sans-serif;
+
+
+
+            margin: 2rem;
+
+
+
+            background: #f9f9f9;
+
+
+
+        }
+
+
+
+        h1, h2, h3, h4 {
+
+
+
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+
+
+            color: #333;
+
+
+
+        }
+
+
+
+        h1 {
+
+
+
+            border-bottom: 2px solid #333;
+
+
+
+            padding-bottom: 0.5rem;
+
+
+
+        }
+
+
+
+        nav {
+
+
+
+            background: #333;
+
+
+
+            padding: 1rem;
+
+
+
+            margin-bottom: 2rem;
+
+
+
+        }
+
+
+
+        nav a {
+
+
+
+            color: #fff;
+
+
+
+            margin-right: 1.5rem;
+
+
+
+            text-decoration: none;
+
+
+
+            font-weight: bold;
+
+
+
+        }
+
+
+
+        nav a:hover {
+
+
+
+            text-decoration: underline;
+
+
+
+        }
+
+
+
+        section {
+
+
+
+            margin-bottom: 2rem;
+
+
+
+        }
+
+
+
+        .note {
+
+
+
+            font-style: italic;
+
+
+
+            color: #555;
+
+
+
+        }
+
+
+
+        table {
+
+
+
+            width: 100%;
+
+
+
+            border-collapse: collapse;
+
+
+
+            background: #fff;
+
+
+
+            margin-bottom: 2rem;
+
+
+
+        }
+
+
+
+        th, td {
+
+
+
+            text-align: left;
+
+
+
+            padding: 0.75rem;
+
+
+
+            border-bottom: 1px solid #ccc;
+
+
+
+            vertical-align: top;
+
+
+
+        }
+
+
+
+        th {
+
+
+
+            background: #eee;
+
+
+
+            font-weight: bold;
+
+
+
+        }
+
+
+
+        tr:hover {
+
+
+
+            background: #f1f1f1;
+
+
+
+        }
+
+
+
+        .category {
+
+
+
+            font-style: italic;
+
+
+
+            color: #555;
+
+
+
+        }
+
+
+
+        .priority-high {
+
+
+
+            font-weight: bold;
+
+
+
+            color: #d00;
+
+
+
+        }
+
+
+
+        .priority-medium {
+
+
+
+            font-weight: bold;
+
+
+
+            color: #c90;
+
+
+
+        }
+
+
+
+        .priority-low {
+
+
+
+            font-weight: normal;
+
+
+
+            color: #090;
+
+
+
+        }
+
+
+
+        .status-pendiente {
+
+
+
+            color: #d00;
+
+
+
+            font-weight: bold;
+
+
+
+        }
+
+
+
+        .assistant-container {
+
+
+
+            position: fixed;
+
+
+
+            top: 20%;
+
+
+
+            right: 2%;
+
+
+
+            background: #fff;
+
+
+
+            border: 2px solid #ccc;
+
+
+
+            padding: 1rem;
+
+
+
+            width: 250px;
+
+
+
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+
+
+        }
+
+
+
+        .assistant-container h3 {
+
+
+
+            margin-top:0;
+
+
+
+        }
+
+
+
+        .assistant-container p {
+
+
+
+            font-size: 0.9rem;
+
+
+
+        }
+
+
+
+        .assistant-input {
+
+
+
+            margin-top:0.5rem;
+
+
+
+        }
+
+
+
+        .assistant-input input[type="text"] {
+
+
+
+            width: 100%;
+
+
+
+            padding: 0.5rem;
+
+
+
+            box-sizing: border-box;
+
+
+
+            font-size:0.9rem;
+
+
+
+        }
+
+
+
+        .assistant-input button {
+
+
+
+            margin-top:0.5rem;
+
+
+
+            padding: 0.5rem;
+
+
+
+            font-size:0.9rem;
+
+
+
+            background: #333;
+
+
+
+            color: #fff;
+
+
+
+            border: none;
+
+
+
+            cursor: pointer;
+
+
+
+        }
+
+
+
+        .assistant-input button:hover {
+
+
+
+            background: #555;
+
+
+
+        }
+
+
+
+    </style>
+
+
+
+    <!-- DataTables CSS -->
+
+
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.css">
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+
+
+
+
+    <!-- Menú de navegación conceptual -->
+
+
+
+    <nav>
+
+
+
+        <a href="#ecosistema">Ecosistema Modular</a>
+
+
+
+        <a href="#ia">IA Aeroespacial</a>
+
+
+
+        <a href="#plm">PLM</a>
+
+
+
+        <a href="#cad">CAD</a>
+
+
+
+        <a href="#icsdb">I-CSDB</a>
+
+
+
+        <a href="#techrequest">TechRequest</a>
+
+
+
+        <a href="#datahub">Data Hub</a>
+
+
+
+        <a href="#inventarios">Inventarios IoT</a>
+
+
+
+        <a href="#rutas">Optimización Rutas</a>
+
+
+
+        <a href="#mantenimiento">Mantenimiento Predictivo</a>
+
+
+
+        <a href="#material">Simulador Material</a>
+
+
+
+        <a href="#sostenibilidad">Sostenibilidad</a>
+
+
+
+        <a href="#chatquantum">ChatQuantum</a>
+
+
+
+    </nav>
+
+
+
+
+
+
+
+    <h1>GAIA QUANTUM PORTAL (GQP) - Hub IA Aeroespacial 360°</h1>
+
+
+
+    <p><strong>Fecha:</strong> [Insertar Fecha]<br>
+
+
+
+    <strong>Preparado por:</strong> Amedeo Pelliccia (Robbbo-T)<br>
+
+
+
+    <span class="note">El GQP actúa como hub de referencia para todas las IA relacionadas con el sector aeronáutico y su entorno industrial, siendo indispensable para aerolíneas y constructores actuales y futuros. Siguiendo la filosofía AMPEL SD, la modularidad, adaptabilidad, eficiencia ecológica y "lungimiranza" son centrales para ofrecer un entorno escalable, personalizable y programable a cualquier nivel del ecosistema aeroespacial.</span></p>
+
+
+
+
+
+
+
+    <section id="ecosistema">
+
+
+
+        <h2>Ecosistema Modular y Adaptable</h2>
+
+
+
+        <p>El GQP es un ecosistema digital 360° totalmente en la nube, diseñado para ajustarse a diferentes perfiles de usuarios: ingenieros, operadores, analistas, gerentes de proyecto, responsables de sostenibilidad y más. Cada perfil puede configurar módulos, vistas, paneles y herramientas según sus necesidades, soportando la metodología AMPEL SD, que enfatiza la modularidad, escalabilidad y adaptabilidad modelica.</p>
+
+
+
+        <p>La estructura personalizada se logra mediante APIs abiertas, microservicios y una arquitectura orientada a composabilidad, permitiendo que cada aerolínea o fabricante de aeronaves adopte, modifique e integre los módulos IA del GQP en su propia infraestructura o flujos de trabajo en la nube.</p>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <section id="ia">
+
+
+
+        <h2>IA Aeroespacial e Industrial</h2>
+
+
+
+        <p>GQP integra IA cuántica, machine learning, deep learning y algoritmos híbridos para optimizar rutas, mantenimiento, diseño, selección de materiales, gestión de inventarios y más. Esta IA evoluciona con datos en tiempo real, aprendizaje continuo y CI/CD, adaptándose a nuevas condiciones, normativas, tecnologías emergentes y exigencias del mercado.</p>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <section id="plm">
+
+
+
+        <h2>PLM (Gestión del Ciclo de Vida del Producto)</h2>
+
+
+
+        <p>Gestión integral del ciclo de vida del avión, desde el diseño conceptual hasta el retiro, incluyendo mantenimiento, actualizaciones y mejoras continuas. Cumple ATA 100, ABD0036, y aprovecha la modularidad y "lungimiranza" para anticipar futuras necesidades.</p>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <section id="cad">
+
+
+
+        <h2>CAD</h2>
+
+
+
+        <p>Herramientas CAD 3D en la nube, integradas con gemelos digitales, FEM, simulaciones cuánticas, co-diseño remoto y configuraciones ajustadas por IA para optimizar el diseño aeronáutico.</p>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <section id="icsdb">
+
+
+
+        <h2>I-CSDB</h2>
+
+
+
+        <p>Base de datos central inteligente, integrando configuraciones, datos estructurales y operativos. La modularidad AMPEL SD permite incorporar fácilmente nuevos tipos de datos, soportar múltiples estándares y mantener coherencia a largo plazo.</p>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <section id="techrequest">
+
+
+
+        <h2>TechRequest</h2>
+
+
+
+        <p>Herramienta para solicitar información, datos y análisis técnicos, gestionada en la nube, escalable y segura. Ajustable por perfil y compatible con workflows CI/CD.</p>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <section id="datahub">
+
+
+
+        <h2>Data Hub</h2>
+
+
+
+        <p>Almacenamiento y gestión centralizada de datos de sensores, vuelos, materiales, inventarios y más. Esta “memoria” en la nube aprovecha Big Data y ML para extraer valor, alimentar IA y proporcionar insights a todos los módulos.</p>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <section id="inventarios">
+
+
+
+        <h2>Inventarios IoT</h2>
+
+
+
+        <p>Monitoreo global de piezas, materiales, recambios y suministros en tiempo real. IA recomienda estrategias de abastecimiento, reduce costes y asegura calidad, aplicando modularidad y escalabilidad para adaptarse a cualquier tamaño de flota o complejidad operativa.</p>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <section id="rutas">
+
+
+
+        <h2>Optimización de Rutas y Rastreadores</h2>
+
+
+
+        <p>Un servicio IA cuántica optimiza rutas en tiempo real según clima, tráfico, consumo energético. Dashboards personalizados muestran KPIs de eficiencia, puntualidad, seguridad, y permiten a aerolíneas presentes y futuras mejorar continuamente sus operaciones.</p>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <section id="mantenimiento">
+
+
+
+        <h2>Mantenimiento Predictivo</h2>
+
+
+
+        <p>Un motor analítico convierte datos de sensores, historiales y contexto en planes de mantenimiento inteligentes, emitiendo recomendaciones preventivas. Esto reduce tiempos de inactividad, costes y asegura la longevidad de la aeronave, conforme a la filosofía AMPEL SD y el énfasis en eficiencia ecológica.</p>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <section id="material">
+
+
+
+        <h2>Simulador de Materiales</h2>
+
+
+
+        <p>Herramienta IA para simular diferentes materiales, su desempeño bajo condiciones extremas, fatiga, vibraciones y cambios climáticos. Permite a constructores de aeronaves actuales y futuros seleccionar materiales óptimos, minimizando el impacto ambiental y maximizando la durabilidad.</p>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <section id="sostenibilidad">
+
+
+
+        <h2>Sostenibilidad y Lungimiranza</h2>
+
+
+
+        <p>El GQP integra análisis LCA, optimización energética y reducción de emisiones. Su "lungimiranza" y eficiencia ecológica garantizan una plataforma adaptable a las normativas ambientales cambiantes y a la adopción de nuevas tecnologías verdes. Cada módulo se puede reconfigurar para alinear con metas ambientales y comerciales a largo plazo.</p>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <section>
+
+
+
+        <h2>Requisitos del GQP</h2>
+
+
+
+        <p>A continuación se muestra una tabla parcial de requisitos. Todos personalizables, escalables y gestionados con CI/CD en la nube. Insertar FR1 a FR265 según corresponda.</p>
+
+
+
+        
+
+
+
+        <table id="requirementsTable">
+
+
+
+            <thead>
+
+
+
+                <tr>
+
+
+
+                    <th>ID</th>
+
+
+
+                    <th>Tipo</th>
+
+
+
+                    <th>Descripción</th>
+
+
+
+                    <th>Categoría</th>
+
+
+
+                    <th>Prioridad</th>
+
+
+
+                    <th>Estado</th>
+
+
+
+                </tr>
+
+
+
+            </thead>
+
+
+
+            <tbody>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>Intro</strong></td>
+
+
+
+                    <td>Descripción</td>
+
+
+
+                    <td>Esta tabla recoge requisitos del GQP, base modular indispensable para aerolíneas y constructores, integrando IA, datos y herramientas. Cada FR es adaptable a perfiles y necesidades futuras.</td>
+
+
+
+                    <td class="category">General</td>
+
+
+
+                    <td>N/A</td>
+
+
+
+                    <td>N/A</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR1</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Centralizar datos del ciclo de vida del avión, haciendo el GQP indispensable y escalable para cualquier aerolínea presente o futura.</td>
+
+
+
+                    <td class="category">Gestión del Ciclo de Vida (PLM)</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR2</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Integrar herramientas de modelado CAD 3D como Siemens NX, CATIA o Fusion 360.</td>
+
+
+
+                    <td class="category">Gestión del Ciclo de Vida (PLM)</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR3</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Gestionar documentación técnica siguiendo estándares S1000D y ATA.</td>
+
+
+
+                    <td class="category">Gestión del Ciclo de Vida (PLM)</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR4</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Implementar versionado y trazabilidad utilizando sistemas como Git o soluciones PLM específicas.</td>
+
+
+
+                    <td class="category">Gestión del Ciclo de Vida (PLM)</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR5</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Integrar simuladores predictivos como ANSYS o Simulink para análisis estructurales y aerodinámicos.</td>
+
+
+
+                    <td class="category">Simulación y Modelado Avanzado</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR6</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Incorporar módulos de IA (ChatQuantum) para optimizar diseños en tiempo real.</td>
+
+
+
+                    <td class="category">Simulación y Modelado Avanzado</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR7</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Permitir la simulación de escenarios complejos, incluyendo consumo de hidrógeno, rutas óptimas y fallos críticos.</td>
+
+
+
+                    <td class="category">Simulación y Modelado Avanzado</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR8</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Recolectar y procesar datos de todas las fases del proyecto utilizando plataformas de Big Data como Hadoop o Spark.</td>
+
+
+
+                    <td class="category">Gestión de Datos y Analítica</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR9</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Crear dashboards personalizados utilizando herramientas como Tableau, Power BI o Grafana.</td>
+
+
+
+                    <td class="category">Gestión de Datos y Analítica</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR10</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Implementar análisis en tiempo real con tecnologías como Kafka o AWS Kinesis.</td>
+
+
+
+                    <td class="category">Gestión de Datos y Analítica</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <!-- Agrega aquí más filas siguiendo el mismo patrón -->
+
+
+
+                <!-- Ejemplo de requisitos adicionales -->
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR11</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Proporcionar espacios digitales compartidos mediante plataformas como Microsoft Teams, Slack o Jira.</td>
+
+
+
+                    <td class="category">Colaboración Interdisciplinaria</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR12</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Mantener un repositorio centralizado para asegurar una única fuente de verdad (por ejemplo, Confluence).</td>
+
+
+
+                    <td class="category">Colaboración Interdisciplinaria</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR13</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Proveer manuales interactivos accesibles desde dispositivos móviles y web.</td>
+
+
+
+                    <td class="category">Soporte de Operaciones y Mantenimiento</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR14</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Integrar realidad aumentada (AR) para asistencia técnica en campo utilizando dispositivos como Microsoft HoloLens.</td>
+
+
+
+                    <td class="category">Soporte de Operaciones y Mantenimiento</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR15</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Monitorear la salud del avión en tiempo real mediante sistemas IoT.</td>
+
+
+
+                    <td class="category">Soporte de Operaciones y Mantenimiento</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR16</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Diseñar el GQP con una arquitectura de microservicios que permita la incorporación de nuevas funcionalidades sin afectar el sistema completo.</td>
+
+
+
+                    <td class="category">Evolución Modular</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR17</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Asegurar APIs abiertas para facilitar la integración con nuevas herramientas y tecnologías.</td>
+
+
+
+                    <td class="category">Evolución Modular</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR18</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Implementar gemelos digitales que reflejen los modelos físicos y conceptuales de GAIA AIR.</td>
+
+
+
+                    <td class="category">Modelos Digitales en Tiempo Real</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR19</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Sincronizar continuamente con herramientas CAD mediante APIs como Autodesk Forge o Siemens API.</td>
+
+
+
+                    <td class="category">Modelos Digitales en Tiempo Real</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR20</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Facilitar la colaboración en tiempo real mediante co-diseño y revisión simultánea.</td>
+
+
+
+                    <td class="category">Modelos Digitales en Tiempo Real</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <!-- Continúa agregando FR21 a FR50 aquí siguiendo el mismo patrón -->
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR21</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Ejecutar simulaciones dinámicas en tiempo real sobre los modelos digitales.</td>
+
+
+
+                    <td class="category">Modelos Digitales en Tiempo Real</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR22</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Utilizar algoritmos de ML para optimización continua de los modelos digitales.</td>
+
+
+
+                    <td class="category">Modelos Digitales en Tiempo Real</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR23</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Integrar un entorno de diseño y cálculo FEM que permita a los usuarios crear, modificar y analizar modelos de elementos finitos directamente dentro del GQP.</td>
+
+
+
+                    <td class="category">Entorno de Diseño y Cálculo FEM</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR24</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Soportar la importación y exportación de modelos FEM desde y hacia herramientas CAD compatibles (e.g., Siemens NX, CATIA, Fusion 360).</td>
+
+
+
+                    <td class="category">Entorno de Diseño y Cálculo FEM</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR25</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Proporcionar una interfaz gráfica intuitiva para la creación y edición de mallas de elementos finitos, permitiendo ajustes automáticos y manuales.</td>
+
+
+
+                    <td class="category">Entorno de Diseño y Cálculo FEM</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR26</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Ejecutar simulaciones FEM de manera eficiente, aprovechando la infraestructura en la nube para distribuir la carga de cálculo.</td>
+
+
+
+                    <td class="category">Entorno de Diseño y Cálculo FEM</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR27</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Integrar capacidades de análisis de resultados FEM, incluyendo visualización de tensiones, deformaciones y modos de vibración.</td>
+
+
+
+                    <td class="category">Entorno de Diseño y Cálculo FEM</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR28</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Permitir la automatización de ciclos de diseño iterativos mediante scripts y macros, facilitando la optimización basada en resultados de simulaciones FEM.</td>
+
+
+
+                    <td class="category">Entorno de Diseño y Cálculo FEM</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR29</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Incorporar módulos de validación y verificación para comparar resultados FEM con datos experimentales o estándares de la industria.</td>
+
+
+
+                    <td class="category">Entorno de Diseño y Cálculo FEM</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR30</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Facilitar la colaboración en tiempo real en proyectos FEM, permitiendo que múltiples usuarios trabajen simultáneamente en el mismo modelo y compartan resultados instantáneamente.</td>
+
+
+
+                    <td class="category">Entorno de Diseño y Cálculo FEM</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR31</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Integrar el entorno FEM con el módulo de Simulación y Modelado Avanzado, permitiendo el intercambio fluido de datos y resultados.</td>
+
+
+
+                    <td class="category">Modelos Digitales en Tiempo Real</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR32</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Integrar los resultados de análisis FEM con los gemelos digitales, actualizando automáticamente las propiedades estructurales en tiempo real.</td>
+
+
+
+                    <td class="category">Modelos Digitales en Tiempo Real</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR33</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Integrar el ICSDB para centralizar todas las configuraciones y datos de sistema relacionados con GAIA AIR.</td>
+
+
+
+                    <td class="category">Integración con ICSDB</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR34</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>El ICSDB debe soportar la gestión de versiones de configuraciones, permitiendo el seguimiento de cambios y la restauración de versiones anteriores.</td>
+
+
+
+                    <td class="category">Integración con ICSDB</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR35</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Implementar funcionalidades de control de cambios que automaticen la actualización de configuraciones en el ICSDB tras modificaciones en los modelos digitales o módulos CA-SPARE.</td>
+
+
+
+                    <td class="category">Integración con ICSDB</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR36</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Permitir la búsqueda y recuperación eficiente de configuraciones y datos de sistema a través de interfaces intuitivas y APIs.</td>
+
+
+
+                    <td class="category">Integración con ICSDB</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR37</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Integrar el ICSDB con el entorno de diseño y cálculo FEM, asegurando que las configuraciones estructurales y de simulación se gestionen adecuadamente.</td>
+
+
+
+                    <td class="category">Integración con ICSDB</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR38</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Facilitar la sincronización de datos entre el ICSDB y los gemelos digitales, asegurando que cualquier cambio en las configuraciones se refleje automáticamente en los modelos digitales.</td>
+
+
+
+                    <td class="category">Integración con ICSDB</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR39</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Proveer interfaces para la importación y exportación de datos de configuraciones desde y hacia sistemas externos, utilizando estándares como XML, JSON o formatos específicos de la industria aeroespacial.</td>
+
+
+
+                    <td class="category">Integración con ICSDB</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR40</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Implementar mecanismos de auditoría y registro dentro del ICSDB para rastrear todas las modificaciones realizadas, incluyendo el usuario, la fecha y la descripción del cambio.</td>
+
+
+
+                    <td class="category">Integración con ICSDB</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR41</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>El ICSDB debe estar integrado con los módulos de PLM, Simulación y Modelado Avanzado, Gestión de Datos y Analítica, y Soporte de Operaciones y Mantenimiento, permitiendo un flujo de datos coherente y centralizado.</td>
+
+
+
+                    <td class="category">Integración con ICSDB</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR42</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Facilitar la integración del ICSDB con las APIs abiertas del GQP, permitiendo que nuevas herramientas y módulos accedan y actualicen configuraciones de manera automatizada y segura.</td>
+
+
+
+                    <td class="category">Integración con ICSDB</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR43</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Integrar la ICentralSourceDB como el repositorio principal para todos los datos estructurales, operativos, de mantenimiento y de configuración relacionados con GAIA AIR.</td>
+
+
+
+                    <td class="category">Base de Datos Centralizada Inteligente</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR44</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>La ICentralSourceDB debe soportar la ingestión de datos en tiempo real desde múltiples fuentes, incluyendo sensores IoT, sistemas de simulación FEM, gemelos digitales y módulos CA-SPARE.</td>
+
+
+
+                    <td class="category">Base de Datos Centralizada Inteligente</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR45</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Implementar capacidades de Machine Learning e Inteligencia Artificial dentro de la ICentralSourceDB para analizar datos, identificar patrones y proporcionar insights predictivos y prescriptivos.</td>
+
+
+
+                    <td class="category">Base de Datos Centralizada Inteligente</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR46</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Proveer funcionalidades de data mining y análisis avanzado que permitan a los usuarios extraer información valiosa y tomar decisiones informadas basadas en datos históricos y en tiempo real.</td>
+
+
+
+                    <td class="category">Base de Datos Centralizada Inteligente</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR47</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Facilitar la integración de datos semiestructurados y no estructurados, asegurando que toda la información relevante se almacene y gestione de manera coherente y accesible.</td>
+
+
+
+                    <td class="category">Base de Datos Centralizada Inteligente</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR48</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Implementar un motor de recomendaciones que utilice algoritmos de IA para sugerir optimizaciones en diseño, mantenimiento y operaciones basadas en los datos almacenados.</td>
+
+
+
+                    <td class="category">Base de Datos Centralizada Inteligente</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR49</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Permitir la visualización interactiva de datos a través de dashboards avanzados, integrando herramientas de BI como Tableau, Power BI o Grafana.</td>
+
+
+
+                    <td class="category">Base de Datos Centralizada Inteligente</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR50</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Asegurar la integridad y consistencia de los datos mediante mecanismos de validación automática y redundancia de datos.</td>
+
+
+
+                    <td class="category">Base de Datos Centralizada Inteligente</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <!-- Continúa agregando FR51 a FR50 siguiendo el mismo patrón -->
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR51</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>La ICentralSourceDB debe estar integrada con los módulos de PLM, Simulación y Modelado Avanzado, Entorno de Diseño y Cálculo FEM, ICSDB, y Soporte de Operaciones y Mantenimiento, permitiendo un flujo de datos coherente y centralizado.</td>
+
+
+
+                    <td class="category">Base de Datos Centralizada Inteligente</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR52</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Facilitar la integración de la IA y ML con otros módulos del GQP, permitiendo que los modelos predictivos y prescriptivos se apliquen automáticamente a los procesos de diseño, producción y mantenimiento.</td>
+
+
+
+                    <td class="category">Base de Datos Centralizada Inteligente</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR53</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Implementar un sistema de alertas para notificar a los usuarios sobre actualizaciones críticas en los modelos digitales.</td>
+
+
+
+                    <td class="category">Gestión de Datos y Analítica</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR54</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Integrar una función de búsqueda avanzada que permita filtrar configuraciones por múltiples parámetros.</td>
+
+
+
+                    <td class="category">Base de Datos Centralizada Inteligente</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR55</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Proveer una API para exportar datos de simulaciones FEM a formatos compatibles con herramientas de reporte.</td>
+
+
+
+                    <td class="category">Entorno de Diseño y Cálculo FEM</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR56</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Desarrollar un módulo de capacitación interactiva para entrenar a los usuarios en el uso del GQP.</td>
+
+
+
+                    <td class="category">Usabilidad</td>
+
+
+
+                    <td class="priority-low">Baja</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR57</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Implementar un sistema de backup automático diario para la ICentralSourceDB.</td>
+
+
+
+                    <td class="category">Seguridad</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR58</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Permitir la integración con herramientas de control de versiones como GitLab para gestionar el código fuente del GQP.</td>
+
+
+
+                    <td class="category">Integración con ICSDB</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR59</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Desarrollar un módulo de reportes automáticos que genere informes periódicos sobre el estado del proyecto.</td>
+
+
+
+                    <td class="category">Gestión de Datos y Analítica</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR60</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Implementar un sistema de gestión de incidencias para registrar y seguir problemas reportados por los usuarios.</td>
+
+
+
+                    <td class="category">Colaboración Interdisciplinaria</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <!-- Continua agregando FR61 a FR50 aquí siguiendo el mismo patrón -->
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR61</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Integrar un módulo de gestión de tareas que permita asignar, seguir y priorizar tareas dentro del GQP.</td>
+
+
+
+                    <td class="category">Gestión de Proyectos</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR62</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Proveer soporte multilingüe para el GQP, permitiendo la utilización en diferentes idiomas según la región del usuario.</td>
+
+
+
+                    <td class="category">Usabilidad</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR63</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Implementar autenticación multifactor (MFA) para aumentar la seguridad de acceso al GQP.</td>
+
+
+
+                    <td class="category">Seguridad</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR64</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Desarrollar un módulo de notificaciones personalizadas que permita a los usuarios configurar alertas según sus preferencias.</td>
+
+
+
+                    <td class="category">Gestión de Datos y Analítica</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR65</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Integrar capacidades de exportación de datos a formatos estándar como CSV, PDF y Excel.</td>
+
+
+
+                    <td class="category">Gestión de Datos y Analítica</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR66</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Proveer un historial de cambios detallado para cada configuración almacenada en el GQP.</td>
+
+
+
+                    <td class="category">Gestión de Configuración</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR67</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Implementar un sistema de comentarios y anotaciones en los modelos digitales para facilitar la colaboración entre usuarios.</td>
+
+
+
+                    <td class="category">Colaboración Interdisciplinaria</td>
+
+
+
+                    <td class="priority-medium">Media</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR68</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Desarrollar un módulo de gestión de permisos que permita asignar diferentes niveles de acceso a los usuarios.</td>
+
+
+
+                    <td class="category">Seguridad</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR69</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Integrar herramientas de análisis predictivo para anticipar necesidades de mantenimiento basadas en datos históricos.</td>
+
+
+
+                    <td class="category">Gestión de Datos y Analítica</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <tr>
+
+
+
+                    <td><strong>FR70</strong></td>
+
+
+
+                    <td>Funcional</td>
+
+
+
+                    <td>Proveer un tablero de control centralizado que muestre métricas clave y KPIs del proyecto GQP.</td>
+
+
+
+                    <td class="category">Gestión de Datos y Analítica</td>
+
+
+
+                    <td class="priority-high">Alta</td>
+
+
+
+                    <td class="status-pendiente">Pendiente</td>
+
+
+
+                </tr>
+
+
+
+                <!-- Puedes seguir agregando las filas restantes FR71 a FR50 siguiendo este patrón -->
+
+
+
+            </tbody>
+
+
+
+        </table>
+
+
+
+    </section>
+
+
+
+
+
+
+
+    <!-- ChatQuantum Assistant -->
+
+
+
+    <div class="assistant-container" id="chatquantum">
+
+
+
+        <h3>ChatQuantum (Cloud)</h3>
+
+
+
+        <p>Asistente cognitivo multidimensional, el punto de referencia para IA aeroespacial. Autoconfigurable según el perfil configuratorio relevante, ChatQuantum interpreta datos, contesta preguntas, sugiere ajustes modulares, y se integra con todos los niveles del ecosistema. Su adaptabilidad es clave para la modularidad AMPEL SD.</p>
+
+
+
+        <div class="assistant-input">
+
+
+
+            <input type="text" id="chatInput" placeholder="Escribe tu consulta..."/>
+
+
+
+            <button onclick="sendMessage()">Enviar</button>
+
+
+
+        </div>
+
+
+
+        <div id="chatOutput" style="margin-top:1rem; max-height:200px; overflow-y:auto;">
+
+
+
+            <!-- Respuestas del asistente aparecerán aquí -->
+
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <p><em>Fin del hub IA aeroespacial GQP.</em></p>
+
+
+
+
+
+
+
+    <!-- DataTables JS -->
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+
+
+
+    <script>
+
+
+
+        $(document).ready(function() {
+
+
+
+            $('#requirementsTable').DataTable({
+
+
+
+                "paging": true,
+
+
+
+                "searching": true,
+
+
+
+                "ordering": true,
+
+
+
+                "pageLength": 25,
+
+
+
+                "lengthMenu": [10, 25, 50, 100, 250],
+
+
+
+                "language": {
+
+
+
+                    "url": "//cdn.datatables.net/plug-ins/1.13.4/i18n/es-ES.json"
+
+
+
+                }
+
+
+
+            });
+
+
+
+        });
+
+
+
+
+
+
+
+        function sendMessage() {
+
+
+
+            var input = document.getElementById('chatInput').value.trim();
+
+
+
+            if(input === "") return;
+
+
+
+
+
+
+
+            var chatOutput = document.getElementById('chatOutput');
+
+
+
+            var userMessage = document.createElement('p');
+
+
+
+            userMessage.innerHTML = "<strong>Tú:</strong> " + input;
+
+
+
+            chatOutput.appendChild(userMessage);
+
+
+
+
+
+
+
+            // Simulación de respuesta
+
+
+
+            var botMessage = document.createElement('p');
+
+
+
+            botMessage.innerHTML = "<strong>ChatQuantum:</strong> " + getBotResponse(input);
+
+
+
+            chatOutput.appendChild(botMessage);
+
+
+
+
+
+
+
+            // Limpiar el campo de entrada
+
+
+
+            document.getElementById('chatInput').value = "";
+
+
+
+
+
+
+
+            // Desplazar hacia abajo
+
+
+
+            chatOutput.scrollTop = chatOutput.scrollHeight;
+
+
+
+        }
+
+
+
+
+
+
+
+        function getBotResponse(input) {
+
+
+
+            // Aquí puedes integrar una API real como OpenAI
+
+
+
+            // Por ahora, es una respuesta estática
+
+
+
+            var responses = {
+
+
+
+                "hola": "¡Hola! ¿En qué puedo ayudarte hoy?",
+
+
+
+                "qué es el GQP": "El GAIA QUANTUM PORTAL (GQP) es un hub de referencia para IA aeroespacial, diseñado para optimizar procesos y mejorar la eficiencia operativa.",
+
+
+
+                "cómo funciona": "El GQP utiliza tecnologías avanzadas como computación cuántica, IA, machine learning y simulaciones para centralizar y optimizar datos y procesos en el sector aeroespacial.",
+
+
+
+                // Agrega más respuestas según tus necesidades
+
+
+
+            };
+
+
+
+
+
+
+
+            var lowerInput = input.toLowerCase();
+
+
+
+            return responses[lowerInput] || "Lo siento, no entendí tu pregunta. Por favor, intenta de nuevo.";
+
+
+
+        }
+
+
+
+    </script>
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
+
+
+
+```
+
+
+
+
+
+
+
+### Explicación de las Añadiduras
+
+
+
+
+
+
+
+1. **Filas Adicionales (FR11 a FR70):**
+
+
+
+   - He añadido las filas de FR11 a FR70 siguiendo el mismo patrón que las filas anteriores.
+
+
+
+   - Cada fila incluye:
+
+
+
+     - **ID:** Identificador del requisito (e.g., FR11).
+
+
+
+     - **Tipo:** Funcional o No Funcional.
+
+
+
+     - **Descripción:** Descripción detallada del requisito.
+
+
+
+     - **Categoría:** Categoría a la que pertenece el requisito.
+
+
+
+     - **Prioridad:** Alta, Media o Baja.
+
+
+
+     - **Estado:** Pendiente.
+
+
+
+
+
+
+
+2. **Continuar Agregando Filas:**
+
+
+
+   - Para los requisitos restantes (FR71 a FR265), puedes continuar copiando y pegando filas siguiendo el mismo patrón.
+
+
+
+   - Asegúrate de actualizar los campos de acuerdo a cada requisito específico.
+
+
+
+
+
+
+
+3. **Uso de DataTables:**
+
+
+
+   - **Funcionalidades Añadidas:**
+
+
+
+     - **Paginación:** Divide la tabla en múltiples páginas para facilitar la navegación.
+
+
+
+     - **Búsqueda:** Añade una barra de búsqueda para filtrar rápidamente los requisitos.
+
+
+
+     - **Ordenamiento:** Permite ordenar la tabla por cualquier columna.
+
+
+
+     - **Configuración de Idioma:** La tabla está configurada en español mediante el archivo `es-ES.json`.
+
+
+
+   - **Personalización:**
+
+
+
+     - Puedes ajustar las opciones de DataTables según tus necesidades (e.g., cambiar el número de filas por página, habilitar exportaciones, etc.).
+
+
+
+
+
+
+
+4. **Asistente ChatQuantum:**
+
+
+
+   - **Funcionalidad Básica:**
+
+
+
+     - Actualmente, el asistente responde con respuestas predefinidas basadas en palabras clave.
+
+
+
+   - **Integración con APIs Reales:**
+
+
+
+     - Para una funcionalidad avanzada, puedes integrar una API como la de OpenAI para respuestas dinámicas.
+
+
+
+     - **Ejemplo Básico con Respuestas Simuladas:** Ya está implementado en el script.
+
+
+
+     - **Ejemplo Avanzado con OpenAI:**
+
+
+
+       - Reemplaza la función `getBotResponse` con una llamada a la API de OpenAI para obtener respuestas dinámicas.
+
+
+
+       - **Nota de Seguridad:** Nunca expongas tu clave API en el frontend. Para una integración segura, realiza las llamadas a la API desde el backend.
+
+
+
+
+
+
+
+### Ejemplo de Requisitos Adicionales (FR71 a FR80)
+
+
+
+
+
+
+
+Para darte una mejor idea, a continuación, incluyo un ejemplo de cómo agregar más filas (FR71 a FR80):
+
+
+
+
+
+
+
+```html
+
+
+
+<tr>
+
+
+
+    <td><strong>FR71</strong></td>
+
+
+
+    <td>Funcional</td>
+
+
+
+    <td>Implementar un sistema de gestión de versiones para asegurar la trazabilidad de los cambios en el GQP.</td>
+
+
+
+    <td class="category">Gestión de Configuración</td>
+
+
+
+    <td class="priority-high">Alta</td>
+
+
+
+    <td class="status-pendiente">Pendiente</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+    <td><strong>FR72</strong></td>
+
+
+
+    <td>Funcional</td>
+
+
+
+    <td>Desarrollar una interfaz de usuario personalizable que permita a los usuarios adaptar el GQP a sus necesidades.</td>
+
+
+
+    <td class="category">Usabilidad</td>
+
+
+
+    <td class="priority-medium">Media</td>
+
+
+
+    <td class="status-pendiente">Pendiente</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+    <td><strong>FR73</strong></td>
+
+
+
+    <td>Funcional</td>
+
+
+
+    <td>Integrar un módulo de análisis de riesgos que evalúe posibles impactos de cambios en las configuraciones.</td>
+
+
+
+    <td class="category">Gestión de Proyectos</td>
+
+
+
+    <td class="priority-high">Alta</td>
+
+
+
+    <td class="status-pendiente">Pendiente</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+    <td><strong>FR74</strong></td>
+
+
+
+    <td>Funcional</td>
+
+
+
+    <td>Proveer herramientas de visualización 3D para interactuar con modelos digitales directamente desde el GQP.</td>
+
+
+
+    <td class="category">Simulación y Modelado Avanzado</td>
+
+
+
+    <td class="priority-high">Alta</td>
+
+
+
+    <td class="status-pendiente">Pendiente</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+    <td><strong>FR75</strong></td>
+
+
+
+    <td>Funcional</td>
+
+
+
+    <td>Implementar un sistema de notificaciones push para mantener a los usuarios informados sobre actualizaciones y eventos.</td>
+
+
+
+    <td class="category">Gestión de Datos y Analítica</td>
+
+
+
+    <td class="priority-medium">Media</td>
+
+
+
+    <td class="status-pendiente">Pendiente</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+    <td><strong>FR76</strong></td>
+
+
+
+    <td>Funcional</td>
+
+
+
+    <td>Desarrollar un módulo de integración con plataformas de almacenamiento en la nube como AWS S3, Google Cloud Storage, etc.</td>
+
+
+
+    <td class="category">Integración con ICSDB</td>
+
+
+
+    <td class="priority-medium">Media</td>
+
+
+
+    <td class="status-pendiente">Pendiente</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+    <td><strong>FR77</strong></td>
+
+
+
+    <td>Funcional</td>
+
+
+
+    <td>Proveer soporte para la importación de datos desde sistemas legacy utilizados en proyectos anteriores.</td>
+
+
+
+    <td class="category">Integración con ICSDB</td>
+
+
+
+    <td class="priority-medium">Media</td>
+
+
+
+    <td class="status-pendiente">Pendiente</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+    <td><strong>FR78</strong></td>
+
+
+
+    <td>Funcional</td>
+
+
+
+    <td>Implementar un sistema de auditoría que registre todas las acciones realizadas por los usuarios dentro del GQP.</td>
+
+
+
+    <td class="category">Seguridad</td>
+
+
+
+    <td class="priority-high">Alta</td>
+
+
+
+    <td class="status-pendiente">Pendiente</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+    <td><strong>FR79</strong></td>
+
+
+
+    <td>Funcional</td>
+
+
+
+    <td>Desarrollar un módulo de análisis de tendencias que identifique patrones en los datos recopilados por el GQP.</td>
+
+
+
+    <td class="category">Gestión de Datos y Analítica</td>
+
+
+
+    <td class="priority-medium">Media</td>
+
+
+
+    <td class="status-pendiente">Pendiente</td>
+
+
+
+</tr>
+
+
+
+<tr>
+
+
+
+    <td><strong>FR80</strong></td>
+
+
+
+    <td>Funcional</td>
+
+
+
+    <td>Integrar capacidades de machine learning para mejorar la precisión de las simulaciones y predicciones realizadas por el GQP.</td>
+
+
+
+    <td class="category">Simulación y Modelado Avanzado</td>
+
+
+
+    <td class="priority-high">Alta</td>
+
+
+
+    <td class="status-pendiente">Pendiente</td>
+
+
+
+</tr>
+
+
+
+```
+
+
+
+
+
+
+
+### Cómo Continuar
+
+
+
+
+
+
+
+1. **Agregar Más Filas:**
+
+
+
+   - Sigue copiando y pegando el siguiente bloque de código para cada nuevo requisito.
+
+
+
+   - Asegúrate de mantener la consistencia en las clases CSS para prioridad y estado.
+
+
+
+
+
+
+
+2. **Automatización (Opcional pero Recomendado):**
+
+
+
+   - **Usar JavaScript para Cargar Datos:**
+
+
+
+     - Si tienes los requisitos en un archivo JSON, puedes cargar las filas dinámicamente usando JavaScript, lo que facilita la gestión y actualización de los datos.
+
+
+
+   - **Ejemplo de Carga Dinámica con JSON:**
+
+
+
+     ```html
+
+
+
+     <table id="requirementsTable">
+
+
+
+         <thead>
+
+
+
+             <tr>
+
+
+
+                 <th>ID</th>
+
+
+
+                 <th>Tipo</th>
+
+
+
+                 <th>Descripción</th>
+
+
+
+                 <th>Categoría</th>
+
+
+
+                 <th>Prioridad</th>
+
+
+
+                 <th>Estado</th>
+
+
+
+             </tr>
+
+
+
+         </thead>
+
+
+
+         <tbody>
+
+
+
+             <!-- Los datos se cargarán dinámicamente -->
+
+
+
+         </tbody>
+
+
+
+     </table>
+
+
+
+
+
+
+
+     <!-- DataTables JS -->
+
+
+
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.js"></script>
+
+
+
+     <script>
+
+
+
+         const requisitos = [
+
+
+
+             {
+
+
+
+                 "ID": "FR1",
+
+
+
+                 "Tipo": "Funcional",
+
+
+
+                 "Descripción": "Centralizar datos del ciclo de vida del avión, haciendo el GQP indispensable y escalable para cualquier aerolínea presente o futura.",
+
+
+
+                 "Categoría": "Gestión del Ciclo de Vida (PLM)",
+
+
+
+                 "Prioridad": "Alta",
+
+
+
+                 "Estado": "Pendiente"
+
+
+
+             },
+
+
+
+             {
+
+
+
+                 "ID": "FR2",
+
+
+
+                 "Tipo": "Funcional",
+
+
+
+                 "Descripción": "Integrar herramientas de modelado CAD 3D como Siemens NX, CATIA o Fusion 360.",
+
+
+
+                 "Categoría": "Gestión del Ciclo de Vida (PLM)",
+
+
+
+                 "Prioridad": "Alta",
+
+
+
+                 "Estado": "Pendiente"
+
+
+
+             },
+
+
+
+             // Agrega todos los demás requisitos aquí
+
+
+
+         ];
+
+
+
+
+
+
+
+         $(document).ready(function() {
+
+
+
+             const tableBody = $('#requirementsTable tbody');
+
+
+
+             requisitos.forEach(req => {
+
+
+
+                 const priorityClass = req.Prioridad === "Alta" ? "priority-high" :
+
+
+
+                                       req.Prioridad === "Media" ? "priority-medium" :
+
+
+
+                                       "priority-low";
+
+
+
+                 const statusClass = req.Estado.toLowerCase();
+
+
+
+                 const row = `
+
+
+
+                     <tr>
+
+
+
+                         <td><strong>${req.ID}</strong></td>
+
+
+
+                         <td>${req.Tipo}</td>
+
+
+
+                         <td>${req.Descripción}</td>
+
+
+
+                         <td class="category">${req.Categoría}</td>
+
+
+
+                         <td class="${priorityClass}">${req.Prioridad}</td>
+
+
+
+                         <td class="status-pendiente">${req.Estado}</td>
+
+
+
+                     </tr>
+
+
+
+                 `;
+
+
+
+                 tableBody.append(row);
+
+
+
+             });
+
+
+
+
+
+
+
+             // Inicializar DataTables después de agregar los datos
+
+
+
+             $('#requirementsTable').DataTable({
+
+
+
+                 "paging": true,
+
+
+
+                 "searching": true,
+
+
+
+                 "ordering": true,
+
+
+
+                 "pageLength": 25,
+
+
+
+                 "lengthMenu": [10, 25, 50, 100, 250],
+
+
+
+                 "language": {
+
+
+
+                     "url": "//cdn.datatables.net/plug-ins/1.13.4/i18n/es-ES.json"
+
+
+
+                 }
+
+
+
+             });
+
+
+
+         });
+
+
+
+     </script>
+
+
+
+     ```
+    # ROUNDTABLE  **complete ATA Chapter Matrix from 00 to 99**
+
+      Below is the **complete ATA Chapter Matrix from 00 to 99**, incorporating both standard and hypothetical chapters (`8X`, `9X`, `33`, `35`, `46`, `47`, `80-90`, `91-99`). This matrix evaluates the impact of various emerging technologies on each ATA chapter using "X" for **direct/significant impact** and "O" for **indirect/potential impact**.
 
 **Important Notes:**
 - **Standard ATA Chapters (00-79):** Reflect the existing ATA standards. Chapters not specifically discussed are marked with "O" unless their systems are known to be significantly impacted.
