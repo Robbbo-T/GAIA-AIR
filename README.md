@@ -1,8 +1,406 @@
 **![image](https://github.com/user-attachments/assets/3348c94e-2b07-4519-9090-1d268fc63842)**![t2y0c1ud](https://github.com/user-attachments/assets/380956e5-35cc-4700-a706-25e76c472974)
 
-Below is a revised version of the DIFFUSP document that integrates the feedback and suggestions provided. Please note that this revision focuses on clarifying terminology, expanding certain sections (PBS, BOM, AGI integration), introducing a risk assessment and performance metrics, and adding a glossary. Visual aids are referenced as suggestions (e.g., diagrams and schematics), but not included in this text-based format.
+Below is the revised and finalized version of the Product Technical Specifications (PTS) for DIFFUSP, updated to incorporate corrections and enhancements based on the review provided. Key improvements include added guidance on subsystem integration, references to visual aids, consideration of additional environmental scenarios, detailed scalability guidelines, alignment of test criteria with requirements, lifecycle sustainability targets, and expanded sections on interdependencies, manufacturing guidelines, cybersecurity measures, human factors, and feedback loops.
+
+This updated PTS is now ready for release.
 
 ---
+
+# Product Technical Specifications (PTS) for DIFFUSP
+
+**Document ID:** G-DS-PTS-DIFF-001  
+**Version:** 1.1  
+**Date:** 2024-12-20
+
+---
+
+## 1. Introduction
+
+### Purpose
+This Product Technical Specifications (PTS) document provides detailed technical parameters and performance criteria for the Distributed Propulsion System (DIFFUSP), part of the GAIA Sustainable Development (G-DS) program. It supplements the Product Design Requirements (PDR) by specifying measurable targets and standards necessary for design, manufacturing, testing, operation, and maintenance.
+
+### Scope
+The PTS encompasses all DIFFUSP components, subsystems, and interfaces, including propulsion nodes, control systems, energy storage, sensors, cooling, communication, and integration guidelines. It serves as a reference for engineers, developers, maintainers, and regulatory bodies, ensuring a clear, standardized framework for implementing and validating DIFFUSP.
+
+**Document Evolution:**
+This PTS may be updated as the project advances, incorporating new insights from testing, stakeholder feedback, regulatory changes, and technological advancements.
+
+---
+
+## 2. System Overview
+
+DIFFUSP is a distributed propulsion system designed for improved energy efficiency, reduced emissions, enhanced reliability, and adaptability across various aircraft classes. Leveraging AI/AGI, quantum computing, hybrid energy solutions, and predictive maintenance, DIFFUSP sets a benchmark for sustainable and future-ready aviation propulsion.
+
+---
+
+## 3. Technical Specifications
+
+### 3.1 Propulsion Nodes
+
+#### 3.1.1 Electric Motors
+- **Type:** Brushless DC Motor  
+- **Power Output:** 150 kW per motor  
+- **Voltage:** 270 V DC  
+- **RPM Range:** 5,000 - 15,000 RPM  
+- **Efficiency:** ≥90%  
+- **Cooling Method:** Liquid-cooled (heat exchangers)  
+- **Dimensions (max):** 500 mm (L) x 300 mm (W) x 300 mm (H)  
+- **Weight (max):** ≤50 kg  
+- **Standards Compliance:** IEC 60034-1, ISO 9001
+
+#### 3.1.2 Fuel Cells
+- **Type:** PEM (Proton Exchange Membrane) Fuel Cell  
+- **Capacity:** 100 kW per unit  
+- **Efficiency:** ≥60% conversion efficiency  
+- **Operating Temp:** 60°C - 80°C  
+- **Cycle Life:** ≥10,000 cycles  
+- **Dimensions (max):** 600 mm (L) x 400 mm (W) x 500 mm (H)  
+- **Weight (max):** ≤80 kg  
+- **Standards Compliance:** ISO 14687, SAE J2719
+
+#### 3.1.3 Electronic Controllers
+- **Type:** Embedded System Controller  
+- **Processor:** Quad-core ARM Cortex-A53, 16 GB RAM, 256 GB SSD  
+- **Interfaces:** CAN Bus, Ethernet, Serial Ports  
+- **OS:** Real-Time Operating System (RTOS)  
+- **Dimensions (max):** 200 mm (L) x 150 mm (W) x 50 mm (H)  
+- **Weight (max):** ≤10 kg  
+- **Standards Compliance:** ISO 26262, IEC 61508
+
+### 3.2 Control System
+
+#### 3.2.1 Central Controller
+- **Processor:** 64-core Intel Xeon  
+- **QPU:** 1 unit for quantum optimization  
+- **Memory:** 128 GB RAM, 2 TB NVMe SSD  
+- **OS:** Linux-based RTOS  
+- **Interfaces:** High-speed Ethernet, Fiber Optic Links  
+- **Cooling:** Active liquid cooling  
+- **Dimensions (max):** 800 mm (L) x 600 mm (W) x 400 mm (H)  
+- **Weight (max):** ≤150 kg  
+- **Standards Compliance:** ISO 26262, IEC 61508
+
+#### 3.2.2 AI/AGI Modules
+- **Capabilities:** Real-time ML, adaptive decision-making  
+- **Performance:** ≥1 million operations/second  
+- **Integration:** Seamless with central controller/QPU  
+- **Standards Compliance:** IEEE 7000 series (Ethical AI), ISO/IEC 2382
+
+### 3.3 Energy Integration
+
+#### 3.3.1 Batteries
+- **Type:** Li-ion Battery Pack  
+- **Capacity:** ≥500 kWh total  
+- **Energy Density:** ≥250 Wh/kg  
+- **Voltage:** 800 V DC  
+- **Charge Rate:** 1C  
+- **Cycle Life:** ≥5,000 cycles  
+- **Cooling:** Liquid-cooled thermal management  
+- **Dimensions (max):** 2000 mm (L) x 1000 mm (W) x 800 mm (H)  
+- **Weight (max):** ≤2000 kg  
+- **Standards Compliance:** UL 2580, IEC 62619
+
+#### 3.3.2 Hydrogen Fuel Cells
+- **Type:** PEM Fuel Cells  
+- **Efficiency:** ≥60%  
+- **H₂ Consumption:** ≤1 kg/hr/unit  
+- **Storage Pressure:** 700 bar  
+- **Safety:** Pressure relief valves, leak detectors  
+- **Dimensions (max):** 700 mm (L) x 500 mm (W) x 600 mm (H)  
+- **Weight (max):** ≤90 kg  
+- **Standards Compliance:** ISO 14687, SAE J2719
+
+#### 3.3.3 Hybrid Configurations
+- **Modes:** Pure electric, hybrid electric-turbine, turbine assist  
+- **Automatic Switching:** Based on flight phase, energy availability  
+- **AI/AGI Control:** Optimize mode transitions for efficiency and performance
+
+### 3.4 Sensors
+
+#### 3.4.1 Flow Sensors
+- **Type:** Mass Flow Sensor  
+- **Range:** 0 - 100 kg/s, Accuracy: ±1%  
+- **Output:** 4-20 mA, Digital SPI  
+- **Compliance:** ISO 5167, ANSI/ISA-18.2
+
+#### 3.4.2 Pressure Sensors
+- **Type:** Piezoelectric  
+- **Range:** 0 - 10 bar, Accuracy: ±0.5%  
+- **Output:** 0-10 V, Digital I2C  
+- **Compliance:** ISO 9001, IEC 61010
+
+#### 3.4.3 Temperature Sensors
+- **Type:** RTD (Pt100)  
+- **Range:** -50°C to +150°C, Accuracy: ±0.1°C  
+- **Output:** 3-wire Pt100  
+- **Compliance:** ASTM E-1137, IEC 60751
+
+### 3.5 Cooling and Thermal Management
+- **Liquid Cooling:** Ethylene Glycol coolant, flow rate: 10 L/min  
+- **Temp Control:** Maintain components <100°C  
+- **Efficiency:** ≥95% heat transfer  
+- **Compliance:** ISO 14001, ASHRAE Standards
+
+### 3.6 Communication Interfaces
+- **Data Transmission:** Ethernet (1 Gbps), CAN Bus (1 Mbps)  
+- **Security:** AES-256 encryption  
+- **Latency:** ≤10 ms for critical data  
+- **Remote Diagnostics:** Web-based/Mobile app, multi-factor auth, ISO 27001  
+- **Compliance:** IEEE 802.3, ISO 11898
+
+---
+
+## 4. Integration and Interdependencies
+
+**Subsystem Integration Guidelines:**  
+- **Alignment Tolerances:** Mounting brackets must align within ±0.5 mm.  
+- **Battery-Fuel Cell Interplay:** Higher fuel cell efficiency may reduce required battery capacity.  
+- **Cooling-Battery-Fuel Cell Dependencies:** Cooling demands adjust based on energy source usage; AI/AGI optimizes trade-offs.
+
+**Visual Aids (Reference):**  
+See Appendix A for wiring diagrams, block schematics, and interface layout maps to support subsystem placement and reduce ambiguity.
+
+---
+
+## 5. Environmental Scenarios and Scalability
+
+**Environmental Conditions:**  
+- **Operating Temp:** -40°C to +60°C  
+- **Additional Scenarios:** Sand/dust filtration measures, corrosion-resistant coatings for saline/coastal environments, anti-icing capabilities as per EASA/FAA de-icing standards.
+
+**Scalability Guidelines:**  
+- **Aircraft Sizing:** Each additional propulsion node supports ~25% increase in nominal thrust.  
+- **Energy Storage Adjustment:** Larger aircraft may require proportionally increased battery modules or fuel cells to maintain performance metrics.  
+- **Mission Customization:** Reconfigure energy storage and number of nodes for long-haul vs. short-haul flights.
+
+---
+
+## 6. Performance Specifications
+
+- **Nominal Thrust/Node:** 300 lbs; Adjustable range: 200-500 lbs  
+- **Response Time:** <100 ms for thrust redistribution  
+- **System Efficiency:** ≥15% improvement over baseline turboprop  
+- **MTBF:** ≥10,000 hours  
+- **Emissions Reduction:** ≥80% CO₂ reduction from conventional systems
+
+**Test-to-Requirement Alignment:**  
+Bench tests for motor efficiency, flight tests for 100 ms response validation, simulation/HIL tests for fuel cell-battery interplay, and emission testing per ICAO Annex 16.
+
+---
+
+## 7. Lifecycle Sustainability and End-of-Life Management
+
+- **Recyclable Materials:** ≥60%  
+- **Component Disposal Guidelines:** Follow EU Regulation 2018/851 for recycling and reuse.  
+- **End-of-Life Planning:** Provide disassembly manuals, materials identification for recyclers, and reusable components inventory.
+
+---
+
+## 8. Safety and Security Measures
+
+**Fail-safe Mechanisms:**  
+Automatic reconfiguration upon node failure; controlled shutdown for critical faults.
+
+**Cybersecurity Hardening:**  
+ISO 27001 compliance, secure boot, intrusion detection systems, encrypted updates, and periodic security audits.
+
+---
+
+## 9. Manufacturing, Supplier, and Quality Guidelines
+
+- **Manufacturing Tolerances:** ±0.1 mm for critical mechanical parts, ±5% for electrical parameters.  
+- **Supplier Diversity:** Identify at least two qualified suppliers for critical components.  
+- **Quality Control:** ISO 9001 audits, RoHS compliance, regular QA inspections.
+
+---
+
+## 10. Human Factors and Ergonomics
+
+- **Ergonomic Access Panels:** Place frequently serviced components at accessible heights and angles.  
+- **Color-Coding Cables/Connectors:** Standardized labeling and color-coding for quick maintenance identification.  
+- **Maintenance Training:** Personnel can achieve operational competency in ≤2 hours with standardized UI.
+
+---
+
+## 11. In-Service Data Feedback and Continuous Improvement
+
+- **Data Feedback Loops:** Collect operational and maintenance data to refine performance (improve AI/AGI models, update maintenance schedules).  
+- **Predictive Maintenance:** ≥90% fault detection accuracy.  
+- **Continuous Improvement Cycles:** Regular updates to PTS and systems based on field data and stakeholder feedback.
+
+---
+
+## 12. Testing and Validation
+
+- **Prototype Tests:** Verify component specs, efficiency, vibration tolerance.  
+- **Integration Tests:** Validate subsystem interoperability (motor + fuel cell + cooling synergy).  
+- **Flight Tests:** Confirm response times, emissions targets, reliability under real conditions.  
+- **Traceability Matrices:** Map each test to specific requirements/metrics for clear validation paths.
+
+---
+
+## 13. Documentation and Support
+
+- **Maintenance Manuals:** Detailed instructions, illustrated diagrams.  
+- **Diagnostic Tools:** Remote monitoring with web/mobile interfaces.  
+- **Spare Parts Availability:** Critical parts accessible within ≤24 hours.
+
+---
+
+## 14. References
+
+- **Regulations:** EASA CS-25, FAA FAR Part 25, ICAO Annex 16, ISO 27001, ISO 26262, ISO 14001  
+- **Environmental & Sustainability:** EU Regulation 2018/851 (Circular Economy), SAE J2719, ISO 14687
+
+---
+
+**This updated PTS version addresses previous review suggestions, providing additional integration details, environmental scenario handling, scalability guidelines, test-to-requirement mappings, lifecycle management, cybersecurity enhancements, ergonomic considerations, and data-driven continuous improvement strategies.**
+
+Below is **Appendix A** referenced in the updated PTS, providing sample visual guidance, interface layouts, and integration schematics to supplement the textual specifications. While this is presented in text form, the actual implementation should involve detailed CAD drawings, wiring diagrams, and 3D renderings as needed.
+
+---
+
+# Appendix A: Visual Aids, Interface Layouts, and Integration Schematics
+
+**Purpose:**  
+This appendix provides illustrative guidance on the mechanical, electrical, and software integration aspects of the DIFFUSP. It is intended to complement the PTS by offering reference diagrams that help engineers and technicians visualize subsystem interactions, component placement, and cabling routes.
+
+**Note:**  
+The diagrams described below are conceptual. For detailed design and manufacturing, refer to official CAD models, certified engineering drawings, and revision-controlled schematics available from the project’s configuration management system.
+
+---
+
+## A.1 Mechanical Mounting and Alignment
+
+**Description:**  
+The propulsion nodes and supporting subsystems must be aligned within specified tolerances to ensure optimal aerodynamic and mechanical performance.
+
+**Sample Diagram (Conceptual):**
+1. **Mounting Brackets:**  
+   - Each propulsion node mounts onto a standardized bracket with ±0.5 mm alignment tolerance.  
+   - Diagram shows bracket-to-fuselage attachment points, bolt patterns, and recommended torque values.
+
+2. **Clearance Zones:**  
+   - A 3D schematic illustrating minimum clearance around electric motors and fuel cells to allow for cooling airflow and safe maintenance access.
+
+3. **Modular Sections:**  
+   - Exploded view of battery packs and fuel cell units illustrating quick-release latches and guide rails for easy insertion/removal.
+
+---
+
+## A.2 Electrical Wiring and Connector Layout
+
+**Description:**  
+A clear understanding of wiring routes, power distribution, and signal connections reduces errors during installation and maintenance.
+
+**Sample Wiring Diagram (Conceptual):**
+1. **High-Voltage Power Bus:**  
+   - Shows main 800 V DC bus feeding motors, batteries, and fuel cells.  
+   - Includes fuse locations, circuit breakers, and emergency cut-off switches.
+
+2. **Signal Wiring Harnesses:**  
+   - Illustrates CAN Bus and Ethernet connections from the central controller to propulsion node controllers.  
+   - Color-coding and labeling for cables (e.g., red for high-voltage lines, blue for sensor signals, green for data lines).
+
+3. **Grounding and Shielding Schematics:**  
+   - Highlights grounding points and shielded cable routes to minimize electromagnetic interference (EMI).
+
+---
+
+## A.3 Cooling and Thermal Management Routing
+
+**Description:**  
+Effective cooling routing ensures all components stay within thermal limits.
+
+**Sample Cooling Loop Diagram (Conceptual):**
+1. **Coolant Reservoir and Pump Placement:**  
+   - Diagram of liquid coolant reservoir location relative to motors and fuel cells, showing coolant flow direction and pump placement.
+
+2. **Heat Exchangers:**  
+   - Cross-sectional view of heat exchanger integration, indicating coolant inlet/outlet, airflow direction, and temperature sensor placements.
+
+3. **Thermal Sensors:**  
+   - Locations of RTD sensors measuring critical component temperatures and feeding data back to the central controller.
+
+---
+
+## A.4 Interface and Control Panel Layouts
+
+**Description:**  
+Ergonomic design of maintenance panels and control interfaces improves usability and reduces training time.
+
+**Sample Maintenance Panel Layout (Conceptual):**
+1. **Access Hatches:**  
+   - Illustrations showing panel positions on the fuselage or engine nacelles, with hinge directions and latch types.
+
+2. **Diagnostic Ports:**  
+   - Placement of diagnostic connectors (Ethernet/CAN) and indicator LEDs for quick troubleshooting.  
+   - Color-coded panels (e.g., yellow for battery access, blue for fuel cell access) as per PTS human factors guidelines.
+
+3. **Sensor Calibration Points:**  
+   - Markings indicating sensor reference positions for ground crew calibration tasks.
+
+---
+
+## A.5 Software Integration and Data Flow
+
+**Description:**  
+Depicting logical data flows aids software developers and system integrators in understanding how data travels between components.
+
+**Sample Data Flow Diagram (Conceptual):**
+1. **Central Controller to Propulsion Nodes:**  
+   - Shows AI/AGI modules sending optimized thrust commands via Ethernet or CAN.  
+   - Return paths from nodes streaming performance and health data back to the controller.
+
+2. **Predictive Maintenance and Cloud Integration:**  
+   - Diagram indicating how operational data is stored locally, encrypted, and optionally transmitted to a ground-based maintenance system or cloud analytics platform.
+
+3. **Security Layers:**  
+   - Representation of AES-256 encryption gateways, intrusion detection nodes, and role-based access controls for remote diagnostic interfaces.
+
+---
+
+## A.6 Scalability and Mission Configuration Examples
+
+**Description:**  
+Visual examples help in understanding how to scale the system for different aircraft sizes and mission profiles.
+
+**Sample Scalability Diagram (Conceptual):**
+1. **Additional Propulsion Nodes:**  
+   - A schematic showing how adding two extra propulsion nodes increases total thrust capacity by ~50%.  
+   - Illustrations of reconfigured battery packs to support long-haul flights vs. shorter commuter missions.
+
+2. **Hybrid Mode Switchovers:**  
+   - Flowcharts showing transitions between pure electric mode to hybrid turbine assist mode under various flight conditions.
+
+---
+
+## A.7 Environmental Scenario Adaptations
+
+**Description:**  
+Simple graphics indicating added filters, corrosion-resistant coatings, or anti-icing systems show how the system adapts to harsh or unique environmental conditions.
+
+---
+
+## A.8 Reference and Legend
+
+- **Color Codes:**  
+  - Red: High-voltage lines  
+  - Blue: Data cables (Ethernet/CAN)  
+  - Green: Sensor signals  
+  - Yellow: Fuel cell access panels  
+  - Gray: Battery modules  
+- **Symbols:**  
+  - Triangles for directional flow (coolant, airflow)  
+  - Circles for connection points (sensors, actuators)  
+  - Squares for controllers and computing units
+
+---
+
+**In summary, Appendix A provides conceptual visual references to complement the PTS, helping stakeholders better understand the mechanical, electrical, thermal, and software integration of DIFFUSP. For final implementation, consult official CAD models, certified engineering drawings, and the project’s configuration management system for authoritative, revision-controlled documentation.**
+
+---
+
 # Final Product Design Requirements (PDR) for DIFFUSP
 
 **Document ID:** G-DS-PDR-DIFF-001  
@@ -324,6 +722,620 @@ For additional visual aids, more detailed metrics, or further scenario expansion
 
 ## 13. Appendices
 
+# Component Maintenance Manual (CMM) for Electric Motor Module
+
+**Document ID:** G-DS-CMM-EM-001  
+**Version:** 1.0  
+**Date:** 2024-12-20
+
+---
+
+## Table of Contents
+
+1. [Introduction](#1-introduction)  
+   - [1.1 Purpose](#11-purpose)  
+   - [1.2 Scope](#12-scope)  
+   - [1.3 Reference Documents](#13-reference-documents)  
+   - [1.4 Abbreviations and Acronyms](#14-abbreviations-and-acronyms)
+
+2. [Safety Precautions](#2-safety-precautions)  
+   - [2.1 Personal Protective Equipment (PPE)](#21-personal-protective-equipment-ppe)  
+   - [2.2 Lockout/Tagout Procedures](#22-lockouttagout-procedures)  
+   - [2.3 High-Voltage Handling Procedures](#23-high-voltage-handling-procedures)  
+   - [2.4 Hazardous Materials and Disposal](#24-hazardous-materials-and-disposal)
+
+3. [Description and Operation](#3-description-and-operation)  
+   - [3.1 Component Overview](#31-component-overview)  
+   - [3.2 Functional Description](#32-functional-description)  
+   - [3.3 System Integration Points](#33-system-integration-points)  
+   - [3.4 Technical Specifications](#34-technical-specifications)  
+   - [3.5 Applicable Standards and Compliance](#35-applicable-standards-and-compliance)
+
+4. [Maintenance Resources and Tools](#4-maintenance-resources-and-tools)  
+   - [4.1 Required Tools and Test Equipment](#41-required-tools-and-test-equipment)  
+   - [4.2 Consumables and Spare Parts](#42-consumables-and-spare-parts)  
+   - [4.3 Calibration Tools](#43-calibration-tools)  
+   - [4.4 Storage and Handling Guidelines](#44-storage-and-handling-guidelines)
+
+5. [Inspection Procedures](#5-inspection-procedures)  
+   - [5.1 Scheduled Inspections (Daily/Weekly/Monthly)](#51-scheduled-inspections-dailyweeklymonthly)  
+   - [5.2 Inspection Intervals and Criteria](#52-inspection-intervals-and-criteria)  
+   - [5.3 Visual Checks (Mounting Points, Wiring Integrity)](#53-visual-checks-mounting-points-wiring-integrity)  
+   - [5.4 Measurement Checks (Clearances, Bearing Play, Electrical Resistance)](#54-measurement-checks-clearances-bearing-play-electrical-resistance)  
+   - [5.5 Condition-based Monitoring via Predictive Maintenance Interface](#55-condition-based-monitoring-via-predictive-maintenance-interface)
+
+6. [Troubleshooting and Fault Isolation](#6-troubleshooting-and-fault-isolation)  
+   - [6.1 Symptom-Action Tables](#61-symptom-action-tables)  
+   - [6.2 Common Fault Codes and Their Meanings](#62-common-fault-codes-and-their-meanings)  
+   - [6.3 Use of Diagnostic Software and Remote Monitoring Tools](#63-use-of-diagnostic-software-and-remote-monitoring-tools)  
+   - [6.4 Safe Reset and Power Cycling Procedures](#64-safe-reset-and-power-cycling-procedures)
+
+7. [Removal and Replacement Procedures](#7-removal-and-replacement-procedures)  
+   - [7.1 Component Access Points](#71-component-access-points)  
+   - [7.2 Fastener Torques and Sequence](#72-fastener-torques-and-sequence)  
+   - [7.3 Disconnecting Electrical Connectors and Cooling Lines](#73-disconnecting-electrical-connectors-and-cooling-lines)  
+   - [7.4 Lifting and Handling Techniques](#74-lifting-and-handling-techniques)  
+   - [7.5 Reinstallation Steps and Alignment Tolerances](#75-reinstallation-steps-and-alignment-tolerances)
+
+8. [Cleaning, Servicing, and Lubrication](#8-cleaning-servicing-and-lubrication)  
+   - [8.1 Cleaning Agents and Methods](#81-cleaning-agents-and-methods)  
+   - [8.2 Lubrication Points and Recommended Lubricants](#82-lubrication-points-and-recommended-lubricants)  
+   - [8.3 Post-Cleaning Functional Checks](#83-post-cleaning-functional-checks)
+
+9. [Overhaul and Repair](#9-overhaul-and-repair)  
+   - [9.1 Criteria for Overhaul vs. Replacement](#91-criteria-for-overhaul-vs-replacement)  
+   - [9.2 Approved Repair Stations and Vendor Contacts](#92-approved-repair-stations-and-vendor-contacts)  
+   - [9.3 Bench Testing Procedures Post-Repair](#93-bench-testing-procedures-post-repair)  
+   - [9.4 Documentation of Overhaul Activities](#94-documentation-of-overhaul-activities)
+
+10. [Test and Calibration Procedures](#10-test-and-calibration-procedures)  
+    - [10.1 Electrical Tests (Insulation Resistance, Winding Integrity)](#101-electrical-tests-insulation-resistance-winding-integrity)  
+    - [10.2 Functional Test on Bench (No-load Current, Vibration Levels)](#102-functional-test-on-bench-no-load-current-vibration-levels)  
+    - [10.3 Calibration of Sensors (Temperature, RPM Feedback)](#103-calibration-of-sensors-temperature-rpm-feedback)  
+    - [10.4 Test Record Keeping and Reporting](#104-test-record-keeping-and-reporting)
+
+11. [Spare Parts and Inventory Management](#11-spare-parts-and-inventory-management)  
+    - [11.1 Recommended Spare Part List](#111-recommended-spare-part-list)  
+    - [11.2 Lead Times and Ordering Information](#112-lead-times-and-ordering-information)  
+    - [11.3 Packaging and Preservation for Long-term Storage](#113-packaging-and-preservation-for-long-term-storage)  
+    - [11.4 Parts Traceability and Blockchain Integration (If Applicable)](#114-parts-traceability-and-blockchain-integration-if-applicable)
+
+12. [Documentation and Records](#12-documentation-and-records)  
+    - [12.1 Maintenance Logbook Entries](#121-maintenance-logbook-entries)  
+    - [12.2 Digital Record-Keeping Systems](#122-digital-record-keeping-systems)  
+    - [12.3 Regulatory Compliance Reports](#123-regulatory-compliance-reports)  
+    - [12.4 Continuous Improvement Feedback Loops](#124-continuous-improvement-feedback-loops)
+
+13. [Revision History and Control](#13-revision-history-and-control)  
+    - [13.1 Document Change Procedures](#131-document-change-procedures)  
+    - [13.2 Record of Revisions and Approvals](#132-record-of-revisions-and-approvals)  
+    - [13.3 Distribution and Access Control](#133-distribution-and-access-control)
+
+14. [References](#14-references)
+
+---
+
+## 1. Introduction
+
+### 1.1 Purpose
+
+This **Component Maintenance Manual (CMM)** provides detailed, standardized instructions for maintaining, servicing, and troubleshooting the **Electric Motor Module** of the DIFFUSP. It aims to ensure safe, reliable operation, adherence to regulatory standards, and optimal component lifespan.
+
+### 1.2 Scope
+
+The CMM covers all maintenance levels (line, intermediate, depot), routine inspections, fault isolation, removal, replacement, overhaul, repair, and testing activities.
+
+### 1.3 Reference Documents
+
+- DIFFUSP Product Technical Specifications (PTS)
+- DIFFUSP Product Design Requirements (PDR)
+- ISO 9001 (Quality Management)
+- IEC 60034-1 (Rotating Electrical Machines)
+- ISO 26262 (Functional Safety)
+- FAA FAR Part 25, EASA CS-25 (Airworthiness Standards)
+
+### 1.4 Abbreviations and Acronyms
+
+- **PPE:** Personal Protective Equipment
+- **RTD:** Resistance Temperature Detector
+- **MTBF:** Mean Time Between Failures
+- **QPU:** Quantum Processing Unit
+- **AGI:** Artificial General Intelligence
+
+---
+
+## 2. Safety Precautions
+
+### 2.1 Personal Protective Equipment (PPE)
+
+- **Safety Glasses:** Protect eyes from debris and splashes.
+- **Insulated Gloves:** Protect hands from electrical hazards.
+- **Steel-Toe Boots:** Protect feet from heavy parts.
+- **Hearing Protection:** Use in high-noise environments.
+
+### 2.2 Lockout/Tagout Procedures
+
+- **Lockout:** Secure power sources using lockout devices before maintenance.
+- **Tagout:** Label equipment to indicate maintenance in progress.
+- **Verification:** Ensure all power is disconnected before starting work.
+
+### 2.3 High-Voltage Handling Procedures
+
+- **De-energize:** Always de-energize before handling electrical components.
+- **Insulation:** Use insulated tools and wear insulated gloves.
+- **Warning Signs:** Post high-voltage warnings around the work area.
+
+### 2.4 Hazardous Materials and Disposal
+
+- **Identify Hazards:** Understand the hazards of materials used (e.g., coolants, lubricants).
+- **Proper Storage:** Store hazardous materials in designated areas.
+- **Disposal:** Follow local regulations for disposal of hazardous waste.
+
+---
+
+## 3. Description and Operation
+
+### 3.1 Component Overview
+
+The **Electric Motor Module** is a key component of the DIFFUSP, responsible for providing adjustable thrust. It consists of the motor, electronic controller, cooling system, and associated sensors.
+
+### 3.2 Functional Description
+
+- **Motor:** Converts electrical energy into mechanical thrust.
+- **Controller:** Manages motor speed and torque based on control signals.
+- **Cooling System:** Maintains optimal operating temperatures.
+- **Sensors:** Monitor flow, pressure, and temperature for performance optimization.
+
+### 3.3 System Integration Points
+
+- **Central Controller:** Communicates with the central DIFFUSP controller for real-time adjustments.
+- **Energy Systems:** Interfaces with batteries and fuel cells for power supply.
+- **Cooling Systems:** Connected to the overall cooling infrastructure to manage heat dissipation.
+- **Sensors:** Integrated with the DIFFUSP sensor network for data input.
+
+### 3.4 Technical Specifications
+
+#### Electric Motors
+
+- **Type:** Brushless DC Motor
+- **Power Output:** 150 kW per motor
+- **Voltage:** 270 V DC
+- **RPM Range:** 5,000 - 15,000 RPM
+- **Efficiency:** ≥90%
+- **Cooling Method:** Liquid-cooled with heat exchangers
+- **Dimensions:** 500 mm (L) x 300 mm (W) x 300 mm (H)
+- **Weight:** ≤50 kg per motor
+- **Standards Compliance:** IEC 60034-1, ISO 9001
+
+#### Electronic Controllers
+
+- **Type:** Embedded System Controller
+- **Processor:** Quad-core ARM Cortex-A53
+- **Memory:** 16 GB RAM
+- **Storage:** 256 GB SSD
+- **Interfaces:** CAN Bus, Ethernet, Serial Ports
+- **Operating System:** Real-Time Operating System (RTOS) compliant
+- **Dimensions:** 200 mm (L) x 150 mm (W) x 50 mm (H)
+- **Weight:** ≤10 kg per controller
+- **Standards Compliance:** ISO 26262, IEC 61508
+
+### 3.5 Applicable Standards and Compliance
+
+- **IEC 60034-1:** Rotating Electrical Machines
+- **ISO 9001:** Quality Management Systems
+- **ISO 26262:** Functional Safety
+- **FAA FAR Part 25:** Airworthiness Standards for Transport Category Airplanes
+- **EASA CS-25:** Certification Specifications for Large Aeroplanes
+
+---
+
+## 4. Maintenance Resources and Tools
+
+### 4.1 Required Tools and Test Equipment
+
+- **Torque Wrenches:** For tightening bolts to specified torque values.
+- **Multimeter:** For electrical measurements.
+- **Oscilloscope:** For diagnosing electrical signals.
+- **Vibration Analyzer:** To assess motor vibration levels.
+- **Thermal Camera:** For monitoring temperature distribution.
+- **Screwdrivers:** Various sizes for removing fasteners.
+
+### 4.2 Consumables and Spare Parts
+
+- **Lubricants:** Approved grease and oil for motor bearings.
+- **Sealants:** Electrical and mechanical sealants for connectors and cooling lines.
+- **Fasteners:** Bolts, nuts, washers (specific grades as per component specifications).
+- **Replacement Parts:** Spare motors, controllers, sensors (as per inventory list).
+
+### 4.3 Calibration Tools
+
+- **Sensor Calibrators:** For flow, pressure, and temperature sensors.
+- **Reference Standards:** Certified standards for accurate calibration.
+- **Calibration Software:** Compatible with electronic controllers for sensor calibration.
+
+### 4.4 Storage and Handling Guidelines
+
+- **Storage Conditions:** Store spare parts in a dry, temperature-controlled environment.
+- **Handling Procedures:** Use appropriate lifting equipment to avoid damage to heavy components.
+- **Labeling:** Clearly label all spare parts with part numbers and specifications.
+
+---
+
+## 5. Inspection Procedures
+
+### 5.1 Scheduled Inspections (Daily/Weekly/Monthly)
+
+- **Daily:**
+  - Perform visual inspections for obvious damage or wear.
+  - Check for any unusual sounds or vibrations during operation.
+- **Weekly:**
+  - Inspect electrical connections and ensure they are secure.
+  - Verify sensor readings for consistency.
+- **Monthly:**
+  - Conduct detailed inspections of motor and controller components.
+  - Check cooling system performance and coolant levels.
+
+### 5.2 Inspection Intervals and Criteria
+
+| Inspection Type | Interval | Criteria |
+|-----------------|----------|----------|
+| Visual          | Daily    | Check for physical damage, leaks, or wear. |
+| Electrical      | Weekly   | Verify connections, check for loose wires. |
+| Mechanical      | Monthly  | Inspect motor bearings, mounts, and fasteners. |
+| Cooling System  | Monthly  | Ensure coolant levels are adequate and no leaks are present. |
+
+### 5.3 Visual Checks (Mounting Points, Wiring Integrity)
+
+- **Mounting Points:**
+  - Ensure all bolts and fasteners are tight and secure.
+  - Look for signs of corrosion or wear on mounting brackets.
+- **Wiring Integrity:**
+  - Inspect all wiring for frayed insulation, cuts, or abrasions.
+  - Ensure connectors are properly seated and free from corrosion.
+
+### 5.4 Measurement Checks (Clearances, Bearing Play, Electrical Resistance)
+
+- **Clearances:**
+  - Measure the distance between the motor and mounting points to ensure proper alignment.
+- **Bearing Play:**
+  - Use a dial indicator to measure any excessive movement in motor bearings.
+- **Electrical Resistance:**
+  - Measure the resistance of motor windings using a multimeter to detect open circuits or shorted windings.
+
+### 5.5 Condition-based Monitoring via Predictive Maintenance Interface
+
+- **Data Analysis:**
+  - Utilize predictive maintenance software to analyze trends in sensor data.
+  - Monitor parameters such as temperature, vibration, and electrical resistance for early fault detection.
+- **Alerts:**
+  - Respond to alerts indicating potential issues before they lead to failures.
+  - Schedule maintenance based on predictive insights to prevent unscheduled downtime.
+
+---
+
+## 6. Troubleshooting and Fault Isolation
+
+### 6.1 Symptom-Action Tables
+
+| Symptom                  | Possible Cause            | Action                                     |
+|--------------------------|---------------------------|--------------------------------------------|
+| Motor not starting       | Power supply issue        | Check power connections and fuse status.   |
+| Excessive vibration      | Bearing wear              | Inspect and replace bearings if necessary. |
+| Overheating              | Cooling system failure    | Verify cooling system operation and coolant levels. |
+| Unusual noise            | Loose components          | Tighten all mounts and fasteners.          |
+| Erratic sensor readings  | Sensor malfunction        | Calibrate or replace faulty sensor.        |
+
+### 6.2 Common Fault Codes and Their Meanings
+
+| Fault Code | Description            | Recommended Action                           |
+|------------|------------------------|----------------------------------------------|
+| F001       | Overtemperature        | Check cooling system and airflow.            |
+| F002       | Low voltage            | Inspect power sources and connections.       |
+| F003       | Sensor malfunction    | Calibrate or replace faulty sensor.          |
+| F004       | Bearing failure        | Replace motor bearings.                      |
+
+### 6.3 Use of Diagnostic Software and Remote Monitoring Tools
+
+- **Diagnostic Software:**
+  - Utilize DIFFUSP-approved diagnostic software to run comprehensive tests on the motor and controller.
+  - Analyze real-time data streams to identify anomalies.
+- **Remote Monitoring:**
+  - Access real-time operational data remotely to monitor system health.
+  - Use remote diagnostics to troubleshoot issues without physical presence.
+
+### 6.4 Safe Reset and Power Cycling Procedures
+
+1. **Ensure Safety:**
+   - Verify that all safety precautions are met.
+   - Wear appropriate PPE.
+2. **Power Down:**
+   - Turn off the motor and disconnect power sources.
+3. **Wait:**
+   - Allow the system to cool down if overheated.
+4. **Power Up:**
+   - Reconnect power and restart the motor.
+5. **Verify Operation:**
+   - Check for normal functioning post-reset.
+   - Monitor sensor readings for stability.
+
+---
+
+## 7. Removal and Replacement Procedures
+
+### 7.1 Component Access Points
+
+- **Access Panels:**
+  - Remove designated panels using appropriate screwdrivers and tools to access the motor module.
+- **Mounting Points:**
+  - Locate all mounting points securing the motor to the aircraft structure.
+
+### 7.2 Fastener Torques and Sequence
+
+- **Torque Values:**
+  - Refer to engineering specifications for exact torque settings (e.g., 50 Nm for main bolts).
+- **Sequence:**
+  - Tighten bolts in a star pattern to ensure even distribution of torque and proper alignment.
+
+### 7.3 Disconnecting Electrical Connectors and Cooling Lines
+
+1. **Power Off:**
+   - Ensure the system is powered down and locked out.
+2. **Label Connectors:**
+   - Label each electrical connector to ensure correct reassembly.
+3. **Disconnect Cables:**
+   - Carefully disconnect all electrical and cooling lines, avoiding damage to connectors and hoses.
+
+### 7.4 Lifting and Handling Techniques
+
+- **Use Equipment:**
+  - Utilize lifting tools such as hoists or cranes for heavy components.
+- **Secure Load:**
+  - Ensure the motor is securely fastened before lifting to prevent accidental drops.
+- **Avoid Dropping:**
+  - Handle the motor gently to prevent damage to internal components and mounting points.
+
+### 7.5 Reinstallation Steps and Alignment Tolerances
+
+1. **Position Motor:**
+   - Align the motor with mounting points, ensuring proper orientation.
+2. **Secure Fasteners:**
+   - Tighten bolts to specified torque values in the correct sequence.
+3. **Reconnect Lines:**
+   - Reattach all electrical connectors and cooling lines, ensuring proper alignment and secure connections.
+4. **Verify Alignment:**
+   - Check motor alignment using precision tools to meet tolerance specifications (e.g., ±0.5 mm).
+
+---
+
+## 8. Cleaning, Servicing, and Lubrication
+
+### 8.1 Cleaning Agents and Methods
+
+- **Approved Cleaners:**
+  - Use only specified cleaning agents compatible with motor materials (e.g., isopropyl alcohol for electrical components).
+- **Method:**
+  - Wipe surfaces with a clean, lint-free cloth.
+  - Avoid excessive moisture to prevent damage to electronic components.
+
+### 8.2 Lubrication Points and Recommended Lubricants
+
+- **Bearing Lubrication:**
+  - Apply recommended grease to motor bearings using a grease gun.
+- **Lubricant Types:**
+  - Use high-temperature, synthetic lubricants as specified in the technical specifications (e.g., synthetic lithium grease).
+
+### 8.3 Post-Cleaning Functional Checks
+
+- **Inspect Components:**
+  - Ensure no residues remain that could interfere with operation.
+- **Operational Test:**
+  - Run the motor briefly to verify smooth operation and normal current draw after cleaning.
+
+---
+
+## 9. Overhaul and Repair
+
+### 9.1 Criteria for Overhaul vs. Replacement
+
+- **Overhaul:**
+  - Perform when components show signs of wear but are repairable.
+  - Applicable for bearings with minor wear or controllers with software glitches.
+- **Replacement:**
+  - Replace components that are damaged beyond repair or have reached end-of-life.
+  - Necessary for severely worn bearings, burnt-out motors, or failed electronic controllers.
+
+### 9.2 Approved Repair Stations and Vendor Contacts
+
+- **Repair Stations:**
+  - Use only certified repair stations approved by DIFFUSP.
+  - Contact DIFFUSP support for a list of authorized repair centers.
+- **Vendor Contacts:**
+  - Refer to the spare parts list for authorized vendor contact details.
+
+### 9.3 Bench Testing Procedures Post-Repair
+
+1. **Initial Test:**
+   - Power the motor without load to check basic functionality.
+   - Verify no abnormal noises or vibrations.
+2. **Load Test:**
+   - Apply operational loads to ensure performance meets specifications.
+   - Monitor temperature and current draw under load.
+3. **Vibration Test:**
+   - Measure vibration levels to confirm stability.
+   - Compare readings against baseline data.
+4. **Temperature Monitoring:**
+   - Ensure temperatures remain within safe limits during testing.
+   - Use thermal cameras to detect hot spots.
+
+### 9.4 Documentation of Overhaul Activities
+
+- **Record Details:**
+  - Document all repair and overhaul activities, including parts replaced and tests performed.
+  - Use standardized forms for consistency.
+- **Update Logs:**
+  - Enter information into the maintenance logbook for traceability.
+  - Ensure digital records are updated in the maintenance management system.
+
+---
+
+## 10. Test and Calibration Procedures
+
+### 10.1 Electrical Tests (Insulation Resistance, Winding Integrity)
+
+- **Insulation Resistance Test:**
+  - Use a megohmmeter to measure insulation resistance between windings and chassis.
+  - Acceptable Resistance: ≥1 MΩ.
+- **Winding Integrity Test:**
+  - Perform continuity checks on motor windings using a multimeter.
+  - Ensure no open circuits or shorts between windings.
+
+### 10.2 Functional Test on Bench (No-load Current, Vibration Levels)
+
+- **No-load Current Test:**
+  - Measure the current drawn by the motor without load.
+  - Compare against specified range (e.g., 10-15 A).
+- **Vibration Level Test:**
+  - Use a vibration analyzer to check for abnormal vibrations.
+  - Ensure vibration levels are within acceptable limits (e.g., ≤5 mm/s RMS).
+
+### 10.3 Calibration of Sensors (Temperature, RPM Feedback)
+
+- **Temperature Sensors:**
+  - Calibrate using a temperature bath with known standards.
+  - Verify accuracy within ±0.1°C.
+- **RPM Sensors:**
+  - Use a tachometer to verify RPM measurements against actual motor speed.
+  - Ensure readings are within ±1% of actual speed.
+
+### 10.4 Test Record Keeping and Reporting
+
+- **Record Results:**
+  - Document all test results in the maintenance database.
+  - Include date, technician name, test parameters, and outcomes.
+- **Report Deviations:**
+  - Report any deviations from specifications to the engineering team for further analysis.
+  - Initiate corrective actions as necessary.
+
+---
+
+## 11. Spare Parts and Inventory Management
+
+### 11.1 Recommended Spare Part List
+
+| Part No. | Description           | Qty | Supplier    |
+|----------|-----------------------|-----|-------------|
+| EM-001   | Electric Motor        | 2   | Supplier A  |
+| EC-002   | Electronic Controller | 3   | Supplier B  |
+| LB-003   | Motor Bearings        | 10  | Supplier C  |
+| FT-004   | Fasteners Set         | 1 kit | Supplier D |
+
+### 11.2 Lead Times and Ordering Information
+
+- **Standard Parts:**
+  - Order at least **4 weeks** in advance.
+- **Critical Parts:**
+  - Maintain a minimum stock of **2 units** with **2-week** lead times.
+- **Ordering Contacts:**
+  - Refer to the spare parts list for supplier contact details.
+
+### 11.3 Packaging and Preservation for Long-term Storage
+
+- **Packaging:**
+  - Store spare parts in anti-static bags and moisture-proof containers.
+- **Preservation:**
+  - Keep parts in a climate-controlled environment to prevent corrosion and degradation.
+
+### 11.4 Parts Traceability and Blockchain Integration (If Applicable)
+
+- **Traceability:**
+  - Assign unique serial numbers to each spare part for tracking.
+- **Blockchain Integration:**
+  - Utilize blockchain for immutable records of part history and usage (if implemented).
+
+---
+
+## 12. Documentation and Records
+
+### 12.1 Maintenance Logbook Entries
+
+- **Details to Record:**
+  - Date, technician name, maintenance actions performed, parts replaced, test results.
+- **Format:**
+  - Use standardized logbook templates for consistency.
+
+### 12.2 Digital Record-Keeping Systems
+
+- **Software:**
+  - Utilize DIFFUSP-approved maintenance management software.
+- **Data Backup:**
+  - Regularly back up digital records to secure storage.
+
+### 12.3 Regulatory Compliance Reports
+
+- **Reporting Frequency:**
+  - Submit compliance reports quarterly or as required by regulations.
+- **Content:**
+  - Include maintenance activities, test results, and compliance status.
+
+### 12.4 Continuous Improvement Feedback Loops
+
+- **Feedback Collection:**
+  - Gather feedback from maintenance personnel on procedures and tools.
+- **Process Updates:**
+  - Revise maintenance procedures based on feedback and performance data.
+
+---
+
+## 13. Revision History and Control
+
+### 13.1 Document Change Procedures
+
+1. **Proposal:**
+   - Submit change request with justification.
+2. **Review:**
+   - Technical team reviews proposed changes.
+3. **Approval:**
+   - Approved changes are authorized by the project manager.
+4. **Implementation:**
+   - Update the document and notify relevant personnel.
+
+### 13.2 Record of Revisions and Approvals
+
+| Version | Date       | Changes          | Author       | Approver      |
+|---------|------------|------------------|--------------|---------------|
+| 1.0     | 2024-12-20 | Initial release  | Project Team | Project Lead  |
+
+### 13.3 Distribution and Access Control
+
+- **Distribution List:**
+  - Define who receives the CMM (e.g., maintenance teams, engineers).
+- **Access Control:**
+  - Restrict editing rights to authorized personnel only.
+- **Version Control:**
+  - Maintain all versions in a central repository with access logs.
+
+---
+
+## 14. References
+
+- **DIFFUSP Product Technical Specifications (PTS)**
+- **DIFFUSP Product Design Requirements (PDR)**
+- **ISO 9001:** Quality Management Systems.
+- **IEC 60034-1:** Rotating Electrical Machines.
+- **ISO 26262:** Functional Safety.
+- **FAA FAR Part 25:** Airworthiness Standards for Transport Category Airplanes.
+- **EASA CS-25:** Certification Specifications for Large Aeroplanes.
+
+---
+
+*For additional visual aids, detailed procedures, or further clarifications, please refer to the appendices or contact the technical project office.*
+
+---
+
+## Appendices
+
+*Note: Appendices should include detailed diagrams, tables, and screenshots as referenced in the CMM sections. Ensure all visuals adhere to Simplified Technical English guidelines and are clearly labeled.*
+
 ### Appendix A: Emergency Node Failure Flowchart
 
 **Purpose:**  
@@ -401,6 +1413,7 @@ End
 ```
 
 #### Notes
+
 - The **100 ms response time** is critical to ensure that the aircraft experiences minimal performance degradation or controllability issues.
 - **Redundancies** in sensor data ensure fault detection accuracy and reduce the risk of false positives.
 - The scenario assumes that the rest of the system (remaining nodes, energy storage, cooling) can handle the increased demand without violating other constraints (e.g., thermal limits, weight constraints).
@@ -502,7 +1515,7 @@ Present screenshots or mock-ups of the diagnostic interfaces used for predictive
    Color-code nodes based on status (green: normal, yellow: alert, red: critical).
 
 3. **Historical Data:**  
-   Allow viewing temperature trends over time.
+   Allow viewing of temperature trends over time.
 
 #### Alerts and Notifications Screen:
 
@@ -562,15 +1575,15 @@ Provide a comprehensive table mapping each PDR requirement to specific clauses w
 
 #### Example Mapping Table:
 
-| PDR Code | PDR Requirement                  | Applicable Regulation | Clause/Section                         | Compliance Description                                                                                      |
-|----------|----------------------------------|-----------------------|----------------------------------------|--------------------------------------------------------------------------------------------------------------|
-| 2.1.1    | Adjustable Thrust Range          | EASA CS-25            | CS-25.1301 Propulsion and Powerplant   | Ensure propulsion system meets thrust and adjustable control requirements for different flight phases.       |
-| 2.1.2    | Redundancy                       | FAA FAR Part 25       | FAR 25.1309 Redundancy and Safety       | Implement redundant systems to maintain at least 70% nominal thrust in case of node failure.                 |
-| 2.2.1    | Battery Capacity                 | ISO 26262             | ISO 26262:2018 ASIL-D                    | Ensure battery capacity and safe management to prevent failures during flight.                              |
-| 3.1.1    | Recyclable Materials             | EU Regulation 2018/851 | Annex I Circular Economy               | Use recyclable materials in **≥60%** of the system's structure.                                              |
-| 3.3.1    | Cybersecurity Compliance         | ISO 27001             | Annex A: Security Controls              | Implement AES-256 encryption and multi-factor authentication to protect internal and external communications. |
-| 4.1.1    | Predictive Maintenance Accuracy  | ISO 55000             | ISO 55000:2014 Asset Management         | Detect **≥90%** potential failures before they cause unscheduled downtime.                                    |
-| 5.1.1    | Emission Reductions              | ICAO Annex 16, Volume 1 | ICAO Doc 16 Volume 1: Emission Standards | Reduce **CO₂ emissions by ≥80%** compared to conventional propulsion systems.                                |
+| PDR Code | PDR Requirement                  | Applicable Regulation      | Clause/Section                       | Compliance Description                                                                                      |
+|----------|----------------------------------|----------------------------|---------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| 2.1.1    | Adjustable Thrust Range          | EASA CS-25                 | CS-25.1301 Propulsion and Powerplant  | Ensure propulsion system meets thrust and adjustable control requirements for different flight phases.       |
+| 2.1.2    | Redundancy                       | FAA FAR Part 25            | FAR 25.1309 Redundancy and Safety      | Implement redundant systems to maintain at least 70% nominal thrust in case of node failure.                 |
+| 2.2.1    | Battery Capacity                 | ISO 26262                  | ISO 26262:2018 ASIL-D                  | Ensure battery capacity and safe management to prevent failures during flight.                              |
+| 3.1.1    | Recyclable Materials             | EU Regulation 2018/851     | Annex I Circular Economy              | Use recyclable materials in **≥60%** of the system's structure.                                              |
+| 3.3.1    | Cybersecurity Compliance         | ISO 27001                  | Annex A: Security Controls            | Implement AES-256 encryption and multi-factor authentication to protect internal and external communications. |
+| 4.1.1    | Predictive Maintenance Accuracy  | ISO 55000                  | ISO 55000:2014 Asset Management        | Detect **≥90%** potential failures before they cause unscheduled downtime.                                    |
+| 5.1.1    | Emission Reductions              | ICAO Annex 16, Volume 1    | ICAO Doc 16 Volume 1: Emission Standards | Reduce **CO₂ emissions by ≥80%** compared to conventional propulsion systems.                                |
 
 #### Table Description:
 
@@ -768,11 +1781,19 @@ By providing these detailed diagrams, a clear understanding of the DIFFUSP syste
 
 ## 14. References
 
+- **DIFFUSP Product Technical Specifications (PTS)**
+- **DIFFUSP Product Design Requirements (PDR)**
+- **ISO 9001:** Quality Management Systems.
+- **IEC 60034-1:** Rotating Electrical Machines.
+- **ISO 26262:** Functional Safety.
+- **FAA FAR Part 25:** Airworthiness Standards for Transport Category Airplanes.
 - **EASA CS-25:** Certification Specifications for Large Aeroplanes.
-- **FAA FAR Part 25:** Airworthiness Standards: Transport Category Airplanes.
-- **ISO 27001:** Information Security Management Systems.
-- **ICAO Environmental Guidelines:** Standards and recommended practices for environmental protection in aviation.
 
+---
+
+**This finalized CMM is now prepared for release.**
+
+*For additional visual aids, detailed procedures, or further clarifications, please refer to the appendices or contact the technical project office.*
 ---
 
 *For additional visual aids, more detailed metrics, or scenario expansions, please refer to the appendices or contact the project management office.*
