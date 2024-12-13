@@ -1,5 +1,5 @@
-**![image](https://github.com/user-attachments/assets/3348c94e-2b07-4519-9090-1d268fc63842)*![image](https://github.com/user-attachments/assets/c8676301-062e-416e-82b3-2f4458627f9a)
-*![t2y0c1ud](https://github.com/user-attachments/assets/380956e5-35cc-4700-a706-25e76c472974)
+**![image](https://github.com/user-attachments/assets/3348c94e-2b07-4519-9090-1d268fc63842https://github.com/user-attachments/assets/c8676301-062e-416e-82b3-2f4458627f9ahttps://github.com/user-attachments/assets/380956e5-35cc-4700-a706-25e76c472974))*![image](
+*![t2y0c1ud]()
 
 **Síntesis Integradora: Arquitectura Robótica Inteligente y Visión Estratégica hacia un Avión Vivo, Sensible y Orgánico**
 
