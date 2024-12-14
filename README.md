@@ -1,4 +1,4 @@
-**![       _____ _             _
+![Logo](./assets/logo.png)**![       _____ _             _
       / ____| |           | |
      | |  __| |_   _  __ _| | ___   __ _
      | | |_ | | | | |/ _` | |/ _ \ / _` |
@@ -19047,6 +19047,4 @@ El sistema de control de estabilizadores gestiona los estabilizadores horizontal
   - **Función:** Emplea algoritmos de IA para monitorear el funcionamiento de los estabilizadores y detectar fallos o malfuncionamientos en tiempo real.
   - **Beneficios:** Mejora la seguridad operativa, previene desviaciones de vuelo y facilita el mantenimiento proactivo.
 
-- ***Mantenimiento Predictivo del Sistema de Estabilizadores:***
-  - **Función:** Implementa IA para predecir el desgaste y posibles fallos en los estabilizadores basándose en datos de uso y sensores.
-  - **Beneficios:** Reduce el tiempo de inactividad, optimiza los programas de mantenimiento y asegura el func
+- ***M
