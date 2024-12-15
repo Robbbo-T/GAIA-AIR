@@ -2,6 +2,168 @@
 
 # **Product Technical Specification (PTS) for DIFFUSP Magnetohydrodynamic (MHD) System**
 
+# Prompt para Generación de Diseños Técnicos Industriales del Sistema Magnetohidrodinámico (MHD) DIFFUSP
+
+A continuación se presenta un conjunto de directrices detalladas para generar diseños técnicos industriales del **Sistema Magnetohidrodinámico (MHD) DIFFUSP**. Este prompting integra requerimientos funcionales, normativos, de eficiencia energética, ergonomía, seguridad y conectividad con tecnologías avanzadas como IA/AGI y computación cuántica. Utiliza estos parámetros para guiar la creación de diseños iterativos y refinados que cumplan con las especificaciones del **Product Technical Specification (PTS)**.
+
+## 1. Parámetros Funcionales y de Rendimiento
+
+### 1.1 Magnetohidrodinámica (MHD) Básica
+- **Tipo de Fluido Conductor:** Plasma (5000-15000 K) o agua salada (5 mS/cm).
+- **Velocidad de Flujo:** 10-20 m/s.
+- **Densidad del Fluido:** Plasma (1-2 kg/m³), Agua (≈1000 kg/m³).
+- **Campo Magnético:** 1-5 Tesla, uniformidad ±5%.
+- **Electrodos:** Material conductor (grafito, tungsteno, cerámicas conductoras) con vida útil de 5000-10,000 h a 10 A/cm².
+- **Corriente y Voltaje de Salida:** Hasta 1000 A y 100-500 V, ajustables.
+
+### 1.2 Requerimientos Energéticos y de Eficiencia
+- **Eficiencia de Conversión:** ≥90%.
+- **Consumo de Potencia Típico:** ≈100 kW.
+- **Gestión Térmica:** Mecanismos de enfriamiento activos para imanes y electrodos.
+- **Salida Eléctrica Estable:** Ondulación ≤±2%, potencia nominal 100 kW estable.
+
+### 1.3 Parámetros de Propulsión y Generación de Energía
+- **Impulso Específico (Isp):** ≈3000 s para aplicaciones aeroespaciales.
+- **Empuje Ajustable:** 100-1000 N (propulsión escalable).
+- **Vida Operativa Nominal:** 10,000 h en condiciones nominales.
+
+## 2. Parámetros de Control, Integración y Monitoreo
+
+### 2.1 Control Adaptativo (Diffusion.loop)
+- **Frecuencia de Ajuste:** <100 ms para adaptar empuje, distribución energética y estabilidad del flujo.
+- **Integración de Sensores:** Datos de flujo, presión, temperatura a ≥10 Hz.
+- **Algoritmos Avanzados:** IA/AGI y computación cuántica para optimización en tiempo real.
+
+### 2.2 Integración Energética Híbrida
+- **Baterías:** Li-ion ≥500 kWh, ≥250 Wh/kg.
+- **Celdas de Combustible de Hidrógeno:** Eficiencia ≥60%.
+- **Modo Híbrido (Electricidad + Turbina/Combustible):** Capacidad para soportar configuraciones mixtas.
+- **Racionalidad:** Garantizar resiliencia operativa ante escenarios variables, disminuir emisiones y mejorar eficiencia.
+
+## 3. Parámetros Normativos y de Seguridad
+
+### 3.1 Cumplimiento Normativo
+- **Conformidad con estándares aeronáuticos:** EASA, FAA.
+- **Cumplimiento con normativas ambientales:** ISO 14001.
+- **Gestión de calidad:** ISO 9001.
+- **Reducción de ruido y emisiones:** Conforme a normativas vigentes.
+
+### 3.2 Seguridad y Protección
+- **Sistemas de Parada de Emergencia:** E-Stop, protocolos de apagado automático.
+- **Protecciones Físicas:** Barreras, escudos térmicos, interlocks.
+- **PPE:** Equipamiento de protección personal adecuado (casco, guantes, gafas).
+- **Ciberseguridad:** Autenticación, cifrado y control de accesos basados en roles.
+
+## 4. Parámetros de Conectividad, Usabilidad y Ergonomía
+
+### 4.1 Interfaz Hombre-Máquina (HMI)
+- **Panel Central de Control:** Displays táctiles, indicadores digitales, alarmas visuales y sonoras.
+- **Tasa de Refresco de Datos:** ≥10 Hz para información en tiempo real.
+- **Ergonomía:** Estaciones de trabajo ajustables, interfaz intuitiva.
+
+### 4.2 Gemelos Digitales y Monitoreo en la Nube
+- **Gemelo Digital:** Modelo integral con actualización continua de parámetros (temperatura, vibraciones, flujo, degradación de componentes).
+- **Integración en la Nube:** Acceso remoto a datos, paneles de control y análisis predictivo.
+- **Seguridad de Datos:** Blockchain para trazabilidad, seguridad en la cadena de suministro, integridad de datos.
+
+## 5. Parámetros de Mantenibilidad y Actualización
+
+### 5.1 Mantenimiento Predictivo
+- **Frecuencia de Diagnosis:** Revisión continua con alertas automáticas de degradación.
+- **Inventario de Repuestos:** Componentes críticos disponibles para minimizar tiempos muertos.
+- **Documentación Actualizada:** Guías de solución de problemas, logs de mantenimiento y actualizaciones.
+
+### 5.2 Modularidad y Rediseño
+- **Arquitectura Modular:** Facilita la sustitución de subsistemas (electrodos, imanes, sistemas de enfriamiento).
+- **Materiales Reusables y Reciclables:** Priorizar aleaciones sostenibles, componentes de larga vida útil.
+- **Evolución Iterativa:** Ajuste de parámetros en prompting sucesivos para mejorar rendimiento, sostenibilidad y confiabilidad del sistema sin retornar a información obsoleta.
+
+## 6. Parámetros para el Prompting Evolutivo
+
+### 6.1 Ciclos de Iteración
+- **Definir un número “n” de iteraciones:** Refinar parámetros según métricas de calidad y cumplimiento.
+- **Establecer criterios de parada:** Alcanzar Isp óptimo, reducir pérdidas térmicas por debajo de cierto umbral.
+
+### 6.2 Métricas de Evaluación
+- **Eficiencia Energética:** Mejora porcentual por iteración.
+- **Stabilidad del Flujo (CFD):** Reducir fluctuaciones aerodinámicas.
+- **Reducción del Peso Estructural:** Ajustar geometrías para maximizar la relación empuje-peso.
+- **Conformidad Normativa:** Validar cumplimiento en cada iteración según estándares aeronáuticos y ambientales.
+
+### 6.3 Integración con Datos Sintéticos y Protegidos
+- **Datos Sintéticos:** Entrenar el modelo con data generada artificialmente para proteger propiedad intelectual.
+- **Filtrado de Información Irrelevante:** Mantener solo datos críticos para la toma de decisiones en cada nuevo prompt evolutivo.
+
+## Resumen
+Estos parámetros proporcionan una guía integral para un **prompting generativo y evolutivo** orientado a diseños técnicos industriales, utilizando como referencia el **Sistema Magnetohidrodinámico (MHD) DIFFUSP**. Abarcan desde especificaciones técnicas (campo magnético, fluidos, eficiencia, empuje) hasta integración con IA/AGI, optimizaciones cuánticas, sostenibilidad, cumplimiento normativo, seguridad, ergonomía, mantenimiento predictivo y iteración del diseño. El objetivo es contar con directrices que alimenten sistemáticamente el prompting de un modelo generativo, permitiendo la obtención de soluciones industriales avanzadas, funcionales, seguras y sostenibles.
+
+## Ejemplo de Prompt Integrado
+A continuación se presenta un ejemplo de cómo integrar estos parámetros en un prompt para generar un diseño técnico industrial del Sistema MHD DIFFUSP:
+
+---
+
+Diseña un Sistema Magnetohidrodinámico (MHD) DIFFUSP para aplicaciones aeroespaciales, incorporando los siguientes parámetros:
+
+1. Parámetros Funcionales y de Rendimiento
+   •   Tipo de Fluido Conductor: Plasma operando entre 5000-15000 K.
+   •   Velocidad de Flujo: 15 m/s.
+   •   Densidad del Fluido: Plasma 1.5 kg/m³.
+   •   Campo Magnético: 3 Tesla, uniformidad ±5%.
+   •   Electrodos: Grafito con vida útil de 8000 h a 10 A/cm².
+   •   Corriente y Voltaje de Salida: 800 A y 300 V.
+
+2. Requerimientos Energéticos y de Eficiencia
+   •   Eficiencia de Conversión: 92%.
+   •   Consumo de Potencia Típico: 120 kW.
+   •   Gestión Térmica: Sistema de enfriamiento activo con intercambiadores de calor.
+   •   Salida Eléctrica Estable: Ondulación ≤±1.5%, potencia nominal 120 kW estable.
+
+3. Parámetros de Control, Integración y Monitoreo
+   •   Frecuencia de Ajuste: 80 ms.
+   •   Integración de Sensores: Datos a 12 Hz.
+   •   Algoritmos Avanzados: IA/AGI y computación cuántica para optimización en tiempo real.
+   •   Baterías: Li-ion 600 kWh, 260 Wh/kg.
+   •   Celdas de Combustible de Hidrógeno: Eficiencia 65%.
+   •   Modo Híbrido: Soporta configuraciones eléctricas y de turbina.
+
+4. Parámetros Normativos y de Seguridad
+   •   Cumplimiento Normativo: EASA CS-25, FAA FAR Part 25.
+   •   Sistemas de Parada de Emergencia: E-Stop automático y manual.
+   •   Protecciones Físicas: Barreras térmicas y escudos protectores.
+   •   Ciberseguridad: Cifrado AES-256, autenticación multifactor.
+
+5. Conectividad, Usabilidad y Ergonomía
+   •   Panel Central de Control: Display táctil de 15 pulgadas, indicadores digitales.
+   •   Gemelos Digitales: Modelo actualizado en tiempo real con monitoreo en la nube.
+   •   Ergonomía: Estaciones de trabajo ajustables y cómodas.
+
+6. Mantenibilidad y Actualización
+   •   Mantenimiento Predictivo: Detecta fallos con 95% de precisión.
+   •   Inventario de Repuestos: Disponibilidad de componentes críticos en ≤24 horas.
+   •   Arquitectura Modular: Fácil sustitución de electrodos y sistemas de enfriamiento.
+
+7. Iteración Evolutiva
+   •   Ciclos de Iteración: 8 iteraciones para refinamiento.
+   •   Métricas de Evaluación: Mejorar eficiencia energética en 2% por iteración, reducir fluctuaciones aerodinámicas en 1%.
+   •   Datos Sintéticos: Utilizar datos generados artificialmente para entrenamiento de modelos IA.
+
+Genera un diseño detallado que cumpla con estos parámetros, asegurando la integración de tecnologías avanzadas, sostenibilidad, y cumplimiento normativo. Incluye diagramas técnicos, especificaciones de componentes, y estrategias de implementación.
+
+---
+
+## Uso del Prompt
+1. **Personaliza los parámetros:** Ajusta los valores según las necesidades específicas del proyecto o las nuevas iteraciones.
+2. **Itera el diseño:** Utiliza el prompting evolutivo para refinar el diseño en cada iteración, asegurando mejoras continuas.
+3. **Valida cumplimiento:** Asegúrate de que cada diseño generado cumple con las normativas y estándares aplicables.
+4. **Incorpora feedback:** Integra el feedback de equipos de ingeniería y mantenimiento para optimizar el diseño.
+
+## Conclusión
+Siguiendo estas directrices, podrás generar diseños técnicos industriales avanzados y refinados para el Sistema MHD DIFFUSP, asegurando coherencia con las especificaciones del PTS y adaptabilidad a futuros desarrollos tecnológicos.
+
+---
+
+**Nota:** Este prompt sirve como guía y puede ser adaptado según las herramientas de generación de diseño técnico utilizadas y las necesidades específicas del proyecto.
+
 ## **Document ID:** G-DS-PTS-DIFF-001  
 ## **Version:** 1.1  
 ## **Date:** December 2024-12-20
@@ -217,9 +379,9 @@ mindmap
         Fire Suppression Systems
       Network & Communications
         Data Cabling & Fiber Optics
-        Wireless Access Points
+        Wireless Access Points```
 
-4.2 Benefits of the PBS
+# 4.2 Benefits of the PBS
    •   Clarity & Communication: Provides stakeholders with a clear, shared understanding of the system’s structure.
    •   Project Management: Enhances planning, scheduling, and resource allocation by identifying all required components.
    •   Risk Management: Identifies critical components and subsystems for proactive mitigation of potential risks.
