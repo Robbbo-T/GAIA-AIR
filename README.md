@@ -1,5 +1,6 @@
-![Logo](./assets/logo.png)**![       _____ _             _
-Product Technical Specification (PTS) for Magnetohydrodynamic (MHD) System
+![Logo](./assets/logo.png)
+
+**!Product Technical Specification (PTS) for Magnetohydrodynamic (MHD) System
 
 Introduction
 
@@ -19096,67 +19097,4 @@ El sistema de control de elevador gestiona el elevador de cola, responsable de c
   - **Beneficios:** Mejora la seguridad operativa, previene desviaciones de vuelo y minimiza el riesgo de accidentes.
 
 - ***Mantenimiento Predictivo del Sistema de Elevador:***
-  - **Función:** Implementa IA para predecir el desgaste y posibles fallos en el sistema de elevador basándose en datos de uso y sensores.
-  - **Beneficios:** Reduce el tiempo de inactividad, optimiza los programas de mantenimiento y asegura el funcionamiento fiable del elevador.
-
-- ***Simulación de Manejo del Elevador:***
-  - **Función:** Utiliza simulaciones basadas en IA para entrenar a la tripulación en el manejo del elevador bajo diferentes condiciones y emergencias.
-  - **Beneficios:** Mejora la preparación de la tripulación, reduce errores operativos y asegura una respuesta efectiva ante situaciones críticas.
-
-- ***Integración con Sistemas de Navegación y Piloto Automático:***
-  - **Función:** Emplea IA para coordinar el sistema de control de elevador con los sistemas de navegación y piloto automático, garantizando una operación armoniosa y eficiente.
-  - **Beneficios:** Mejora la precisión en la navegación, optimiza el rendimiento del vuelo y reduce la carga de trabajo de la tripulación.
-
-- ***Análisis de Rendimiento del Elevador:***
-  - **Función:** Utiliza IA para evaluar y analizar el rendimiento del elevador, identificando áreas de mejora y optimizando su funcionamiento.
-  - **Beneficios:** Aumenta la eficiencia operativa, mejora la maniobrabilidad y asegura el cumplimiento de los estándares de rendimiento.
-
----
-
-## **2731. SISTEMA DE CONTROL DE TAB DE ELEVADOR**
-
-**Descripción General:**
-El sistema de control de tab de elevador gestiona los pequeños dispositivos (tabs) ubicados en el elevador de cola. Estos tabs mejoran la eficiencia del elevador al reducir la resistencia y aumentar el control longitudinal durante maniobras, facilitando movimientos más suaves y precisos.
-
-**Aplicaciones de IA:**
-
-- ***Optimización del Movimiento de Tabs de Elevador:***
-  - **Función:** Utiliza IA para ajustar automáticamente la posición de los tabs de elevador en tiempo real, mejorando la eficiencia aerodinámica y la precisión del control.
-  - **Beneficios:** Aumenta la eficiencia aerodinámica, reduce el desgaste mecánico y mejora la respuesta del sistema de control.
-
-- ***Detección y Corrección de Fallos en Tabs de Elevador:***
-  - **Función:** Emplea algoritmos de IA para monitorear el funcionamiento de los tabs de elevador y detectar fallos o malfuncionamientos en tiempo real.
-  - **Beneficios:** Aumenta la seguridad operativa, previene desviaciones no deseadas y facilita el mantenimiento proactivo.
-
-- ***Mantenimiento Predictivo de Tabs de Elevador:***
-  - **Función:** Implementa IA para predecir el desgaste y posibles fallos en los tabs de elevador basándose en datos de uso y sensores.
-  - **Beneficios:** Reduce el tiempo de inactividad, optimiza los programas de mantenimiento y asegura la fiabilidad continua del sistema de control de tabs.
-
-- ***Simulación de Manejo de Tabs de Elevador:***
-  - **Función:** Utiliza simulaciones basadas en IA para entrenar a la tripulación en el manejo de los tabs de elevador bajo diferentes condiciones y emergencias.
-  - **Beneficios:** Mejora la preparación de la tripulación, reduce errores operativos y asegura una respuesta efectiva ante situaciones críticas.
-
-- ***Integración con Sistemas de Navegación y Piloto Automático:***
-  - **Función:** Emplea IA para coordinar el sistema de control de tabs de elevador con los sistemas de navegación y piloto automático, garantizando una operación armoniosa y eficiente.
-  - **Beneficios:** Mejora la precisión en la navegación, optimiza el rendimiento del vuelo y reduce la carga de trabajo de la tripulación.
-
-- ***Análisis de Rendimiento de Tabs de Elevador:***
-  - **Función:** Utiliza IA para evaluar y analizar el rendimiento de los tabs de elevador, identificando áreas de mejora y optimizando su funcionamiento.
-  - **Beneficios:** Aumenta la eficiencia operativa, mejora la maniobrabilidad y asegura el cumplimiento de los estándares de rendimiento.
-
----
-
-## **2740. SISTEMA DE CONTROL DE ESTABILIZADORES**
-
-**Descripción General:**
-El sistema de control de estabilizadores gestiona los estabilizadores horizontales y verticales de la aeronave, responsables de mantener la estabilidad y control durante el vuelo. Los estabilizadores ajustan la posición de los estabilizadores para contrarrestar fuerzas aerodinámicas y mantener la trayectoria de vuelo.
-
-**Aplicaciones de IA:**
-
-- ***Optimización del Control de Estabilizadores:***
-  - **Función:** Utiliza IA para ajustar automáticamente la posición de los estabilizadores en tiempo real, mejorando la estabilidad y el control del avión.
-  - **Beneficios:** Aumenta la estabilidad del vuelo, reduce el consumo de combustible y mejora la respuesta ante condiciones de vuelo cambiantes.
-
-- ***Detección y Corrección de Fallos en Estabilizadores:***
-  - **Función:** Emplea algoritmos de IA para monitorear el funcionamiento de los estabilizadores y detectar fallos o malfuncionamientos en tiempo real.
-  - **Beneficios:** Mejora la seguridad operativa, previene desviaciones de vuelo y facilita el manten
+  - **Función:** Implementa IA para predecir el desgaste y posibles fallos en el sistema
