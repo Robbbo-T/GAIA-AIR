@@ -1,4 +1,4 @@
-![Logo](./assets/logo.png)
+[Logo]( |___/image](https://github.com/user-attachments/assets/3348c94e-2b07-4519-9090-1d268fc63842)**![t2y0c1ud](https://github.com/user-attachments/assets/380956e5-35cc-4700-a706-25e76c472974)./assets/logo.png)
 
 **!Product Technical Specification (PTS) for Magnetohydrodynamic (MHD) System
 
@@ -120,8 +120,7 @@ Compliance with Standards: Adherence to relevant industry standards such as ISO,
 
 Conclusion
 
-The MHD system represents a breakthrough in sustainable propulsion and energy generation by leveraging the principles of magnetohydrodynamics. Its high efficiency, low mechanical wear, and minimal environmental impact make it an ideal candidate for advanced aerospace and marine applications. This system not only provides thrust for propulsion but also offers a promising alternative for clean and efficient energy generation.  |___/
-image](https://github.com/user-attachments/assets/3348c94e-2b07-4519-9090-1d268fc63842)**![t2y0c1ud](https://github.com/user-attachments/assets/380956e5-35cc-4700-a706-25e76c472974)
+The MHD system represents a breakthrough in sustainable propulsion and energy generation by leveraging the principles of magnetohydrodynamics. Its high efficiency, low mechanical wear, and minimal environmental impact make it an ideal candidate for advanced aerospace and marine applications. This system not only provides thrust for propulsion but also offers a promising alternative for clean and efficient energy generation. 
 
 Below is the revised and finalized version of the Product Technical Specifications (PTS) for DIFFUSP, updated to incorporate corrections and enhancements based on the review provided. Key improvements include added guidance on subsystem integration, references to visual aids, consideration of additional environmental scenarios, detailed scalability guidelines, alignment of test criteria with requirements, lifecycle sustainability targets, and expanded sections on interdependencies, manufacturing guidelines, cybersecurity measures, human factors, and feedback loops.
 
