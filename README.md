@@ -1,11 +1,125 @@
 ![Logo](./assets/logo.png)**![       _____ _             _
-      / ____| |           | |
-     | |  __| |_   _  __ _| | ___   __ _
-     | | |_ | | | | |/ _` | |/ _ \ / _` |
-     | |__| | | |_| | (_| | | (_) | (_| |
-      \_____|_|\__,_|\__, |_|\___/ \__, |
-                      __/ |        __/ |
-                     |___/        |___/
+Product Technical Specification (PTS) for Magnetohydrodynamic (MHD) System
+
+Introduction
+
+Purpose: Define the technical specifications for the Magnetohydrodynamic (MHD) system designed for energy generation and/or propulsion applications.
+
+Scope: The specification encompasses design, operational parameters, and system performance of the MHD system, detailing the interaction of magnetic fields and conductive fluids (e.g., plasma, seawater).
+
+Background: Magnetohydrodynamics (MHD) involves the study of the behavior of electrically conductive fluids in the presence of magnetic fields, enabling both thrust generation for propulsion and electrical energy generation through the interaction of fluid motion and magnetic fields.
+
+System Overview
+
+Description: The MHD system operates by passing a conductive fluid through a magnetic field, inducing an electromotive force (EMF) via the principles of Faraday’s Law of Induction. This results in either thrust generation for propulsion or conversion to electrical energy for power generation.
+
+Components:
+
+Magnetic Field Generator: Permanent magnets or superconducting coils for generating the necessary magnetic field.
+
+Conductive Fluid Medium: Plasma (ionized gas) or seawater that serves as the working fluid.
+
+Electrodes (Current Collectors): Used for collecting the generated current and/or providing electrical input to the system.
+
+Power Control and Regulation System: Manages system input and output, including voltage regulation, current management, and thermal control.
+
+Technical Specifications
+
+3.1 Magnetic Field
+
+Field Strength: 1-5 Tesla, depending on system size and application.
+
+Field Uniformity: ± 5%, to ensure stable operation.
+
+Magnetic Source:
+
+Permanent magnets (e.g., Neodymium Iron Boron [NdFeB] or similar high-strength magnets).
+
+Optional: Superconducting magnets for high-output, energy-efficient systems.
+
+Operational Temperature Range: -20°C to +50°C, ensuring performance in a wide range of environments.
+
+3.2 Conductive Medium
+
+Type of Fluid:
+
+Plasma: Ionized gas, typically operating at temperatures between 5000-15000 K.
+
+Seawater: Conductivity of approximately 5 mS/cm at room temperature.
+
+Flow Velocity: 10-20 m/s, depending on application (propulsion vs. energy generation).
+
+Density:
+
+Plasma: 1-2 kg/m³.
+
+Seawater: 1000 kg/m³.
+
+3.3 Electrodes and Current Management
+
+Electrode Material: Graphite, tungsten, or conductive ceramics for high durability and minimal erosion.
+
+Electrode Lifespan: 5000-10,000 hours at a current density of 10 A/cm².
+
+Maximum Current Output: 1000 Amps, capable of handling significant loads.
+
+Voltage Range: 100-500 volts, adjustable based on system requirements.
+
+3.4 Energy Efficiency
+
+Conversion Efficiency: 90%, ensuring optimal use of input energy for the desired output.
+
+Power Consumption: 100 kW (typical operating power).
+
+Heat Loss Management: Active cooling systems for magnets and electrodes to manage excess heat and maintain system integrity.
+
+Performance Requirements
+
+4.1 Thrust Generation (If used for propulsion)
+
+Specific Impulse: 3000 seconds, suitable for advanced propulsion systems.
+
+Thrust Output: 100-1000 N, depending on system size and application.
+
+4.2 Power Generation (If used for energy generation)
+
+Electrical Power Output: 100 kW, providing high output for energy generation needs.
+
+Stability of Output: ± 2% ripple to ensure stable power delivery.
+
+Operational Lifetime: 10,000 hours under nominal operating conditions.
+
+System Interfaces
+
+Mechanical Interface: Connection points for fluid reservoirs, piping, or nozzles to facilitate fluid flow through the system.
+
+Electrical Interface: Power input and output ports, with proper grounding and safety measures.
+
+Thermal Interface: Integration with cooling subsystems to regulate the temperature of magnets, electrodes, and other critical components.
+
+Environmental Requirements
+
+Operating Conditions:
+
+Temperature: -20°C to +50°C to accommodate a variety of operational environments.
+
+Pressure: Atmospheric pressure (1 atm) for standard applications, with optional provisions for high-altitude or underwater operation.
+
+Electromagnetic Interference (EMI) Shielding: Ensure compatibility with surrounding electronic systems, preventing interference.
+
+Maintenance Cycle: 5000 hours, ensuring long-term operation before major maintenance or system overhaul.
+
+Safety and Compliance
+
+Electrical Safety: Protection mechanisms for high-voltage systems, including insulation and surge protection.
+
+Magnetic Exposure Safety: Mitigation strategies to reduce the impact of magnetic fields on surrounding personnel and equipment, such as proper shielding.
+
+Compliance with Standards: Adherence to relevant industry standards such as ISO, IEEE, and MIL-SPEC for safety, environmental impact, and performance.
+
+Conclusion
+
+The MHD system represents a breakthrough in sustainable propulsion and energy generation by leveraging the principles of magnetohydrodynamics. Its high efficiency, low mechanical wear, and minimal environmental impact make it an ideal candidate for advanced aerospace and marine applications. This system not only provides thrust for propulsion but also offers a promising alternative for clean and efficient energy generation.  |___/
 image](https://github.com/user-attachments/assets/3348c94e-2b07-4519-9090-1d268fc63842)**![t2y0c1ud](https://github.com/user-attachments/assets/380956e5-35cc-4700-a706-25e76c472974)
 
 Below is the revised and finalized version of the Product Technical Specifications (PTS) for DIFFUSP, updated to incorporate corrections and enhancements based on the review provided. Key improvements include added guidance on subsystem integration, references to visual aids, consideration of additional environmental scenarios, detailed scalability guidelines, alignment of test criteria with requirements, lifecycle sustainability targets, and expanded sections on interdependencies, manufacturing guidelines, cybersecurity measures, human factors, and feedback loops.
@@ -19045,6 +19159,4 @@ El sistema de control de estabilizadores gestiona los estabilizadores horizontal
 
 - ***Detección y Corrección de Fallos en Estabilizadores:***
   - **Función:** Emplea algoritmos de IA para monitorear el funcionamiento de los estabilizadores y detectar fallos o malfuncionamientos en tiempo real.
-  - **Beneficios:** Mejora la seguridad operativa, previene desviaciones de vuelo y facilita el mantenimiento proactivo.
-
-- ***M
+  - **Beneficios:** Mejora la seguridad operativa, previene desviaciones de vuelo y facilita el manten
