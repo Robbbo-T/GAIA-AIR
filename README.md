@@ -1064,50 +1064,154 @@ flowchart LR
 ```
 
 
-## **Capítulo 22: AUTO FLIGHT SYSTEM** *(Sistemas de Vuelo Automático)*
+# ATA 22 - AUTO FLIGHT SYSTEM
+
 **System_Code:** 22000000  
-**JASC_Code:** N/A (Aplica a sistemas de control de vuelo automático)  
 **Title:** Sistemas de Vuelo Automático Integrados con IA/AGI y QAOA para Optimización de Trayectoria  
-**Description:** Esta sección detalla cómo los sistemas de vuelo automático del A360XWLRGA utilizan IA/AGI para el control dinámico de la trayectoria y QAOA para la optimización de rutas en tiempo real, asegurando precisión, eficiencia y adaptabilidad en diversas condiciones de vuelo.
+**Description:** Esta sección detalla cómo los sistemas de vuelo automático del A360XWLRGA utilizan IA/AGI para el control dinámico de la trayectoria y QAOA para la optimización de rutas en tiempo real, asegurando precisión, eficiencia y adaptabilidad. Incluye la integración con gemelos digitales, FADEC seguro, algoritmos cuánticos, y comunicación con otros subsistemas.  
 **Page_Number:** 14  
 **CLASS_CATEGORY:** FLIGHT CONTROL SYSTEMS  
-**DEEPLEVEL:** 0 (Nivel general)  
 **DMC_DOMAIN_DESC:** Flight Control and Autopilot Domain  
-**ASSIGNABLE_ATAXX_XX_XX_DESC:** N/A  
 **VERSION_MODEL:** o1pro (Versión inicial)  
-**TYPE:** Autopilot and Flight Management Procedures
+**TYPE:** Autopilot and Flight Management Procedures  
+**DEEPLEVEL:** 0 (Nivel general)  
+**JASC_Code:** N/A (Aplica a sistemas de control de vuelo automático)  
+**ASSIGNABLE_ATAXX_XX_XX_DESC:** N/A
 
 ---
 
-### 22.1 IA/AGI para Control Dinámico de Trayectoria
+## Tabla Única de Product Breakdown Structure (PBS) para el Capítulo 22 - AUTO FLIGHT
 
-- **Adaptación en Tiempo Real:** La IA/AGI analiza datos de vuelo en tiempo real (velocidad, altitud, condiciones meteorológicas) y ajusta automáticamente los controles de vuelo para mantener la trayectoria óptima.
-- **Eficiencia de Combustible:** Optimiza la ruta y la altitud para minimizar el consumo de combustible, ajustando parámetros de vuelo según las condiciones cambiantes.
-- **Interacción con Gemelos Digitales:** La IA/AGI utiliza gemelos digitales para predecir y simular escenarios de vuelo, anticipando necesidades de ajuste antes de que ocurran.
+| **Nivel** | **Código ATA** | **Componente / Subcomponente**                      | **Descripción**                                                                                                                                                                 |
+|-----------|----------------|----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1**     | 22             | **Sistema de Vuelo Automático**                    | Sistema integrado de control de vuelo automático del A360XWLRGA, con IA/AGI, QAOA, algoritmos cuánticos, FADEC seguro, optimización de trayectoria y gemelos digitales.           |
+| **2**     | 22-1           | **Control Dinámico de Trayectoria (IA/AGI)**       | IA/AGI analiza datos de vuelo en tiempo real (velocidad, altitud, meteorología) ajustando controles para mantener trayectoria óptima.                                           |
+| **3**     | 22-1-1         | **Módulo IA/AGI de Análisis en Tiempo Real**       | Evaluación continua de parámetros de vuelo (FIG01).                                                                                                                             |
+| **4**     | 22-1-1-01      | **Sensores Avanzados de Vuelo**                    | Recolectan datos (velocidad, altitud, actitud) para IA (FIG02).                                                                                                                  |
+| **4**     | 22-1-1-02      | **Procesador IA/AGI Central**                      | Algoritmos IA ajustan superficies de control, potencia, estabilización (FIG03).                                                                                                 |
+| **3**     | 22-1-2         | **Interfaz con Gemelos Digitales**                 | IA/AGI utiliza gemelos digitales para simular escenarios y anticipar ajustes (FIG04).                                                                                           |
+| **4**     | 22-1-2-01      | **Servidor Gemelo Digital de Trayectoria**         | Ejecuta simulaciones predictivas del perfil de vuelo (FIG05).                                                                                                                    |
+| **4**     | 22-1-2-02      | **Interfaz Usuario Gemelo Digital**                | Visualización y ajuste de parámetros simulados (FIG06).                                                                                                                         |
+| **2**     | 22-2           | **Optimización de Trayectorias con QAOA**          | QAOA calcula rutas óptimas balanceando tiempo, combustible y seguridad.                                                                                                          |
+| **3**     | 22-2-1         | **Módulo QAOA Integrado**                          | Ejecuta algoritmos cuánticos aproximados en tiempo real (FIG01).                                                                                                                 |
+| **4**     | 22-2-1-01      | **Interfaz QAOA-IA**                               | IA provee contexto (meteorología, tráfico aéreo) a QAOA (FIG02).                                                                                                                 |
+| **4**     | 22-2-1-02      | **Módulo Selección Rutas Óptimas**                 | QAOA genera y actualiza rutas de vuelo optimizadas (FIG03).                                                                                                                      |
+| **3**     | 22-2-2         | **Gestión de Escenarios Volátiles**                | Ajustes de ruta ante turbulencias, clima adverso o restricción de tráfico (FIG04).                                                                                              |
+| **4**     | 22-2-2-01      | **Sensor Monitor Condiciones Externas**            | Detecta turbulencia, congestión aérea (FIG05).                                                                                                                                  |
+| **4**     | 22-2-2-02      | **Actualizador Dinámico de Trayectoria**           | Aplica soluciones QAOA ante cambios inesperados (FIG06).                                                                                                                         |
+| **2**     | 22-3           | **Sistemas de Autopiloto Inteligente**             | Algoritmos de ML/IA mejoran la precisión, respuesta y adaptabilidad del autopiloto.                                                                                             |
+| **3**     | 22-3-1         | **Módulos de Control Avanzados**                   | Controladores autoadaptativos para ajustar superficies de control, FADEC seguro (FIG01).                                                                                        |
+| **4**     | 22-3-1-01      | **FADEC Integrado Inteligente**                    | Ajusta potencia del motor en función de ruta y condiciones (FIG02).                                                                                                             |
+| **4**     | 22-3-1-02      | **Controladores de Superficies de Vuelo IA/AGI**    | Alerones, timón, elevadores optimizados (FIG03).                                                                                                                                |
+| **3**     | 22-3-2         | **Fail-Safe y Redundancia**                        | Sistemas de respaldo garantizan operación segura en caso de fallos.                                                                                                              |
+| **4**     | 22-3-2-01      | **Control Redundante en Superficies**              | Mecanismos redundantes para control de vuelo (FIG04).                                                                                                                           |
+| **4**     | 22-3-2-02      | **Respaldo Computacional IA**                      | Nodo IA backup listo para asumir control (FIG05).                                                                                                                              |
+| **3**     | 22-3-3         | **Interfaz de Usuario Intuitiva**                  | Paneles de control permiten monitoreo y ajustes manuales del autopiloto (FIG06).                                                                                                |
+| **4**     | 22-3-3-01      | **Pantalla Táctil Autopiloto**                     | Visualiza estado, trayectorias y recomendaciones IA (FIG07).                                                                                                                     |
+| **4**     | 22-3-3-02      | **Controles Manuales Simplificados**               | Palancas/mandos con realimentación háptica (FIG08).                                                                                                                             |
+| **2**     | 22-4           | **Comunicación entre Sistemas de Vuelo y Otros**   | Integración con navegación, gestión energética, seguridad cibernética.                                                                                                          |
+| **3**     | 22-4-1         | **Integración con Navegación**                     | Uso de datos GNSS, INS, radios, ajustados por IA (FIG01).                                                                                                                        |
+| **4**     | 22-4-1-01      | **Módulo Navegación Precisa**                      | Integra datos GNSS/INS para mejora trayectoria (FIG02).                                                                                                                         |
+| **4**     | 22-4-1-02      | **Fusión de Datos Sensoriales IA**                 | IA combina datos múltiples para mayor precisión (FIG03).                                                                                                                        |
+| **3**     | 22-4-2         | **Sincronización con Gestión Energética**          | Alinea parámetros de vuelo con consumo energético óptimo (FIG04).                                                                                                                |
+| **4**     | 22-4-2-01      | **Interfaz Gestión Potencia**                      | Ajustes coord. con sistemas de potencia/motor (FIG05).                                                                                                                          |
+| **4**     | 22-4-2-02      | **Monitoreo Consumo Combustible IA**               | IA estima y optimiza uso de combustible (FIG06).                                                                                                                                |
+| **3**     | 22-4-3         | **Seguridad y Ciberseguridad**                     | Protocolos avanzados para proteger comunicaciones ante interferencias (FIG07).                                                                                                 |
+| **4**     | 22-4-3-01      | **Cifrado Blockchain Datos Vuelo**                 | Garantiza integridad y trazabilidad (FIG08).                                                                                                                                    |
+| **4**     | 22-4-3-02      | **Detección Intrusiones IA**                       | IA detecta y bloquea accesos no autorizados (FIG09).                                                                                                                            |
+| **2**     | 22-5           | **Beneficios Operativos**                          | Precisión, eficiencia, seguridad gracias a IA/AGI, QAOA y automatización avanzada.                                                                                               |
+| **3**     | 22-5-1         | **Mayor Precisión Navegación**                     | Reducción de error humano, trayectorias exactas (FIG01).                                                                                                                        |
+| **4**     | 22-5-1-01      | **Optimización Dinámica IA**                       | Ajustes en tiempo real según condiciones (FIG02).                                                                                                                              |
+| **4**     | 22-5-1-02      | **Monitoreo Contínuo de Trayectoria**              | IA vigila y corrige trayectorias (FIG03).                                                                                                                                       |
+| **3**     | 22-5-2         | **Aumento Eficiencia Operativa**                   | Rutas óptimas, ahorro combustible, reducción costos (FIG04).                                                                                                                     |
+| **4**     | 22-5-2-01      | **QAOA Minimiza Distancias**                       | Evita rutas redundantes, turbulencias (FIG05).                                                                                                                                  |
+| **4**     | 22-5-2-02      | **IA Ajusta Altitud y Velocidad**                  | Equilibrio entre tiempo y consumo (FIG06).                                                                                                                                      |
+| **3**     | 22-5-3         | **Mejora Seguridad**                               | Autopiloto avanzado reacciona rápido a condiciones cambiantes (FIG07).                                                                                                           |
+| **4**     | 22-5-3-01      | **Fail-Safe Multi-Nivel**                          | Redundancia y protocolos seg. (FIG08).                                                                                                                                          |
+| **4**     | 22-5-3-02      | **IA/AGI Soporte Toma Decisiones Críticas**        | Ayuda en emergencias (FIG09).                                                                                                                                                   |
 
-### 22.2 Optimización de Trayectorias con QAOA
+---
 
-- **QAOA (Quantum Approximate Optimization Algorithm):** Empleado para calcular rutas de vuelo óptimas que balancean tiempo, consumo de combustible y seguridad.
-- **Reducción de Distancias Innecesarias:** Identifica y elimina rutas redundantes o ineficientes, ajustando el camino para evitar turbulencias o condiciones adversas.
-- **Integración IA-QAOA:** La IA provee parámetros contextuales a QAOA, permitiendo una optimización continua y adaptativa de la trayectoria de vuelo.
+```markdown
+# Mermaid Flowchart - ATA 22: AUTO FLIGHT PBS
 
-### 22.3 Sistemas de Autopiloto Inteligente
+A continuación se presenta un diagrama en Mermaid que representa el Product Breakdown Structure (PBS) del sistema ATA 22 - AUTO FLIGHT, incorporando IA/AGI, QAOA, gemelos digitales, FADEC seguro y funciones avanzadas de comunicación, eficiencia y seguridad.  
+El esquema utiliza un fondo negro, coloración en azul eléctrico y texto agrandado para una mejor legibilidad y contraste.
 
-- **Módulos de Control Avanzados:** Utilizan algoritmos de aprendizaje automático para mejorar continuamente la precisión y respuesta del autopiloto.
-- **Fail-Safe y Redundancia:** Sistemas de respaldo asegurando operaciones seguras en caso de fallos de componentes principales.
-- **Interfaz de Usuario Intuitiva:** Paneles de control fáciles de usar que permiten ajustes manuales y monitoreo del estado del autopiloto.
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground':'#333', 'tertiaryColor': '#000000', 'fontSize': '28px', 'nodeTextColor': '#00FFFF'}}}%%
+flowchart LR
+    %% Main System Header
+    A[22000000: Sistemas de Vuelo Automático]
 
-### 22.4 Comunicación entre Sistemas de Vuelo y Otros Subsistemas
+    %% Nivel 1
+    A --> B[22: Sistema de Vuelo Automático]
 
-- **Integración con Sistemas de Navegación:** Asegura que los datos de navegación sean precisos y estén sincronizados con los controles de vuelo automático.
-- **Sincronización con Gestión Energética:** Coordina ajustes de vuelo con la gestión de energía para optimizar el rendimiento general del avión.
-- **Seguridad y Ciberseguridad:** Implementa protocolos avanzados de seguridad para proteger las comunicaciones y evitar interferencias externas.
+    %% Nivel 2 - Control Dinámico (IA/AGI)
+    subgraph LEVEL2_1[22-1: Control Dinámico de Trayectoria (IA/AGI)]
+        B --> C[22-1-1: Módulo IA/AGI de Análisis en Tiempo Real]
+        C --> D[22-1-1-01: Sensores Avanzados de Vuelo]
+        C --> E[22-1-1-02: Procesador IA/AGI Central]
+        C --> F[22-1-2: Interfaz con Gemelos Digitales]
+        F --> G[22-1-2-01: Servidor Gemelo Digital de Trayectoria]
+        F --> H[22-1-2-02: Interfaz Usuario Gemelo Digital]
+    end
 
-### 22.5 Beneficios: Precisión, Eficiencia y Seguridad
+    %% Nivel 2 - Optimización QAOA
+    subgraph LEVEL2_2[22-2: Optimización de Trayectorias con QAOA]
+        B --> I[22-2-1: Módulo QAOA Integrado]
+        I --> J[22-2-1-01: Interfaz QAOA-IA]
+        I --> K[22-2-1-02: Módulo Selección Rutas Óptimas]
+        I --> L[22-2-2: Gestión de Escenarios Volátiles]
+        L --> M[22-2-2-01: Sensor Monitor Condiciones Externas]
+        L --> N[22-2-2-02: Actualizador Dinámico de Trayectoria]
+    end
 
-- **Mayor Precisión en la Navegación:** Reducción de errores humanos, asegurando trayectorias de vuelo más exactas.
-- **Aumento de la Eficiencia Operativa:** Optimización de rutas y parámetros de vuelo que resultan en ahorro de combustible y reducción de costos operativos.
-- **Mejora de la Seguridad:** Sistemas de autopiloto avanzados que responden rápidamente a condiciones cambiantes, reduciendo riesgos de accidentes.
+    %% Nivel 2 - Autopiloto Inteligente
+    subgraph LEVEL2_3[22-3: Sistemas de Autopiloto Inteligente]
+        B --> O[22-3-1: Módulos de Control Avanzados]
+        O --> P[22-3-1-01: FADEC Integrado Inteligente]
+        O --> Q[22-3-1-02: Controladores de Superficies de Vuelo IA/AGI]
+        O --> R[22-3-2: Fail-Safe y Redundancia]
+        R --> S[22-3-2-01: Control Redundante en Superficies]
+        R --> T[22-3-2-02: Respaldo Computacional IA]
+        O --> U[22-3-3: Interfaz de Usuario Intuitiva]
+        U --> V[22-3-3-01: Pantalla Táctil Autopiloto]
+        U --> W[22-3-3-02: Controles Manuales Simplificados]
+    end
+
+    %% Nivel 2 - Comunicación y Sincronización
+    subgraph LEVEL2_4[22-4: Comunicación entre Sistemas de Vuelo y Otros]
+        B --> X[22-4-1: Integración con Navegación]
+        X --> Y[22-4-1-01: Módulo Navegación Precisa]
+        X --> Z[22-4-1-02: Fusión de Datos Sensoriales IA]
+        X --> AA[22-4-2: Sincronización con Gestión Energética]
+        AA --> AB[22-4-2-01: Interfaz Gestión Potencia]
+        AA --> AC[22-4-2-02: Monitoreo Consumo Combustible IA]
+        X --> AD[22-4-3: Seguridad y Ciberseguridad]
+        AD --> AE[22-4-3-01: Cifrado Blockchain Datos Vuelo]
+        AD --> AF[22-4-3-02: Detección Intrusiones IA]
+    end
+
+    %% Nivel 2 - Beneficios Operativos
+    subgraph LEVEL2_5[22-5: Beneficios Operativos]
+        B --> AG[22-5-1: Mayor Precisión Navegación]
+        AG --> AH[22-5-1-01: Optimización Dinámica IA]
+        AG --> AI[22-5-1-02: Monitoreo Contínuo de Trayectoria]
+        AG --> AJ[22-5-2: Aumento Eficiencia Operativa]
+        AJ --> AK[22-5-2-01: QAOA Minimiza Distancias]
+        AJ --> AL[22-5-2-02: IA Ajusta Altitud y Velocidad]
+        AG --> AM[22-5-3: Mejora Seguridad]
+        AM --> AN[22-5-3-01: Fail-Safe Multi-Nivel]
+        AM --> AO[22-5-3-02: IA/AGI Soporte Toma Decisiones Críticas]
+    end
+```
+
+
+## Conclusión
+
+Esta estructura PBS para ATA 22 (AUTO FLIGHT) integra IA/AGI, QAOA, gemelos digitales, algoritmos cuánticos y FADEC seguro, ofreciendo un control de vuelo automático altamente optimizado, eficiente y seguro. La combinación de tecnologías emergentes y protocolos de seguridad/ciberseguridad garantiza una operación confiable en condiciones de vuelo variables, maximizando la eficiencia operativa, la precisión de la navegación y la seguridad de la aeronave.
+
 
 ---
 
