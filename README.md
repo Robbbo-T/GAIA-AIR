@@ -1074,192 +1074,114 @@ A continuación se presenta una **Tabla Única de Product Breakdown Structure (P
     
  
     
-Tabla Única de PBS - ATA 21 (Air Conditioning)
-Nivel	Código ATA	Componente/Subcomponente	Descripción
-1	21	Sistema de Aire Acondicionado	Sistema completo integrando IA/AGI, QAOA, Gemelos Digitales, Blockchain, refrigerantes verdes, economía circular y controles ambientales.
-2	21-1	Máquina de Ciclo de Aire (ACM)	Subsistema del ciclo térmico: compresor, expansor e intercambiadores.
-3	21-1-1	Compresor	Eleva presión y temperatura del refrigerante. IA/AGI ajusta rendimiento en tiempo real.
-4	21-1-1-01	Unidad de Compresión IA/AGI	Procesador IA/AGI optimiza parámetros del compresor (FIG01).
-4	21-1-1-02	Sensores de Presión Compresor	Monitorean presión para ajustes automáticos (FIG02).
-3	21-1-2	Expansor	Reduce la presión del refrigerante. QAOA mejora eficiencia energética.
-4	21-1-2-01	Módulo Control Expansor QAOA	Algoritmo QAOA optimiza expansión (FIG01).
-4	21-1-2-02	Actuadores del Expansor	Ajustan válvula de expansión según QAOA (FIG02).
-3	21-1-3	Intercambiadores de Calor	Transfieren calor entre refrigerante y aire cabina.
-4	21-1-3-01	Intercambiador Principal	Maneja mayor flujo de refrigerante (FIG01).
-4	21-1-3-02	Intercambiador Secundario	Optimiza intercambio en condiciones extremas (FIG02).
-2	21-2	Unidad de Control Ambiental (ECU)	Controla temperatura, humedad y condiciones cabina. IA/AGI, sensores y actuadores integrados.
-3	21-2-1	Paneles de Control	Interfaces para ajustar y monitorear condiciones.
-4	21-2-1-01	Interfaz Usuario IA/AGI	Paneles con IA/AGI, ajustes automáticos (FIG01).
-4	21-2-1-02	Pantallas Monitoreo Digital	Displays con info en tiempo real (FIG02).
-3	21-2-2	Sensores	Miden temperatura, humedad, ocupación.
-4	21-2-2-01	Sensores Temperatura	Zonas múltiples, alta precisión (FIG01).
-4	21-2-2-02	Sensores Humedad	Controlan niveles húmedos (FIG02).
-4	21-2-2-03	Sensores Ocupación	Detectan presencia pasajeros/tripulación (FIG03).
-3	21-2-3	Actuadores	Ejecutan órdenes del ECU.
-4	21-2-3-01	Actuadores Válvula Aire	Ajustan válvulas según recomendaciones IA/QAOA (FIG01).
-4	21-2-3-02	Actuadores Ventiladores	Regulan velocidad y dirección ventiladores (FIG02).
-2	21-3	Conductos y Tuberías	Infraestructura física distribuye aire y refrigerante.
-3	21-3-1	Conductos de Aire	Distribuyen aire a zonas cabina.
-4	21-3-1-01	Conducto Principal	Conduce aire a todas las zonas (FIG01).
-4	21-3-1-02	Conductos Secundarios	Alimentan áreas específicas (FIG02).
-3	21-3-2	Líneas de Refrigerante	Transportan refrigerante entre componentes.
-4	21-3-2-01	Línea Entrada Refrigerante	Desde compresor a intercambiador (FIG01).
-4	21-3-2-02	Línea Salida Refrigerante	Retorno tras intercambio de calor (FIG02).
-2	21-4	Ventiladores y Sopladores	Mueven aire acondicionado por conductos y zonas.
-3	21-4-1	Soplador Principal	Impulsa aire por ductos principales.
-4	21-4-1-01	Motor Soplador Principal	Motor impulsa soplador (FIG01).
-4	21-4-1-02	Válvula Control Soplador	Ajusta flujo soplador (FIG02).
-3	21-4-2	Ventiladores Cabina	Distribuyen aire en zonas definidas.
-4	21-4-2-01	Ventilador Zona 1	Aire zona delantera (FIG01).
-4	21-4-2-02	Ventilador Zona 2	Aire zona trasera (FIG02).
-2	21-5	Filtros y Tamizadores	Mejoran calidad aire y pureza refrigerante.
-3	21-5-1	Filtros de Aire	Eliminan partículas del aire entrante.
-4	21-5-1-01	Filtro HEPA	Captura partículas finas (FIG01).
-4	21-5-1-02	Filtro Carbón Activado	Elimina olores y VOC (FIG02).
-3	21-5-2	Filtros de Refrigerante	Aseguran pureza refrigerante.
-4	21-5-2-01	Filtro Refrigerante Principal	Elimina impurezas (FIG01).
-4	21-5-2-02	Filtro Refrigerante Secundario	Asegura pureza en condiciones extremas (FIG02).
-2	21-6	Sistemas de Control	Ajustan temperatura, humedad. IA/AGI optimiza en tiempo real.
-3	21-6-1	Controles Temperatura	Ajustan temp. deseada.
-4	21-6-1-01	Termostato Digital IA/AGI	Ajuste auto. según datos reales (FIG01).
-4	21-6-1-02	Sensores Temp Avanzados	Alta precisión múltiples zonas (FIG02).
-3	21-6-2	Controles Humedad	Regulan humedad para confort.
-4	21-6-2-01	Humidificador IA/AGI	Ajusta humedad según IA/AGI (FIG01).
-4	21-6-2-02	Deshumidificador Inteligente	Elimina exceso humedad (FIG02).
-2	21-7	Integración Tecnologías Avanzadas	IA/AGI, QAOA, Blockchain, Gemelos Digitales.
-3	21-7-1	Módulo IA/AGI Integrado	IA/AGI optimiza operación integral del sistema.
-4	21-7-1-01	Procesador IA/AGI Central	Ejecuta algoritmos avanzados (FIG01).
-4	21-7-1-02	Interfaz Comunicación Blockchain	Trazabilidad y seguridad datos (FIG02).
-3	21-7-2	Gemelo Digital Sistema A/A	Replica virtual para simular cargas y validar estrategias.
-4	21-7-2-01	Servidor Simulación Gemelo Digital	Ejecuta simulaciones y sincronización (FIG01).
-4	21-7-2-02	Interfaz Usuario Gemelo Digital	Visualización y ajustes simulados (FIG02).
-3	21-7-3	Módulo Optimización QAOA	QAOA halla configuraciones óptimas (flujo aire, refrigerante).
-4	21-7-3-01	Algoritmo QAOA Optimización	Ejecuta QAOA en tiempo real (FIG01).
-4	21-7-3-02	Interfaz Configuración QAOA	Ajusta parámetros QAOA según necesidades (FIG02).
-2	21-8	Sostenibilidad y Economía Circular	Refrigerantes verdes, economía circular, trazabilidad blockchain.
-3	21-8-1	Refrigerantes Verdes	Bajo GWP/ODP para menor impacto ambiental.
-4	21-8-1-01	Selección Refrigerantes Eco	HFO, CO₂, amoníaco (FIG01).
-4	21-8-1-02	Monitoreo Composición Química	Sensores pureza refrigerante (FIG02).
-3	21-8-2	Economía Circular	Reuso componentes, blockchain ciclo vida.
-4	21-8-2-01	Filtros Reutilizables	DfD remanufactura (FIG01).
-4	21-8-2-02	Trazabilidad con Blockchain	Registro inmutable componentes (FIG02).
-4	21-8-2-03	IA/AGI Predicción Ciclos Vida	IA/AGI define reemplazos óptimos (FIG03).
-3	21-8-3	Cumplimiento Regulatorio y Huella Reducida	Normas EASA/FAA/ISO, auditorías, emisiones.
-4	21-8-3-01	Alineación EASA/FAA/ISO 14040	Procedimientos LCA (FIG01).
-4	21-8-3-02	Auditorías Externas (Blockchain)	Datos inmutables simplifican auditorías (FIG02).
-4	21-8-3-03	Cálculo Emisiones & Compensación	IA estima emisiones, propone mitigación (FIG03).
-2	21-9	Mantenimiento y Soporte Técnico	Mantenimiento predictivo, reparaciones, soporte CI/CD.
-3	21-9-1	Mantenimiento Predictivo	IA/Gemelo Digital anticipan necesidades.
-4	21-9-1-01	Monitor Estado Tiempo Real	Datos operativos p/ mantenimiento predictivo (FIG01).
-4	21-9-1-02	Herramientas Diagnóstico IA/AGI	Identifican fallos potenciales y acciones correctivas (FIG02).
-3	21-9-2	Soporte Técnico y Reparaciones	Equipo y recursos p/ reparaciones complejas.
-4	21-9-2-01	Equipo Reparación Especializado	Personal y herramientas especializadas (FIG01).
-4	21-9-2-02	Sistema Gestión Incidentes	Rastrea incidentes técnicos (FIG02).
-2	21-10	Trazabilidad y Registro	Blockchain, gestión datos, CI/CD.
-3	21-10-1	Ledger Blockchain	Registro inmutable datos operativos/mantto.
-4	21-10-1-01	Nodo Principal Blockchain	Gestiona transacciones e integridad (FIG01).
-4	21-10-1-02	Interfaz Usuario Blockchain	Operadores/auditores acceden registros (FIG02).
-3	21-10-2	Sistema Gestión de Datos	Integración y análisis datos.
-4	21-10-2-01	Base Datos Centralizada	Almacena datos operativos/mantto (FIG01).
-4	21-10-2-02	Plataforma Análisis IA	IA analiza datos p/ optimización continua (FIG02).
-2	21-11	Integración IA/AGI y QAOA	IA/AGI + QAOA optimizan operaciones holísticamente.
-3	21-11-1	Algoritmos IA/AGI Optimización	Modelos predictivos IA.
-4	21-11-1-01	Modelo Predictivo IA	IA predice ajustes requeridos (FIG01).
-4	21-11-1-02	Motor Optimización IA/AGI	Ejecuta recomendaciones optimización (FIG02).
-3	21-11-2	Integración con Sistema Gestión	Implementación automática de ajustes IA/AGI.
-4	21-11-2-01	Interfaz Control Automatizado	Aplica ajustes recomendados (FIG01).
-4	21-11-2-02	Monitor Implementación Ajustes	Verifica correcto despliegue cambios (FIG02).
-¡Entendido! A continuación, presento una Tabla Única de Product Breakdown Structure (PBS) para el Capítulo 21: Air Conditioning (ATA 21), siguiendo la estructura y codificación ATA 100. Además, incluyo un diagrama de flujo en Mermaid que refleja esta estructura jerárquica.
+```markdown
+# Tabla Única de Product Breakdown Structure (PBS) - ATA 21 (Air Conditioning)
 
-📄 Tabla Única de Product Breakdown Structure (PBS) para el Capítulo 21 - Air Conditioning (ATA 21)
-Nivel	Código ATA	Componente/Subcomponente	Descripción
-1	21	Sistema de Aire Acondicionado	Sistema completo de aire acondicionado del A360XWLRGA, integrando IA/AGI, QAOA, Gemelos Digitales, Blockchain, refrigerantes verdes, economía circular y controles ambientales.
-2	21-1	Máquina de Ciclo de Aire (ACM)	Subsistema responsable del ciclo de refrigeración, incluyendo compresor, expansor e intercambiadores de calor.
-3	21-1-1	Compresor	Eleva presión y temperatura del refrigerante. IA/AGI ajusta rendimiento en tiempo real.
-4	21-1-1-01	Unidad de Compresión IA/AGI	Procesador IA/AGI optimiza parámetros del compresor (FIG01).
-4	21-1-1-02	Sensores de Presión Compresor	Monitorean presión para ajustes automáticos (FIG02).
-3	21-1-2	Expansor	Reduce la presión del refrigerante. QAOA mejora eficiencia energética.
-4	21-1-2-01	Módulo Control Expansor QAOA	Algoritmo QAOA optimiza expansión (FIG01).
-4	21-1-2-02	Actuadores del Expansor	Ajustan válvula de expansión según QAOA (FIG02).
-3	21-1-3	Intercambiadores de Calor	Transfieren calor entre refrigerante y aire cabina, permitiendo la refrigeración eficiente del ambiente interior.
-4	21-1-3-01	Intercambiador Principal	Maneja mayor flujo de refrigerante (FIG01).
-4	21-1-3-02	Intercambiador Secundario	Optimiza intercambio en condiciones extremas (FIG02).
-2	21-2	Unidad de Control Ambiental (ECU)	Controla temperatura, humedad y condiciones cabina. IA/AGI, sensores y actuadores integrados.
-3	21-2-1	Paneles de Control	Interfaces para ajustar y monitorear condiciones.
-4	21-2-1-01	Interfaz Usuario IA/AGI	Paneles con IA/AGI, ajustes automáticos (FIG01).
-4	21-2-1-02	Pantallas Monitoreo Digital	Displays con información en tiempo real (FIG02).
-3	21-2-2	Sensores	Miden temperatura, humedad y ocupación.
-4	21-2-2-01	Sensores de Temperatura	Monitorean la temperatura en diferentes zonas de la cabina para ajustes precisos (FIG01).
-4	21-2-2-02	Sensores de Humedad	Controlan niveles de humedad para asegurar un ambiente cómodo (FIG02).
-4	21-2-2-03	Sensores de Ocupación	Detectan presencia de pasajeros y tripulación para optimizar la distribución del aire acondicionado (FIG03).
-3	21-2-3	Actuadores	Ejecutan las órdenes del ECU para regular el ambiente.
-4	21-2-3-01	Actuadores de Válvula de Aire	Ajustan válvulas según recomendaciones IA/QAOA (FIG01).
-4	21-2-3-02	Actuadores de Ventiladores	Regulan velocidad y dirección ventiladores para distribuir el aire de manera eficiente (FIG02).
-2	21-3	Conductos y Tuberías	Infraestructura que distribuye el aire acondicionado y el refrigerante a través de la cabina y el sistema de refrigeración.
-3	21-3-1	Conductos de Aire	Distribuyen el aire acondicionado a diferentes áreas de la cabina.
-4	21-3-1-01	Conducto Principal	Principal conducto que distribuye el aire a todas las zonas de la cabina (FIG01).
-4	21-3-1-02	Conductos Secundarios	Conductos adicionales para áreas específicas o zonas de confort (FIG02).
-3	21-3-2	Líneas de Refrigerante	Transportan el refrigerante entre los componentes del ACM.
-4	21-3-2-01	Línea de Entrada de Refrigerante	Línea que transporta el refrigerante desde el compresor al intercambiador de calor (FIG01).
-4	21-3-2-02	Línea de Salida de Refrigerante	Línea que devuelve el refrigerante al sistema después del intercambio de calor (FIG02).
-2	21-4	Ventiladores y Sopladores	Dispositivos que mueven el aire acondicionado a través de los conductos y distribuyen el aire en áreas específicas de la cabina.
-3	21-4-1	Soplador Principal	Mueve el aire acondicionado a través de los conductos principales (FIG01).
-4	21-4-1-01	Motor del Soplador Principal	Motor que impulsa el soplador principal (FIG01).
-4	21-4-1-02	Válvula de Control del Soplador	Controla el flujo de aire movido por el soplador principal (FIG02).
-3	21-4-2	Ventiladores de Cabina	Distribuyen el aire en áreas específicas de la cabina para asegurar un confort uniforme (FIG03).
-4	21-4-2-01	Ventilador de Zona 1	Ventilador que distribuye aire en la zona delantera de la cabina (FIG01).
-4	21-4-2-02	Ventilador de Zona 2	Ventilador que distribuye aire en la zona trasera de la cabina (FIG02).
-2	21-5	Filtros y Tamizadores	Componentes que eliminan partículas y contaminantes del aire y refrigerante para asegurar la pureza y eficiencia del sistema.
-3	21-5-1	Filtros de Aire	Eliminan partículas y contaminantes del aire entrante para mejorar la calidad del ambiente dentro de la cabina.
-4	21-5-1-01	Filtro HEPA	Filtro de alta eficiencia que captura partículas finas y contaminantes del aire (FIG01).
-4	21-5-1-02	Filtro de Carbón Activado	Filtro que elimina olores y compuestos orgánicos volátiles del aire acondicionado (FIG02).
-3	21-5-2	Filtros de Refrigerante	Aseguran la pureza del refrigerante dentro del sistema.
-4	21-5-2-01	Filtro de Refrigerante Principal	Filtro que elimina impurezas y contaminantes del refrigerante para mantener la eficiencia del sistema (FIG03).
-4	21-5-2-02	Filtro de Refrigerante Secundario	Filtro adicional para asegurar la pureza del refrigerante en condiciones operativas extremas (FIG04).
-2	21-6	Sistemas de Control	Subsistema que gestiona y regula los parámetros ambientales, asegurando un ambiente confortable y eficiente para pasajeros y tripulación.
-3	21-6-1	Controles de Temperatura	Permiten ajustar la temperatura deseada en la cabina a través de interfaces de usuario y sistemas automatizados.
-4	21-6-1-01	Termostato Digital IA/AGI	Control digital integrado con IA/AGI para ajustes automáticos de temperatura basados en datos en tiempo real (FIG05).
-4	21-6-1-02	Sensores de Temperatura Avanzados	Sensores de alta precisión que monitorean la temperatura en múltiples zonas de la cabina para ajustes finos (FIG06).
-3	21-6-2	Controles de Humedad	Regulan los niveles de humedad en la cabina para asegurar comodidad sin sequedad ni condensación (FIG07).
-4	21-6-2-01	Humidificador IA/AGI	Dispositivo que ajusta la humedad en tiempo real basado en análisis de IA/AGI para mantener niveles óptimos (FIG08).
-4	21-6-2-02	Deshumidificador Inteligente	Sistema automatizado que elimina el exceso de humedad cuando es necesario, asegurando un ambiente confortable y saludable (FIG09).
-2	21-7	Integración de Tecnologías Avanzadas	Subsistema que incorpora tecnologías emergentes como IA/AGI, QAOA, Blockchain y Gemelos Digitales para optimizar el rendimiento y la sostenibilidad del sistema de aire acondicionado.
-3	21-7-1	Módulo IA/AGI Integrado	Integra inteligencia artificial y AGI para optimizar todas las operaciones del sistema de aire acondicionado, adaptándose dinámicamente a las condiciones cambiantes (FIG10).
-4	21-7-1-01	Procesador IA/AGI Central	Unidad de procesamiento que ejecuta algoritmos avanzados para análisis y optimización en tiempo real (FIG11).
-4	21-7-1-02	Interfaz de Comunicación Blockchain	Facilita la trazabilidad y seguridad de los datos operativos mediante la integración con una red blockchain (FIG12).
-3	21-7-2	Gemelo Digital del Sistema de Aire Acondicionado	Replica virtual del sistema físico que permite simular cargas térmicas, validar estrategias y optimizar el rendimiento mediante simulaciones avanzadas (FIG13).
-4	21-7-2-01	Servidor de Simulación Gemelo Digital	Servidor dedicado a ejecutar simulaciones y mantener la sincronización con el sistema físico real (FIG14).
-4	21-7-2-02	Interfaz de Usuario del Gemelo Digital	Plataforma para interactuar con el gemelo digital, visualizar datos y realizar ajustes de simulación (FIG15).
-3	21-7-3	Módulo de Optimización QAOA	Utiliza QAOA para encontrar configuraciones óptimas en la distribución del aire y el refrigerante, mejorando la eficiencia energética y reduciendo desperdicios (FIG16).
-4	21-7-3-01	Algoritmo QAOA de Optimización	Algoritmo específico que ejecuta QAOA para optimizar flujos de aire y refrigerante dentro del sistema (FIG17).
-4	21-7-3-02	Interfaz de Configuración QAOA	Herramienta para ajustar parámetros y configurar el algoritmo QAOA según las necesidades operativas (FIG18).
-2	21-8	Sostenibilidad y Economía Circular	Subsistema enfocado en la implementación de prácticas sostenibles y economía circular dentro del sistema de aire acondicionado.
-3	21-8-1	Refrigerantes Verdes	Uso de refrigerantes con bajo potencial de calentamiento global (GWP) y cero potencial de agotamiento de ozono (ODP) para minimizar el impacto ambiental (FIG19).
-4	21-8-1-01	Selección de Refrigerantes Eco-Amigables	Evaluación y selección de refrigerantes sostenibles como HFO, CO₂ y amoníaco, asegurando su compatibilidad y seguridad dentro del sistema (FIG20).
-4	21-8-1-02	Monitoreo de Composición Química	Sensores y sistemas automatizados que monitorean la pureza del refrigerante y detectan contaminaciones o fugas para mantener la eficiencia operativa y la seguridad (FIG21).
-3	21-8-2	Economía Circular	Implementación de prácticas de reutilización y reciclaje dentro del sistema de aire acondicionado para reducir residuos y costos operativos (FIG22).
-4	21-8-2-01	Filtros y Componentes Reutilizables	Diseño de filtros y componentes que pueden ser fácilmente desensamblados, recuperados y remanufacturados, reduciendo residuos y costos de reemplazo (FIG23).
-4	21-8-2-02	Trazabilidad con Blockchain	Registro inmutable del ciclo de vida de cada componente mediante blockchain, asegurando transparencia y cumplimiento normativo (FIG24).
-4	21-8-2-03	IA/AGI para Predicción de Ciclos de Vida y Reemplazo	Algoritmos de IA/AGI que analizan patrones de desgaste y condiciones operativas para determinar momentos óptimos de mantenimiento o sustitución de componentes (FIG25).
-3	21-8-3	Cumplimiento Regulatorio y Huella de Carbono Reducida	Aseguramiento de que todas las operaciones y componentes cumplen con las normativas ambientales y de sostenibilidad vigentes (FIG26).
-4	21-8-3-01	Alineación con EASA, FAA, ISO 14040	Procedimientos y monitoreo continuo para cumplir con normas ambientales internacionales y realizar análisis de ciclo de vida (LCA) (FIG27).
-4	21-8-3-02	Auditorías Externas Facilitadas (Blockchain)	Uso de blockchain para simplificar verificaciones y auditorías por autoridades y terceros interesados (FIG28).
-4	21-8-3-03	Cálculo de Emisiones y Compensación	Integración de herramientas IA para estimar emisiones indirectas y proponer opciones de mitigación y compensación de carbono (FIG29).
-2	21-9	Mantenimiento y Soporte Técnico	Subsistema que asegura el mantenimiento preventivo y correctivo del sistema de aire acondicionado, utilizando tecnologías avanzadas para optimizar la disponibilidad y el rendimiento (FIG30).
-3	21-9-1	Mantenimiento Predictivo	Utiliza gemelos digitales y algoritmos de IA para anticipar y planificar el mantenimiento necesario, reduciendo fallos inesperados y optimizando el rendimiento (FIG31).
-4	21-9-1-01	Monitor de Estado en Tiempo Real	Sistema que monitorea el estado de todos los componentes del aire acondicionado en tiempo real, proporcionando datos para el mantenimiento predictivo (FIG32).
-4	21-9-1-02	Herramientas de Diagnóstico IA/AGI	Herramientas que analizan los datos recopilados para identificar posibles fallos y recomendar acciones correctivas (FIG33).
-3	21-9-2	Soporte Técnico y Reparaciones	Equipo y recursos dedicados a realizar reparaciones y actualizaciones del sistema de aire acondicionado según sea necesario (FIG34).
-4	21-9-2-01	Equipo de Reparación Especializado	Personal y herramientas especializadas para realizar reparaciones complejas en el sistema de aire acondicionado (FIG35).
-4	21-9-2-02	Sistema de Gestión de Incidentes	Plataforma que gestiona y rastrea incidentes técnicos, asegurando una respuesta rápida y eficiente (FIG36).
-2	21-10	Sistema de Trazabilidad y Registro	Subsistema que utiliza tecnologías como Blockchain para registrar y rastrear todas las operaciones, mantenimientos y cambios en el sistema de aire acondicionado, asegurando transparencia y cumplimiento (FIG37).
-3	21-10-1	Ledger Blockchain	Sistema de registro inmutable que almacena datos operativos, de mantenimiento y cambios en el sistema de aire acondicionado (FIG38).
-4	21-10-1-01	Nodo Principal de Blockchain	Nodo central que gestiona las transacciones y mantiene la integridad del ledger blockchain (FIG39).
-4	21-10-1-02	Interfaz de Usuario Blockchain	Plataforma para que los operadores y auditores accedan y verifiquen los registros almacenados en el blockchain (FIG40).
-3	21-10-2	Sistema de Gestión de Datos	Subsistema que integra y gestiona todos los datos recopilados por los sensores, actuadores y otros componentes del sistema de aire acondicionado (FIG41).
-4	21-10-2-01	Base de Datos Centralizada	Almacena todos los datos operativos y de mantenimiento en una base de datos centralizada para facilitar el análisis y la toma de decisiones (FIG42).
-4	21-10-2-02	Plataforma de Análisis de Datos IA	Herramienta que utiliza IA para analizar los datos recopilados y proporcionar insights para la optimización continua del sistema (FIG43).
-### 📄 **Diagrama de Flujo - Product Breakdown Structure (PBS) para ATA 21: Air Conditioning**
+A continuación se presenta una **Tabla Única de PBS** para el **Capítulo 21: Air Conditioning (ATA 21)**, junto con un **diagrama de flujo en Mermaid** que refleja su estructura jerárquica. Esta tabla integra subsistemas digitales (IA/AGI, QAOA, Blockchain, Gemelos Digitales) y físicos (conductos, válvulas, intercambiadores, sensores) siguiendo la codificación ATA 100. El objetivo es facilitar la trazabilidad, el mantenimiento, el cumplimiento normativo y la mejora continua del sistema de aire acondicionado del A360XWLRGA.
+
+---
+
+### Tabla Única de PBS - ATA 21 (Air Conditioning)
+
+| Nivel | Código ATA | Componente/Subcomponente                                | Descripción                                                                                                                                                                               |
+|-------|------------|----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **1** | 21          | **Sistema de Aire Acondicionado**                        | Sistema completo del A360XWLRGA, integrando IA/AGI, QAOA, Gemelos Digitales, Blockchain, refrigerantes verdes, economía circular y controles ambientales.                               |
+| **2** | 21-1        | **Máquina de Ciclo de Aire (ACM)**                       | Subsistema del ciclo térmico: compresor, expansor e intercambiadores de calor.                                                                     |
+| **3** | 21-1-1      | **Compresor**                                            | Eleva presión y temperatura del refrigerante. IA/AGI ajusta rendimiento en tiempo real.                                                                                                  |
+| **4** | 21-1-1-01   | **Unidad de Compresión IA/AGI**                         | Procesador IA/AGI optimiza parámetros del compresor (FIG01).                                                                                        |
+| **4** | 21-1-1-02   | **Sensores de Presión Compresor**                       | Monitorean presión para ajustes automáticos (FIG02).                                                                                               |
+| **3** | 21-1-2      | **Expansor**                                             | Reduce la presión del refrigerante. QAOA mejora eficiencia energética.                                                                             |
+| **4** | 21-1-2-01   | **Módulo Control Expansor QAOA**                        | Algoritmo QAOA optimiza expansión (FIG01).                                                                                                         |
+| **4** | 21-1-2-02   | **Actuadores del Expansor**                             | Ajustan válvula de expansión según QAOA (FIG02).                                                                                                   |
+| **3** | 21-1-3      | **Intercambiadores de Calor**                            | Transfieren calor entre refrigerante y aire cabina, permitiendo refrigeración eficiente del ambiente interior.                                     |
+| **4** | 21-1-3-01   | **Intercambiador Principal**                            | Maneja mayor flujo de refrigerante (FIG01).                                                                                                         |
+| **4** | 21-1-3-02   | **Intercambiador Secundario**                           | Optimiza intercambio en condiciones extremas (FIG02).                                                                                              |
+| **2** | 21-2        | **Unidad de Control Ambiental (ECU)**                   | Controla temperatura, humedad y condiciones cabina. IA/AGI, sensores y actuadores integrados.                                                      |
+| **3** | 21-2-1      | **Paneles de Control**                                  | Interfaces para ajustar y monitorear condiciones.                                                                                                 |
+| **4** | 21-2-1-01   | **Interfaz Usuario IA/AGI**                             | Paneles con IA/AGI, ajustes automáticos (FIG01).                                                                                                   |
+| **4** | 21-2-1-02   | **Pantallas Monitoreo Digital**                         | Displays con información en tiempo real (FIG02).                                                                                                  |
+| **3** | 21-2-2      | **Sensores**                                             | Miden temperatura, humedad y ocupación.                                                                                                            |
+| **4** | 21-2-2-01   | **Sensores de Temperatura**                              | Monitorean la temperatura en diferentes zonas para ajustes precisos (FIG01).                                                                        |
+| **4** | 21-2-2-02   | **Sensores de Humedad**                                  | Controlan niveles de humedad para asegurar un ambiente cómodo (FIG02).                                                                             |
+| **4** | 21-2-2-03   | **Sensores de Ocupación**                                | Detectan presencia pasajeros/tripulación (FIG03).                                                                                                  |
+| **3** | 21-2-3      | **Actuadores**                                           | Ejecutan las órdenes del ECU.                                                                                                                      |
+| **4** | 21-2-3-01   | **Actuadores de Válvula de Aire**                       | Ajustan válvulas según IA/QAOA (FIG01).                                                                                                            |
+| **4** | 21-2-3-02   | **Actuadores de Ventiladores**                          | Regulan velocidad/dirección ventiladores (FIG02).                                                                                                 |
+| **2** | 21-3        | **Conductos y Tuberías**                                | Distribuyen aire acondicionado/refrigerante en cabina y sistema.                                                                                    |
+| **3** | 21-3-1      | **Conductos de Aire**                                   | Distribuyen aire a diferentes áreas de la cabina.                                                                                                  |
+| **4** | 21-3-1-01   | **Conducto Principal**                                  | Conduce aire a todas las zonas (FIG01).                                                                                                            |
+| **4** | 21-3-1-02   | **Conductos Secundarios**                               | Alimentan áreas específicas (FIG02).                                                                                                                |
+| **3** | 21-3-2      | **Líneas de Refrigerante**                              | Transportan refrigerante entre componentes del ACM.                                                                                                 |
+| **4** | 21-3-2-01   | **Línea de Entrada de Refrigerante**                    | Desde compresor al intercambiador (FIG01).                                                                                                          |
+| **4** | 21-3-2-02   | **Línea de Salida de Refrigerante**                     | Retorno tras intercambio calor (FIG02).                                                                                                             |
+| **2** | 21-4        | **Ventiladores y Sopladores**                           | Mueven aire acondicionado por conductos y zonas.                                                                                                    |
+| **3** | 21-4-1      | **Soplador Principal**                                  | Impulsa aire por ductos principales (FIG01).                                                                                                        |
+| **4** | 21-4-1-01   | **Motor Soplador Principal**                            | Motor impulsa soplador (FIG01).                                                                                                                     |
+| **4** | 21-4-1-02   | **Válvula Control Soplador**                             | Ajusta flujo soplador (FIG02).                                                                                                                       |
+| **3** | 21-4-2      | **Ventiladores de Cabina**                              | Distribuyen aire en zonas definidas, confort uniforme (FIG03).                                                                                      |
+| **4** | 21-4-2-01   | **Ventilador Zona 1**                                   | Aire zona delantera (FIG01).                                                                                                                        |
+| **4** | 21-4-2-02   | **Ventilador Zona 2**                                   | Aire zona trasera (FIG02).                                                                                                                          |
+| **2** | 21-5        | **Filtros y Tamizadores**                               | Eliminan partículas/contaminantes del aire/refrigerante, asegurando pureza/eficiencia.                                                             |
+| **3** | 21-5-1      | **Filtros de Aire**                                     | Mejoran calidad aire interior.                                                                                                                      |
+| **4** | 21-5-1-01   | **Filtro HEPA**                                         | Captura partículas finas (FIG01).                                                                                                                   |
+| **4** | 21-5-1-02   | **Filtro Carbón Activado**                               | Elimina olores y VOC (FIG02).                                                                                                                       |
+| **3** | 21-5-2      | **Filtros de Refrigerante**                             | Aseguran pureza refrigerante.                                                                                                                       |
+| **4** | 21-5-2-01   | **Filtro Refrigerante Principal**                        | Elimina impurezas (FIG03).                                                                                                                           |
+| **4** | 21-5-2-02   | **Filtro Refrigerante Secundario**                       | Pureza en condiciones extremas (FIG04).                                                                                                              |
+| **2** | 21-6        | **Sistemas de Control**                                 | Ajustan temperatura/humedad con IA/AGI real-time.                                                                                                   |
+| **3** | 21-6-1      | Controles Temperatura                                    | Ajustan temperatura deseada.                                                                                                                         |
+| **4** | 21-6-1-01   | Termostato Digital IA/AGI                                | Ajuste auto. según datos reales (FIG05).                                                                                                             |
+| **4** | 21-6-1-02   | Sensores Temp Avanzados                                  | Alta precisión múltiples zonas (FIG06).                                                                                                              |
+| **3** | 21-6-2      | Controles Humedad                                        | Regulan humedad para confort (FIG07).                                                                                                                |
+| **4** | 21-6-2-01   | Humidificador IA/AGI                                      | Ajusta humedad real-time IA/AGI (FIG08).                                                                                                             |
+| **4** | 21-6-2-02   | Deshumidificador Inteligente                              | Elimina exceso humedad automáticamente (FIG09).                                                                                                      |
+| **2** | 21-7        | **Integración Tecnologías Avanzadas**                   | IA/AGI, QAOA, Blockchain, Gemelos Digitales.                                                                                                         |
+| **3** | 21-7-1      | Módulo IA/AGI Integrado                                  | IA/AGI optimiza globalmente (FIG10).                                                                                                                  |
+| **4** | 21-7-1-01   | Procesador IA/AGI Central                                | Ejecuta algoritmos avanzados (FIG11).                                                                                                                 |
+| **4** | 21-7-1-02   | Interfaz Comunicación Blockchain                         | Trazabilidad y seguridad datos (FIG12).                                                                                                               |
+| **3** | 21-7-2      | Gemelo Digital Sistema A/A                               | Replica virtual p/simular y validar (FIG13).                                                                                                         |
+| **4** | 21-7-2-01   | Servidor Simulación Gemelo Digital                       | Simula y sincroniza con sistema real (FIG14).                                                                                                         |
+| **4** | 21-7-2-02   | Interfaz Usuario Gemelo Digital                          | Visualización y ajustes simulados (FIG15).                                                                                                            |
+| **3** | 21-7-3      | Módulo Optimización QAOA                                 | QAOA optimiza flujos aire/refrigerante (FIG16).                                                                                                       |
+| **4** | 21-7-3-01   | Algoritmo QAOA Optimización                              | Ejecuta QAOA tiempo real (FIG17).                                                                                                                     |
+| **4** | 21-7-3-02   | Interfaz Configuración QAOA                              | Ajusta parámetros QAOA (FIG18).                                                                                                                        |
+| **2** | 21-8        | **Sostenibilidad y Economía Circular**                  | Refrigerantes verdes, economía circular, blockchain ciclo vida.                                                                                      |
+| **3** | 21-8-1      | Refrigerantes Verdes                                    | Bajo GWP/ODP, menor impacto ambiental (FIG19).                                                                                                        |
+| **4** | 21-8-1-01   | Selección Refrigerantes Eco                               | HFO, CO₂, amoníaco (FIG20).                                                                                                                           |
+| **4** | 21-8-1-02   | Monitoreo Composición Química                            | Sensores pureza refrigerante (FIG21).                                                                                                                  |
+| **3** | 21-8-2      | Economía Circular                                       | Reuso componentes, blockchain ciclo vida (FIG22).                                                                                                      |
+| **4** | 21-8-2-01   | Filtros Reutilizables                                    | DfD remanufactura (FIG23).                                                                                                                            |
+| **4** | 21-8-2-02   | Trazabilidad con Blockchain                               | Registro inmutable componentes (FIG24).                                                                                                                |
+| **4** | 21-8-2-03   | IA/AGI Predicción Ciclos Vida                             | IA/AGI define reemplazos óptimos (FIG25).                                                                                                              |
+| **3** | 21-8-3      | Cumplimiento Reg. y Huella Reducida                      | EASA/FAA/ISO, auditorías, emisiones (FIG26).                                                                                                           |
+| **4** | 21-8-3-01   | Alineación EASA/FAA/ISO 14040                             | Procedimientos LCA (FIG27).                                                                                                                            |
+| **4** | 21-8-3-02   | Auditorías Externas (Blockchain)                          | Datos inmutables simplifican auditorías (FIG28).                                                                                                        |
+| **4** | 21-8-3-03   | Cálculo Emisiones & Compensación                          | IA estima emisiones, mitigación (FIG29).                                                                                                               |
+| **2** | 21-9        | **Mantenimiento y Soporte Técnico**                     | Mantenimiento predictivo, reparaciones, soporte CI/CD (FIG30).                                                                                         |
+| **3** | 21-9-1      | Mantenimiento Predictivo                                | IA/Gemelo anticipan necesidades (FIG31).                                                                                                                |
+| **4** | 21-9-1-01   | Monitor Estado Tiempo Real                                | Datos p/mantto predictivo (FIG32).                                                                                                                      |
+| **4** | 21-9-1-02   | Herramientas Diagnóstico IA/AGI                          | Identifican fallos potenciales (FIG33).                                                                                                                 |
+| **3** | 21-9-2      | Soporte Técnico & Reparaciones                           | Equipo p/reparaciones complejas (FIG34).                                                                                                                 |
+| **4** | 21-9-2-01   | Equipo Reparación Especializado                          | Personal/herramientas especializadas (FIG35).                                                                                                           |
+| **4** | 21-9-2-02   | Sistema Gestión Incidentes                                | Rastrea incidentes técnicos (FIG36).                                                                                                                    |
+| **2** | 21-10       | **Trazabilidad & Registro**                             | Blockchain, gestión datos, CI/CD (FIG37).                                                                                                               |
+| **3** | 21-10-1     | Ledger Blockchain                                       | Registro inmutable datos oper/mantto (FIG38).                                                                                                           |
+| **4** | 21-10-1-01  | Nodo Principal Blockchain                               | Gestiona transacciones/integridad (FIG39).                                                                                                              |
+| **4** | 21-10-1-02  | Interfaz Usuario Blockchain                             | Acceso operadores/auditores (FIG40).                                                                                                                    |
+| **3** | 21-10-2     | Sistema Gestión de Datos                                | Integración/análisis datos (FIG41).                                                                                                                      |
+| **4** | 21-10-2-01  | Base Datos Centralizada                                 | Almacena datos oper/mantto (FIG42).                                                                                                                      |
+| **4** | 21-10-2-02  | Plataforma Análisis IA                                  | IA analiza datos p/optimización (FIG43).                                                                                                                 |
+| **2** | 21-11       | **Integración IA/AGI y QAOA**                           | IA/AGI + QAOA optimizan operaciones holísticas.                                                                                                         |
+| **3** | 21-11-1     | Algoritmos IA/AGI Optimización                          | Modelos predictivos IA.                                                                                                                                 |
+| **4** | 21-11-1-01  | Modelo Predictivo IA                                    | IA predice ajustes requeridos (FIG01).                                                                                                                  |
+| **4** | 21-11-1-02  | Motor Optimización IA/AGI                               | Ejecuta recomendaciones optimización (FIG02).                                                                                                            |
+| **3** | 21-11-2     | Integración con Sistema Gestión                         | Implementación automática ajustes IA/AGI.                                                                                                               |
+| **4** | 21-11-2-01  | Interfaz Control Automatizado                            | Aplica ajustes recomendados (FIG01).                                                                                                                    |
+| **4** | 21-11-2-02  | Monitor Implementación Ajustes                           | Verifica correcto despliegue cambios (FIG02).                                                                                                            |
+
+---
+
+### Diagrama de Flujo (Mermaid)
 
 ```mermaid
 flowchart TB
@@ -1299,284 +1221,44 @@ flowchart TB
     AD --> AH[21-4-2: Ventiladores de Cabina]:::link
     AH --> AI[21-4-2-01: Ventilador de Zona 1]:::link
     AH --> AJ[21-4-2-02: Ventilador de Zona 2]:::link
-    A --> AK[21-5: Filtros y Tamizadores]:::link
-    AK --> AL[21-5-1: Filtros de Aire]:::link
-    AL --> AM[21-5-1-01: Filtro HEPA]:::link
-    AL --> AN[21-5-1-02: Filtro de Carbón Activado]:::link
-    AK --> AO[21-5-2: Filtros de Refrigerante]:::link
-    AO --> AP[21-5-2-01: Filtro de Refrigerante Principal]:::link
-    AO --> AQ[21-5-2-02: Filtro de Refrigerante Secundario]:::link
-    A --> AR[21-6: Sistemas de Control]:::link
-    AR --> AS[21-6-1: Controles de Temperatura]:::link
-    AS --> AT[21-6-1-01: Termostato Digital IA/AGI]:::link
-    AS --> AU[21-6-1-02: Sensores de Temperatura Avanzados]:::link
-    AR --> AV[21-6-2: Controles de Humedad]:::link
-    AV --> AW[21-6-2-01: Humidificador IA/AGI]:::link
-    AV --> AX[21-6-2-02: Deshumidificador Inteligente]:::link
-    A --> AY[21-7: Integración de Tecnologías Avanzadas]:::link
-    AY --> AZ[21-7-1: Módulo IA/AGI Integrado]:::link
-    AZ --> BA[21-7-1-01: Procesador IA/AGI Central]:::link
-    AZ --> BB[21-7-1-02: Interfaz de Comunicación Blockchain]:::link
-    AY --> BC[21-7-2: Gemelo Digital del Sistema de Aire Acondicionado]:::link
-    BC --> BD[21-7-2-01: Servidor de Simulación Gemelo Digital]:::link
-    BC --> BE[21-7-2-02: Interfaz de Usuario del Gemelo Digital]:::link
-    AY --> BF[21-7-3: Módulo de Optimización QAOA]:::link
-    BF --> BG[21-7-3-01: Algoritmo QAOA de Optimización]:::link
-    BF --> BH[21-7-3-02: Interfaz de Configuración QAOA]:::link
-    A --> BI[21-8: Sostenibilidad y Economía Circular]:::link
-    BI --> BJ[21-8-1: Refrigerantes Verdes]:::link
-    BJ --> BK[21-8-1-01: Selección de Refrigerantes Eco-Amigables]:::link
-    BJ --> BL[21-8-1-02: Monitoreo de Composición Química]:::link
-    BI --> BM[21-8-2: Economía Circular]:::link
-    BM --> BN[21-8-2-01: Filtros y Componentes Reutilizables]:::link
-    BM --> BO[21-8-2-02: Trazabilidad con Blockchain]:::link
-    BM --> BP[21-8-2-03: IA/AGI para Predicción de Ciclos de Vida y Reemplazo]:::link
-    BI --> BQ[21-8-3: Cumplimiento Regulatorio y Huella de Carbono Reducida]:::link
-    BQ --> BR[21-8-3-01: Alineación con EASA, FAA, ISO 14040]:::link
-    BQ --> BS[21-8-3-02: Auditorías Externas Facilitadas (Blockchain)]:::link
-    BQ --> BT[21-8-3-03: Cálculo de Emisiones y Compensación]:::link
-    A --> BU[21-9: Mantenimiento y Soporte Técnico]:::link
-    BU --> BV[21-9-1: Mantenimiento Predictivo]:::link
-    BV --> BW[21-9-1-01: Monitor de Estado en Tiempo Real]:::link
-    BV --> BX[21-9-1-02: Herramientas de Diagnóstico IA/AGI]:::link
-    BU --> BY[21-9-2: Soporte Técnico y Reparaciones]:::link
-    BY --> BZ[21-9-2-01: Equipo de Reparación Especializado]:::link
-    BY --> CA[21-9-2-02: Sistema de Gestión de Incidentes]:::link
-    A --> CB[21-10: Sistema de Trazabilidad y Registro]:::link
-    CB --> CC[21-10-1: Ledger Blockchain]:::link
-    CC --> CD[21-10-1-01: Nodo Principal de Blockchain]:::link
-    CC --> CE[21-10-1-02: Interfaz de Usuario Blockchain]:::link
-    CB --> CF[21-10-2: Sistema de Gestión de Datos]:::link
-    CF --> CG[21-10-2-01: Base de Datos Centralizada]:::link
-    CF --> CH[21-10-2-02: Plataforma de Análisis de Datos IA]:::link
 
     classDef link fill:#f9f,stroke:#333,stroke-width:2px;
-    click A "https://example.com/system-info" "Sistema de Aire Acondicionado"
-    click B "https://example.com/acm" "Máquina de Ciclo de Aire"
-    click C "https://example.com/compressor" "Compresor"
-    click D "https://example.com/compression-ia" "Unidad de Compresión IA/AGI"
-    click E "https://example.com/pressure-sensors" "Sensores de Presión"
-    click F "https://example.com/expander" "Expansor"
-    click G "https://example.com/expansor-qaoa" "Módulo Control Expansor QAOA"
-    click H "https://example.com/expansor-actuators" "Actuadores del Expansor"
-    click I "https://example.com/heat-exchangers" "Intercambiadores de Calor"
-    click J "https://example.com/main-heat-exchanger" "Intercambiador Principal"
-    click K "https://example.com/secondary-heat-exchanger" "Intercambiador Secundario"
-    click L "https://example.com/environmental-control-unit" "Unidad de Control Ambiental"
-    click M "https://example.com/control-panels" "Paneles de Control"
-    click N "https://example.com/user-interface" "Interfaz Usuario IA/AGI"
-    click O "https://example.com/digital-monitoring" "Pantallas Monitoreo Digital"
-    click P "https://example.com/sensors" "Sensores"
-    click Q "https://example.com/temperature-sensors" "Sensores de Temperatura"
-    click R "https://example.com/humidity-sensors" "Sensores de Humedad"
-    click S "https://example.com/occupancy-sensors" "Sensores de Ocupación"
-    click T "https://example.com/actuators" "Actuadores"
-    click U "https://example.com/air-valve-actuators" "Actuadores de Válvula de Aire"
-    click V "https://example.com/fan-actuators" "Actuadores de Ventiladores"
-    click W "https://example.com/ducts-pipes" "Conductos y Tuberías"
-    click X "https://example.com/air-ducts" "Conductos de Aire"
-    click Y "https://example.com/main-duct" "Conducto Principal"
-    click Z "https://example.com/secondary-ducts" "Conductos Secundarios"
-    click AA "https://example.com/refrigerant-lines" "Líneas de Refrigerante"
-    click AB "https://example.com/refrigerant-entry-line" "Línea de Entrada de Refrigerante"
-    click AC "https://example.com/refrigerant-exit-line" "Línea de Salida de Refrigerante"
-    click AD "https://example.com/fans-blowers" "Ventiladores y Sopladores"
-    click AE "https://example.com/main-blower" "Soplador Principal"
-    click AF "https://example.com/main-blower-motor" "Motor del Soplador Principal"
-    click AG "https://example.com/blower-control-valve" "Válvula de Control del Soplador"
-    click AH "https://example.com/cabin-fans" "Ventiladores de Cabina"
-    click AI "https://example.com/fan-zone1" "Ventilador de Zona 1"
-    click AJ "https://example.com/fan-zone2" "Ventilador de Zona 2"
-    click AK "https://example.com/filters-tamers" "Filtros y Tamizadores"
-    click AL "https://example.com/air-filters" "Filtros de Aire"
-    click AM "https://example.com/hepa-filter" "Filtro HEPA"
-    click AN "https://example.com/carbon-filter" "Filtro de Carbón Activado"
-    click AO "https://example.com/refrigerant-filters" "Filtros de Refrigerante"
-    click AP "https://example.com/main-refrigerant-filter" "Filtro de Refrigerante Principal"
-    click AQ "https://example.com/secondary-refrigerant-filter" "Filtro de Refrigerante Secundario"
-    click AR "https://example.com/control-systems" "Sistemas de Control"
-    click AS "https://example.com/temperature-controls" "Controles de Temperatura"
-    click AT "https://example.com/ia-agi-thermostat" "Termostato Digital IA/AGI"
-    click AU "https://example.com/advanced-temp-sensors" "Sensores de Temperatura Avanzados"
-    click AV "https://example.com/humidity-controls" "Controles de Humedad"
-    click AW "https://example.com/ia-agi-humidifier" "Humidificador IA/AGI"
-    click AX "https://example.com/smart-dehumidifier" "Deshumidificador Inteligente"
-    click AY "https://example.com/advanced-tech-integration" "Integración de Tecnologías Avanzadas"
-    click AZ "https://example.com/ia-agi-module" "Módulo IA/AGI Integrado"
-    click BA "https://example.com/ia-agi-processor" "Procesador IA/AGI Central"
-    click BB "https://example.com/blockchain-interface" "Interfaz de Comunicación Blockchain"
-    click BC "https://example.com/digital-twin" "Gemelo Digital del Sistema de Aire Acondicionado"
-    click BD "https://example.com/digital-twin-server" "Servidor de Simulación Gemelo Digital"
-    click BE "https://example.com/digital-twin-ui" "Interfaz de Usuario del Gemelo Digital"
-    click BF "https://example.com/qaoa-optimization-module" "Módulo de Optimización QAOA"
-    click BG "https://example.com/qaoa-optimization-algorithm" "Algoritmo QAOA de Optimización"
-    click BH "https://example.com/qaoa-config-interface" "Interfaz de Configuración QAOA"
-    click BI "https://example.com/sustainability-circular-economy" "Sostenibilidad y Economía Circular"
-    click BJ "https://example.com/green-refrigerants" "Refrigerantes Verdes"
-    click BK "https://example.com/eco-friendly-refrigerants" "Selección de Refrigerantes Eco-Amigables"
-    click BL "https://example.com/chemical-composition-monitoring" "Monitoreo de Composición Química"
-    click BM "https://example.com/circular-economy" "Economía Circular"
-    click BN "https://example.com/reusable-filters-components" "Filtros y Componentes Reutilizables"
-    click BO "https://example.com/blockchain-traceability" "Trazabilidad con Blockchain"
-    click BP "https://example.com/ia-agi-lifecycle-prediction" "IA/AGI para Predicción de Ciclos de Vida y Reemplazo"
-    click BQ "https://example.com/regulatory-compliance-carbon-footprint" "Cumplimiento Regulatorio y Huella de Carbono Reducida"
-    click BR "https://example.com/easa-faa-iso-alignment" "Alineación con EASA, FAA, ISO 14040"
-    click BS "https://example.com/blockchain-audits" "Auditorías Externas Facilitadas (Blockchain)"
-    click BT "https://example.com/emission-calculation-compensation" "Cálculo de Emisiones y Compensación"
-    click BU "https://example.com/maintenance-support" "Mantenimiento y Soporte Técnico"
-    click BV "https://example.com/predictive-maintenance" "Mantenimiento Predictivo"
-    click BW "https://example.com/real-time-status-monitor" "Monitor de Estado en Tiempo Real"
-    click BX "https://example.com/ia-agi-diagnostic-tools" "Herramientas de Diagnóstico IA/AGI"
-    click BY "https://example.com/technical-support-repairs" "Soporte Técnico y Reparaciones"
-    click BZ "https://example.com/specialized-repair-equipment" "Equipo de Reparación Especializado"
-    click CA "https://example.com/incident-management-system" "Sistema de Gestión de Incidentes"
-    click CB "https://example.com/traceability-recording-system" "Sistema de Trazabilidad y Registro"
-    click CC "https://example.com/blockchain-ledger" "Ledger Blockchain"
-    click CD "https://example.com/blockchain-main-node" "Nodo Principal de Blockchain"
-    click CE "https://example.com/blockchain-user-interface" "Interfaz de Usuario Blockchain"
-    click CF "https://example.com/data-management-system" "Sistema de Gestión de Datos"
-    click CG "https://example.com/centralized-database" "Base de Datos Centralizada"
-    click CH "https://example.com/ia-data-analysis-platform" "Plataforma de Análisis de Datos IA"
+```
 
-    classDef link fill:#f9f,stroke:#333,stroke-width:2px;
-    click A "https://example.com/system-info" "Sistema de Aire Acondicionado"
-    click B "https://example.com/acm" "Máquina de Ciclo de Aire"
-    click C "https://example.com/compressor" "Compresor"
-    click D "https://example.com/compression-ia" "Unidad de Compresión IA/AGI"
-    click E "https://example.com/pressure-sensors" "Sensores de Presión"
-    click F "https://example.com/expander" "Expansor"
-    click G "https://example.com/expansor-qaoa" "Módulo Control Expansor QAOA"
-    click H "https://example.com/expansor-actuators" "Actuadores del Expansor"
-    click I "https://example.com/heat-exchangers" "Intercambiadores de Calor"
-    click J "https://example.com/main-heat-exchanger" "Intercambiador Principal"
-    click K "https://example.com/secondary-heat-exchanger" "Intercambiador Secundario"
-    click L "https://example.com/environmental-control-unit" "Unidad de Control Ambiental"
-    click M "https://example.com/control-panels" "Paneles de Control"
-    click N "https://example.com/user-interface" "Interfaz Usuario IA/AGI"
-    click O "https://example.com/digital-monitoring" "Pantallas Monitoreo Digital"
-    click P "https://example.com/sensors" "Sensores"
-    click Q "https://example.com/temperature-sensors" "Sensores de Temperatura"
-    click R "https://example.com/humidity-sensors" "Sensores de Humedad"
-    click S "https://example.com/occupancy-sensors" "Sensores de Ocupación"
-    click T "https://example.com/actuators" "Actuadores"
-    click U "https://example.com/air-valve-actuators" "Actuadores de Válvula de Aire"
-    click V "https://example.com/fan-actuators" "Actuadores de Ventiladores"
-    click W "https://example.com/ducts-pipes" "Conductos y Tuberías"
-    click X "https://example.com/air-ducts" "Conductos de Aire"
-    click Y "https://example.com/main-duct" "Conducto Principal"
-    click Z "https://example.com/secondary-ducts" "Conductos Secundarios"
-    click AA "https://example.com/refrigerant-lines" "Líneas de Refrigerante"
-    click AB "https://example.com/refrigerant-entry-line" "Línea de Entrada de Refrigerante"
-    click AC "https://example.com/refrigerant-exit-line" "Línea de Salida de Refrigerante"
-    click AD "https://example.com/fans-blowers" "Ventiladores y Sopladores"
-    click AE "https://example.com/main-blower" "Soplador Principal"
-    click AF "https://example.com/main-blower-motor" "Motor del Soplador Principal"
-    click AG "https://example.com/blower-control-valve" "Válvula de Control del Soplador"
-    click AH "https://example.com/cabin-fans" "Ventiladores de Cabina"
-    click AI "https://example.com/fan-zone1" "Ventilador de Zona 1"
-    click AJ "https://example.com/fan-zone2" "Ventilador de Zona 2"
-    click AK "https://example.com/filters-tamers" "Filtros y Tamizadores"
-    click AL "https://example.com/air-filters" "Filtros de Aire"
-    click AM "https://example.com/hepa-filter" "Filtro HEPA"
-    click AN "https://example.com/carbon-filter" "Filtro de Carbón Activado"
-    click AO "https://example.com/refrigerant-filters" "Filtros de Refrigerante"
-    click AP "https://example.com/main-refrigerant-filter" "Filtro de Refrigerante Principal"
-    click AQ "https://example.com/secondary-refrigerant-filter" "Filtro de Refrigerante Secundario"
-    click AR "https://example.com/control-systems" "Sistemas de Control"
-    click AS "https://example.com/temperature-controls" "Controles de Temperatura"
-    click AT "https://example.com/ia-agi-thermostat" "Termostato Digital IA/AGI"
-    click AU "https://example.com/advanced-temp-sensors" "Sensores de Temperatura Avanzados"
-    click AV "https://example.com/humidity-controls" "Controles de Humedad"
-    click AW "https://example.com/ia-agi-humidifier" "Humidificador IA/AGI"
-    click AX "https://example.com/smart-dehumidifier" "Deshumidificador Inteligente"
-    click AY "https://example.com/advanced-tech-integration" "Integración de Tecnologías Avanzadas"
-    click AZ "https://example.com/ia-agi-module" "Módulo IA/AGI Integrado"
-    click BA "https://example.com/ia-agi-processor" "Procesador IA/AGI Central"
-    click BB "https://example.com/blockchain-interface" "Interfaz de Comunicación Blockchain"
-    click BC "https://example.com/digital-twin" "Gemelo Digital del Sistema de Aire Acondicionado"
-    click BD "https://example.com/digital-twin-server" "Servidor de Simulación Gemelo Digital"
-    click BE "https://example.com/digital-twin-ui" "Interfaz de Usuario del Gemelo Digital"
-    click BF "https://example.com/qaoa-optimization-module" "Módulo de Optimización QAOA"
-    click BG "https://example.com/qaoa-optimization-algorithm" "Algoritmo QAOA de Optimización"
-    click BH "https://example.com/qaoa-config-interface" "Interfaz de Configuración QAOA"
-    click BI "https://example.com/sustainability-circular-economy" "Sostenibilidad y Economía Circular"
-    click BJ "https://example.com/green-refrigerants" "Refrigerantes Verdes"
-    click BK "https://example.com/eco-friendly-refrigerants" "Selección de Refrigerantes Eco-Amigables"
-    click BL "https://example.com/chemical-composition-monitoring" "Monitoreo de Composición Química"
-    click BM "https://example.com/circular-economy" "Economía Circular"
-    click BN "https://example.com/reusable-filters-components" "Filtros y Componentes Reutilizables"
-    click BO "https://example.com/blockchain-traceability" "Trazabilidad con Blockchain"
-    click BP "https://example.com/ia-agi-lifecycle-prediction" "IA/AGI para Predicción de Ciclos de Vida y Reemplazo"
-    click BQ "https://example.com/regulatory-compliance-carbon-footprint" "Cumplimiento Regulatorio y Huella de Carbono Reducida"
-    click BR "https://example.com/easa-faa-iso-alignment" "Alineación con EASA, FAA, ISO 14040"
-    click BS "https://example.com/blockchain-audits" "Auditorías Externas Facilitadas (Blockchain)"
-    click BT "https://example.com/emission-calculation-compensation" "Cálculo de Emisiones y Compensación"
-    click BU "https://example.com/maintenance-support" "Mantenimiento y Soporte Técnico"
-    click BV "https://example.com/predictive-maintenance" "Mantenimiento Predictivo"
-    click BW "https://example.com/real-time-status-monitor" "Monitor de Estado en Tiempo Real"
-    click BX "https://example.com/ia-agi-diagnostic-tools" "Herramientas de Diagnóstico IA/AGI"
-    click BY "https://example.com/technical-support-repairs" "Soporte Técnico y Reparaciones"
-    click BZ "https://example.com/specialized-repair-equipment" "Equipo de Reparación Especializado"
-    click CA "https://example.com/incident-management-system" "Sistema de Gestión de Incidentes"
-    click CB "https://example.com/traceability-recording-system" "Sistema de Trazabilidad y Registro"
-    click CC "https://example.com/blockchain-ledger" "Ledger Blockchain"
-    click CD "https://example.com/blockchain-main-node" "Nodo Principal de Blockchain"
-    click CE "https://example.com/blockchain-user-interface" "Interfaz de Usuario Blockchain"
-    click CF "https://example.com/data-management-system" "Sistema de Gestión de Datos"
-    click CG "https://example.com/centralized-database" "Base de Datos Centralizada"
-    click CH "https://example.com/ia-data-analysis-platform" "Plataforma de Análisis de Datos IA
-    ```
-### **Explicación del Diagrama de Flujo**
+---
 
-- **Sistema de Aire Acondicionado (21):** Punto de partida que engloba todo el sistema.
-- **Máquina de Ciclo de Aire (21-1):** Maneja el ciclo de refrigeración mediante compresor, expansor e intercambiadores de calor.
-- **Unidad de Control Ambiental (21-2):** Controla y monitorea los parámetros ambientales dentro de la cabina.
-- **Conductos y Tuberías (21-3):** Distribuyen el aire acondicionado y el refrigerante a través de la cabina.
-- **Ventiladores y Sopladores (21-4):** Mueven el aire acondicionado a través de los conductos y lo distribuyen en áreas específicas.
-- **Filtros y Tamizadores (21-5):** Eliminan partículas y contaminantes del aire y refrigerante.
-- **Sistemas de Control (21-6):** Gestionan y regulan los parámetros ambientales.
-- **Integración de Tecnologías Avanzadas (21-7):** Incorpora IA/AGI, QAOA, Blockchain y Gemelos Digitales para optimizar el sistema.
-- **Sostenibilidad y Economía Circular (21-8):** Implementa prácticas sostenibles y de reutilización para minimizar el impacto ambiental.
-- **Mantenimiento y Soporte Técnico (21-9):** Asegura el mantenimiento preventivo y correctivo del sistema.
-- **Sistema de Trazabilidad y Registro (21-10):** Registra y rastrea todas las operaciones y mantenimientos mediante Blockchain.
+### Explicación del Diagrama
 
+- El diagrama en Mermaid muestra la jerarquía del PBS de ATA 21.
+- Desde el Sistema de Aire Acondicionado (21) se despliegan subsistemas, componentes y subcomponentes.
+- Las referencias FIG y enlaces (click) son ejemplos de cómo se podría enlazar con sistemas de gestión de documentación o fuentes adicionales.
 
+---
 
-### 📄 **Cómo Proceder**
+### Cómo Proceder
 
-**1. Ampliación de Niveles Específicos:**
-   - Agregar descripciones técnicas detalladas para cada componente y subcomponente.
-   - Incluir información sobre la interacción entre componentes físicos y digitales.
+1. **Ampliar Niveles Específicos:**  
+   Agregar descripciones técnicas más detalladas por componente.
 
-**2. Creación de Diagramas Asociados:**
-   - Desarrollar diagramas de flujo adicionales para representar el flujo de refrigerante y aire en cada nivel.
-   - Utilizar herramientas como Microsoft Visio, Lucidchart o similar para visualizaciones más detalladas.
+2. **Diagramas Asociados:**  
+   Crear diagramas adicionales del flujo de refrigerante y aire.
 
-**3. Generación de Ejemplos XML:**
-   - Crear ejemplos de datos en formato XML basados en esta estructura para validación bajo estándares como S1000D.
-   - Utilizar software de authoring de contenido técnico que soporte S1000D para facilitar la creación y gestión de datos estructurados.
+3. **Ejemplos XML (S1000D):**  
+   Generar Data Modules en XML para validación.
 
-**4. Validación y Revisión:**
-   - Compartir la tabla y el diagrama con expertos en cada dominio (IA, QAOA, sostenibilidad) para obtener retroalimentación especializada.
-   - Asegurar que la documentación cumpla con las normativas y estándares aeronáuticos correspondientes.
+4. **Validación y Revisión:**  
+   Obtener feedback de expertos (IA, QAOA, sostenibilidad).
 
-**5. Integración con Herramientas de Gestión:**
-   - Vincular la documentación con herramientas como **i-CSDB**, **Diffusp System**, **GAIA/AMPEL**, **iSpec & S1000D** para mejorar la trazabilidad y gestión.
+5. **Integración con Herramientas de Gestión:**  
+   Vincular con i-CSDB, Diffusp, GAIA/AMPEL, iSpec & S1000D.
 
-**6. Capacitación del Equipo:**
-   - Asegurar que todos los miembros del equipo comprendan la estructura y el contenido del desglose, facilitando su uso y actualización.
+6. **Capacitación del Equipo:**  
+   Asegurar comprensión y actualización continua del PBS.
 
+Este documento es un trabajo en progreso y se actualizará conforme a mejoras tecnológicas, normativas y operativas, asegurando que el A360XWLRGA mantenga su liderazgo en innovación y sostenibilidad.
 
-*Este documento es un trabajo en progreso que se actualizará continuamente para reflejar mejoras tecnológicas, cambios en normativas y feedback operacional, asegurando que el **A360XWLRGA** mantenga su liderazgo en innovación y sostenibilidad en la industria aeronáutica.*
-
-Si necesitas asistencia adicional para ajustar alguna sección específica, desarrollar complementos visuales, generar ejemplos XML o cualquier otro aspecto del documento, no dudes en indicarlo. Estoy aquí para ayudarte a perfeccionar este capítulo y asegurar su excelencia.
-
-
-
-### Conclusión
-
-Esta **Tabla Única del PBS para ATA 21** integra armónicamente tecnologías digitales (IA/AGI, QAOA, Blockchain, Gemelos Digitales) con componentes físicos (conductos, válvulas, intercambiadores, sensores), reflejando un sistema de aire acondicionado de última generación. Se logra así mayor confort, eficiencia, sostenibilidad y cumplimiento normativo, facilitando el mantenimiento, la trazabilidad, la interoperabilidad con sistemas S1000D/i-CSDB y la mejora continua del A360XWLRGA en un entorno aeroespacial cada vez más exigente.
-
+Si requieres asistencia adicional (visualizaciones, XML, etc.), estoy a tu disposición.
+```
 ---
 
 ## **Capítulo 22: AUTO FLIGHT SYSTEM** *(Sistemas de Vuelo Automático)*
