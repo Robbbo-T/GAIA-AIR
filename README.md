@@ -1055,7 +1055,6 @@ flowchart TB
     A --> ENV_CONTROL
     A --> DUCTS_PIPES
     A --> FANS_BLOWERS
-This setup organizes your nodes into logical subgroups, which should improve both readability and the diagram’s visual appeal by structuring it into distinct sections.
 ```
 
 
