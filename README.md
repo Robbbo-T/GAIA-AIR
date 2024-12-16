@@ -1132,7 +1132,7 @@ flowchart LR
 
 ---
 
-```markdown
+
 # Mermaid Flowchart - ATA 22: AUTO FLIGHT PBS
 
 A continuación se presenta un diagrama en Mermaid que representa el Product Breakdown Structure (PBS) del sistema ATA 22 - AUTO FLIGHT, incorporando IA/AGI, QAOA, gemelos digitales, FADEC seguro y funciones avanzadas de comunicación, eficiencia y seguridad.  
