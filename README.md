@@ -991,7 +991,75 @@ A continuación se presenta una **Tabla Única de PBS** para el **Capítulo 21: 
 To ensure the diagram is rendered correctly in your GitHub README.md, make sure you use the correct syntax and that GitHub supports rendering Mermaid diagrams. Here is the diagram using the correct Mermaid syntax:
 
 ```mermaid
-![mermaid-ai-diagram-2024-12-16-232640](https://github.com/user-attachments/assets/5300bd40-bd9e-4b6f-9b98-6bdb81760d9b)
+%%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground':'#333', 'tertiaryColor': '#000000', 'fontSize': '28px', 'nodeTextColor': '#00FFFF'}}}%%
+flowchart LR
+    %% Sistema de Aire Acondicionado
+    subgraph MAIN_SYSTEM
+        direction TB
+        A[21: Sistema de Aire Acondicionado]
+    end
+
+    %% Máquina de Ciclo de Aire
+    subgraph AIR_CYCLE
+        direction TB
+        B[21-1: Máquina de Ciclo de Aire]
+        B --> C[21-1-1: Compresor]
+        C --> D[21-1-1-01: Unidad de Compresión IA/AGI]
+        C --> E[21-1-1-02: Sensores de Presión]
+        B --> F[21-1-2: Expansor]
+        F --> G[21-1-2-01: Módulo Control Expansor QAOA]
+        F --> H[21-1-2-02: Actuadores del Expansor]
+        B --> I[21-1-3: Intercambiadores de Calor]
+        I --> J[21-1-3-01: Intercambiador Principal]
+        I --> K[21-1-3-02: Intercambiador Secundario]
+    end
+
+    %% Conductos y Tuberías
+    subgraph DUCTS_PIPES
+        direction TB
+        W[21-3: Conductos y Tuberías]
+        W --> X[21-3-1: Conductos de Aire]
+        X --> Y[21-3-1-01: Conducto Principal]
+        X --> Z[21-3-1-02: Conductos Secundarios]
+        W --> AA[21-3-2: Líneas de Refrigerante]
+        AA --> AB[21-3-2-01: Línea de Entrada de Refrigerante]
+        AA --> AC[21-3-2-02: Línea de Salida de Refrigerante]
+    end
+
+    %% Ventiladores y Sopladores
+    subgraph FANS_BLOWERS
+        direction TB
+        AD[21-4: Ventiladores y Sopladores]
+        AD --> AE[21-4-1: Soplador Principal]
+        AE --> AF[21-4-1-01: Motor del Soplador Principal]
+        AE --> AG[21-4-1-02: Válvula de Control del Soplador]
+        AD --> AH[21-4-2: Ventiladores de Cabina]
+        AH --> AI[21-4-2-01: Ventilador de Zona 1]
+        AH --> AJ[21-4-2-02: Ventilador de Zona 2]
+    end
+
+    %% Control Ambiental
+    subgraph ENV_CONTROL
+        direction TB
+        L[21-2: Unidad de Control Ambiental]
+        L --> M[21-2-1: Paneles de Control]
+        M --> N[21-2-1-01: Interfaz Usuario IA/AGI]
+        M --> O[21-2-1-02: Pantallas Monitoreo Digital]
+        L --> P[21-2-2: Sensores]
+        P --> Q[21-2-2-01: Sensores de Temperatura]
+        P --> R[21-2-2-02: Sensores de Humedad]
+        P --> S[21-2-2-03: Sensores de Ocupación]
+        L --> T[21-2-3: Actuadores]
+        T --> U[21-2-3-01: Actuadores de Válvula de Aire]
+        T --> V[21-2-3-02: Actuadores de Ventiladores]
+    end
+
+    %% Arrange quadrants to form a square
+    MAIN_SYSTEM --> AIR_CYCLE
+    MAIN_SYSTEM --> ENV_CONTROL
+    AIR_CYCLE --> DUCTS_PIPES
+    ENV_CONTROL --> FANS_BLOWERS
+
 
 ```
 
