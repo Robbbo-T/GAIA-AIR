@@ -1132,7 +1132,6 @@ flowchart LR
 
 ---
 
-To ensure the Mermaid diagram for ATA 22 is rendered correctly in your README.md file, you can update the Mermaid code block with the correct syntax. Here is the corrected Mermaid diagram code for ATA 22:
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground': '#333', 'tertiaryColor': '#000000', 'fontSize': '28px', 'nodeTextColor': '#00FFFF'}}}%%
@@ -1202,8 +1201,6 @@ flowchart LR
         AM --> AO[22-5-3-02: IA/AGI Soporte Toma Decisiones Críticas]
     end
 ```
-
-Update your README.md file with this corrected Mermaid diagram code to ensure it renders correctly. If you need further assistance, let me know!
 
 
 ## Conclusión
