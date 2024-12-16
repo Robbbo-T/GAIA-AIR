@@ -879,9 +879,7 @@ Below is the ATA 21 (Air Conditioning) section, integrated into the GAIA DS fram
 ---
 A continuación se presenta una **Tabla Única de Product Breakdown Structure (PBS)** para el **Capítulo 21: Air Conditioning (ATA 21)** que integra tanto los subsistemas digitales (IA/AGI, QAOA, Blockchain, Gemelos Digitales) como los componentes físicos (conductos, válvulas, intercambiadores, sensores). Este desglose sigue la codificación ATA 100, asignando niveles jerárquicos (1-2-3-4) y códigos 21-XX-XX (componentes) y 21-XX-XX-XX (subcomponentes con referencia FIG opcional). Esta tabla ofrece una visión completa y coherente del sistema de aire acondicionado del A360XWLRGA, reflejando la complejidad tecnológica y el enfoque en la sostenibilidad, la eficiencia, el confort y el cumplimiento normativo.
 
----
-                                            # Tabla Única de Product Breakdown Structure (PBS) - ATA 21 (Air Conditioning)
-                                                                                           |
+---![Diagram](path/to/your/diagram.png)
 
 # Tabla Única de Product Breakdown Structure (PBS) - ATA 21 (Air Conditioning)
 
