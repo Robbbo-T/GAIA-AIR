@@ -1135,78 +1135,78 @@ flowchart LR
 
 # Mermaid Flowchart - ATA 22: AUTO FLIGHT PBS
 
-A continuación se presenta un diagrama en Mermaid que representa el Product Breakdown Structure (PBS) del sistema ATA 22 - AUTO FLIGHT, incorporando IA/AGI, QAOA, gemelos digitales, FADEC seguro y funciones avanzadas de comunicación, eficiencia y seguridad.  
-El esquema utiliza un fondo negro, coloración en azul eléctrico y texto agrandado para una mejor legibilidad y contraste.
 
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground':'#333', 'tertiaryColor': '#000000', 'fontSize': '28px', 'nodeTextColor': '#00FFFF'}}}%%
-flowchart LR
-    %% Main System Header
-    A[22000000: Sistemas de Vuelo Automático]
+1. **Check the Mermaid Diagram Syntax**:
+   - Ensure there are no syntax errors in your Mermaid diagram. Here is the corrected version of your diagram:
 
-    %% Nivel 1
-    A --> B[22: Sistema de Vuelo Automático]
+   ```mermaid
+   %%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground':'#333', 'tertiaryColor': '#000000', 'fontSize': '28px', 'nodeTextColor': '#00FFFF'}}}%%
+   flowchart LR
+       %% Main System Header
+       A[22000000: Sistemas de Vuelo Automático]
 
-    %% Nivel 2 - Control Dinámico (IA/AGI)
-    subgraph LEVEL2_1[22-1: Control Dinámico de Trayectoria (IA/AGI)]
-        B --> C[22-1-1: Módulo IA/AGI de Análisis en Tiempo Real]
-        C --> D[22-1-1-01: Sensores Avanzados de Vuelo]
-        C --> E[22-1-1-02: Procesador IA/AGI Central]
-        C --> F[22-1-2: Interfaz con Gemelos Digitales]
-        F --> G[22-1-2-01: Servidor Gemelo Digital de Trayectoria]
-        F --> H[22-1-2-02: Interfaz Usuario Gemelo Digital]
-    end
+       %% Nivel 1
+       A --> B[22: Sistema de Vuelo Automático]
 
-    %% Nivel 2 - Optimización QAOA
-    subgraph LEVEL2_2[22-2: Optimización de Trayectorias con QAOA]
-        B --> I[22-2-1: Módulo QAOA Integrado]
-        I --> J[22-2-1-01: Interfaz QAOA-IA]
-        I --> K[22-2-1-02: Módulo Selección Rutas Óptimas]
-        I --> L[22-2-2: Gestión de Escenarios Volátiles]
-        L --> M[22-2-2-01: Sensor Monitor Condiciones Externas]
-        L --> N[22-2-2-02: Actualizador Dinámico de Trayectoria]
-    end
+       %% Nivel 2 - Control Dinámico (IA/AGI)
+       subgraph LEVEL2_1[22-1: Control Dinámico de Trayectoria (IA/AGI)]
+           B --> C[22-1-1: Módulo IA/AGI de Análisis en Tiempo Real]
+           C --> D[22-1-1-01: Sensores Avanzados de Vuelo]
+           C --> E[22-1-1-02: Procesador IA/AGI Central]
+           C --> F[22-1-2: Interfaz con Gemelos Digitales]
+           F --> G[22-1-2-01: Servidor Gemelo Digital de Trayectoria]
+           F --> H[22-1-2-02: Interfaz Usuario Gemelo Digital]
+       end
 
-    %% Nivel 2 - Autopiloto Inteligente
-    subgraph LEVEL2_3[22-3: Sistemas de Autopiloto Inteligente]
-        B --> O[22-3-1: Módulos de Control Avanzados]
-        O --> P[22-3-1-01: FADEC Integrado Inteligente]
-        O --> Q[22-3-1-02: Controladores de Superficies de Vuelo IA/AGI]
-        O --> R[22-3-2: Fail-Safe y Redundancia]
-        R --> S[22-3-2-01: Control Redundante en Superficies]
-        R --> T[22-3-2-02: Respaldo Computacional IA]
-        O --> U[22-3-3: Interfaz de Usuario Intuitiva]
-        U --> V[22-3-3-01: Pantalla Táctil Autopiloto]
-        U --> W[22-3-3-02: Controles Manuales Simplificados]
-    end
+       %% Nivel 2 - Optimización QAOA
+       subgraph LEVEL2_2[22-2: Optimización de Trayectorias con QAOA]
+           B --> I[22-2-1: Módulo QAOA Integrado]
+           I --> J[22-2-1-01: Interfaz QAOA-IA]
+           I --> K[22-2-1-02: Módulo Selección Rutas Óptimas]
+           I --> L[22-2-2: Gestión de Escenarios Volátiles]
+           L --> M[22-2-2-01: Sensor Monitor Condiciones Externas]
+           L --> N[22-2-2-02: Actualizador Dinámico de Trayectoria]
+       end
 
-    %% Nivel 2 - Comunicación y Sincronización
-    subgraph LEVEL2_4[22-4: Comunicación entre Sistemas de Vuelo y Otros]
-        B --> X[22-4-1: Integración con Navegación]
-        X --> Y[22-4-1-01: Módulo Navegación Precisa]
-        X --> Z[22-4-1-02: Fusión de Datos Sensoriales IA]
-        X --> AA[22-4-2: Sincronización con Gestión Energética]
-        AA --> AB[22-4-2-01: Interfaz Gestión Potencia]
-        AA --> AC[22-4-2-02: Monitoreo Consumo Combustible IA]
-        X --> AD[22-4-3: Seguridad y Ciberseguridad]
-        AD --> AE[22-4-3-01: Cifrado Blockchain Datos Vuelo]
-        AD --> AF[22-4-3-02: Detección Intrusiones IA]
-    end
+       %% Nivel 2 - Autopiloto Inteligente
+       subgraph LEVEL2_3[22-3: Sistemas de Autopiloto Inteligente]
+           B --> O[22-3-1: Módulos de Control Avanzados]
+           O --> P[22-3-1-01: FADEC Integrado Inteligente]
+           O --> Q[22-3-1-02: Controladores de Superficies de Vuelo IA/AGI]
+           O --> R[22-3-2: Fail-Safe y Redundancia]
+           R --> S[22-3-2-01: Control Redundante en Superficies]
+           R --> T[22-3-2-02: Respaldo Computacional IA]
+           O --> U[22-3-3: Interfaz de Usuario Intuitiva]
+           U --> V[22-3-3-01: Pantalla Táctil Autopiloto]
+           U --> W[22-3-3-02: Controles Manuales Simplificados]
+       end
 
-    %% Nivel 2 - Beneficios Operativos
-    subgraph LEVEL2_5[22-5: Beneficios Operativos]
-        B --> AG[22-5-1: Mayor Precisión Navegación]
-        AG --> AH[22-5-1-01: Optimización Dinámica IA]
-        AG --> AI[22-5-1-02: Monitoreo Contínuo de Trayectoria]
-        AG --> AJ[22-5-2: Aumento Eficiencia Operativa]
-        AJ --> AK[22-5-2-01: QAOA Minimiza Distancias]
-        AJ --> AL[22-5-2-02: IA Ajusta Altitud y Velocidad]
-        AG --> AM[22-5-3: Mejora Seguridad]
-        AM --> AN[22-5-3-01: Fail-Safe Multi-Nivel]
-        AM --> AO[22-5-3-02: IA/AGI Soporte Toma Decisiones Críticas]
-    end
-```
+       %% Nivel 2 - Comunicación y Sincronización
+       subgraph LEVEL2_4[22-4: Comunicación entre Sistemas de Vuelo y Otros]
+           B --> X[22-4-1: Integración con Navegación]
+           X --> Y[22-4-1-01: Módulo Navegación Precisa]
+           X --> Z[22-4-1-02: Fusión de Datos Sensoriales IA]
+           X --> AA[22-4-2: Sincronización con Gestión Energética]
+           AA --> AB[22-4-2-01: Interfaz Gestión Potencia]
+           AA --> AC[22-4-2-02: Monitoreo Consumo Combustible IA]
+           X --> AD[22-4-3: Seguridad y Ciberseguridad]
+           AD --> AE[22-4-3-01: Cifrado Blockchain Datos Vuelo]
+           AD --> AF[22-4-3-02: Detección Intrusiones IA]
+       end
 
+       %% Nivel 2 - Beneficios Operativos
+       subgraph LEVEL2_5[22-5: Beneficios Operativos]
+           B --> AG[22-5-1: Mayor Precisión Navegación]
+           AG --> AH[22-5-1-01: Optimización Dinámica IA]
+           AG --> AI[22-5-1-02: Monitoreo Contínuo de Trayectoria]
+           AG --> AJ[22-5-2: Aumento Eficiencia Operativa]
+           AJ --> AK[22-5-2-01: QAOA Minimiza Distancias]
+           AJ --> AL[22-5-2-02: IA Ajusta Altitud y Velocidad]
+           AG --> AM[22-5-3: Mejora Seguridad]
+           AM --> AN[22-5-3-01: Fail-Safe Multi-Nivel]
+           AM --> AO[22-5-3-02: IA/AGI Soporte Toma Decisiones Críticas]
+       end
+   ```
 
 ## Conclusión
 
