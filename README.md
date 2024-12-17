@@ -1132,9 +1132,12 @@ flowchart LR
 
 ---
 
+# Mermaid Flowchart - ATA 22: AUTO FLIGHT PBS
+
+Below is a Mermaid diagram representing the Product Breakdown Structure (PBS) for ATA 22 - AUTO FLIGHT. It incorporates IA/AGI, QAOA, digital twins, secure FADEC, and advanced communication, efficiency, and security functionalities. The diagram is styled with a black background, electric blue nodes, and enlarged text for readability.
 
 ```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground': '#333', 'tertiaryColor': '#000000', 'fontSize': '28px', 'nodeTextColor': '#00FFFF'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground':'#333', 'tertiaryColor': '#000000', 'fontSize': '28px', 'nodeTextColor': '#00FFFF'}}}%%
 flowchart LR
     %% Main System Header
     A[22000000: Sistemas de Vuelo Automático]
@@ -1143,7 +1146,7 @@ flowchart LR
     A --> B[22: Sistema de Vuelo Automático]
 
     %% Nivel 2 - Control Dinámico (IA/AGI)
-    subgraph LEVEL2_1[22-1: Control Dinámico de Trayectoria (IA/AGI)]
+    subgraph LEVEL2_1 [22-1: Control Dinámico de Trayectoria (IA/AGI)]
         B --> C[22-1-1: Módulo IA/AGI de Análisis en Tiempo Real]
         C --> D[22-1-1-01: Sensores Avanzados de Vuelo]
         C --> E[22-1-1-02: Procesador IA/AGI Central]
@@ -1153,7 +1156,7 @@ flowchart LR
     end
 
     %% Nivel 2 - Optimización QAOA
-    subgraph LEVEL2_2[22-2: Optimización de Trayectorias con QAOA]
+    subgraph LEVEL2_2 [22-2: Optimización de Trayectorias con QAOA]
         B --> I[22-2-1: Módulo QAOA Integrado]
         I --> J[22-2-1-01: Interfaz QAOA-IA]
         I --> K[22-2-1-02: Módulo Selección Rutas Óptimas]
@@ -1163,7 +1166,7 @@ flowchart LR
     end
 
     %% Nivel 2 - Autopiloto Inteligente
-    subgraph LEVEL2_3[22-3: Sistemas de Autopiloto Inteligente]
+    subgraph LEVEL2_3 [22-3: Sistemas de Autopiloto Inteligente]
         B --> O[22-3-1: Módulos de Control Avanzados]
         O --> P[22-3-1-01: FADEC Integrado Inteligente]
         O --> Q[22-3-1-02: Controladores de Superficies de Vuelo IA/AGI]
@@ -1176,7 +1179,7 @@ flowchart LR
     end
 
     %% Nivel 2 - Comunicación y Sincronización
-    subgraph LEVEL2_4[22-4: Comunicación entre Sistemas de Vuelo y Otros]
+    subgraph LEVEL2_4 [22-4: Comunicación entre Sistemas de Vuelo y Otros]
         B --> X[22-4-1: Integración con Navegación]
         X --> Y[22-4-1-01: Módulo Navegación Precisa]
         X --> Z[22-4-1-02: Fusión de Datos Sensoriales IA]
@@ -1189,7 +1192,7 @@ flowchart LR
     end
 
     %% Nivel 2 - Beneficios Operativos
-    subgraph LEVEL2_5[22-5: Beneficios Operativos]
+    subgraph LEVEL2_5 [22-5: Beneficios Operativos]
         B --> AG[22-5-1: Mayor Precisión Navegación]
         AG --> AH[22-5-1-01: Optimización Dinámica IA]
         AG --> AI[22-5-1-02: Monitoreo Contínuo de Trayectoria]
@@ -1200,6 +1203,7 @@ flowchart LR
         AM --> AN[22-5-3-01: Fail-Safe Multi-Nivel]
         AM --> AO[22-5-3-02: IA/AGI Soporte Toma Decisiones Críticas]
     end
+
 ```
 
 
