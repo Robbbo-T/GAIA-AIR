@@ -981,291 +981,97 @@ A continuación se presenta una **Tabla Única de PBS** para el **Capítulo 21: 
 | **4**     | 21-10-2-01     | **Base de Datos Centralizada**                     | Almacena todos los datos operativos y de mantenimiento en una base de datos centralizada para facilitar el análisis y la toma de decisiones (FIG42).                                                |
 | **4**     | 21-10-2-02     | **Plataforma de Análisis de Datos IA**             | Herramienta que utiliza IA para analizar los datos recopilados y proporcionar insights para la optimización continua del sistema (FIG43).                                                             |
 
-    
-    ```mermaid
-    flowchart TB
-        A[21: Sistema de Aire Acondicionado]:::link
-        A --> B[21-1: Máquina de Ciclo de Aire]:::link
-        B --> C[21-1-1: Compresor]:::link
-        C --> D[21-1-1-01: Unidad de Compresión IA/AGI]:::link
-        C --> E[21-1-1-02: Sensores de Presión]:::link
-        B --> F[21-1-2: Expansor]:::link
-        F --> G[21-1-2-01: Módulo Control Expansor QAOA]:::link
-        F --> H[21-1-2-02: Actuadores del Expansor]:::link
-        B --> I[21-1-3: Intercambiadores de Calor]:::link
-        I --> J[21-1-3-01: Intercambiador Principal]:::link
-        I --> K[21-1-3-02: Intercambiador Secundario]:::link
-        A --> L[21-2: Unidad de Control Ambiental]:::link
-        L --> M[21-2-1: Paneles de Control]:::link
-        M --> N[21-2-1-01: Interfaz Usuario IA/AGI]:::link
-        M --> O[21-2-1-02: Pantallas Monitoreo Digital]:::link
-        L --> P[21-2-2: Sensores]:::link
-        P --> Q[21-2-2-01: Sensores de Temperatura]:::link
-        P --> R[21-2-2-02: Sensores de Humedad]:::link
-        P --> S[21-2-2-03: Sensores de Ocupación]:::link
-        L --> T[21-2-3: Actuadores]:::link
-        T --> U[21-2-3-01: Actuadores de Válvula de Aire]:::link
-        T --> V[21-2-3-02: Actuadores de Ventiladores]:::link
-        A --> W[21-3: Conductos y Tuberías]:::link
-        W --> X[21-3-1: Conductos de Aire]:::link
-        X --> Y[21-3-1-01: Conducto Principal]:::link
-        X --> Z[21-3-1-02: Conductos Secundarios]:::link
-        W --> AA[21-3-2: Líneas de Refrigerante]:::link
-        AA --> AB[21-3-2-01: Línea de Entrada de Refrigerante]:::link
-        AA --> AC[21-3-2-02: Línea de Salida de Refrigerante]:::link
-        A --> AD[21-4: Ventiladores y Sopladores]:::link
-        AD --> AE[21-4-1: Soplador Principal]:::link
-        AE --> AF[21-4-1-01: Motor del Soplador Principal]:::link
-        AE --> AG[21-4-1-02: Válvula de Control del Soplador]:::link
-        AD --> AH[21-4-2: Ventiladores de Cabina]:::link
-        AH --> AI[21-4-2-01: Ventilador de Zona 1]:::link
-        AH --> AJ[21-4-2-02: Ventilador de Zona 2]:::link
-        A --> AK[21-5: Filtros y Tamizadores]:::link
-        AK --> AL[21-5-1: Filtros de Aire]:::link
-        AL --> AM[21-5-1-01: Filtro HEPA]:::link
-        AL --> AN[21-5-1-02: Filtro de Carbón Activado]:::link
-        AK --> AO[21-5-2: Filtros de Refrigerante]:::link
-        AO --> AP[21-5-2-01: Filtro de Refrigerante Principal]:::link
-        AO --> AQ[21-5-2-02: Filtro de Refrigerante Secundario]:::link
-        A --> AR[21-6: Sistemas de Control]:::link
-        AR --> AS[21-6-1: Controles de Temperatura]:::link
-        AS --> AT[21-6-1-01: Termostato Digital IA/AGI]:::link
-        AS --> AU[21-6-1-02: Sensores de Temperatura Avanzados]:::link
-        AR --> AV[21-6-2: Controles de Humedad]:::link
-        AV --> AW[21-6-2-01: Humidificador IA/AGI]:::link
-        AV --> AX[21-6-2-02: Deshumidificador Inteligente]:::link
-        A --> AY[21-7: Integración de Tecnologías Avanzadas]:::link
-        AY --> AZ[21-7-1: Módulo IA/AGI Integrado]:::link
-        AZ --> BA[21-7-1-01: Procesador IA/AGI Central]:::link
-        AZ --> BB[21-7-1-02: Interfaz de Comunicación Blockchain]:::link
-        AY --> BC[21-7-2: Gemelo Digital del Sistema de Aire Acondicionado]:::link
-        BC --> BD[21-7-2-01: Servidor de Simulación Gemelo Digital]:::link
-        BC --> BE[21-7-2-02: Interfaz de Usuario del Gemelo Digital]:::link
-        AY --> BF[21-7-3: Módulo de Optimización QAOA]:::link
-        BF --> BG[21-7-3-01: Algoritmo QAOA de Optimización]:::link
-        BF --> BH[21-7-3-02: Interfaz de Configuración QAOA]:::link
-        A --> BI[21-8: Sostenibilidad y Economía Circular]:::link
-        BI --> BJ[21-8-1: Refrigerantes Verdes]:::link
-        BJ --> BK[21-8-1-01: Selección de Refrigerantes Eco-Amigables]:::link
-        BJ --> BL[21-8-1-02: Monitoreo de Composición Química]:::link
-        BI --> BM[21-8-2: Economía Circular]:::link
-        BM --> BN[21-8-2-01: Filtros y Componentes Reutilizables]:::link
-        BM --> BO[21-8-2-02: Trazabilidad con Blockchain]:::link
-        BM --> BP[21-8-2-03: IA/AGI para Predicción de Ciclos de Vida y Reemplazo]:::link
-        BI --> BQ[21-8-3: Cumplimiento Regulatorio y Huella de Carbono Reducida]:::link
-        BQ --> BR[21-8-3-01: Alineación con EASA, FAA, ISO 14040]:::link
-        BQ --> BS[21-8-3-02: Auditorías Externas Facilitadas (Blockchain)]:::link
-        BQ --> BT[21-8-3-03: Cálculo de Emisiones y Compensación]:::link
-        A --> BU[21-9: Mantenimiento y Soporte Técnico]:::link
-        BU --> BV[21-9-1: Mantenimiento Predictivo]:::link
-        BV --> BW[21-9-1-01: Monitor de Estado en Tiempo Real]:::link
-        BV --> BX[21-9-1-02: Herramientas de Diagnóstico IA/AGI]:::link
-        BU --> BY[21-9-2: Soporte Técnico y Reparaciones]:::link
-        BY --> BZ[21-9-2-01: Equipo de Reparación Especializado]:::link
-        BY --> CA[21-9-2-02: Sistema de Gestión de Incidentes]:::link
-        A --> CB[21-10: Sistema de Trazabilidad y Registro]:::link
-        CB --> CC[21-10-1: Ledger Blockchain]:::link
-        CC --> CD[21-10-1-01: Nodo Principal de Blockchain]:::link
-        CC --> CE[21-10-1-02: Interfaz de Usuario Blockchain]:::link
-        CB --> CF[21-10-2: Sistema de Gestión de Datos]:::link
-        CF --> CG[21-10-2-01: Base de Datos Centralizada]:::link
-        CF --> CH[21-10-2-02: Plataforma de Análisis de Datos IA]:::link
+  ```mermaid  
+   flowchart TB
+    A[21: Sistema de Aire Acondicionado]:::link
+    A --> B[21-1: Máquina de Ciclo de Aire]:::link
+    B --> C[21-1-1: Compresor]:::link
+    C --> D[21-1-1-01: Unidad de Compresión IA/AGI]:::link
+    C --> E[21-1-1-02: Sensores de Presión]:::link
+    B --> F[21-1-2: Expansor]:::link
+    F --> G[21-1-2-01: Módulo Control Expansor QAOA]:::link
+    F --> H[21-1-2-02: Actuadores del Expansor]:::link
+    B --> I[21-1-3: Intercambiadores de Calor]:::link
+    I --> J[21-1-3-01: Intercambiador Principal]:::link
+    I --> K[21-1-3-02: Intercambiador Secundario]:::link
+    A --> L[21-2: Unidad de Control Ambiental]:::link
+    L --> M[21-2-1: Paneles de Control]:::link
+    M --> N[21-2-1-01: Interfaz Usuario IA/AGI]:::link
+    M --> O[21-2-1-02: Pantallas Monitoreo Digital]:::link
+    L --> P[21-2-2: Sensores]:::link
+    P --> Q[21-2-2-01: Sensores de Temperatura]:::link
+    P --> R[21-2-2-02: Sensores de Humedad]:::link
+    P --> S[21-2-2-03: Sensores de Ocupación]:::link
+    L --> T[21-2-3: Actuadores]:::link
+    T --> U[21-2-3-01: Actuadores de Válvula de Aire]:::link
+    T --> V[21-2-3-02: Actuadores de Ventiladores]:::link
+    A --> W[21-3: Conductos y Tuberías]:::link
+    W --> X[21-3-1: Conductos de Aire]:::link
+    X --> Y[21-3-1-01: Conducto Principal]:::link
+    X --> Z[21-3-1-02: Conductos Secundarios]:::link
+    W --> AA[21-3-2: Líneas de Refrigerante]:::link
+    AA --> AB[21-3-2-01: Línea de Entrada de Refrigerante]:::link
+    AA --> AC[21-3-2-02: Línea de Salida de Refrigerante]:::link
+    A --> AD[21-4: Ventiladores y Sopladores]:::link
+    AD --> AE[21-4-1: Soplador Principal]:::link
+    AE --> AF[21-4-1-01: Motor del Soplador Principal]:::link
+    AE --> AG[21-4-1-02: Válvula de Control del Soplador]:::link
+    AD --> AH[21-4-2: Ventiladores de Cabina]:::link
+    AH --> AI[21-4-2-01: Ventilador de Zona 1]:::link
+    AH --> AJ[21-4-2-02: Ventilador de Zona 2]:::link
+    A --> AK[21-5: Filtros y Tamizadores]:::link
+    AK --> AL[21-5-1: Filtros de Aire]:::link
+    AL --> AM[21-5-1-01: Filtro HEPA]:::link
+    AL --> AN[21-5-1-02: Filtro de Carbón Activado]:::link
+    AK --> AO[21-5-2: Filtros de Refrigerante]:::link
+    AO --> AP[21-5-2-01: Filtro de Refrigerante Principal]:::link
+    AO --> AQ[21-5-2-02: Filtro de Refrigerante Secundario]:::link
+    A --> AR[21-6: Sistemas de Control]:::link
+    AR --> AS[21-6-1: Controles de Temperatura]:::link
+    AS --> AT[21-6-1-01: Termostato Digital IA/AGI]:::link
+    AS --> AU[21-6-1-02: Sensores de Temperatura Avanzados]:::link
+    AR --> AV[21-6-2: Controles de Humedad]:::link
+    AV --> AW[21-6-2-01: Humidificador IA/AGI]:::link
+    AV --> AX[21-6-2-02: Deshumidificador Inteligente]:::link
+    A --> AY[21-7: Integración de Tecnologías Avanzadas]:::link
+    AY --> AZ[21-7-1: Módulo IA/AGI Integrado]:::link
+    AZ --> BA[21-7-1-01: Procesador IA/AGI Central]:::link
+    AZ --> BB[21-7-1-02: Interfaz de Comunicación Blockchain]:::link
+    AY --> BC[21-7-2: Gemelo Digital del Sistema de Aire Acondicionado]:::link
+    BC --> BD[21-7-2-01: Servidor de Simulación Gemelo Digital]:::link
+    BC --> BE[21-7-2-02: Interfaz de Usuario del Gemelo Digital]:::link
+    AY --> BF[21-7-3: Módulo de Optimización QAOA]:::link
+    BF --> BG[21-7-3-01: Algoritmo QAOA de Optimización]:::link
+    BF --> BH[21-7-3-02: Interfaz de Configuración QAOA]:::link
+    A --> BI[21-8: Sostenibilidad y Economía Circular]:::link
+    BI --> BJ[21-8-1: Refrigerantes Verdes]:::link
+    BJ --> BK[21-8-1-01: Selección de Refrigerantes Eco-Amigables]:::link
+    BJ --> BL[21-8-1-02: Monitoreo de Composición Química]:::link
+    BI --> BM[21-8-2: Economía Circular]:::link
+    BM --> BN[21-8-2-01: Filtros y Componentes Reutilizables]:::link
+    BM --> BO[21-8-2-02: Trazabilidad con Blockchain]:::link
+    BM --> BP[21-8-2-03: IA/AGI para Predicción de Ciclos de Vida y Reemplazo]:::link
+    BI --> BQ[21-8-3: Cumplimiento Regulatorio y Huella de Carbono Reducida]:::link
+    BQ --> BR[21-8-3-01: Alineación con EASA, FAA, ISO 14040]:::link
+    BQ --> BS[21-8-3-02: Auditorías Externas Facilitadas Blockchain]:::link
+    BQ --> BT[21-8-3-03: Cálculo de Emisiones y Compensación]:::link
+    A --> BU[21-9: Mantenimiento y Soporte Técnico]:::link
+    BU --> BV[21-9-1: Mantenimiento Predictivo]:::link
+    BV --> BW[21-9-1-01: Monitor de Estado en Tiempo Real]:::link
+    BV --> BX[21-9-1-02: Herramientas de Diagnóstico IA/AGI]:::link
+    BU --> BY[21-9-2: Soporte Técnico y Reparaciones]:::link
+    BY --> BZ[21-9-2-01: Equipo de Reparación Especializado]:::link
+    BY --> CA[21-9-2-02: Sistema de Gestión de Incidentes]:::link
+    A --> CB[21-10: Sistema de Trazabilidad y Registro]:::link
+    CB --> CC[21-10-1: Ledger Blockchain]:::link
+    CC --> CD[21-10-1-01: Nodo Principal de Blockchain]:::link
+    CC --> CE[21-10-1-02: Interfaz de Usuario Blockchain]:::link
+    CB --> CF[21-10-2: Sistema de Gestión de Datos]:::link
+    CF --> CG[21-10-2-01: Base de Datos Centralizada]:::link
+    CF --> CH[21-10-2-02: Plataforma de Análisis de Datos IA]:::link
 
-        classDef link fill:#f9f,stroke:#333,stroke-width:2px;
-        click A "https://example.com/system-info" "Sistema de Aire Acondicionado"
-        click B "https://example.com/acm" "Máquina de Ciclo de Aire"
-        click C "https://example.com/compressor" "Compresor"
-        click D "https://example.com/compression-ia" "Unidad de Compresión IA/AGI"
-        click E "https://example.com/pressure-sensors" "Sensores de Presión"
-        click F "https://example.com/expander" "Expansor"
-        click G "https://example.com/expansor-qaoa" "Módulo Control Expansor QAOA"
-        click H "https://example.com/expansor-actuators" "Actuadores del Expansor"
-        click I "https://example.com/heat-exchangers" "Intercambiadores de Calor"
-        click J "https://example.com/main-heat-exchanger" "Intercambiador Principal"
-        click K "https://example.com/secondary-heat-exchanger" "Intercambiador Secundario"
-        click L "https://example.com/environmental-control-unit" "Unidad de Control Ambiental"
-        click M "https://example.com/control-panels" "Paneles de Control"
-        click N "https://example.com/user-interface" "Interfaz Usuario IA/AGI"
-        click O "https://example.com/digital-monitoring" "Pantallas Monitoreo Digital"
-        click P "https://example.com/sensors" "Sensores"
-        click Q "https://example.com/temperature-sensors" "Sensores de Temperatura"
-        click R "https://example.com/humidity-sensors" "Sensores de Humedad"
-        click S "https://example.com/occupancy-sensors" "Sensores de Ocupación"
-        click T "https://example.com/actuators" "Actuadores"
-        click U "https://example.com/air-valve-actuators" "Actuadores de Válvula de Aire"
-        click V "https://example.com/fan-actuators" "Actuadores de Ventiladores"
-        click W "https://example.com/ducts-pipes" "Conductos y Tuberías"
-        click X "https://example.com/air-ducts" "Conductos de Aire"
-        click Y "https://example.com/main-duct" "Conducto Principal"
-        click Z "https://example.com/secondary-ducts" "Conductos Secundarios"
-        click AA "https://example.com/refrigerant-lines" "Líneas de Refrigerante"
-        click AB "https://example.com/refrigerant-entry-line" "Línea de Entrada de Refrigerante"
-        click AC "https://example.com/refrigerant-exit-line" "Línea de Salida de Refrigerante"
-        click AD "https://example.com/fans-blowers" "Ventiladores y Sopladores"
-        click AE "https://example.com/main-blower" "Soplador Principal"
-        click AF "https://example.com/main-blower-motor" "Motor del Soplador Principal"
-        click AG "https://example.com/blower-control-valve" "Válvula de Control del Soplador"
-        click AH "https://example.com/cabin-fans" "Ventiladores de Cabina"
-        click AI "https://example.com/fan-zone1" "Ventilador de Zona 1"
-        click AJ "https://example.com/fan-zone2" "Ventilador de Zona 2"
-        click AK "https://example.com/filters-tamers" "Filtros y Tamizadores"
-        click AL "https://example.com/air-filters" "Filtros de Aire"
-        click AM "https://example.com/hepa-filter" "Filtro HEPA"
-        click AN "https://example.com/carbon-filter" "Filtro de Carbón Activado"
-        click AO "https://example.com/refrigerant-filters" "Filtros de Refrigerante"
-        click AP "https://example.com/main-refrigerant-filter" "Filtro de Refrigerante Principal"
-        click AQ "https://example.com/secondary-refrigerant-filter" "Filtro de Refrigerante Secundario"
-        click AR "https://example.com/control-systems" "Sistemas de Control"
-        click AS "https://example.com/temperature-controls" "Controles de Temperatura"
-        click AT "https://example.com/ia-agi-thermostat" "Termostato Digital IA/AGI"
-        click AU "https://example.com/advanced-temp-sensors" "Sensores de Temperatura Avanzados"
-        click AV "https://example.com/humidity-controls" "Controles de Humedad"
-        click AW "https://example.com/ia-agi-humidifier" "Humidificador IA/AGI"
-        click AX "https://example.com/smart-dehumidifier" "Deshumidificador Inteligente"
-        click AY "https://example.com/advanced-tech-integration" "Integración de Tecnologías Avanzadas"
-        click AZ "https://example.com/ia-agi-module" "Módulo IA/AGI Integrado"
-        click BA "https://example.com/ia-agi-processor" "Procesador IA/AGI Central"
-        click BB "https://example.com/blockchain-interface" "Interfaz de Comunicación Blockchain"
-        click BC "https://example.com/digital-twin" "Gemelo Digital del Sistema de Aire Acondicionado"
-        click BD "https://example.com/digital-twin-server" "Servidor de Simulación Gemelo Digital"
-        click BE "https://example.com/digital-twin-ui" "Interfaz de Usuario del Gemelo Digital"
-        click BF "https://example.com/qaoa-optimization-module" "Módulo de Optimización QAOA"
-        click BG "https://example.com/qaoa-optimization-algorithm" "Algoritmo QAOA de Optimización"
-        click BH "https://example.com/qaoa-config-interface" "Interfaz de Configuración QAOA"
-        click BI "https://example.com/sustainability-circular-economy" "Sostenibilidad y Economía Circular"
-        click BJ "https://example.com/green-refrigerants" "Refrigerantes Verdes"
-        click BK "https://example.com/eco-friendly-refrigerants" "Selección de Refrigerantes Eco-Amigables"
-        click BL "https://example.com/chemical-composition-monitoring" "Monitoreo de Composición Química"
-        click BM "https://example.com/circular-economy" "Economía Circular"
-        click BN "https://example.com/reusable-filters-components" "Filtros y Componentes Reutilizables"
-        click BO "https://example.com/blockchain-traceability" "Trazabilidad con Blockchain"
-        click BP "https://example.com/ia-agi-lifecycle-prediction" "IA/AGI para Predicción de Ciclos de Vida y Reemplazo"
-        click BQ "https://example.com/regulatory-compliance-carbon-footprint" "Cumplimiento Regulatorio y Huella de Carbono Reducida"
-        click BR "https://example.com/easa-faa-iso-alignment" "Alineación con EASA, FAA, ISO 14040"
-        click BS "https://example.com/blockchain-audits" "Auditorías Externas Facilitadas (Blockchain)"
-        click BT "https://example.com/emission-calculation-compensation" "Cálculo de Emisiones y Compensación"
-        click BU "https://example.com/maintenance-support" "Mantenimiento y Soporte Técnico"
-        click BV "https://example.com/predictive-maintenance" "Mantenimiento Predictivo"
-        click BW "https://example.com/real-time-status-monitor" "Monitor de Estado en Tiempo Real"
-        click BX "https://example.com/ia-agi-diagnostic-tools" "Herramientas de Diagnóstico IA/AGI"
-        click BY "https://example.com/technical-support-repairs" "Soporte Técnico y Reparaciones"
-        click BZ "https://example.com/specialized-repair-equipment" "Equipo de Reparación Especializado"
-        click CA "https://example.com/incident-management-system" "Sistema de Gestión de Incidentes"
-        click CB "https://example.com/traceability-recording-system" "Sistema de Trazabilidad y Registro"
-        click CC "https://example.com/blockchain-ledger" "Ledger Blockchain"
-        click CD "https://example.com/blockchain-main-node" "Nodo Principal de Blockchain"
-        click CE "https://example.com/blockchain-user-interface" "Interfaz de Usuario Blockchain"
-        click CF "https://example.com/data-management-system" "Sistema de Gestión de Datos"
-        click CG "https://example.com/centralized-database" "Base de Datos Centralizada"
-        click CH "https://example.com/ia-data-analysis-platform" "Plataforma de Análisis de Datos IA"
-
-        classDef link fill:#f9f,stroke:#333,stroke-width:2px;
-        click A "https://example.com/system-info" "Sistema de Aire Acondicionado"
-        click B "https://example.com/acm" "Máquina de Ciclo de Aire"
-        click C "https://example.com/compressor" "Compresor"
-        click D "https://example.com/compression-ia" "Unidad de Compresión IA/AGI"
-        click E "https://example.com/pressure-sensors" "Sensores de Presión"
-        click F "https://example.com/expander" "Expansor"
-        click G "https://example.com/expansor-qaoa" "Módulo Control Expansor QAOA"
-        click H "https://example.com/expansor-actuators" "Actuadores del Expansor"
-        click I "https://example.com/heat-exchangers" "Intercambiadores de Calor"
-        click J "https://example.com/main-heat-exchanger" "Intercambiador Principal"
-        click K "https://example.com/secondary-heat-exchanger" "Intercambiador Secundario"
-        click L "https://example.com/environmental-control-unit" "Unidad de Control Ambiental"
-        click M "https://example.com/control-panels" "Paneles de Control"
-        click N "https://example.com/user-interface" "Interfaz Usuario IA/AGI"
-        click O "https://example.com/digital-monitoring" "Pantallas Monitoreo Digital"
-        click P "https://example.com/sensors" "Sensores"
-        click Q "https://example.com/temperature-sensors" "Sensores de Temperatura"
-        click R "https://example.com/humidity-sensors" "Sensores de Humedad"
-        click S "https://example.com/occupancy-sensors" "Sensores de Ocupación"
-        click T "https://example.com/actuators" "Actuadores"
-        click U "https://example.com/air-valve-actuators" "Actuadores de Válvula de Aire"
-        click V "https://example.com/fan-actuators" "Actuadores de Ventiladores"
-        click W "https://example.com/ducts-pipes" "Conductos y Tuberías"
-        click X "https://example.com/air-ducts" "Conductos de Aire"
-        click Y "https://example.com/main-duct" "Conducto Principal"
-        click Z "https://example.com/secondary-ducts" "Conductos Secundarios"
-        click AA "https://example.com/refrigerant-lines" "Líneas de Refrigerante"
-        click AB "https://example.com/refrigerant-entry-line" "Línea de Entrada de Refrigerante"
-        click AC "https://example.com/refrigerant-exit-line" "Línea de Salida de Refrigerante"
-        click AD "https://example.com/fans-blowers" "Ventiladores y Sopladores"
-        click AE "https://example.com/main-blower" "Soplador Principal"
-        click AF "https://example.com/main-blower-motor" "Motor del Soplador Principal"
-        click AG "https://example.com/blower-control-valve" "Válvula de Control del Soplador"
-        click AH "https://example.com/cabin-fans" "Ventiladores de Cabina"
-        click AI "https://example.com/fan-zone1" "Ventilador de Zona 1"
-        click AJ "https://example.com/fan-zone2" "Ventilador de Zona 2"
-        click AK "https://example.com/filters-tamers" "Filtros y Tamizadores"
-        click AL "https://example.com/air-filters" "Filtros de Aire"
-        click AM "https://example.com/hepa-filter" "Filtro HEPA"
-        click AN "https://example.com/carbon-filter" "Filtro de Carbón Activado"
-        click AO "https://example.com/refrigerant-filters" "Filtros de Refrigerante"
-        click AP "https://example.com/main-refrigerant-filter" "Filtro de Refrigerante Principal"
-        click AQ "https://example.com/secondary-refrigerant-filter" "Filtro de Refrigerante Secundario"
-        click AR "https://example.com/control-systems" "Sistemas de Control"
-        click AS "https://example.com/temperature-controls" "Controles de Temperatura"
-        click AT "https://example.com/ia-agi-thermostat" "Termostato Digital IA/AGI"
-        click AU "https://example.com/advanced-temp-sensors" "Sensores de Temperatura Avanzados"
-        click AV "https://example.com/humidity-controls" "Controles de Humedad"
-        click AW "https://example.com/ia-agi-humidifier" "Humidificador IA/AGI"
-        click AX "https://example.com/smart-dehumidifier" "Deshumidificador Inteligente"
-        click AY "https://example.com/advanced-tech-integration" "Integración de Tecnologías Avanzadas"
-        click AZ "https://example.com/ia-agi-module" "Módulo IA/AGI Integrado"
-        click BA "https://example.com/ia-agi-processor" "Procesador IA/AGI Central"
-        click BB "https://example.com/blockchain-interface" "Interfaz de Comunicación Blockchain"
-        click BC "https://example.com/digital-twin" "Gemelo Digital del Sistema de Aire Acondicionado"
-        click BD "https://example.com/digital-twin-server" "Servidor de Simulación Gemelo Digital"
-        click BE "https://example.com/digital-twin-ui" "Interfaz de Usuario del Gemelo Digital"
-        click BF "https://example.com/qaoa-optimization-module" "Módulo de Optimización QAOA"
-        click BG "https://example.com/qaoa-optimization-algorithm" "Algoritmo QAOA de Optimización"
-        click BH "https://example.com/qaoa-config-interface" "Interfaz de Configuración QAOA"
-        click BI "https://example.com/sustainability-circular-economy" "Sostenibilidad y Economía Circular"
-        click BJ "https://example.com/green-refrigerants" "Refrigerantes Verdes"
-        click BK "https://example.com/eco-friendly-refrigerants" "Selección de Refrigerantes Eco-Amigables"
-        click BL "https://example.com/chemical-composition-monitoring" "Monitoreo de Composición Química"
-        click BM "https://example.com/circular-economy" "Economía Circular"
-        click BN "https://example.com/reusable-filters-components" "Filtros y Componentes Reutilizables"
-        click BO "https://example.com/blockchain-traceability" "Trazabilidad con Blockchain"
-        click BP "https://example.com/ia-agi-lifecycle-prediction" "IA/AGI para Predicción de Ciclos de Vida y Reemplazo"
-        click BQ "https://example.com/regulatory-compliance-carbon-footprint" "Cumplimiento Regulatorio y Huella de Carbono Reducida"
-        click BR "https://example.com/easa-faa-iso-alignment" "Alineación con EASA, FAA, ISO 14040"
-        click BS "https://example.com/blockchain-audits" "Auditorías Externas Facilitadas (Blockchain)"
-        click BT "https://example.com/emission-calculation-compensation" "Cálculo de Emisiones y Compensación"
-        click BU "https://example.com/maintenance-support" "Mantenimiento y Soporte Técnico"
-        click BV "https://example.com/predictive-maintenance" "Mantenimiento Predictivo"
-        click BW "https://example.com/real-time-status-monitor" "Monitor de Estado en Tiempo Real"
-        click BX "https://example.com/ia-agi-diagnostic-tools" "Herramientas de Diagnóstico IA/AGI"
-        click BY "https://example.com/technical-support-repairs" "Soporte Técnico y Reparaciones"
-        click BZ "https://example.com/specialized-repair-equipment" "Equipo de Reparación Especializado"
-        click CA "https://example.com/incident-management-system" "Sistema de Gestión de Incidentes"
-        click CB "https://example.com/traceability-recording-system" "Sistema de Trazabilidad y Registro"
-        click CC "https://example.com/blockchain-ledger" "Ledger Blockchain"
-        click CD "https://example.com/blockchain-main-node" "Nodo Principal de Blockchain"
-        click CE "https://example.com/blockchain-user-interface" "Interfaz de Usuario Blockchain"
-        click CF "https://example.com/data-management-system" "Sistema de Gestión de Datos"
-        click CG "https://example.com/centralized-database" "Base de Datos Centralizada"
-        click CH "https://example.com/ia-data-analysis-platform" "Plataforma de Análisis de Datos IA"
-        ```
-
-    ### **Explicación del Diagrama de Flujo**
-    
-    - **Sistema de Aire Acondicionado (21):** Punto de partida que engloba todo el sistema.
-    - **Máquina de Ciclo de Aire (21-1):** Maneja el ciclo de refrigeración mediante compresor, expansor e intercambiadores de calor.
-    - **Unidad de Control Ambiental (21-2):** Controla y monitorea los parámetros ambientales dentro de la cabina.
-    - **Conductos y Tuberías (21-3):** Distribuyen el aire acondicionado y el refrigerante a través de la cabina.
-    - **Ventiladores y Sopladores (21-4):** Mueven el aire acondicionado a través de los conductos y lo distribuyen en áreas específicas.
-    - **Filtros y Tamizadores (21-5):** Eliminan partículas y contaminantes del aire y refrigerante.
-    - **Sistemas de Control (21-6):** Gestionan y regulan los parámetros ambientales.
-    - **Integración de Tecnologías Avanzadas (21-7):** Incorpora IA/AGI, QAOA, Blockchain y Gemelos Digitales para optimizar el sistema.
-    - **Sostenibilidad y Economía Circular (21-8):** Implementa prácticas sostenibles y de reutilización para minimizar el impacto ambiental.
-    - **Mantenimiento y Soporte Técnico (21-9):** Asegura el mantenimiento preventivo y correctivo del sistema.
-    - **Sistema de Trazabilidad y Registro (21-10):** Registra y rastrea todas las operaciones y mantenimientos mediante Blockchain.
-
-    ---
-    
-
-
+classDef link fill:#f9f,stroke:#333,stroke-width:2px
+```
 
 # ATA 22 - AUTO FLIGHT SYSTEM
 
