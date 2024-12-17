@@ -2258,9 +2258,7 @@ This breakdown (31-XX-XX) provides a structured view of the advanced indicating 
 | **4**     | 57-9-2-02      | **Coordinación con Auditores Externos**                              | Gestión de relaciones y comunicación con auditores externos durante las auditorías (FIG63).                                                                                                | Satisfacción de auditores (%)                       | **Riesgo:** Comunicación deficiente con auditores. **Mitigación:** Formación en habilidades de comunicación y protocolos claros. | Auditoría externa de estándares en tren de aterrizaje  | Equipo de Coordinación con Auditores Externos      | Q3 2024                     |
 
 
-
-```markdown
-## Aircraft Structure
+## Aircraft Wings Structure
 
 ```mermaid
 flowchart TB
@@ -2382,8 +2380,7 @@ flowchart TB
 ```
 
 Ensure that mermaid is supported by the markdown processor you are using. If not, you may need to use a plugin or a different approach to render the diagram.
-    
-    ```
+   
 
 ---
 
