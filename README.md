@@ -1132,9 +1132,11 @@ flowchart LR
 
 ---
 
-# Mermaid Flowchart - ATA 22: AUTO FLIGHT PBS
+### ATA 22: **AUTO FLIGHT PBS** Flowchart (Mermaid Syntax)
 
-Below is a Mermaid diagram representing the Product Breakdown Structure (PBS) for ATA 22 - AUTO FLIGHT. It incorporates IA/AGI, QAOA, digital twins, secure FADEC, and advanced communication, efficiency, and security functionalities. The diagram is styled with a black background, electric blue nodes, and enlarged text for readability.
+Below is the refined and clean **Mermaid** flowchart for the **ATA 22 - Auto Flight** Product Breakdown Structure (PBS). It integrates advanced functionalities like **IA/AGI**, **QAOA**, **FADEC**, **digital twins**, and **secure communications**, formatted with a black background and electric blue nodes for enhanced readability.
+
+---
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground':'#333', 'tertiaryColor': '#000000', 'fontSize': '28px', 'nodeTextColor': '#00FFFF'}}}%%
@@ -1203,8 +1205,35 @@ flowchart LR
         AM --> AN[22-5-3-01: Fail-Safe Multi-Nivel]
         AM --> AO[22-5-3-02: IA/AGI Soporte Toma Decisiones Críticas]
     end
-
 ```
+
+---
+
+### **Descripción del Diagrama**
+1. **Jerarquía**:
+   - Nivel 1: **Sistema Principal** (22000000).
+   - Nivel 2: Principales subsistemas como **Control Dinámico (IA/AGI)**, **Optimización QAOA**, **Autopiloto Inteligente**, **Comunicación/Sincronización**, y **Beneficios Operativos**.
+   - Niveles 3 y 4: Componentes detallados, submódulos, y funcionalidades asociadas.
+
+2. **Tecnologías Integradas**:
+   - **IA/AGI**: Optimización y análisis en tiempo real.
+   - **QAOA**: Selección de rutas y ajustes eficientes.
+   - **FADEC Inteligente**: Control avanzado de superficies y redundancia.
+   - **Gemelos Digitales**: Simulación y análisis de trayectoria.
+   - **Blockchain**: Seguridad de datos y detección de intrusiones.
+
+3. **Estética**:
+   - Fondo negro (`#000000`) y nodos con color eléctrico azul (`#00FFFF`), asegurando claridad y alta visibilidad.
+   - Texto ampliado (28px) para una presentación legible en cualquier medio.
+
+---
+
+### **Uso del Diagrama**
+- **Visualización Rápida**: Permite a ingenieros y gestores comprender rápidamente la estructura del sistema ATA 22.
+- **Trazabilidad**: Vincula subsistemas tecnológicos con beneficios operativos.
+- **Implementación S1000D**: Sirve como base gráfica para estructurar **Data Modules** en XML.
+
+Si necesitas ajustar niveles adicionales, generar un XML **S1000D** o diagramas complementarios, no dudes en indicarlo. 🚀
 
 
 ## Conclusión
