@@ -982,145 +982,69 @@ A continuación se presenta una **Tabla Única de PBS** para el **Capítulo 21: 
 | **4**     | 21-10-2-02     | **Plataforma de Análisis de Datos IA**             | Herramienta que utiliza IA para analizar los datos recopilados y proporcionar insights para la optimización continua del sistema (FIG43).                                                             |
 
   ```mermaid  
-%%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground':'#333', 'tertiaryColor': '#000000', 'fontSize': '16px', 'nodeTextColor': '#00FFFF', 'lineColor': '#FF69B4'}}}%%
-flowchart TB
-    classDef link fill:#00FFFF,stroke:#333,stroke-width:2px,color:#000;
-
-    A["21: Sistema de Aire Acondicionado"]:::link
-    subgraph s1 ["Componentes Mayores"]
-        B["21-1: Máquina de Ciclo de Aire"]:::link
-        L["21-2: Unidad de Control Ambiental"]:::link
-        W["21-3: Conductos y Tuberías"]:::link
-        AD["21-4: Ventiladores y Sopladores"]:::link
-        AK["21-5: Filtros y Tamizadores"]:::link
-        AR["21-6: Sistemas de Control"]:::link
-        AY["21-7: Integración de Tecnologías Avanzadas"]:::link
-        BI["21-8: Sostenibilidad y Economía Circular"]:::link
-        BU["21-9: Mantenimiento y Soporte Técnico"]:::link
-        CB["21-10: Sistema de Trazabilidad y Registro"]:::link
-    end
-
-    A --> B & L & W & AD & AK & AR & AY & BI & BU & CB
-
-    B --> C["21-1-1: Compresor"]:::link & F["21-1-2: Expansor"]:::link & I["21-1-3: Intercambiadores de Calor"]:::link
-    C --> D["21-1-1-01: Unidad de Compresión IA/AGI"]:::link & E["21-1-1-02: Sensores de Presión"]:::link
-    F --> G["21-1-2-01: Módulo Control Expansor QAOA"]:::link & H["21-1-2-02: Actuadores del Expansor"]:::link
-    I --> J["21-1-3-01: Intercambiador Principal"]:::link & K["21-1-3-02: Intercambiador Secundario"]:::link
-
-    L --> M["21-2-1: Paneles de Control"]:::link & P["21-2-2: Sensores"]:::link & T["21-2-3: Actuadores"]:::link
-    M --> N["21-2-1-01: Interfaz Usuario IA/AGI"]:::link & O["21-2-1-02: Pantallas Monitoreo Digital"]:::link
-    P --> Q["21-2-2-01: Sensores de Temperatura"]:::link & R["21-2-2-02: Sensores de Humedad"]:::link & S["21-2-2-03: Sensores de Ocupación"]:::link
-    T --> U["21-2-3-01: Actuadores de Válvula de Aire"]:::link & V["21-2-3-02: Actuadores de Ventiladores"]:::link
-
-    W --> X["21-3-1: Conductos de Aire"]:::link & AA["21-3-2: Líneas de Refrigerante"]:::link
-    X --> Y["21-3-1-01: Conducto Principal"]:::link & Z["21-3-1-02: Conductos Secundarios"]:::link
-    AA --> AB["21-3-2-01: Línea de Entrada de Refrigerante"]:::link & AC["21-3-2-02: Línea de Salida de Refrigerante"]:::link
-
-    AD --> AE["21-4-1: Soplador Principal"]:::link & AH["21-4-2: Ventiladores de Cabina"]:::link
-    AE --> AF["21-4-1-01: Motor del Soplador Principal"]:::link & AG["21-4-1-02: Válvula de Control del Soplador"]:::link
-    AH --> AI["21-4-2-01: Ventilador de Zona 1"]:::link & AJ["21-4-2-02: Ventilador de Zona 2"]:::link
-
-    AK --> AL["21-5-1: Filtros de Aire"]:::link & AO["21-5-2: Filtros de Refrigerante"]:::link
-    AL --> AM["21-5-1-01: Filtro HEPA"]:::link & AN["21-5-1-02: Filtro de Carbón Activado"]:::link
-    AO --> AP["21-5-2-01: Filtro de Refrigerante Principal"]:::link & AQ["21-5-2-02: Filtro de Refrigerante Secundario"]:::link
-
-    AR --> AS["21-6-1: Controles de Temperatura"]:::link & AV["21-6-2: Controles de Humedad"]:::link
-    AS --> AT["21-6-1-01: Termostato Digital IA/AGI"]:::link & AU["21-6-1-02: Sensores de Temperatura Avanzados"]:::link
-    AV --> AW["21-6-2-01: Humidificador IA/AGI"]:::link & AX["21-6-2-02: Deshumidificador Inteligente"]:::link
-
-    AY --> AZ["21-7-1: Módulo IA/AGI Integrado"]:::link & BC["21-7-2: Gemelo Digital del Sistema de Aire Acondicionado"]:::link & BF["21-7-3: Módulo de Optimización QAOA"]:::link
-    AZ --> BA["21-7-1-01: Procesador IA/AGI Central"]:::link & BB["21-7-1-02: Interfaz de Comunicación Blockchain"]:::link
-    BC --> BD["21-7-2-01: Servidor de Simulación Gemelo Digital"]:::link & BE["21-7-2-02: Interfaz de Usuario del Gemelo Digital"]:::link
-    BF --> BG["21-7-3-01: Algoritmo QAOA de Optimización"]:::link & BH["21-7-3-02: Interfaz de Configuración QAOA"]:::link
-
-    BI --> BJ["21-8-1: Refrigerantes Verdes"]:::link & BM["21-8-2: Economía Circular"]:::link & BQ["21-8-3: Cumplimiento Regulatorio y Huella de Carbono Reducida"]:::link
-    BJ --> BK["21-8-1-01: Selección de Refrigerantes Eco-Amigables"]:::link & BL["21-8-1-02: Monitoreo de Composición Química"]:::link
-    BM --> BN["21-8-2-01: Filtros y Componentes Reutilizables"]:::link & BO["21-8-2-02: Trazabilidad con Blockchain"]:::link & BP["21-8-2-03: IA/AGI para Predicción de Ciclos de Vida y Reemplazo"]:::link
-    BQ --> BR["21-8-3-01: Alineación con EASA, FAA, ISO 14040"]:::link & BS["21-8-3-02: Auditorías Externas Facilitadas Blockchain"]:::link & BT["21-8-3-03: Cálculo de Emisiones y Compensación"]:::link
-
-    BU --> BV["21-9-1: Mantenimiento Predictivo"]:::link & BY["21-9-2: Soporte Técnico y Reparaciones"]:::link
-    BV --> BW["21-9-1-01: Monitor de Estado en Tiempo Real"]:::link & BX["21-9-1-02: Herramientas de Diagnóstico IA/AGI"]:::link
-    BY --> BZ["21-9-2-01: Equipo de Reparación Especializado"]:::link & CA["21-9-2-02: Sistema de Gestión de Incidentes"]:::link
-
-    CB --> CC["21-10-1: Ledger Blockchain"]:::link & CF["21-10-2: Sistema de Gestión de Datos"]:::link
-    CC --> CD["21-10-1-01: Nodo Principal de Blockchain"]:::link & CE["21-10-1-02: Interfaz de Usuario Blockchain"]:::link
-    CF --> CG["21-10-2-01: Base de Datos Centralizada"]:::link & CH["21-10-2-02: Plataforma de Análisis de Datos IA"]:::link
-
-### Key Enhancements:
-- **Edge Color**: Changed to shocking pink for all edges using the `lineColor` theme variable.
-- **Node Color Scheme**: Continued use of electric blue nodes for a clear and strong visual impression against the black background.
-- **Readability**: Enhanced overall visibility by maintaining strong contrast between colors and enlarging the font.
-
-Use this updated configuration in a Markdown-compatible viewer or platform that supports Mermaid for the best results. Adjust specifics to match platform needs if further adaptation is required.
-user-icon
-la esctritura verde tecnologica
-Mermaid Chart Logo
-Certainly! To adjust the text within the nodes to a "technological green," you can use the fontColor or nodeTextColor attribute in the theme initialization. Here's how you can customize your Mermaid diagram to feature electric blue nodes, shocking pink edges, and green text:
-
-```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground':'#333', 'tertiaryColor': '#000000', 'fontSize': '16px', 'nodeTextColor': '#00FF00', 'lineColor': '#FF69B4'}}}%%
 flowchart TB
-    classDef link fill:#00FFFF,stroke:#333,stroke-width:2px,color:#00FF00;
+    classDef link fill:#00FFFF, stroke:#333, stroke-width:2px, color:#00FF00;
 
-    A["21: Sistema de Aire Acondicionado"]:::link
+    A["21 Sistema de Aire Acondicionado"]:::link
     subgraph s1 ["Componentes Mayores"]
-        B["21-1: Máquina de Ciclo de Aire"]:::link
-        L["21-2: Unidad de Control Ambiental"]:::link
-        W["21-3: Conductos y Tuberías"]:::link
-        AD["21-4: Ventiladores y Sopladores"]:::link
-        AK["21-5: Filtros y Tamizadores"]:::link
-        AR["21-6: Sistemas de Control"]:::link
-        AY["21-7: Integración de Tecnologías Avanzadas"]:::link
-        BI["21-8: Sostenibilidad y Economía Circular"]:::link
-        BU["21-9: Mantenimiento y Soporte Técnico"]:::link
-        CB["21-10: Sistema de Trazabilidad y Registro"]:::link
+        B["21-1 Maquina de Ciclo de Aire"]:::link
+        L["21-2 Unidad de Control Ambiental"]:::link
+        W["21-3 Conductos y Tuberias"]:::link
+        AD["21-4 Ventiladores y Sopladores"]:::link
+        AK["21-5 Filtros y Tamizadores"]:::link
+        AR["21-6 Sistemas de Control"]:::link
+        AY["21-7 Integracion de Tecnologias Avanzadas"]:::link
+        BI["21-8 Sostenibilidad y Economia Circular"]:::link
+        BU["21-9 Mantenimiento y Soporte Tecnico"]:::link
+        CB["21-10 Sistema de Trazabilidad y Registro"]:::link
     end
 
     A --> B & L & W & AD & AK & AR & AY & BI & BU & CB
 
-    B --> C["21-1-1: Compresor"]:::link & F["21-1-2: Expansor"]:::link & I["21-1-3: Intercambiadores de Calor"]:::link
-    C --> D["21-1-1-01: Unidad de Compresión IA/AGI"]:::link & E["21-1-1-02: Sensores de Presión"]:::link
-    F --> G["21-1-2-01: Módulo Control Expansor QAOA"]:::link & H["21-1-2-02: Actuadores del Expansor"]:::link
-    I --> J["21-1-3-01: Intercambiador Principal"]:::link & K["21-1-3-02: Intercambiador Secundario"]:::link
+    B --> C["21-1-1 Compresor"]:::link & F["21-1-2 Expansor"]:::link & I["21-1-3 Intercambiadores de Calor"]:::link
+    C --> D["21-1-1-01 Unidad de Compresion I A AGI"]:::link & E["21-1-1-02 Sensores de Presion"]:::link
+    F --> G["21-1-2-01 Modulo Control Expansor Q A O A"]:::link & H["21-1-2-02 Actuadores del Expansor"]:::link
+    I --> J["21-1-3-01 Intercambiador Principal"]:::link & K["21-1-3-02 Intercambiador Secundario"]:::link
 
-    L --> M["21-2-1: Paneles de Control"]:::link & P["21-2-2: Sensores"]:::link & T["21-2-3: Actuadores"]:::link
-    M --> N["21-2-1-01: Interfaz Usuario IA/AGI"]:::link & O["21-2-1-02: Pantallas Monitoreo Digital"]:::link
-    P --> Q["21-2-2-01: Sensores de Temperatura"]:::link & R["21-2-2-02: Sensores de Humedad"]:::link & S["21-2-2-03: Sensores de Ocupación"]:::link
-    T --> U["21-2-3-01: Actuadores de Válvula de Aire"]:::link & V["21-2-3-02: Actuadores de Ventiladores"]:::link
+    L --> M["21-2-1 Paneles de Control"]:::link & P["21-2-2 Sensores"]:::link & T["21-2-3 Actuadores"]:::link
+    M --> N["21-2-1-01 Interfaz Usuario I A AGI"]:::link & O["21-2-1-02 Pantallas Monitoreo Digital"]:::link
+    P --> Q["21-2-2-01 Sensores de Temperatura"]:::link & R["21-2-2-02 Sensores de Humedad"]:::link & S["21-2-2-03 Sensores de Ocupacion"]:::link
+    T --> U["21-2-3-01 Actuadores de Valvula de Aire"]:::link & V["21-2-3-02 Actuadores de Ventiladores"]:::link
 
-    W --> X["21-3-1: Conductos de Aire"]:::link & AA["21-3-2: Líneas de Refrigerante"]:::link
-    X --> Y["21-3-1-01: Conducto Principal"]:::link & Z["21-3-1-02: Conductos Secundarios"]:::link
-    AA --> AB["21-3-2-01: Línea de Entrada de Refrigerante"]:::link & AC["21-3-2-02: Línea de Salida de Refrigerante"]:::link
+    W --> X["21-3-1 Conductos de Aire"]:::link & AA["21-3-2 Lineas de Refrigerante"]:::link
+    X --> Y["21-3-1-01 Conducto Principal"]:::link & Z["21-3-1-02 Conductos Secundarios"]:::link
+    AA --> AB["21-3-2-01 Linea de Entrada de Refrigerante"]:::link & AC["21-3-2-02 Linea de Salida de Refrigerante"]:::link
 
-    AD --> AE["21-4-1: Soplador Principal"]:::link & AH["21-4-2: Ventiladores de Cabina"]:::link
-    AE --> AF["21-4-1-01: Motor del Soplador Principal"]:::link & AG["21-4-1-02: Válvula de Control del Soplador"]:::link
-    AH --> AI["21-4-2-01: Ventilador de Zona 1"]:::link & AJ["21-4-2-02: Ventilador de Zona 2"]:::link
+    AD --> AE["21-4-1 Soplador Principal"]:::link & AH["21-4-2 Ventiladores de Cabina"]:::link
+    AE --> AF["21-4-1-01 Motor del Soplador Principal"]:::link & AG["21-4-1-02 Valvula de Control del Soplador"]:::link
+    AH --> AI["21-4-2-01 Ventilador de Zona 1"]:::link & AJ["21-4-2-02 Ventilador de Zona 2"]:::link
 
-    AK --> AL["21-5-1: Filtros de Aire"]:::link & AO["21-5-2: Filtros de Refrigerante"]:::link
-    AL --> AM["21-5-1-01: Filtro HEPA"]:::link & AN["21-5-1-02: Filtro de Carbón Activado"]:::link
-    AO --> AP["21-5-2-01: Filtro de Refrigerante Principal"]:::link & AQ["21-5-2-02: Filtro de Refrigerante Secundario"]:::link
+    AK --> AL["21-5-1 Filtros de Aire"]:::link & AO["21-5-2 Filtros de Refrigerante"]:::link
+    AL --> AM["21-5-1-01 Filtro HEPA"]:::link & AN["21-5-1-02 Filtro de Carbon Activado"]:::link
+    AO --> AP["21-5-2-01 Filtro de Refrigerante Principal"]:::link & AQ["21-5-2-02 Filtro de Refrigerante Secundario"]:::link
 
-    AR --> AS["21-6-1: Controles de Temperatura"]:::link & AV["21-6-2: Controles de Humedad"]:::link
-    AS --> AT["21-6-1-01: Termostato Digital IA/AGI"]:::link & AU["21-6-1-02: Sensores de Temperatura Avanzados"]:::link
-    AV --> AW["21-6-2-01: Humidificador IA/AGI"]:::link & AX["21-6-2-02: Deshumidificador Inteligente"]:::link
+    AR --> AS["21-6-1 Controles de Temperatura"]:::link & AV["21-6-2 Controles de Humedad"]:::link
+    AS --> AT["21-6-1-01 Termostato Digital I A AGI"]:::link & AU["21-6-1-02 Sensores de Temperatura Avanzados"]:::link
+    AV --> AW["21-6-2-01 Humidificador I A AGI"]:::link & AX["21-6-2-02 Deshumidificador Inteligente"]:::link
 
-    AY --> AZ["21-7-1: Módulo IA/AGI Integrado"]:::link & BC["21-7-2: Gemelo Digital del Sistema de Aire Acondicionado"]:::link & BF["21-7-3: Módulo de Optimización QAOA"]:::link
-    AZ --> BA["21-7-1-01: Procesador IA/AGI Central"]:::link & BB["21-7-1-02: Interfaz de Comunicación Blockchain"]:::link
-    BC --> BD["21-7-2-01: Servidor de Simulación Gemelo Digital"]:::link & BE["21-7-2-02: Interfaz de Usuario del Gemelo Digital"]:::link
-    BF --> BG["21-7-3-01: Algoritmo QAOA de Optimización"]:::link & BH["21-7-3-02: Interfaz de Configuración QAOA"]:::link
+    AY --> AZ["21-7-1 Modulo I A AGI Integrado"]:::link & BC["21-7-2 Gemelo Digital del Sistema de Aire Acondicionado"]:::link & BF["21-7-3 Modulo de Optimizacion Q A O A"]:::link
+    AZ --> BA["21-7-1-01 Procesador I A AGI Central"]:::link & BB["21-7-1-02 Interfaz de Comunicacion Blockchain"]:::link
+    BC --> BD["21-7-2-01 Servidor de Simulacion Gemelo Digital"]:::link & BE["21-7-2-02 Interfaz de Usuario del Gemelo Digital"]:::link
+    BF --> BG["21-7-3-01 Algoritmo Q A O A de Optimizacion"]:::link & BH["21-7-3-02 Interfaz de Configuracion Q A O A"]:::link
 
-    BI --> BJ["21-8-1: Refrigerantes Verdes"]:::link & BM["21-8-2: Economía Circular"]:::link & BQ["21-8-3: Cumplimiento Regulatorio y Huella de Carbono Reducida"]:::link
-    BJ --> BK["21-8-1-01: Selección de Refrigerantes Eco-Amigables"]:::link & BL["21-8-1-02: Monitoreo de Composición Química"]:::link
-    BM --> BN["21-8-2-01: Filtros y Componentes Reutilizables"]:::link & BO["21-8-2-02: Trazabilidad con Blockchain"]:::link & BP["21-8-2-03: IA/AGI para Predicción de Ciclos de Vida y Reemplazo"]:::link
-    BQ --> BR["21-8-3-01: Alineación con EASA, FAA, ISO 14040"]:::link & BS["21-8-3-02: Auditorías Externas Facilitadas Blockchain"]:::link & BT["21-8-3-03: Cálculo de Emisiones y Compensación"]:::link
+    BI --> BJ["21-8-1 Refrigerantes Verdes"]:::link & BM["21-8-2 Economia Circular"]:::link & BQ["21-8-3 Cumplimiento Regulatorio y Huella de Carbono Reducida"]:::link
+    BJ --> BK["21-8-1-01 Seleccion de Refrigerantes Eco Amigables"]:::link & BL["21-8-1-02 Monitoreo de Composicion Quimica"]:::link
+    BM --> BN["21-8-2-01 Filtros y Componentes Reutilizables"]:::link & BO["21-8-2-02 Trazabilidad con Blockchain"]:::link & BP["21-8-2-03 I A AGI para Prediccion de Ciclos de Vida y Reemplazo"]:::link
+    BQ --> BR["21-8-3-01 Alineacion con EASA FAA ISO 14040"]:::link & BS["21-8-3-02 Auditorias Externas Facilitadas Blockchain"]:::link & BT["21-8-3-03 Calculo de Emisiones y Compensacion"]:::link
 
-    BU --> BV["21-9-1: Mantenimiento Predictivo"]:::link & BY["21-9-2: Soporte Técnico y Reparaciones"]:::link
-    BV --> BW["21-9-1-01: Monitor de Estado en Tiempo Real"]:::link & BX["21-9-1-02: Herramientas de Diagnóstico IA/AGI"]:::link
-    BY --> BZ["21-9-2-01: Equipo de Reparación Especializado"]:::link & CA["21-9-2-02: Sistema de Gestión de Incidentes"]:::link
+    BU --> BV["21-9-1 Mantenimiento Predictivo"]:::link & BY["21-9-2 Soporte Tecnico y Reparaciones"]:::link
+    BV --> BW["21-9-1-01 Monitor de Estado en Tiempo Real"]:::link & BX["21-9-1-02 Herramientas de Diagnostico I A AGI"]:::link
+    BY --> BZ["21-9-2-01 Equipo de Reparacion Especializado"]:::link & CA["21-9-2-02 Sistema de Gestion de Incidentes"]:::link
 
-    CB --> CC["21-10-1: Ledger Blockchain"]:::link & CF["21-10-2: Sistema de Gestión de Datos"]:::link
-    CC --> CD["21-10-1-01: Nodo Principal de Blockchain"]:::link & CE["21-10-1-02: Interfaz de Usuario Blockchain"]:::link
-    CF --> CG["21-10-2-01: Base de Datos Centralizada"]:::link & CH["21-10-2-02: Plataforma de Análisis de Datos IA"]:::link
+    CB --> CC["21-10-1 Ledger Blockchain"]:::link & CF["21-10-2 Sistema de Gestion de Datos"]:::link
+    CC --> CD["21-10-1-01 Nodo Principal de Blockchain"]:::link & CE["21-10-1-02 Interfaz de Usuario Blockchain"]:::link
+    CF --> CG["21-10-2-01 Base de Datos Centralizada"]:::link & CH["21-10-2-02 Plataforma de Analisis 
 ```
 
 # ATA 22 - AUTO FLIGHT SYSTEM
