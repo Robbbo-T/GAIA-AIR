@@ -982,119 +982,65 @@ A continuación se presenta una **Tabla Única de PBS** para el **Capítulo 21: 
 | **4**     | 21-10-2-02     | **Plataforma de Análisis de Datos IA**             | Herramienta que utiliza IA para analizar los datos recopilados y proporcionar insights para la optimización continua del sistema (FIG43).                                                             |
 
   ```mermaid  
-%%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground':'#333', 'tertiaryColor': '#000000', 'fontSize': '16px', 'nodeTextColor': '#00FF00', 'lineColor': '#FF69B4'}}}%%
-flowchart TB
+%%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground': '#333', 'tertiaryColor': '#000000', 'fontSize': '16px', 'nodeTextColor': '#00FF00', 'lineColor': '#FF69B4'}}}%%
+flowchart LR
   classDef link fill:#00FFFF, stroke:#333, stroke-width:2px, color:#00FF00;
 
   A["21 Sistema de Aire Acondicionado"]:::link
-  A --> B
-  A --> L
-  A --> W
-  A --> AD
-  A --> AK
-  A --> AR
-  A --> AY
-  A --> BI
-  A --> BU
-  A --> CB
+  A --> B["21-1 Maquina de Ciclo de Aire"]:::link
+  A --> L["21-2 Unidad de Control Ambiental"]:::link
+  A --> W["21-3 Conductos y Tuberias"]:::link
+  A --> AD["21-4 Ventiladores y Sopladores"]:::link
+  A --> AK["21-5 Filtros y Tamizadores"]:::link
+  A --> AR["21-6 Sistemas de Control"]:::link
+  A --> AY["21-7 Integracion de Tecnologias"]:::link
+  A --> BI["21-8 Sostenibilidad y Economia"]:::link
+  A --> BU["21-9 Mantenimiento y Soporte"]:::link
+  A --> CB["21-10 Trazabilidad y Registro"]:::link
 
-  subgraph s1 ["Maquina de Ciclo de Aire"]
-      direction TB
-      B["21-1 Maquina de Ciclo de Aire"]:::link
-      C["Compresor"]:::link
-      F["Expansor"]:::link
-      I["Intercambiadores"]:::link
-      B --> C --> D["Compresion IA"]:::link & E["Sensores de Presion"]:::link
-      F --> G["Control Expansor QAOA"]:::link & H["Actuadores Expansor"]:::link
-      I --> J["Intercambiador Principal"]:::link & K["Intercambiador Secundario"]:::link
-  end
+  B --> C["Compresor"]:::link & F["Expansor"]:::link & I["Intercambiadores"]:::link
+  C --> D["Compresion IA"]:::link & E["Sensores de Presion"]:::link
+  F --> G["Control Expansor QAOA"]:::link & H["Actuadores Expansor"]:::link
+  I --> J["Intercambiador Principal"]:::link & K["Intercambiador Secundario"]:::link
 
-  subgraph s2 ["Unidad de Control Ambiental"]
-      direction TB
-      L["21-2 Unidad de Control Ambiental"]:::link
-      M["Paneles de Control"]:::link
-      P["Sensores"]:::link
-      T["Actuadores"]:::link
-      L --> M --> N["Interfaz Usuario"]:::link & O["Pantallas Digital"]:::link
-      P --> Q["Sensores de Temperatura"]:::link & R["Sensores de Humedad"]:::link & S["Sensores de Ocupacion"]:::link
-      T --> U["Actuadores de Valvula"]:::link & V["Actuadores de Ventiladores"]:::link
-  end
+  L --> M["Paneles de Control"]:::link & P["Sensores"]:::link & T["Actuadores"]:::link
+  M --> N["Interfaz Usuario"]:::link & O["Pantallas Digital"]:::link
+  P --> Q["Sensores de Temperatura"]:::link & R["Sensores de Humedad"]:::link & S["Sensores de Ocupacion"]:::link
+  T --> U["Actuadores de Valvula"]:::link & V["Actuadores de Ventiladores"]:::link
 
-  subgraph s3 ["Conductos y Tuberias"]
-      direction TB
-      W["21-3 Conductos y Tuberias"]:::link
-      X["Conductos de Aire"]:::link
-      AA["Lineas de Refrigerante"]:::link
-      W --> X --> Y["Conducto Principal"]:::link & Z["Conductos Secundarios"]:::link
-      AA --> AB["Linea de Entrada"]:::link & AC["Linea de Salida"]:::link
-  end
+  W --> X["Conductos de Aire"]:::link & AA["Lineas de Refrigerante"]:::link
+  X --> Y["Conducto Principal"]:::link & Z["Conductos Secundarios"]:::link
+  AA --> AB["Linea de Entrada"]:::link & AC["Linea de Salida"]:::link
 
-  subgraph s4 ["Ventiladores y Sopladores"]
-      direction TB
-      AD["21-4 Ventiladores y Sopladores"]:::link
-      AE["Soplador Principal"]:::link
-      AH["Ventiladores de Cabina"]:::link
-      AD --> AE --> AF["Motor Soplador"]:::link & AG["Valvula Soplador"]:::link
-      AH --> AI["Ventilador Zona 1"]:::link & AJ["Ventilador Zona 2"]:::link
-  end
+  AD --> AE["Soplador Principal"]:::link & AH["Ventiladores de Cabina"]:::link
+  AE --> AF["Motor Soplador"]:::link & AG["Valvula Soplador"]:::link
+  AH --> AI["Ventilador Zona 1"]:::link & AJ["Ventilador Zona 2"]:::link
 
-  subgraph s5 ["Filtros y Tamizadores"]
-      direction TB
-      AK["21-5 Filtros y Tamizadores"]:::link
-      AL["Filtros de Aire"]:::link
-      AO["Filtros Refrigerante"]:::link
-      AK --> AL --> AM["Filtro HEPA"]:::link & AN["Filtro Carbono"]:::link
-      AO --> AP["Filtro Refrigerante Principal"]:::link & AQ["Filtro Refrigerante Secundario"]:::link
-  end
+  AK --> AL["Filtros de Aire"]:::link & AO["Filtros Refrigerante"]:::link
+  AL --> AM["Filtro HEPA"]:::link & AN["Filtro Carbono"]:::link
+  AO --> AP["Filtro Refrigerante Principal"]:::link & AQ["Filtro Refrigerante Secundario"]:::link
 
-  subgraph s6 ["Sistemas de Control"]
-      direction TB
-      AR["21-6 Sistemas de Control"]:::link
-      AS["Control de Temperatura"]:::link
-      AV["Control de Humedad"]:::link
-      AR --> AS --> AT["Termostato"]:::link & AU["Sensores Avanzados"]:::link
-      AV --> AW["Humidificador"]:::link & AX["Deshumidificador"]:::link
-  end
+  AR --> AS["Control de Temperatura"]:::link & AV["Control de Humedad"]:::link
+  AS --> AT["Termostato"]:::link & AU["Sensores Avanzados"]:::link
+  AV --> AW["Humidificador"]:::link & AX["Deshumidificador"]:::link
 
-  subgraph s7 ["Integracion de Tecnologias"]
-      direction TB
-      AY["21-7 Integracion Tecnologica"]:::link
-      AZ["Modulo IA"]:::link
-      BC["Gemelo Digital"]:::link
-      BF["Optimizacion QAOA"]:::link
-      AY --> AZ --> BA["Procesador IA"]:::link & BB["Comunicacion Blockchain"]:::link
-      BC --> BD["Servidor Digital"]:::link & BE["Interfaz Usuario Gemelo"]:::link
-      BF --> BG["Algoritmo QAOA"]:::link & BH["Configuracion QAOA"]:::link
-  end
+  AY --> AZ["Modulo IA"]:::link & BC["Gemelo Digital"]:::link & BF["Optimizacion QAOA"]:::link
+  AZ --> BA["Procesador IA"]:::link & BB["Comunicacion Blockchain"]:::link
+  BC --> BD["Servidor Digital"]:::link & BE["Interfaz Usuario Gemelo"]:::link
+  BF --> BG["Algoritmo QAOA"]:::link & BH["Configuracion QAOA"]:::link
 
-  subgraph s8 ["Sostenibilidad y Economia"]
-      direction TB
-      BI["21-8 Sostenibilidad"]:::link
-      BJ["Refrigerantes Verdes"]:::link
-      BM["Economia Circular"]:::link
-      BQ["Cumplimiento Regulacion"]:::link
-      BI --> BJ --> BK["Seleccion Eco"]:::link & BL["Monitoreo Quimica"]:::link
-      BM --> BN["Componentes Reutilizables"]:::link & BO["Trazabilidad Blockchain"]:::link & BP["Prediccion Vida IA"]:::link
-      BQ --> BR["Alineacion Normativa"]:::link & BS["Auditorias Blockchain"]:::link & BT["Calculo Emisiones"]:::link
-  end
+  BI --> BJ["Refrigerantes Verdes"]:::link & BM["Economia Circular"]:::link & BQ["Cumplimiento Regulacion"]:::link
+  BJ --> BK["Seleccion Eco"]:::link & BL["Monitoreo Quimica"]:::link
+  BM --> BN["Componentes Reutilizables"]:::link & BO["Trazabilidad Blockchain"]:::link & BP["Prediccion Vida IA"]:::link
+  BQ --> BR["Alineacion Normativa"]:::link & BS["Auditorias Blockchain"]:::link & BT["Calculo Emisiones"]:::link
 
-  subgraph s9 ["Mantenimiento y Soporte"]
-      direction TB
-      BU["21-9 Mantenimiento"]:::link
-      BV["Mantenimiento Predictivo"]:::link
-      BY["Soporte y Reparaciones"]:::link
-      BU --> BV --> BW["Monitor Estado"]:::link & BX["Diagnostico IA"]:::link
-      BY --> BZ["Reparacion Especializada"]:::link & CA["Gestion Incidentes"]:::link
-  end      
+  BU --> BV["Mantenimiento Predictivo"]:::link & BY["Soporte y Reparaciones"]:::link
+  BV --> BW["Monitor Estado"]:::link & BX["Diagnostico IA"]:::link
+  BY --> BZ["Reparacion Especializada"]:::link & CA["Gestion Incidentes"]:::link
 
-  subgraph s10 ["Trazabilidad y Registro"]
-      direction TB
-      CB["21-10 Trazabilidad y Registro"]:::link
-      CC["Ledger Blockchain"]:::link
-      CF["Gestion de Datos"]:::link
-      CB --> CC --> CD["Nodo Principal"]:::link & CE["Interfaz Blockchain"]:::link
-      CF --> CG["Base de Datos"]:::link & CH["Analisis de Datos"]:::link
-  end
+  CB --> CC["Ledger Blockchain"]:::link & CF["Gestion de Datos"]:::link
+  CC --> CD["Nodo Principal"]:::link & CE["Interfaz Blockchain"]:::link
+  CF --> CG["Base de Datos"]:::link & CH["Analisis de Datos"]:::link
 ```
 
 # ATA 22 - AUTO FLIGHT SYSTEM
