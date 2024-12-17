@@ -1138,6 +1138,11 @@ Below is the refined and clean **Mermaid** flowchart for the **ATA 22 - Auto Fli
 
 ---
 
+ATA 22: AUTO FLIGHT PBS Flowchart (Mermaid Syntax)
+Below is the refined and clean Mermaid flowchart for the ATA 22 - Auto Flight Product Breakdown Structure (PBS). It integrates advanced functionalities like IA/AGI, QAOA, FADEC, digital twins, and secure communications, formatted with a black background and electric blue nodes for enhanced readability.
+
+[.svg]https://www.mermaidchart.com/raw/67ec1d6a-b691-4325-bcb2-be2a16a9f038?theme=light&version=v0.1&format=svg
+
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground':'#333', 'tertiaryColor': '#000000', 'fontSize': '28px', 'nodeTextColor': '#00FFFF'}}}%%
 flowchart LR
@@ -1147,11 +1152,11 @@ flowchart LR
     %% Nivel 1
     A --> B[22: Sistema de Vuelo Automático]
 
-    %% Nivel 2 - Control Dinámico (IA/AGI)
-    subgraph LEVEL2_1 [22-1: Control Dinámico de Trayectoria (IA/AGI)]
+    %% Nivel 2 - Control Dinámico
+    subgraph LEVEL2_1 [22-1: Control Dinámico de Trayectoria]
         B --> C[22-1-1: Módulo IA/AGI de Análisis en Tiempo Real]
         C --> D[22-1-1-01: Sensores Avanzados de Vuelo]
-        C --> E[22-1-1-02: Procesador IA/AGI Central]
+        C --> E[22-1-1-02: Procesador IA-AGI Central]
         C --> F[22-1-2: Interfaz con Gemelos Digitales]
         F --> G[22-1-2-01: Servidor Gemelo Digital de Trayectoria]
         F --> H[22-1-2-02: Interfaz Usuario Gemelo Digital]
@@ -1206,6 +1211,7 @@ flowchart LR
         AM --> AO[22-5-3-02: IA/AGI Soporte Toma Decisiones Críticas]
     end
 ```
+
 
 ---
 
