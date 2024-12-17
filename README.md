@@ -982,9 +982,9 @@ A continuación se presenta una **Tabla Única de PBS** para el **Capítulo 21: 
 | **4**     | 21-10-2-02     | **Plataforma de Análisis de Datos IA**             | Herramienta que utiliza IA para analizar los datos recopilados y proporcionar insights para la optimización continua del sistema (FIG43).                                                             |
 
   ```mermaid  
-%%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground': '#333', 'tertiaryColor': '#000000', 'fontSize': '16px', 'nodeTextColor': '#00FF00', 'lineColor': '#FF69B4'}}}%%
+%%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground': '#333', 'tertiaryColor': '#000000', 'fontSize': '16px', 'nodeTextColor': '#FFFFFF', 'lineColor': '#FF69B4'}}}%%
 flowchart LR
-  classDef link fill:#00FFFF, stroke:#333, stroke-width:2px, color:#00FF00;
+  classDef link fill:#00FFFF, stroke:#333, stroke-width:2px, color:#FFFFFF;
 
   A["21 Sistema de Aire Acondicionado"]:::link
   A --> B["21-1 Maquina de Ciclo de Aire"]:::link
