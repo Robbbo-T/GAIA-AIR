@@ -994,6 +994,82 @@ flowchart TB
         AD["21-4 Ventiladores y Sopladores"]:::link
         AK["21-5 Filtros y Tamizadores"]:::link
         AR["21-6 Sistemas de Control"]:::link
+        AY["21-7 Integracion de Tecnologias Avanzadas"]:::link
+        BI["21-8 Sostenibilidad y Economia Circular"]:::link
+        BU["21-9 Mantenimiento y Soporte Tecnico"]:::link
+        CB["21-10 Sistema de Trazabilidad y Registro"]:::link
+    end
+
+    A --> B & L & W & AD & AK & AR & AY & BI & BU & CB
+
+    B --> C["21-1-1 Compresor"]:::link & F["21-1-2 Expansor"]:::link & I["21-1-3 Intercambiadores de Calor"]:::link
+    C --> D["21-1-1-01 Unidad de Compresion I A AGI"]:::link & E["21-1-1-02 Sensores de Presion"]:::link
+    F --> G["21-1-2-01 Modulo Control Expansor Q A O A"]:::link & H["21-1-2-02 Actuadores del Expansor"]:::link
+    I --> J["21-1-3-01 Intercambiador Principal"]:::link & K["21-1-3-02 Intercambiador Secundario"]:::link
+
+    L --> M["21-2-1 Paneles de Control"]:::link & P["21-2-2 Sensores"]:::link & T["21-2-3 Actuadores"]:::link
+    M --> N["21-2-1-01 Interfaz Usuario I A AGI"]:::link & O["21-2-1-02 Pantallas Monitoreo Digital"]:::link
+    P --> Q["21-2-2-01 Sensores de Temperatura"]:::link & R["21-2-2-02 Sensores de Humedad"]:::link & S["21-2-2-03 Sensores de Ocupacion"]:::link
+    T --> U["21-2-3-01 Actuadores de Valvula de Aire"]:::link & V["21-2-3-02 Actuadores de Ventiladores"]:::link
+
+    W --> X["21-3-1 Conductos de Aire"]:::link & AA["21-3-2 Lineas de Refrigerante"]:::link
+    X --> Y["21-3-1-01 Conducto Principal"]:::link & Z["21-3-1-02 Conductos Secundarios"]:::link
+    AA --> AB["21-3-2-01 Linea de Entrada de Refrigerante"]:::link & AC["21-3-2-02 Linea de Salida de Refrigerante"]:::link
+
+    AD --> AE["21-4-1 Soplador Principal"]:::link & AH["21-4-2 Ventiladores de Cabina"]:::link
+    AE --> AF["21-4-1-01 Motor del Soplador Principal"]:::link & AG["21-4-1-02 Valvula de Control del Soplador"]:::link
+    AH --> AI["21-4-2-01 Ventilador de Zona 1"]:::link & AJ["21-4-2-02 Ventilador de Zona 2"]:::link
+
+    AK --> AL["21-5-1 Filtros de Aire"]:::link & AO["21-5-2 Filtros de Refrigerante"]:::link
+    AL --> AM["21-5-1-01 Filtro HEPA"]:::link & AN["21-5-1-02 Filtro de Carbon Activado"]:::link
+    AO --> AP["21-5-2-01 Filtro de Refrigerante Principal"]:::link & AQ["21-5-2-02 Filtro de Refrigerante Secundario"]:::link
+
+    AR --> AS["21-6-1 Controles de Temperatura"]:::link & AV["21-6-2 Controles de Humedad"]:::link
+    AS --> AT["21-6-1-01 Termostato Digital I A AGI"]:::link & AU["21-6-1-02 Sensores de Temperatura Avanzados"]:::link
+    AV --> AW["21-6-2-01 Humidificador I A AGI"]:::link & AX["21-6-2-02 Deshumidificador Inteligente"]:::link
+
+    AY --> AZ["21-7-1 Modulo I A AGI Integrado"]:::link & BC["21-7-2 Gemelo Digital del Sistema de Aire Acondicionado"]:::link & BF["21-7-3 Modulo de Optimizacion Q A O A"]:::link
+    AZ --> BA["21-7-1-01 Procesador I A AGI Central"]:::link & BB["21-7-1-02 Interfaz de Comunicacion Blockchain"]:::link
+    BC --> BD["21-7-2-01 Servidor de Simulacion Gemelo Digital"]:::link & BE["21-7-2-02 Interfaz de Usuario del Gemelo Digital"]:::link
+    BF --> BG["21-7-3-01 Algoritmo Q A O A de Optimizacion"]:::link & BH["21-7-3-02 Interfaz de Configuracion Q A O A"]:::link
+
+    BI --> BJ["21-8-1 Refrigerantes Verdes"]:::link & BM["21-8-2 Economia Circular"]:::link & BQ["21-8-3 Cumplimiento Regulatorio y Huella de Carbono Reducida"]:::link
+    BJ --> BK["21-8-1-01 Seleccion de Refrigerantes Eco Amigables"]:::link & BL["21-8-1-02 Monitoreo de Composicion Quimica"]:::link
+    BM --> BN["21-8-2-01 Filtros y Componentes Reutilizables"]:::link & BO["21-8-2-02 Trazabilidad con Blockchain"]:::link & BP["21-8-2-03 I A AGI para Prediccion de Ciclos de Vida y Reemplazo"]:::link
+    BQ --> BR["21-8-3-01 Alineacion con EASA FAA ISO 14040"]:::link & BS["21-8-3-02 Auditorias Externas Facilitadas Blockchain"]:::link & BT["21-8-3-03 Calculo de Emisiones y Compensacion"]:::link
+
+    BU --> BV["21-9-1 Mantenimiento Predictivo"]:::link & BY["21-9-2 Soporte Tecnico y Reparaciones"]:::link
+    BV --> BW["21-9-1-01 Monitor de Estado en Tiempo Real"]:::link & BX["21-9-1-02 Herramientas de Diagnostico I A AGI"]:::link
+    BY --> BZ["21-9-2-01 Equipo de Reparacion Especializado"]:::link & CA["21-9-2-02 Sistema de Gestion de Incidentes"]:::link
+
+    CB --> CC["21-10-1 Ledger Blockchain"]:::link & CF["21-10-2 Sistema de Gestion de Datos"]:::link
+    CC --> CD["21-10-1-01 Nodo Principal de Blockchain"]:::link & CE["21-10-1-02 Interfaz de Usuario Blockchain"]:::link
+    CF --> CG["21-10-2-01 Base de Datos Centralizada"]:::link & CH["21-10-2-02 Plataforma de Analisis de Datos I A"]:::link
+
+### Key Adjustments:
+- **Special Characters Removed**: Removed parentheses and slashes which may cause errors.
+- **Spelling Adjustments**: Used spacing to modify abbreviations like IA/AGI and QAOA for readability without using special characters.
+- **Consistent Node and Edge Styling**: Maintained styling for nodes (electric blue), texts (green) and lines (pink).
+
+This setup should render properly. Be sure you are using a platform that supports Mermaid to visualize this diagram effectively.
+user-icon
+Unable to render rich display Parse error on line 64: ...forma de Analisis ---------------------^ Expecting 'SQE', 'DOUBLECIRCLEEND', 'PE', '-)', 'STADIUMEND', 'SUBROUTINEEND', 'PIPE', 'CYLINDEREND', 'DIAMOND_STOP', 'TAGEND', 'TRAPEND', 'INVTRAPEND', 'UNICODE_TEXT', 'TEXT', 'TAGSTART', got '1' For more information, see https://docs.github.com/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams %%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground':'#333', 'tertiaryColor': '#000000', 'fontSize': '16px', 'nodeTextColor': '#00FF00', 'lineColor': '#FF69B4'}}}%% flowchart TB classDef link fill:#00FFFF, stroke:#333, stroke-width:2px, color:#00FF00; A["21 Sistema de Aire Acondicionado"]:::link subgraph s1 ["Componentes Mayores"] B["21-1 Maquina de Ciclo de Aire"]:::link L["21-2 Unidad de Control Ambiental"]:::link W["21-3 Conductos y Tuberias"]:::link AD["21-4 Ventiladores y Sopladores"]:::link AK["21-5 Filtros y Tamizadores"]:::link AR["21-6 Sistemas de Control"]:::link AY["21-7 Integracion de Tecnologias Avanzadas"]:::link BI["21-8 Sostenibilidad y Economia Circular"]:::link BU["21-9 Mantenimiento y Soporte Tecnico"]:::link CB["21-10 Sistema de Trazabilidad y Registro"]:::link end A --> B & L & W & AD & AK & AR & AY & BI & BU & CB B --> C["21-1-1 Compresor"]:::link & F["21-1-2 Expansor"]:::link & I["21-1-3 Intercambiadores de Calor"]:::link C --> D["21-1-1-01 Unidad de Compresion I A AGI"]:::link & E["21-1-1-02 Sensores de Presion"]:::link F --> G["21-1-2-01 Modulo Control Expansor Q A O A"]:::link & H["21-1-2-02 Actuadores del Expansor"]:::link I --> J["21-1-3-01 Intercambiador Principal"]:::link & K["21-1-3-02 Intercambiador Secundario"]:::link L --> M["21-2-1 Paneles de Control"]:::link & P["21-2-2 Sensores"]:::link & T["21-2-3 Actuadores"]:::link M --> N["21-2-1-01 Interfaz Usuario I A AGI"]:::link & O["21-2-1-02 Pantallas Monitoreo Digital"]:::link P --> Q["21-2-2-01 Sensores de Temperatura"]:::link & R["21-2-2-02 Sensores de Humedad"]:::link & S["21-2-2-03 Sensores de Ocupacion"]:::link T --> U["21-2-3-01 Actuadores de Valvula de Aire"]:::link & V["21-2-3-02 Actuadores de Ventiladores"]:::link W --> X["21-3-1 Conductos de Aire"]:::link & AA["21-3-2 Lineas de Refrigerante"]:::link X --> Y["21-3-1-01 Conducto Principal"]:::link & Z["21-3-1-02 Conductos Secundarios"]:::link AA --> AB["21-3-2-01 Linea de Entrada de Refrigerante"]:::link & AC["21-3-2-02 Linea de Salida de Refrigerante"]:::link AD --> AE["21-4-1 Soplador Principal"]:::link & AH["21-4-2 Ventiladores de Cabina"]:::link AE --> AF["21-4-1-01 Motor del Soplador Principal"]:::link & AG["21-4-1-02 Valvula de Control del Soplador"]:::link AH --> AI["21-4-2-01 Ventilador de Zona 1"]:::link & AJ["21-4-2-02 Ventilador de Zona 2"]:::link AK --> AL["21-5-1 Filtros de Aire"]:::link & AO["21-5-2 Filtros de Refrigerante"]:::link AL --> AM["21-5-1-01 Filtro HEPA"]:::link & AN["21-5-1-02 Filtro de Carbon Activado"]:::link AO --> AP["21-5-2-01 Filtro de Refrigerante Principal"]:::link & AQ["21-5-2-02 Filtro de Refrigerante Secundario"]:::link AR --> AS["21-6-1 Controles de Temperatura"]:::link & AV["21-6-2 Controles de Humedad"]:::link AS --> AT["21-6-1-01 Termostato Digital I A AGI"]:::link & AU["21-6-1-02 Sensores de Temperatura Avanzados"]:::link AV --> AW["21-6-2-01 Humidificador I A AGI"]:::link & AX["21-6-2-02 Deshumidificador Inteligente"]:::link AY --> AZ["21-7-1 Modulo I A AGI Integrado"]:::link & BC["21-7-2 Gemelo Digital del Sistema de Aire Acondicionado"]:::link & BF["21-7-3 Modulo de Optimizacion Q A O A"]:::link AZ --> BA["21-7-1-01 Procesador I A AGI Central"]:::link & BB["21-7-1-02 Interfaz de Comunicacion Blockchain"]:::link BC --> BD["21-7-2-01 Servidor de Simulacion Gemelo Digital"]:::link & BE["21-7-2-02 Interfaz de Usuario del Gemelo Digital"]:::link BF --> BG["21-7-3-01 Algoritmo Q A O A de Optimizacion"]:::link & BH["21-7-3-02 Interfaz de Configuracion Q A O A"]:::link BI --> BJ["21-8-1 Refrigerantes Verdes"]:::link & BM["21-8-2 Economia Circular"]:::link & BQ["21-8-3 Cumplimiento Regulatorio y Huella de Carbono Reducida"]:::link BJ --> BK["21-8-1-01 Seleccion de Refrigerantes Eco Amigables"]:::link & BL["21-8-1-02 Monitoreo de Composicion Quimica"]:::link BM --> BN["21-8-2-01 Filtros y Componentes Reutilizables"]:::link & BO["21-8-2-02 Trazabilidad con Blockchain"]:::link & BP["21-8-2-03 I A AGI para Prediccion de Ciclos de Vida y Reemplazo"]:::link BQ --> BR["21-8-3-01 Alineacion con EASA FAA ISO 14040"]:::link & BS["21-8-3-02 Auditorias Externas Facilitadas Blockchain"]:::link & BT["21-8-3-03 Calculo de Emisiones y Compensacion"]:::link BU --> BV["21-9-1 Mantenimiento Predictivo"]:::link & BY["21-9-2 Soporte Tecnico y Reparaciones"]:::link BV --> BW["21-9-1-01 Monitor de Estado en Tiempo Real"]:::link & BX["21-9-1-02 Herramientas de Diagnostico I A AGI"]:::link BY --> BZ["21-9-2-01 Equipo de Reparacion Especializado"]:::link & CA["21-9-2-02 Sistema de Gestion de Incidentes"]:::link CB --> CC["21-10-1 Ledger Blockchain"]:::link & CF["21-10-2 Sistema de Gestion de Datos"]:::link CC --> CD["21-10-1-01 Nodo Principal de Blockchain"]:::link & CE["21-10-1-02 Interfaz de Usuario Blockchain"]:::link CF --> CG["21-10-2-01 Base de Datos Centralizada"]:::link & CH["21-10-2-02 Plataforma de Analisis
+Mermaid Chart Logo
+Let's address those syntax issues by simplifying node labels and ensuring that all identifiers and connections are valid. Here's the streamlined version of your Mermaid diagram:
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground':'#333', 'tertiaryColor': '#000000', 'fontSize': '16px', 'nodeTextColor': '#00FF00', 'lineColor': '#FF69B4'}}}%%
+flowchart TB
+    classDef link fill:#00FFFF, stroke:#333, stroke-width:2px, color:#00FF00;
+
+    A["21 Sistema de Aire Acondicionado"]:::link
+    subgraph s1 ["Componentes Mayores"]
+        B["21-1 Maquina de Ciclo de Aire"]:::link
+        L["21-2 Unidad de Control Ambiental"]:::link
+        W["21-3 Conductos y Tuberias"]:::link
+        AD["21-4 Ventiladores y Sopladores"]:::link
+        AK["21-5 Filtros y Tamizadores"]:::link
+        AR["21-6 Sistemas de Control"]:::link
         AY["21-7 Integracion Tecnologica"]:::link
         BI["21-8 Sostenibilidad"]:::link
         BU["21-9 Mantenimiento"]:::link
@@ -1044,7 +1120,162 @@ flowchart TB
 
     CB --> CC["Ledger Blockchain"]:::link & CF["Gestion de Datos"]:::link
     CC --> CD["Nodo Principal"]:::link & CE["Interfaz Blockchain"]:::link
-    CF --> CG["Base de Datos"]:::link & CH["Analisis de Datos"]:::link 
+    CF --> CG["Base de Datos"]:::link & CH["Analisis de Datos"]:::link
+
+### Key Adjustments:
+- **Simplified Labels**: Shortened node labels to avoid potential parsing issues.
+- **Consistent Naming**: Used clear and short names to best represent each component without using special characters.
+- **Kept Colors Consistent**: Retained colors per your earlier specification.
+
+This setup should correctly render your diagram without errors. Make sure to use a compatible Mermaid-capable viewer for the best results.
+user-icon
+que no se ve, organiozalo de otra manera
+Mermaid Chart Logo
+To address visibility and layout, let's improve the diagram by organizing it vertically with a hierarchical structure, ensuring a cleaner and more legible flowchart. This can be achieved using strategic subgraphs and clear linear connections.
+
+Here's a revised version:
+
+```mermaid
+%%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground': '#333', 'tertiaryColor': '#000000', 'fontSize': '16px', 'nodeTextColor': '#00FF00', 'lineColor': '#FF69B4'}}}%%
+flowchart TD
+    classDef link fill:#00FFFF, stroke:#333, stroke-width:2px, color:#00FF00;
+
+    A["21 Sistema de Aire Acondicionado"]:::link
+    A --> B
+    A --> L
+    A --> W
+    A --> AD
+    A --> AK
+    A --> AR
+    A --> AY
+    A --> BI
+    A --> BU
+    A --> CB
+
+    subgraph s1 ["Maquina de Ciclo de Aire"]
+        direction TB
+        B["21-1 Maquina de Ciclo de Aire"]:::link
+        B --> C["Compresor"]:::link
+        B --> F["Expansor"]:::link
+        B --> I["Intercambiadores"]:::link
+        C --> D["Compresion IA"]:::link
+        C --> E["Sensores de Presion"]:::link
+        F --> G["Control Expansor QAOA"]:::link
+        F --> H["Actuadores Expansor"]:::link
+        I --> J["Intercambiador Principal"]:::link
+        I --> K["Intercambiador Secundario"]:::link
+    end
+
+    subgraph s2 ["Unidad de Control Ambiental"]
+        direction TB
+        L["21-2 Unidad de Control Ambiental"]:::link
+        L --> M["Paneles de Control"]:::link
+        L --> P["Sensores"]:::link
+        L --> T["Actuadores"]:::link
+        M --> N["Interfaz Usuario"]:::link
+        M --> O["Pantallas Digital"]:::link
+        P --> Q["Sensores de Temperatura"]:::link
+        P --> R["Sensores de Humedad"]:::link
+        P --> S["Sensores de Ocupacion"]:::link
+        T --> U["Actuadores de Valvula"]:::link
+        T --> V["Actuadores de Ventiladores"]:::link
+    end
+
+    subgraph s3 ["Conductos y Tuberias"]
+        direction TB
+        W["21-3 Conductos y Tuberias"]:::link
+        W --> X["Conductos de Aire"]:::link
+        W --> AA["Lineas de Refrigerante"]:::link
+        X --> Y["Conducto Principal"]:::link
+        X --> Z["Conductos Secundarios"]:::link
+        AA --> AB["Linea de Entrada"]:::link
+        AA --> AC["Linea de Salida"]:::link
+    end
+
+    subgraph s4 ["Ventiladores y Sopladores"]
+        direction TB
+        AD["21-4 Ventiladores y Sopladores"]:::link
+        AD --> AE["Soplador Principal"]:::link
+        AD --> AH["Ventiladores de Cabina"]:::link
+        AE --> AF["Motor Soplador"]:::link
+        AE --> AG["Valvula Soplador"]:::link
+        AH --> AI["Ventilador Zona 1"]:::link
+        AH --> AJ["Ventilador Zona 2"]:::link
+    end
+
+    subgraph s5 ["Filtros y Tamizadores"]
+        direction TB
+        AK["21-5 Filtros y Tamizadores"]:::link
+        AK --> AL["Filtros de Aire"]:::link
+        AK --> AO["Filtros Refrigerante"]:::link
+        AL --> AM["Filtro HEPA"]:::link
+        AL --> AN["Filtro Carbono"]:::link
+        AO --> AP["Filtro Refrigerante Principal"]:::link
+        AO --> AQ["Filtro Refrigerante Secundario"]:::link
+    end
+
+    subgraph s6 ["Sistemas de Control"]
+        direction TB
+        AR["21-6 Sistemas de Control"]:::link
+        AR --> AS["Control de Temperatura"]:::link
+        AR --> AV["Control de Humedad"]:::link
+        AS --> AT["Termostato"]:::link
+        AS --> AU["Sensores Avanzados"]:::link
+        AV --> AW["Humidificador"]:::link
+        AV --> AX["Deshumidificador"]:::link
+    end
+
+    subgraph s7 ["Integracion de Tecnologias"]
+        direction TB
+        AY["21-7 Integracion Tecnologica"]:::link
+        AY --> AZ["Modulo IA"]:::link
+        AY --> BC["Gemelo Digital"]:::link
+        AY --> BF["Optimizacion QAOA"]:::link
+        AZ --> BA["Procesador IA"]:::link
+        AZ --> BB["Comunicacion Blockchain"]:::link
+        BC --> BD["Servidor Digital"]:::link
+        BC --> BE["Interfaz Usuario Gemelo"]:::link
+        BF --> BG["Algoritmo QAOA"]:::link
+        BF --> BH["Configuracion QAOA"]:::link
+    end
+
+    subgraph s8 ["Sostenibilidad y Economia"]
+        direction TB
+        BI["21-8 Sostenibilidad"]:::link
+        BI --> BJ["Refrigerantes Verdes"]:::link
+        BI --> BM["Economia Circular"]:::link
+        BI --> BQ["Cumplimiento Regulacion"]:::link
+        BJ --> BK["Seleccion Eco"]:::link
+        BJ --> BL["Monitoreo Quimica"]:::link
+        BM --> BN["Componentes Reutilizables"]:::link
+        BM --> BO["Trazabilidad Blockchain"]:::link
+        BM --> BP["Prediccion Vida IA"]:::link
+        BQ --> BR["Alineacion Normativa"]:::link
+        BQ --> BS["Auditorias Blockchain"]:::link
+        BQ --> BT["Calculo Emisiones"]:::link
+    end
+
+    subgraph s9 ["Mantenimiento y Soporte"]
+        direction TB
+        BU["21-9 Mantenimiento"]:::link
+        BU --> BV["Mantenimiento Predictivo"]:::link
+        BU --> BY["Soporte y Reparaciones"]:::link
+        BV --> BW["Monitor Estado"]:::link
+        BV --> BX["Diagnostico IA"]:::link
+        BY --> BZ["Reparacion Especializada"]:::link
+        BY --> CA["Gestion Incidentes"]:::link
+    end      
+
+    subgraph s10 ["Trazabilidad y Registro"]
+        direction TB
+        CB["21-10 Trazabilidad y Registro"]:::link
+        CB --> CC["Ledger Blockchain"]:::link
+        CB --> CF["Gestion de Datos"]:::link
+        CC --> CD["Nodo Principal"]:::link
+        CC --> CE["Interfaz Blockchain"]:::link
+        CF --> CG["Base de Datos"]:::link
+        CF --> CH["Analisis de Datos"]:::link
+    endlink 
 ```
 
 # ATA 22 - AUTO FLIGHT SYSTEM
