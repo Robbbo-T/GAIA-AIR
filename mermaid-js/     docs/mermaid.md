@@ -8,6 +8,10 @@ Este documento contiene ejemplos de diagramas Mermaid para el proyecto GAIA AIR,
 Este diagrama Gantt muestra las fases del proyecto GAIA AIR con fechas actualizadas. Permite monitorear el progreso, las dependencias y la duración estimada de cada fase.
 
 ```mermaid
+[source, mermaid]
+----
+gantt
+    ...
 gantt
     title GAIA AIR Project Milestones (Fechas Actualizadas)
     dateFormat  YYYY-MM-DD
@@ -33,6 +37,10 @@ Descripción:
 Este diagrama de flujo ilustra el manejo de datos ESG en GAIA AIR, desde la recolección y validación hasta el almacenamiento en blockchain y la generación de reportes.
 
 ```mermaid
+[source, mermaid]
+----
+flowchart TD
+    ...
 Copiar código
 flowchart TD
     classDef proceso fill:#f9f,stroke:#333,stroke-width:2px;
@@ -64,13 +72,7 @@ flowchart TD
     L3 -.-> D
     L4 -.-> H
 ```
-[source, mermaid]
+
 ----
-gantt
-    ...
-----
-[source, mermaid]
-----
-flowchart TD
-    ...
+
 ----
