@@ -8,9 +8,7 @@ Este documento contiene ejemplos de diagramas Mermaid para el proyecto GAIA AIR,
 Este diagrama Gantt muestra las fases del proyecto GAIA AIR con fechas actualizadas. Permite monitorear el progreso, las dependencias y la duración estimada de cada fase.
 
 ```mermaid
-[source, mermaid]
-gantt
-    ...
+%%{init: {'themeVariables': {'fontSize': '16px'}}}%%
 gantt
     title GAIA AIR Project Milestones (Fechas Actualizadas)
     dateFormat  YYYY-MM-DD
@@ -30,21 +28,17 @@ gantt
     Certificaciones DO-326A, ISO 14001       :milestone9, 2026-03-01, 2026-09-01
     Integración Federated Model-Ops          :milestone10, 2026-06-01, 2026-12-01
 ```
-
-Diagrama de Flujo - Trazabilidad ESG
+##  Diagrama de Flujo - Trazabilidad ESG
 Descripción:
 Este diagrama de flujo ilustra el manejo de datos ESG en GAIA AIR, desde la recolección y validación hasta el almacenamiento en blockchain y la generación de reportes.
 
 ```mermaid
-[source, mermaid]
-flowchart TD
-    ...
-Copiar código
-flowchart TD
-    classDef proceso fill:#f9f,stroke:#333,stroke-width:2px;
-    classDef decision fill:#bbf,stroke:#333,stroke-width:2px;
-    classDef almacenamiento fill:#ccf,stroke:#333,stroke-width:2px;
-    classDef reporte fill:#cfc,stroke:#333,stroke-width:2px;
+%%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'fontSize': '16px'}}}%%
+flowchart LR
+    classDef proceso fill:#f9f,stroke:#333,stroke-width:2px,color:#FFFFFF;
+    classDef decision fill:#bbf,stroke:#333,stroke-width:2px,color:#FFFFFF;
+    classDef almacenamiento fill:#ccf,stroke:#333,stroke-width:2px,color:#FFFFFF;
+    classDef reporte fill:#cfc,stroke:#333,stroke-width:2px,color:#FFFFFF;
 
     A[Recopilación de Datos ESG]:::proceso --> B[Validación de Datos]:::proceso
     B --> C{Datos Válidos?}:::decision
@@ -54,23 +48,9 @@ flowchart TD
     F --> G[Análisis en Tiempo Real con IA/AGI]:::proceso
     G --> H[Generación de Reportes ESG]:::reporte
     H --> I[Distribución de Reportes a Stakeholders]:::proceso
-
-    G --> J[Monitoreo Continuo]:::proceso
-    J --> F
-
-    subgraph Leyenda
-        L1[Proceso]:::proceso
-        L2[Decisión]:::decision
-        L3[Almacenamiento]:::almacenamiento
-        L4[Reporte]:::reporte
-    end
-
-    L1 -.-> A
-    L2 -.-> C
-    L3 -.-> D
-    L4 -.-> H
 ```
-
-----
-
-----
+### Notes:
+Code Block Closure: Ensured each Mermaid diagram code block is closed with triple backticks.
+Aspect Ratio and Resizing: Handle additional aspect ratio considerations within the rendering platform by adjusting the viewbox or container size.
+Font Size: Increased to 16px for better readability.
+Make sure you view these diagrams in an environment that fully supports Mermaid syntax to render them correctly. You may need to handle the aspect ratio adjustments within your output medium for optimal display based on the platform's capabilities.
