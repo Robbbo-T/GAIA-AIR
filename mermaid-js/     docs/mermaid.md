@@ -35,10 +35,10 @@ Este diagrama de flujo ilustra el manejo de datos ESG en GAIA AIR, desde la reco
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'fontSize': '16px'}}}%%
 flowchart LR
-    classDef proceso fill:#f9f,stroke:#333,stroke-width:2px,color:#FFFFFF;
-    classDef decision fill:#bbf,stroke:#333,stroke-width:2px,color:#FFFFFF;
-    classDef almacenamiento fill:#ccf,stroke:#333,stroke-width:2px,color:#FFFFFF;
-    classDef reporte fill:#cfc,stroke:#333,stroke-width:2px,color:#FFFFFF;
+    classDef proceso fill:#f9f,stroke:#333,stroke-width:2px,color:#000000;
+    classDef decision fill:#bbf,stroke:#333,stroke-width:2px,color:#000000;
+    classDef almacenamiento fill:#ccf,stroke:#333,stroke-width:2px,color:#000000;
+    classDef reporte fill:#cfc,stroke:#333,stroke-width:2px,color:#000000;
 
     A[Recopilación de Datos ESG]:::proceso --> B[Validación de Datos]:::proceso
     B --> C{Datos Válidos?}:::decision
