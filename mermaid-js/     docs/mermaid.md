@@ -9,7 +9,6 @@ Este diagrama Gantt muestra las fases del proyecto GAIA AIR con fechas actualiza
 
 ```mermaid
 [source, mermaid]
-----
 gantt
     ...
 gantt
@@ -38,7 +37,6 @@ Este diagrama de flujo ilustra el manejo de datos ESG en GAIA AIR, desde la reco
 
 ```mermaid
 [source, mermaid]
-----
 flowchart TD
     ...
 Copiar código
