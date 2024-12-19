@@ -173,7 +173,7 @@ Esta **Constitución Digital Universal**, concebida a partir de una visión inte
 
 ---
 
-# Integración Poética de GAIA DS
+# X. Integración Poética de GAIA DS
 
 **From these Freudian depths, GAIA DS emerges.**
 
