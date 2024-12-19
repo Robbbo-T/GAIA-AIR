@@ -219,35 +219,13 @@ GAIA DS (Governance and Artificial Intelligence for Digital Sustainability) surg
 
 ---
 
-**Este documento, en su conjunto, establece un marco sólido, evolutivo y holístico para la gobernanza, protección de derechos, sostenibilidad e innovación en el ciberespacio. Con la inclusión de una dimensión poética y filosófica (Artículo X), el componente XAi (Artículo XI) y el marco GAIA DS (Artículo XII), se refuerza el compromiso con una transformación digital equitativa, ética, transparente, explicable y sustentable, garantizando un futuro tecnológico alineado con los valores fundamentales de la humanidad.**
-
----
-
-# Imágenes Referenciales
-
-![Globo con nodos interconectados representando Internet](https://via.placeholder.com/800x400?text=Globo+con+nodos+interconectados+representando+Internet)
-
-![Persona con discapacidad usando tecnología asistiva](https://via.placeholder.com/800x400?text=Persona+con+discapacidad+usando+tecnolog%C3%ADa+asistiva)
-
-![Balanza de justicia en un entorno digital](https://via.placeholder.com/800x400?text=Balanza+de+justicia+en+un+entorno+digital)
-
-![Mano de robot estrechando mano humana, representando IA ética](https://via.placeholder.com/800x400?text=Mano+de+robot+estrechando+mano+humana,+representando+IA+%C3%A9tica)
-
-![Diagrama de red representando la cooperación global en ciberseguridad](https://via.placeholder.com/800x400?text=Diagrama+de+red+representando+la+cooperaci%C3%B3n+global+en+ciberseguridad)
-
-![Diagrama de captura de CO₂ y economía circular](https://via.placeholder.com/800x400?text=Diagrama+de+captura+de+CO%C2%B2+y+econom%C3%ADa+circular)
-
-![Grupo diverso de personas conectadas digitalmente, participando en decisiones comunitarias](https://via.placeholder.com/800x400?text=Grupo+diverso+de+personas+conectadas+digitalmente,+participando+en+decisiones+comunitarias)
-
----
-
 # Finalización
 
 Esta **Constitución Digital Universal**, concebida a partir de una visión integral y fundamentada en principios éticos, jurídicos, técnicos, sociales, ambientales y económicos, orienta la construcción de un ciberespacio justo, inclusivo, seguro, sostenible y democrático. Su éxito dependerá del compromiso activo de todos los actores, la aplicación eficaz de sus normas y la capacidad de evolución y adaptación ante los desafíos que presente el futuro digital.
 
 ---
 
-This poetic expression suggests that GAIA DS, as a comprehensive and multifaceted framework, arises from profound conceptual foundations—akin to deep psychological layers or underlying motivators. Its origins and principles may be rooted in complex, introspective, and deeply analyzed considerations.
+10. This poetic expression suggests that GAIA DS, as a comprehensive and multifaceted framework, arises from profound conceptual foundations—akin to deep psychological layers or underlying motivators. Its origins and principles may be rooted in complex, introspective, and deeply analyzed considerations.
 
 **Context for Sustainable Development:**
 
