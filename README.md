@@ -405,7 +405,6 @@ El **Diseño de Arquitectura del Sistema** proporciona una visión detallada de 
 
 #### **15.1. Diagrama de Componentes**
 
-Here's the refined flowchart using the `flowchart` syntax in Mermaid:
 
 ```mermaid
 flowchart TB
@@ -415,7 +414,7 @@ flowchart TB
     A --> D[Motores Eléctricos]
     
     %% Gestión de Energía
-    E[Sistema de Gestión de Energía (EMS)] --> F[Panel de Control Energético]
+    E[Sistema de Gestión de Energía EMS] --> F[Panel de Control Energético]
     E --> G[Algoritmos de Optimización QAOA]
     E --> H[Blockchain]
     
