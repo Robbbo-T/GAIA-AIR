@@ -454,7 +454,6 @@ flowchart TB
 To refine the flowchart in your `README.md` file, please replace the existing content with the following:
 
 ```markdown
-```mermaid
 sequenceDiagram
     participant Piloto
     participant AGI
@@ -478,7 +477,7 @@ Este diagrama representa la distribución física de los componentes del sistema
 graph LR
     subgraph Avión AMPEL-360XWLRGA
         A1[Sistema de Propulsión Híbrida] 
-        A2[Sistema de Gestión de Energía (EMS)]
+        A2[Sistema de Gestión de Energía EMS]
         A3[Sistema de Avionics y Control de Vuelo]
         A4[Sistema de Trazabilidad y Seguridad de Datos]
         A5[Sistema de Gemelos Digitales]
