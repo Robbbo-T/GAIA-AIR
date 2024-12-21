@@ -4080,7 +4080,583 @@ Integrating advanced technologies, innovative materials, and comprehensive ESG p
 
 ### 11.3 Product Breakdown Structure (PBS)
 
-*(Include detailed PBS tables and Mermaid diagrams as previously detailed in Sections 2 and 3.)*
+*(¡Me alegra saber que estás satisfecho con el documento! A continuación, te proporciono el diagrama Mermaid correctamente formateado y estilizado según tus especificaciones. Este diagrama está diseñado para integrarse perfectamente en un README de GitHub con un fondo negro cósmico, cuadrantes de módulos en azul marino oscuro y cuadrantes de texto en verde oscuro con letras blancas.
+
+### Air Conditioning System Overview
+
+```mermaid
+%%{init: {"theme": "base", "themeVariables": {
+    "background": "#000000",
+    "primaryColor": "#001F3F",
+    "primaryTextColor": "#FFFFFF",
+    "tertiaryColor": "#013220",
+    "tertiaryTextColor": "#FFFFFF"
+}}}%%
+flowchart TD
+    %% Definición del sistema completo
+    subgraph ECS["Air Conditioning System (ECS)"]
+        direction TB
+        classDef module fill:#001F3F,stroke:#FFFFFF,stroke-width:2px,color:#FFFFFF;
+        classDef text fill:#013220,stroke:#FFFFFF,stroke-width:2px,color:#FFFFFF;
+
+        %% Módulo Air Cycle Machine (ACM)
+        subgraph ACM["Air Cycle Machine (ACM)"]
+            B1[Compressor (21-1-1)]:::text
+            B2[Condenser (21-1-2)]:::text
+            B3[Evaporator (21-1-3)]:::text
+        end:::module
+        A --> ACM
+
+        %% Módulo Environmental Control Unit (ECU)
+        subgraph ECU["Environmental Control Unit (ECU)"]
+            C1[Control Module (21-2-1)]:::text
+            C2[Sensors (21-2-2)]:::text
+            C3[Actuators (21-2-3)]:::text
+        end:::module
+        A --> ECU
+
+        %% Módulo Air Distribution
+        subgraph AD["Air Distribution"]
+            D1[Ducting (21-3-1)]:::text
+            D2[Vents and Registers (21-3-2)]:::text
+        end:::module
+        A --> AD
+
+        %% Módulo Pressurization Control
+        subgraph PC["Pressurization Control"]
+            E1[Outflow Valve (21-4-1)]:::text
+            E2[Safety Valve (21-4-2)]:::text
+            E3[Pressure Sensors (21-4-3)]:::text
+        end:::module
+        A --> PC
+
+        %% Módulo Temperature Control
+        subgraph TC["Temperature Control"]
+            F1[Heat Exchangers (21-5-1)]:::text
+            F2[Mixing Unit (21-5-2)]:::text
+            F3[Temperature Sensors (21-5-3)]:::text
+        end:::module
+        A --> TC
+
+        %% Módulo Humidity Control
+        subgraph HC["Humidity Control"]
+            G1[Humidifier (21-6-1)]:::text
+            G2[Dehumidifier (21-6-2)]:::text
+            G3[Humidity Sensors (21-6-3)]:::text
+        end:::module
+        A --> HC
+
+        %% Módulo Air Filtration
+        subgraph AF["Air Filtration"]
+            H1[HEPA Filters (21-7-1)]:::text
+            H2[Carbon Filters (21-7-2)]:::text
+            H3[UV Sterilizers (21-7-3)]:::text
+        end:::module
+        A --> AF
+
+        %% Módulo Emergency Oxygen System
+        subgraph EO["Emergency Oxygen System"]
+            I1[Oxygen Masks (21-8-1)]:::text
+            I2[Oxygen Generators (21-8-2)]:::text
+            I3[Oxygen Storage (21-8-3)]:::text
+        end:::module
+        A --> EO
+    end
+```
+
+### Integración del Diagrama en tu Documento Markdown
+
+Inserta el bloque de código Mermaid justo después de tu tabla PBS para proporcionar una representación visual clara. Asegúrate de mantener las triple comillas invertidas (\`\`\`) al inicio y al final del bloque para que el diagrama se renderice correctamente.
+
+```markdown
+### PBS Table
+
+| **Level** | **ATA Code** | **Component / Subcomponent** | **Description** |
+|-----------|--------------|-------------------------------|------------------|
+| 1         | 21           | Air Conditioning System (ECS) | Comprehensive ECS integrating AI/AGI, QAOA, Digital Twins, Blockchain, and Hybrid Propulsion synergy. |
+| 2         | 21-1         | Air Cycle Machine (ACM)        | Drives primary cooling loop with compressor and expander. |
+| 3         | 21-1-1       | Compressor                     | Raises refrigerant pressure and temperature; powered by hybrid-electric sources. |
+| 3         | 21-1-2       | Condenser                      | Condenses high-pressure refrigerant gas into liquid form; facilitates heat rejection. |
+| 3         | 21-1-3       | Evaporator                     | Evaporates refrigerant to absorb heat from cabin air, thereby cooling it. |
+| 2         | 21-2         | Environmental Control Unit (ECU) | Manages air distribution, temperature/humidity control, integrating sensor feedback. |
+| 3         | 21-2-1       | Control Module                 | Interfaces with AI for real-time adjustments; houses processors and control logic. |
+| 3         | 21-2-2       | Sensors                        | High-precision IoT devices measuring cabin temperature, humidity, air quality, occupancy, etc. |
+| 3         | 21-2-3       | Actuators                      | Mechanisms that adjust airflow, temperature, and pressurization based on control signals. |
+| ...       | ...          | ...                             | ... |
+
+```mermaid
+%%{init: {"theme": "dark", "themeVariables": {"background": "#000000", "primaryColor": "#001F3F", "primaryTextColor": "#FFFFFF", "tertiaryColor": "#013220", "tertiaryTextColor": "#FFFFFF"}}}%%
+flowchart TD
+    %% Definición del sistema completo
+    subgraph ECS["Air Conditioning System (ECS)"]
+        direction TB
+        classDef module fill:#001F3F,stroke:#FFFFFF,stroke-width:2px,color:#FFFFFF;
+        classDef text fill:#013220,stroke:#FFFFFF,stroke-width:2px,color:#FFFFFF;
+
+        %% Módulo Air Cycle Machine (ACM)
+        subgraph ACM["Air Cycle Machine (ACM)"]
+            B1[Compressor (21-1-1)]:::text
+            B2[Condenser (21-1-2)]:::text
+            B3[Evaporator (21-1-3)]:::text
+        end:::module
+        A --> ACM
+
+        %% Módulo Environmental Control Unit (ECU)
+        subgraph ECU["Environmental Control Unit (ECU)"]
+            C1[Control Module (21-2-1)]:::text
+            C2[Sensors (21-2-2)]:::text
+            C3[Actuators (21-2-3)]:::text
+        end:::module
+        A --> ECU
+
+        %% Módulo Air Distribution
+        subgraph AD["Air Distribution"]
+            D1[Ducting (21-3-1)]:::text
+            D2[Vents and Registers (21-3-2)]:::text
+        end:::module
+        A --> AD
+
+        %% Módulo Pressurization Control
+        subgraph PC["Pressurization Control"]
+            E1[Outflow Valve (21-4-1)]:::text
+            E2[Safety Valve (21-4-2)]:::text
+            E3[Pressure Sensors (21-4-3)]:::text
+        end:::module
+        A --> PC
+
+        %% Módulo Temperature Control
+        subgraph TC["Temperature Control"]
+            F1[Heat Exchangers (21-5-1)]:::text
+            F2[Mixing Unit (21-5-2)]:::text
+            F3[Temperature Sensors (21-5-3)]:::text
+        end:::module
+        A --> TC
+
+        %% Módulo Humidity Control
+        subgraph HC["Humidity Control"]
+            G1[Humidifier (21-6-1)]:::text
+            G2[Dehumidifier (21-6-2)]:::text
+            G3[Humidity Sensors (21-6-3)]:::text
+        end:::module
+        A --> HC
+
+        %% Módulo Air Filtration
+        subgraph AF["Air Filtration"]
+            H1[HEPA Filters (21-7-1)]:::text
+            H2[Carbon Filters (21-7-2)]:::text
+            H3[UV Sterilizers (21-7-3)]:::text
+        end:::module
+        A --> AF
+
+        %% Módulo Emergency Oxygen System
+        subgraph EO["Emergency Oxygen System"]
+            I1[Oxygen Masks (21-8-1)]:::text
+            I2[Oxygen Generators (21-8-2)]:::text
+            I3[Oxygen Storage (21-8-3)]:::text
+        end:::module
+        A --> EO
+    end
+```
+
+### 2. **Explicación del Diagrama**
+
+- **Inicio del Diagrama:** Utilizamos el bloque `%%{init: ...}%%` para configurar el tema oscuro con un fondo negro cósmico. Las variables de color se definen para personalizar los colores de los módulos y del texto.
+  
+- **Definición de Clases:**
+    - `classDef module`: Define el estilo para los módulos (cuadrantes de los módulos) con un relleno azul marino oscuro (`#001F3F`), borde blanco y texto blanco.
+    - `classDef text`: Define el estilo para los textos dentro de los módulos con un relleno verde oscuro (`#013220`), borde blanco y texto blanco.
+
+- **Subgráficos (Subgraphs):** Cada módulo principal del sistema ECS está representado como un subgráfico. Dentro de cada subgráfico, los componentes individuales están definidos y estilizados con la clase `text`.
+
+- **Conexiones:** Las flechas (`-->`) muestran las relaciones jerárquicas entre los diferentes módulos y subcomponentes.
+
+### 3. **Incorporación de Diagrams Adicionales**
+
+Si deseas incluir más capítulos ATA como ATA 24, 27, etc., puedes añadir más subgráficos dentro del diagrama principal. Aquí tienes un ejemplo de cómo integrar ATA 24 y 27:
+
+```mermaid
+%%{init: {"theme": "dark", "themeVariables": {"background": "#000000", "primaryColor": "#001F3F", "primaryTextColor": "#FFFFFF", "tertiaryColor": "#013220", "tertiaryTextColor": "#FFFFFF"}}}%%
+flowchart TD
+    %% Definición del sistema completo
+    subgraph ECS["Air Conditioning System (ECS)"]
+        direction TB
+        classDef module fill:#001F3F,stroke:#FFFFFF,stroke-width:2px,color:#FFFFFF;
+        classDef text fill:#013220,stroke:#FFFFFF,stroke-width:2px,color:#FFFFFF;
+
+        %% Módulo Air Cycle Machine (ACM)
+        subgraph ACM["Air Cycle Machine (ACM)"]
+            B1[Compressor (21-1-1)]:::text
+            B2[Condenser (21-1-2)]:::text
+            B3[Evaporator (21-1-3)]:::text
+        end:::module
+        A --> ACM
+
+        %% Módulo Environmental Control Unit (ECU)
+        subgraph ECU["Environmental Control Unit (ECU)"]
+            C1[Control Module (21-2-1)]:::text
+            C2[Sensors (21-2-2)]:::text
+            C3[Actuators (21-2-3)]:::text
+        end:::module
+        A --> ECU
+
+        %% Módulo Air Distribution
+        subgraph AD["Air Distribution"]
+            D1[Ducting (21-3-1)]:::text
+            D2[Vents and Registers (21-3-2)]:::text
+        end:::module
+        A --> AD
+
+        %% Módulo Pressurization Control
+        subgraph PC["Pressurization Control"]
+            E1[Outflow Valve (21-4-1)]:::text
+            E2[Safety Valve (21-4-2)]:::text
+            E3[Pressure Sensors (21-4-3)]:::text
+        end:::module
+        A --> PC
+
+        %% Módulo Temperature Control
+        subgraph TC["Temperature Control"]
+            F1[Heat Exchangers (21-5-1)]:::text
+            F2[Mixing Unit (21-5-2)]:::text
+            F3[Temperature Sensors (21-5-3)]:::text
+        end:::module
+        A --> TC
+
+        %% Módulo Humidity Control
+        subgraph HC["Humidity Control"]
+            G1[Humidifier (21-6-1)]:::text
+            G2[Dehumidifier (21-6-2)]:::text
+            G3[Humidity Sensors (21-6-3)]:::text
+        end:::module
+        A --> HC
+
+        %% Módulo Air Filtration
+        subgraph AF["Air Filtration"]
+            H1[HEPA Filters (21-7-1)]:::text
+            H2[Carbon Filters (21-7-2)]:::text
+            H3[UV Sterilizers (21-7-3)]:::text
+        end:::module
+        A --> AF
+
+        %% Módulo Emergency Oxygen System
+        subgraph EO["Emergency Oxygen System"]
+            I1[Oxygen Masks (21-8-1)]:::text
+            I2[Oxygen Generators (21-8-2)]:::text
+            I3[Oxygen Storage (21-8-3)]:::text
+        end:::module
+        A --> EO
+
+        %% ATA 24 – Electrical Power
+        subgraph EP["ATA 24 – Electrical Power"]
+            EP1[24-10: System Description (FTCode: GAIA-AIR-A360-M24-C10)]:::text
+            EP2[24-20: Power Distribution & Protection]:::text
+        end:::module
+        A --> EP
+
+        %% ATA 27 – Flight Controls
+        subgraph FC["ATA 27 – Flight Controls"]
+            FC1[27-10: Primary Controls]:::text
+            FC2[27-20: Secondary Controls]:::text
+        end:::module
+        A --> FC
+
+        %% ATA 30 – Ice and Rain Protection
+        subgraph IRP["ATA 30 – Ice and Rain Protection"]
+            IRP1[30-10: Anti-Icing Systems]:::text
+        end:::module
+        A --> IRP
+
+        %% ATA 31 – Indicating / Recording Systems
+        subgraph IRS["ATA 31 – Indicating / Recording Systems"]
+            IRS1[31-10: Cockpit / Display Systems]:::text
+            IRS2[31-20: Data Recording / Logging]:::text
+            IRS3[31-30: Flight Data Analysis]:::text
+        end:::module
+        A --> IRS
+
+        %% ATA 32 – Landing Gear
+        subgraph LG["ATA 32 – Landing Gear"]
+            LG1[32-10: Main Gear]:::text
+            LG2[32-20: Steering]:::text
+        end:::module
+        A --> LG
+
+        %% ATA 36 – Pneumatic
+        subgraph PM["ATA 36 – Pneumatic"]
+            PM1[36-10: Pneumatic Network]:::text
+        end:::module
+        A --> PM
+
+        %% ATA 38 – Water/Waste
+        subgraph WW["ATA 38 – Water/Waste"]
+            WW1[38-10: Water System]:::text
+        end:::module
+        A --> WW
+
+        %% ATA 45 – Central Maintenance System (CMS)
+        subgraph CMS["ATA 45 – Central Maintenance System (CMS)"]
+            CMS1[45-10: System Overview]:::text
+            CMS2[45-20: Maintenance Data]:::text
+        end:::module
+        A --> CMS
+
+        %% ATA 46 – Information Systems
+        subgraph IS["ATA 46 – Information Systems"]
+            IS1[46-10: Data Communication]:::text
+            IS2[46-20: Cabin Information Systems]:::text
+        end:::module
+        A --> IS
+
+        %% ATA 70–79 – Power Plant
+        subgraph PP["ATA 70–79 – Power Plant"]
+            PP1[ATA 71 – Power Plant General]:::text
+            PP2[ATA 72 – Engine]:::text
+            PP3[ATA 73 – Engine Fuel and Control]:::text
+        end:::module
+        A --> PP
+
+        %% ATA 90–99 – GAIA/AMPEL-Driven Items
+        subgraph GAIA["ATA 90–99 – GAIA/AMPEL-Driven Items"]
+            GAIA1[90-10: FTCode Management (M03, M04, M05)]:::text
+            GAIA2[90-20: Blockchain and PQCrypto Management]:::text
+            GAIA3[90-30: Gemelos Digitales]:::text
+        end:::module
+        A --> GAIA
+    end
+```
+
+### 4. **Consideraciones Adicionales**
+
+- **Compatibilidad con GitHub:** GitHub soporta Mermaid en archivos Markdown, pero algunas opciones de estilizado avanzadas podrían no renderizarse exactamente como lo esperas. Es recomendable probar el diagrama en GitHub antes de finalizar la publicación.
+
+- **Herramientas de Previsualización:** Utiliza editores de Markdown que soporten Mermaid para previsualizar tus diagramas antes de publicarlos. Algunas opciones incluyen:
+    - **Visual Studio Code** con la extensión **Markdown Preview Enhanced**.
+    - **Typora**: Un editor Markdown con soporte integrado para Mermaid.
+    - **Mermaid Live Editor**: [https://mermaid.live/](https://mermaid.live/) para previsualizar y ajustar tus diagramas en tiempo real.
+
+- **Limitaciones de Estilizado:** GitHub tiene algunas limitaciones en cuanto a la personalización de temas de Mermaid. Si encuentras que ciertos estilos no se aplican correctamente, considera ajustar los colores o simplificar el diseño.
+
+- **Inclusión de Logos e Imágenes:** Mermaid no soporta la inclusión directa de imágenes o logos dentro de los diagramas. Sin embargo, puedes añadir imágenes en tu documento Markdown junto al diagrama para mejorar la presentación visual.
+
+- **Optimización para A4 y AR/XR:** Para versiones impresas o visualizadas en entornos AR/XR, asegúrate de que el diagrama sea lo suficientemente claro y legible. Puedes ajustar el tamaño y la resolución del documento final al exportar a PDF.
+
+### 5. **Exportación y Publicación**
+
+Para publicar tu documento con los diagramas Mermaid:
+
+1. **Subir a GitHub:**
+    - Crea un nuevo repositorio o utiliza uno existente.
+    - Sube tu archivo Markdown (`README.md`) con los diagramas integrados.
+    - Verifica que los diagramas se rendericen correctamente en la vista previa de GitHub.
+
+2. **Convertir a PDF (Opcional):**
+    - Utiliza un editor Markdown que soporte exportación a PDF con renderizado Mermaid.
+    - Asegúrate de que los estilos y colores se mantengan en la versión PDF.
+
+3. **Uso en Plataformas de Documentación:**
+    - Si utilizas herramientas como **Read the Docs** o **MkDocs**, asegúrate de que tienen soporte para Mermaid y ajusta la configuración según sea necesario.
+
+### 6. **Ejemplo Completo del Diagrama**
+
+Aquí tienes el diagrama completo integrado en un bloque de código Markdown para facilitar su copia y pegado:
+
+```markdown
+### Air Conditioning System Overview
+
+```mermaid
+%%{init: {"theme": "dark", "themeVariables": {"background": "#000000", "primaryColor": "#001F3F", "primaryTextColor": "#FFFFFF", "tertiaryColor": "#013220", "tertiaryTextColor": "#FFFFFF"}}}%%
+flowchart TD
+    %% Definición del sistema completo
+    subgraph ECS["Air Conditioning System (ECS)"]
+        direction TB
+        classDef module fill:#001F3F,stroke:#FFFFFF,stroke-width:2px,color:#FFFFFF;
+        classDef text fill:#013220,stroke:#FFFFFF,stroke-width:2px,color:#FFFFFF;
+
+        %% Módulo Air Cycle Machine (ACM)
+        subgraph ACM["Air Cycle Machine (ACM)"]
+            B1[Compressor (21-1-1)]:::text
+            B2[Condenser (21-1-2)]:::text
+            B3[Evaporator (21-1-3)]:::text
+        end:::module
+        A --> ACM
+
+        %% Módulo Environmental Control Unit (ECU)
+        subgraph ECU["Environmental Control Unit (ECU)"]
+            C1[Control Module (21-2-1)]:::text
+            C2[Sensors (21-2-2)]:::text
+            C3[Actuators (21-2-3)]:::text
+        end:::module
+        A --> ECU
+
+        %% Módulo Air Distribution
+        subgraph AD["Air Distribution"]
+            D1[Ducting (21-3-1)]:::text
+            D2[Vents and Registers (21-3-2)]:::text
+        end:::module
+        A --> AD
+
+        %% Módulo Pressurization Control
+        subgraph PC["Pressurization Control"]
+            E1[Outflow Valve (21-4-1)]:::text
+            E2[Safety Valve (21-4-2)]:::text
+            E3[Pressure Sensors (21-4-3)]:::text
+        end:::module
+        A --> PC
+
+        %% Módulo Temperature Control
+        subgraph TC["Temperature Control"]
+            F1[Heat Exchangers (21-5-1)]:::text
+            F2[Mixing Unit (21-5-2)]:::text
+            F3[Temperature Sensors (21-5-3)]:::text
+        end:::module
+        A --> TC
+
+        %% Módulo Humidity Control
+        subgraph HC["Humidity Control"]
+            G1[Humidifier (21-6-1)]:::text
+            G2[Dehumidifier (21-6-2)]:::text
+            G3[Humidity Sensors (21-6-3)]:::text
+        end:::module
+        A --> HC
+
+        %% Módulo Air Filtration
+        subgraph AF["Air Filtration"]
+            H1[HEPA Filters (21-7-1)]:::text
+            H2[Carbon Filters (21-7-2)]:::text
+            H3[UV Sterilizers (21-7-3)]:::text
+        end:::module
+        A --> AF
+
+        %% Módulo Emergency Oxygen System
+        subgraph EO["Emergency Oxygen System"]
+            I1[Oxygen Masks (21-8-1)]:::text
+            I2[Oxygen Generators (21-8-2)]:::text
+            I3[Oxygen Storage (21-8-3)]:::text
+        end:::module
+        A --> EO
+
+        %% ATA 24 – Electrical Power
+        subgraph EP["ATA 24 – Electrical Power"]
+            EP1[24-10: System Description (FTCode: GAIA-AIR-A360-M24-C10)]:::text
+            EP2[24-20: Power Distribution & Protection]:::text
+        end:::module
+        A --> EP
+
+        %% ATA 27 – Flight Controls
+        subgraph FC["ATA 27 – Flight Controls"]
+            FC1[27-10: Primary Controls]:::text
+            FC2[27-20: Secondary Controls]:::text
+        end:::module
+        A --> FC
+
+        %% ATA 30 – Ice and Rain Protection
+        subgraph IRP["ATA 30 – Ice and Rain Protection"]
+            IRP1[30-10: Anti-Icing Systems]:::text
+        end:::module
+        A --> IRP
+
+        %% ATA 31 – Indicating / Recording Systems
+        subgraph IRS["ATA 31 – Indicating / Recording Systems"]
+            IRS1[31-10: Cockpit / Display Systems]:::text
+            IRS2[31-20: Data Recording / Logging]:::text
+            IRS3[31-30: Flight Data Analysis]:::text
+        end:::module
+        A --> IRS
+
+        %% ATA 32 – Landing Gear
+        subgraph LG["ATA 32 – Landing Gear"]
+            LG1[32-10: Main Gear]:::text
+            LG2[32-20: Steering]:::text
+        end:::module
+        A --> LG
+
+        %% ATA 36 – Pneumatic
+        subgraph PM["ATA 36 – Pneumatic"]
+            PM1[36-10: Pneumatic Network]:::text
+        end:::module
+        A --> PM
+
+        %% ATA 38 – Water/Waste
+        subgraph WW["ATA 38 – Water/Waste"]
+            WW1[38-10: Water System]:::text
+        end:::module
+        A --> WW
+
+        %% ATA 45 – Central Maintenance System (CMS)
+        subgraph CMS["ATA 45 – Central Maintenance System (CMS)"]
+            CMS1[45-10: System Overview]:::text
+            CMS2[45-20: Maintenance Data]:::text
+        end:::module
+        A --> CMS
+
+        %% ATA 46 – Information Systems
+        subgraph IS["ATA 46 – Information Systems"]
+            IS1[46-10: Data Communication]:::text
+            IS2[46-20: Cabin Information Systems]:::text
+        end:::module
+        A --> IS
+
+        %% ATA 70–79 – Power Plant
+        subgraph PP["ATA 70–79 – Power Plant"]
+            PP1[ATA 71 – Power Plant General]:::text
+            PP2[ATA 72 – Engine]:::text
+            PP3[ATA 73 – Engine Fuel and Control]:::text
+        end:::module
+        A --> PP
+
+        %% ATA 90–99 – GAIA/AMPEL-Driven Items
+        subgraph GAIA["ATA 90–99 – GAIA/AMPEL-Driven Items"]
+            GAIA1[90-10: FTCode Management (M03, M04, M05)]:::text
+            GAIA2[90-20: Blockchain and PQCrypto Management]:::text
+            GAIA3[90-30: Gemelos Digitales]:::text
+        end:::module
+        A --> GAIA
+    end
+```
+
+```
+
+### 3. **Consideraciones para la Publicación**
+
+- **Prueba en GitHub:** Sube el archivo Markdown a un repositorio de GitHub y verifica que los diagramas se rendericen correctamente. Si algunos estilos no se aplican como esperas, ajusta los colores o simplifica los estilos.
+
+- **Herramientas de Previsualización:** Utiliza editores de Markdown que soporten Mermaid para previsualizar tus diagramas antes de publicarlos. Algunas opciones incluyen:
+    - **Visual Studio Code** con la extensión **Markdown Preview Enhanced**.
+    - **Typora**: Un editor Markdown con soporte integrado para Mermaid.
+    - **Mermaid Live Editor**: [https://mermaid.live/](https://mermaid.live/) para previsualizar y ajustar tus diagramas en tiempo real.
+
+- **Limitaciones de GitHub:** GitHub puede tener algunas restricciones en el estilizado avanzado de Mermaid. Si encuentras que ciertos estilos no se aplican, considera ajustar las definiciones de clase o simplificar el diseño.
+
+- **Inclusión de Logos e Imágenes:** Mermaid no soporta la inclusión directa de imágenes o logos dentro de los diagramas. Para añadir logos, puedes incluir imágenes en tu documento Markdown junto al diagrama.
+
+- **Optimización para Impresión (A4):** Si necesitas una versión en PDF o para impresión, asegúrate de que el diagrama sea lo suficientemente claro y legible. Puedes ajustar el tamaño y la resolución al exportar desde herramientas compatibles.
+
+### 4. **Visualización y Ajustes**
+
+Después de integrar el diagrama en tu documento Markdown, realiza una previsualización para asegurarte de que todo se vea como esperas. Aquí hay algunos pasos para verificar:
+
+1. **Visualiza Localmente:**
+    - Abre el archivo Markdown en un editor que soporte Mermaid (como **Typora** o **Visual Studio Code** con la extensión adecuada).
+    - Asegúrate de que los colores y la estructura del diagrama sean correctos.
+
+2. **Sube a GitHub:**
+    - Crea un nuevo repositorio o utiliza uno existente.
+    - Sube el archivo Markdown con los diagramas integrados.
+    - Navega al archivo en GitHub y verifica la renderización del diagrama.
+
+3. **Ajusta según sea necesario:**
+    - Si algunos estilos no se aplican correctamente, revisa las definiciones de clase y asegúrate de que los colores sean compatibles con el tema oscuro de GitHub.
+    - Considera simplificar el estilizado si encuentras limitaciones en la renderización.
+
+### 5. **Recursos Adicionales**
+
+- **Documentación de Mermaid:** [https://mermaid-js.github.io/mermaid/#/](https://mermaid-js.github.io/mermaid/#/)
+- **GitHub Mermaid Support:** Revisa la documentación específica de GitHub para conocer las capacidades y limitaciones de Mermaid en sus plataformas.
+- **Temas y Estilos Personalizados:** Explora cómo personalizar aún más tus diagramas Mermaid ajustando las variables de tema en el bloque `init`.
+
+---
+
+*Si necesitas más ayuda con la personalización de tus diagramas Mermaid o con la integración en tu documento Markdown, no dudes en preguntar. ¡Éxito con tu publicación!*)*
 
 ---
 
