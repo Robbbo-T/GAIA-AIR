@@ -2567,27 +2567,1564 @@ In **ATA 20 – Standard Practices – Airframe**, the **A360-XWLRGA** merges **
 - **Blockchain & PQCrypto**: Authentic hardware management and secure data transmissions.  
 - **NDT + ML**: Non-destructive techniques become predictive, saving costs, and reinforcing safety.  
 
-```markdown
-# **Deep Dives into ATA 20**
 
-Below are **three expanded sub-sections** for **ATA 20**—focusing on **composite repair procedures** (20-10), **advanced hardware authentication** (20-20), and **non-destructive testing (NDT) with HPC synergy** (20-30). These details build on the foundations outlined in the main ATA 20 description.
+---
+**Final Consolidated Blueprint for ATA 21 – Air Conditioning and Pressurization**
+
+Congratulations on developing a comprehensive and detailed blueprint for the **Air Conditioning and Pressurization** (ATA 21) systems within the **GAIA AIR – A360-XWLRGA** program. This document effectively integrates cutting-edge technologies such as **Hybrid Propulsion**, **Advanced Sensors**, **FTCode Tagging**, **HPC-based Data Logging**, **AI-driven Monitoring**, **Digital Twins**, and **Blockchain** to establish a robust, secure, and eco-efficient environmental control system. Below is a review of your blueprint, along with suggestions to ensure its effectiveness and readiness for implementation.
 
 ---
 
+# GAIA AIR A360-XWLRGA Program
 
-
-## **ATA 21 – Air Conditioning and Pressurization**  
-*(Adapted to reflect hybrid solutions and advanced sensors.)*
-
-1. **21-10 – System Description**  
-   - Explanation of electrified environment control systems with integrated power from the *Propulsión Híbrida* module.  
-   - *FTCode* tags for sub-assemblies tied to HPC-based data logging.
-
-2. **21-20 – ECS Controls**  
-   - IA-based controlling for cabin pressurization with real-time adjustments.  
-   - Gemelos Digitales simulate ECS performance for predictive diagnosis.
+## ATA 21 – Air Conditioning and Pressurization (ECS) System
 
 ---
+
+## Table of Contents
+
+1. [Introduction](#1-introduction)
+2. [Physical Product Breakdown Structure (PBS)](#2-physical-product-breakdown-structure-pbs)
+3. [List of Assemblies](#3-list-of-assemblies)
+4. [Bill of Materials (BOM)](#4-bill-of-materials-bom)
+5. [New Materials Implementable](#5-new-materials-implementable)
+6. [ESG Key Performance Indicators (KPIs)](#6-esg-key-performance-indicators-kpis)
+7. [New Technologies List](#7-new-technologies-list)
+8. [Impact on Geometry and Weight Distribution](#8-impact-on-geometry-and-weight-distribution)
+9. [ATA 21 R.E.C.A.P. RATIONALE](#9-ata-21-recap-rationale)
+10. [Conclusion](#10-conclusion)
+11. [Appendices](#11-appendices)
+
+---
+
+## 1. Introduction
+
+The **ATA 21 – Air Conditioning and Pressurization (ECS)** system is a critical component of the **GAIA AIR A360-XWLRGA** program, ensuring passenger comfort, safety, and operational efficiency. This comprehensive document outlines the system's architecture, components, materials, performance metrics, and integration strategies, adhering to ATA 21 standards and complying with EASA/FAA regulations.
+
+---
+
+## 2. Physical Product Breakdown Structure (PBS)
+
+The Physical Product Breakdown Structure (PBS) outlines all physical components of the Air Conditioning and Pressurization (ECS) system, organized hierarchically by ATA codes. This structure facilitates clear understanding, efficient project management, and streamlined maintenance processes.
+
+### PBS Table
+
+| **Level** | **ATA Code** | **Component / Subcomponent** | **Description** |
+|-----------|--------------|-------------------------------|------------------|
+| 1         | 21           | Air Conditioning System (ECS) | Comprehensive ECS integrating AI/AGI, QAOA, Digital Twins, Blockchain, and Hybrid Propulsion synergy. |
+| 2         | 21-1         | Air Cycle Machine (ACM)        | Drives primary cooling loop with compressor and expander. |
+| 3         | 21-1-1       | Compressor                     | Raises refrigerant pressure and temperature; powered by hybrid-electric sources. |
+| 3         | 21-1-2       | Condenser                      | Condenses high-pressure refrigerant gas into liquid form; facilitates heat rejection. |
+| 3         | 21-1-3       | Evaporator                     | Evaporates refrigerant to absorb heat from cabin air, thereby cooling it. |
+| 2         | 21-2         | Environmental Control Unit (ECU) | Manages air distribution, temperature/humidity control, integrating sensor feedback. |
+| 3         | 21-2-1       | Control Module                 | Interfaces with AI for real-time adjustments; houses processors and control logic. |
+| 3         | 21-2-2       | Sensors                        | High-precision IoT devices measuring cabin temperature, humidity, air quality, occupancy, etc. |
+| 3         | 21-2-3       | Actuators                      | Mechanisms that adjust airflow, temperature, and pressurization based on control signals. |
+| 2         | 21-3         | Air Distribution                | System for circulating conditioned air throughout the cabin. |
+| 3         | 21-3-1       | Ducting                        | Channels for transporting air; made of lightweight, durable materials. |
+| 3         | 21-3-2       | Vents and Registers            | Regulate airflow into cabin zones; designed for optimal air distribution. |
+| 2         | 21-4         | Pressurization Control          | Maintains cabin pressure for passenger safety and comfort. |
+| 3         | 21-4-1       | Outflow Valve                  | Regulates cabin pressure by controlling the amount of air released. |
+| 3         | 21-4-2       | Safety Valve                   | Prevents over-pressurization or negative pressure situations. |
+| 3         | 21-4-3       | Pressure Sensors               | Monitor cabin pressure and provide feedback to the control module. |
+| 2         | 21-5         | Temperature Control             | Regulates the temperature of the air supplied to the cabin. |
+| 3         | 21-5-1       | Heat Exchangers                | Transfer heat between the refrigerant and the air. |
+| 3         | 21-5-2       | Mixing Unit                    | Blends hot and cold air to achieve desired temperature. |
+| 3         | 21-5-3       | Temperature Sensors            | Monitor air temperature and provide feedback to the control module. |
+| 2         | 21-6         | Humidity Control                | Manages the moisture content of the air supplied to the cabin. |
+| 3         | 21-6-1       | Humidifier                     | Adds moisture to the air to maintain optimal humidity levels. |
+| 3         | 21-6-2       | Dehumidifier                   | Removes excess moisture from the air. |
+| 3         | 21-6-3       | Humidity Sensors               | Monitor cabin humidity and provide feedback to the control module. |
+| 2         | 21-7         | Air Filtration                  | Removes contaminants and ensures high air quality within the cabin. |
+| 3         | 21-7-1       | HEPA Filters                   | High-Efficiency Particulate Air filters to remove particles from the air. |
+| 3         | 21-7-2       | Carbon Filters                 | Remove odors and volatile organic compounds (VOCs) from the air. |
+| 3         | 21-7-3       | UV Sterilizers                 | Use ultraviolet light to neutralize bacteria and viruses. |
+| 2         | 21-8         | Emergency Oxygen System         | Provides supplemental oxygen to passengers and crew in case of decompression. |
+| 3         | 21-8-1       | Oxygen Masks                   | Deliver oxygen directly to passengers and crew. |
+| 3         | 21-8-2       | Oxygen Generators              | Produce oxygen on demand through chemical reactions. |
+| 3         | 21-8-3       | Oxygen Storage                 | Stores oxygen for emergency use. |
+
+---
+
+### Detailed Component Descriptions
+
+#### 2.1 Air Cycle Machine (ACM) - 21-1
+
+**Compressor (21-1-1):**
+- **Function:** Increases the pressure and temperature of the refrigerant, enabling efficient heat exchange.
+- **Features:** High-efficiency motors powered by hybrid-electric sources; integrated with AI for performance optimization.
+
+**Condenser (21-1-2):**
+- **Function:** Condenses the high-pressure refrigerant gas into a liquid by releasing heat to the surrounding environment.
+- **Features:** Enhanced heat exchanger design for rapid cooling; compatible with eco-friendly refrigerants.
+
+**Evaporator (21-1-3):**
+- **Function:** Absorbs heat from the cabin air by evaporating the refrigerant, thereby cooling the air.
+- **Features:** Precision-controlled airflow channels; integrated sensors for real-time temperature monitoring.
+
+#### 2.2 Environmental Control Unit (ECU) - 21-2
+
+**Control Module (21-2-1):**
+- **Function:** Central processing unit for the ECS; interfaces with AI/AGI for dynamic system adjustments.
+- **Features:** Advanced processors, robust control logic, and seamless integration with aircraft systems.
+
+**Sensors (21-2-2):**
+- **Function:** Collect real-time data on cabin conditions (temperature, humidity, air quality, occupancy).
+- **Features:** High-precision IoT sensors, wireless communication, and integration with the Digital Twin.
+
+**Actuators (21-2-3):**
+- **Function:** Adjust airflow, temperature, and pressurization based on control signals from the ECU.
+- **Features:** Responsive, durable, and integrated with AI for optimized performance.
+
+#### 2.3 Air Distribution - 21-3
+
+**Ducting (21-3-1):**
+- **Function:** Transport conditioned air throughout the cabin.
+- **Features:** Lightweight, durable materials (CFRP, Al-Li alloys); optimized for efficient airflow.
+
+**Vents and Registers (21-3-2):**
+- **Function:** Regulate airflow into cabin zones.
+- **Features:** Designed for optimal air distribution, adjustable, and integrated with sensors for zone-specific control.
+
+#### 2.4 Pressurization Control - 21-4
+
+**Outflow Valve (21-4-1):**
+- **Function:** Regulates cabin pressure by precisely controlling the amount of air released.
+- **Features:** Precision control, integrated with pressure sensors and AI for dynamic adjustments.
+
+**Safety Valve (21-4-2):**
+- **Function:** Prevents over-pressurization or negative pressure situations.
+- **Features:** Reliable, fail-safe design, and integrated with emergency systems.
+
+**Pressure Sensors (21-4-3):**
+- **Function:** Monitor cabin pressure and provide continuous feedback to the control module.
+- **Features:** High-accuracy, redundant sensors for enhanced reliability.
+
+#### 2.5 Temperature Control - 21-5
+
+**Heat Exchangers (21-5-1):**
+- **Function:** Transfer heat between the refrigerant and the air.
+- **Features:** High-efficiency design, made from advanced materials for optimal thermal conductivity.
+
+**Mixing Unit (21-5-2):**
+- **Function:** Blends hot and cold air to achieve the desired temperature.
+- **Features:** Precision control, integrated with temperature sensors and AI for dynamic adjustments.
+
+**Temperature Sensors (21-5-3):**
+- **Function:** Monitor air temperature and provide feedback to the control module.
+- **Features:** High-accuracy, responsive, and integrated with the Digital Twin.
+
+#### 2.6 Humidity Control - 21-6
+
+**Humidifier (21-6-1):**
+- **Function:** Adds moisture to the air to maintain optimal humidity levels.
+- **Features:** Efficient water atomization, integrated with humidity sensors and AI for precise control.
+
+**Dehumidifier (21-6-2):**
+- **Function:** Removes excess moisture from the air.
+- **Features:** High-capacity moisture removal, energy-efficient operation.
+
+**Humidity Sensors (21-6-3):**
+- **Function:** Monitor cabin humidity and provide feedback to the control module.
+- **Features:** High-accuracy, responsive, and integrated with the Digital Twin.
+
+#### 2.7 Air Filtration - 21-7
+
+**HEPA Filters (21-7-1):**
+- **Function:** Remove particles from the air.
+- **Features:** High-efficiency particulate air filtration, long lifespan.
+
+**Carbon Filters (21-7-2):**
+- **Function:** Remove odors and volatile organic compounds (VOCs) from the air.
+- **Features:** Activated carbon for effective adsorption, integrated with air quality sensors.
+
+**UV Sterilizers (21-7-3):**
+- **Function:** Neutralize bacteria and viruses.
+- **Features:** Ultraviolet light sterilization, integrated with the air distribution system.
+
+#### 2.8 Emergency Oxygen System - 21-8
+
+**Oxygen Masks (21-8-1):**
+- **Function:** Deliver oxygen directly to passengers and crew in case of decompression.
+- **Features:** Automatic deployment, comfortable design, and integrated with the cabin pressure monitoring system.
+
+**Oxygen Generators (21-8-2):**
+- **Function:** Produce oxygen on demand through chemical reactions.
+- **Features:** Reliable, long-lasting, and integrated with the emergency systems.
+
+**Oxygen Storage (21-8-3):**
+- **Function:** Stores oxygen for emergency use.
+- **Features:** High-capacity, lightweight, and integrated with the oxygen distribution system.
+
+---
+
+## 3. List of Assemblies
+
+This section lists the major assemblies within the ECS system, providing a higher-level view of how components are grouped and integrated.
+
+### 3.1 Air Cycle Machine (ACM) - ATA Code 21-1
+
+#### 3.1.1 Compressor (21-1-1)
+- **Description:** High-efficiency compressors powered by hybrid-electric sources, responsible for raising refrigerant pressure and temperature to facilitate effective heat exchange.
+- **Key Components:**
+  - Electric Motor
+  - Compression Chambers
+  - Cooling Coils
+
+#### 3.1.2 Condenser (21-1-2)
+- **Description:** Condenses high-pressure refrigerant gas into liquid form by releasing heat to the surrounding environment, ensuring efficient heat rejection.
+- **Key Components:**
+  - Heat Exchanger Fins
+  - Liquid Refrigerant Lines
+  - Cooling Fans
+
+#### 3.1.3 Evaporator (21-1-3)
+- **Description:** Evaporates refrigerant to absorb heat from cabin air, thereby cooling the air and maintaining comfortable cabin conditions.
+- **Key Components:**
+  - Evaporation Chambers
+  - Airflow Channels
+  - Moisture Absorbers
+
+### 3.2 Environmental Control Unit (ECU) - ATA Code 21-2
+
+#### 3.2.1 Control Module (21-2-1)
+- **Description:** Central processing unit managing ECS operations, interfacing with AI/AGI for real-time adjustments, and housing processors and control logic.
+- **Key Components:**
+  - Microprocessors
+  - Memory Units
+  - Control Logic Circuits
+  - AI/AGI Interface
+
+#### 3.2.2 Sensors (21-2-2)
+- **Description:** Suite of high-precision IoT sensors measuring cabin temperature, humidity, air quality, and occupancy, providing real-time feedback to the control module.
+- **Key Components:**
+  - Temperature Sensors
+  - Humidity Sensors
+  - Air Quality Sensors
+  - Occupancy Sensors
+  - Wireless Communication Modules
+
+#### 3.2.3 Actuators (21-2-3)
+- **Description:** Mechanisms that adjust airflow, temperature, and pressurization based on control signals from the ECU, ensuring optimal cabin conditions.
+- **Key Components:**
+  - Servo Motors
+  - Valves
+  - Dampers
+
+### 3.3 Air Distribution - ATA Code 21-3
+
+#### 3.3.1 Ducting (21-3-1)
+- **Description:** Network of channels made from lightweight, durable materials (CFRP, Al-Li alloys) that transport conditioned air throughout the cabin.
+- **Key Components:**
+  - Composite Ducts
+  - Insulation Materials
+  - Sealing Components
+
+#### 3.3.2 Vents and Registers (21-3-2)
+- **Description:** Regulate airflow into cabin zones, designed for optimal air distribution and passenger comfort, adjustable for zone-specific control.
+- **Key Components:**
+  - Adjustable Vents
+  - Nozzles
+  - Airflow Regulators
+
+### 3.4 Pressurization Control - ATA Code 21-4
+
+#### 3.4.1 Outflow Valve (21-4-1)
+- **Description:** Regulates cabin pressure by precisely controlling the amount of air released, integrated with pressure sensors and AI for dynamic adjustments.
+- **Key Components:**
+  - Valve Actuator
+  - Pressure Sensors
+  - Control Linkages
+
+#### 3.4.2 Safety Valve (21-4-2)
+- **Description:** Prevents over-pressurization or negative pressure situations, featuring a reliable, fail-safe design integrated with emergency systems.
+- **Key Components:**
+  - Pressure Relief Valve
+  - Spring Mechanism
+  - Sealing Components
+
+#### 3.4.3 Pressure Sensors (21-4-3)
+- **Description:** Monitor cabin pressure and provide continuous feedback to the control module, featuring high-accuracy, redundant sensors for enhanced reliability.
+- **Key Components:**
+  - Diaphragm
+  - Strain Gauge
+  - Signal Conditioner
+
+### 3.5 Temperature Control - ATA Code 21-5
+
+#### 3.5.1 Heat Exchangers (21-5-1)
+- **Description:** Transfer heat between the refrigerant and the air, featuring a high-efficiency design made from advanced materials for optimal thermal conductivity.
+- **Key Components:**
+  - Fins
+  - Tubes
+  - Headers
+
+#### 3.5.2 Mixing Unit (21-5-2)
+- **Description:** Blends hot and cold air to achieve the desired temperature, featuring precision control integrated with temperature sensors and AI for dynamic adjustments.
+- **Key Components:**
+  - Mixing Valves
+  - Actuators
+  - Temperature Sensors
+
+#### 3.5.3 Temperature Sensors (21-5-3)
+- **Description:** Monitor air temperature and provide feedback to the control module, featuring high-accuracy, responsive sensors integrated with the Digital Twin.
+- **Key Components:**
+  - Thermistor
+  - Resistance Temperature Detector (RTD)
+  - Signal Conditioner
+
+### 3.6 Humidity Control - ATA Code 21-6
+
+#### 3.6.1 Humidifier (21-6-1)
+- **Description:** Adds moisture to the air to maintain optimal humidity levels, featuring efficient water atomization integrated with humidity sensors and AI for precise control.
+- **Key Components:**
+  - Water Reservoir
+  - Atomizer
+  - Control Valve
+
+#### 3.6.2 Dehumidifier (21-6-2)
+- **Description:** Removes excess moisture from the air, featuring high-capacity moisture removal and energy-efficient operation.
+- **Key Components:**
+  - Cooling Coils
+  - Condensate Drain
+  - Reheater
+
+#### 3.6.3 Humidity Sensors (21-6-3)
+- **Description:** Monitor cabin humidity and provide feedback to the control module, featuring high-accuracy, responsive sensors integrated with the Digital Twin.
+- **Key Components:**
+  - Capacitive Sensor
+  - Resistive Sensor
+  - Signal Conditioner
+
+### 3.7 Air Filtration - ATA Code 21-7
+
+#### 3.7.1 HEPA Filters (21-7-1)
+- **Description:** Remove particles from the air.
+- **Features:** High-efficiency particulate air filtration, long lifespan.
+
+#### 3.7.2 Carbon Filters (21-7-2)
+- **Description:** Remove odors and volatile organic compounds (VOCs) from the air.
+- **Features:** Activated carbon for effective adsorption, integrated with air quality sensors.
+
+#### 3.7.3 UV Sterilizers (21-7-3)
+- **Description:** Neutralize bacteria and viruses.
+- **Features:** Ultraviolet light sterilization, integrated with the air distribution system.
+
+### 3.8 Emergency Oxygen System - ATA Code 21-8
+
+#### 3.8.1 Oxygen Masks (21-8-1)
+- **Description:** Deliver oxygen directly to passengers and crew in case of decompression.
+- **Features:** Automatic deployment, comfortable design, and integrated with the cabin pressure monitoring system.
+
+#### 3.8.2 Oxygen Generators (21-8-2)
+- **Description:** Produce oxygen on demand through chemical reactions.
+- **Features:** Reliable, long-lasting, and integrated with the emergency systems.
+
+#### 3.8.3 Oxygen Storage (21-8-3)
+- **Description:** Stores oxygen for emergency use.
+- **Features:** High-capacity, lightweight, and integrated with the oxygen distribution system.
+
+---
+
+## 4. Bill of Materials (BOM)
+
+The Bill of Materials (BOM) provides a detailed list of all components, sub-assemblies, and materials required for the ECS system. It includes quantities, descriptions, suppliers, part numbers, and cost information.
+
+### 4.1 Air Cycle Machine (ACM) - ATA Code 21-1
+
+| **Level** | **ATA Code** | **Component/Subcomponent** | **Quantity** | **Description** | **Supplier/Manufacturer** | **Part Number** | **Unit Cost** | **Total Cost** |
+|-----------|--------------|-----------------------------|--------------|------------------|---------------------------|------------------|---------------|-----------------|
+| 2         | 21-1         | Air Cycle Machine (ACM)     | 1            | Drives primary cooling loop with compressor and expander. | Supplier A          | ACM-001          | $50,000        | $50,000          |
+| 3         | 21-1-1       | Compressor                  | 2            | High-efficiency compressors powered by hybrid-electric sources. | Supplier B          | COMP-101         | $15,000        | $30,000          |
+| 3         | 21-1-2       | Condenser                   | 2            | Condenses high-pressure refrigerant gas into liquid form. | Supplier C          | COND-202         | $10,000        | $20,000          |
+| 3         | 21-1-3       | Evaporator                  | 2            | Evaporates refrigerant to absorb heat from cabin air, cooling it. | Supplier D          | EVAP-303         | $8,000         | $16,000          |
+
+### 4.2 Environmental Control Unit (ECU) - ATA Code 21-2
+
+| **Level** | **ATA Code** | **Component/Subcomponent** | **Quantity** | **Description** | **Supplier/Manufacturer** | **Part Number** | **Unit Cost** | **Total Cost** |
+|-----------|--------------|-----------------------------|--------------|------------------|---------------------------|------------------|---------------|-----------------|
+| 2         | 21-2         | Environmental Control Unit (ECU) | 1        | Manages air distribution, temperature/humidity control. | Supplier E          | ECU-004          | $40,000        | $40,000          |
+| 3         | 21-2-1       | Control Module              | 1            | Interfaces with AI for real-time adjustments; houses processors and control logic. | Supplier F          | CM-501           | $12,000        | $12,000          |
+| 3         | 21-2-2       | Sensors                     | 20           | High-precision IoT devices measuring cabin temperature, humidity, air quality, occupancy, etc. | Supplier G          | SEN-601          | $500           | $10,000          |
+| 3         | 21-2-3       | Actuators                   | 10           | Mechanisms that adjust airflow, temperature, and pressurization based on control signals. | Supplier H          | ACT-701          | $1,500         | $15,000          |
+
+*(Continue this format for the remaining major assemblies)*
+
+### 4.3 Air Distribution - ATA Code 21-3
+
+| **Level** | **ATA Code** | **Component/Subcomponent** | **Quantity** | **Description** | **Supplier/Manufacturer** | **Part Number** | **Unit Cost** | **Total Cost** |
+|-----------|--------------|-----------------------------|--------------|------------------|---------------------------|------------------|---------------|-----------------|
+| 2         | 21-3         | Air Distribution            | 1            | System for circulating conditioned air. | Supplier I          | AD-007          | $25,000        | $25,000          |
+| 3         | 21-3-1       | Ducting                     | 30           | Channels for transporting air. | Supplier J          | DUCT-801         | $300           | $9,000           |
+| 3         | 21-3-2       | Vents and Registers         | 25           | Regulate airflow into cabin zones. | Supplier K          | VN-901           | $200           | $5,000           |
+
+### 4.4 Pressurization Control - ATA Code 21-4
+
+| **Level** | **ATA Code** | **Component/Subcomponent** | **Quantity** | **Description** | **Supplier/Manufacturer** | **Part Number** | **Unit Cost** | **Total Cost** |
+|-----------|--------------|-----------------------------|--------------|------------------|---------------------------|------------------|---------------|-----------------|
+| 2         | 21-4         | Pressurization Control      | 1            | Maintains cabin pressure. | Supplier L          | PC-010           | $35,000        | $35,000          |
+| 3         | 21-4-1       | Outflow Valve               | 2            | Regulates cabin pressure by controlling air release. | Supplier M          | OV-1101          | $6,000         | $12,000          |
+| 3         | 21-4-2       | Safety Valve                | 2            | Prevents over-pressurization or negative pressure. | Supplier N          | SV-1201          | $4,000         | $8,000           |
+| 3         | 21-4-3       | Pressure Sensors            | 4            | Monitor cabin pressure and provide feedback. | Supplier O          | PS-1301          | $1,000         | $4,000           |
+
+### 4.5 Temperature Control - ATA Code 21-5
+
+| **Level** | **ATA Code** | **Component/Subcomponent** | **Quantity** | **Description** | **Supplier/Manufacturer** | **Part Number** | **Unit Cost** | **Total Cost** |
+|-----------|--------------|-----------------------------|--------------|------------------|---------------------------|------------------|---------------|-----------------|
+| 2         | 21-5         | Temperature Control         | 1            | Regulates the temperature of the air. | Supplier P          | TC-013           | $30,000        | $30,000          |
+| 3         | 21-5-1       | Heat Exchangers             | 4            | Transfer heat between the refrigerant and the air. | Supplier Q          | HX-1401          | $3,000         | $12,000          |
+| 3         | 21-5-2       | Mixing Unit                 | 2            | Blends hot and cold air to achieve desired temp. | Supplier R          | MU-1501          | $5,000         | $10,000          |
+| 3         | 21-5-3       | Temperature Sensors         | 6            | Monitor air temperature and provide feedback. | Supplier S          | TS-1601          | $800           | $4,800           |
+
+### 4.6 Humidity Control - ATA Code 21-6
+
+| **Level** | **ATA Code** | **Component/Subcomponent** | **Quantity** | **Description** | **Supplier/Manufacturer** | **Part Number** | **Unit Cost** | **Total Cost** |
+|-----------|--------------|-----------------------------|--------------|------------------|---------------------------|------------------|---------------|-----------------|
+| 2         | 21-6         | Humidity Control            | 1            | Manages the moisture content of the air. | Supplier T          | HC-016           | $20,000        | $20,000          |
+| 3         | 21-6-1       | Humidifier                  | 2            | Adds moisture to the air. | Supplier U          | HUM-1701         | $4,000         | $8,000           |
+| 3         | 21-6-2       | Dehumidifier                | 2            | Removes excess moisture from the air. | Supplier V          | DEHUM-1801       | $3,500         | $7,000           |
+| 3         | 21-6-3       | Humidity Sensors            | 4            | Monitor cabin humidity and provide feedback. | Supplier W          | HS-1901          | $700           | $2,800           |
+
+### 4.7 Air Filtration - ATA Code 21-7
+
+| **Level** | **ATA Code** | **Component/Subcomponent** | **Quantity** | **Description** | **Supplier/Manufacturer** | **Part Number** | **Unit Cost** | **Total Cost** |
+|-----------|--------------|-----------------------------|--------------|------------------|---------------------------|------------------|---------------|-----------------|
+| 2         | 21-7         | Air Filtration              | 1            | Removes contaminants and ensures high air quality. | Supplier X          | AF-019           | $15,000        | $15,000          |
+| 3         | 21-7-1       | HEPA Filters                | 4            | Remove particles from the air. | Supplier Y          | HEPA-2001        | $1,000         | $4,000           |
+| 3         | 21-7-2       | Carbon Filters              | 4            | Remove odors and VOCs from the air. | Supplier Z          | CF-2101          | $800           | $3,200           |
+| 3         | 21-7-3       | UV Sterilizers              | 2            | Neutralize bacteria and viruses. | Supplier AA         | UVS-2201         | $1,500         | $3,000           |
+
+### 4.8 Emergency Oxygen System - ATA Code 21-8
+
+| **Level** | **ATA Code** | **Component/Subcomponent** | **Quantity** | **Description** | **Supplier/Manufacturer** | **Part Number** | **Unit Cost** | **Total Cost** |
+|-----------|--------------|-----------------------------|--------------|------------------|---------------------------|------------------|---------------|-----------------|
+| 2         | 21-8         | Emergency Oxygen System     | 1            | Provides supplemental oxygen in case of decompression. | Supplier AB         | EOS-022          | $25,000        | $25,000          |
+| 3         | 21-8-1       | Oxygen Masks                | 50           | Deliver oxygen directly to passengers and crew. | Supplier AC         | OM-2301          | $200           | $10,000          |
+| 3         | 21-8-2       | Oxygen Generators           | 10           | Produce oxygen on demand through chemical reactions. | Supplier AD         | OG-2401          | $1,000         | $10,000          |
+| 3         | 21-8-3       | Oxygen Storage              | 5            | Stores oxygen for emergency use. | Supplier AE         | OS-2501          | $2,000         | $10,000          |
+
+---
+
+## 5. New Materials Implementable
+
+Advancements in material science have opened new avenues for enhancing the efficiency, durability, and sustainability of aviation systems. Incorporating innovative materials into the Air Conditioning and Pressurization (ECS) system of the GAIA AIR A360-XWLRGA program can lead to significant performance improvements, reduced environmental impact, and extended component lifespans. This section details the latest materials suitable for various ECS components, outlining their properties, benefits, and implementation considerations.
+
+### 5.1 Advanced Composite Materials
+
+#### 5.1.1 Carbon Fiber Reinforced Polymers (CFRP)
+
+- **Description:** High-strength, lightweight composites made by embedding carbon fibers within a polymer matrix.
+- **Benefits:**
+  - **Lightweight:** Reduces overall ECS system weight, contributing to fuel efficiency.
+  - **High Strength:** Enhances structural integrity of ECS components.
+  - **Corrosion Resistance:** Increases longevity in harsh operating environments.
+  - **Thermal Stability:** Maintains performance across a wide temperature range.
+- **Applications:**
+  - **Ductwork:** Replaces traditional metal ducts, reducing weight and improving airflow efficiency.
+  - **Protective Casings:** Protects sensitive ECS components while minimizing weight.
+  - **Mounting Brackets:** Secures ECS components with high strength-to-weight ratio.
+- **Implementation Considerations:**
+  - **Cost:** Higher initial material costs compared to traditional metals.
+  - **Manufacturing:** Requires specialized processes and equipment.
+  - **Maintenance:** Training for handling and repairing CFRP components.
+
+#### 5.1.2 Aluminum-Lithium Alloys (Al-Li)
+
+- **Description:** Advanced lightweight materials known for superior strength and reduced density compared to conventional aluminum alloys.
+- **Benefits:**
+  - **Weight Reduction:** Lighter than traditional aluminum, contributing to overall weight savings.
+  - **Enhanced Strength:** Higher tensile strength improves component durability.
+  - **Fatigue Resistance:** Prolongs component lifespan under cyclic loading conditions.
+  - **Thermal Conductivity:** Efficient heat dissipation for thermal management.
+- **Applications:**
+  - **Compressor Housings:** Provides strength without significant weight penalties.
+  - **Heat Exchangers:** Enhances thermal efficiency while maintaining structural integrity.
+  - **Structural Supports:** Frameworks and supports benefit from the enhanced properties.
+- **Implementation Considerations:**
+  - **Cost:** More expensive than standard aluminum alloys.
+  - **Fabrication:** Requires specific welding and machining techniques.
+  - **Availability:** Limited suppliers compared to more common alloys.
+
+### 5.2 High-Performance Thermoplastics
+
+#### 5.2.1 Polyetheretherketone (PEEK)
+
+- **Description:** High-performance engineering thermoplastic known for excellent mechanical properties and chemical resistance.
+- **Benefits:**
+  - **Temperature Resistance:** Stable up to 480°F (250°C), suitable for high-heat ECS components.
+  - **Chemical Resistance:** Resistant to harsh chemicals and refrigerants.
+  - **Mechanical Strength:** High tensile and impact strength ensure durability.
+  - **Lightweight:** Reduces overall weight compared to metal counterparts.
+- **Applications:**
+  - **Sensor Housings:** Protects sensitive sensors from extreme temperatures and chemicals.
+  - **Control Valves:** Improves response times and reduces weight.
+  - **Gaskets and Seals:** Ensures airtight and watertight connections.
+- **Implementation Considerations:**
+  - **Cost:** Significantly more expensive than standard plastics and metals.
+  - **Processing:** Requires high-temperature processing equipment.
+  - **Compatibility:** Ensure compatibility with existing ECS components and refrigerants.
+
+#### 5.2.2 Ultem (Polyetherimide - PEI)
+
+- **Description:** High-temperature, high-strength thermoplastic known for excellent dimensional stability and flame retardancy.
+- **Benefits:**
+  - **High Thermal Stability:** Maintains structural integrity at elevated temperatures.
+  - **Flame Retardant:** Meets strict aerospace safety standards.
+  - **Dimensional Stability:** Minimizes warping and deformation under stress.
+  - **Electrical Insulation:** Ideal for components requiring electrical isolation.
+- **Applications:**
+  - **Electrical Connectors:** Insulating electrical connectors within the ECS system.
+  - **Mounting Brackets:** Durable and stable brackets.
+  - **Cable Management Systems:** Organized and safe routing of electrical cables.
+- **Implementation Considerations:**
+  - **Cost:** Higher material costs compared to standard plastics.
+  - **Processing:** Requires precise molding techniques.
+  - **Mechanical Properties:** Design must account for specific strength and flexibility characteristics.
+
+### 5.3 Nanomaterials
+
+#### 5.3.1 Graphene-Enhanced Composites
+
+- **Description:** Incorporates graphene’s exceptional mechanical, thermal, and electrical properties into composite materials.
+- **Benefits:**
+  - **Exceptional Strength:** Significantly increases tensile strength.
+  - **Thermal Conductivity:** Enhances heat dissipation.
+  - **Electrical Conductivity:** Improves electrical performance.
+  - **Lightweight:** Maintains low weight while boosting properties.
+- **Applications:**
+  - **Heat Exchangers:** Superior thermal management capabilities.
+  - **Sensor Components:** Improved electrical conductivity benefits sensor accuracy.
+  - **Protective Casings:** Enhanced strength and durability.
+- **Implementation Considerations:**
+  - **Cost:** Expensive and may require bulk purchasing for cost-effectiveness.
+  - **Manufacturing:** Requires specialized techniques for uniform graphene dispersion.
+  - **Scalability:** Limited large-scale production capabilities.
+
+#### 5.3.2 Carbon Nanotube (CNT) Reinforced Materials
+
+- **Description:** Cylindrical nanostructures embedded within polymers or metals, offering exceptional mechanical, electrical, and thermal properties.
+- **Benefits:**
+  - **Mechanical Strength:** Unparalleled strength, improving component durability.
+  - **Electrical Conductivity:** Enhances performance of electrically active components.
+  - **Thermal Conductivity:** Facilitates efficient heat transfer.
+  - **Flexibility:** Maintains material flexibility without compromising strength.
+- **Applications:**
+  - **Actuators:** Improved responsiveness and reliability.
+  - **Electronic Components:** Enhanced conductivity for control modules and sensors.
+  - **Structural Components:** Lightweight yet strong mounts and supports.
+- **Implementation Considerations:**
+  - **Cost:** High production and material integration costs.
+  - **Manufacturing Complexity:** Precise control over CNT dispersion and alignment.
+  - **Health and Safety:** Ensure safe handling protocols.
+
+### 5.4 Sustainable and Eco-Friendly Materials
+
+#### 5.4.1 Bio-Based Polymers
+
+- **Description:** Derived from renewable biological sources, offering a sustainable alternative to petroleum-based plastics.
+- **Benefits:**
+  - **Sustainability:** Reduces reliance on fossil fuels and lowers carbon footprint.
+  - **Biodegradability:** Some bio-polymers are biodegradable.
+  - **Versatility:** Can be engineered for various mechanical and thermal properties.
+- **Applications:**
+  - **Gaskets and Seals:** Sustainable options for airtight seals.
+  - **Non-Structural Components:** Lightweight and sustainable materials for interior ECS components.
+  - **Packaging:** Eco-friendly packaging solutions.
+- **Implementation Considerations:**
+  - **Mechanical Properties:** Must meet strength and durability standards.
+  - **Thermal Stability:** Limited temperature resistance.
+  - **Cost and Availability:** More expensive and less widely available.
+
+#### 5.4.2 Recycled Aluminum Alloys
+
+- **Description:** Produced from scrap aluminum, offering the same performance as virgin aluminum while reducing environmental impact.
+- **Benefits:**
+  - **Environmental Impact:** Lower energy consumption and reduced emissions.
+  - **Cost-Effective:** Often cheaper than virgin aluminum.
+  - **High Performance:** Maintains mechanical properties and corrosion resistance.
+- **Applications:**
+  - **Structural Supports:** Sustainable and cost-effective mounting brackets.
+  - **Ductwork:** Lightweight and durable recycled aluminum ducts.
+  - **Heat Exchangers:** Eco-friendly alternatives for condenser and evaporator components.
+- **Implementation Considerations:**
+  - **Quality Assurance:** Must meet strict quality standards.
+  - **Supplier Reliability:** Partner with reputable suppliers.
+  - **Material Consistency:** Ensure consistent alloy composition.
+
+### 5.5 High-Temperature Resistant Materials
+
+#### 5.5.1 Titanium Alloys
+
+- **Description:** Renowned for high strength, lightweight, and excellent corrosion resistance, especially at elevated temperatures.
+- **Benefits:**
+  - **High Strength-to-Weight Ratio:** Reduces component weight without compromising strength.
+  - **Temperature Resistance:** Maintains properties at high temperatures.
+  - **Corrosion Resistance:** Superior resistance to refrigerants and environmental factors.
+- **Applications:**
+  - **Compressor Components:** Withstand high-pressure refrigerant flows.
+  - **Heat Exchangers:** Enhanced thermal performance and durability.
+  - **Structural Supports:** Lightweight and strong supports in high-temperature areas.
+- **Implementation Considerations:**
+  - **Cost:** Significantly more expensive than aluminum or steel.
+  - **Machinability:** Requires specialized machining techniques.
+  - **Availability:** Limited suppliers and longer lead times.
+
+#### 5.5.2 Ceramic Matrix Composites (CMC)
+
+- **Description:** Composed of ceramic fibers within a ceramic matrix, offering exceptional thermal resistance and mechanical strength.
+- **Benefits:**
+  - **Extreme Temperature Resistance:** Suitable for high thermal loads.
+  - **High Wear Resistance:** Durable against abrasive environments.
+  - **Lightweight:** Lower density compared to metal alloys.
+- **Applications:**
+  - **High-Temperature Actuators:** Components operating under extreme conditions.
+  - **Thermal Barriers:** Protective coatings or barriers for heat management.
+  - **Advanced Sensor Housings:** Durable housings for high-temperature sensors.
+- **Implementation Considerations:**
+  - **Cost:** Among the most expensive materials.
+  - **Manufacturing Complexity:** Specialized fabrication processes.
+  - **Brittleness:** Design must account for potential fracture risks.
+
+### 5.6 Smart Materials
+
+#### 5.6.1 Shape Memory Alloys (SMA)
+
+- **Description:** Materials that return to their original shape after deformation when exposed to specific stimuli, such as temperature changes.
+- **Benefits:**
+  - **Adaptive Functionality:** Components adjust shape dynamically.
+  - **Energy Efficiency:** Reduces need for additional actuators.
+  - **Durability:** High fatigue resistance ensures long-term performance.
+- **Applications:**
+  - **Adaptive Vents:** Automatically adjust airflow based on cabin conditions.
+  - **Sealing Mechanisms:** Expand or contract seals to maintain airtight connections.
+  - **Mounting Systems:** Shape-shifting mounts absorb vibrations and stress.
+- **Implementation Considerations:**
+  - **Temperature Sensitivity:** Precise temperature control required.
+  - **Fatigue Life:** Repeated cycling can degrade performance.
+  - **Cost:** Higher material and processing costs.
+
+#### 5.6.2 Electroactive Polymers (EAP)
+
+- **Description:** Polymers that change shape or size in response to electrical stimulation, offering versatile applications.
+- **Benefits:**
+  - **Flexibility:** Can be molded into complex shapes.
+  - **Lightweight:** Significantly lighter than traditional mechanical components.
+  - **Energy Efficiency:** Minimal power required for actuation.
+- **Applications:**
+  - **Variable Airflow Control:** Modulate airflow paths dynamically.
+  - **Sealing Systems:** Responsive seals maintaining airtightness.
+  - **Sensor Integration:** Embedded EAPs enhance sensor responsiveness.
+- **Implementation Considerations:**
+  - **Durability:** Limited lifespan under continuous operation.
+  - **Power Requirements:** Reliable power sources needed.
+  - **Integration Complexity:** Seamless integration with existing control systems.
+
+### 5.7 High-Conductivity Materials
+
+#### 5.7.1 Silver-Plated Copper
+
+- **Description:** Combines excellent electrical conductivity of copper with superior corrosion resistance of silver.
+- **Benefits:**
+  - **Superior Conductivity:** Efficient data transmission and power distribution.
+  - **Corrosion Resistance:** Prevents degradation in harsh environments.
+  - **Flexibility:** Suitable for complex routing in wiring systems.
+- **Applications:**
+  - **Data Cables and Connectors:** High-performance wiring for sensors and controllers.
+  - **Electronic Components:** Reliable connections in control interfaces.
+  - **Power Distribution Systems:** Efficient power routing within ECS network.
+- **Implementation Considerations:**
+  - **Cost:** Silver plating increases material costs.
+  - **Handling:** Requires careful handling to prevent scratching or tarnishing.
+  - **Availability:** Ensure steady supply from reputable suppliers.
+
+#### 5.7.2 Graphene Conductive Films
+
+- **Description:** Utilize graphene’s exceptional electrical conductivity and mechanical strength to create ultra-thin, flexible conductive layers.
+- **Benefits:**
+  - **High Conductivity:** Rapid data transmission and efficient power distribution.
+  - **Flexibility:** Suitable for flexible and compact electronic components.
+  - **Lightweight:** Minimal weight addition.
+- **Applications:**
+  - **Flexible Sensors:** Enhanced performance and durability.
+  - **Wearable Interfaces:** Seamless integration with crew dashboards.
+  - **Compact Electronics:** Enables miniaturization of control modules.
+- **Implementation Considerations:**
+  - **Manufacturing Process:** Specialized deposition techniques needed.
+  - **Cost:** Expensive and may require bulk purchasing.
+  - **Durability:** Protect films against mechanical abrasion and environmental exposure.
+
+### 5.8 Thermal Management Materials
+
+#### 5.8.1 Phase Change Materials (PCM)
+
+- **Description:** Absorb and release thermal energy during the transition between solid and liquid states, aiding in temperature regulation.
+- **Benefits:**
+  - **Thermal Regulation:** Stabilizes temperatures within the ECS system.
+  - **Energy Efficiency:** Reduces load on cooling systems.
+  - **Compact Integration:** Easily integrated into various ECS components.
+- **Applications:**
+  - **Heat Exchangers:** Enhanced thermal capacity and efficiency.
+  - **Sensor Housings:** Maintains stable operating temperatures.
+  - **Actuator Components:** Protects from temperature fluctuations.
+- **Implementation Considerations:**
+  - **Material Selection:** Appropriate melting points required.
+  - **Encapsulation:** Prevents leakage during liquid phase.
+  - **Longevity:** Maintain phase change properties over numerous cycles.
+
+#### 5.8.2 Aerogels
+
+- **Description:** Ultra-lightweight, highly porous materials with exceptional thermal insulation properties.
+- **Benefits:**
+  - **Superior Insulation:** Reduces thermal losses within airflow channels.
+  - **Lightweight:** Minimal weight addition.
+  - **Compactness:** Integrates into tight spaces without compromising performance.
+- **Applications:**
+  - **Insulated Ductwork:** Prevents condensation and thermal losses.
+  - **Component Casings:** Enhances thermal protection.
+  - **Cabin Zones:** Provides localized insulation.
+- **Implementation Considerations:**
+  - **Fragility:** Requires protective casing to prevent damage.
+  - **Cost:** Higher than traditional insulation materials.
+  - **Integration Methods:** Specialized techniques needed for integration.
+
+### 5.9 Environmentally Responsive Materials
+
+#### 5.9.1 Thermochromic Polymers
+
+- **Description:** Change color in response to temperature variations, providing visual indicators of temperature changes within the ECS system.
+- **Benefits:**
+  - **Visual Monitoring:** Easy, real-time visual assessment.
+  - **Passive Indicators:** Reduces reliance on electronic sensors.
+  - **User-Friendly:** Immediate visual alerts for temperature anomalies.
+- **Applications:**
+  - **Sensor Indicators:** Color-changing polymers integrated with sensors.
+  - **Component Labels:** Indicate operational temperature status.
+  - **Safety Features:** Highlight areas requiring attention.
+- **Implementation Considerations:**
+  - **Durability:** Maintain thermochromic properties over time.
+  - **Color Range:** Distinct and easily distinguishable changes.
+  - **Integration:** Seamless with existing components.
+
+#### 5.9.2 Shape Memory Polymers (SMP)
+
+- **Description:** Return to original shape after deformation when exposed to specific stimuli, such as temperature changes.
+- **Benefits:**
+  - **Adaptive Shape Functionality:** Adjusts shape dynamically.
+  - **Self-Healing:** Recovers from minor deformations.
+  - **Lightweight:** Minimal weight addition.
+- **Applications:**
+  - **Adaptive Vents:** Change shape to regulate airflow.
+  - **Sealants:** Expand or contract seals as needed.
+  - **Flexible Mounts:** Absorb vibrations and stresses.
+- **Implementation Considerations:**
+  - **Activation Conditions:** Precise triggers required.
+  - **Durability:** Multiple shape changes without degradation.
+  - **Compatibility:** Must not interfere with system operations.
+
+### 5.10 Biodegradable and Recyclable Materials
+
+#### 5.10.1 Biodegradable Polymers
+
+- **Description:** Break down naturally through biological processes, offering sustainable options for ECS components.
+- **Benefits:**
+  - **Environmental Sustainability:** Minimizes waste.
+  - **Regulatory Compliance:** Aligns with sustainability regulations.
+  - **Lightweight and Flexible:** Suitable for various applications.
+- **Applications:**
+  - **Gaskets and Seals:** Sustainable alternatives for temporary seals.
+  - **Disposable Components:** Filters and seals requiring frequent replacement.
+  - **Packaging:** Eco-friendly packaging solutions.
+- **Implementation Considerations:**
+  - **Mechanical Properties:** Must meet strength and durability standards.
+  - **Degradation Rate:** Match component lifecycle requirements.
+  - **Cost and Availability:** Higher costs and limited availability.
+
+#### 5.10.2 Recyclable Metals
+
+- **Description:** Recyclable metals like certain grades of stainless steel and aluminum can be reprocessed without significant loss of properties.
+- **Benefits:**
+  - **Sustainability:** Promotes circular economy through reuse.
+  - **Cost Efficiency:** Reduces material costs via recycling.
+  - **High Performance:** Maintains mechanical and thermal properties.
+- **Applications:**
+  - **Heat Exchangers:** Recyclable stainless steel for durability.
+  - **Structural Components:** Reusable metal frameworks and supports.
+  - **Connector Systems:** Recyclable metals for reliable connections.
+- **Implementation Considerations:**
+  - **Material Separation:** Easy disassembly for recycling.
+  - **Supplier Collaboration:** Partner with suppliers prioritizing recyclable materials.
+  - **Lifecycle Management:** Track and manage recyclable components effectively.
+
+---
+
+## 6. ESG Key Performance Indicators (KPIs)
+
+Incorporating Environmental, Social, and Governance (ESG) principles into the ECS system ensures sustainable, responsible, and ethical operations. This section defines specific ESG KPIs to monitor and measure the system's performance across these three dimensions.
+
+### 6.1 ESG Framework Overview
+
+#### 6.1.1 Environmental KPIs
+
+Focus on reducing the ecological footprint, enhancing energy efficiency, and promoting sustainable practices within the ECS system.
+
+#### 6.1.2 Social KPIs
+
+Emphasize the well-being of passengers, crew, and maintenance personnel, ensuring safety, comfort, and equitable practices.
+
+#### 6.1.3 Governance KPIs
+
+Ensure compliance with regulations, ethical operations, and robust management practices to maintain transparency and accountability.
+
+### 6.2 Detailed ESG KPIs
+
+#### 6.2.1 Environmental KPIs
+
+**Carbon Footprint Reduction**
+- **Metric:** Total CO₂ Emissions (kg CO₂e per flight hour)
+- **Target:** Reduce by 20% within 5 years
+- **Measurement Method:** Lifecycle Assessment (LCA), Real-Time Monitoring
+- **Reporting Frequency:** Annually and per flight hour
+
+**Energy Efficiency**
+- **Metric:** Energy Consumption per Flight Hour (kWh/hour)
+- **Target:** 15% improvement within 3 years
+- **Measurement Method:** HPC Data Logging, Digital Twin Simulations
+- **Reporting Frequency:** Monthly and annually
+
+**Eco-Friendly Refrigerants**
+- **Metric:** Percentage of ECS Using Low-GWP/ODP Refrigerants (%)
+- **Target:** 100% adoption by end of year 2
+- **Measurement Method:** Inventory Tracking, Compliance Audits
+- **Reporting Frequency:** Quarterly
+
+**Waste Management and Recycling**
+- **Metric:** Percentage of ECS Components Recycled (%)
+- **Target:** 75% within 5 years
+- **Measurement Method:** Waste Audits, Supplier Collaboration
+- **Reporting Frequency:** Annually
+
+#### 6.2.2 Social KPIs
+
+**Passenger Comfort and Satisfaction**
+- **Metric:** Passenger Satisfaction Score (Scale 1-10)
+- **Target:** Average score of 9 or above
+- **Measurement Method:** Surveys and Feedback, Real-Time Monitoring
+- **Reporting Frequency:** After each flight and quarterly
+
+**Crew and Maintenance Personnel Safety**
+- **Metric:** Number of Safety Incidents Related to ECS
+- **Target:** Zero annually
+- **Measurement Method:** Incident Reporting Systems, Regular Safety Audits
+- **Reporting Frequency:** Monthly and annually
+
+**Employee Training and Development**
+- **Metric:** Percentage of Maintenance Staff Trained (%)
+- **Target:** 100% trained within 6 months of deployment
+- **Measurement Method:** Training Records, Skill Assessments
+- **Reporting Frequency:** Post-training and annually
+
+**Diversity and Inclusion**
+- **Metric:** Diversity Index (percentage of diverse hires in maintenance and technical teams)
+- **Target:** 40% within 3 years
+- **Measurement Method:** HR Data Analysis, Inclusive Policies
+- **Reporting Frequency:** Annually
+
+#### 6.2.3 Governance KPIs
+
+**Regulatory Compliance**
+- **Metric:** Number of Regulatory Non-Compliance Incidents
+- **Target:** Zero annually
+- **Measurement Method:** Compliance Audits, Automated Compliance Checks
+- **Reporting Frequency:** Quarterly and annually
+
+**Transparency and Reporting**
+- **Metric:** Frequency and Completeness of ESG Reports
+- **Target:** Publish comprehensive ESG reports annually
+- **Measurement Method:** Reporting Frameworks, Stakeholder Feedback
+- **Reporting Frequency:** Annually
+
+**Ethical Operations**
+- **Metric:** Number of Ethical Breaches or Violations
+- **Target:** Zero annually
+- **Measurement Method:** Ethics Training, Whistleblower Programs
+- **Reporting Frequency:** Monthly and annually
+
+**Risk Management**
+- **Metric:** Risk Mitigation Effectiveness Score
+- **Target:** 90% or higher
+- **Measurement Method:** Risk Assessments, Incident Analysis
+- **Reporting Frequency:** Quarterly and post-incident
+
+### 6.3 ESG KPI Monitoring and Reporting
+
+**Data Collection and Integration**
+- **Approach:** Leverage the Digital Layers architecture, including AI/AGI algorithms, Blockchain, and Digital Twins, to seamlessly integrate ESG data collection into the ECS system.
+- **Tools and Technologies:**
+  - **AI/AGI Algorithms:** For predictive analysis and trend identification.
+  - **Blockchain:** For immutable recording of compliance and maintenance actions.
+  - **Digital Twins:** To simulate and assess ESG impacts under various scenarios.
+
+**Reporting Mechanisms**
+
+- **Internal Reporting:**
+  - **Dashboards:** Real-time ESG dashboards accessible to management and relevant teams.
+  - **Regular Reviews:** Monthly and quarterly ESG performance reviews to track progress against targets.
+  
+- **External Reporting:**
+  - **Annual ESG Reports:** Comprehensive reports detailing performance across all ESG KPIs, aligned with recognized reporting standards (e.g., GRI, SASB).
+  - **Stakeholder Communication:** Regular updates and presentations to stakeholders on ESG initiatives and outcomes.
+
+**Continuous Improvement**
+
+- **Feedback Loops:**
+  - **Stakeholder Feedback:** Incorporate feedback from passengers, crew, maintenance personnel, and external stakeholders to refine ESG strategies.
+  - **Performance Reviews:** Regularly assess KPI performance and adjust targets and strategies as needed to drive continuous improvement.
+  
+- **Innovation and Adaptation:**
+  - **Stay Informed:** Keep abreast of emerging ESG trends and technologies to enhance the ECS system's sustainability and responsibility.
+  - **Iterative Enhancements:** Implement iterative improvements based on data insights and stakeholder feedback to optimize ESG performance.
+
+### 6.4 Summary of ESG KPIs
+
+| **Category**    | **KPI**                             | **Metric**                              | **Target**                                 | **Measurement Method**                                      | **Reporting Frequency**       |
+|-----------------|-------------------------------------|-----------------------------------------|--------------------------------------------|-------------------------------------------------------------|-------------------------------|
+| **Environmental** | Carbon Footprint Reduction          | Total CO₂ Emissions (kg CO₂e per flight hour) | Reduce by 20% within 5 years                | Lifecycle Assessment, Real-Time Monitoring                  | Annually, per flight hour     |
+|                 | Energy Efficiency                    | Energy Consumption per Flight Hour (kWh/hour) | 15% improvement within 3 years             | HPC Data Logging, Digital Twin Simulations                   | Monthly, annually             |
+|                 | Use of Eco-Friendly Refrigerants     | Percentage of ECS Using Low-GWP/ODP Refrigerants (%) | 100% adoption by end of year 2             | Inventory Tracking, Compliance Audits                        | Quarterly                     |
+|                 | Waste Management and Recycling       | Percentage of ECS Components Recycled (%) | 75% within 5 years                          | Waste Audits, Supplier Collaboration                         | Annually                      |
+| **Social**      | Passenger Comfort and Satisfaction  | Passenger Satisfaction Score (Scale 1-10) | Average score of 9 or above                  | Surveys and Feedback, Real-Time Monitoring                    | After each flight, quarterly  |
+|                 | Crew and Maintenance Personnel Safety | Number of Safety Incidents Related to ECS | Zero annually                                | Incident Reporting Systems, Regular Safety Audits             | Monthly, annually             |
+|                 | Employee Training and Development    | Percentage of Maintenance Staff Trained (%) | 100% trained within 6 months of deployment   | Training Records, Skill Assessments                           | Post-training, annually       |
+|                 | Diversity and Inclusion               | Diversity Index (percentage of diverse hires in maintenance and technical teams) | 40% within 3 years                           | HR Data Analysis, Inclusive Policies                           | Annually                      |
+| **Governance**  | Regulatory Compliance                | Number of Regulatory Non-Compliance Incidents | Zero annually                                | Compliance Audits, Automated Compliance Checks                 | Quarterly, annually           |
+|                 | Transparency and Reporting           | Frequency and Completeness of ESG Reports | Publish comprehensive ESG reports annually    | Reporting Frameworks, Stakeholder Feedback                     | Annually                      |
+|                 | Ethical Operations                   | Number of Ethical Breaches or Violations | Zero annually                                | Ethics Training, Whistleblower Programs                        | Monthly, annually             |
+|                 | Risk Management                      | Risk Mitigation Effectiveness Score    | 90% or higher                                | Risk Assessments, Incident Analysis                            | Quarterly, post-incident      |
+
+---
+
+## 7. New Technologies List
+
+This section highlights cutting-edge technologies that can be integrated into the ECS system to enhance performance, efficiency, sustainability, and operational excellence.
+
+### 7.1 Advanced Artificial Intelligence (AI) and Machine Learning (ML) Algorithms
+
+- **Description:** AI and ML algorithms analyze real-time and historical data to optimize ECS performance, predict maintenance needs, and enhance system responsiveness.
+- **Benefits:**
+  - **Predictive Maintenance**
+  - **Optimized Performance**
+  - **Anomaly Detection**
+- **Applications:**
+  - **Real-Time Climate Control**
+  - **Maintenance Scheduling**
+
+### 7.2 High-Performance Computing (HPC) Clusters
+
+- **Description:** Provide computational power for complex simulations, data processing, and real-time analytics.
+- **Benefits:**
+  - **Enhanced Data Processing**
+  - **Simulation Capabilities**
+  - **Scalability**
+- **Applications:**
+  - **Digital Twin Simulations**
+  - **AI Model Training**
+
+### 7.3 Digital Twin Technology
+
+- **Description:** Virtual replicas of the ECS system for real-time monitoring, simulation, and predictive analysis.
+- **Benefits:**
+  - **System Optimization**
+  - **Enhanced Monitoring**
+  - **Reduced Downtime**
+- **Applications:**
+  - **Performance Monitoring**
+  - **What-If Scenarios**
+
+### 7.4 Blockchain Technology
+
+- **Description:** Secure, immutable ledger for recording maintenance actions, part replacements, and system updates.
+- **Benefits:**
+  - **Data Integrity**
+  - **Traceability**
+  - **Compliance**
+- **Applications:**
+  - **Maintenance Logs**
+  - **Smart Contracts**
+
+### 7.5 Internet of Things (IoT) Sensors
+
+- **Description:** Collect real-time data on various ECS parameters, enabling precise monitoring and control.
+- **Benefits:**
+  - **Real-Time Monitoring**
+  - **Enhanced Control**
+  - **Data-Driven Insights**
+- **Applications:**
+  - **Environmental Monitoring**
+  - **Occupancy Sensors**
+
+### 7.6 Shape Memory Alloys (SMA)
+
+- **Description:** Materials that return to their original shape after deformation when exposed to specific stimuli.
+- **Benefits:**
+  - **Adaptive Components**
+  - **Self-Healing**
+  - **Reduced Mechanical Complexity**
+- **Applications:**
+  - **Adaptive Vents**
+  - **Sealing Mechanisms**
+
+### 7.7 Quantum Computing Algorithms
+
+- **Description:** Offer superior optimization capabilities for complex ECS operations and energy distribution.
+- **Benefits:**
+  - **Enhanced Optimization**
+  - **Improved Energy Distribution**
+  - **Advanced Simulations**
+- **Applications:**
+  - **Energy Load Balancing**
+  - **System Configuration Optimization**
+
+### 7.8 Advanced Materials Integration
+
+- **Description:** Incorporate materials like CFRP, Al-Li alloys, and high-performance thermoplastics to enhance ECS performance and sustainability.
+- **Benefits:**
+  - **Weight Reduction**
+  - **Increased Durability**
+  - **Sustainability**
+- **Applications:**
+  - **Compressor Housings**
+  - **Sensor Casings**
+
+### 7.9 Augmented Reality (AR) and Virtual Reality (VR) for Maintenance
+
+- **Description:** Provide immersive training and maintenance assistance.
+- **Benefits:**
+  - **Enhanced Training**
+  - **Remote Assistance**
+  - **Efficient Troubleshooting**
+- **Applications:**
+  - **Training Programs**
+  - **Maintenance Assistance**
+
+### 7.10 Smart Contract Automation
+
+- **Description:** Automate contractual agreements and processes within the ECS system.
+- **Benefits:**
+  - **Automation**
+  - **Transparency**
+  - **Efficiency**
+- **Applications:**
+  - **Maintenance Scheduling**
+  - **Compliance Enforcement**
+
+### 7.11 Edge Computing Devices
+
+- **Description:** Bring data processing closer to ECS components, reducing latency and bandwidth usage.
+- **Benefits:**
+  - **Reduced Latency**
+  - **Bandwidth Efficiency**
+  - **Reliability**
+- **Applications:**
+  - **Real-Time Climate Adjustments**
+  - **Local Anomaly Detection**
+
+### 7.12 Advanced Filtration Systems with Nanomaterials
+
+- **Description:** Utilize nanomaterials to enhance air purification and filtration.
+- **Benefits:**
+  - **Superior Filtration Efficiency**
+  - **Increased Airflow**
+  - **Durability**
+- **Applications:**
+  - **Cabin Air Filters**
+  - **Sensor Protection**
+
+### 7.13 Renewable Energy Integration
+
+- **Description:** Incorporate renewable energy sources to supplement ECS power supply.
+- **Benefits:**
+  - **Reduced Carbon Footprint**
+  - **Energy Efficiency**
+  - **Cost Savings**
+- **Applications:**
+  - **Solar-Powered ECS Components**
+  - **Energy Recovery Systems**
+
+### 7.14 Autonomous Drones for ECS Inspection and Maintenance
+
+- **Description:** Deploy drones equipped with sensors and cameras for ECS inspections and maintenance.
+- **Benefits:**
+  - **Increased Efficiency**
+  - **Enhanced Safety**
+  - **Comprehensive Coverage**
+- **Applications:**
+  - **Routine Inspections**
+  - **Emergency Maintenance**
+
+### 7.15 5G Connectivity for Enhanced Communication
+
+- **Description:** Enable high-speed, low-latency communication between ECS components and external monitoring stations.
+- **Benefits:**
+  - **Real-Time Data Transmission**
+  - **Enhanced Monitoring**
+  - **Scalability**
+- **Applications:**
+  - **Real-Time Monitoring Systems**
+  - **Remote Diagnostics**
+
+### 7.16 Modular ECS Design with Plug-and-Play Components
+
+- **Description:** Adopt a modular design for easy replacement, upgrades, or reconfiguration of ECS components.
+- **Benefits:**
+  - **Flexibility**
+  - **Ease of Maintenance**
+  - **Scalability**
+- **Applications:**
+  - **Plug-and-Play Sensors**
+  - **Modular Air Cycle Machines**
+
+### 7.17 Biometric Sensors for Enhanced Safety and Comfort
+
+- **Description:** Monitor passenger and crew health indicators for personalized climate control and safety.
+- **Benefits:**
+  - **Personalized Comfort**
+  - **Enhanced Safety**
+  - **Data-Driven Insights**
+- **Applications:**
+  - **Health Monitoring**
+  - **Stress Detection**
+
+### 7.18 Smart Ventilation Systems with Dynamic Airflow Control
+
+- **Description:** Dynamically control airflow patterns based on real-time data.
+- **Benefits:**
+  - **Optimized Airflow**
+  - **Enhanced Air Quality**
+  - **Energy Savings**
+- **Applications:**
+  - **Dynamic Vent Placement**
+  - **Adaptive Filtration**
+
+### 7.19 Integrated Health and Safety Systems
+
+- **Description:** Combine ECS functionalities with health and safety systems.
+- **Benefits:**
+  - **Holistic Safety**
+  - **Integrated Response**
+  - **Enhanced Monitoring**
+- **Applications:**
+  - **Emergency Climate Control**
+  - **Health-Based Climate Adjustments**
+
+### 7.20 Energy Harvesting Technologies
+
+- **Description:** Capture and reuse ambient energy within the aircraft.
+- **Benefits:**
+  - **Energy Efficiency**
+  - **Sustainability**
+  - **Cost Savings**
+- **Applications:**
+  - **Vibration Energy Harvesters**
+  - **Thermal Energy Harvesters**
+
+---
+
+## 8. Impact on Geometry and Weight Distribution
+
+Optimizing the geometry and weight distribution of the ECS system is pivotal for enhancing aircraft performance, efficiency, and safety. This section explores how the implementation of new materials and technologies affects these aspects.
+
+### 8.1 Spatial Considerations and Geometry Impact
+
+**Component Placement and Layout Optimization**
+
+- **Advanced Materials and Compact Design:**
+  - **CFRP:** Allows for more flexible and compact component placement due to its high strength-to-weight ratio.
+  - **Al-Li Alloys:** Reduces the size and weight of components, enabling tighter integration within the aircraft.
+  
+- **Modular ECS Design:**
+  - **Plug-and-Play Components:** Simplifies installation and maintenance, allowing for more efficient use of space.
+  - **Scalability:** Easier to adapt the ECS system to different aircraft configurations or future upgrades.
+  
+- **Digital Twin and Simulation:**
+  - **Optimized Airflow Pathways:** Using Digital Twins to simulate airflow and thermal distribution helps in strategically placing ducts and vents for optimal performance.
+  - **Scenario Testing:** Virtual testing of various ECS layouts to identify the most space-efficient and effective designs.
+
+**Integration with Existing Aircraft Systems**
+
+- **Cabin and Avionics Interoperability:**
+  - **Data Sharing Interfaces:** Strategic placement of sensors and communication modules to ensure seamless data flow between the ECS and other aircraft systems.
+  - **Energy Sharing Modules:** Dedicated spaces for units that manage energy distribution between the ECS and the hybrid propulsion system.
+  
+- **Emergency Protocol Integration:**
+  - **Safety Systems:** Allocates space for fail-safe components and redundancy units to ensure the ECS can support emergency operations.
+
+### 8.2 Weight Distribution and Balance Optimization
+
+**Weight Reduction Strategies**
+
+- **Lightweight Materials:**
+  - **CFRP and Al-Li Alloys:** Significant weight reduction enhances fuel efficiency.
+  - **High-Performance Thermoplastics:** Further decreases system weight while maintaining structural integrity.
+  
+- **Energy Recovery and Efficiency:**
+  - **Energy Harvesting Technologies:** Lowers weight associated with power supply units by utilizing ambient energy sources.
+
+**Centralization and Distribution of Weight**
+
+- **Balanced Component Placement:**
+  - **Centralized ECS Modules:** Minimizes impact on the aircraft's overall weight distribution by centralizing heavier components.
+  - **Distributed Sensors and Actuators:** Prevents disproportionate weight shifts by distributing smaller, lighter components throughout the aircraft.
+  
+- **Redundancy and Backup Systems:**
+  - **Balanced Redundant Units:** Symmetrical placement of backup components to maintain balance during normal and emergency operations.
+
+**Impact on Center of Gravity (CG)**
+
+- **Maintaining Optimal CG:**
+  - **Weight Allocation:** Ensures CG remains within optimal range.
+  - **Dynamic Weight Shifting:** AI-driven adjustments maintain balance.
+  
+- **Balancing Fuel Efficiency and Weight:**
+  - **Fuel Consumption:** Reduced weight correlates with lower fuel usage.
+  - **Payload Capacity:** Weight savings allow increased payload capacity.
+
+### 8.3 Trade-Offs and Design Considerations
+
+**Cost vs. Weight Savings**
+
+- **Material Costs:** Advanced materials offer weight savings but come with higher costs.
+- **Manufacturing Complexity:** Specialized processes increase production time and costs.
+
+**Space Constraints vs. Component Efficiency**
+
+- **Compact Design Limitations:** Optimizing space may limit component size and capacity.
+- **Integration with Other Systems:** Requires precise engineering to prevent interference.
+
+**Redundancy vs. Weight and Space**
+
+- **Backup Systems:** Enhances reliability but adds weight and occupies space.
+- **Smart Redundancies:** AI-managed redundancies minimize physical footprint.
+
+### 8.4 Overall Impact on Aircraft Performance
+
+**Fuel Efficiency and Range**
+
+- **Weight Reduction:** Leads to lower fuel consumption and extended range.
+- **Optimized Aerodynamics:** Enhances fuel efficiency further.
+
+**Handling and Maneuverability**
+
+- **Balanced Weight Distribution:** Maintains stable flight dynamics.
+- **Responsive Maneuvering:** Enhances safety and maneuverability.
+
+**Structural Integrity and Durability**
+
+- **Material Strength:** Advanced materials provide superior strength and fatigue resistance.
+- **Corrosion Resistance:** Extends lifespan of ECS components.
+
+**Passenger Comfort and Safety**
+
+- **Optimized Cabin Environment:** Maintains stable temperature, humidity, and air quality.
+- **Safety Enhancements:** Ensures reliable pressurization and ventilation.
+
+### 8.5 Recommendations for Design Optimization
+
+**Utilize Lightweight and High-Strength Materials**
+
+- **Material Selection:** Prioritize CFRP, Al-Li alloys, and high-performance thermoplastics.
+- **Supplier Collaboration:** Partner with specialized suppliers to source and implement these advanced materials effectively.
+
+**Implement Modular and Flexible Design**
+
+- **Modularity:** Design ECS subsystems to be easily replaceable, upgradable, and reconfigurable.
+- **Flexible Integration:** Ensure the ECS design can accommodate varying aircraft configurations and future technological advancements.
+
+**Leverage Digital Twin and AI for Spatial Optimization**
+
+- **Digital Twin Utilization:** Use digital twin models to simulate and optimize component placements for the best airflow and thermal distribution.
+- **AI-Driven Optimization:** Implement AI algorithms to manage weight distribution dynamically and optimize system performance in real-time.
+
+**Balance Redundancy with Weight and Space Efficiency**
+
+- **Smart Redundancies:** Utilize AI to activate backup components only when necessary, minimizing unnecessary weight and space usage.
+- **Selective Redundancy:** Focus redundancy on the most critical components to balance safety with efficiency.
+
+**Continuous Monitoring and Feedback Loops**
+
+- **Real-Time Monitoring:** Enable continuous adjustments and optimizations based on real-time data.
+- **Feedback Integration:** Refine placements and strategies based on data insights.
+
+---
+
+## 9. ATA 21 R.E.C.A.P. RATIONALE
+
+This section provides a detailed rationale for each component and subcomponent of the ECS system, aligning with the relevant ATA 21 codes. The R.E.C.A.P. (Redundancy, Efficiency, Compliance, Adaptability, and Performance) framework ensures comprehensive coverage of design choices, technological integrations, and compliance with industry standards.
+
+### 9.1 ATA 21-10: System Description & Major Innovations
+
+#### 9.1.1 Electrified Air Conditioning Unit
+
+**Hybrid Power Integration**
+- **Purpose:** To reduce carbon footprint and enhance fuel efficiency by integrating hybrid-electric power sources.
+- **Benefit:** Optimizes energy usage under varying flight conditions, reducing reliance on traditional fuel-powered engines.
+- **Implementation:** Integration of electric compressors, actuators, and fans with conventional systems, managed by AI for optimal power distribution.
+
+**Eco-Friendly Refrigerants**
+- **Purpose:** To minimize environmental impact by using refrigerants with low Global Warming Potential (GWP) and Ozone Depletion Potential (ODP).
+- **Benefit:** Aligns with global environmental regulations and sustainability goals.
+- **Implementation:** Adoption of refrigerants like R-1234yf, along with systems designed for their specific properties.
+
+**Automatic Adjustments**
+- **Purpose:** To maintain optimal cabin conditions through AI-driven climate control.
+- **Benefit:** Enhances passenger comfort and system efficiency by dynamically adjusting to real-time data.
+- **Implementation:** Deployment of AI and machine learning algorithms that analyze sensor data to adjust temperature, humidity, and airflow automatically.
+
+#### 9.1.2 Pressurization System
+
+**Automatic Pressure Controls**
+- **Purpose:** To maintain stable and safe cabin pressure throughout all phases of flight.
+- **Benefit:** Ensures passenger and crew safety and comfort by automatically adjusting to changes in altitude.
+- **Implementation:** Automated valves, pressure sensors, and control modules that work together to regulate cabin pressurization dynamically.
+
+**Redundancy**
+- **Purpose:** To ensure continuous pressurization even in the event of component failures.
+- **Benefit:** Enhances system reliability and safety by providing backup mechanisms.
+- **Implementation:** Installation of redundant outflow valves, safety valves, and pressure sensors, managed by fail-safe logic within the ECU.
+
+**Hybrid Power Integration**
+- **Purpose:** To optimize energy distribution between the propulsion system and the ECS.
+- **Benefit:** Balances power loads, improving overall aircraft efficiency and reducing fuel consumption.
+- **Implementation:** Smart power management systems that allocate energy dynamically based on real-time demand and operational conditions.
+
+#### 9.1.3 Advanced Sensors & IoT
+
+**Real-Time Monitoring**
+- **Purpose:** To continuously track and analyze ECS parameters and cabin conditions.
+- **Benefit:** Provides comprehensive data for responsive system adjustments, ensuring optimal performance and passenger comfort.
+- **Implementation:** Deployment of high-precision IoT sensors throughout the cabin and ECS components, integrated with the Digital Twin for real-time data analysis.
+
+**Instant Data Transmission**
+- **Purpose:** To enable immediate data access for HPC and Digital Twin analysis.
+- **Benefit:** Facilitates rapid analysis and response to changing conditions, enhancing system efficiency and safety.
+- **Implementation:** Secure, high-speed data communication protocols that ensure seamless data flow between sensors, the ECU, and central processing units.
+
+**Rapid Response**
+- **Purpose:** To adjust ECS parameters promptly upon detecting anomalies or deviations from optimal conditions.
+- **Benefit:** Maintains cabin comfort, system efficiency, and safety by addressing issues proactively.
+- **Implementation:** Intelligent triggers within AI-driven control loops that automatically adjust actuators, valves, and other components based on real-time data.
+
+#### 9.1.4 FTCode Tagging for Sub-Assemblies
+
+**Unique Component IDs**
+- **Purpose:** To ensure traceability and accountability for each ECS sub-assembly.
+- **Benefit:** Simplifies maintenance, audits, and compliance tracking by providing a unique identifier for every component.
+- **Implementation:** Assigning distinct FTCode labels to all ECS sub-assemblies, linked to a centralized database for detailed information.
+
+**Maintenance History**
+- **Purpose:** To maintain comprehensive records of all maintenance actions performed on each component.
+- **Benefit:** Enhances accountability, ensures adherence to maintenance schedules, and facilitates troubleshooting.
+- **Implementation:** Recording all repairs, replacements, calibrations, and inspections against the corresponding FTCode in a digital log.
+
+**Blockchain Logging**
+- **Purpose:** To secure and validate maintenance records, ensuring data integrity and transparency.
+- **Benefit:** Prevents tampering and provides an immutable history of all maintenance activities.
+- **Implementation:** Utilizing a permissioned blockchain to store maintenance logs, accessible to authorized personnel for verification and auditing.
+
+### 9.2 ATA 21-20: Maintenance Procedures
+
+#### 9.2.1 Preventive Maintenance
+
+**Scheduled Inspections**
+- **Purpose:** To perform regular checks on ECS components based on OEM guidelines and operational data.
+- **Benefit:** Detects potential issues early, preventing failures and extending component lifespan.
+- **Implementation:** Following a maintenance schedule that includes periodic inspections, with frequencies determined by manufacturer recommendations and AI-driven predictive insights.
+
+**Cleaning & Calibration**
+- **Purpose:** To maintain the performance and accuracy of ECS components.
+- **Benefit:** Ensures consistent functionality and reliability of sensors, valves, and other critical parts.
+- **Implementation:** Regular cleaning of filters, recalibration of sensors, and system checks as per the maintenance schedule.
+
+**Lubrication & Seals**
+- **Purpose:** To inspect and replace worn-out moving parts and seals to prevent leaks and maintain efficiency.
+- **Benefit:** Reduces friction, wear, and the risk of component failure.
+- **Implementation:** Incorporating lubrication schedules and seal inspections into the preventive maintenance plan, using specialized lubricants and high-quality seals.
+
+#### 9.2.2 Corrective Maintenance
+
+**Fault Diagnosis**
+- **Purpose:** To identify and localize ECS faults quickly and accurately using HPC and Digital Twin analysis.
+- **Benefit:** Enables swift troubleshooting and minimizes downtime by pinpointing the root cause of issues.
+- **Implementation:** Utilizing AI-powered diagnostic tools that analyze sensor data, system logs, and Digital Twin simulations to identify faults.
+
+**Repair & Replacement**
+- **Purpose:** To address identified faults by repairing or replacing affected components.
+- **Benefit:** Restores ECS functionality and ensures continued operation.
+- **Implementation:** Using FTCode-labeled parts for precise replacements, with repairs carried out by trained technicians following approved procedures.
+
+**Blockchain Logging**
+- **Purpose:** To record all repair and replacement actions on the blockchain for an immutable maintenance history.
+- **Benefit:** Ensures data integrity, transparency, and accountability.
+- **Implementation:** Technicians log each repair or replacement, including details of the action, parts used, and relevant FTCode, on the blockchain.
+
+#### 9.2.3 Predictive Maintenance
+
+**Trend Analysis**
+- **Purpose:** To forecast potential ECS failures by analyzing historical and real-time data.
+- **Benefit:** Allows for proactive maintenance interventions, preventing unexpected downtime.
+- **Implementation:** Using HPC-based analytics to identify patterns and trends indicative of wear, degradation, or impending failure.
+
+**Scheduled Downtime**
+- **Purpose:** To plan maintenance activities in advance, minimizing disruptions to flight schedules.
+- **Benefit:** Optimizes aircraft availability and reduces the impact of maintenance on operations.
+- **Implementation:** Integrating predictive maintenance insights into the overall maintenance scheduling system, allowing for planned downtime that aligns with operational needs.
+
+#### 9.2.4 Documentation and Recording
+
+**Digital Logs**
+- **Purpose:** To maintain detailed records of all maintenance actions, tied to specific FTCodes.
+- **Benefit:** Provides a comprehensive maintenance history for each component, facilitating audits and compliance checks.
+- **Implementation:** Utilizing digital maintenance management systems that log all actions against the relevant FTCode, including date, time, technician, and details of the work performed.
+
+**Blockchain Immutability**
+- **Purpose:** To ensure that maintenance records are tamper-proof and immutable.
+- **Benefit:** Enhances data integrity, trust, and compliance with regulatory requirements.
+- **Implementation:** Storing all maintenance logs on a permissioned blockchain, where they can be accessed and verified by authorized personnel but not altered.
+
+### 9.3 ATA 21-30: System Monitoring & Diagnostics
+
+#### 9.3.1 High-Precision IoT Sensors
+
+- **Purpose:** To measure fine variations in cabin environment parameters with high accuracy.
+- **Benefit:** Enhances the accuracy of environmental monitoring, enabling precise control and optimization of the ECS.
+- **Implementation:** Deploying high-precision IoT sensors throughout the cabin and within ECS components to measure temperature, humidity, pressure, air quality, and other relevant parameters.
+
+#### 9.3.2 Digital Twins & Real-Time Simulations
+
+- **Purpose:** To create a virtual replica of the ECS for continuous monitoring, predictive analysis, and performance optimization.
+- **Benefit:** Facilitates real-time performance evaluation, proactive maintenance, and scenario testing without affecting the physical system.
+- **Implementation:** Utilizing digital twin technology to simulate ECS behavior under various flight profiles and conditions, using real-time data from IoT sensors for accurate modeling.
+
+#### 9.3.3 Automated Diagnostics
+
+- **Purpose:** To leverage AI/ML algorithms for early issue identification and automated troubleshooting.
+- **Benefit:** Improves system reliability and reduces downtime by addressing issues before they escalate.
+- **Implementation:** Integrating AI/ML diagnostic tools that analyze sensor data, system logs, and historical trends to detect anomalies, predict failures, and suggest corrective actions.
+
+#### 9.3.4 HPC + Blockchain Integration
+
+- **Purpose:** To combine high-speed data analysis with secure, immutable record-keeping.
+- **Benefit:** Enhances the efficiency, security, and transparency of monitoring and maintenance processes.
+- **Implementation:** Using HPC clusters for rapid processing of large datasets from sensors and the Digital Twin, while storing diagnostic results and maintenance records on the blockchain.
+
+### 9.4 ATA 21-40: Fault Tolerance & Redundancy
+
+#### 9.4.1 Redundant Components
+
+- **Purpose:** To provide backup systems and components that can take over in case of primary system failures.
+- **Benefit:** Enhances the reliability and safety of the ECS by ensuring continued operation even when individual components fail.
+- **Implementation:** Installing redundant air conditioning modules, pressurization valves, sensors, and other critical components, with automatic switchover mechanisms.
+
+#### 9.4.2 Resilience Algorithms
+
+- **Purpose:** To utilize AI-driven load balancing and self-healing protocols for maintaining system stability and efficiency.
+- **Benefit:** Enables the ECS to adapt to changing conditions and recover from minor issues without manual intervention.
+- **Implementation:** Deploying AI algorithms that distribute workloads across redundant components, monitor system health, and automatically correct minor issues or isolate faulty components.
+
+#### 9.4.3 Ongoing Resilience Testing
+
+- **Purpose:** To continuously evaluate and improve the ECS system's resilience through simulated failures and stress tests.
+- **Benefit:** Ensures that redundancy measures remain effective and that the system can handle unexpected events.
+- **Implementation:** Conducting periodic fault injection simulations using the Digital Twin, analyzing system responses, and making necessary adjustments to improve resilience.
+
+---
+
+## 10. Conclusion
+
+Integrating advanced technologies, innovative materials, and comprehensive ESG principles into the ATA 21 – Air Conditioning and Pressurization (ECS) system of the GAIA AIR A360-XWLRGA program ensures the development of a state-of-the-art ECS that meets and exceeds modern aviation standards. This proactive approach enhances performance, sustainability, and operational efficiency, positioning GAIA AIR as a leader in sustainable and technologically advanced aviation solutions. The detailed R.E.C.A.P. rationale, along with a focus on new materials and technologies, ensures that the ECS system is robust, reliable, and ready for future challenges.
+
+---
+
+## 11. Appendices
+
+### 11.1 Glossary
+
+| **Term**        | **Definition**                                                                 |
+|-----------------|---------------------------------------------------------------------------------|
+| **AI/AGI**      | Artificial Intelligence/Artificial General Intelligence                           |
+| **IoT**         | Internet of Things                                                              |
+| **HPC**         | High-Performance Computing                                                      |
+| **Digital Twin**| A virtual replica of a physical system                                          |
+| **Blockchain**  | A secure, immutable ledger technology                                          |
+| **PQCrypto**    | Post-Quantum Cryptography                                                       |
+| **FTCode**      | A unique identifier for ECS components                                         |
+| **ATA 21**      | Air Conditioning and Pressurization system standards                            |
+| **EASA/FAA**    | European Union Aviation Safety Agency/Federal Aviation Administration          |
+| **CFRP**        | Carbon Fiber Reinforced Polymer                                                 |
+| **Al-Li**       | Aluminum-Lithium Alloy                                                          |
+| **PEEK**        | Polyetheretherketone                                                            |
+| **PEI**         | Polyetherimide (Ultem)                                                          |
+| **GWP**         | Global Warming Potential                                                        |
+| **ODP**         | Ozone Depletion Potential                                                       |
+| **ESG**         | Environmental, Social, and Governance                                           |
+| **KPI**         | Key Performance Indicator                                                       |
+| **LCA**         | Lifecycle Assessment                                                            |
+| **R.E.C.A.P.**   | Redundancy, Efficiency, Compliance, Adaptability, and Performance - a framework for evaluating and designing the ECS system |
+
+### 11.2 References
+
+- **ATA iSpec 2200:** Guidelines for the Aircraft Maintenance Task
+- **S1000D Issue 5.0:** International Specification for Technical Publications
+- **Hyperledger Fabric Documentation:** [https://hyperledger-fabric.readthedocs.io/](https://hyperledger-fabric.readthedocs.io/)
+- **NIST Post-Quantum Cryptography:** [https://csrc.nist.gov/projects/post-quantum-cryptography](https://csrc.nist.gov/projects/post-quantum-cryptography)
+- **Relevant Academic Research:** Papers on AI in NDT, HPC in aerospace, and sustainable aviation technologies.
+
+### 11.3 Product Breakdown Structure (PBS)
+
+*(Include detailed PBS tables and Mermaid diagrams as previously detailed in Sections 2 and 3.)*
+
+---
+
+# Final Recommendations
+
+To fully leverage the ECS system's design and integration, the following steps are recommended:
+
+1. **Incorporate Visual Aids:**
+   - Embed Mermaid charts and PBS tables directly into internal documentation platforms for enhanced clarity and accessibility.
+
+2. **Detail Implementation Steps:**
+   - Provide granular guidance for each phase of implementation, specifying tasks, responsibilities, and acceptance criteria.
+
+3. **Pilot Testing:**
+   - Validate system performance through controlled pilot deployments before full-scale rollout, using Digital Twins for initial testing.
+
+4. **Comprehensive Training:**
+   - Develop detailed training programs for MRO teams, focusing on new procedures, technologies, and the use of Digital Twins and AI diagnostic tools.
+
+5. **Continuous Feedback Loop:**
+   - Establish mechanisms to gather insights and feedback from operational data, simulations, and stakeholder input for iterative system improvements.
+
+6. **Scalability Plans:**
+   - Ensure infrastructure can accommodate fleet expansion and increasing data demands, with considerations for HPC and data storage scalability.
+
+7. **Cost-Benefit Analysis:**
+   - Integrate ROI projections and detailed cost-benefit analyses to strengthen the business case for ECS system investments.
+
+8. **Regulatory Engagement:**
+   - Maintain ongoing engagement with EASA/FAA and other regulatory bodies to ensure compliance and address any emerging requirements.
+
+9. **Sustainability Focus:**
+   - Continuously evaluate and integrate new sustainable materials, technologies, and practices to enhance the ECS system's environmental performance.
+
+10. **Collaboration and Partnerships:**
+    - Foster collaborations with technology providers, research institutions, and industry partners to stay at the forefront of innovation and best practices.
+
+By adhering to these recommendations, **GAIA AIR A360-XWLRGA** will effectively implement a highly reliable, efficient, and compliant ECS system that meets the highest aviation standards, ensuring passenger comfort and safety while driving sustainability and operational excellence.
+
+---
+
+*If you require further customization, additional sections, or more detailed specifications for any components, please feel free to ask!*
+
+```
 
 ## **ATA 24 – Electrical Power**  
 1. **24-10 – System Description (FTCode: GAIA-AIR-A360-M24-C10)**  
@@ -4281,171 +5818,7 @@ El capítulo Standard Practices (Airframe) (ATA 20) integra IA/AGI para NDT, mat
 Below is the ATA 21 (Air Conditioning) section, integrated into the GAIA DS framework. This section focuses on how IA/AGI is used for dynamic thermal balance, QAOA for airflow optimization, the implementation of green refrigerants, and the use of digital twins to simulate and manage thermal loads.
 
 ---
-A continuación se presenta una **Tabla Única de Product Breakdown Structure (PBS)** para el **Capítulo 21: Air Conditioning (ATA 21)** que integra tanto los subsistemas digitales (IA/AGI, QAOA, Blockchain, Gemelos Digitales) como los componentes físicos (conductos, válvulas, intercambiadores, sensores). Este desglose sigue la codificación ATA 100, asignando niveles jerárquicos (1-2-3-4) y códigos 21-XX-XX (componentes) y 21-XX-XX-XX (subcomponentes con referencia FIG opcional). Esta tabla ofrece una visión completa y coherente del sistema de aire acondicionado del A360XWLRGA, reflejando la complejidad tecnológica y el enfoque en la sostenibilidad, la eficiencia, el confort y el cumplimiento normativo.
 
----
-![Diagram]((https://www.mermaidchart.com/raw/67ec1d6a-b691-4325-bcb2-be2a16a9f038?theme=light&version=v0.1&format=svg))
-
-# Tabla Única de Product Breakdown Structure (PBS) - ATA 21 (Air Conditioning)
-
-A continuación se presenta una **Tabla Única de PBS** para el **Capítulo 21: Air Conditioning (ATA 21)**, junto con un **diagrama de flujo en Mermaid** que refleja su estructura jerárquica. Esta tabla integra subsistemas digitales (IA/AGI, QAOA, Blockchain, Gemelos Digitales) y físicos (conductos, válvulas, intercambiadores, sensores) siguiendo la codificación ATA 100. El objetivo es facilitar la trazabilidad, el mantenimiento, el cumplimiento normativo y la mejora continua del sistema de aire acondicionado del A360XWLRGA.
-
----
-
-¡Entendido! A continuación, presento una **Tabla Única de Product Breakdown Structure (PBS)** para el **Capítulo 21: Air Conditioning (ATA 21)**, siguiendo la estructura y codificación **ATA 100**. Además, incluyo un **diagrama de flujo** en **Mermaid** que refleja esta estructura jerárquica.
-
-### 📄 **Tabla Única de Product Breakdown Structure (PBS) para el Capítulo 21 - Air Conditioning (ATA 21)**
-
-| **Nivel** | **Código ATA** | **Componente/Subcomponente**                    | **Descripción**                                                                                                                                                                      |
-|-----------|----------------|--------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **1**     | 21             | **Sistema de Aire Acondicionado**                | Sistema completo de aire acondicionado del A360XWLRGA, integrando IA/AGI, QAOA, Gemelos Digitales, Blockchain, refrigerantes verdes, economía circular y controles ambientales.       |
-| **2**     | 21-1           | **Máquina de Ciclo de Aire (ACM)**               | Subsistema responsable del ciclo de refrigeración, incluyendo compresor, expansor e intercambiadores de calor.                                                                        |
-| **3**     | 21-1-1         | **Compresor**                                    | Eleva presión y temperatura del refrigerante. IA/AGI ajusta rendimiento en tiempo real.                                                                                              |
-| **4**     | 21-1-1-01      | **Unidad de Compresión IA/AGI**                  | Procesador IA/AGI optimiza parámetros del compresor (FIG01).                                                                                                                       |
-| **4**     | 21-1-1-02      | **Sensores de Presión Compresor**                | Monitorean presión para ajustes automáticos (FIG02).                                                                                                                              |
-| **3**     | 21-1-2         | **Expansor**                                     | Reduce la presión del refrigerante. QAOA mejora eficiencia energética.                                                                                                             |
-| **4**     | 21-1-2-01      | **Módulo Control Expansor QAOA**                 | Algoritmo QAOA optimiza expansión (FIG01).                                                                                                                                          |
-| **4**     | 21-1-2-02      | **Actuadores del Expansor**                      | Ajustan válvula de expansión según QAOA (FIG02).                                                                                                                                    |
-| **3**     | 21-1-3         | **Intercambiadores de Calor**                    | Transfieren calor entre refrigerante y aire cabina, permitiendo la refrigeración eficiente del ambiente interior.                                                                   |
-| **4**     | 21-1-3-01      | **Intercambiador Principal**                     | Maneja mayor flujo de refrigerante (FIG01).                                                                                                                                          |
-| **4**     | 21-1-3-02      | **Intercambiador Secundario**                    | Optimiza intercambio en condiciones extremas (FIG02).                                                                                                                                 |
-| **2**     | 21-2           | **Unidad de Control Ambiental (ECU)**            | Controla temperatura, humedad y condiciones cabina. IA/AGI, sensores y actuadores integrados.                                                                                     |
-| **3**     | 21-2-1         | **Paneles de Control**                           | Interfaces para ajustar y monitorear condiciones.                                                                                                                                   |
-| **4**     | 21-2-1-01      | **Interfaz Usuario IA/AGI**                      | Paneles con IA/AGI, ajustes automáticos (FIG01).                                                                                                                                    |
-| **4**     | 21-2-1-02      | **Pantallas Monitoreo Digital**                  | Displays con información en tiempo real (FIG02).                                                                                                                                      |
-| **3**     | 21-2-2         | **Sensores**                                     | Miden temperatura, humedad y ocupación.                                                                                                                                              |
-| **4**     | 21-2-2-01      | **Sensores de Temperatura**                      | Monitorean la temperatura en diferentes zonas de la cabina para ajustes precisos (FIG01).                                                                                            |
-| **4**     | 21-2-2-02      | **Sensores de Humedad**                          | Controlan niveles de humedad para asegurar un ambiente cómodo (FIG02).                                                                                                               |
-| **4**     | 21-2-2-03      | **Sensores de Ocupación**                        | Detectan presencia de pasajeros y tripulación para optimizar la distribución del aire acondicionado (FIG03).                                                                          |
-| **3**     | 21-2-3         | **Actuadores**                                   | Ejecutan las órdenes del ECU para regular el ambiente.                                                                                                                                 |
-| **4**     | 21-2-3-01      | **Actuadores de Válvula de Aire**                 | Ajustan válvulas según recomendaciones IA/QAOA (FIG01).                                                                                                                              |
-| **4**     | 21-2-3-02      | **Actuadores de Ventiladores**                    | Regulan velocidad y dirección ventiladores para distribuir el aire de manera eficiente (FIG02).                                                                                      |
-| **2**     | 21-3           | **Conductos y Tuberías**                          | Infraestructura que distribuye el aire acondicionado y el refrigerante a través de la cabina y el sistema de refrigeración.                                                           |
-| **3**     | 21-3-1         | **Conductos de Aire**                             | Distribuyen el aire acondicionado a diferentes áreas de la cabina.                                                                                                                   |
-| **4**     | 21-3-1-01      | **Conducto Principal**                            | Principal conducto que distribuye el aire a todas las zonas de la cabina (FIG01).                                                                                                    |
-| **4**     | 21-3-1-02      | **Conductos Secundarios**                         | Conductos adicionales para áreas específicas o zonas de confort (FIG02).                                                                                                            |
-| **3**     | 21-3-2         | **Líneas de Refrigerante**                        | Transportan el refrigerante entre los componentes del ACM.                                                                                                                           |
-| **4**     | 21-3-2-01      | **Línea de Entrada de Refrigerante**              | Línea que transporta el refrigerante desde el compresor al intercambiador de calor (FIG01).                                                                                           |
-| **4**     | 21-3-2-02      | **Línea de Salida de Refrigerante**               | Línea que devuelve el refrigerante al sistema después del intercambio de calor (FIG02).                                                                                                |
-| **2**     | 21-4           | **Ventiladores y Sopladores**                     | Dispositivos que mueven el aire acondicionado a través de los conductos y distribuyen el aire en áreas específicas de la cabina.                                                     |
-| **3**     | 21-4-1         | **Soplador Principal**                            | Mueve el aire acondicionado a través de los conductos principales (FIG01).                                                                                                           |
-| **4**     | 21-4-1-01      | **Motor del Soplador Principal**                   | Motor que impulsa el soplador principal (FIG01).                                                                                                                                       |
-| **4**     | 21-4-1-02      | **Válvula de Control del Soplador**                | Controla el flujo de aire movido por el soplador principal (FIG02).                                                                                                                  |
-| **3**     | 21-4-2         | **Ventiladores de Cabina**                        | Distribuyen el aire en áreas específicas de la cabina para asegurar un confort uniforme (FIG03).                                                                                     |
-| **4**     | 21-4-2-01      | **Ventilador de Zona 1**                           | Ventilador que distribuye aire en la zona delantera de la cabina (FIG01).                                                                                                              |
-| **4**     | 21-4-2-02      | **Ventilador de Zona 2**                           | Ventilador que distribuye aire en la zona trasera de la cabina (FIG02).                                                                                                                |
-| **2**     | 21-5           | **Filtros y Tamizadores**                         | Componentes que eliminan partículas y contaminantes del aire y refrigerante para asegurar la pureza y eficiencia del sistema.                                                       |
-| **3**     | 21-5-1         | **Filtros de Aire**                               | Eliminan partículas y contaminantes del aire entrante para mejorar la calidad del ambiente dentro de la cabina.                                                                    |
-| **4**     | 21-5-1-01      | **Filtro HEPA**                                   | Filtro de alta eficiencia que captura partículas finas y contaminantes del aire (FIG01).                                                                                              |
-| **4**     | 21-5-1-02      | **Filtro de Carbón Activado**                     | Filtro que elimina olores y compuestos orgánicos volátiles del aire acondicionado (FIG02).                                                                                           |
-| **3**     | 21-5-2         | **Filtros de Refrigerante**                       | Aseguran la pureza del refrigerante dentro del sistema.                                                                                                                               |
-| **4**     | 21-5-2-01      | **Filtro de Refrigerante Principal**             | Filtro que elimina impurezas y contaminantes del refrigerante para mantener la eficiencia del sistema (FIG03).                                                                        |
-| **4**     | 21-5-2-02      | **Filtro de Refrigerante Secundario**            | Filtro adicional para asegurar la pureza del refrigerante en condiciones operativas extremas (FIG04).                                                                                 |
-| **2**     | 21-6           | **Sistemas de Control**                          | Subsistema que gestiona y regula los parámetros ambientales, asegurando un ambiente confortable y eficiente para pasajeros y tripulación.                                               |
-| **3**     | 21-6-1         | **Controles de Temperatura**                     | Permiten ajustar la temperatura deseada en la cabina a través de interfaces de usuario y sistemas automatizados.                                                                         |
-| **4**     | 21-6-1-01      | **Termostato Digital IA/AGI**                     | Control digital integrado con IA/AGI para ajustes automáticos de temperatura basados en datos en tiempo real (FIG05).                                                                     |
-| **4**     | 21-6-1-02      | **Sensores de Temperatura Avanzados**             | Sensores de alta precisión que monitorean la temperatura en múltiples zonas de la cabina para ajustes finos (FIG06).                                                                    |
-| **3**     | 21-6-2         | **Controles de Humedad**                         | Regulan los niveles de humedad en la cabina para asegurar comodidad sin sequedad ni condensación (FIG07).                                                                                  |
-| **4**     | 21-6-2-01      | **Humidificador IA/AGI**                          | Dispositivo que ajusta la humedad en tiempo real basado en análisis de IA/AGI para mantener niveles óptimos (FIG08).                                                                         |
-| **4**     | 21-6-2-02      | **Deshumidificador Inteligente**                  | Sistema automatizado que elimina el exceso de humedad cuando es necesario, asegurando un ambiente confortable y saludable (FIG09).                                                          |
-| **2**     | 21-7           | **Integración de Tecnologías Avanzadas**          | Subsistema que incorpora tecnologías emergentes como IA/AGI, QAOA, Blockchain y Gemelos Digitales para optimizar el rendimiento y la sostenibilidad del sistema de aire acondicionado.      |
-| **3**     | 21-7-1         | **Módulo IA/AGI Integrado**                       | Integra inteligencia artificial y AGI para optimizar todas las operaciones del sistema de aire acondicionado, adaptándose dinámicamente a las condiciones cambiantes (FIG10).                   |
-| **4**     | 21-7-1-01      | **Procesador IA/AGI Central**                      | Unidad de procesamiento que ejecuta algoritmos avanzados para análisis y optimización en tiempo real (FIG11).                                                                                  |
-| **4**     | 21-7-1-02      | **Interfaz de Comunicación Blockchain**            | Facilita la trazabilidad y seguridad de los datos operativos mediante la integración con una red blockchain (FIG12).                                                                           |
-| **3**     | 21-7-2         | **Gemelo Digital del Sistema de Aire Acondicionado** | Replica virtual del sistema físico que permite simular cargas térmicas, validar estrategias y optimizar el rendimiento mediante simulaciones avanzadas (FIG13).                                      |
-| **4**     | 21-7-2-01      | **Servidor de Simulación Gemelo Digital**          | Servidor dedicado a ejecutar simulaciones y mantener la sincronización con el sistema físico real (FIG14).                                                                                        |
-| **4**     | 21-7-2-02      | **Interfaz de Usuario del Gemelo Digital**         | Plataforma para interactuar con el gemelo digital, visualizar datos y realizar ajustes de simulación (FIG15).                                                                                     |
-| **3**     | 21-7-3         | **Módulo de Optimización QAOA**                     | Utiliza QAOA para encontrar configuraciones óptimas en la distribución del aire y el refrigerante, mejorando la eficiencia energética y reduciendo desperdicios (FIG16).                              |
-| **4**     | 21-7-3-01      | **Algoritmo QAOA de Optimización**                   | Algoritmo específico que ejecuta QAOA para optimizar flujos de aire y refrigerante dentro del sistema (FIG17).                                                                                        |
-| **4**     | 21-7-3-02      | **Interfaz de Configuración QAOA**                  | Herramienta para ajustar parámetros y configurar el algoritmo QAOA según las necesidades operativas (FIG18).                                                                                       |
-| **2**     | 21-8           | **Sostenibilidad y Economía Circular**              | Subsistema enfocado en la implementación de prácticas sostenibles y economía circular dentro del sistema de aire acondicionado.                                                               |
-| **3**     | 21-8-1         | **Refrigerantes Verdes**                            | Uso de refrigerantes con bajo potencial de calentamiento global (GWP) y cero potencial de agotamiento de ozono (ODP) para minimizar el impacto ambiental (FIG19).                                       |
-| **4**     | 21-8-1-01      | **Selección de Refrigerantes Eco-Amigables**        | Evaluación y selección de refrigerantes sostenibles como HFO, CO₂ y amoníaco, asegurando su compatibilidad y seguridad dentro del sistema (FIG20).                                                    |
-| **4**     | 21-8-1-02      | **Monitoreo de Composición Química**                | Sensores y sistemas automatizados que monitorean la pureza del refrigerante y detectan contaminaciones o fugas para mantener la eficiencia operativa y la seguridad (FIG21).                              |
-| **3**     | 21-8-2         | **Economía Circular**                               | Implementación de prácticas de reutilización y reciclaje dentro del sistema de aire acondicionado para reducir residuos y costos operativos (FIG22).                                                 |
-| **4**     | 21-8-2-01      | **Filtros y Componentes Reutilizables**             | Diseño de filtros y componentes que pueden ser fácilmente desensamblados, recuperados y remanufacturados, reduciendo residuos y costos de reemplazo (FIG23).                                           |
-| **4**     | 21-8-2-02      | **Trazabilidad con Blockchain**                     | Registro inmutable del ciclo de vida de cada componente mediante blockchain, asegurando transparencia y cumplimiento normativo (FIG24).                                                              |
-| **4**     | 21-8-2-03      | **IA/AGI para Predicción de Ciclos de Vida y Reemplazo** | Algoritmos de IA/AGI que analizan patrones de desgaste y condiciones operativas para determinar momentos óptimos de mantenimiento o sustitución de componentes (FIG25).                                  |
-| **3**     | 21-8-3         | **Cumplimiento Regulatorio y Huella de Carbono Reducida** | Aseguramiento de que todas las operaciones y componentes cumplen con las normativas ambientales y de sostenibilidad vigentes (FIG26).                                                                   |
-| **4**     | 21-8-3-01      | **Alineación con EASA, FAA, ISO 14040**              | Procedimientos y monitoreo continuo para cumplir con normas ambientales internacionales y realizar análisis de ciclo de vida (LCA) (FIG27).                                                              |
-| **4**     | 21-8-3-02      | **Auditorías Externas Facilitadas (Blockchain)**     | Uso de blockchain para simplificar verificaciones y auditorías por autoridades y terceros interesados (FIG28).                                                                                |
-| **4**     | 21-8-3-03      | **Cálculo de Emisiones y Compensación**             | Integración de herramientas IA para estimar emisiones indirectas y proponer opciones de mitigación y compensación de carbono (FIG29).                                                                    |
-| **2**     | 21-9           | **Mantenimiento y Soporte Técnico**                | Subsistema que asegura el mantenimiento preventivo y correctivo del sistema de aire acondicionado, utilizando tecnologías avanzadas para optimizar la disponibilidad y el rendimiento (FIG30).    |
-| **3**     | 21-9-1         | **Mantenimiento Predictivo**                      | Utiliza gemelos digitales y algoritmos de IA para anticipar y planificar el mantenimiento necesario, reduciendo fallos inesperados y optimizando el rendimiento (FIG31).                            |
-| **4**     | 21-9-1-01      | **Monitor de Estado en Tiempo Real**              | Sistema que monitorea el estado de todos los componentes del aire acondicionado en tiempo real, proporcionando datos para el mantenimiento predictivo (FIG32).                                        |
-| **4**     | 21-9-1-02      | **Herramientas de Diagnóstico IA/AGI**            | Herramientas que analizan los datos recopilados para identificar posibles fallos y recomendar acciones correctivas (FIG33).                                                                         |
-| **3**     | 21-9-2         | **Soporte Técnico y Reparaciones**                | Equipo y recursos dedicados a realizar reparaciones y actualizaciones del sistema de aire acondicionado según sea necesario (FIG34).                                                                   |
-| **4**     | 21-9-2-01      | **Equipo de Reparación Especializado**            | Personal y herramientas especializadas para realizar reparaciones complejas en el sistema de aire acondicionado (FIG35).                                                                             |
-| **4**     | 21-9-2-02      | **Sistema de Gestión de Incidentes**              | Plataforma que gestiona y rastrea incidentes técnicos, asegurando una respuesta rápida y eficiente (FIG36).                                                                                          |
-| **2**     | 21-10          | **Sistema de Trazabilidad y Registro**           | Subsistema que utiliza tecnologías como Blockchain para registrar y rastrear todas las operaciones, mantenimientos y cambios en el sistema de aire acondicionado, asegurando transparencia y cumplimiento (FIG37). |
-| **3**     | 21-10-1        | **Ledger Blockchain**                             | Sistema de registro inmutable que almacena datos operativos, de mantenimiento y cambios en el sistema de aire acondicionado (FIG38).                                                              |
-| **4**     | 21-10-1-01     | **Nodo Principal de Blockchain**                  | Nodo central que gestiona las transacciones y mantiene la integridad del ledger blockchain (FIG39).                                                                                              |
-| **4**     | 21-10-1-02     | **Interfaz de Usuario Blockchain**                | Plataforma para que los operadores y auditores accedan y verifiquen los registros almacenados en el blockchain (FIG40).                                                                        |
-| **3**     | 21-10-2        | **Sistema de Gestión de Datos**                   | Subsistema que integra y gestiona todos los datos recopilados por los sensores, actuadores y otros componentes del sistema de aire acondicionado (FIG41).                                             |
-| **4**     | 21-10-2-01     | **Base de Datos Centralizada**                     | Almacena todos los datos operativos y de mantenimiento en una base de datos centralizada para facilitar el análisis y la toma de decisiones (FIG42).                                                |
-| **4**     | 21-10-2-02     | **Plataforma de Análisis de Datos IA**             | Herramienta que utiliza IA para analizar los datos recopilados y proporcionar insights para la optimización continua del sistema (FIG43).                                                             |
-
-  ```mermaid  
-%%{init: {'theme': 'base', 'themeVariables': {'background': '#000000', 'primaryColor': '#00FFFF', 'edgeLabelBackground': '#333', 'tertiaryColor': '#000000', 'fontSize': '16px', 'nodeTextColor': '#000000', 'lineColor': '#FF69B4'}}}%%
-flowchart LR
-  classDef link fill:#00FFFF, stroke:#333, stroke-width:2px, color:#000000;
-
-  A["21 Sistema de Aire Acondicionado"]:::link
-  A --> B["21-1 Maquina de Ciclo de Aire"]:::link
-  A --> L["21-2 Unidad de Control Ambiental"]:::link
-  A --> W["21-3 Conductos y Tuberias"]:::link
-  A --> AD["21-4 Ventiladores y Sopladores"]:::link
-  A --> AK["21-5 Filtros y Tamizadores"]:::link
-  A --> AR["21-6 Sistemas de Control"]:::link
-  A --> AY["21-7 Integracion de Tecnologias"]:::link
-  A --> BI["21-8 Sostenibilidad y Economia"]:::link
-  A --> BU["21-9 Mantenimiento y Soporte"]:::link
-  A --> CB["21-10 Trazabilidad y Registro"]:::link
-
-  B --> C["Compresor"]:::link & F["Expansor"]:::link & I["Intercambiadores"]:::link
-  C --> D["Compresion IA"]:::link & E["Sensores de Presion"]:::link
-  F --> G["Control Expansor QAOA"]:::link & H["Actuadores Expansor"]:::link
-  I --> J["Intercambiador Principal"]:::link & K["Intercambiador Secundario"]:::link
-
-  L --> M["Paneles de Control"]:::link & P["Sensores"]:::link & T["Actuadores"]:::link
-  M --> N["Interfaz Usuario"]:::link & O["Pantallas Digital"]:::link
-  P --> Q["Sensores de Temperatura"]:::link & R["Sensores de Humedad"]:::link & S["Sensores de Ocupacion"]:::link
-  T --> U["Actuadores de Valvula"]:::link & V["Actuadores de Ventiladores"]:::link
-
-  W --> X["Conductos de Aire"]:::link & AA["Lineas de Refrigerante"]:::link
-  X --> Y["Conducto Principal"]:::link & Z["Conductos Secundarios"]:::link
-  AA --> AB["Linea de Entrada"]:::link & AC["Linea de Salida"]:::link
-
-  AD --> AE["Soplador Principal"]:::link & AH["Ventiladores de Cabina"]:::link
-  AE --> AF["Motor Soplador"]:::link & AG["Valvula Soplador"]:::link
-  AH --> AI["Ventilador Zona 1"]:::link & AJ["Ventilador Zona 2"]:::link
-
-  AK --> AL["Filtros de Aire"]:::link & AO["Filtros Refrigerante"]:::link
-  AL --> AM["Filtro HEPA"]:::link & AN["Filtro Carbono"]:::link
-  AO --> AP["Filtro Refrigerante Principal"]:::link & AQ["Filtro Refrigerante Secundario"]:::link
-
-  AR --> AS["Control de Temperatura"]:::link & AV["Control de Humedad"]:::link
-  AS --> AT["Termostato"]:::link & AU["Sensores Avanzados"]:::link
-  AV --> AW["Humidificador"]:::link & AX["Deshumidificador"]:::link
-
-  AY --> AZ["Modulo IA"]:::link & BC["Gemelo Digital"]:::link & BF["Optimizacion QAOA"]:::link
-  AZ --> BA["Procesador IA"]:::link & BB["Comunicacion Blockchain"]:::link
-  BC --> BD["Servidor Digital"]:::link & BE["Interfaz Usuario Gemelo"]:::link
-  BF --> BG["Algoritmo QAOA"]:::link & BH["Configuracion QAOA"]:::link
-
-  BI --> BJ["Refrigerantes Verdes"]:::link & BM["Economia Circular"]:::link & BQ["Cumplimiento Regulacion"]:::link
-  BJ --> BK["Seleccion Eco"]:::link & BL["Monitoreo Quimica"]:::link
-  BM --> BN["Componentes Reutilizables"]:::link & BO["Trazabilidad Blockchain"]:::link & BP["Prediccion Vida IA"]:::link
-  BQ --> BR["Alineacion Normativa"]:::link & BS["Auditorias Blockchain"]:::link & BT["Calculo Emisiones"]:::link
-
-  BU --> BV["Mantenimiento Predictivo"]:::link & BY["Soporte y Reparaciones"]:::link
-  BV --> BW["Monitor Estado"]:::link & BX["Diagnostico IA"]:::link
-  BY --> BZ["Reparacion Especializada"]:::link & CA["Gestion Incidentes"]:::link
-
-  CB --> CC["Ledger Blockchain"]:::link & CF["Gestion de Datos"]:::link
-  CC --> CD["Nodo Principal"]:::link & CE["Interfaz Blockchain"]:::link
-  CF --> CG["Base de Datos"]:::link & CH["Analisis de Datos"]:::link
-```
 
 # ATA 22 - AUTO FLIGHT SYSTEM
 
