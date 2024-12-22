@@ -1,6 +1,9 @@
-I have retrieved the contents of the `README.md` and `main.js` files.
+Aquí tienes una representación visual del modelo 3D del fuselaje, generado utilizando anillos apilados con un crecimiento hiperbólico en el radio. 
 
-I will now add the JSON-based data structure to the `README.md` file.
+![image](https://github.com/user-attachments/assets/7a81fdcd-d189-4344-833a-295259f3bbcf)
+
+
+Si necesitas ajustes adicionales, como una exportación del modelo o una vista específica, házmelo saber. 😊
 
 ---
 
