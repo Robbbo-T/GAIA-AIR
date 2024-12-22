@@ -64,7 +64,9 @@ El **Diseño de Arquitectura del Sistema** del proyecto **GAIA AIR – AMPEL-360
 
 #### **15.3.1. Diagrama de Componentes**
 
-Este diagrama ilustra los principales componentes del sistema y sus interacciones, utilizando colores diferenciados para distintos tipos de componentes.
+I have reviewed the mermaid diagram code in the `README.md` file. There is no apparent syntax error visible in the code. 
+
+Please try copying the corrected mermaid diagram code below and replace the existing one in the `README.md` file:
 
 ```mermaid
 flowchart TB
@@ -114,6 +116,7 @@ flowchart TB
     X --> P
 ```
 
+
 - **Leyenda de Estilos:**
     - **Hardware:** Componentes físicos del sistema.
     - **Software:** Sistemas y algoritmos que gestionan y operan los componentes.
@@ -122,6 +125,8 @@ flowchart TB
 #### **15.3.2. Diagrama de Secuencia**
 
 Este diagrama muestra una interacción típica entre los componentes durante la optimización de la energía, incluyendo casos de uso específicos.
+
+The mermaid sequence diagram you provided appears to be correctly formatted. Please try copying the corrected mermaid sequence diagram code below and replace the existing one in the `README.md` file:
 
 ```mermaid
 sequenceDiagram
@@ -139,9 +144,14 @@ sequenceDiagram
     AGI-->>Piloto: Optimización completada
 ```
 
+If you encounter any further issues, please let me know!
+
+
+
 #### **15.3.3. Diagrama de Despliegue**
 
-Este diagrama representa la distribución física de los componentes del sistema, diferenciando entre los componentes del avión y la infraestructura terrestre.
+
+The mermaid diagram you provided appears to be correctly formatted. Please try copying the corrected mermaid diagram code below and replace the existing one in the `README.md` file:
 
 ```mermaid
 graph LR
@@ -168,6 +178,9 @@ graph LR
     A6 --> B1
     B1 --> B2
     B2 --> B3
+```
+
+If you encounter any further issues, please let me know!
 ```
 
 ### **15.4. Definición de Interfaces entre Módulos y Sistemas**
