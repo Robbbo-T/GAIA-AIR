@@ -2859,93 +2859,93 @@ The system comprises the following key components:
 4. **Distribution System:**  
    - Ducts and vents for efficient air distribution  
    - Filters to ensure air quality  
-   - Individual passenger controls for personalized comfort  
+   - Individual passenger controls for personalized comfort
+     
 Below is the **finalized and consolidated Table of Contents (ToC)** for your **Aircraft ECS (ATA 21) Design Document**, integrating all the enhancements and refinements discussed. This version provides an extensive roadmap for creating a **high-quality, professional engineering document**—from high-level objectives and system architecture down to risk management, data analytics, and future work. Feel free to adapt or expand each section according to your specific project needs.
 
 ---
 
-# **Finalized Table of Contents for the ECS (ATA 21) Design Document**
+The error in your mermaid diagram is caused by a syntax issue. Here is the corrected version of the diagram:
 
-```markdown
-1. **Introduction**
-   1.1 Scope
-   1.2 Audience
-   1.3 Document Control (Versioning, Revision History, Approval Process)
+```mermaid
+%%{init: {"theme": "dark"}}%%
+flowchart TD
+    %% Global Style Definitions
+    classDef module fill:#001F3F,stroke:#FFFFFF,stroke-width:2px,color:#FFFFFF;
+    classDef text fill:#013220,stroke:#FFFFFF,stroke-width:2px,color:#FFFFFF;
 
-2. **Design Objectives**
-   2.1 Goals and Prioritization (Safety, Performance, Efficiency, Comfort, Sustainability)
-   2.2 Trade-offs (Weight vs. Performance, Cost vs. Sustainability)
-   2.3 Key Performance Indicators (KPIs)
+    %% Air Conditioning System
+    subgraph ECS["Air Conditioning System (ECS)"]
+        direction TB
+        A[Air Conditioning System (ECS)]
 
-3. **System Overview**
-   3.1 Operational Modes (Ground Cooling, Flight Cooling, Emergency Operation)
-   3.2 System Boundaries and Interfaces
+        %% Air Cycle Machine (ACM)
+        subgraph ACM["Air Cycle Machine (ACM)"]:::module
+            B1[Compressor (21-1-1)]:::text
+            B2[Condenser (21-1-2)]:::text
+            B3[Evaporator (21-1-3)]:::text
+        end
+        A --> ACM
 
-4. **System Architecture**
-   4.1 High-Level Architecture (Block Diagrams, Context Diagrams)
-   4.2 Control System Hierarchy (ECU, Sensors, Actuators, Higher-Level Control)
-   4.3 Data Acquisition and Processing
-   4.4 Fault Detection, Isolation, and Recovery
+        %% Environmental Control Unit (ECU)
+        subgraph ECU["Environmental Control Unit (ECU)"]:::module
+            C1[Control Module (21-2-1)]:::text
+            C2[Sensors (21-2-2)]:::text
+            C3[Actuators (21-2-3)]:::text
+        end
+        A --> ECU
 
-5. **Components and Assemblies**
-   5.1 Component Selection Criteria (Performance, Reliability, Cost, Environmental Impact)
-   5.2 Testing and Qualification Procedures
-   5.3 Maintainability and Accessibility
+        %% Air Distribution
+        subgraph AD["Air Distribution"]:::module
+            D1[Ducting (21-3-1)]:::text
+            D2[Vents and Registers (21-3-2)]:::text
+        end
+        A --> AD
 
-6. **Integration Strategy**
-   6.1 Interface Control Documents (ICDs)
-   6.2 Integration Testing (Compatibility, Functional Validation)
+        %% Pressurization Control
+        subgraph PC["Pressurization Control"]:::module
+            E1[Outflow Valve (21-4-1)]:::text
+            E2[Safety Valve (21-4-2)]:::text
+            E3[Pressure Sensors (21-4-3)]:::text
+        end
+        A --> PC
 
-7. **Design Specifications**
-   7.1 Tolerances and Safety Margins
-   7.2 System-Level Requirements (Temperature, Pressure, Flow)
-   7.3 Validation Against ATA 21 Standards
+        %% Temperature Control
+        subgraph TC["Temperature Control"]:::module
+            F1[Heat Exchangers (21-5-1)]:::text
+            F2[Mixing Unit (21-5-2)]:::text
+            F3[Temperature Sensors (21-5-3)]:::text
+        end
+        A --> TC
 
-8. **Standards and Compliance**
-   8.1 Compliance Matrix (EASA, FAA, DO-326A, ISO 9001, etc.)
-   8.2 Certification Plan (Approach to Meeting Regulatory Requirements)
+        %% Humidity Control
+        subgraph HC["Humidity Control"]:::module
+            G1[Humidifier (21-6-1)]:::text
+            G2[Dehumidifier (21-6-2)]:::text
+            G3[Humidity Sensors (21-6-3)]:::text
+        end
+        A --> HC
 
-9. **Sustainability and Environmental Impact**
-   9.1 Life Cycle Assessment (LCA)
-   9.2 Environmental Management System (EMS) Integration
-   9.3 Emissions and Noise Reduction
+        %% Air Filtration
+        subgraph AF["Air Filtration"]:::module
+            H1[HEPA Filters (21-7-1)]:::text
+            H2[Carbon Filters (21-7-2)]:::text
+            H3[UV Sterilizers (21-7-3)]:::text
+        end
+        A --> AF
 
-10. **Digital Twin and Digital Thread Integration**
-   10.1 Simulation and Analysis (Performance Prediction, Fault Analysis, Optimization)
-   10.2 Data Analytics and Machine Learning (Predictive Maintenance, Ongoing Optimization)
-   10.3 Digital Thread (Traceability and Configuration Management)
-
-11. **Maintenance and Support**
-   11.1 Maintenance Tasks and Frequencies
-   11.2 Troubleshooting Guides and Procedures
-   11.3 MRO (Maintenance, Repair, Overhaul) Considerations
-
-12. **Documentation**
-   12.1 Document Management System (Storage, Access, Version Control)
-   12.2 Related Manuals (Maintenance Manual, Operational Manual)
-   12.3 Training and User Documentation
-
-13. **Risk Management**
-   13.1 Risk Assessment (Identification, Analysis, Evaluation)
-   13.2 Risk Mitigation Plan (Strategies, Actions, Residual Risks)
-
-14. **Appendices**
-   14.1 Glossary of Terms
-   14.2 Abbreviations and Acronyms
-   14.3 Detailed Diagrams or Data Sheets (Optional)
-
-15. **References**
-   15.1 Citation Format and Reference List
-   15.2 Links to Relevant Standards (ATA, EASA/FAA, etc.)
-
-16. **Leadership and Founders**
-   16.1 Team Structure and Roles
-   16.2 Key Stakeholders and Decision Makers
-
-17. **Final Recommendations**
-   17.1 Lessons Learned
-   17.2 Future Work (R&D Opportunities, Next-Gen Upgrades)
+        %% Emergency Oxygen System
+        subgraph EO["Emergency Oxygen System"]:::module
+            I1[Oxygen Masks (21-8-1)]:::text
+            I2[Oxygen Generators (21-8-2)]:::text
+            I3[Oxygen Storage (21-8-3)]:::text
+        end
+        A --> EO
+    end
 ```
+
+You can now update your `README.md` with this corrected code. If you need further assistance, let me know!
+
 
 ---
 
