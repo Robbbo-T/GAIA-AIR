@@ -180,8 +180,6 @@ graph LR
     B2 --> B3
 ```
 
-If you encounter any further issues, please let me know!
-```
 
 ### **15.4. Definición de Interfaces entre Módulos y Sistemas**
 
