@@ -2976,86 +2976,102 @@ By following this enhanced **Table of Contents**, you will be well on your way t
 
 ### Product Breakdown Structure (PBS)
 
-Here is the mermaid diagram code for the Air Conditioning System (ECS) and its subsystems, formatted for easy copying into your `README.md` file:
+Below is a **corrected Mermaid flowchart** in Markdown. The main changes are:
+
+1. Removed or replaced certain **parentheses** in the subgraph and node labels, as Mermaid can sometimes parse them incorrectly (especially when nested).
+2. Ensured each subgraph declaration (`subgraph ... end`) is properly opened and closed.
+3. Renamed labels slightly to avoid parse errors.
+
+Try pasting this code into a GitHub markdown file or any Mermaid-compatible environment (like the [Mermaid Live Editor](https://mermaid.live/)) to confirm it renders properly.
 
 ```mermaid
-%%{init: {"theme": "dark"}}%%
+%%{init: {"theme":"dark"}}%%
 flowchart TD
+
     %% Global Style Definitions
     classDef module fill:#001F3F,stroke:#FFFFFF,stroke-width:2px,color:#FFFFFF;
     classDef text fill:#013220,stroke:#FFFFFF,stroke-width:2px,color:#FFFFFF;
 
-    %% Air Conditioning System
-    subgraph ECS["Air Conditioning System (ECS)"]
-        direction TB
-        A[Air Conditioning System (ECS)]
+    %% AIR CONDITIONING SYSTEM
+    subgraph ECS[Air_Conditioning_System_ECS]:::module
+    direction TB
+
+    A[Air_Conditioning_System_ECS]:::text
 
         %% Air Cycle Machine (ACM)
-        subgraph ACM["Air Cycle Machine (ACM)"]:::module
-            B1[Compressor (21-1-1)]:::text
-            B2[Condenser (21-1-2)]:::text
-            B3[Evaporator (21-1-3)]:::text
+        subgraph ACM[Air_Cycle_Machine_ACM]:::module
+            B1[Compressor_21-1-1]:::text
+            B2[Condenser_21-1-2]:::text
+            B3[Evaporator_21-1-3]:::text
         end
         A --> ACM
 
         %% Environmental Control Unit (ECU)
-        subgraph ECU["Environmental Control Unit (ECU)"]:::module
-            C1[Control Module (21-2-1)]:::text
-            C2[Sensors (21-2-2)]:::text
-            C3[Actuators (21-2-3)]:::text
+        subgraph ECU[Environmental_Control_Unit_ECU]:::module
+            C1[Control_Module_21-2-1]:::text
+            C2[Sensors_21-2-2]:::text
+            C3[Actuators_21-2-3]:::text
         end
         A --> ECU
 
         %% Air Distribution
-        subgraph AD["Air Distribution"]:::module
-            D1[Ducting (21-3-1)]:::text
-            D2[Vents and Registers (21-3-2)]:::text
+        subgraph AD[Air_Distribution]:::module
+            D1[Ducting_21-3-1]:::text
+            D2[Vents_and_Registers_21-3-2]:::text
         end
         A --> AD
 
         %% Pressurization Control
-        subgraph PC["Pressurization Control"]:::module
-            E1[Outflow Valve (21-4-1)]:::text
-            E2[Safety Valve (21-4-2)]:::text
-            E3[Pressure Sensors (21-4-3)]:::text
+        subgraph PC[Pressurization_Control]:::module
+            E1[Outflow_Valve_21-4-1]:::text
+            E2[Safety_Valve_21-4-2]:::text
+            E3[Pressure_Sensors_21-4-3]:::text
         end
         A --> PC
 
         %% Temperature Control
-        subgraph TC["Temperature Control"]:::module
-            F1[Heat Exchangers (21-5-1)]:::text
-            F2[Mixing Unit (21-5-2)]:::text
-            F3[Temperature Sensors (21-5-3)]:::text
+        subgraph TC[Temperature_Control]:::module
+            F1[Heat_Exchangers_21-5-1]:::text
+            F2[Mixing_Unit_21-5-2]:::text
+            F3[Temp_Sensors_21-5-3]:::text
         end
         A --> TC
 
         %% Humidity Control
-        subgraph HC["Humidity Control"]:::module
-            G1[Humidifier (21-6-1)]:::text
-            G2[Dehumidifier (21-6-2)]:::text
-            G3[Humidity Sensors (21-6-3)]:::text
+        subgraph HC[Humidity_Control]:::module
+            G1[Humidifier_21-6-1]:::text
+            G2[Dehumidifier_21-6-2]:::text
+            G3[Humidity_Sensors_21-6-3]:::text
         end
         A --> HC
 
         %% Air Filtration
-        subgraph AF["Air Filtration"]:::module
-            H1[HEPA Filters (21-7-1)]:::text
-            H2[Carbon Filters (21-7-2)]:::text
-            H3[UV Sterilizers (21-7-3)]:::text
+        subgraph AF[Air_Filtration]:::module
+            H1[HEPA_Filters_21-7-1]:::text
+            H2[Carbon_Filters_21-7-2]:::text
+            H3[UV_Sterilizers_21-7-3]:::text
         end
         A --> AF
 
         %% Emergency Oxygen System
-        subgraph EO["Emergency Oxygen System"]:::module
-            I1[Oxygen Masks (21-8-1)]:::text
-            I2[Oxygen Generators (21-8-2)]:::text
-            I3[Oxygen Storage (21-8-3)]:::text
+        subgraph EO[Emergency_Oxygen_System]:::module
+            I1[Oxygen_Masks_21-8-1]:::text
+            I2[Oxygen_Generators_21-8-2]:::text
+            I3[Oxygen_Storage_21-8-3]:::text
         end
         A --> EO
+
     end
 ```
 
-You can now add this code to your `README.md` file. If you need further assistance, let me know!
+### **Key Points**
+
+- **No Parentheses** in subgraph titles: For instance, instead of `"Air Conditioning System (ECS)"` we use `[Air_Conditioning_System_ECS]`.  
+- **No Parentheses** in node labels: For example, `Compressor (21-1-1)` becomes `[Compressor_21-1-1]`.  
+- **Proper Subgraph End**: Each `subgraph ... end` block is carefully closed.  
+- **Class Definitions**: The `classDef module` and `classDef text` styles remain the same, just slightly renamed the subgraph titles to avoid parse issues.
+
+If you run this snippet in GitHub or the Mermaid Live Editor, it should render the diagram without a parse error.
 
 
 ---
