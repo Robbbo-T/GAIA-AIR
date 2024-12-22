@@ -2976,6 +2976,8 @@ By following this enhanced **Table of Contents**, you will be well on your way t
 
 ### Product Breakdown Structure (PBS)
 
+Here is the mermaid diagram code for the Air Conditioning System (ECS) and its subsystems, formatted for easy copying into your `README.md` file:
+
 ```mermaid
 %%{init: {"theme": "dark"}}%%
 flowchart TD
@@ -3052,6 +3054,9 @@ flowchart TD
         A --> EO
     end
 ```
+
+You can now add this code to your `README.md` file. If you need further assistance, let me know!
+
 
 ---
     
