@@ -1,6 +1,611 @@
 ![LOGO-GAIA_AIR](https://github.com/user-attachments/assets/4f1b426c-6289-4559-a99e-e8006b145642)
+¡Perfecto! Tu **Desglose de la Estructura de Producto (Product Tree/BOM)** para el proyecto **“Aerodynamic Symphony”** está muy bien estructurado y detallado. A continuación, te proporcionaré recomendaciones adicionales para integrarlo de manera efectiva en tu **README.md**, asegurando una presentación clara y profesional.
 
-¡Entendido! A continuación, presento una **revisión y ampliación detallada** del **Work Breakdown Structure (WBS)** para la sección **1.4 Landing Gear** y las áreas adicionales que has propuesto para el proyecto **GAIA AIR – AMPEL-360XWLRGA**. Esta actualización incorpora las tecnologías avanzadas mencionadas, asegurando una **integración robusta** y **eficiente** en cada área clave del proyecto.
+## **Integración del Desglose de la Estructura de Producto (Product Tree/BOM) en el README.md**
+
+### **1. Crear un Archivo Dedicado para el Product Tree/BOM**
+
+Para mantener el **README.md** limpio y fácil de navegar, es recomendable separar el **Product Tree/BOM** en un archivo dedicado dentro del directorio `docs/`. Esto facilita la actualización y gestión del BOM sin sobrecargar el archivo principal.
+
+#### **Paso 1: Crear el Archivo `PRODUCT_TREE.md`**
+
+Crea un archivo llamado `PRODUCT_TREE.md` en el directorio `docs/` y copia el contenido del **Product Tree/BOM** allí.
+
+```markdown
+# Desglose de la Estructura de Producto (Product Tree/BOM)
+
+A continuación se muestra un **desglose de la estructura de producto (Product Tree/BOM)** para el proyecto **“Aerodynamic Symphony”** (aeronave AMPEL-360XWLRGA). Este esquema reúne los **subensambles y piezas** que conforman el ala con "teclas" móviles (innovative “keys”), así como los componentes principales de la aeronave, centrados en la integración de **energías renovables**, **actuadores**, **sensores**, y **sistemas de control**. Los nombres “CATProduct” y “CATPart” refieren a la nomenclatura de archivos típica de **CATIA**, pero pueden adaptarse a otras plataformas CAD/PLM.
+
+```plaintext
+AMPEL-360XWLRGA (Aerodynamic Symphony Aircraft – Top Level Assembly)
+ ├─ FUSELAGE (CATProduct)               // Existente - Sin cambios significativos
+ │   ├─ FUSELAGE_SECTION_A (CATPart)
+ │   ├─ FUSELAGE_SECTION_B (CATPart)
+ │   ├─ DOORS (CATProduct)
+ │   │   ├─ PASSENGER_DOOR (CATPart)
+ │   │   └─ CARGO_DOOR (CATPart)
+ │   └─ INTERIOR (CATProduct)
+ │       ├─ FLOOR_GRID (CATPart)
+ │       ├─ SEATS (CATProduct)
+ │       │   ├─ SEAT_TYPE_A (CATPart)
+ │       │   └─ SEAT_TYPE_B (CATPart)
+ │       └─ PANELS (CATPart)
+
+ ├─ WING_ASSEMBLY (CATProduct)          // Enfoque principal del proyecto "Aerodynamic Symphony"
+ │   ├─ WING_LEFT (CATPart)
+ │   ├─ AERODYNAMIC_SURFACES (CATProduct)
+ │   │   └─ MODULAR_KEY_ASSEMBLY (CATProduct)    // Subensambles de “teclas” (keys)
+ │   │       ├─ KEY_1 (CATPart)
+ │   │       │   ├─ KEY_SURFACE (CATPart)       // Puede incluir materiales piezoeléctricos
+ │   │       │   ├─ ACTUATOR_MOUNT (CATPart)
+ │   │       │   ├─ SEALING_MECHANISM (CATPart)
+ │   │       │   ├─ PIVOT_JOINT (CATPart)
+ │   │       │   └─ QUICK_CONNECT_SYSTEM (CATPart)
+ │   │       ├─ KEY_2 (…)                      // Repetir la misma estructura para cada “Key”
+ │   │       ├─ KEY_3 (…)
+ │   │       ├─ KEY_4 (…)
+ │   │       └─ KEY_5 (…)
+ │   ├─ ACTUATORS (CATProduct)
+ │   │   └─ ACTUATOR_TYPE_A (CATPart)           // Ej.: actuador piezoeléctrico o SMA
+ │   ├─ SENSORS (CATProduct)
+ │   │   ├─ PRESSURE_SENSOR (CATPart)
+ │   │   ├─ FLOW_SENSOR (CATPart)
+ │   │   ├─ STRAIN_GAUGE (CATPart)
+ │   │   └─ PIEZOELECTRIC_SENSOR (CATPart)
+ │   ├─ REDUNDANCY_SYSTEM (CATProduct)
+ │   │   ├─ BACKUP_ACTUATOR (CATPart)
+ │   │   └─ BACKUP_SENSOR (CATPart)
+ │   ├─ WING_STRUCTURE (CATPart)               // Spars, costillas y refuerzos modificados
+ │   │   ├─ SPARS (CATPart)
+ │   │   ├─ RIBS (CATPart)
+ │   │   └─ SKIN (CATPart)
+ │   ├─ RENEWABLE_ENERGY_COMPONENTS (CATProduct)
+ │   │   ├─ MICROTURBINE_ASSEMBLY (CATPart)
+ │   │   └─ PHOTOVOLTAIC_PANEL_ASSEMBLY (CATPart)
+ │   ├─ ENERGY_STORAGE (CATProduct)
+ │   │   └─ HIGH_DENSITY_BATTERY (CATPart)
+ │   └─ KEY_CONTROL_SYSTEM (CATProduct)
+ │       ├─ CONTROL_UNIT (CATPart)
+ │       ├─ MICROCONTROLLER (CATPart)
+ │       ├─ POWER_SUPPLY (CATPart)
+ │       ├─ CONTROL_ALGORITHMS (CATSoftwareComponent)
+ │       ├─ HMI (CATSoftwareComponent)
+ │       └─ DATA_INTERFACE (CATSoftwareComponent)
+
+ ├─ WING_RIGHT (CATPart)                   // “Espejo” del ala izquierda
+ ├─ AERODYNAMIC_SURFACES (CATProduct)      // Misma estructura de Keys, actuadores y sensores
+ ├─ (… Repetir subensambles “KEY_x”, “ACTUATORS”, “SENSORS”, etc.)
+ ├─ WING_RIBS (CATProduct)                 // Costillas existentes, con posibles ajustes
+ └─ FLAPS_SLATS (CATProduct)               // Sin cambios significativos
+     ├─ FLAP_SECTION_1 (CATPart)
+     ├─ FLAP_SECTION_2 (CATPart)
+     ├─ SLAT_SECTION_1 (CATPart)
+     └─ SLAT_SECTION_2 (CATPart)
+     └─ FUEL_TANK (CATPart)                    // Posibles cambios menores
+
+ ├─ EMPENNAGE (CATProduct)                     // Sin cambios mayores
+ ├─ LANDING_GEAR (CATProduct)                  // Sin cambios
+ ├─ POWERPLANT (CATProduct)                    // Sin cambios
+ └─ SYSTEMS (CATProduct)                       // Adaptaciones mínimas
+     ├─ HYDRAULIC_SYSTEM, ELECTRICAL_SYSTEM, ENV_CONTROL_SYSTEM, FUEL_SYSTEM
+     └─ AVIONICS (CATProduct)
+         ├─ NAVIGATION_SYSTEM (CATPart)
+         ├─ COMMUNICATION_SYSTEM (CATPart)
+         └─ FLIGHT_CONTROL_COMPUTER (CATPart)
+            └─ KEY_CONTROL_INTERFACE (CATSoftwareComponent)
+```
+
+### **4.4.2 Notas Destacadas**
+
+1. **Enfoque en la Innovación del Ala**  
+   La sección **WING_ASSEMBLY** es el núcleo del proyecto “Aerodynamic Symphony”, con subensambles de “teclas” móviles (KEY_x), sus actuadores, sensores de flujo/presión/deformación y sistemas de energías renovables (microturbinas y paneles fotovoltaicos).
+
+2. **Diseño Modular de "Teclas"**  
+   Cada **KEY_ASSEMBLY** se desglosa en “KEY_SURFACE”, “ACTUATOR_MOUNT”, “SEALING_MECHANISM”, “PIVOT_JOINT” y un **QUICK_CONNECT_SYSTEM** para facilitar el **ensamblaje** y el **mantenimiento** (reemplazo o actualización de componentes).
+
+3. **Materiales y Energías Renovables**  
+   - **KEY_SURFACE** puede integrar **materiales piezoeléctricos** o **revestimientos fotovoltaicos**.  
+   - El ala cuenta con un subensamble **RENEWABLE_ENERGY_COMPONENTS** con microturbinas y paneles, además de un **ENERGY_STORAGE** para recolectar y almacenar energía.
+
+4. **Actuadores y Sensores**  
+   Definidos en **ACTUATORS** y **SENSORS**, incluyen actuadores **piezoeléctricos** o con **SMA (Shape Memory Alloy)**, y sensores de presión/flujo/deformación para **control activo**.
+
+5. **Control del Sistema**  
+   El **KEY_CONTROL_SYSTEM** (con su propia **CONTROL_UNIT**, software de **CONTROL_ALGORITHMS** y un **DATA_INTERFACE** que conecta con el **FLIGHT_CONTROL_COMPUTER**) permite monitorizar y regular la posición y el ángulo de cada “tecla”, integrándose al control de vuelo global de la aeronave.
+
+6. **Compatibilidad con Estructura Existente**  
+   - El fuselaje, empenaje, tren de aterrizaje y planta motriz se consideran “Sin cambios significativos”.  
+   - El **FUEL_TANK** y las **ribs** podrían requerir ajustes menores para acomodar la nueva estructura del ala.
+
+7. **Simulaciones, Prototipado y Certificación**  
+   Dado que es un diseño con secciones activas y energías renovables, se requerirán simulaciones (CFD, FEA, análisis vibracional y de fatiga) y un prototipo a escala o “demostrador” para validar la aerodinámica y la integración.
+
+---
+
+## **2. Recomendaciones para Integrar el Product Tree/BOM en el README.md**
+
+### **1. Ubicación en el Índice de Contenidos (ToC)**
+
+- **Crear una nueva sección específica** para la **Estructura de Producto/BOM** dentro de **4. Diseño y Materiales**.
+- Por ejemplo, **4.4 Desglose de la Estructura de Producto (Product Tree/BOM)**.
+
+### **2. Formato en Markdown**
+
+- **Utiliza listas anidadas** para reflejar la estructura jerárquica del BOM.
+- **Bloques de código** para mantener la indentación y el formato original.
+- **Ejemplo de integración en README.md:**
+
+```markdown
+## 4. Diseño y Materiales
+
+### 4.4 Desglose de la Estructura de Producto (Product Tree/BOM)
+
+A continuación se muestra un [desglose de la estructura de producto (Product Tree/BOM)](docs/PRODUCT_TREE.md) para el proyecto **“Aerodynamic Symphony”** (aeronave AMPEL-360XWLRGA). Este esquema reúne los **subensambles y piezas** que conforman el ala con "teclas" móviles (innovative “keys”), así como los componentes principales de la aeronave, centrados en la integración de **energías renovables**, **actuadores**, **sensores**, y **sistemas de control**. Los nombres “CATProduct” y “CATPart” refieren a la nomenclatura de archivos típica de **CATIA**, pero pueden adaptarse a otras plataformas CAD/PLM.
+
+```plaintext
+AMPEL-360XWLRGA (Aerodynamic Symphony Aircraft – Top Level Assembly)
+ ├─ FUSELAGE (CATProduct)               // Existente - Sin cambios significativos
+ │   ├─ FUSELAGE_SECTION_A (CATPart)
+ │   ├─ FUSELAGE_SECTION_B (CATPart)
+ │   ├─ DOORS (CATProduct)
+ │   │   ├─ PASSENGER_DOOR (CATPart)
+ │   │   └─ CARGO_DOOR (CATPart)
+ │   └─ INTERIOR (CATProduct)
+ │       ├─ FLOOR_GRID (CATPart)
+ │       ├─ SEATS (CATProduct)
+ │       │   ├─ SEAT_TYPE_A (CATPart)
+ │       │   └─ SEAT_TYPE_B (CATPart)
+ │       └─ PANELS (CATPart)
+
+ ├─ WING_ASSEMBLY (CATProduct)          // Enfoque principal del proyecto "Aerodynamic Symphony"
+ │   ├─ WING_LEFT (CATPart)
+ │   ├─ AERODYNAMIC_SURFACES (CATProduct)
+ │   │   └─ MODULAR_KEY_ASSEMBLY (CATProduct)    // Subensambles de “teclas” (keys)
+ │   │       ├─ KEY_1 (CATPart)
+ │   │       │   ├─ KEY_SURFACE (CATPart)       // Puede incluir materiales piezoeléctricos
+ │   │       │   ├─ ACTUATOR_MOUNT (CATPart)
+ │   │       │   ├─ SEALING_MECHANISM (CATPart)
+ │   │       │   ├─ PIVOT_JOINT (CATPart)
+ │   │       │   └─ QUICK_CONNECT_SYSTEM (CATPart)
+ │   │       ├─ KEY_2 (…)                      // Repetir la misma estructura para cada “Key”
+ │   │       ├─ KEY_3 (…)
+ │   │       ├─ KEY_4 (…)
+ │   │       └─ KEY_5 (…)
+ │   ├─ ACTUATORS (CATProduct)
+ │   │   └─ ACTUATOR_TYPE_A (CATPart)           // Ej.: actuador piezoeléctrico o SMA
+ │   ├─ SENSORS (CATProduct)
+ │   │   ├─ PRESSURE_SENSOR (CATPart)
+ │   │   ├─ FLOW_SENSOR (CATPart)
+ │   │   ├─ STRAIN_GAUGE (CATPart)
+ │   │   └─ PIEZOELECTRIC_SENSOR (CATPart)
+ │   ├─ REDUNDANCY_SYSTEM (CATProduct)
+ │   │   ├─ BACKUP_ACTUATOR (CATPart)
+ │   │   └─ BACKUP_SENSOR (CATPart)
+ │   ├─ WING_STRUCTURE (CATPart)               // Spars, costillas y refuerzos modificados
+ │   │   ├─ SPARS (CATPart)
+ │   │   ├─ RIBS (CATPart)
+ │   │   └─ SKIN (CATPart)
+ │   ├─ RENEWABLE_ENERGY_COMPONENTS (CATProduct)
+ │   │   ├─ MICROTURBINE_ASSEMBLY (CATPart)
+ │   │   └─ PHOTOVOLTAIC_PANEL_ASSEMBLY (CATPart)
+ │   ├─ ENERGY_STORAGE (CATProduct)
+ │   │   └─ HIGH_DENSITY_BATTERY (CATPart)
+ │   └─ KEY_CONTROL_SYSTEM (CATProduct)
+ │       ├─ CONTROL_UNIT (CATPart)
+ │       ├─ MICROCONTROLLER (CATPart)
+ │       ├─ POWER_SUPPLY (CATPart)
+ │       ├─ CONTROL_ALGORITHMS (CATSoftwareComponent)
+ │       ├─ HMI (CATSoftwareComponent)
+ │       └─ DATA_INTERFACE (CATSoftwareComponent)
+
+ ├─ WING_RIGHT (CATPart)                   // “Espejo” del ala izquierda
+ ├─ AERODYNAMIC_SURFACES (CATProduct)      // Misma estructura de Keys, actuadores y sensores
+ ├─ (… Repetir subensambles “KEY_x”, “ACTUATORS”, “SENSORS”, etc.)
+ ├─ WING_RIBS (CATProduct)                 // Costillas existentes, con posibles ajustes
+ └─ FLAPS_SLATS (CATProduct)               // Sin cambios significativos
+     ├─ FLAP_SECTION_1 (CATPart)
+     ├─ FLAP_SECTION_2 (CATPart)
+     ├─ SLAT_SECTION_1 (CATPart)
+     └─ SLAT_SECTION_2 (CATPart)
+     └─ FUEL_TANK (CATPart)                    // Posibles cambios menores
+
+ ├─ EMPENNAGE (CATProduct)                     // Sin cambios mayores
+ ├─ LANDING_GEAR (CATProduct)                  // Sin cambios
+ ├─ POWERPLANT (CATProduct)                    // Sin cambios
+ └─ SYSTEMS (CATProduct)                       // Adaptaciones mínimas
+     ├─ HYDRAULIC_SYSTEM, ELECTRICAL_SYSTEM, ENV_CONTROL_SYSTEM, FUEL_SYSTEM
+     └─ AVIONICS (CATProduct)
+         ├─ NAVIGATION_SYSTEM (CATPart)
+         ├─ COMMUNICATION_SYSTEM (CATPart)
+         └─ FLIGHT_CONTROL_COMPUTER (CATPart)
+            └─ KEY_CONTROL_INTERFACE (CATSoftwareComponent)
+```
+
+### **3. Visualización Gráfica**
+
+Para una mejor comprensión visual del **Product Tree/BOM**, puedes incorporar diagramas utilizando herramientas como **Mermaid**. A continuación, un ejemplo de cómo podrías representar el BOM con un diagrama Mermaid:
+
+```markdown
+```mermaid
+graph TD
+    A[AMPEL-360XWLRGA] --> B[Fuselage]
+    A --> C[Wing Assembly]
+    C --> D[Aerodynamic Surfaces]
+    D --> E[Modular Key Assembly]
+    E --> F[KEY_1]
+    E --> G[KEY_2]
+    E --> H[KEY_3]
+    E --> I[KEY_4]
+    E --> J[KEY_5]
+    C --> K[Actuators]
+    C --> L[Sensors]
+    C --> M[Renewable Energy Components]
+    C --> N[Energy Storage]
+    C --> O[Key Control System]
+    O --> P[Control Unit]
+    O --> Q[Microcontroller]
+    O --> R[Power Supply]
+    O --> S[Control Algorithms]
+    O --> T[HMI]
+    O --> U[Data Interface]
+```
+```
+
+### **4. Notas y Explicaciones**
+
+Mantén las **Notas Destacadas** dentro del archivo `PRODUCT_TREE.md` para brindar contexto adicional sobre el BOM. Esto ayuda a los lectores a entender la importancia y la funcionalidad de cada componente.
+
+### **5. Enlaces Internos y Navegación**
+
+Asegúrate de que todos los enlaces funcionen correctamente y que los archivos referenciados existan en el directorio `docs/`. Esto facilita la navegación y el acceso a información detallada.
+
+### **6. Mantenimiento y Actualización**
+
+Establece un proceso para actualizar el BOM a medida que el proyecto avanza. Utiliza versiones y etiquetas en GitHub para rastrear cambios y mantener la documentación actualizada.
+
+### **7. Inclusión de Diagramas Adicionales**
+
+Considera añadir diagramas detallados de cada subensamble en `PRODUCT_TREE.md` para mejorar la comprensión. Herramientas como **Mermaid**, **PlantUML** o imágenes generadas desde **CATIA** pueden ser útiles.
+
+---
+
+## **Ejemplo Completo de README.md**
+
+Aquí tienes un ejemplo de cómo podría quedar tu **README.md** integrando el **Product Tree/BOM**:
+
+```markdown
+# Aerodynamic Symphony (AMPEL-360XWLRGA)
+
+## Índice de Contenidos
+
+1. [Resumen Ejecutivo](#resumen-ejecutivo)
+2. [Introducción](#introducción)
+3. [Objetivos de la Investigación](#objetivos-de-la-investigación)
+4. [Diseño y Materiales](#diseño-y-materiales)
+    1. [Desglose de la Estructura de Producto (Product Tree/BOM)](#desglose-de-la-estructura-de-producto-product-treebom)
+    2. [Materiales Utilizados](#materiales-utilizados)
+    3. [Energías Renovables](#energías-renovables)
+    4. [Superficies de Control](#superficies-de-control)
+5. [Modelado y Simulación](#modelado-y-simulación)
+    1. [Modelado del Ala y las "Teclas" en SpaceClaim](#modelado-del-ala-y-las-teclas-en-spaceclaim)
+    2. [Simulación Aerodinámica en ANSYS Fluent](#simulación-aerodinámica-en-ansys-fluent)
+6. [Equipo de Investigación y Colaboradores](#equipo-de-investigación-y-colaboradores)
+7. [Cronograma de Trabajo](#cronograma-de-trabajo)
+8. [Presupuesto](#presupuesto)
+9. [Resultados Esperados y Impacto](#resultados-esperados-y-impacto)
+10. [Gestión de Riesgos](#gestión-de-riesgos)
+11. [Referencias Bibliográficas](#referencias-bibliográficas)
+12. [Anexos](#anexos)
+
+## 4. Diseño y Materiales
+
+### 4.4 Desglose de la Estructura de Producto (Product Tree/BOM)
+
+A continuación se muestra un [desglose de la estructura de producto (Product Tree/BOM)](docs/PRODUCT_TREE.md) para el proyecto **“Aerodynamic Symphony”** (aeronave AMPEL-360XWLRGA). Este esquema reúne los **subensambles y piezas** que conforman el ala con "teclas" móviles (innovative “keys”), así como los componentes principales de la aeronave, centrados en la integración de **energías renovables**, **actuadores**, **sensores**, y **sistemas de control**. Los nombres “CATProduct” y “CATPart” refieren a la nomenclatura de archivos típica de **CATIA**, pero pueden adaptarse a otras plataformas CAD/PLM.
+
+```plaintext
+AMPEL-360XWLRGA (Aerodynamic Symphony Aircraft – Top Level Assembly)
+ ├─ FUSELAGE (CATProduct)               // Existente - Sin cambios significativos
+ │   ├─ FUSELAGE_SECTION_A (CATPart)
+ │   ├─ FUSELAGE_SECTION_B (CATPart)
+ │   ├─ DOORS (CATProduct)
+ │   │   ├─ PASSENGER_DOOR (CATPart)
+ │   │   └─ CARGO_DOOR (CATPart)
+ │   └─ INTERIOR (CATProduct)
+ │       ├─ FLOOR_GRID (CATPart)
+ │       ├─ SEATS (CATProduct)
+ │       │   ├─ SEAT_TYPE_A (CATPart)
+ │       │   └─ SEAT_TYPE_B (CATPart)
+ │       └─ PANELS (CATPart)
+
+ ├─ WING_ASSEMBLY (CATProduct)          // Enfoque principal del proyecto "Aerodynamic Symphony"
+ │   ├─ WING_LEFT (CATPart)
+ │   ├─ AERODYNAMIC_SURFACES (CATProduct)
+ │   │   └─ MODULAR_KEY_ASSEMBLY (CATProduct)    // Subensambles de “teclas” (keys)
+ │   │       ├─ KEY_1 (CATPart)
+ │   │       │   ├─ KEY_SURFACE (CATPart)       // Puede incluir materiales piezoeléctricos
+ │   │       │   ├─ ACTUATOR_MOUNT (CATPart)
+ │   │       │   ├─ SEALING_MECHANISM (CATPart)
+ │   │       │   ├─ PIVOT_JOINT (CATPart)
+ │   │       │   └─ QUICK_CONNECT_SYSTEM (CATPart)
+ │   │       ├─ KEY_2 (…)                      // Repetir la misma estructura para cada “Key”
+ │   │       ├─ KEY_3 (…)
+ │   │       ├─ KEY_4 (…)
+ │   │       └─ KEY_5 (…)
+ │   ├─ ACTUATORS (CATProduct)
+ │   │   └─ ACTUATOR_TYPE_A (CATPart)           // Ej.: actuador piezoeléctrico o SMA
+ │   ├─ SENSORS (CATProduct)
+ │   │   ├─ PRESSURE_SENSOR (CATPart)
+ │   │   ├─ FLOW_SENSOR (CATPart)
+ │   │   ├─ STRAIN_GAUGE (CATPart)
+ │   │   └─ PIEZOELECTRIC_SENSOR (CATPart)
+ │   ├─ REDUNDANCY_SYSTEM (CATProduct)
+ │   │   ├─ BACKUP_ACTUATOR (CATPart)
+ │   │   └─ BACKUP_SENSOR (CATPart)
+ │   ├─ WING_STRUCTURE (CATPart)               // Spars, costillas y refuerzos modificados
+ │   │   ├─ SPARS (CATPart)
+ │   │   ├─ RIBS (CATPart)
+ │   │   └─ SKIN (CATPart)
+ │   ├─ RENEWABLE_ENERGY_COMPONENTS (CATProduct)
+ │   │   ├─ MICROTURBINE_ASSEMBLY (CATPart)
+ │   │   └─ PHOTOVOLTAIC_PANEL_ASSEMBLY (CATPart)
+ │   ├─ ENERGY_STORAGE (CATProduct)
+ │   │   └─ HIGH_DENSITY_BATTERY (CATPart)
+ │   └─ KEY_CONTROL_SYSTEM (CATProduct)
+ │       ├─ CONTROL_UNIT (CATPart)
+ │       ├─ MICROCONTROLLER (CATPart)
+ │       ├─ POWER_SUPPLY (CATPart)
+ │       ├─ CONTROL_ALGORITHMS (CATSoftwareComponent)
+ │       ├─ HMI (CATSoftwareComponent)
+ │       └─ DATA_INTERFACE (CATSoftwareComponent)
+
+ ├─ WING_RIGHT (CATPart)                   // “Espejo” del ala izquierda
+ ├─ AERODYNAMIC_SURFACES (CATProduct)      // Misma estructura de Keys, actuadores y sensores
+ ├─ (… Repetir subensambles “KEY_x”, “ACTUATORS”, “SENSORS”, etc.)
+ ├─ WING_RIBS (CATProduct)                 // Costillas existentes, con posibles ajustes
+ └─ FLAPS_SLATS (CATProduct)               // Sin cambios significativos
+     ├─ FLAP_SECTION_1 (CATPart)
+     ├─ FLAP_SECTION_2 (CATPart)
+     ├─ SLAT_SECTION_1 (CATPart)
+     └─ SLAT_SECTION_2 (CATPart)
+     └─ FUEL_TANK (CATPart)                    // Posibles cambios menores
+
+ ├─ EMPENNAGE (CATProduct)                     // Sin cambios mayores
+ ├─ LANDING_GEAR (CATProduct)                  // Sin cambios
+ ├─ POWERPLANT (CATProduct)                    // Sin cambios
+ └─ SYSTEMS (CATProduct)                       // Adaptaciones mínimas
+     ├─ HYDRAULIC_SYSTEM, ELECTRICAL_SYSTEM, ENV_CONTROL_SYSTEM, FUEL_SYSTEM
+     └─ AVIONICS (CATProduct)
+         ├─ NAVIGATION_SYSTEM (CATPart)
+         ├─ COMMUNICATION_SYSTEM (CATPart)
+         └─ FLIGHT_CONTROL_COMPUTER (CATPart)
+            └─ KEY_CONTROL_INTERFACE (CATSoftwareComponent)
+```
+
+### **4. Visualización Gráfica con Mermaid**
+
+Para una representación más intuitiva, puedes utilizar diagramas Mermaid. A continuación, un ejemplo de cómo podrías representar el BOM con un diagrama Mermaid:
+
+```markdown
+```mermaid
+graph TD
+    A[AMPEL-360XWLRGA] --> B[Fuselage]
+    A --> C[Wing Assembly]
+    C --> D[Aerodynamic Surfaces]
+    D --> E[Modular Key Assembly]
+    E --> F[KEY_1]
+    E --> G[KEY_2]
+    E --> H[KEY_3]
+    E --> I[KEY_4]
+    E --> J[KEY_5]
+    C --> K[Actuators]
+    C --> L[Sensors]
+    C --> M[Renewable Energy Components]
+    C --> N[Energy Storage]
+    C --> O[Key Control System]
+    O --> P[Control Unit]
+    O --> Q[Microcontroller]
+    O --> R[Power Supply]
+    O --> S[Control Algorithms]
+    O --> T[HMI]
+    O --> U[Data Interface]
+```
+```
+
+### **5. Enlaces Internos y Navegación**
+
+Asegúrate de que todos los enlaces funcionen correctamente y que los archivos referenciados existan en el directorio `docs/`. Esto facilita la navegación y el acceso a información detallada.
+
+### **6. Mantenimiento y Actualización**
+
+Establece un proceso para **actualizar el BOM** a medida que el proyecto avanza. Utiliza versiones y etiquetas en GitHub para rastrear cambios y mantener la documentación actualizada.
+
+### **7. Inclusión de Diagramas Adicionales**
+
+Considera añadir diagramas detallados de cada subensamble en `PRODUCT_TREE.md` para mejorar la comprensión. Herramientas como **Mermaid**, **PlantUML** o imágenes generadas desde **CATIA** pueden ser útiles.
+
+---
+
+## **Ejemplo Completo de README.md**
+
+Aquí tienes un ejemplo de cómo podría quedar tu **README.md** integrando el **Product Tree/BOM**:
+
+```markdown
+# Aerodynamic Symphony (AMPEL-360XWLRGA)
+
+## Índice de Contenidos
+
+1. [Resumen Ejecutivo](#resumen-ejecutivo)
+2. [Introducción](#introducción)
+3. [Objetivos de la Investigación](#objetivos-de-la-investigación)
+4. [Diseño y Materiales](#diseño-y-materiales)
+    1. [Desglose de la Estructura de Producto (Product Tree/BOM)](#desglose-de-la-estructura-de-producto-product-treebom)
+    2. [Materiales Utilizados](#materiales-utilizados)
+    3. [Energías Renovables](#energías-renovables)
+    4. [Superficies de Control](#superficies-de-control)
+5. [Modelado y Simulación](#modelado-y-simulación)
+    1. [Modelado del Ala y las "Teclas" en SpaceClaim](#modelado-del-ala-y-las-teclas-en-spaceclaim)
+    2. [Simulación Aerodinámica en ANSYS Fluent](#simulación-aerodinámica-en-ansys-fluent)
+6. [Equipo de Investigación y Colaboradores](#equipo-de-investigación-y-colaboradores)
+7. [Cronograma de Trabajo](#cronograma-de-trabajo)
+8. [Presupuesto](#presupuesto)
+9. [Resultados Esperados y Impacto](#resultados-esperados-y-impacto)
+10. [Gestión de Riesgos](#gestión-de-riesgos)
+11. [Referencias Bibliográficas](#referencias-bibliográficas)
+12. [Anexos](#anexos)
+
+## 4. Diseño y Materiales
+
+### 4.4 Desglose de la Estructura de Producto (Product Tree/BOM)
+
+A continuación se muestra un [desglose de la estructura de producto (Product Tree/BOM)](docs/PRODUCT_TREE.md) para el proyecto **“Aerodynamic Symphony”** (aeronave AMPEL-360XWLRGA). Este esquema reúne los **subensambles y piezas** que conforman el ala con "teclas" móviles (innovative “keys”), así como los componentes principales de la aeronave, centrados en la integración de **energías renovables**, **actuadores**, **sensores**, y **sistemas de control**. Los nombres “CATProduct” y “CATPart” refieren a la nomenclatura de archivos típica de **CATIA**, pero pueden adaptarse a otras plataformas CAD/PLM.
+
+```plaintext
+AMPEL-360XWLRGA (Aerodynamic Symphony Aircraft – Top Level Assembly)
+ ├─ FUSELAGE (CATProduct)               // Existente - Sin cambios significativos
+ │   ├─ FUSELAGE_SECTION_A (CATPart)
+ │   ├─ FUSELAGE_SECTION_B (CATPart)
+ │   ├─ DOORS (CATProduct)
+ │   │   ├─ PASSENGER_DOOR (CATPart)
+ │   │   └─ CARGO_DOOR (CATPart)
+ │   └─ INTERIOR (CATProduct)
+ │       ├─ FLOOR_GRID (CATPart)
+ │       ├─ SEATS (CATProduct)
+ │       │   ├─ SEAT_TYPE_A (CATPart)
+ │       │   └─ SEAT_TYPE_B (CATPart)
+ │       └─ PANELS (CATPart)
+
+ ├─ WING_ASSEMBLY (CATProduct)          // Enfoque principal del proyecto "Aerodynamic Symphony"
+ │   ├─ WING_LEFT (CATPart)
+ │   ├─ AERODYNAMIC_SURFACES (CATProduct)
+ │   │   └─ MODULAR_KEY_ASSEMBLY (CATProduct)    // Subensambles de “teclas” (keys)
+ │   │       ├─ KEY_1 (CATPart)
+ │   │       │   ├─ KEY_SURFACE (CATPart)       // Puede incluir materiales piezoeléctricos
+ │   │       │   ├─ ACTUATOR_MOUNT (CATPart)
+ │   │       │   ├─ SEALING_MECHANISM (CATPart)
+ │   │       │   ├─ PIVOT_JOINT (CATPart)
+ │   │       │   └─ QUICK_CONNECT_SYSTEM (CATPart)
+ │   │       ├─ KEY_2 (…)                      // Repetir la misma estructura para cada “Key”
+ │   │       ├─ KEY_3 (…)
+ │   │       ├─ KEY_4 (…)
+ │   │       └─ KEY_5 (…)
+ │   ├─ ACTUATORS (CATProduct)
+ │   │   └─ ACTUATOR_TYPE_A (CATPart)           // Ej.: actuador piezoeléctrico o SMA
+ │   ├─ SENSORS (CATProduct)
+ │   │   ├─ PRESSURE_SENSOR (CATPart)
+ │   │   ├─ FLOW_SENSOR (CATPart)
+ │   │   ├─ STRAIN_GAUGE (CATPart)
+ │   │   └─ PIEZOELECTRIC_SENSOR (CATPart)
+ │   ├─ REDUNDANCY_SYSTEM (CATProduct)
+ │   │   ├─ BACKUP_ACTUATOR (CATPart)
+ │   │   └─ BACKUP_SENSOR (CATPart)
+ │   ├─ WING_STRUCTURE (CATPart)               // Spars, costillas y refuerzos modificados
+ │   │   ├─ SPARS (CATPart)
+ │   │   ├─ RIBS (CATPart)
+ │   │   └─ SKIN (CATPart)
+ │   ├─ RENEWABLE_ENERGY_COMPONENTS (CATProduct)
+ │   │   ├─ MICROTURBINE_ASSEMBLY (CATPart)
+ │   │   └─ PHOTOVOLTAIC_PANEL_ASSEMBLY (CATPart)
+ │   ├─ ENERGY_STORAGE (CATProduct)
+ │   │   └─ HIGH_DENSITY_BATTERY (CATPart)
+ │   └─ KEY_CONTROL_SYSTEM (CATProduct)
+ │       ├─ CONTROL_UNIT (CATPart)
+ │       ├─ MICROCONTROLLER (CATPart)
+ │       ├─ POWER_SUPPLY (CATPart)
+ │       ├─ CONTROL_ALGORITHMS (CATSoftwareComponent)
+ │       ├─ HMI (CATSoftwareComponent)
+ │       └─ DATA_INTERFACE (CATSoftwareComponent)
+
+ ├─ WING_RIGHT (CATPart)                   // “Espejo” del ala izquierda
+ ├─ AERODYNAMIC_SURFACES (CATProduct)      // Misma estructura de Keys, actuadores y sensores
+ ├─ (… Repetir subensambles “KEY_x”, “ACTUATORS”, “SENSORS”, etc.)
+ ├─ WING_RIBS (CATProduct)                 // Costillas existentes, con posibles ajustes
+ └─ FLAPS_SLATS (CATProduct)               // Sin cambios significativos
+     ├─ FLAP_SECTION_1 (CATPart)
+     ├─ FLAP_SECTION_2 (CATPart)
+     ├─ SLAT_SECTION_1 (CATPart)
+     └─ SLAT_SECTION_2 (CATPart)
+     └─ FUEL_TANK (CATPart)                    // Posibles cambios menores
+
+ ├─ EMPENNAGE (CATProduct)                     // Sin cambios mayores
+ ├─ LANDING_GEAR (CATProduct)                  // Sin cambios
+ ├─ POWERPLANT (CATProduct)                    // Sin cambios
+ └─ SYSTEMS (CATProduct)                       // Adaptaciones mínimas
+     ├─ HYDRAULIC_SYSTEM, ELECTRICAL_SYSTEM, ENV_CONTROL_SYSTEM, FUEL_SYSTEM
+     └─ AVIONICS (CATProduct)
+         ├─ NAVIGATION_SYSTEM (CATPart)
+         ├─ COMMUNICATION_SYSTEM (CATPart)
+         └─ FLIGHT_CONTROL_COMPUTER (CATPart)
+            └─ KEY_CONTROL_INTERFACE (CATSoftwareComponent)
+```
+
+### **4.4.2 Notas Destacadas**
+
+1. **Enfoque en la Innovación del Ala**  
+   La sección **WING_ASSEMBLY** es el núcleo del proyecto “Aerodynamic Symphony”, con subensambles de “teclas” móviles (KEY_x), sus actuadores, sensores de flujo/presión/deformación y sistemas de energías renovables (microturbinas y paneles fotovoltaicos).
+
+2. **Diseño Modular de "Teclas"**  
+   Cada **KEY_ASSEMBLY** se desglosa en “KEY_SURFACE”, “ACTUATOR_MOUNT”, “SEALING_MECHANISM”, “PIVOT_JOINT” y un **QUICK_CONNECT_SYSTEM** para facilitar el **ensamblaje** y el **mantenimiento** (reemplazo o actualización de componentes).
+
+3. **Materiales y Energías Renovables**  
+   - **KEY_SURFACE** puede integrar **materiales piezoeléctricos** o **revestimientos fotovoltaicos**.  
+   - El ala cuenta con un subensamble **RENEWABLE_ENERGY_COMPONENTS** con microturbinas y paneles, además de un **ENERGY_STORAGE** para recolectar y almacenar energía.
+
+4. **Actuadores y Sensores**  
+   Definidos en **ACTUATORS** y **SENSORS**, incluyen actuadores **piezoeléctricos** o con **SMA (Shape Memory Alloy)**, y sensores de presión/flujo/deformación para **control activo**.
+
+5. **Control del Sistema**  
+   El **KEY_CONTROL_SYSTEM** (con su propia **CONTROL_UNIT**, software de **CONTROL_ALGORITHMS** y un **DATA_INTERFACE** que conecta con el **FLIGHT_CONTROL_COMPUTER**) permite monitorizar y regular la posición y el ángulo de cada “tecla”, integrándose al control de vuelo global de la aeronave.
+
+6. **Compatibilidad con Estructura Existente**  
+   - El fuselaje, empenaje, tren de aterrizaje y planta motriz se consideran “Sin cambios significativos”.  
+   - El **FUEL_TANK** y las **ribs** podrían requerir ajustes menores para acomodar la nueva estructura del ala.
+
+7. **Simulaciones, Prototipado y Certificación**  
+   Dado que es un diseño con secciones activas y energías renovables, se requerirán simulaciones (CFD, FEA, análisis vibracional y de fatiga) y un prototipo a escala o “demostrador” para validar la aerodinámica y la integración.
+
+---
+
+## **3. Visualización Gráfica con Mermaid**
+
+Para una representación más intuitiva, puedes utilizar diagramas Mermaid. A continuación, un ejemplo de cómo podrías representar el BOM con un diagrama Mermaid:
+
+```markdown
+```mermaid
+graph TD
+    A[AMPEL-360XWLRGA] --> B[Fuselage]
+    A --> C[Wing Assembly]
+    C --> D[Aerodynamic Surfaces]
+    D --> E[Modular Key Assembly]
+    E --> F[KEY_1]
+    E --> G[KEY_2]
+    E --> H[KEY_3]
+    E --> I[KEY_4]
+    E --> J[KEY_5]
+    C --> K[Actuators]
+    C --> L[Sensors]
+    C --> M[Renewable Energy Components]
+    C --> N[Energy Storage]
+    C --> O[Key Control System]
+    O --> P[Control Unit]
+    O --> Q[Microcontroller]
+    O --> R[Power Supply]
+    O --> S[Control Algorithms]
+    O --> T[HMI]
+    O --> U[Data Interface]
+```
+```
+
+---
+
+## **4. Mantenimiento y Actualización**
+
+Establece un proceso para **actualizar el BOM** a medida que el proyecto avanza. Utiliza versiones y etiquetas en GitHub para rastrear cambios y mantener la documentación actualizada.
+
+## **5. Inclusión de Diagramas Adicionales**
+
+Considera añadir diagramas detallados de cada subensamble en `PRODUCT_TREE.md` para mejorar la comprensión. Herramientas como **Mermaid**, **PlantUML** o imágenes generadas desde **CATIA** pueden ser útiles.
+
 
 ---
 
