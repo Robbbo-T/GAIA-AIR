@@ -1,316 +1,379 @@
 ![LOGO-GAIA_AIR](https://github.com/user-attachments/assets/4f1b426c-6289-4559-a99e-e8006b145642)
-A continuación tienes un **ejemplo de diagrama Mermaid** que ilustra la estructura general del **BOM** con numeración ATA para la aeronave **AMPEL-360XWLRGA**. Dado que el árbol completo es muy grande, se muestra una **versión resumida** de los principales capítulos (ATA). Puedes ampliarlo o detallar subcapítulos replicando la misma lógica.
-
-> **Nota:**  
-> - Si lo incluyes en un archivo Markdown en GitHub, verás el diagrama estático (sin hipervínculos interactivos).  
-> - Algunas plataformas (por ejemplo, GitLab o extensiones de VSCode) permiten definir `click nodeId href` para enlaces interactivos.  
-> - Ajusta los nombres de los nodos, IDs y ATA según tu proyecto real.
-
-```mermaid
-flowchart TB
-    A((AMPEL-360XWLRGA)):::main --> ATA01[ATA 01<br>INTRODUCTION]
-    A --> ATA05[ATA 05<br>PERIODIC_INSPECTION]
-    A --> ATA06[ATA 06<br>DIMENSIONS_AND_AREAS]
-    A --> ATA20[ATA 20<br>STANDARD_PRACTICES_AIRFRAME]
-    A --> ATA21[ATA 21<br>AIR_CONDITIONING]
-    A --> ATA22[ATA 22<br>AUTO_FLIGHT]
-    A --> ATA23[ATA 23<br>COMMUNICATIONS]
-    A --> ATA24[ATA 24<br>ELECTRICAL_POWER]
-    A --> ATA25[ATA 25<br>EQUIPMENT_FURNISHINGS]
-    A --> ATA27[ATA 27<br>FLIGHT_CONTROLS]
-    A --> ATA28[ATA 28<br>FUEL]
-    A --> ATA29[ATA 29<br>HYDRAULIC_POWER]
-    A --> ATA30[ATA 30<br>ICE_AND_RAIN_PROTECTION]
-    A --> ATA31[ATA 31<br>INDICATING_RECORDING_SYSTEMS]
-    A --> ATA32[ATA 32<br>LANDING_GEAR]
-    A --> ATA33[ATA 33<br>LIGHTS]
-    A --> ATA34[ATA 34<br>NAVIGATION]
-    A --> ATA35[ATA 35<br>OXYGEN]
-    A --> ATA36[ATA 36<br>PNEUMATIC]
-    A --> ATA38[ATA 38<br>WATER_WASTE]
-    A --> ATA39[ATA 39<br>ELECTRICAL_ELECTRONIC_PANELS]
-    A --> ATA42[ATA 42<br>INTEGRATED_MODULAR_AVIONICS]
-    A --> ATA44[ATA 44<br>CABIN_SYSTEMS]
-    A --> ATA45[ATA 45<br>CENTRAL_MAINTENANCE_SYSTEM]
-    A --> ATA46[ATA 46<br>INFORMATION_SYSTEMS]
-    A --> ATA47[ATA 47<br>NITROGEN_GENERATION_SYSTEM]
-    A --> ATA49[ATA 49<br>AUXILIARY_POWER_UNIT]
-    A --> ATA50[ATA 50<br>CARGO_AND_ACCESSORY_COMPARTMENTS]
-    A --> ATA51[ATA 51<br>STANDARD_PRACTICES_STRUCTURES]
-    A --> ATA52[ATA 52<br>DOORS]
-    A --> ATA53[ATA 53<br>FUSELAGE]
-    A --> ATA54[ATA 54<br>NACELLES_PYLONS]
-    A --> ATA55[ATA 55<br>STABILIZERS]
-    A --> ATA56[ATA 56<br>WINDOWS]
-    A --> ATA57[ATA 57<br>WINGS]
-    A --> ATA70[ATA 70<br>STANDARD_PRACTICES_ENGINE]
-    A --> ATA71[ATA 71<br>POWERPLANT]
-    A --> ATA73[ATA 73<br>ENGINE_FUEL_AND_CONTROL]
-    A --> ATA85[ATA 85<br>STARTING_IGNITION]
-    A --> ATA99[ATA 99<br>MISCELLANEOUS]
-
-    classDef main fill:#E6F7FF,stroke:#0080FF,stroke-width:2px
-
-    %% Si deseas "estilo" adicional en tus nodos, define más 'classDef'
-    %% y asigna ':::clase' al nodo que gustes
-```
-
-### Cómo visualizar el diagrama
-1. **En GitHub**: Pega el bloque anterior en un archivo `.md`. Aún no se renderizará de forma nativa, pero puedes usar [Mermaid Live Editor](https://mermaid.live/) o extensiones de navegador/VSCode para previsualizarlo.  
-2. **En GitLab**: Se renderiza automáticamente en `.md` con ` ```mermaid ` .  
-3. **En otras plataformas**: Asegúrate de contar con soporte para **Mermaid**.
+Below is a **concise proposal** of what to highlight at a high level in your **three-row** ATA overview diagram, plus the **final Mermaid code** example illustrating your grouped layout. This ensures that each major block (Aircraft General, Airframe Systems & Aircraft Systems, Propulsion Systems, and Multisystem/Other Systems) is clearly shown, with **ATA 40** included in the “Multisystem” category:
 
 ---
 
-## Ejemplo para Expansiones (Subcapítulos)
-Si deseas **profundizar** en un capítulo (por ejemplo, ATA 57 WINGS) con sus subcompartimentos, podrías anidar más nodos, por ejemplo:
+## **High-Level Highlights**
 
-```mermaid
-flowchart TB
-    WINGS["ATA 57<br>WINGS"]:::chapter --> W57_10(WING_LEFT)
-    WINGS --> W57_20(AERODYNAMIC_SURFACES)
-    WINGS --> W57_30(WING_STRUCTURE)
-    WINGS --> W57_90(WING_RIGHT)
-```
+1. **Major Functional Groupings**  
+   - **Row 1 – Aircraft General**: Key references, general notes, periodic inspections, standard practices, etc.  
+   - **Row 2 – Airframe Systems & Aircraft Systems**: Structural chapters (fuselage, doors, wings, stabilizers) and functional chapters (electrical power, flight controls, hydraulic power, cabin systems, etc.).  
+   - **Row 3 – Propulsion & Multisystem**: Engine-related chapters (engine standard practices, engine fuel/control, etc.) **plus** the innovative “ATA 40 – Multisystem” for quantum-based algorithms, digital twins, and more advanced cross-functional technologies.
 
-Para luego conectarlo al diagrama principal, donde `A --> ATA57[ATA 57<br>WINGS]` apunte a este subdiagrama, o bien muestres todo en uno solo. Todo depende de la legibilidad que busques.
+2. **Why This Diagram?**  
+   - It clarifies **where** each ATA chapter stands in relation to the broader aircraft architecture.
+   - The horizontal rows group large sets of chapters thematically, avoiding clutter in a single row.
+   - **ATA 40** stands out as a place for advanced or cross-functional systems (quantum, blockchain, digital twins, etc.) that go beyond classic ATA scope.
 
----
+3. **Emphasis on ATA 40**  
+   - Let viewers see that your project includes forward-looking capabilities (Predictive Maintenance, 3D printing, Route Optimization, Robot/Cobot lines, etc.).
+   - Show at a glance that you’re merging traditional ATA maintenance standards with next-gen digital technologies.
 
-### Hipervínculos en Mermaid
-Si tu plataforma lo permite (no suele funcionar en GitHub), puedes añadir algo como:
-```mermaid
-flowchart TB
-    A[AMPEL-360XWLRGA] --> ATA57[[ATA 57 WINGS]]
-    click ATA57 "#ata-57-wings" "Ir a la Sección ATA 57 en mi README"
-```
-Sin embargo, GitHub **no** soporta `click nodeId href` en sus propios renders. Otros entornos (como GitLab o ciertos browsers) sí.
+4. **Logical Flow**  
+   - A top-to-bottom approach (Row 1 → Row 2 → Row 3) so readers can skim from “basic/intro chapters” down to the “more specialized or advanced systems.”
 
 ---
 
-**¡Listo!** Con este diagrama Mermaid tienes una **vista simplificada** de cómo se interrelacionan los capítulos ATA de tu aeronave **AMPEL-360XWLRGA**. Puedes duplicar y/o anidar diagramas similares para los subcapítulos o subensambles, ajustando nombres y enlaces a tu manual de referencia. 
+## **Final Mermaid Diagram Proposal**
+
+Below is a sample code snippet. **Feel free to rename** the subgraphs or shift any ATA items to better reflect your actual scope. You can place it in a Markdown file (e.g., `docs/PRODUCT_TREE.md`):
+
+```mermaid
+flowchart TB
+
+%% ---------------------------------------------------------
+%% Subgraph Fila 1: Aircraft General
+%% ---------------------------------------------------------
+subgraph ROW1
+direction LR
+
+  subgraph G1 [AIRCRAFT GENERAL]
+  direction TB
+    A01(ATA 01<br>INTRODUCTION)
+    A05(ATA 05<br>PERIODIC_INSPECTION)
+    A06(ATA 06<br>DIMENSIONS_AND_AREAS)
+    A20(ATA 20<br>STANDARD_PRACTICES_AIRFRAME)
+  end
+
+end
+
+%% ---------------------------------------------------------
+%% Subgraph Fila 2: Airframe Systems & Aircraft Systems
+%% ---------------------------------------------------------
+subgraph ROW2
+direction LR
+
+  subgraph G2 [AIRFRAME SYSTEMS]
+  direction TB
+    A51(ATA 51<br>STANDARD_PRACTICES_STRUCTURES)
+    A52(ATA 52<br>DOORS)
+    A53(ATA 53<br>FUSELAGE)
+    A54(ATA 54<br>NACELLES_PYLONS)
+    A55(ATA 55<br>STABILIZERS)
+    A56(ATA 56<br>WINDOWS)
+    A57(ATA 57<br>WINGS)
+  end
+
+  subgraph G3 [AIRCRAFT SYSTEMS]
+  direction TB
+    A21(ATA 21<br>AIR_CONDITIONING)
+    A22(ATA 22<br>AUTO_FLIGHT)
+    A23(ATA 23<br>COMMUNICATIONS)
+    A24(ATA 24<br>ELECTRICAL_POWER)
+    A25(ATA 25<br>EQUIPMENT_FURNISHINGS)
+    A27(ATA 27<br>FLIGHT_CONTROLS)
+    A28(ATA 28<br>FUEL)
+    A29(ATA 29<br>HYDRAULIC_POWER)
+    A30(ATA 30<br>ICE_AND_RAIN_PROTECTION)
+    A31(ATA 31<br>INDICATING_RECORDING_SYSTEMS)
+    A32(ATA 32<br>LANDING_GEAR)
+    A33(ATA 33<br>LIGHTS)
+    A34(ATA 34<br>NAVIGATION)
+    A35(ATA 35<br>OXYGEN)
+    A36(ATA 36<br>PNEUMATIC)
+    A38(ATA 38<br>WATER_WASTE)
+    A39(ATA 39<br>ELECTRICAL_ELECTRONIC_PANELS)
+    A42(ATA 42<br>INTEGRATED_MODULAR_AVIONICS)
+    A44(ATA 44<br>CABIN_SYSTEMS)
+    A45(ATA 45<br>CENTRAL_MAINTENANCE_SYSTEM)
+    A46(ATA 46<br>INFORMATION_SYSTEMS)
+    A47(ATA 47<br>NITROGEN_GENERATION_SYSTEM)
+    A49(ATA 49<br>AUXILIARY_POWER_UNIT)
+    A50(ATA 50<br>CARGO_ACCESSORY_COMPARTMENTS)
+  end
+
+end
+
+%% ---------------------------------------------------------
+%% Subgraph Fila 3: Propulsion Systems & Multisystem
+%% ---------------------------------------------------------
+subgraph ROW3
+direction LR
+
+  subgraph G4 [PROPULSION SYSTEMS]
+  direction TB
+    A70(ATA 70<br>STANDARD_PRACTICES_ENGINE)
+    A71(ATA 71<br>POWERPLANT)
+    A73(ATA 73<br>ENGINE_FUEL_AND_CONTROL)
+    A85(ATA 85<br>STARTING_IGNITION)
+  end
+
+  subgraph G5 [MULTISYSTEM & OTHER SYSTEMS]
+  direction TB
+    A40(ATA 40<br>MULTISYSTEM)
+    A99(ATA 99<br>MISCELLANEOUS)
+  end
+
+end
+
+classDef boxstroke stroke:#000,stroke-width:1px;
+class A01,A05,A06,A20,A21,A22,A23,A24,A25,A27,A28,A29,A30,A31,A32,A33,A34,A35,A36,A38,A39,A42,A44,A45,A46,A47,A49,A50,A51,A52,A53,A54,A55,A56,A57,A70,A71,A73,A85,A99,A40 boxstroke;
+```
+
+### Notes
+
+- **Row 1**: Aircraft General (ATA 01, 05, 06, 20).  
+- **Row 2**: Two subgraphs side by side → *Airframe Systems* + *Aircraft Systems*.  
+- **Row 3**: *Propulsion Systems* + *Multisystem & Other Systems* (including **ATA 40** for quantum-based algorithms, digital twins, etc.).  
+- You can rename or move ATA codes as needed. For instance, if you prefer to group `ATA 51` (STANDARD_PRACTICES_STRUCTURES) under Aircraft General, just cut/paste that node into G1.
+
+That’s it! This layout should provide a **cleaner**, top-to-bottom overview of your major ATA chapters while making **ATA 40** visible in the final row for advanced cross-functional technologies.
 
 
+A continuación tienes un **árbol híbrido** (Product Tree + ToC) **completo** que integra:
 
-```markdown
-AMPEL-360XWLRGA (Top Level Assembly)
- ├─ (ATA 01) [INTRODUCTION (CATDocument)](#ata-01-introduction)
- │   ├─ (ATA 01-00) [General_Notes (CATDocument)](#ata-01-00-general_notes)
- │   └─ (ATA 01-10) [Project_Definition (CATDocument)](#ata-01-10-project_definition)
+1. **La numeración ATA** (1 a 99, según tu lista).  
+2. **El BOM** (CATProduct, CATPart, CATDocument) tal como lo has definido.  
+3. **Referencias** a secciones de tu ToC o WBS (en `[ToC X.X]`), para ubicar dónde se detalla cada capítulo o subensamble en tus documentos.  
 
- ├─ (ATA 05) [PERIODIC_INSPECTION (CATDocument)](#ata-05-periodic_inspection)
- │   ├─ (ATA 05-10) [CHECK_INTERVALS (CATDocument)](#ata-05-10-check_intervals)
- │   └─ (ATA 05-20) [MAINTENANCE_PLANS (CATDocument)](#ata-05-20-maintenance_plans)
+> **Nota**:  
+> - Este listado está **enriquecido** para abarcar todas las entradas que mencionaste: ATA 01, 05, 06, 07…, 85, 99, incluyendo SUB-ATA y la nueva ATA 40 (Multisystem).  
+> - **Los números de ToC** (`[ToC X.X]`) son ejemplos. Ajusta cada uno a tu WBS real.  
+> - Cuando un capítulo no está detallado en tu BOM actual (p.ej. ATA 82, 81), se deja la línea para mantener la consistencia ATA, aunque no tengas despieces aún.
 
- ├─ (ATA 06) [DIMENSIONS_AND_AREAS (CATDocument)](#ata-06-dimensions_and_areas)
- │   └─ (ATA 06-10) [OVERALL_DIMENSIONS (CATPart)](#ata-06-10-overall_dimensions)
+---
 
- ├─ (ATA 07) [LIFTING_AND_SHORING (CATDocument)](#ata-07-lifting_and_shoring)
- ├─ (ATA 08) [LEVELING_AND_WEIGHING (CATDocument)](#ata-08-leveling_and_weighing)
- ├─ (ATA 09) [TOWING_AND_TAXIING (CATDocument)](#ata-09-towing_and_taxiing)
- ├─ (ATA 10) [PARKING_MOORING_AND_STORAGE (CATDocument)](#ata-10-parking_mooring_and_storage)
- ├─ (ATA 11) [PLACARDS_AND_MARKINGS (CATDocument)](#ata-11-placards_and_markings)
- ├─ (ATA 12) [SERVICING (CATDocument)](#ata-12-servicing)
+## **Árbol Híbrido Completo (Product Tree + ToC + ATA)**
 
- ├─ (ATA 20) [STANDARD_PRACTICES_AIRFRAME (CATDocument)](#ata-20-standard_practices_airframe)
- │   └─ (ATA 20-10) [FASTENERS_AND_COMMON_REPAIRS (CATDocument)](#ata-20-10-fasteners_and_common_repairs)
+```plaintext
+AMPEL-360XWLRGA (Top Level Assembly) ......................... [ToC 1.0]
 
- ├─ (ATA 21) [AIR_CONDITIONING (CATProduct)](#ata-21-air_conditioning)
- │   ├─ (ATA 21-10) [PACKS (CATPart)](#ata-21-10-packs)
- │   ├─ (ATA 21-20) [COOLING_TURBINES (CATPart)](#ata-21-20-cooling_turbines)
- │   └─ (ATA 21-30) [AIR_CIRCULATION_FANS (CATPart)](#ata-21-30-air_circulation_fans)
+ ├─ (ATA 01) INTRODUCTION (CATDocument) ...................... [ToC 1.1]
+ │   ├─ (ATA 01-00) General_Notes (CATDocument) .............. [ToC 1.1.1]
+ │   └─ (ATA 01-10) Project_Definition (CATDocument) ......... [ToC 1.1.2]
 
- ├─ (ATA 22) [AUTO_FLIGHT (CATProduct)](#ata-22-auto_flight)
- │   ├─ (ATA 22-10) [FLIGHT_DIRECTOR (CATPart)](#ata-22-10-flight_director)
- │   ├─ (ATA 22-20) [AUTOPILOT (CATPart)](#ata-22-20-autopilot)
- │   ├─ (ATA 22-30) [AUTOTHROTTLE (CATPart)](#ata-22-30-autothrottle)
- │   └─ (ATA 22-40) [FLIGHT_MANAGEMENT_SYSTEM (CATPart)](#ata-22-40-flight_management_system)
+ ├─ (ATA 05) PERIODIC_INSPECTION (CATDocument) ............... [ToC 1.2]
+ │   ├─ (ATA 05-10) CHECK_INTERVALS (CATDocument) ............ [ToC 1.2.1]
+ │   └─ (ATA 05-20) MAINTENANCE_PLANS (CATDocument) .......... [ToC 1.2.2]
 
- ├─ (ATA 23) [COMMUNICATIONS (CATProduct)](#ata-23-communications)
- │   ├─ (ATA 23-10) [HF_RADIO (CATPart)](#ata-23-10-hf_radio)
- │   ├─ (ATA 23-20) [VHF_RADIO (CATPart)](#ata-23-20-vhf_radio)
- │   ├─ (ATA 23-30) [SATCOM (CATPart)](#ata-23-30-satcom)
- │   └─ (ATA 23-40) [INTERNAL_COMM_SYSTEM (CATPart)](#ata-23-40-internal_comm_system)
+ ├─ (ATA 06) DIMENSIONS_AND_AREAS (CATDocument) .............. [ToC 1.3]
+ │   └─ (ATA 06-10) OVERALL_DIMENSIONS (CATPart) ............. [ToC 1.3.1]
 
- ├─ (ATA 24) [ELECTRICAL_POWER (CATProduct)](#ata-24-electrical_power)
- │   ├─ (ATA 24-10) [GENERATOR_CONTROL (CATPart)](#ata-24-10-generator_control)
- │   ├─ (ATA 24-20) [MAIN_DC_BUS (CATPart)](#ata-24-20-main_dc_bus)
- │   ├─ (ATA 24-30) [BATTERIES (CATPart)](#ata-24-30-batteries)
- │   └─ (ATA 24-40) [ELECTRICAL_DISTRIBUTION (CATPart)](#ata-24-40-electrical_distribution)
+ ├─ (ATA 07) LIFTING_AND_SHORING (CATDocument) ............... [ToC 1.4]
+ ├─ (ATA 08) LEVELING_AND_WEIGHING (CATDocument) ............. [ToC 1.5]
+ ├─ (ATA 09) TOWING_AND_TAXIING (CATDocument) ................ [ToC 1.6]
+ ├─ (ATA 10) PARKING_MOORING_AND_STORAGE (CATDocument) ....... [ToC 1.7]
+ ├─ (ATA 11) PLACARDS_AND_MARKINGS (CATDocument) ............. [ToC 1.8]
+ ├─ (ATA 12) SERVICING (CATDocument) ......................... [ToC 1.9]
 
- ├─ (ATA 25) [EQUIPMENT_FURNISHINGS (CATProduct)](#ata-25-equipment_furnishings)
- │   ├─ (ATA 25-10) [INTERIOR (CATProduct)](#ata-25-10-interior)
- │   │   ├─ (ATA 25-11) [FLOOR_GRID (CATPart)](#ata-25-11-floor_grid)
- │   │   ├─ (ATA 25-12) [SEATS (CATProduct)](#ata-25-12-seats)
- │   │   │   ├─ (ATA 25-12.1) [SEAT_TYPE_A (CATPart)](#ata-25-121-seat_type_a)
- │   │   │   └─ (ATA 25-12.2) [SEAT_TYPE_B (CATPart)](#ata-25-122-seat_type_b)
- │   │   └─ (ATA 25-13) [PANELS (CATPart)](#ata-25-13-panels)
- │   ├─ (ATA 25-20) [CARGO_COMPARTMENT_EQUIPMENT (CATPart)](#ata-25-20-cargo_compartment_equipment)
- │   └─ (ATA 25-30) [CABIN_INTERIOR_DETAILS (CATPart)](#ata-25-30-cabin_interior_details)
+ ├─ (ATA 20) STANDARD_PRACTICES_AIRFRAME (CATDocument) ....... [ToC 2.1]
+ │   └─ (ATA 20-10) FASTENERS_AND_COMMON_REPAIRS (CATDocument) [ToC 2.1.1]
 
- ├─ (ATA 26) [FIRE_PROTECTION (CATProduct)](#ata-26-fire_protection)
- │   ├─ (ATA 26-10) [CARGO_FIRE_DETECTION (CATPart)](#ata-26-10-cargo_fire_detection)
- │   ├─ (ATA 26-20) [ENGINE_FIRE_DETECTION (CATPart)](#ata-26-20-engine_fire_detection)
- │   └─ (ATA 26-30) [FIRE_EXTINGUISHING_SYSTEM (CATPart)](#ata-26-30-fire_extinguishing_system)
+ ├─ (ATA 21) AIR_CONDITIONING (CATProduct) ................... [ToC 2.2]
+ │   ├─ (ATA 21-10) PACKS (CATPart) .......................... [ToC 2.2.1]
+ │   ├─ (ATA 21-20) COOLING_TURBINES (CATPart) ............... [ToC 2.2.2]
+ │   └─ (ATA 21-30) AIR_CIRCULATION_FANS (CATPart) ........... [ToC 2.2.3]
 
- ├─ (ATA 27) [FLIGHT_CONTROLS (CATProduct)](#ata-27-flight_controls)
- │   ├─ (ATA 27-10) [PRIMARY_CONTROLS (CATPart)](#ata-27-10-primary_controls)
- │   ├─ (ATA 27-20) [SECONDARY_CONTROLS (CATPart)](#ata-27-20-secondary_controls)
- │   ├─ (ATA 27-30) [ACTUATORS (CATProduct)](#ata-27-30-actuators)
- │   │   └─ (ATA 27-31) [ACTUATOR_TYPE_A (CATPart)](#ata-27-31-actuator_type_a)
- │   └─ (ATA 27-40) [AUTOTRIM_SYSTEM (CATPart)](#ata-27-40-autotrim_system)
+ ├─ (ATA 22) AUTO_FLIGHT (CATProduct) ........................ [ToC 2.3]
+ │   ├─ (ATA 22-10) FLIGHT_DIRECTOR (CATPart) ................ [ToC 2.3.1]
+ │   ├─ (ATA 22-20) AUTOPILOT (CATPart) ...................... [ToC 2.3.2]
+ │   ├─ (ATA 22-30) AUTOTHROTTLE (CATPart) ................... [ToC 2.3.3]
+ │   └─ (ATA 22-40) FLIGHT_MANAGEMENT_SYSTEM (CATPart) ....... [ToC 2.3.4]
 
- ├─ (ATA 28) [FUEL (CATProduct)](#ata-28-fuel)
- │   ├─ (ATA 28-10) [FUEL_TANKS (CATProduct)](#ata-28-10-fuel_tanks)
- │   │   ├─ [WING_TANK (CATPart)](#ata-28-10-wing_tank)
- │   │   └─ [CENTER_TANK (CATPart)](#ata-28-10-center_tank)
- │   ├─ (ATA 28-20) [FUEL_PUMPS (CATPart)](#ata-28-20-fuel_pumps)
- │   └─ (ATA 28-30) [FUEL_VALVES (CATPart)](#ata-28-30-fuel_valves)
+ ├─ (ATA 23) COMMUNICATIONS (CATProduct) ..................... [ToC 2.4]
+ │   ├─ (ATA 23-10) HF_RADIO (CATPart) ....................... [ToC 2.4.1]
+ │   ├─ (ATA 23-20) VHF_RADIO (CATPart) ...................... [ToC 2.4.2]
+ │   ├─ (ATA 23-30) SATCOM (CATPart) ......................... [ToC 2.4.3]
+ │   └─ (ATA 23-40) INTERNAL_COMM_SYSTEM (CATPart) ........... [ToC 2.4.4]
 
- ├─ (ATA 29) [HYDRAULIC_POWER (CATProduct)](#ata-29-hydraulic_power)
- │   ├─ (ATA 29-10) [HYDRAULIC_PUMPS (CATPart)](#ata-29-10-hydraulic_pumps)
- │   └─ (ATA 29-20) [RESERVOIR_ACCUMULATORS (CATPart)](#ata-29-20-reservoir_accumulators)
+ ├─ (ATA 24) ELECTRICAL_POWER (CATProduct) ................... [ToC 2.5]
+ │   ├─ (ATA 24-10) GENERATOR_CONTROL (CATPart) .............. [ToC 2.5.1]
+ │   ├─ (ATA 24-20) MAIN_DC_BUS (CATPart) .................... [ToC 2.5.2]
+ │   ├─ (ATA 24-30) BATTERIES (CATPart) ...................... [ToC 2.5.3]
+ │   └─ (ATA 24-40) ELECTRICAL_DISTRIBUTION (CATPart) ........ [ToC 2.5.4]
 
- ├─ (ATA 30) [ICE_AND_RAIN_PROTECTION (CATProduct)](#ata-30-ice_and_rain_protection)
- │   ├─ (ATA 30-10) [WING_ANTI_ICE (CATPart)](#ata-30-10-wing_anti_ice)
- │   ├─ (ATA 30-20) [ENGINE_ANTI_ICE (CATPart)](#ata-30-20-engine_anti_ice)
- │   └─ (ATA 30-30) [WINDSHIELD_HEAT (CATPart)](#ata-30-30-windshield_heat)
+ ├─ (ATA 25) EQUIPMENT_FURNISHINGS (CATProduct) .............. [ToC 2.6]
+ │   ├─ (ATA 25-10) INTERIOR (CATProduct) .................... [ToC 2.6.1]
+ │   │   ├─ (ATA 25-11) FLOOR_GRID (CATPart) ................. [ToC 2.6.1.1]
+ │   │   ├─ (ATA 25-12) SEATS (CATProduct) ................... [ToC 2.6.1.2]
+ │   │   │   ├─ (ATA 25-12.1) SEAT_TYPE_A (CATPart) .......... [ToC 2.6.1.2.1]
+ │   │   │   └─ (ATA 25-12.2) SEAT_TYPE_B (CATPart) .......... [ToC 2.6.1.2.2]
+ │   │   └─ (ATA 25-13) PANELS (CATPart) ..................... [ToC 2.6.1.3]
+ │   ├─ (ATA 25-20) CARGO_COMPARTMENT_EQUIPMENT (CATPart) .... [ToC 2.6.2]
+ │   └─ (ATA 25-30) CABIN_INTERIOR_DETAILS (CATPart) ......... [ToC 2.6.3]
 
- ├─ (ATA 31) [INDICATING_RECORDING_SYSTEMS (CATProduct)](#ata-31-indicating_recording_systems)
- │   ├─ (ATA 31-10) [COCKPIT_INSTRUMENTS (CATPart)](#ata-31-10-cockpit_instruments)
- │   └─ (ATA 31-20) [RECORDERS (CATPart)](#ata-31-20-recorders)
+ ├─ (ATA 26) FIRE_PROTECTION (CATProduct) .................... [ToC 2.7]
+ │   ├─ (ATA 26-10) CARGO_FIRE_DETECTION (CATPart) ........... [ToC 2.7.1]
+ │   ├─ (ATA 26-20) ENGINE_FIRE_DETECTION (CATPart) .......... [ToC 2.7.2]
+ │   └─ (ATA 26-30) FIRE_EXTINGUISHING_SYSTEM (CATPart) ...... [ToC 2.7.3]
 
- ├─ (ATA 32) [LANDING_GEAR (CATProduct)](#ata-32-landing_gear)
- │   ├─ (ATA 32-10) [NOSE_GEAR (CATProduct)](#ata-32-10-nose_gear)
- │   ├─ (ATA 32-20) [MAIN_GEAR (CATProduct)](#ata-32-20-main_gear)
- │   │   ├─ [LEFT_GEAR (CATPart)](#ata-32-20-left_gear)
- │   │   └─ [RIGHT_GEAR (CATPart)](#ata-32-20-right_gear)
- │   └─ (ATA 32-30) [BRAKING_SYSTEM (CATPart)](#ata-32-30-braking_system)
+ ├─ (ATA 27) FLIGHT_CONTROLS (CATProduct) .................... [ToC 2.8]
+ │   ├─ (ATA 27-10) PRIMARY_CONTROLS (CATPart) ............... [ToC 2.8.1]
+ │   ├─ (ATA 27-20) SECONDARY_CONTROLS (CATPart) ............. [ToC 2.8.2]
+ │   ├─ (ATA 27-30) ACTUATORS (CATProduct) ................... [ToC 2.8.3]
+ │   │   └─ (ATA 27-31) ACTUATOR_TYPE_A (CATPart) ............ [ToC 2.8.3.1]
+ │   └─ (ATA 27-40) AUTOTRIM_SYSTEM (CATPart) ................ [ToC 2.8.4]
 
- ├─ (ATA 33) [LIGHTS (CATProduct)](#ata-33-lights)
- │   ├─ (ATA 33-10) [CABIN_LIGHTING (CATPart)](#ata-33-10-cabin_lighting)
- │   ├─ (ATA 33-20) [COCKPIT_LIGHTING (CATPart)](#ata-33-20-cockpit_lighting)
- │   └─ (ATA 33-30) [EXTERNAL_LIGHTS (CATPart)](#ata-33-30-external_lights)
+ ├─ (ATA 28) FUEL (CATProduct) ............................... [ToC 2.9]
+ │   ├─ (ATA 28-10) FUEL_TANKS (CATProduct) .................. [ToC 2.9.1]
+ │   │   ├─ WING_TANK (CATPart) .............................. [ToC 2.9.1.1]
+ │   │   └─ CENTER_TANK (CATPart) ............................ [ToC 2.9.1.2]
+ │   ├─ (ATA 28-20) FUEL_PUMPS (CATPart) ..................... [ToC 2.9.2]
+ │   └─ (ATA 28-30) FUEL_VALVES (CATPart) .................... [ToC 2.9.3]
 
- ├─ (ATA 34) [NAVIGATION (CATProduct)](#ata-34-navigation)
- │   ├─ (ATA 34-10) [NAV_SYSTEM (CATPart)](#ata-34-10-nav_system)
- │   ├─ (ATA 34-20) [FLIGHT_MANAGEMENT_COMPUTER (CATPart)](#ata-34-20-flight_management_computer)
- │   └─ (ATA 34-30) [GPS_RECEIVER (CATPart)](#ata-34-30-gps_receiver)
+ ├─ (ATA 29) HYDRAULIC_POWER (CATProduct) .................... [ToC 2.10]
+ │   ├─ (ATA 29-10) HYDRAULIC_PUMPS (CATPart) ................ [ToC 2.10.1]
+ │   └─ (ATA 29-20) RESERVOIR_ACCUMULATORS (CATPart) ......... [ToC 2.10.2]
 
- ├─ (ATA 35) [OXYGEN (CATProduct)](#ata-35-oxygen)
- │   ├─ (ATA 35-10) [CREW_OXY_SYSTEM (CATPart)](#ata-35-10-crew_oxy_system)
- │   └─ (ATA 35-20) [PASSENGER_OXY_SYSTEM (CATPart)](#ata-35-20-passenger_oxy_system)
+ ├─ (ATA 30) ICE_AND_RAIN_PROTECTION (CATProduct) ............ [ToC 2.11]
+ │   ├─ (ATA 30-10) WING_ANTI_ICE (CATPart) .................. [ToC 2.11.1]
+ │   ├─ (ATA 30-20) ENGINE_ANTI_ICE (CATPart) ................ [ToC 2.11.2]
+ │   └─ (ATA 30-30) WINDSHIELD_HEAT (CATPart) ................ [ToC 2.11.3]
 
- ├─ (ATA 36) [PNEUMATIC (CATProduct)](#ata-36-pneumatic)
- │   ├─ (ATA 36-10) [BLEED_AIR_CONTROL (CATPart)](#ata-36-10-bleed_air_control)
- │   └─ (ATA 36-20) [AIR_DISTRIBUTION (CATPart)](#ata-36-20-air_distribution)
+ ├─ (ATA 31) INDICATING_RECORDING_SYSTEMS (CATProduct) ....... [ToC 2.12]
+ │   ├─ (ATA 31-10) COCKPIT_INSTRUMENTS (CATPart) .............[ToC 2.12.1]
+ │   └─ (ATA 31-20) RECORDERS (CATPart) ...................... [ToC 2.12.2]
 
- ├─ (ATA 38) [WATER_WASTE (CATProduct)](#ata-38-water_waste)
- │   ├─ (ATA 38-10) [WATER_SYSTEM (CATPart)](#ata-38-10-water_system)
- │   └─ (ATA 38-20) [WASTE_MANAGEMENT (CATPart)](#ata-38-20-waste_management)
+ ├─ (ATA 32) LANDING_GEAR (CATProduct) ....................... [ToC 2.13]
+ │   ├─ (ATA 32-10) NOSE_GEAR (CATProduct) ................... [ToC 2.13.1]
+ │   ├─ (ATA 32-20) MAIN_GEAR (CATProduct) ................... [ToC 2.13.2]
+ │   │   ├─ LEFT_GEAR (CATPart) .............................. [ToC 2.13.2.1]
+ │   │   └─ RIGHT_GEAR (CATPart) ............................. [ToC 2.13.2.2]
+ │   └─ (ATA 32-30) BRAKING_SYSTEM (CATPart) ................. [ToC 2.13.3]
 
- ├─ (ATA 39) [ELECTRICAL_ELECTRONIC_PANELS (CATProduct)](#ata-39-electrical_electronic_panels)
- │   └─ (ATA 39-10) [PANEL_ASSEMBLIES (CATPart)](#ata-39-10-panel_assemblies)
+ ├─ (ATA 33) LIGHTS (CATProduct) ............................. [ToC 2.14]
+ │   ├─ (ATA 33-10) CABIN_LIGHTING (CATPart) ................. [ToC 2.14.1]
+ │   ├─ (ATA 33-20) COCKPIT_LIGHTING (CATPart) ............... [ToC 2.14.2]
+ │   └─ (ATA 33-30) EXTERNAL_LIGHTS (CATPart) ................ [ToC 2.14.3]
 
- ├─ (ATA 42) [INTEGRATED_MODULAR_AVIONICS (CATProduct)](#ata-42-integrated_modular_avionics)
- │   ├─ (ATA 42-10) [IMA_MAIN_RACK (CATPart)](#ata-42-10-ima_main_rack)
- │   └─ (ATA 42-20) [IMA_EXPANSION_MODULE (CATPart)](#ata-42-20-ima_expansion_module)
+ ├─ (ATA 34) NAVIGATION (CATProduct) ......................... [ToC 2.15]
+ │   ├─ (ATA 34-10) NAV_SYSTEM (CATPart) ..................... [ToC 2.15.1]
+ │   ├─ (ATA 34-20) FLIGHT_MANAGEMENT_COMPUTER (CATPart) ..... [ToC 2.15.2]
+ │   └─ (ATA 34-30) GPS_RECEIVER (CATPart) ................... [ToC 2.15.3]
 
- ├─ (ATA 44) [CABIN_SYSTEMS (CATProduct)](#ata-44-cabin_systems)
- │   ├─ (ATA 44-10) [INFLIGHT_ENTERTAINMENT (CATPart)](#ata-44-10-inflight_entertainment)
- │   └─ (ATA 44-20) [CABIN_NETWORKS (CATPart)](#ata-44-20-cabin_networks)
+ ├─ (ATA 35) OXYGEN (CATProduct) ............................. [ToC 2.16]
+ │   ├─ (ATA 35-10) CREW_OXY_SYSTEM (CATPart) ................ [ToC 2.16.1]
+ │   └─ (ATA 35-20) PASSENGER_OXY_SYSTEM (CATPart) ........... [ToC 2.16.2]
 
- ├─ (ATA 45) [CENTRAL_MAINTENANCE_SYSTEM (CATProduct)](#ata-45-central_maintenance_system)
- │   ├─ (ATA 45-10) [DIAGNOSTIC_MODULE (CATPart)](#ata-45-10-diagnostic_module)
- │   └─ (ATA 45-20) [DATA_LOGGER (CATPart)](#ata-45-20-data_logger)
+ ├─ (ATA 36) PNEUMATIC (CATProduct) .......................... [ToC 2.17]
+ │   ├─ (ATA 36-10) BLEED_AIR_CONTROL (CATPart) .............. [ToC 2.17.1]
+ │   └─ (ATA 36-20) AIR_DISTRIBUTION (CATPart) ............... [ToC 2.17.2]
 
- ├─ (ATA 46) [INFORMATION_SYSTEMS (CATProduct)](#ata-46-information_systems)
- │   ├─ (ATA 46-10) [CABIN_MANAGEMENT (CATPart)](#ata-46-10-cabin_management)
- │   └─ (ATA 46-20) [WIRELESS_COMM_MODULE (CATPart)](#ata-46-20-wireless_comm_module)
+ ├─ (ATA 38) WATER_WASTE (CATProduct) ........................ [ToC 2.18]
+ │   ├─ (ATA 38-10) WATER_SYSTEM (CATPart) ................... [ToC 2.18.1]
+ │   └─ (ATA 38-20) WASTE_MANAGEMENT (CATPart) ............... [ToC 2.18.2]
 
- ├─ (ATA 47) [NITROGEN_GENERATION_SYSTEM (CATProduct)](#ata-47-nitrogen_generation_system)
- │   └─ (ATA 47-10) [NGS_MODULE (CATPart)](#ata-47-10-ngs_module)
+ ├─ (ATA 39) ELECTRICAL_ELECTRONIC_PANELS (CATProduct) ....... [ToC 2.19]
+ │   └─ (ATA 39-10) PANEL_ASSEMBLIES (CATPart) ............... [ToC 2.19.1]
 
- ├─ (ATA 49) [AUXILIARY_POWER_UNIT (CATProduct)](#ata-49-auxiliary_power_unit)
- │   ├─ (ATA 49-10) [APU_CORE (CATPart)](#ata-49-10-apu_core)
- │   └─ (ATA 49-20) [APU_CONTROL_SYSTEM (CATPart)](#ata-49-20-apu_control_system)
+ ├─ (ATA 40) MULTISYSTEM (CATProduct) ........................ [ToC 2.20]
+ │   ├─ QUANTUM_ALGORITHMS (CATPart) ......................... [ToC 2.20.1]
+ │   ├─ DIGITAL_TWINS (CATPart) .............................. [ToC 2.20.2]
+ │   ├─ PREDICTIVE_MAINTENANCE (CATPart) ..................... [ToC 2.20.3]
+ │   ├─ BLOCKCHAIN_SUPPLY (CATPart) .......................... [ToC 2.20.4]
+ │   ├─ ROBOT_COBOT_LINES (CATPart) .......................... [ToC 2.20.5]
+ │   └─ 3D_PRINTING_CLASSES (CATPart) ........................ [ToC 2.20.6]
 
- ├─ (ATA 50) [CARGO_AND_ACCESSORY_COMPARTMENTS (CATProduct)](#ata-50-cargo_and_accessory_compartments)
- │   ├─ (ATA 50-10) [CONTAINERS_SYSTEM (CATPart)](#ata-50-10-containers_system)
- │   └─ (ATA 50-20) [CARGO_LOADING_MECHANISM (CATPart)](#ata-50-20-cargo_loading_mechanism)
+ ├─ (ATA 42) INTEGRATED_MODULAR_AVIONICS (CATProduct) ........ [ToC 2.21]
+ │   ├─ (ATA 42-10) IMA_MAIN_RACK (CATPart) .................. [ToC 2.21.1]
+ │   └─ (ATA 42-20) IMA_EXPANSION_MODULE (CATPart) ........... [ToC 2.21.2]
 
- ├─ (ATA 51) [STANDARD_PRACTICES_STRUCTURES (CATDocument)](#ata-51-standard_practices_structures)
- │   └─ (ATA 51-10) [COMPOSITE_REPAIRS (CATDocument)](#ata-51-10-composite_repairs)
+ ├─ (ATA 44) CABIN_SYSTEMS (CATProduct) ...................... [ToC 2.22]
+ │   ├─ (ATA 44-10) INFLIGHT_ENTERTAINMENT (CATPart) ......... [ToC 2.22.1]
+ │   └─ (ATA 44-20) CABIN_NETWORKS (CATPart) ................. [ToC 2.22.2]
 
- ├─ (ATA 52) [DOORS (CATProduct)](#ata-52-doors)
- │   ├─ (ATA 52-10) [PASSENGER_DOORS (CATPart)](#ata-52-10-passenger_doors)
- │   └─ (ATA 52-20) [CARGO_DOORS (CATPart)](#ata-52-20-cargo_doors)
+ ├─ (ATA 45) CENTRAL_MAINTENANCE_SYSTEM (CATProduct) ......... [ToC 2.23]
+ │   ├─ (ATA 45-10) DIAGNOSTIC_MODULE (CATPart) .............. [ToC 2.23.1]
+ │   └─ (ATA 45-20) DATA_LOGGER (CATPart) .................... [ToC 2.23.2]
 
- ├─ (ATA 53) [FUSELAGE (CATProduct)](#ata-53-fuselage)
- │   ├─ (ATA 53-10) [FWD_SECTION (CATPart)](#ata-53-10-fwd_section)
- │   ├─ (ATA 53-20) [MID_SECTION (CATPart)](#ata-53-20-mid_section)
- │   └─ (ATA 53-30) [AFT_SECTION (CATPart)](#ata-53-30-aft_section)
+ ├─ (ATA 46) INFORMATION_SYSTEMS (CATProduct) ................ [ToC 2.24]
+ │   ├─ (ATA 46-10) CABIN_MANAGEMENT (CATPart) ............... [ToC 2.24.1]
+ │   └─ (ATA 46-20) WIRELESS_COMM_MODULE (CATPart) ........... [ToC 2.24.2]
 
- ├─ (ATA 54) [NACELLES_PYLONS (CATProduct)](#ata-54-nacelles_pylons)
- │   ├─ (ATA 54-10) [LEFT_ENGINE_PYLON (CATPart)](#ata-54-10-left_engine_pylon)
- │   └─ (ATA 54-20) [RIGHT_ENGINE_PYLON (CATPart)](#ata-54-20-right_engine_pylon)
+ ├─ (ATA 47) NITROGEN_GENERATION_SYSTEM (CATProduct) ......... [ToC 2.25]
+ │   └─ (ATA 47-10) NGS_MODULE (CATPart) ..................... [ToC 2.25.1]
 
- ├─ (ATA 55) [STABILIZERS (CATProduct)](#ata-55-stabilizers)
- │   ├─ (ATA 55-10) [VERTICAL_STABILIZER (CATPart)](#ata-55-10-vertical_stabilizer)
- │   │   └─ (ATA 55-11) [RUDDER (CATPart)](#ata-55-11-rudder)
- │   └─ (ATA 55-20) [HORIZONTAL_STABILIZER (CATProduct)](#ata-55-20-horizontal_stabilizer)
- │       └─ (ATA 55-21) [ELEVATOR (CATPart)](#ata-55-21-elevator)
+ ├─ (ATA 49) AUXILIARY_POWER_UNIT (CATProduct) ............... [ToC 2.26]
+ │   ├─ (ATA 49-10) APU_CORE (CATPart) ....................... [ToC 2.26.1]
+ │   └─ (ATA 49-20) APU_CONTROL_SYSTEM (CATPart) ............. [ToC 2.26.2]
 
- ├─ (ATA 56) [WINDOWS (CATProduct)](#ata-56-windows)
- │   ├─ (ATA 56-10) [WINDSHIELD (CATPart)](#ata-56-10-windshield)
- │   └─ (ATA 56-20) [CABIN_WINDOWS (CATPart)](#ata-56-20-cabin_windows)
+ ├─ (ATA 50) CARGO_AND_ACCESSORY_COMPARTMENTS (CATProduct) ... [ToC 2.27]
+ │   ├─ (ATA 50-10) CONTAINERS_SYSTEM (CATPart) .............. [ToC 2.27.1]
+ │   └─ (ATA 50-20) CARGO_LOADING_MECHANISM (CATPart) ........ [ToC 2.27.2]
 
- ├─ (ATA 57) [WINGS (CATProduct)](#ata-57-wings)
- │   ├─ (ATA 57-10) [WING_LEFT (CATPart)](#ata-57-10-wing_left)
- │   ├─ (ATA 57-20) [AERODYNAMIC_SURFACES (CATProduct)](#ata-57-20-aerodynamic_surfaces)
- │   │   └─ (ATA 57-21) [MODULAR_KEY_ASSEMBLY (CATProduct)](#ata-57-21-modular_key_assembly)
- │   │       ├─ (ATA 57-21.1) [KEY_1 (CATPart)](#ata-57-211-key_1)
- │   │       ├─ (ATA 57-21.2) [KEY_2 (CATPart)](#ata-57-212-key_2)
- │   │       ├─ (ATA 57-21.3) [KEY_3 (CATPart)](#ata-57-213-key_3)
- │   │       ├─ (ATA 57-21.4) [KEY_4 (CATPart)](#ata-57-214-key_4)
- │   │       └─ (ATA 57-21.5) [KEY_5 (CATPart)](#ata-57-215-key_5)
- │   ├─ (ATA 57-30) [WING_STRUCTURE (CATPart)](#ata-57-30-wing_structure)
- │   │   ├─ [SPARS (CATPart)](#ata-57-30-spars)
- │   │   ├─ [RIBS (CATPart)](#ata-57-30-ribs)
- │   │   └─ [SKIN (CATPart)](#ata-57-30-skin)
- │   ├─ (ATA 57-40) [RENEWABLE_ENERGY_COMPONENTS (CATProduct)](#ata-57-40-renewable_energy_components)
- │   │   ├─ (ATA 57-41) [MICROTURBINE_ASSEMBLY (CATPart)](#ata-57-41-microturbine_assembly)
- │   │   └─ (ATA 57-42) [PHOTOVOLTAIC_PANEL_ASSEMBLY (CATPart)](#ata-57-42-photovoltaic_panel_assembly)
- │   ├─ (ATA 57-90) [WING_RIGHT (CATPart)](#ata-57-90-wing_right)
- │   └─ (ATA 27) [WING_ACTUATORS (CATProduct)](#ata-27-wing_actuators)   // Ejemplo: asociar flight controls
+ ├─ (ATA 51) STANDARD_PRACTICES_STRUCTURES (CATDocument) ..... [ToC 2.28]
+ │   └─ (ATA 51-10) COMPOSITE_REPAIRS (CATDocument) .......... [ToC 2.28.1]
 
- ├─ (ATA 70) [STANDARD_PRACTICES_ENGINE (CATDocument)](#ata-70-standard_practices_engine)
- ├─ (ATA 71) [POWERPLANT (CATProduct)](#ata-71-powerplant)
- │   ├─ (ATA 71-10) [ENGINE_NACELLE (CATPart)](#ata-71-10-engine_nacelle)
- │   ├─ (ATA 71-20) [ENGINE_MOUNTS (CATPart)](#ata-71-20-engine_mounts)
- │   └─ (ATA 72) [ENGINE (CATProduct)](#ata-72-engine)
- │       ├─ (ATA 72-10) [ENGINE_CORE (CATPart)](#ata-72-10-engine_core)
- │       └─ (ATA 28) [FUEL_SUPPLY (CATProduct)](#ata-28-fuel_supply)
- │           ├─ [WING_TANK (CATPart)](#ata-28-wing_tank)
- │           └─ [CENTER_TANK (CATPart)](#ata-28-center_tank)
+ ├─ (ATA 54) NACELLES_PYLONS (CATProduct) .................... [ToC 2.29]
+ │   ├─ (ATA 54-10) LEFT_ENGINE_PYLON (CATPart) .............. [ToC 2.29.1]
+ │   └─ (ATA 54-20) RIGHT_ENGINE_PYLON (CATPart) ............. [ToC 2.29.2]
 
- ├─ (ATA 73) [ENGINE_FUEL_AND_CONTROL (CATProduct)](#ata-73-engine_fuel_and_control)
- ├─ (ATA 74) [IGNITION (CATProduct)](#ata-74-ignition)
- ├─ (ATA 75) [AIR_(BLEED) (CATProduct)](#ata-75-air_bleed)
- ├─ (ATA 76) [ENGINE_CONTROLS (CATProduct)](#ata-76-engine_controls)
- ├─ (ATA 77) [ENGINE_INDICATING (CATProduct)](#ata-77-engine_indicating)
- ├─ (ATA 78) [EXHAUST (CATProduct)](#ata-78-exhaust)
- ├─ (ATA 79) [OIL (CATProduct)](#ata-79-oil)
- ├─ (ATA 80) [STARTING (CATProduct)](#ata-80-starting)
- ├─ (ATA 81) [TURBOCHARGING (CATProduct)](#ata-81-turbocharging)
- ├─ (ATA 82) [WATER_INJECTION (CATProduct)](#ata-82-water_injection)
- ├─ (ATA 83) [ACCESSORY_GEARBOXES (CATProduct)](#ata-83-accessory_gearboxes)
- ├─ (ATA 85) [STARTING_IGNITION (CATDocument)](#ata-85-starting_ignition)
+ ├─ (ATA 55) STABILIZERS (CATProduct) ........................ [ToC 2.30]
+ │   ├─ (ATA 55-10) VERTICAL_STABILIZER (CATPart) ............ [ToC 2.30.1]
+ │   │   └─ (ATA 55-11) RUDDER (CATPart) ..................... [ToC 2.30.1.1]
+ │   └─ (ATA 55-20) HORIZONTAL_STABILIZER (CATProduct) ....... [ToC 2.30.2]
+ │       └─ (ATA 55-21) ELEVATOR (CATPart) ................... [ToC 2.30.2.1]
 
- ├─ (ATA 91) [CHARTS (CATDocument)](#ata-91-charts)
- ├─ (ATA 92) [ELECTRICAL_ROUTING (CATDocument)](#ata-92-electrical_routing)
- └─ (ATA 99) [MISCELLANEOUS (CATProduct)](#ata-99-miscellaneous)
-     └─ (ATA 99-10) [SPECIAL_ADAPTERS (CATPart)](#ata-99-10-special_adapters)
+ ├─ (ATA 56) WINDOWS (CATProduct) ............................ [ToC 2.31]
+ │   ├─ (ATA 56-10) WINDSHIELD (CATPart) ..................... [ToC 2.31.1]
+ │   └─ (ATA 56-20) CABIN_WINDOWS (CATPart) .................. [ToC 2.31.2]
+
+ ├─ (ATA 70) STANDARD_PRACTICES_ENGINE (CATDocument) ......... [ToC 3.1]
+ ├─ (ATA 71) POWERPLANT (CATProduct) ......................... [ToC 3.2]
+ │   ├─ (ATA 71-10) ENGINE_NACELLE (CATPart) ................. [ToC 3.2.1]
+ │   ├─ (ATA 71-20) ENGINE_MOUNTS (CATPart) .................. [ToC 3.2.2]
+ │   └─ (ATA 72) ENGINE (CATProduct) ......................... [ToC 3.3]
+ │       ├─ (ATA 72-10) ENGINE_CORE (CATPart) ................ [ToC 3.3.1]
+ │       └─ (ATA 28) FUEL_SUPPLY (CATProduct) ................ [ToC 3.3.2]
+ │           ├─ WING_TANK (CATPart) .......................... [ToC 3.3.2.1]
+ │           └─ CENTER_TANK (CATPart) ........................ [ToC 3.3.2.2]
+
+ ├─ (ATA 73) ENGINE_FUEL_AND_CONTROL (CATProduct) ............ [ToC 3.4]
+ ├─ (ATA 74) IGNITION (CATProduct) ........................... [ToC 3.5]
+ ├─ (ATA 75) AIR_(BLEED) (CATProduct) ........................ [ToC 3.6]
+ ├─ (ATA 76) ENGINE_CONTROLS (CATProduct) .................... [ToC 3.7]
+ ├─ (ATA 77) ENGINE_INDICATING (CATProduct) .................. [ToC 3.8]
+ ├─ (ATA 78) EXHAUST (CATProduct) ............................ [ToC 3.9]
+ ├─ (ATA 79) OIL (CATProduct) ................................ [ToC 3.10]
+ ├─ (ATA 80) STARTING (CATProduct) ........................... [ToC 3.11]
+ ├─ (ATA 81) TURBOCHARGING (CATProduct) ...................... [ToC 3.12]
+ ├─ (ATA 82) WATER_INJECTION (CATProduct) .................... [ToC 3.13]
+ ├─ (ATA 83) ACCESSORY_GEARBOXES (CATProduct) ................ [ToC 3.14]
+ ├─ (ATA 85) STARTING_IGNITION (CATDocument) ................. [ToC 3.15]
+
+ ├─ (ATA 91) CHARTS (CATDocument) ............................ [ToC 4.1]
+ ├─ (ATA 92) ELECTRICAL_ROUTING (CATDocument) ................ [ToC 4.2]
+
+ └─ (ATA 99) MISCELLANEOUS (CATProduct) ....................... [ToC 4.3]
+     └─ (ATA 99-10) SPECIAL_ADAPTERS (CATPart) ............... [ToC 4.3.1]
+```
+
+---
+
+### Observaciones
+
+1. **Se respeta** la enumeración ATA completa — inclusive capítulos donde no hay despieces detallados, para que la tabla sea “completa”.  
+2. **Document vs. Product vs. Part**:  
+   - **CATDocument**: Documentos.  
+   - **CATProduct**: Ensambles principales.  
+   - **CATPart**: Piezas individuales o subcomponentes.  
+3. **[ToC X.X]**: Indica la **sección** en tu manual / WBS / README donde se describe o detalla la información de ese capítulo o componente.  
+   - Por ejemplo, ATA 53 (FUSELAGE) se explica en `[ToC 3.1]`.  
+   - ATA 40 (MULTISYSTEM) en `[ToC 2.20]`, etc.  
+4. **Anidación**: Cada subnivel se indenta para mostrar jerarquía BOM (e.g., WING_TANK → subparte de FUEL_TANKS → subparte de FUEL → subparte de la aeronave).  
+5. **Ajustes finales**:  
+   - Cambia `CATDocument` / `CATProduct` / `CATPart` según la realidad de tus archivos CAD/PLM.  
+   - Ajusta los *nombres de secciones ToC* (por ejemplo, `[ToC 3.2.1]`) si tu WBS difiere.  
+   - Si deseas “ATA 40” más arriba en la lista, simplemente muévelo (aunque ATA 40 usualmente vendrá en el rango 1–40).
+
+---
+
+Con este **árbol híbrido** ya **completo**, cubres:
+- **Cada ATA** (01…99) con su numeración.  
+- **Tipos** de documentos o componentes (document, product, part).  
+- **Enlaces** a tu **ToC** o WBS.  
+
+De esta forma, tu equipo visualiza rápidamente *“En qué parte del BOM estoy (ATA/FUSELAGE/Part) y en qué sección del manual (ToC X.X) lo encuentro”*. ¡Listo!
 
 ```
 
