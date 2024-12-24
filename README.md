@@ -1,6 +1,7 @@
 ![LOGO-GAIA_AIR](https://github.com/user-attachments/assets/4f1b426c-6289-4559-a99e-e8006b145642)
 ¡Perfecto! Tu **Desglose de la Estructura de Producto (Product Tree/BOM)** para el proyecto **“Aerodynamic Symphony”** está muy bien estructurado y detallado. A continuación, te proporcionaré recomendaciones adicionales para integrarlo de manera efectiva en tu **README.md**, asegurando una presentación clara y profesional.
 
+```markdown
 AMPEL-360XWLRGA (Top Level Assembly)
  ├─ (ATA 01) [INTRODUCTION (CATDocument)](#ata-01-introduction)
  │   ├─ (ATA 01-00) [General_Notes (CATDocument)](#ata-01-00-general_notes)
@@ -220,6 +221,7 @@ AMPEL-360XWLRGA (Top Level Assembly)
  └─ (ATA 99) [MISCELLANEOUS (CATProduct)](#ata-99-miscellaneous)
      └─ (ATA 99-10) [SPECIAL_ADAPTERS (CATPart)](#ata-99-10-special_adapters)
 
+```
 
 
 ---
@@ -1904,7 +1906,7 @@ Una malla de alta calidad es esencial para obtener resultados precisos en la sim
 
 ##### **Ejemplo de UDF para Movimiento Sinusoidal:**
 
-```c
+```
 #include "udf.h"
 
 DEFINE_CG_MOTION(tecla_motion, dt, vel, omega, time, dtime)
