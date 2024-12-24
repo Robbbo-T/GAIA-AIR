@@ -1,5 +1,96 @@
 ![LOGO-GAIA_AIR](https://github.com/user-attachments/assets/4f1b426c-6289-4559-a99e-e8006b145642)
-¡Perfecto! Tu **Desglose de la Estructura de Producto (Product Tree/BOM)** para el proyecto **“Aerodynamic Symphony”** está muy bien estructurado y detallado. A continuación, te proporcionaré recomendaciones adicionales para integrarlo de manera efectiva en tu **README.md**, asegurando una presentación clara y profesional.
+A continuación tienes un **ejemplo de diagrama Mermaid** que ilustra la estructura general del **BOM** con numeración ATA para la aeronave **AMPEL-360XWLRGA**. Dado que el árbol completo es muy grande, se muestra una **versión resumida** de los principales capítulos (ATA). Puedes ampliarlo o detallar subcapítulos replicando la misma lógica.
+
+> **Nota:**  
+> - Si lo incluyes en un archivo Markdown en GitHub, verás el diagrama estático (sin hipervínculos interactivos).  
+> - Algunas plataformas (por ejemplo, GitLab o extensiones de VSCode) permiten definir `click nodeId href` para enlaces interactivos.  
+> - Ajusta los nombres de los nodos, IDs y ATA según tu proyecto real.
+
+```mermaid
+flowchart TB
+    A((AMPEL-360XWLRGA)):::main --> ATA01[ATA 01<br>INTRODUCTION]
+    A --> ATA05[ATA 05<br>PERIODIC_INSPECTION]
+    A --> ATA06[ATA 06<br>DIMENSIONS_AND_AREAS]
+    A --> ATA20[ATA 20<br>STANDARD_PRACTICES_AIRFRAME]
+    A --> ATA21[ATA 21<br>AIR_CONDITIONING]
+    A --> ATA22[ATA 22<br>AUTO_FLIGHT]
+    A --> ATA23[ATA 23<br>COMMUNICATIONS]
+    A --> ATA24[ATA 24<br>ELECTRICAL_POWER]
+    A --> ATA25[ATA 25<br>EQUIPMENT_FURNISHINGS]
+    A --> ATA27[ATA 27<br>FLIGHT_CONTROLS]
+    A --> ATA28[ATA 28<br>FUEL]
+    A --> ATA29[ATA 29<br>HYDRAULIC_POWER]
+    A --> ATA30[ATA 30<br>ICE_AND_RAIN_PROTECTION]
+    A --> ATA31[ATA 31<br>INDICATING_RECORDING_SYSTEMS]
+    A --> ATA32[ATA 32<br>LANDING_GEAR]
+    A --> ATA33[ATA 33<br>LIGHTS]
+    A --> ATA34[ATA 34<br>NAVIGATION]
+    A --> ATA35[ATA 35<br>OXYGEN]
+    A --> ATA36[ATA 36<br>PNEUMATIC]
+    A --> ATA38[ATA 38<br>WATER_WASTE]
+    A --> ATA39[ATA 39<br>ELECTRICAL_ELECTRONIC_PANELS]
+    A --> ATA42[ATA 42<br>INTEGRATED_MODULAR_AVIONICS]
+    A --> ATA44[ATA 44<br>CABIN_SYSTEMS]
+    A --> ATA45[ATA 45<br>CENTRAL_MAINTENANCE_SYSTEM]
+    A --> ATA46[ATA 46<br>INFORMATION_SYSTEMS]
+    A --> ATA47[ATA 47<br>NITROGEN_GENERATION_SYSTEM]
+    A --> ATA49[ATA 49<br>AUXILIARY_POWER_UNIT]
+    A --> ATA50[ATA 50<br>CARGO_AND_ACCESSORY_COMPARTMENTS]
+    A --> ATA51[ATA 51<br>STANDARD_PRACTICES_STRUCTURES]
+    A --> ATA52[ATA 52<br>DOORS]
+    A --> ATA53[ATA 53<br>FUSELAGE]
+    A --> ATA54[ATA 54<br>NACELLES_PYLONS]
+    A --> ATA55[ATA 55<br>STABILIZERS]
+    A --> ATA56[ATA 56<br>WINDOWS]
+    A --> ATA57[ATA 57<br>WINGS]
+    A --> ATA70[ATA 70<br>STANDARD_PRACTICES_ENGINE]
+    A --> ATA71[ATA 71<br>POWERPLANT]
+    A --> ATA73[ATA 73<br>ENGINE_FUEL_AND_CONTROL]
+    A --> ATA85[ATA 85<br>STARTING_IGNITION]
+    A --> ATA99[ATA 99<br>MISCELLANEOUS]
+
+    classDef main fill:#E6F7FF,stroke:#0080FF,stroke-width:2px
+
+    %% Si deseas "estilo" adicional en tus nodos, define más 'classDef'
+    %% y asigna ':::clase' al nodo que gustes
+```
+
+### Cómo visualizar el diagrama
+1. **En GitHub**: Pega el bloque anterior en un archivo `.md`. Aún no se renderizará de forma nativa, pero puedes usar [Mermaid Live Editor](https://mermaid.live/) o extensiones de navegador/VSCode para previsualizarlo.  
+2. **En GitLab**: Se renderiza automáticamente en `.md` con ` ```mermaid ` .  
+3. **En otras plataformas**: Asegúrate de contar con soporte para **Mermaid**.
+
+---
+
+## Ejemplo para Expansiones (Subcapítulos)
+Si deseas **profundizar** en un capítulo (por ejemplo, ATA 57 WINGS) con sus subcompartimentos, podrías anidar más nodos, por ejemplo:
+
+```mermaid
+flowchart TB
+    WINGS["ATA 57<br>WINGS"]:::chapter --> W57_10(WING_LEFT)
+    WINGS --> W57_20(AERODYNAMIC_SURFACES)
+    WINGS --> W57_30(WING_STRUCTURE)
+    WINGS --> W57_90(WING_RIGHT)
+```
+
+Para luego conectarlo al diagrama principal, donde `A --> ATA57[ATA 57<br>WINGS]` apunte a este subdiagrama, o bien muestres todo en uno solo. Todo depende de la legibilidad que busques.
+
+---
+
+### Hipervínculos en Mermaid
+Si tu plataforma lo permite (no suele funcionar en GitHub), puedes añadir algo como:
+```mermaid
+flowchart TB
+    A[AMPEL-360XWLRGA] --> ATA57[[ATA 57 WINGS]]
+    click ATA57 "#ata-57-wings" "Ir a la Sección ATA 57 en mi README"
+```
+Sin embargo, GitHub **no** soporta `click nodeId href` en sus propios renders. Otros entornos (como GitLab o ciertos browsers) sí.
+
+---
+
+**¡Listo!** Con este diagrama Mermaid tienes una **vista simplificada** de cómo se interrelacionan los capítulos ATA de tu aeronave **AMPEL-360XWLRGA**. Puedes duplicar y/o anidar diagramas similares para los subcapítulos o subensambles, ajustando nombres y enlaces a tu manual de referencia. 
+
+
 
 ```markdown
 AMPEL-360XWLRGA (Top Level Assembly)
