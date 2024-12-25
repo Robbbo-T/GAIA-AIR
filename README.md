@@ -441,10 +441,9 @@ Para gestionar eficientemente estas tablas y sus respectivas descripciones, cons
 
 # Work Breakdown Structure (WBS) para GAIA AIR – AMPEL-360XWLRGA
 
-A continuación, se presenta una **propuesta completa** del **Work Breakdown Structure (WBS)** para el proyecto **GAIA AIR – AMPEL-360XWLRGA**. Esta propuesta está estructurada en **Markdown** e incluye **diagramas Mermaid** para una visualización clara de la estructura del proyecto.
+Para que el gráfico en mermaid se renderice correctamente en el `README.md`, asegúrate de usar etiquetas de código bloque adecuadas y el formato correcto. Aquí tienes un ejemplo de cómo debería verse:
 
-## Diagrama Mermaid del WBS
-
+```markdown
 ```mermaid
 graph TB
     GAIA[GAIA AIR – AMPEL-360XWLRGA]
@@ -562,8 +561,10 @@ graph TB
     Meteorologia --> ModeloPrevision[Modelo De Previsión]
     Meteorologia --> FenomenosAtmosfericos[Fenómenos Atmosféricos]
     Meteorologia --> AnomaliasClimaticas[Anomalias Climáticas]
+``` 
 
-```
+
+Asegúrate de que tienes el soporte de Mermaid habilitado en tu visualizador de Markdown. Actualmente, GitHub no soporta directamente la renderización de diagramas Mermaid en archivos Markdown, pero puedes usar extensiones de terceros para visualizarlo localmente o en tu editor de texto.
 
 ---
 
