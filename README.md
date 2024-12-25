@@ -1,5 +1,6 @@
 ![LOGO-GAIA_AIR](https://github.com/user-attachments/assets/4f1b426c-6289-4559-a99e-e8006b145642)
-¡Claro! A continuación, te presento una **propuesta completa** del **Work Breakdown Structure (WBS)** para el proyecto **GAIA AIR – AMPEL-360XWLRGA**. Esta propuesta está estructurada en **Markdown** e incluye **diagramas Mermaid** para una visualización clara de la estructura del proyecto. He incorporado las tablas proporcionadas, formateadas en Markdown, y he añadido los diagramas correspondientes para facilitar la comprensión y gestión del proyecto.
+
+A continuación, te presento una **propuesta completa** del **Work Breakdown Structure (WBS)** para el proyecto **GAIA AIR – AMPEL-360XWLRGA**. Esta propuesta está estructurada en **Markdown** e incluye **diagramas Mermaid** para una visualización clara de la estructura del proyecto. He incorporado las tablas proporcionadas, formateadas en Markdown, y he añadido los diagramas correspondientes para facilitar la comprensión y gestión del proyecto.
 
 ---
 
