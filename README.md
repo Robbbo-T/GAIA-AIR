@@ -439,18 +439,60 @@ Para gestionar eficientemente estas tablas y sus respectivas descripciones, cons
 
 ---
 
-# Work Breakdown Structure (WBS) para GAIA AIR – AMPEL-360XWLRGA
+Para que el diagrama Mermaid se renderice correctamente en tu `README.md`, sigue estos pasos:
 
-Para que el gráfico en mermaid se renderice correctamente en el `README.md`, asegúrate de usar etiquetas de código bloque adecuadas y el formato correcto. Aquí tienes un ejemplo de cómo debería verse:
+1. **Genera el diagrama como una imagen**:
+   - Usa una herramienta como [Mermaid Live Editor](https://mermaid-js.github.io/mermaid-live-editor/) para crear tu diagrama y exportarlo como una imagen.
 
-![image](https://github.com/user-attachments/assets/631b5271-5c84-4424-b163-d335480dfa11)
+2. **Sube la imagen a tu repositorio**:
+   - Sube la imagen generada a tu repositorio. Puedes crear una carpeta llamada `images` para organizar mejor los archivos.
 
-![image](https://github.com/user-attachments/assets/c0ef45b1-8645-41ae-95f1-3cde79e3bb2c)
+3. **Incluye la imagen en tu `README.md`**:
+   - Usa la siguiente sintaxis para insertar la imagen en tu `README.md`:
 
-![image](https://github.com/user-attachments/assets/c91b9502-627b-46f8-be54-fb8bb385e090)
+```markdown
+![Flowchart](path/to/your/flowchart.png)
+```
 
+Aquí tienes un ejemplo de cómo se vería si hubieras subido la imagen a una carpeta llamada `images`:
 
-Asegúrate de que tienes el soporte de Mermaid habilitado en tu visualizador de Markdown. Actualmente, GitHub no soporta directamente la renderización de diagramas Mermaid en archivos Markdown, pero puedes usar extensiones de terceros para visualizarlo localmente o en tu editor de texto.
+```markdown
+![Flowchart](images/flowchart.png)
+```
+
+### Ejemplo con tu diagrama específico
+
+1. **Genera y guarda tu diagrama**: Exporta el diagrama Mermaid como una imagen.
+
+2. **Sube la imagen**:
+   - Supongamos que subiste la imagen como `images/aviation_flowchart.png`.
+
+3. **Actualiza tu `README.md`**:
+
+```markdown
+![Flowchart](images/aviation_flowchart.png)
+```
+
+Parece que quieres incluir un diagrama en tu `README.md` utilizando el formato de Markdown para imágenes. Para hacerlo, reemplaza `path/to/your/flowchart.png` con la URL o ruta local del archivo del diagrama que deseas incluir.
+
+Si estás utilizando alguno de los diagramas que rendericé anteriormente, puedes hacerlo así:
+
+Para **Aplicaciones de Aviación**:
+```markdown
+![Aplicaciones de Aviación](https://supabase.mermaidchart.com/storage/v1/object/public/chatgpt-diagrams/2024-12-25/b88267a7-0d1d-4dbd-9d76-eda7786e982d.png)
+```
+
+Para **Mantenimiento de la Aviación**:
+```markdown
+![Mantenimiento de la Aviación](https://supabase.mermaidchart.com/storage/v1/object/public/chatgpt-diagrams/2024-12-25/ed073157-3e6a-4a43-92af-daac55836035.png)
+```
+
+Para **Meteorología**:
+```markdown
+![Meteorología](https://supabase.mermaidchart.com/storage/v1/object/public/chatgpt-diagrams/2024-12-25/4a79518b-e39e-4673-8834-aa9fc1049e94.png)
+```
+
+Incluye el bloque correspondiente al diagrama que quieras mostrar. ¿Necesitas ayuda adicional para ajustar el contenido del `README.md`?
 
 ---
 
