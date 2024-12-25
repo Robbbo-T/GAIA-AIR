@@ -227,7 +227,7 @@ Estamos a tu disposición para cualquier aclaración adicional o para profundiza
 
 *(Recuerda que ChatGPT puede ayudarte a expandir o ajustar cualquier sección adicional, generar más subdiagramas Mermaid o proporcionar guías específicas para cada subtarea cuando así lo requieras. ¡Mucho éxito en el desarrollo del proyecto!)*
 
-```
+
 
 ---
 
