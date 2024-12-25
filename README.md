@@ -1,5 +1,5 @@
 ![LOGO-GAIA_AIR](https://github.com/user-attachments/assets/4f1b426c-6289-4559-a99e-e8006b145642)
-¡# GAIA AIR (GAIA Aviation and Intelligence Regulation Standard) Genesis
+# GAIA AIR (GAIA Aviation and Intelligence Regulation Standard) Genesis
 G.A.I.A. es un acrónimo que se suele emplear en contextos donde la inteligencia artificial, la gestión de datos y la optimización de procesos convergen, tomando como base el concepto de un sistema o ecosistema “vivo” e integrador. Aunque su significado puede variar según el proyecto o la iniciativa, en muchos casos se le atribuye la idea de:
    •   Generative
    •   AI (Intelligence)
