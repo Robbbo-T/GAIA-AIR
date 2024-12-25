@@ -4,7 +4,7 @@ A continuación, te presento una **propuesta completa** del **Work Breakdown Str
 
 Aquí tienes el diagrama convertido en formato Markdown para que puedas incluirlo correctamente:
 
-```markdown
+```marmeid
 ---
 config:
   layout: fixed
