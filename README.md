@@ -2,18 +2,11 @@
 
 A continuación, te presento una **propuesta completa** del **Work Breakdown Structure (WBS)** para el proyecto **GAIA AIR – AMPEL-360XWLRGA**. Esta propuesta está estructurada en **Markdown** e incluye **diagramas Mermaid** para una visualización clara de la estructura del proyecto. He incorporado las tablas proporcionadas, formateadas en Markdown, y he añadido los diagramas correspondientes para facilitar la comprensión y gestión del proyecto.
 
-Aquí tienes el diagrama convertido en formato Markdown para que puedas incluirlo correctamente:
-## Diagramas del Proyecto GAIA AIR
+El diagrama ampliado relacionado con la aviación ha sido renderizado con éxito. Aquí está el resultado:
 
-### Aplicaciones de Aviación
-![Aplicaciones de Aviación](https://supabase.mermaidchart.com/storage/v1/object/public/chatgpt-diagrams/2024-12-25/b88267a7-0d1d-4dbd-9d76-eda7786e982d.png)
+![Enhanced Aviation Flowchart](https://supabase.mermaidchart.com/storage/v1/object/public/chatgpt-diagrams/2024-12-25/d63658b7-8d5b-419a-a235-31f6df3b4235.png)
 
-### Mantenimiento de la Aviación
-![Mantenimiento de la Aviación](https://supabase.mermaidchart.com/storage/v1/object/public/chatgpt-diagrams/2024-12-25/ed073157-3e6a-4a43-92af-daac55836035.png)
-
-### Meteorología
-![Meteorología](https://supabase.mermaidchart.com/storage/v1/object/public/chatgpt-diagrams/2024-12-25/4a79518b-e39e-4673-8834-aa9fc1049e94.png)
-
+Puedes editar y guardar este diagrama en el [MermaidChart editor](https://www.mermaidchart.com/app/mermaid-chart-save/2024-12-25/d63658b7-8d5b-419a-a235-31f6df3b4235).
 
 ---
 
