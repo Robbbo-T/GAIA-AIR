@@ -1,105 +1,120 @@
 ![LOGO-GAIA_AIR](https://github.com/user-attachments/assets/4f1b426c-6289-4559-a99e-e8006b145642)
+
 # GAIA AIR (GAIA Aviation and Intelligence Regulation Standard) Genesis
-G.A.I.A. es un acrónimo que se suele emplear en contextos donde la inteligencia artificial, la gestión de datos y la optimización de procesos convergen, tomando como base el concepto de un sistema o ecosistema “vivo” e integrador. Aunque su significado puede variar según el proyecto o la iniciativa, en muchos casos se le atribuye la idea de:
-   •   Generative
-   •   AI (Intelligence)
-   •   Integration
-   •   Automation
 
-A continuación, se presenta una visión resumida de GAIA AIR (GAIA Aviation and Intelligence Regulation Standard), un marco conceptual y operativo orientado a la industria aeronáutica, basado en la filosofía GAIA (gestión holística e inteligente), con el objetivo de integrar la IA, la optimización cuántica, la trazabilidad (blockchain), los gemelos digitales y el cumplimiento de las normativas y estándares aeronáuticos (ATA100, iSPEC2200, S1000D, DO-xxx, etc.).
+**G.A.I.A.** es un acrónimo que se suele emplear en contextos donde la inteligencia artificial, la gestión de datos y la optimización de procesos convergen, tomando como base el concepto de un sistema o ecosistema “vivo” e integrador. Aunque su significado puede variar según el proyecto o la iniciativa, en muchos casos se le atribuye la idea de:
 
-1. ¿Qué es GAIA AIR?
+- **Generative**  
+- **AI (Intelligence)**  
+- **Integration**  
+- **Automation**
+
+A continuación, se presenta una visión resumida de **GAIA AIR** (GAIA Aviation and Intelligence Regulation Standard), un marco conceptual y operativo orientado a la industria aeronáutica, basado en la filosofía GAIA (gestión holística e inteligente), con el objetivo de integrar la IA, la optimización cuántica, la trazabilidad (blockchain), los gemelos digitales y el cumplimiento de las normativas y estándares aeronáuticos (ATA100, iSPEC2200, S1000D, DO-xxx, etc.).
+
+---
+
+## 1. ¿Qué es GAIA AIR?
 
 GAIA AIR (acrónimo de GAIA Aviation and Intelligence Regulation Standard) es un estándar y conjunto de guías que unifican:
-	1.	Inteligencia Artificial (IA) y analítica de datos
-	2.	Tecnologías avanzadas (optimización cuántica, blockchain, automatización de procesos, gemelos digitales)
-	3.	Normativas aeronáuticas (ATA100, iSPEC2200, S1000D, DO-178, DO-254, etc.)
-	4.	Mejores prácticas de la industria (ISO 9001/AS9100, FAA/EASA, etc.)
+
+1. Inteligencia Artificial (IA) y analítica de datos  
+2. Tecnologías avanzadas (optimización cuántica, blockchain, automatización de procesos, gemelos digitales)  
+3. Normativas aeronáuticas (ATA100, iSPEC2200, S1000D, DO-178, DO-254, etc.)  
+4. Mejores prácticas de la industria (ISO 9001/AS9100, FAA/EASA, etc.)  
 
 La finalidad es revolucionar la gestión, el diseño, la operación y el mantenimiento de aeronaves y sus sistemas asociados, maximizando la seguridad, la eficiencia, la trazabilidad y la adaptación a un entorno cada vez más complejo.
 
-2. Pilares y Elementos Clave
+---
 
-2.1. IA Generativa y Analítica Avanzada
-   •   Machine Learning / Deep Learning para mantenimiento predictivo, gestión de combustible, análisis de condiciones meteorológicas, etc.
-   •   IA Generativa enfocada en diseño asistido (optimizaciones aerodinámicas, simulaciones de componentes, etc.).
+## 2. Pilares y Elementos Clave
 
-2.2. Optimización Cuántica
-   •   Abordaje de problemas de planificación (rutas de vuelo, asignación de slots, operaciones de mantenimiento) bajo condiciones cambiantes.
-   •   Uso de infraestructura híbrida (clásico + cuántico) y algoritmos como QAOA, VQE, etc.
+### 2.1. IA Generativa y Analítica Avanzada
+- **Machine Learning / Deep Learning** para mantenimiento predictivo, gestión de combustible, análisis de condiciones meteorológicas, etc.  
+- **IA Generativa** enfocada en diseño asistido (optimizaciones aerodinámicas, simulaciones de componentes, etc.).
 
-2.3. Blockchain y Trazabilidad
-   •   DLT (Distributed Ledger Technology) para registrar cada pieza o fase de la cadena de suministro (fabricación, transporte, instalación, revisiones).
-   •   Smart Contracts para automatizar condiciones de garantía, verificación de origen de componentes y auditorías de mantenimiento.
+### 2.2. Optimización Cuántica
+- Abordaje de problemas de planificación (rutas de vuelo, asignación de slots, operaciones de mantenimiento) bajo condiciones cambiantes.  
+- Uso de infraestructura híbrida (clásico + cuántico) y algoritmos como QAOA, VQE, etc.
 
-2.4. Gemelos Digitales (Digital Twins)
-   •   Modelos virtuales de aeronaves, motores y subsistemas, con conexión en tiempo real a sensores IoT.
-   •   Simulaciones FEA/CFD, validaciones estructurales y de rendimiento, evaluación continua de la salud de los activos.
+### 2.3. Blockchain y Trazabilidad
+- **DLT (Distributed Ledger Technology):** Registro de piezas y fases de la cadena de suministro (fabricación, transporte, instalación, revisiones).  
+- **Smart Contracts:** Automatización de garantías, verificación de origen de componentes y auditorías de mantenimiento.
 
-2.5. Cumplimiento Normativo y Documental
-   •   Integración con ATA100, iSPEC2200 y S1000D para la generación y actualización de documentación aeronáutica.
-   •   Conformidad con lineamientos DO-xxx (DO-178 para software, DO-254 para hardware, DO-160 para condiciones ambientales).
-   •   Alineamiento con la normativa de autoridades como FAA/EASA y estándares ISO (ISO 9001, AS9100, etc.).
+### 2.4. Gemelos Digitales (Digital Twins)
+- Modelos virtuales de aeronaves, motores y subsistemas, conectados en tiempo real a sensores IoT.  
+- Simulaciones FEA/CFD, validaciones estructurales y evaluación continua de la salud de los activos.
 
-3. Áreas de Aplicación en la Industria Aeronáutica
-	1.	Diseño y Fabricación
-      •   Integración de herramientas CAD/CAE con analítica avanzada y generación de manuales automatizados (S1000D).
-      •   IA generativa para proponer y evaluar nuevos diseños.
-	2.	Mantenimiento y Operaciones (MRO)
-      •   Mantenimiento predictivo con alertas tempranas (análisis de vibraciones, temperatura, presiones).
-      •   Uso de drones y realidad aumentada para inspecciones más seguras y eficientes.
-      •   Actualización continua de manuales de mantenimiento (iSPEC2200) con conexiones a gemelos digitales.
-	3.	Planificación y Control de Vuelos
-      •   Optimización cuántica de rutas para reducir costos de combustible, tiempos de vuelo y congestión aérea.
-      •   Integración de factores meteorológicos, control del tráfico aéreo y restricciones aeroportuarias.
-	4.	Cadena de Suministro y Trazabilidad
-      •   Blockchain para evitar repuestos falsificados y garantizar el registro inmutable de reparaciones.
-      •   Auditorías rápidas gracias a la visibilidad de cada elemento en la cadena.
-	5.	Certificación y Auditorías
-      •   Vinculación directa de datos de pruebas y simulaciones (gemelo digital) con requisitos de certificación (DO-178, DO-254, etc.).
-      •   Reducción de esfuerzos de auditoría gracias a la disponibilidad de trazabilidad automática.
+### 2.5. Cumplimiento Normativo y Documental
+- Integración con ATA100, iSPEC2200 y S1000D para generación y actualización de documentación aeronáutica.  
+- Conformidad con lineamientos DO-xxx (DO-178 para software, DO-254 para hardware, DO-160 para condiciones ambientales).  
+- Alineamiento con normativas de FAA/EASA y estándares ISO (ISO 9001, AS9100, etc.).
 
-4. Flujo de Implementación
+---
 
-Fase	Actividades Principales	Resultados / Métricas
-1. Evaluación & Roadmap	- Identificar necesidades de IA, blockchain, gemelos digitales- Determinar estándares aplicables (ATA, DO-xxx)	- Mapa de procesos con oportunidades de automatización- Plan de adopción prioritario
-2. Diseño Conceptual	- Definir arquitectura objetivo (datos, IA, blockchain, gemelos)- Definir casos de uso piloto	- Arquitectura conceptual aprobada- Casos de uso / PoC en marcha
-3. Integración y Prototipado	- Conectar sistemas (ERP, MES, GMAO) a la plataforma GAIA AIR- Migrar datos relevantes, configuración de smart contracts y modelos IA	- Integración técnica finalizada- Modelos predictivos y gemelos funcionales
-4. Pruebas y Validación	- Test funcional (seguridad, rendimiento, cumplimiento normativo)- Auditorías de conformidad (DO-178, etc.)	- Tasa de errores críticos- Aprobación regulatoria exitosa
-5. Despliegue y Capacitación	- Puesta en producción de los módulos (IA, Mantenimiento, Blockchain)- Formación de usuarios (técnicos, ingenieros, tripulaciones)	- Adopción efectiva de >80% de funcionalidades- Usuarios entrenados y satisfechos
-6. Mejora Continua	- Actualizaciones periódicas, incorporación de optimización cuántica o nuevas funcionalidades- Monitoreo de KPIs (coste/hora de vuelo, fallos imprevistos, etc.)	- Ciclos de mejora DevOps- KPIs en tendencia positiva
+## 3. Áreas de Aplicación en la Industria Aeronáutica
 
-5. Métricas e Indicadores Clave (KPIs)
-	1.	Tiempo Medio de Reparación (MTTR)
-      •   Reducción del MTTR gracias a la localización y diagnóstico rápido con IA y gemelos digitales.
-	2.	Trazabilidad de Componentes
-      •   Porcentaje de piezas con registros completos y auditables en blockchain (objetivo: 100%).
-	3.	Conformidad Normativa
-      •   Ratio de documentación y procedimientos que cumplen con estándares (S1000D, DO-xxx).
-      •   Evaluación en auditorías sin no conformidades (objetivo: > 99%).
-	4.	Coste por Hora de Vuelo
-      •   Disminución en mantenimiento, combustible y logística debido a la optimización cuántica y predictiva.
-	5.	Índice de Fallos No Programados
-      •   Incidencias no detectadas previamente por el sistema (objetivo: < 5% del total).
-	6.	Velocidad de Despliegue de Nuevas Funcionalidades
-      •   Tiempo transcurrido desde la identificación de una mejora hasta su entrada en operación (objetivo: < 2-3 semanas).
+### 3.1. Diseño y Fabricación
+- Integración de herramientas CAD/CAE con analítica avanzada y generación de manuales automatizados (S1000D).  
+- IA generativa para proponer y evaluar nuevos diseños.
 
-6. Conclusiones
+### 3.2. Mantenimiento y Operaciones (MRO)
+- Mantenimiento predictivo con alertas tempranas (análisis de vibraciones, temperatura, presiones).  
+- Uso de drones y realidad aumentada para inspecciones más seguras y eficientes.  
+- Actualización continua de manuales de mantenimiento (iSPEC2200) conectados a gemelos digitales.
 
-GAIA AIR se configura como un estándar integral diseñado para la modernización total de la industria aeronáutica, abarcando:
-   •   IA generativa y analítica avanzada
-   •   Blockchain y trazabilidad inmutable
-   •   Gemelos digitales e integración con normas aeronáuticas
-   •   Optimización cuántica para resolver problemas complejos
+### 3.3. Planificación y Control de Vuelos
+- Optimización cuántica de rutas para reducir costos de combustible, tiempos de vuelo y congestión aérea.  
+- Integración de factores meteorológicos, control del tráfico aéreo y restricciones aeroportuarias.
 
-La adopción de GAIA AIR permite a fabricantes, aerolíneas, aeropuertos y operadores MRO:
-	1.	Elevar la seguridad y la eficiencia operativa.
-	2.	Impulsar la innovación tecnológica (IA, blockchain, cuántica) con un enfoque regulado y sistemático.
-	3.	Mantener la conformidad con los estándares y regulaciones (FAA, EASA, ISO, AS9100).
-	4.	Colaborar en un ecosistema global más abierto, integrado y resiliente, anticipándose a los retos y oportunidades de la aviación del siglo XXI.
+### 3.4. Cadena de Suministro y Trazabilidad
+- Blockchain para evitar repuestos falsificados y garantizar registros inmutables de reparaciones.  
+- Auditorías rápidas con visibilidad total de la cadena de suministro.
 
-De esta forma, el GAIA Aviation and Intelligence Regulation Standard ofrece una hoja de ruta para que la industria aeronáutica transite hacia una aviación 4.0, basada en datos, inteligencia y colaboración, sin perder de vista la seguridad y la regulación necesarias en un sector altamente crítico.
-Virtual Green Aviation and Intellugence Architecture table (tablas V.GAIA)
+### 3.5. Certificación y Auditorías
+- Vinculación de datos de pruebas y simulaciones (gemelos digitales) con requisitos de certificación (DO-178, DO-254, etc.).  
+- Reducción de esfuerzos de auditoría mediante trazabilidad automática.
+
+---
+
+## 4. Flujo de Implementación
+
+| Fase                | Actividades Principales                                                                | Resultados / Métricas                                       |
+|---------------------|---------------------------------------------------------------------------------------|------------------------------------------------------------|
+| Evaluación & Roadmap | Identificar necesidades y estándares aplicables (ATA, DO-xxx)                         | Mapa de procesos con oportunidades de automatización.      |
+| Diseño Conceptual   | Definir arquitectura objetivo y casos de uso piloto                                    | Arquitectura conceptual aprobada.                          |
+| Integración y Prototipado | Conectar sistemas a GAIA AIR y configurar modelos IA                              | Modelos predictivos y gemelos funcionales.                 |
+| Pruebas y Validación | Test funcional y auditorías de conformidad                                            | Aprobación regulatoria exitosa.                            |
+| Despliegue y Capacitación | Producción y formación de usuarios                                               | Adopción > 80% de funcionalidades.                         |
+| Mejora Continua     | Incorporación de nuevas funcionalidades, monitoreo de KPIs                             | KPIs en tendencia positiva.                                |
+
+---
+
+## 5. Métricas e Indicadores Clave (KPIs)
+
+1. **Tiempo Medio de Reparación (MTTR):** Reducción mediante diagnóstico rápido con IA y gemelos digitales.  
+2. **Trazabilidad de Componentes:** Porcentaje de piezas con registros completos en blockchain (objetivo: 100%).  
+3. **Conformidad Normativa:** Ratio de documentación conforme a estándares (S1000D, DO-xxx).  
+4. **Coste por Hora de Vuelo:** Disminución en mantenimiento, combustible y logística.  
+5. **Índice de Fallos No Programados:** Incidencias no detectadas previamente por el sistema (< 5% del total).  
+6. **Velocidad de Despliegue de Nuevas Funcionalidades:** Identificación a operación (< 2-3 semanas).
+
+---
+
+## 6. Conclusiones
+
+GAIA AIR es un estándar integral para la modernización total de la industria aeronáutica, integrando:
+
+- **IA generativa y analítica avanzada.**  
+- **Blockchain y trazabilidad inmutable.**  
+- **Gemelos digitales.**  
+- **Optimización cuántica.**
+
+La adopción de GAIA AIR permite elevar la seguridad, impulsar la innovación tecnológica y mantener la conformidad con estándares y regulaciones, avanzando hacia una aviación 4.0 basada en datos, inteligencia y colaboración.
+
+
+# Virtual Green Aviation and Intelligence Architecture (V.GAIA)
+
+## Tablas V.GAIA
 
 | N.º | Nombre de la Tabla                         | Comentarios / Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----:|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -125,7 +140,7 @@ Virtual Green Aviation and Intellugence Architecture table (tablas V.GAIA)
 **Descripción:** Gestión de operaciones de vuelo, logística aeroportuaria, control de tráfico aéreo y coordinación con diferentes sistemas para asegurar operaciones seguras y eficientes. Incluye la interacción tripulación-controladores, gestión de contingencias y regulaciones sobre procedimientos de carga, seguridad y mantenimiento operativo.                                                                                             |
 | 11  | **Sistemas de control Aéreo (60)**         | **FTSCode Base:** 60-XX-XX-XXX  
 **Descripción:** Sistemas de navegación, control de vuelo, comunicaciones aeronáuticas y tecnologías avanzadas para el monitoreo y control de aeronaves en tiempo real (incluyendo autopilot, GNSS, radares, TCAS, etc.). Abarca protocolos de comunicación y procedimientos de aproximación y salida.                                                                                                                                                  |
-| 12  | **Seguridad aérea (110)**                 | **FTSCode Base:** 110-XX-XX-XXX  
+| 12  | **Seguridad aérea (110)**                  | **FTSCode Base:** 110-XX-XX-XXX  
 **Descripción:** Protocolos de seguridad, sistemas de detección de amenazas, medidas preventivas, procedimientos de emergencia y normativas que garantizan la seguridad de pasajeros, tripulación y aeronaves. Incluye planes de contingencia, auditorías internas/externas, formación en seguridad y evolución de regulaciones globales (OACI, FAA, EASA).                                                                                                 |
 | 13  | **Aviación y factores humanos (47)**       | **FTSCode Base:** 47-XX-XX-XXX  
 **Descripción:** Estudios sobre la interacción humano-máquina, ergonomía en cabinas, fatiga de pilotos y factores psicológicos que afectan el desempeño y la seguridad en la aviación. Trata la formación continua del personal, gestión del estrés, errores humanos y el rol de la motivación y la comunicación en vuelo y mantenimiento.                                                                                                           |
@@ -156,22 +171,28 @@ Virtual Green Aviation and Intellugence Architecture table (tablas V.GAIA)
 | 26  | **Planeadores (24)**                       | **FTSCode Base:** 24-XX-XX-XXX  
 **Descripción:** Diseño y operación de planeadores, tecnologías de vuelo sin motor, simulaciones de planeadores y estudios de eficiencia aerodinámica. Incluye el uso de materiales compuestos ligeros, técnicas de descenso, vuelo en ladera, vuelo termal y el cumplimiento de reglamentos aeronáuticos para la seguridad en el vuelo sin propulsión.                                                                                      |
 
-Sugerencias para el Uso de la Tabla
-	1.	FTSCode Base:
-      •   Cada entrada dispone de un “FTSCode Base” que sirve como referencia para subdividir o etiquetar secciones según la jerarquía o el nivel de detalle que necesites.
-      •   Por ejemplo, “17-XX-XX-XXX” puede ramificarse en “17-01-XX-XXX” o “17-01-01-XXX” dependiendo de cuántos niveles quieras.
-	2.	Comentarios / Descripción:
-      •   Aquí puedes ampliar el contenido con detalle: objetivos, metodologías, ejemplos de casos de estudio, normativas aplicables (FAA, EASA, OACI, etc.) y cualquier referencia a documentación interna.
-      •   Mantén la consistencia en la redacción para que las descripciones sean claras y estandarizadas a lo largo de todo el documento.
-	3.	Enlace con Otras Tablas:
-      •   Dado que cada sección (p. ej., “Aeronaves (56)”) tiene su propia tabla con decenas de subsecciones, enlaza la “Tabla: Aviación (26)” a la tabla correspondiente.
-      •   Esto facilita la navegación y la coherencia entre áreas temáticas.
-	4.	Actualización Continua:
-      •   La industria aeronáutica es dinámica; revisa y actualiza periódicamente estas descripciones para incluir las últimas normativas y tecnologías.
-      •   Realiza auditorías internas para asegurar la calidad y confiabilidad de la información.
-	5.	Herramientas Recomendadas:
-      •   Confluence o SharePoint son útiles para almacenar y versionar estos contenidos.
-      •   Almacena en formato Markdown (README.md), para integrarlo fácilmente en repositorios de GitHub / GitLab o en wikis internas.
+## Sugerencias para el Uso de la Tabla
+
+1. **FTSCode Base:**
+   - Cada entrada dispone de un “FTSCode Base” que sirve como referencia para subdividir o etiquetar secciones según la jerarquía o el nivel de detalle que necesites.
+   - Por ejemplo, “17-XX-XX-XXX” puede ramificarse en “17-01-XX-XXX” o “17-01-01-XXX” dependiendo de cuántos niveles quieras.
+
+2. **Comentarios / Descripción:**
+   - Aquí puedes ampliar el contenido con detalle: objetivos, metodologías, ejemplos de casos de estudio, normativas aplicables (FAA, EASA, OACI, etc.) y cualquier referencia a documentación interna.
+   - Mantén la consistencia en la redacción para que las descripciones sean claras y estandarizadas a lo largo de todo el documento.
+
+3. **Enlace con Otras Tablas:**
+   - Dado que cada sección (p. ej., “Aeronaves (56)”) tiene su propia tabla con decenas de subsecciones, enlaza la “Tabla: Aviación (26)” a la tabla correspondiente.
+   - Esto facilita la navegación y la coherencia entre áreas temáticas.
+
+4. **Actualización Continua:**
+   - La industria aeronáutica es dinámica; revisa y actualiza periódicamente estas descripciones para incluir las últimas normativas y tecnologías.
+   - Realiza auditorías internas para asegurar la calidad y confiabilidad de la información.
+
+5. **Herramientas Recomendadas:**
+   - Confluence o SharePoint son útiles para almacenar y versionar estos contenidos.
+   - Almacena en formato Markdown (README.md), para integrarlo fácilmente en repositorios de GitHub / GitLab o en wikis internas.
+
 
 
 | N.º | Subsección                | Descripción / Notas                          |
@@ -194,7 +215,7 @@ Sugerencias para el Uso de la Tabla
 | 16  | Biomimética               | *(espacio para ampliar detalles)*           |
 | 17  | Interfaz Hombre-máquina   | *(espacio para ampliar detalles)*           |
 
-Mantenimiento de la aviación (27)
+### Mantenimiento de la aviación (27)
 
 | N.º | Subsección                          | Descripción / Notas                        |
 |----:|-------------------------------------|--------------------------------------------|
@@ -215,18 +236,18 @@ Mantenimiento de la aviación (27)
 | 15  | Procedimientos Mantenimiento       | *(espacio para ampliar detalles)*          |
 | 16  | Operaciones Mantenimiento          | *(espacio para ampliar detalles)*          |
 | 17  | Mantenimiento Basado Condiciones   | *(espacio para ampliar detalles)*          |
-| 18  | Teoría Mantenimiento              | *(espacio para ampliar detalles)*          |
+| 18  | Teoría Mantenimiento               | *(espacio para ampliar detalles)*          |
 | 19  | Mantenimiento Flotas               | *(espacio para ampliar detalles)*          |
-| 20  | Programas Mantenimiento           | *(espacio para ampliar detalles)*          |
+| 20  | Programas Mantenimiento            | *(espacio para ampliar detalles)*          |
 | 21  | Mantenimiento Preventivo Aeronaves | *(espacio para ampliar detalles)*          |
-| 22  | Mantenimiento Rutina              | *(espacio para ampliar detalles)*          |
-| 23  | Planes Mantenimiento              | *(espacio para ampliar detalles)*          |
-| 24  | Auditorías Mantenimiento          | *(espacio para ampliar detalles)*          |
+| 22  | Mantenimiento Rutina               | *(espacio para ampliar detalles)*          |
+| 23  | Planes Mantenimiento               | *(espacio para ampliar detalles)*          |
+| 24  | Auditorías Mantenimiento           | *(espacio para ampliar detalles)*          |
 | 25  | Planificación Mantenimiento        | *(espacio para ampliar detalles)*          |
-| 26  | Frecuencia Mantenimiento          | *(espacio para ampliar detalles)*          |
+| 26  | Frecuencia Mantenimiento           | *(espacio para ampliar detalles)*          |
 | 27  | Sostenibilidad Mantenimiento       | *(espacio para ampliar detalles)*          |
 
-Meteorología (73)
+### Meteorología (73)
 
 | N.º | Subsección                 | Descripción / Notas                           |
 |----:|----------------------------|-----------------------------------------------|
@@ -244,47 +265,47 @@ Meteorología (73)
 | 12  | Presión Atmosférica        | *(espacio para ampliar detalles)*             |
 | 13  | Precipitación              | *(espacio para ampliar detalles)*             |
 | 14  | Humedad Relativa           | *(espacio para ampliar detalles)*             |
-| 15  | Nebulosidad               | *(espacio para ampliar detalles)*             |
+| 15  | Nebulosidad                | *(espacio para ampliar detalles)*             |
 | 16  | Radar Meteorológico        | *(espacio para ampliar detalles)*             |
 | 17  | Satélites Meteorológicos   | *(espacio para ampliar detalles)*             |
 | 18  | Mapas Del Tiempo           | *(espacio para ampliar detalles)*             |
 | 19  | Pronosticadores Meteorológicos | *(espacio para ampliar detalles)*         |
-| 20  | Turbulencia               | *(espacio para ampliar detalles)*             |
-| 21  | Tormentas                 | *(espacio para ampliar detalles)*             |
-| 22  | Huracanes                 | *(espacio para ampliar detalles)*             |
-| 23  | Tifones                   | *(espacio para ampliar detalles)*             |
-| 24  | Monzones                  | *(espacio para ampliar detalles)*             |
-| 25  | Inversión Térmica         | *(espacio para ampliar detalles)*             |
-| 26  | Fuerza De Coriolis        | *(espacio para ampliar detalles)*             |
-| 27  | Celdas De Hadley          | *(espacio para ampliar detalles)*             |
-| 28  | Radiación Solar           | *(espacio para ampliar detalles)*             |
-| 29  | Variabilidad Climática    | *(espacio para ampliar detalles)*             |
-| 30  | Cambio Climático          | *(espacio para ampliar detalles)*             |
-| 31  | Calentamiento Global      | *(espacio para ampliar detalles)*             |
-| 32  | Isobaras                  | *(espacio para ampliar detalles)*             |
-| 33  | Rosas De Los Vientos      | *(espacio para ampliar detalles)*             |
-| 34  | Corrientes En Chorro      | *(espacio para ampliar detalles)*             |
-| 35  | Microclimas               | *(espacio para ampliar detalles)*             |
-| 36  | Paleoclimatología         | *(espacio para ampliar detalles)*             |
-| 37  | Niveles De Ozono          | *(espacio para ampliar detalles)*             |
-| 38  | Efecto Invernadero        | *(espacio para ampliar detalles)*             |
-| 39  | Ciclos Del Carbono        | *(espacio para ampliar detalles)*             |
-| 40  | Ciclos Hidrológicos       | *(espacio para ampliar detalles)*             |
-| 41  | Fenómeno El Niño          | *(espacio para ampliar detalles)*             |
-| 42  | Fenómeno La Niña          | *(espacio para ampliar detalles)*             |
+| 20  | Turbulencia                | *(espacio para ampliar detalles)*             |
+| 21  | Tormentas                  | *(espacio para ampliar detalles)*             |
+| 22  | Huracanes                  | *(espacio para ampliar detalles)*             |
+| 23  | Tifones                    | *(espacio para ampliar detalles)*             |
+| 24  | Monzones                   | *(espacio para ampliar detalles)*             |
+| 25  | Inversión Térmica          | *(espacio para ampliar detalles)*             |
+| 26  | Fuerza De Coriolis         | *(espacio para ampliar detalles)*             |
+| 27  | Celdas De Hadley           | *(espacio para ampliar detalles)*             |
+| 28  | Radiación Solar            | *(espacio para ampliar detalles)*             |
+| 29  | Variabilidad Climática     | *(espacio para ampliar detalles)*             |
+| 30  | Cambio Climático           | *(espacio para ampliar detalles)*             |
+| 31  | Calentamiento Global       | *(espacio para ampliar detalles)*             |
+| 32  | Isobaras                   | *(espacio para ampliar detalles)*             |
+| 33  | Rosas De Los Vientos       | *(espacio para ampliar detalles)*             |
+| 34  | Corrientes En Chorro       | *(espacio para ampliar detalles)*             |
+| 35  | Microclimas                | *(espacio para ampliar detalles)*             |
+| 36  | Paleoclimatología          | *(espacio para ampliar detalles)*             |
+| 37  | Niveles De Ozono           | *(espacio para ampliar detalles)*             |
+| 38  | Efecto Invernadero         | *(espacio para ampliar detalles)*             |
+| 39  | Ciclos Del Carbono         | *(espacio para ampliar detalles)*             |
+| 40  | Ciclos Hidrológicos        | *(espacio para ampliar detalles)*             |
+| 41  | Fenómeno El Niño           | *(espacio para ampliar detalles)*             |
+| 42  | Fenómeno La Niña           | *(espacio para ampliar detalles)*             |
 | 43  | Análisis De Eventos Extremos | *(espacio para ampliar detalles)*           |
-| 44  | Sistemas De Presión       | *(espacio para ampliar detalles)*             |
-| 45  | Vientos Alisios           | *(espacio para ampliar detalles)*             |
-| 46  | Ciclones Tropicales       | *(espacio para ampliar detalles)*             |
-| 47  | Mesosfera                 | *(espacio para ampliar detalles)*             |
-| 48  | Termosfera                | *(espacio para ampliar detalles)*             |
-| 49  | Ionosfera                 | *(espacio para ampliar detalles)*             |
-| 50  | Ondas Atmosféricas        | *(espacio para ampliar detalles)*             |
-| 51  | Nubes Estratocúmulos      | *(espacio para ampliar detalles)*             |
-| 52  | Nubes Cumulonimbus        | *(espacio para ampliar detalles)*             |
-| 53  | Nubes Cirrus              | *(espacio para ampliar detalles)*             |
-| 54  | Climatología Sinóptica    | *(espacio para ampliar detalles)*             |
-| 55  | Isotermas                 | *(espacio para ampliar detalles)*             |
+| 44  | Sistemas De Presión        | *(espacio para ampliar detalles)*             |
+| 45  | Vientos Alisios            | *(espacio para ampliar detalles)*             |
+| 46  | Ciclones Tropicales        | *(espacio para ampliar detalles)*             |
+| 47  | Mesosfera                  | *(espacio para ampliar detalles)*             |
+| 48  | Termosfera                 | *(espacio para ampliar detalles)*             |
+| 49  | Ionosfera                  | *(espacio para ampliar detalles)*             |
+| 50  | Ondas Atmosféricas         | *(espacio para ampliar detalles)*             |
+| 51  | Nubes Estratocúmulos       | *(espacio para ampliar detalles)*             |
+| 52  | Nubes Cumulonimbus         | *(espacio para ampliar detalles)*             |
+| 53  | Nubes Cirrus               | *(espacio para ampliar detalles)*             |
+| 54  | Climatología Sinóptica     | *(espacio para ampliar detalles)*             |
+| 55  | Isotermas                  | *(espacio para ampliar detalles)*             |
 | 56  | Mediciones De Precipitación | *(espacio para ampliar detalles)*           |
 | 57  | Tasas De Evaporación      | *(espacio para ampliar detalles)*             |
 | 58  | Zonas Climáticas          | *(espacio para ampliar detalles)*             |
@@ -293,6 +314,7 @@ Meteorología (73)
 | 61  | Modelo De Previsión       | *(espacio para ampliar detalles)*             |
 | 62  | Fenómenos Atmosféricos    | *(espacio para ampliar detalles)*             |
 | 63  | Anomalias Climáticas      | *(espacio para ampliar detalles)*             |
+
 
 A continuación, encontrarás la segunda parte de todas las tablas en formato Markdown, continuando desde la sección Pruebas y simuladores de aviación (55) en adelante. Cada tabla cuenta con sus filas y un espacio para añadir la información que consideres relevante.
 
