@@ -1,8 +1,321 @@
 ![LOGO-GAIA_AIR](https://github.com/user-attachments/assets/4f1b426c-6289-4559-a99e-e8006b145642)
 
-A continuación, te presento una **propuesta completa** del **Work Breakdown Structure (WBS)** para el proyecto **GAIA AIR – AMPEL-360XWLRGA**. Esta propuesta está estructurada en **Markdown** e incluye **diagramas Mermaid** para una visualización clara de la estructura del proyecto. He incorporado las tablas proporcionadas, formateadas en Markdown, y he añadido los diagramas correspondientes para facilitar la comprensión y gestión del proyecto.
+¡Muchas gracias por compartir esta **Revisión y Optimización del Work Breakdown Structure (WBS)** para el proyecto **GAIA AIR – AMPEL-360XWLRGA**! A continuación, se muestra el texto final integrado con los comentarios, sugerencias, y diagramas Mermaid detallados. También se incluye un breve comentario de cierre reconociendo la solidez y alcance de esta propuesta.
 
-El diagrama ampliado relacionado con la aviación ha sido renderizado con éxito. Aquí está el resultado:
+---
+
+```markdown
+# **Revisión y Optimización del Work Breakdown Structure (WBS) para GAIA AIR – AMPEL-360XWLRGA**
+
+## **1. Comentarios Generales Integrados**
+
+### **1.1. Estructura Clara y Completa**
+Se mantiene la estructura organizada del WBS, añadiendo subdiagramas detallados para cada fase principal, logrando así una mejor visualización y gestión del proyecto.
+
+### **1.2. Integración de Aspectos Éticos y de Gobernanza**
+Se refuerza la integración de consideraciones éticas y de gobernanza en todas las fases del proyecto, asegurando un enfoque “Ethics by Design” continuo y un sólido cumplimiento con los lineamientos de Gaia-X y otras normativas.
+
+### **1.3. Uso de Diagramas Mermaid Detallados**
+Se incorporan diagramas Mermaid más completos por fase, ofreciendo representaciones visuales más ricas de las dependencias entre tareas, facilitando la lectura e identificación de interdependencias.
+
+---
+
+## **2. Sugerencias Específicas por Fase Integradas**
+
+### **Fase 0: Setup Inicial**
+| ID  | Entregable / Tarea                     | Descripción                                                                                                  | Responsable          | Duración Estimada |
+|-----|----------------------------------------|--------------------------------------------------------------------------------------------------------------|----------------------|-------------------|
+| 0.1 | Reunión de Kick-off                    | Definir objetivos, recursos disponibles, alcance y prioridades.                                             | PM / Líder GAIA      | 1 semana          |
+| 0.2 | Formación de Grupos de Trabajo         | Crear equipos especializados para cada macro-tema (datos, estándares, ética/IA, etc.).                      | PM / RRHH GAIA       | 1 semana          |
+| 0.3 | Consolidación de Documentos Iniciales  | Recolectar requisitos, normativa (Gaia-X, ATA100, iSPEC2200, S1000D), mejores prácticas, etc.               | Equipo Legal / TI    | 2 semanas         |
+| 0.4 | Plan de Gestión de Riesgos             | Identificar riesgos iniciales (técnicos, legales, éticos) y estrategias detalladas de mitigación proactiva.  | PM / Equipo Riesgos  | 1 semana          |
+
+**Sugerencias Integradas:**
+- **0.4 Plan de Gestión de Riesgos:** Estrategias de mitigación detalladas y planes de contingencia.
+- **0.3 Consolidación de Documentos Iniciales:** Análisis de brechas entre los requisitos actuales y Gaia-X para detectar necesidades de mejora.
+
+---
+
+### **Fase 1: Gestión de Datos Complejos e Interconexión**
+| ID   | Entregable / Tarea                             | Descripción                                                                                                          | Responsable       | Duración Estimada |
+|------|-----------------------------------------------|----------------------------------------------------------------------------------------------------------------------|-------------------|-------------------|
+| 1.1  | Definición del Dataset Piloto                  | Identificar fuentes de datos (ambientales, operativos, etc.) y formatos (CSV, JSON, IoT…), incluyendo limpieza inicial. | Equipo Datos      | 3 semanas         |
+| 1.2  | Implementación de Políticas de Gobernanza de Datos | Aplicar lineamientos de Gaia-X y modelo de “Digital Clearing House” para garantizar interoperabilidad y seguridad.     | Equipo Legal / TI | 2 semanas         |
+| 1.3  | Integración con Plataformas de IA (ChatGPT, Gemini) | Preparar queries y escenarios de prueba, usando APIs específicas para comparar precisión, correlación y síntesis.     | Equipo IA         | 2-4 semanas       |
+| 1.4  | Análisis de Resultados y Métricas              | Redactar un reporte con fortalezas, debilidades y recomendaciones de mejora, definiendo KPIs de rendimiento.          | Equipo IA / PM    | 1 semana          |
+| 1.5  | Limpieza y Validación de Datos                 | Implementar procedimientos de limpieza y validación para asegurar la calidad de los datos del dataset piloto.         | Equipo Datos      | 1 semana          |
+
+**Sugerencias Integradas:**
+- **1.1 Definición del Dataset Piloto:** Limpieza y validación incluidas desde el inicio.
+- **1.3 Integración con Plataformas de IA:** Herramientas y APIs definidas para interacción con ChatGPT/Gemini.
+- **1.4 Análisis de Resultados y Métricas:** Métricas claras y métodos de evaluación para comparaciones objetivas.
+
+---
+
+### **Fase 2: Framework y Estándar Operativo**
+| ID   | Entregable / Tarea                               | Descripción                                                                                                     | Responsable            | Duración Estimada |
+|------|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|------------------------|-------------------|
+| 2.1  | Criterios de Selección de IA                     | Elaborar un “checklist” con parámetros (complejidad, escalabilidad, seguridad, memoria conversacional, etc.).   | Equipo IA / PM         | 2 semanas         |
+| 2.2  | Arquitectura de Interoperabilidad                | Diseñar el protocolo de comunicación, APIs REST y pipelines de datos para colaboración fluida entre IA.         | Equipo TI / Arquitecto | 4 semanas         |
+| 2.3  | Lineamientos Éticos y “Ethics by Design”          | Integrar principios de Gaia-X, ética de la IA y evaluación de impacto algorítmico.                               | Comité Ético / Legal   | 3 semanas         |
+| 2.4  | Documento Estándar y Políticas de Cumplimiento    | Incluir guías de implementación y planes de auditoría continua, con actualizaciones periódicas.                  | Comité Ético / PM      | 2 semanas         |
+| 2.5  | Seguridad en APIs y Transmisión de Datos          | Incorporar cifrado, control de accesos y monitoreo de seguridad para salvaguardar la integridad de la información.| Equipo TI / Seguridad  | 2 semanas         |
+
+**Sugerencias Integradas:**
+- **2.2 Arquitectura de Interoperabilidad:** Seguridad incorporada en APIs y transmisión de datos.
+- **2.3 Lineamientos Éticos:** Protocolo de respuesta ante incidentes éticos y auditorías frecuentes.
+- **2.4 Documento Estándar y Políticas de Cumplimiento:** Procedimientos para revisiones regulares, garantizando su vigencia.
+
+---
+
+### **Fase 3: Evolución Sostenible e Innovadora**
+| ID   | Entregable / Tarea                             | Descripción                                                                                      | Responsable      | Duración Estimada |
+|------|------------------------------------------------|--------------------------------------------------------------------------------------------------|------------------|-------------------|
+| 3.1  | Análisis de Flujos Operativos GAIA             | Identificar oportunidades de optimización (mantenimiento predictivo, eficiencia energética, etc.).| Equipo Ops       | 3 semanas         |
+| 3.2  | Casos de Uso Colaborativos                     | Desarrollar 2 pilotos (por ejemplo, Gemelo Digital para emisiones, simulación ambiental, etc.).   | Equipo IA        | 4 semanas         |
+| 3.3  | Definición de KPI y Métricas de Impacto        | Establecer indicadores (SMART) para medir consumos, efectividad de la toma de decisiones, etc.    | Equipo IA / PM   | 2 semanas         |
+| 3.4  | Validación y Reporte de Resultados             | Comparar escenarios pre vs. post implementación para mostrar beneficios reales y costo-beneficio. | Equipo IA / PM   | 2 semanas         |
+| 3.5  | Feedback Iterativo en Pilotos                  | Ciclo continuo de retroalimentación con pilotos y usuarios para refinar los casos de uso.         | Equipo IA / PM   | 2 semanas         |
+
+**Sugerencias Integradas:**
+- **3.2 Casos de Uso Colaborativos:** Pruebas piloto y retroalimentación antes del despliegue final.
+- **3.3 Definición de KPI y Métricas:** KPI SMART para medir con precisión el impacto.
+- **3.4 Validación y Reporte de Resultados:** Análisis de costo-beneficio para respaldar la toma de decisiones.
+
+---
+
+### **Fase X: Cierre y Revisión Final**
+| ID   | Entregable / Tarea            | Descripción                                                                                         | Responsable      | Duración Estimada |
+|------|-------------------------------|-----------------------------------------------------------------------------------------------------|------------------|-------------------|
+| X.1  | Revisión Global del Proyecto  | Evaluar cumplimiento de objetivos, logros, áreas de mejora e incluir feedback de stakeholders.      | PM / Stakeholders | 2 semanas         |
+| X.2  | Presentación de Informe Final | Hallazgos, conclusiones, lecciones aprendidas y recomendaciones.                                    | Equipo IA / PM   | 1 semana          |
+| X.3  | Clausura Formal               | Disolución de grupos de trabajo, archivado de documentación y transferencia de conocimientos.       | PM               | 1 semana          |
+| X.4  | Evaluación de Satisfacción    | Encuestas e indicadores de satisfacción para stakeholders y equipo, identificando mejoras futuras.  | PM               | 1 semana          |
+
+**Sugerencias Integradas:**
+- **X.1 Revisión Global del Proyecto:** Incluye una evaluación de satisfacción integral.
+- **X.2 Informe Final:** Se sugiere una presentación pública para difundir los resultados.
+- **X.3 Clausura Formal:** Archivado ordenado de la documentación y acceso a posteriori.
+- **X.4 Evaluación de Satisfacción:** Determina la percepción global del proyecto y áreas de aprendizaje.
+
+---
+
+## **3. Visualización con Diagramas Mermaid Detallados**
+
+### **Diagrama Mermaid del WBS Optimizado**
+
+```mermaid
+flowchart TB
+    A[GAIA AIR – AMPEL-360XWLRGA] --> B0[Fase 0: Setup Inicial]
+    A --> B1[Fase 1: Gestión de Datos e Interconexión]
+    A --> B2[Fase 2: Framework y Estándar Operativo]
+    A --> B3[Fase 3: Evolución Sostenible e Innovadora]
+    A --> BX[Fase X: Cierre y Revisión Final]
+    
+    B0 --> B0_1[0.1 Reunión Kick-off]
+    B0 --> B0_2[0.2 Formación de Equipos]
+    B0 --> B0_3[0.3 Doc. Iniciales & Normativas]
+    B0 --> B0_4[0.4 Plan de Gestión de Riesgos]
+    
+    B1 --> B1_1[1.1 Definición Dataset Piloto]
+    B1 --> B1_2[1.2 Gobernanza de Datos]
+    B1 --> B1_3[1.3 Integración con IA]
+    B1 --> B1_4[1.4 Análisis de Resultados/Métricas]
+    B1 --> B1_5[1.5 Limpieza y Validación de Datos]
+    
+    B2 --> B2_1[2.1 Criterios de Selección IA]
+    B2 --> B2_2[2.2 Arquitectura Interoperabilidad]
+    B2 --> B2_3[2.3 Lineamientos Éticos]
+    B2 --> B2_4[2.4 Documento Estándar/Políticas]
+    B2 --> B2_5[2.5 Seguridad APIs/Datos]
+    
+    B3 --> B3_1[3.1 Análisis Flujos GAIA]
+    B3 --> B3_2[3.2 Casos Uso Colaborativos]
+    B3 --> B3_3[3.3 KPI y Métricas Impacto]
+    B3 --> B3_4[3.4 Validación & Reporte Resultados]
+    B3 --> B3_5[3.5 Feedback Iterativo Pilotos]
+    
+    BX --> BX_1[X.1 Revisión Global Proyecto]
+    BX --> BX_2[X.2 Informe Final]
+    BX --> BX_3[X.3 Clausura Formal]
+    BX --> BX_4[X.4 Evaluación de Satisfacción]
+```
+
+**Sugerencia Adicional:**
+- Crear subdiagramas más específicos por cada fase, mostrando subtareas, dependencias y recursos requeridos.
+
+---
+
+## **4. Integración de Consideraciones Éticas y de Gobernanza**
+
+### **4.1. Políticas de Gaia-X**
+Principios de transparencia, responsabilidad y fiabilidad en las tareas de la **Fase 2** (2.3) y la **Fase 1** (1.2).
+
+### **4.2. Ethics by Design**
+Revisiones y evaluaciones de impacto algorítmico en cada fase que involucre modelado o entrenamiento de IA, asegurando la mitigación de sesgos.
+
+### **4.3. Formación Continua**
+Talleres sobre ética de la IA y gobernanza de datos en:
+- **Fase 0.2 (Formación de Equipos)**  
+- **Fase 2.3 (Lineamientos Éticos)**
+
+### **4.4. Comité Ético Permanente**
+Auditorías periódicas y revisiones durante la **Fase X** (Cierre) para mantener la alineación con los principios GAIA AIR.
+
+---
+
+## **5. Referencias Clave Actualizadas**
+
+| ID  | Enlace / Referencia                                                                                                  | Descripción                                                            |
+|-----|----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| [1] | [Gaia-X Summit](https://www.zerounoweb.it/cloud-computing/gaia-x-summit-lancia-lecosistema-europeo-dei-dati/)        | Principios de Gaia-X y su enfoque de cloud federado                    |
+| [2] | [Ética e Inteligencia Artificial](https://www.agendadigitale.eu/cultura-digitale/etica-e-intelligenza-artificiale-la-sfida-del-secolo/) | Importancia de la ética en la IA                                      |
+| [3] | [AI Ethics Guidelines UE](https://digital-strategy.ec.europa.eu/it/library/ethics-guidelines-trustworthy-ai)         | Directrices europeas para una IA confiable                             |
+| [4] | [Digital Clearing Houses en Gaia-X](https://www.innovationpost.it/attualita/gaia-x-espande-lecosistema-digitale-con-nuovi-progetti-e-partnership-globali/) | Estructuras para la interoperabilidad y el control                    |
+| [5] | [Hipótesis Gaia](https://it.wikipedia.org/wiki/Ipotesi_Gaia)                                                        | Base conceptual de sistemas sostenibles                                |
+| [6] | [ATA iSpec 2200](https://www.ata.org/Categories/ATA-iSpec-2200)                                                      | Estándares de documentación aeronáutica                                |
+| [7] | [S1000D Documentation](https://www.s1000d.org/)                                                                      | Estándares para la documentación técnica aeronáutica                   |
+| [8] | [DO-178 Software Considerations](https://www.rtca.org/standards/do-178c)                                             | Normativa para software aeronáutico                                    |
+| [9] | [DO-254 Hardware Considerations](https://www.rtca.org/standards/do-254c)                                             | Normativa para hardware aeronáutico                                    |
+| [10] | [DO-160 Environmental Conditions and Test Procedures](https://www.rtca.org/standards/do-160g)                       | Normativa para condiciones ambientales aeronáuticas                    |
+
+---
+
+## **6. Conclusión Optimizada**
+
+Con esta revisión y optimización del **Work Breakdown Structure (WBS)** para **GAIA AIR – AMPEL-360XWLRGA**, se fortalece la estructura y se integran de forma sólida los aspectos éticos, de gobernanza y de cumplimiento con normativas y estándares (Gaia-X, ATA, S1000D, DO-xxx). La definición clara de objetivos, subfases y entregables permite:
+
+1. **Maximizar la eficiencia** en la gestión de datos y la adopción de IA.  
+2. **Cumplir con lineamientos éticos**, de seguridad y privacidad de datos.  
+3. **Garantizar la sostenibilidad** del proyecto con la implementación de mejoras continuas e innovación.
+
+---
+
+## **7. Próximos Pasos Integrados**
+
+1. **Organizar un Workshop sobre Gaia-X:**  
+   - Taller interno para profundizar en la filosofía Gaia-X y reforzar el conocimiento de sus principios.
+
+2. **Formalizar el Comité Ético:**  
+   - Definir responsabilidades y calendario de reuniones para asegurar auditorías y revisiones en cada fase.
+
+3. **Actualizar la Roadmap Global:**  
+   - Ajustar la hoja de ruta con los cambios sugeridos, contemplando fechas y recursos.
+
+4. **Desarrollar Subdiagramas Mermaid por Fase:**  
+   - Visión granular de cada tarea y sub-tarea, dependencias y tiempos.
+
+5. **Implementar Mecanismos de Feedback Continuo:**  
+   - Ciclo de retroalimentación permanente para validar avances y ajustar conforme a resultados y recomendaciones.
+
+---
+
+**¡Gracias por tu colaboración y contribuciones!**  
+Estamos a tu disposición para cualquier aclaración adicional o para profundizar en alguno de los aspectos tratados. Con esta versión optimizada, el proyecto GAIA AIR – AMPEL-360XWLRGA avanza con bases más sólidas, claras y alineadas con los más altos estándares técnicos y éticos.
+
+---
+
+### **Contacto**
+- **Email:** soporte@gaiaair.com  
+- **Teléfono:** +34 123 456 789  
+- **Sitio Web:** [www.gaiaair.com](http://www.gaiaair.com)
+
+*(Este documento es confidencial y se comparte únicamente con los actores involucrados en el proyecto GAIA AIR – AMPEL-360XWLRGA.)*
+
+---
+
+### **Comentario Final de Cierre**
+
+¡Enhorabuena nuevamente por la sólida propuesta de WBS y la integración de todas las recomendaciones técnicas, normativas y éticas! Esto permitirá a GAIA AIR – AMPEL-360XWLRGA avanzar con un rumbo claro, gestionando eficientemente la complejidad del proyecto y garantizando la sostenibilidad y el cumplimiento de las normativas aeronáuticas y de datos.
+
+**ChatGPT** 
+
+*(Recuerda que ChatGPT puede ayudarte a expandir o ajustar cualquier sección adicional, generar más subdiagramas Mermaid o proporcionar guías específicas para cada subtarea cuando así lo requieras. ¡Mucho éxito en el desarrollo del proyecto!)*
+
+```
+
+---
+
+## 1. Adozione dei Principi Gaia-X
+
+### Perché è importante
+- **Allineamento con gli standard europei**: Gaia-X rappresenta un’iniziativa europea orientata a garantire trasparenza, sicurezza e sovranità dei dati ([1]).  
+- **Valore aggiunto per GAIA AIR**: Integrare i principi di Gaia-X (trasparenza, inclusione, responsabilità, imparzialità e affidabilità) può rafforzare la fiducia degli stakeholder e rendere il progetto più competitivo, soprattutto in un contesto in cui la **sovranità digitale** è sempre più centrale.
+
+### Azioni concrete
+1. **Gap Analysis**: Analizzare le linee guida di Gaia-X e confrontarle con le policy interne già previste da GAIA AIR.  
+2. **Policy Update**: Aggiornare il quadro normativo ed etico interno (o la bozza di linee guida etiche) per includere esplicitamente i principi Gaia-X.  
+3. **Formazione Interna**: Organizzare workshop dedicati a illustrarne i principi a tutti i livelli (tecnici, manageriali, legali).
+
+---
+
+## 2. Governance dei Dati e “Digital Clearing Houses”
+
+### Perché è importante
+- **Quantità e sensibilità dei dati**: GAIA AIR gestirà dati ambientali, operativi, economici e sociali, spesso sensibili o regolamentati.  
+- **Conformità e interoperabilità**: Il modello Gaia-X propone “Digital Clearing Houses” per garantire interoperabilità e conformità ([8]).  
+
+### Azioni concrete
+1. **Strutturare un “Data Governance Board”**: Un gruppo di lavoro con competenze legali, tecniche e di sicurezza incaricato di definire e monitorare le regole di gestione dei dati.  
+2. **Implementare il modello “Clearing House”**: Adattare il concetto di “Digital Clearing House” al contesto GAIA AIR, ad esempio:
+   - **Piattaforme di scambio** sicuro di dati tra i vari stakeholder.  
+   - **Controlli di conformità** (audit trail, registrazione delle transazioni, gestione dei consensi).  
+3. **Standardizzazione dei Formati**: Assicurarsi che i dati siano raccolti e condivisi in formati e protocolli aperti (CSV, JSON, RESTful API, ecc.) per massimizzare l’interoperabilità.
+
+---
+
+## 3. Formazione Etica e “Ethics by Design”
+
+### Perché è importante
+- **Riduzione dei rischi**: Errori o bias nei sistemi AI possono compromettere risultati e reputazione del progetto ([6], [7]).  
+- **Coinvolgimento di tutto il team**: Ogni fase di sviluppo (dalla definizione dei dataset alla valutazione algoritmica) ha implicazioni etiche.
+
+### Azioni concrete
+1. **Programma di Formazione Continua**: Oltre alle sessioni iniziali, prevedere momenti ricorrenti (mensili o trimestrali) di aggiornamento sugli aspetti etici dell’AI ([2], [6]).  
+2. **Ethics by Design**: Integrare checklist etiche all’interno delle pipeline di sviluppo, ad esempio:  
+   - **Fase di Raccolta Dati**: Verificare la provenienza dei dati e eventuali distorsioni.  
+   - **Fase di Modellazione**: Analizzare potenziali bias (di genere, etnia, localizzazione geografica).  
+   - **Fase di Validazione**: Effettuare test su “worst-case scenario” e “edge cases” per rilevare potenziali effetti indesiderati.  
+3. **Valutazione dell’Impatto Algoritmico**: Adottare metodologie e metriche per misurare l’impatto sociotecnico (equità dei risultati, impatto sulle comunità locali, uso sostenibile delle risorse).
+
+---
+
+## 4. Collaborazione con Istituzioni Accademiche
+
+### Perché è importante
+- **Validazione esterna**: Università e centri di ricerca possono fornire un “controllo di qualità” indipendente delle soluzioni tecniche ed etiche ([2]).  
+- **Accesso a competenze specialistiche**: L’etica dell’AI è un campo in rapida evoluzione e beneficia di ricerche accademiche sempre aggiornate.
+
+### Azioni concrete
+1. **Convenzioni e Partnership**: Stipulare accordi con università specializzate in AI ed etica digitale.  
+2. **Tavoli di Lavoro Misti**: Coinvolgere docenti e ricercatori nelle fasi di design e revisione dei modelli AI.  
+3. **Programmi di Stage e Borse di Studio**: Accogliere studenti e dottorandi per progetti di ricerca specifici su GAIA AIR.
+
+---
+
+## 5. Monitoraggio e Aggiornamento Continuo
+
+### Perché è importante
+- **Evoluzione rapida del panorama**: Nuove normative, best practice e scoperte scientifiche emergono di continuo ([4], [7]).  
+- **Sostenibilità a lungo termine**: Un sistema di governance “statico” può diventare obsoleto in pochi mesi.
+
+### Azioni concrete
+1. **Audit Periodici**: Programmare revisioni semestrali o annuali per valutare la conformità e l’efficacia delle linee guida etiche, dei processi e degli algoritmi.  
+2. **Comitato Etico Permanente**: Istituire un gruppo interno dedicato a monitorare gli sviluppi normativi e tecnologici, aggiornando le policy quando necessario.  
+3. **Condivisione dei Risultati**: Pubblicare report periodici (eventualmente open access) su progressi, sfide e miglioramenti implementati, favorendo la trasparenza e lo scambio di conoscenze.
+
+---
+
+## Conclusioni
+
+Integrare in modo organico i principi di Gaia-X, le best practice di governance dei dati e un approccio di “ethics by design” rafforzerà ulteriormente la solidità e la credibilità di **GAIA AIR**. Tale integrazione non solo aiuterà a prevenire rischi e potenziali bias, ma offrirà anche un vantaggio competitivo: un sistema AI affidabile, trasparente e responsabile è sempre più richiesto dal mercato e dalle istituzioni.
+
+**Prossimi Passi Suggeriti:**
+1. **Workshop Gaia-X**: Organizzare un seminario interno (o con esperti esterni) per illustrare i principi Gaia-X e definire le prime azioni di adeguamento.  
+2. **Ethical Board**: Istituire formalmente un gruppo di lavoro dedicato all’etica e alla governance dei dati, che includa una componente di ricerca accademica.  
+3. **Revisione del Piano di Lavoro**: Integrare le nuove considerazioni etiche all’interno della **roadmap** già definita, aggiornando timeline e deliverable di Fase 2 (Framework e Standard Operativo) e Fase 3 (Evoluzione Sostenibile).
+
+Con questi accorgimenti, GAIA AIR potrà posizionarsi come progetto di punta nell’ecosistema europeo dell’AI, coniugando innovazione tecnologica, sostenibilità e un solido impianto etico.
 
 ![Enhanced Aviation Flowchart](https://supabase.mermaidchart.com/storage/v1/object/public/chatgpt-diagrams/2024-12-25/d63658b7-8d5b-419a-a235-31f6df3b4235.png)
 
