@@ -3,35 +3,17 @@
 A continuación, te presento una **propuesta completa** del **Work Breakdown Structure (WBS)** para el proyecto **GAIA AIR – AMPEL-360XWLRGA**. Esta propuesta está estructurada en **Markdown** e incluye **diagramas Mermaid** para una visualización clara de la estructura del proyecto. He incorporado las tablas proporcionadas, formateadas en Markdown, y he añadido los diagramas correspondientes para facilitar la comprensión y gestión del proyecto.
 
 Aquí tienes el diagrama convertido en formato Markdown para que puedas incluirlo correctamente:
+## Diagramas del Proyecto GAIA AIR
 
-```marmeid
----
-config:
-  layout: fixed
----
-flowchart TD
-    A("fab:fa-youtube Starter Guide")
-    B("fab:fa-youtube Make Flowchart")
-    n1@{ icon: "fa:gem", pos: "b", h: 24}
-    C("fa:fa-book-open Learn More")
-    D{"Use the editor"}
-    n2(Many shapes)@{ shape: delay}
-    E(fa:fa-shapes Visual Editor)
-    F("fa:fa-chevron-up Add node in toolbar")
-    G("fa:fa-comment-dots AI chat")
-    H("fa:fa-arrow-left Open AI in side menu")
-    I("fa:fa-code Text")
-    J(fa:fa-arrow-left Type Mermaid syntax)
-    A --> B --> C --> n1 & D & n2
-    D -- Build and Design --> E --> F
-    D -- Use AI --> G --> H
-    D -- Mermaid js --> I --> J
-    style E color:#FFFFFF, fill:#AA00FF, stroke:#AA00FF
-    style G color:#FFFFFF, stroke:#00C853, fill:#00C853
-    style I color:#FFFFFF, stroke:#2962FF, fill:#2962FF
-```
+### Aplicaciones de Aviación
+![Aplicaciones de Aviación](https://supabase.mermaidchart.com/storage/v1/object/public/chatgpt-diagrams/2024-12-25/b88267a7-0d1d-4dbd-9d76-eda7786e982d.png)
 
-Este bloque está listo para ser utilizado en tu archivo de Markdown. Asegúrate de que tu visor de Markdown o plataforma sea compatible con Mermaid.js para que el diagrama se renderice correctamente. ¿Hay algo más con lo que te pueda ayudar?
+### Mantenimiento de la Aviación
+![Mantenimiento de la Aviación](https://supabase.mermaidchart.com/storage/v1/object/public/chatgpt-diagrams/2024-12-25/ed073157-3e6a-4a43-92af-daac55836035.png)
+
+### Meteorología
+![Meteorología](https://supabase.mermaidchart.com/storage/v1/object/public/chatgpt-diagrams/2024-12-25/4a79518b-e39e-4673-8834-aa9fc1049e94.png)
+
 
 ---
 
