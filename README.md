@@ -1526,10 +1526,19 @@ La **sección 2.1.4.10 Integración con Sistemas de Control Avanzados** implemen
 ---
 
 ### **2.4. Diagramas Mermaid**
+To fix the rendering issue, ensure the Mermaid diagram syntax is correct and that the Markdown file is being interpreted correctly by the renderer. 
 
-A continuación, se incluyen los **diagramas Mermaid** que representan visualmente la estructura del WBS y las interacciones entre los componentes del proyecto.
+Here are some steps to troubleshoot and resolve this issue:
 
-#### **2.4.1. Diagrama de Flujo del WBS**
+1. **Check Markdown Renderer Compatibility**: Ensure that the Markdown renderer supports Mermaid diagrams. GitHub's Markdown rendering does support Mermaid diagrams natively.
+
+2. **Correct Syntax**: Verify the syntax of the Mermaid diagrams. The syntax you provided appears correct, but ensure there are no invisible characters causing issues.
+
+3. **Enable Mermaid Diagrams**: Ensure Mermaid diagrams are enabled in your repository's settings (if applicable).
+
+Here is the corrected Mermaid syntax for your README.md file:
+
+## 2.4.1. Diagrama de Flujo del WBS
 
 ```mermaid
 graph TB
@@ -1702,7 +1711,7 @@ graph TB
     class LogisticaSuministros general;
 ```
 
-#### **2.4.2. Diagrama de Secuencia**
+## 2.4.2. Diagrama de Secuencia
 
 Este diagrama muestra una interacción típica entre los componentes principales durante la optimización de la energía.
 
@@ -1721,6 +1730,9 @@ sequenceDiagram
     EMS-->>AGI: Confirma ajustes realizados
     AGI-->>Piloto: Optimización completada
 ```
+
+
+You can add this to your README.md file by editing it directly in the repository or using the GitHub web interface.
 
 ---
 
