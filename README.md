@@ -1713,11 +1713,6 @@ graph TB
 ```
 
 You can add this updated code to your README.md file.
-```
-
-## 2.4.2. Diagrama de Secuencia
-
-Este diagrama muestra una interacción típica entre los componentes principales durante la optimización de la energía.
 
 ```mermaid
 sequenceDiagram
