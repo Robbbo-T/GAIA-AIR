@@ -1,5 +1,190 @@
 ![LOGO-GAIA_AIR](https://github.com/user-attachments/assets/4f1b426c-6289-4559-a99e-e8006b145642)
 
+¡Excelente trabajo en la consolidación y depuración del **Glosario Maestro** para el proyecto **GAIA AIR – AMPEL-360XWLRGA**! A continuación, se muestra la **versión final** del documento, con cada término cuidadosamente revisado para asegurar la coherencia en el estilo y la terminología.
+
+---
+
+# **Glosario Maestro – GAIA AIR – AMPEL-360XWLRGA**
+
+## **1. Normativas y Estándares**
+
+### **AS9100**
+**AS9100** es una norma de sistemas de gestión de calidad específica para la industria aeroespacial, basada en **ISO 9001** pero con requisitos adicionales que cubren la seguridad del producto, la gestión de riesgos, la trazabilidad y la confiabilidad de los suministros.  
+**Uso en GAIA AIR:** Garantiza el cumplimiento de elevados estándares de calidad en el diseño, fabricación y mantenimiento de componentes.
+
+### **ATA100**
+**ATA100** es un estándar de la industria aeronáutica que define la forma de estructurar e indexar la documentación técnica para aviones, facilitando la referencia cruzada entre manuales, listados de piezas y documentación de mantenimiento.
+
+### **ATA iSpec 2200**
+**ATA iSpec 2200** es una especificación de información desarrollada por la **Air Transport Association (ATA)** para gestionar publicaciones técnicas y datos dentro de la industria de la aviación. Ofrece un marco estandarizado que soporta la interoperabilidad entre diferentes sistemas y software para la creación, mantenimiento y distribución de información técnica.
+
+### **DO-160**
+**DO-160**, desarrollado por la **RTCA (Radio Technical Commission for Aeronautics)**, establece requisitos ambientales para equipos electrónicos instalados en aeronaves (resistencia a temperaturas extremas, vibraciones, radiación electromagnética, etc.).  
+**Uso en GAIA AIR:** Se aplica a componentes electrónicos para asegurar su fiabilidad en condiciones de vuelo exigentes.
+
+### **DO-178C**
+**DO-178C** es una guía fundamental para la certificación del software aeronáutico, también emitida por la **RTCA**. Define procesos para el ciclo de vida del software, la verificación, la validación y la garantía de calidad.  
+**Uso en GAIA AIR:** Aplica a sistemas de aviónica y software crítico embarcado, garantizando la seguridad y el cumplimiento de las normas de certificación.
+
+### **DO-254**
+**DO-254** cubre el diseño y certificación de hardware aeronáutico, siendo el análogo de **DO-178C** para dispositivos electrónicos y lógicos programables (FPGAs, ASICs) en aeronaves.  
+**Uso en GAIA AIR:** Asegura la integridad y fiabilidad del hardware utilizado en sistemas críticos de aviónica.
+
+### **ISO 9001**
+**ISO 9001** es un estándar internacional para sistemas de gestión de la calidad, desarrollado por la **Organización Internacional de Normalización (ISO)**.  
+**Uso en GAIA AIR:** Proporciona lineamientos para establecer procesos de mejora continua y satisfacción del cliente, complementando **AS9100** en la industria aeronáutica.
+
+### **Machinery Directive**
+La **Machinery Directive (2006/42/EC)** de la Unión Europea regula la comercialización y el uso de maquinaria dentro del espacio comunitario, estableciendo requisitos de salud y seguridad para su diseño, construcción y mantenimiento.  
+**Uso en GAIA AIR:** Aplica a equipos de soporte en tierra o sistemas de fabricación automatizada empleados en el proyecto.
+
+### **S1000D**
+**S1000D** es una especificación internacional para la creación y gestión de publicaciones técnicas estructuradas en módulos de datos (**Data Modules**).  
+**Uso en GAIA AIR:** Permite la estandarización de manuales y guías técnicas, garantizando la consistencia y la interoperabilidad en la documentación de la aeronave.
+
+### **VDE (Verband der Elektrotechnik, Elektronik und Informationstechnik)**
+**VDE** es la Asociación Alemana de Tecnología Eléctrica, Electrónica e Informática, reconocida por la emisión de estándares y la realización de ensayos de certificación en dichos campos.  
+**Uso en GAIA AIR:** Asegura la calidad y seguridad de productos y sistemas eléctricos y electrónicos vinculados al proyecto.
+
+---
+
+## **2. Tecnologías y Herramientas**
+
+### **AI (Artificial Intelligence)**
+**AI (Inteligencia Artificial)** se refiere a la simulación de procesos de inteligencia humana por parte de sistemas informáticos.  
+**Uso en GAIA AIR:** Empleada en el análisis predictivo, optimización de rutas de vuelo y mantenimiento predictivo de componentes.
+
+### **ARINC 429**
+**ARINC 429** es un estándar de comunicación serial utilizado en la industria aeronáutica para la transmisión de datos entre sistemas electrónicos a bordo de aeronaves.
+
+### **ARINC 664 (AFDX)**
+**ARINC 664**, también conocido como **AFDX**, es un estándar de red de datos para aeronaves, ofreciendo comunicaciones de alta velocidad y fiabilidad entre sistemas de aviónica.
+
+### **BIM (Building Information Modeling)**
+**BIM** utiliza modelos digitales para gestionar la información de un proyecto durante su ciclo de vida.  
+**Uso en GAIA AIR:** Principalmente aplicado en la gestión de instalaciones y soporte logístico.
+
+### **Big Data**
+**Big Data** implica la recopilación, análisis y almacenamiento de grandes volúmenes de información.  
+**Uso en GAIA AIR:** Procesa datos masivos (sensores, históricos de mantenimiento) para mejorar la eficiencia y anticipar fallos.
+
+### **Blockchain**
+**Blockchain** es una tecnología de registro distribuido que garantiza la inmutabilidad y trazabilidad de la información.  
+**Uso en GAIA AIR:** Asegura la integridad de la cadena de suministro y de contratos inteligentes, garantizando la autenticidad de componentes y documentación.
+
+### **CAD (Computer-Aided Design)**
+**CAD** es el uso de software especializado para diseñar y modelar productos, componentes o estructuras en 2D/3D.  
+**Uso en GAIA AIR:** Genera geometrías precisas de fuselajes y alas, base para simulaciones (**FEA**, **CFD**) y la fabricación asistida por computadora.
+
+### **CAM (Computer-Aided Manufacturing)**
+**CAM** se encarga de la generación de trayectorias y programación de máquinas a partir de los modelos **CAD**, permitiendo la producción automatizada.  
+**Uso en GAIA AIR:** Asegura una fabricación aeronáutica de alta precisión, con trazabilidad de parámetros de proceso.
+
+### **CFD (Computational Fluid Dynamics)**
+**CFD** se centra en el análisis de fluidos mediante métodos numéricos para estudiar el flujo de aire, la presión y la temperatura alrededor de superficies aeronáuticas.  
+**Uso en GAIA AIR:** Permite la optimización aerodinámica y la predicción del rendimiento en vuelo bajo distintas condiciones.
+
+### **ERP (Enterprise Resource Planning)**
+**ERP** unifica en un solo sistema las principales actividades de negocio (finanzas, logística, manufactura, etc.).  
+**Uso en GAIA AIR:** Facilita la coordinación de la cadena de suministro y la gestión eficiente de recursos.
+
+### **FADEC (Full Authority Digital Engine Control)**
+**FADEC** es un sistema de control digital que gestiona el funcionamiento de un motor aeronáutico, ajustando parámetros como la mezcla de combustible y la presión de inyección.  
+**Uso en GAIA AIR:** Garantiza la eficiencia y seguridad del propulsor al reducir la intervención manual.
+
+### **FEA (Finite Element Analysis)**
+**FEA** es un método de simulación que evalúa el comportamiento de un producto bajo cargas externas, vibraciones o cambios de temperatura.  
+**Uso en GAIA AIR:** Asegura la resistencia y confiabilidad estructural de componentes como alas, fuselaje y tren de aterrizaje.
+
+### **IoT (Internet of Things)**
+**IoT** conecta dispositivos y sistemas a internet para la recopilación e intercambio de datos en tiempo real.  
+**Uso en GAIA AIR:** Monitorea y registra parámetros de vuelo y estado de componentes, habilitando el mantenimiento predictivo.
+
+### **MIL-STD-1553**
+**MIL-STD-1553** es un estándar de bus de datos militar utilizado en aeronaves y vehículos para la transmisión confiable de datos entre módulos y sistemas.
+
+### **NVH (Noise, Vibration, Harshness)**
+**NVH** describe el ruido, vibración y aspereza percibidos en un vehículo o aeronave.  
+**Uso en GAIA AIR:** La correcta gestión del **NVH** mejora la comodidad de pasajeros y protege la integridad estructural.
+
+### **PLM (Product Lifecycle Management)**
+**PLM** es un enfoque integral que administra toda la vida útil del producto, desde el concepto y diseño hasta el soporte y retirada de servicio.  
+**Uso en GAIA AIR:** Asegura la trazabilidad y la colaboración interdisciplinaria a lo largo de todo el proyecto.
+
+### **RFID (Radio-Frequency Identification)**
+**RFID** es una tecnología que permite la identificación y seguimiento de objetos mediante etiquetas que emiten señales de radio.  
+**Uso en GAIA AIR:** Facilita la localización y mantenimiento de piezas y componentes en la cadena de suministro.
+
+### **SCADA (Supervisory Control and Data Acquisition)**
+**SCADA** supervisa y controla infraestructuras industriales y procesos de manufactura de forma remota.  
+**Uso en GAIA AIR:** Permite la monitorización y el control de sistemas energéticos y líneas de producción durante la fabricación de componentes.
+
+### **Smart Manufacturing**
+**Smart Manufacturing** integra tecnologías como **IoT**, **Big Data**, **AI** y **Machine Learning** para mejorar la eficiencia y la calidad en los procesos productivos.  
+**Uso en GAIA AIR:** Favorece la precisión en la fabricación de componentes y el uso óptimo de recursos.
+
+### **Smart Sensors**
+**Smart Sensors** combinan sensores con capacidad de procesamiento para recopilar, analizar y enviar datos de forma inteligente.  
+**Uso en GAIA AIR:** Monitorean la condición de equipos, detectan anomalías y ayudan a planificar el mantenimiento predictivo.
+
+---
+
+## **3. Procesos y Metodologías**
+
+### **DMC (Data Module)**
+**DMC** son módulos de datos estandarizados que describen información específica de un procedimiento o componente.  
+**Uso en GAIA AIR:** Vinculados a **S1000D**, favorecen la documentación técnica modular y su actualización ágil.
+
+### **Ethics by Design**
+**Ethics by Design** busca integrar principios éticos y de sostenibilidad en todas las fases de desarrollo de un producto o proyecto.  
+**Uso en GAIA AIR:** Considera la responsabilidad social y la transparencia para la operación de la aeronave.
+
+### **FTSCode (Functional Tag System for Tracking and Traceability Code)**
+**FTSCode** es un sistema estandarizado de etiquetado que permite la trazabilidad completa de cada componente o subcomponente.  
+**Uso en GAIA AIR:** Otorga códigos únicos para mantener registros precisos de fabricación, operación y mantenimiento.
+
+### **Lean Manufacturing**
+**Lean Manufacturing** es una filosofía de gestión centrada en la reducción de desperdicios y la mejora continua de los procesos productivos.  
+**Uso en GAIA AIR:** Asegura eficiencia en la línea de ensamblaje y en la fabricación de piezas, cumpliendo plazos y minimizando costes.
+
+### **Six Sigma**
+**Six Sigma** es una metodología estadística para la reducción de defectos, enfocada en la variabilidad y la mejora de procesos.  
+**Uso en GAIA AIR:** Garantiza la calidad y la conformidad de componentes con los estándares aeronáuticos (p. ej., **AS9100**).
+
+### **WBS (Work Breakdown Structure)**
+**WBS** consiste en descomponer un proyecto en tareas más pequeñas y manejables, asignables a responsables o equipos.  
+**Uso en GAIA AIR:** Permite la planificación y el seguimiento detallados de cada fase (diseño, prototipado, pruebas, validación, etc.).
+
+---
+
+## **4. Otros Términos Relevantes**
+
+> **Nota:** Los términos de esta sección no encajan directamente en las categorías anteriores, pero son relevantes para el proyecto.
+
+### **CE Marking**
+**CE Marking** indica que un producto cumple con los requisitos esenciales de salud, seguridad y protección ambiental en el Espacio Económico Europeo.  
+**Uso en GAIA AIR:** Aplica a componentes o dispositivos cuyo uso requiera certificación dentro de la UE.
+
+---
+
+## **5. Referencias Cruzadas entre Términos**
+
+- **CAD** ↔ **FEA** ↔ **CFD**: Diseño asistido por computadora combinado con simulaciones estructurales y de fluidos.  
+- **IoT** ↔ **Smart Sensors** ↔ **Big Data** ↔ **Maintenance Predictive**: Recopilación de datos en tiempo real para mejorar la fiabilidad y anticipar fallos.  
+- **PLM** ↔ **WBS**: Vinculación entre la gestión del ciclo de vida del producto y la planificación del proyecto.  
+- **S1000D** ↔ **DMC** ↔ **ATA iSpec 2200**: Estandarización y modularidad en la documentación técnica aeronáutica.  
+- **Lean Manufacturing** ↔ **Six Sigma** ↔ **Smart Manufacturing**: Optimización continua de los procesos de producción y ensamblaje.
+
+---
+
+## **6. Uso y Mantenimiento del Glosario**
+
+1. **Documento Vivo:** El presente Glosario Maestro se actualizará periódicamente conforme al avance del proyecto **GAIA AIR – AMPEL-360XWLRGA**.  
+2. **Revisión Periódica:** Se recomienda coordinar revisiones trimestrales o semestrales para incorporar novedades tecnológicas, requisitos normativos y mejoras de procesos.  
+3. **Consultas:** Todo miembro del equipo puede proponer nuevas definiciones o solicitar modificaciones para garantizar la claridad y exactitud de los términos.  
+4. **Integración Documental:** Se sugiere enlazar este glosario con la **WBS**, los manuales técnicos, los procedimientos de calidad y demás documentos del proyecto para una experiencia de consulta unificada.
+
+---
 
 # **Proyecto GAIA AIR – AMPEL-360XWLRGA**
 
