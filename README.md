@@ -1551,7 +1551,7 @@ graph TB
     classDef quality fill:#fcc,stroke:#333,stroke-width:2px;
     
     %% Grupos Principales
-    subgraph Airframe ["Airframe (Estructura Principal)"]
+    subgraph Airframe ["Airframe [Estructura Principal]"]
         A1[Diseño Aerodinámico]
         A2[Selección de Materiales]
         A3[Fabricación de Componentes]
@@ -1574,11 +1574,11 @@ graph TB
         C3[Sistemas de Control Ambiental]
     end
     
-    subgraph Empennage ["Empennage (Conjunto de Cola)"]
+    subgraph Empennage ["Empennage [Conjunto de Cola]"]
         D1[Estabilizador Vertical]
         D2[Estabilizador Horizontal]
-        D3[Timón (Rudder)]
-        D4[Elevador (Elevator)]
+        D3[Timón [Rudder]]
+        D4[Elevador [Elevator]]
         D5[Integración de los Componentes del Empennage]
         D6[Consideraciones de Seguridad]
         D7[Sistemas de Control de Vuelo Avanzados]
