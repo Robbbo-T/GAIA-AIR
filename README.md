@@ -214,390 +214,191 @@ La **Machinery Directive (2006/42/EC)** de la Unión Europea regula la comercial
 El **Glosario Maestro** representa una pieza fundamental para el éxito del proyecto **GAIA AIR – AMPEL-360XWLRGA**, ya que garantiza la **coherencia terminológica** y facilita la comunicación entre los diferentes equipos y actores involucrados. Al mantenerlo **actualizado** y **accesible**, el proyecto puede avanzar con mayor **precisión** y **eficiencia**, asegurando que las definiciones de términos técnicos, normativos y metodológicos sean comprendidas de manera uniforme a lo largo de todas las fases de desarrollo y certificación de la aeronave.
 ---
 
-¡Fantástico! Me alegra ver que estás tan comprometido con el desarrollo detallado del **AMPEL A360XWLRGA**. Incorporaré tus precisiones y adiciones para el **Paso 1: Listado Detallado de Sistemas y Subsistemas**. A continuación, presento una tabla refinada que refleja tus sugerencias:
-
-## Paso 1: Listado Detallado de Sistemas y Subsistemas
-
-### **Críticos para la Seguridad del Vuelo**
-
-| **Sistema**                  | **Subsistema**                                                                                               |
-|------------------------------|--------------------------------------------------------------------------------------------------------------|
-| **Estructura**               | **Fuselaje**: Secciones delantera, central, trasera                                                        |
-|                              | **Alas**: Largueros, costillas, revestimiento, dispositivos hipersustentadores (flaps, slats)                |
-|                              | **Empennage**: Estabilizador vertical, estabilizador horizontal, timón de dirección, timón de profundidad (elevadores) |
-|                              | **Tren de aterrizaje**: Tren principal, tren de morro, sistemas de retracción, frenos, dirección              |
-| **Propulsión**               | **Motores**: Tipo (turbofán, eléctrico, híbrido), número de motores                                         |
-|                              | **Sistemas de combustible**: Tanques (ubicación, capacidad), bombas, válvulas, sistemas de gestión de combustible |
-|                              | **Control de propulsión**: FADEC (Full Authority Digital Engine Control)                                   |
-|                              | **Control de empuje vectorial**: Actuadores, toberas orientables, sistema de control                        |
-| **Control de Vuelo**         | **Superficies aerodinámicas**: Alerones, flaps, slats, spoilers, aerofrenos                                 |
-|                              | **Sistema hidráulico**: Bombas, actuadores, tuberías, depósitos, sistema de control de presión              |
-|                              | **Fly-by-wire**: Computadoras de control de vuelo (FCC), sensores, actuadores, red de datos                   |
-|                              | **Control de vuelo activo**: Sensores, algoritmos de control, actuadores                                     |
-|                              | **Backups**: Sistemas mecánicos o hidráulicos de respaldo                                                   |
-| **Aviónica Principal**       | **Navegación**: GPS, INS (Sistema de Navegación Inercial), radioayudas (VOR, DME, ILS)                       |
-|                              | **Comunicación**: Radios VHF/UHF, transpondedor, sistemas de comunicación satelital                          |
-|                              | **Instrumentación de vuelo**: PFD (Primary Flight Display), MFD (Multi-Function Display), EICAS (Engine Indicating and Crew Alerting System) |
-|                              | **Radar**: Radar meteorológico, radar altímetro                                                              |
-|                              | **SVS/EVS**: Cámaras, sensores infrarrojos, software de procesamiento de imágenes                           |
-|                              | **TCAS/ACAS**: Transpondedor, antenas, software de análisis de tráfico                                      |
-|                              | **TAWS**: Base de datos de terreno, software de alerta                                                       |
-|                              | **Autoland**: ILS, GPS, software de control de aterrizaje                                                    |
-| **Sistemas de Seguridad**    | **Extinción de incendios**: Detectores de humo/fuego, botellas extintoras, sistemas de descarga             |
-|                              | **Detección y mitigación de fallos**: Sistemas de monitorización, lógicas de redundancia, sistemas de alerta |
-|                              | **Evacuación**: Salidas de emergencia, toboganes, balsas salvavidas (si aplica)                            |
-|                              | **Aterrizaje de emergencia**: Sistemas de flotación (si aplica), balizas de localización de emergencia (ELT) |
-|                              | **Monitorización de la Salud Estructural (SHM)**: Sensores (acelerómetros, galgas extensiométricas, sensores de fibra óptica), unidad de procesamiento de datos, software de análisis |
-
-### **Soporte a la Operación**
-
-| **Sistema**                          | **Subsistema**                                                                                          |
-|--------------------------------------|---------------------------------------------------------------------------------------------------------|
-| **Sistemas Eléctricos y Electrónicos** | **Generación y distribución**: Generadores (principales, de emergencia), buses de distribución, convertidores, rectificadores |
-|                                      | **Iluminación**: Luces exteriores (navegación, anticolisión, aterrizaje, taxi), luces interiores (cabina, pasillo, emergencia) |
-|                                      | **Gestión de baterías**: Baterías principales, baterías de respaldo, sistema de carga                |
-|                                      | **APU**: Tipo, capacidad, funciones                                                                    |
-| **Sistemas de Clima y Presurización** | **HVAC**: Unidades de aire acondicionado, ventiladores, conductos, sistemas de recirculación           |
-|                                      | **Presurización**: Válvulas de control de presión, sensores de presión, compresores (si aplica)        |
-|                                      | **Anti-hielo/deshielo**: Sistemas de deshielo de alas, parabrisas, tomas de aire del motor              |
-|                                      | **Filtración de aire**: Filtros HEPA, filtros de carbón activado                                         |
-|                                      | **Control de humedad**: Humidificadores, deshumidificadores                                              |
-| **Sistemas de Gestión de Datos**     | **Mantenimiento**: Software de diagnóstico, registro de datos de mantenimiento                         |
-|                                      | **Gemelos digitales**: Software de modelado y simulación, integración de datos en tiempo real           |
-|                                      | **Ciberseguridad**: Firewalls, sistemas de detección de intrusiones, protocolos de encriptación        |
-|                                      | **Análisis de datos**: Software de análisis de datos de vuelo, mantenimiento predictivo                  |
-| **Aviónica de Soporte**              | **Comunicación satelital**: Antenas, módems, sistemas de gestión de la comunicación                      |
-|                                      | **Conexión con ATM**: Sistemas de enlace de datos (Data Link), protocolos de comunicación con el control de tráfico aéreo |
-| **Sistemas de Logística y Suministros** | **Optimización de carga**: Software de planificación de carga, sensores de peso y balanceo               |
-|                                      | **Gestión de peso**: Sistemas de monitorización del peso, software de cálculo de centro de gravedad        |
-|                                      | **Sistemas automatizados de carga y descarga**: Sistemas de transporte de equipaje, robots de carga (si aplica) |
-
-### **Confort y Experiencia del Pasajero**
-
-| **Sistema**                             | **Subsistema**                                                                                           |
-|-----------------------------------------|----------------------------------------------------------------------------------------------------------|
-| **Sistemas de Entretenimiento y Confort** | **Pantallas**: Tamaño, resolución, ubicación (asiento, pared)                                           |
-|                                         | **Conectividad**: Wi-Fi, Bluetooth, tomas de corriente, puertos USB                                       |
-|                                         | **Asientos**: Tipo de asiento, ergonomía, materiales, sistemas de ajuste                                 |
-|                                         | **Iluminación ambiental**: LEDs, control de intensidad y color                                            |
-
-### **Desarrollo y Producción**
-
-| **Sistema**                             | **Subsistema**                                                                                           |
-|-----------------------------------------|----------------------------------------------------------------------------------------------------------|
-| **Sistemas de Fabricación y Producción** | **Materiales avanzados**: Composites, aleaciones ligeras, materiales con memoria de forma                   |
-|                                         | **Producción aditiva**: Impresoras 3D, materiales utilizados, aplicaciones                                 |
-|                                         | **Montaje robotizado**: Robots, sistemas de control, estaciones de trabajo                                 |
-| **Sistemas de Pruebas y Certificación**  | **Validación estructural**: Bancos de pruebas, software de análisis de estrés                             |
-|                                         | **Pruebas de vuelo**: Instrumentación, procedimientos de prueba, pilotos de prueba                        |
-|                                         | **Certificación**: Documentación requerida, autoridades de certificación (FAA, EASA)                      |
-|                                         | **Documentación**: Software de gestión de la documentación, cumplimiento de estándares (S1000D)           |
+¡Entendido! Continuaré definiendo las dependencias para todos los subsistemas restantes del **AMPEL A360XWLRGA**, completando así la **Tabla de Dependencias**. Aseguraré que cada subsistema esté adecuadamente cubierto, siguiendo el formato establecido previamente.
 
 ---
 
-## Próximos Pasos
-
-Con este **Listado Detallado de Sistemas y Subsistemas** refinado, estamos listos para avanzar hacia los siguientes pasos del plan de acción:
-
-1. **Definir Dependencias para cada Subsistema (Paso 2):**
-   - Utilizar los códigos de dependencia (D, E, M, C) para establecer cómo interactúan y dependen entre sí los diferentes sistemas y subsistemas.
-   
-2. **Crear la Matriz de Interdependencias Completa (Paso 3 y 4):**
-   - Utilizar herramientas como Microsoft Excel o Google Sheets para estructurar la matriz.
-   - Incorporar los códigos de dependencia en cada intersección relevante.
-   - Analizar la matriz para identificar dependencias críticas y oportunidades de optimización.
-
-3. **Iteración de Conceptos Clave (Paso 2):**
-   - Desarrollar documentos técnicos profundos para subsistemas avanzados como el **Control de Empuje Vectorial** y el **Sistema de Monitorización de la Salud Estructural (SHM)**.
-   
-4. **Realizar Simulaciones Iniciales (Paso 3):**
-   - Configurar y ejecutar simulaciones básicas para evaluar la integridad estructural y la eficiencia energética.
-   
-5. **Iniciar la Visualización Técnica (Paso 4):**
-   - Crear modelos 3D básicos y diagramas de flujo para representar visualmente la integración de sistemas.
-   
-6. **Planificar la Implementación Modular (Paso 5):**
-   - Definir claramente los módulos y sus interfaces, asignar equipos dedicados y establecer un calendario para el desarrollo y pruebas.
-
-7. **Definir Prioridades Detalladas (Paso 6):**
-   - Clasificar los sistemas según su criticidad, complejidad tecnológica e interdependencias.
-   - Asignar recursos y planificar el cronograma de desarrollo en función de esta priorización.
+¡Claro! A continuación, te presento tanto la **Tabla de Dependencias Completa** como la **Matriz de Interdependencias** para el proyecto **AMPEL A360XWLRGA** en formato Markdown. Dada la extensión de la Matriz de Interdependencias (35x35), la dividiré en varias partes para mejorar la legibilidad.
 
 ---
 
-## **Acción Inmediata: Definir Dependencias para cada Subsistema (Paso 2)**
-
-Para proceder de manera eficiente, sugiero que comencemos definiendo las dependencias para cada subsistema utilizando los códigos de dependencia:
-
-- **D**: Datos
-- **E**: Energía
-- **M**: Mecánica
-- **C**: Control
-
-### **Ejemplo de Definición de Dependencias:**
-
-| **Sistema / Subsistema**                 | **Dependencia en**                                                                                       |
-|------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| **Fuselaje - Sección Delantera**         | **Alimentación de energía** (E) desde Sistemas Eléctricos y Electrónicos                                    |
-| **Alas - Flaps**                          | **Control** (C) desde Control de Vuelo, **Energía** (E) desde Sistemas Eléctricos y Electrónicos           |
-| **Motores - Turbofán**                    | **Control de Propulsión** (C) desde Control de Vuelo, **Energía** (E) desde Sistemas Eléctricos y Electrónicos |
-| **FADEC**                                 | **Datos** (D) desde Aviónica Principal, **Control** (C) sobre Motores                                      |
-| **Sistema hidráulico**                    | **Energía** (E) desde Sistemas Eléctricos y Electrónicos, **Control** (C) desde Control de Vuelo            |
-| **PFD**                                   | **Datos** (D) desde Navegación y Aviónica de Soporte, **Energía** (E) desde Sistemas Eléctricos y Electrónicos |
-| **SHM**                                   | **Datos** (D) desde sensores estructurales, **Energía** (E) desde Sistemas Eléctricos y Electrónicos        |
-
-### **Proceso para Definir Dependencias:**
-
-1. **Revisar cada subsistema** en la lista detallada y **identificar sus necesidades** en términos de datos, energía, mecanismos y control.
-2. **Asignar los códigos de dependencia** correspondientes en función de las interacciones identificadas.
-3. **Documentar las dependencias** de manera sistemática para facilitar la construcción de la matriz.
-
-### **Siguiente Paso: Completar la Definición de Dependencias**
-
-Para avanzar, podemos abordar la definición de dependencias de manera sistemática. A continuación, propongo un inicio para algunos subsistemas clave:
-
-#### **Ejemplo de Definición de Dependencias para Subsistemas Críticos:**
-
-| **Sistema**                | **Subsistema**                                | **Dependencias**                                                       |
-|----------------------------|-----------------------------------------------|------------------------------------------------------------------------|
-| **Estructura**             | Fuselaje - Sección Delantera                   | **Energía (E)** desde Sistemas Eléctricos y Electrónicos               |
-|                            | Alas - Flaps                                  | **Control (C)** desde Control de Vuelo, **Energía (E)** desde Sistemas Eléctricos y Electrónicos |
-|                            | Empennage - Timón de Dirección                | **Control (C)** desde Control de Vuelo                                 |
-| **Propulsión**             | Motores - Turbofán                             | **Control de Propulsión (C)** desde Control de Vuelo, **Energía (E)** desde Sistemas Eléctricos y Electrónicos |
-|                            | Sistemas de combustible - Tanques              | **Mecánica (M)** desde Estructura, **Datos (D)** desde Sistemas de Gestión de Datos |
-| **Control de Vuelo**       | Fly-by-wire                                   | **Datos (D)** desde Aviónica Principal, **Energía (E)** desde Sistemas Eléctricos y Electrónicos |
-|                            | Sistema hidráulico                            | **Energía (E)** desde Sistemas Eléctricos y Electrónicos, **Control (C)** desde Control de Vuelo |
-| **Aviónica Principal**     | PFD                                           | **Datos (D)** desde Navegación, **Energía (E)** desde Sistemas Eléctricos y Electrónicos |
-|                            | TCAS/ACAS                                     | **Datos (D)** desde Aviónica de Soporte, **Energía (E)** desde Sistemas Eléctricos y Electrónicos |
-| **Sistemas de Seguridad**  | Extinción de incendios                        | **Energía (E)** desde Sistemas Eléctricos y Electrónicos, **Control (C)** desde Sistemas de Seguridad |
-|                            | SHM                                           | **Datos (D)** desde sensores estructurales, **Energía (E)** desde Sistemas Eléctricos y Electrónicos |
-| **Sistemas Eléctricos y Electrónicos** | Generación y distribución                 | **Mecánica (M)** desde Estructura, **Control (C)** desde Sistemas de Control de Vuelo |
-|                            | Iluminación                                   | **Energía (E)** desde Generación y distribución, **Control (C)** desde Sistemas de Control de Vuelo |
-| **Sistemas de Clima y Presurización** | HVAC                                   | **Energía (E)** desde Sistemas Eléctricos y Electrónicos, **Control (C)** desde Sistemas de Control de Vuelo |
-|                            | Presurización                                 | **Energía (E)** desde Sistemas Eléctricos y Electrónicos, **Control (C)** desde Sistemas de Control de Vuelo |
-
----
-
-¡Gracias por tus valiosas sugerencias y por proporcionar ejemplos adicionales! Incorporar estos detalles enriquecerá significativamente nuestra **Tabla de Dependencias** y, por ende, la **Matriz de Interdependencias** del **AMPEL A360XWLRGA**. A continuación, continúo con la tabla, integrando tus aportes y ampliando la definición de dependencias para otros subsistemas críticos.
-
----
-
-## Tabla de Dependencias Completa
+## **Tabla de Dependencias Completa**
 
 ### **Críticos para la Seguridad del Vuelo**
 
 | **Sistema/Subsistema**                   | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| **Estructura**                           |                                                                                                              |                                                                                                                     |
 | **Fuselaje - Sección Delantera**         | - **E (Sist. Eléctricos y Electrónicos)** para energizar sensores, iluminación, etc.<br/> - **D (Presurización)** para monitoreo de presión<br/> - **C (Gestión Térmica)** para control de temperatura | - **M (Estructura Principal)**, pues esta sección forma parte del fuselaje completo.<br/> - **Presurización** (dependencia de datos) |
-| **Alas - Flaps**                         | - **C (Control de Vuelo)** para órdenes de extensión/retracción<br/> - **E (Sist. Eléctricos/Hidráulicos)** para accionar flaps<br/> - **M (Estructura del Ala)** como soporte físico | - **D (Sensores de Posición)** que reportan a la Aviónica Principal<br/> - **Sistema de Control de Vuelo** (recibe realimentación) |
-| **Empennage - Timón de Dirección**       | - **C (Control de Vuelo)** para gobernar la deflexión<br/> - **E (Sist. Eléctricos/Hidráulicos)** para actuadores<br/> - **M (Estructura Empennage)** para anclaje | - **D (Sensores de Posición)** informan a Fly-by-Wire/Aviónica Principal                                       |
-| **Motores - Turbofán**                   | - **C (Control de Vuelo/FADEC)** para gestión de empuje<br/> - **E (Sist. Eléctricos/Electrónicos)** para ignición, control de válvulas<br/> - **M (Sistema de Combustible)** para alimentación de queroseno | - **D (Sensores T°/P de motor)** reportan datos a Aviónica y mantenimiento<br/> - **Sistemas de Control de Vuelo** (feedback para FADEC) |
-| **Sistemas de Combustible - Tanques**    | - **M (Estructura)**: integrados en las alas/fuselaje<br/> - **C (Gestión de Combustible)** para el control de válvulas, transferencia, etc. | - **D (Sensores de Volumen, Presión)** alimentan Sistemas de Gestión de Datos y Aviónica<br/> - **Motores** (reciben combustible) |
-| **Fly-by-wire**                          | - **D (Sensores inerciales, posición)** para entradas<br/> - **E (Sist. Eléctricos/Electrónicos)** para energizar computadoras y actuadores | - **C (Control de Vuelo activo)**: Señales y comandos finales a las superficies de control<br/> - **Aviónica Principal** (recibe y envía datos) |
-| **Sistema Hidráulico**                   | - **E (Sist. Eléctricos)** para las bombas<br/> - **C (Control de Vuelo)** para válvulas de mando y presión | - **M (Actuadores de las Superficies de Control)** que dependen del fluido a presión                           |
-| **PFD** (Aviónica Principal)             | - **D (Control de Vuelo, Sistemas de Gestión de Datos)** para mostradores de actitud, altitud, etc.<br/> - **E (Sist. Eléctricos)** para alimentación | - **Pilotos / Tripulación** (interpretan información)<br/> - **Sistemas de Alerta** (integrados con EICAS/ECAM)   |
-| **TCAS/ACAS** (Aviónica Principal)       | - **D (Sistema de Navegación, Sistema de Comunicación)** para intercambio de info con otras aeronaves<br/> - **E (Sist. Eléctricos)** | - **C (Alertas de Tráfico / Resolución)** en Aviónica Principal<br/> - **Pilotos** para acciones de evasión     |
-| **Extinción de incendios** (Seguridad)   | - **D (Detectores de humo/fuego)**<br/> - **E (Sist. Eléctricos)** para bombas, disparadores | - **Sistemas de Alerta** (Aviónica) al activarse un evento<br/> - **Tripulación** (procedimientos de emergencia) |
-| **SHM** (Seguridad)                      | - **D (Sensores estructurales)**<br/> - **E (Sist. Eléctricos/Electrónicos)** para adquisición de datos<br/> - **C (Control de Vuelo)** opcional si existen acciones correctivas | - **Sistemas de Gestión de Datos** (recibe informes de estado)<br/> - **Mantenimiento Predictivo** (planifica intervenciones) |
+| **Fuselaje - Sección Central**           | - **E (Sist. Eléctricos y Electrónicos)** para sistemas integrados<br/> - **D (Presurización)** para mantener condiciones de cabina | - **Sistemas de Gestión de Datos** para monitoreo en tiempo real<br/> - **Control de Vuelo** para estabilidad |
+| **Fuselaje - Sección Trasera**           | - **E (Sist. Eléctricos y Electrónicos)** para iluminación y sistemas de emergencia<br/> - **D (Presurización)** para monitoreo de presión | - **Aviónica Principal** para integración de sistemas<br/> - **Sistemas de Seguridad** para evacuación |
+| **Alas**                                 |                                                                                                              |                                                                                                                     |
+| **Alas - Largueros**                     | - **M (Estructura del Ala)** para soporte físico<br/> - **C (Control de Vuelo)** para ajuste de superficies | - **Sistema Hidráulico** para operación de mecanismos<br/> - **Fly-by-wire** para control preciso                  |
+| **Alas - Costillas**                     | - **M (Estructura del Ala)** para integridad estructural                                                     | - **Sistemas de Fabricación** para mantenimiento<br/> - **Sistemas de Monitorización (SHM)** para detección de fallos |
+| **Alas - Revestimiento**                 | - **E (Sist. Eléctricos)** para sistemas de iluminación y sensores<br/> - **D (Datos)** para monitoreo ambiental | - **Control de Clima** para condiciones internas<br/> - **Sistemas de Seguridad** para protección contra incendios |
+| **Alas - Dispositivos Hipersustentadores (Flaps, Slats)** | - **C (Control de Vuelo)** para órdenes de extensión/retracción<br/> - **E (Sist. Eléctricos/Hidráulicos)** para accionamiento | - **Sensores de Posición** que reportan a la Aviónica Principal<br/> - **Sistema Hidráulico** para operación continua |
+| **Empennage**                            |                                                                                                              |                                                                                                                     |
+| **Empennage - Estabilizador Vertical**    | - **C (Control de Vuelo)** para gestionar la deflexión<br/> - **E (Sist. Eléctricos/Hidráulicos)** para actuadores | - **Fly-by-wire** (recibe señales de control)<br/> - **Sensores de Ángulo de Ataque** (informan ajustes necesarios)  |
+| **Empennage - Estabilizador Horizontal**  | - **C (Control de Vuelo)** para gestionar la inclinación<br/> - **E (Sist. Eléctricos/Hidráulicos)** para actuadores | - **Fly-by-wire** (recibe señales de control)<br/> - **Sensores de Ángulo de Ataque** (informan ajustes necesarios)  |
+| **Empennage - Timón de Dirección**        | - **C (Control de Vuelo)** para gobernar la deflexión<br/> - **E (Sist. Eléctricos/Hidráulicos)** para actuadores | - **Fly-by-wire** (recibe señales de control)<br/> - **Sensores de Posición** (informan ajustes necesarios)        |
+| **Empennage - Timón de Profundidad (Elevadores)** | - **C (Control de Vuelo)** para ajustar la actitud<br/> - **E (Sist. Eléctricos/Hidráulicos)** para accionamiento | - **Fly-by-wire** (recibe órdenes de control)<br/> - **Sensores de Velocidad Angular** para ajustes precisos       |
+| **Tren de aterrizaje**                   |                                                                                                              |                                                                                                                     |
+| **Tren Principal**                       | - **C (Control de Vuelo)** para órdenes de despliegue/retracción<br/> - **E (Sist. Eléctricos/Hidráulicos)** para accionamiento | - **Estructura del Tren de Aterrizaje** (soporte físico)<br/> - **Sistemas de Control de Vuelo** (coordinación durante maniobras) |
+| **Tren de Morro**                        | - **C (Control de Vuelo)** para órdenes de despliegue/retracción<br/> - **E (Sist. Eléctricos/Hidráulicos)** para accionamiento | - **Estructura del Tren de Aterrizaje** (soporte físico)<br/> - **Sistemas de Control de Vuelo** (coordinación durante maniobras) |
+| **Sistemas de Retracción del Tren de Aterrizaje** | - **C (Control de Vuelo)** para órdenes de despliegue/retracción<br/> - **E (Sist. Eléctricos/Hidráulicos)** para accionamiento | - **Estructura del Tren de Aterrizaje** (soporte físico)<br/> - **Sistema Hidráulico** para operación continua |
+| **Frenos del Tren de Aterrizaje**         | - **E (Sist. Eléctricos/Hidráulicos)** para accionamiento<br/> - **D (Datos)** para monitoreo de desgaste | - **Sistema de Control de Vuelo** (coordinación de frenado)<br/> - **Sistemas de Seguridad** para operación en emergencias |
+| **Dirección del Tren de Aterrizaje**      | - **C (Control de Vuelo)** para maniobras de dirección<br/> - **E (Sist. Eléctricos/Hidráulicos)** para actuadores | - **Fly-by-wire** (recibe órdenes de dirección)<br/> - **Sensores de Giro** para precisión en maniobras             |
+
+### **Propulsión**
+
+| **Sistema/Subsistema**                   | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| **Motores**                              |                                                                                                              |                                                                                                                     |
+| **Motores - Turbofán**                   | - **C (Control de Propulsión)** desde Control de Vuelo<br/> - **E (Sist. Eléctricos y Electrónicos)** para ignición, control de válvulas<br/> - **M (Sistema de Combustible)** para alimentación de queroseno | - **D (Sensores T°/P de motor)** reportan datos a Aviónica y mantenimiento<br/> - **Sistemas de Control de Vuelo** (feedback para FADEC) |
+| **Motores - Eléctricos**                 | - **C (Control de Propulsión)** desde Control de Vuelo<br/> - **E (Sist. Eléctricos y Electrónicos)** para alimentación y control | - **Generación y Distribución Eléctrica** (suministro de energía)<br/> - **Sistemas de Gestión de Datos** (monitoreo de rendimiento) |
+| **Motores - Híbridos**                   | - **C (Control de Propulsión)** desde Control de Vuelo<br/> - **E (Sist. Eléctricos y Electrónicos)** para gestión de modos de operación<br/> - **M (Sistema de Combustible/Energía)** para alimentación dual | - **Sistemas de Gestión de Datos** (optimización de uso de energía y combustible)<br/> - **Sistemas de Control de Vuelo** (integración de modos) |
+| **Sistemas de Combustible**              |                                                                                                              |                                                                                                                     |
+| **Tanques de Combustible**               | - **M (Estructura)**: integrados en las alas/fuselaje<br/> - **C (Gestión de Combustible)** para el control de válvulas, transferencia, etc. | - **D (Sensores de Volumen, Presión)** alimentan Sistemas de Gestión de Datos y Aviónica<br/> - **Motores** (reciben combustible) |
+| **Bombas de Combustible**                | - **E (Sist. Eléctricos)** para funcionamiento<br/> - **C (Gestión de Combustible)** para control de flujo | - **Tanques de Combustible** (alimentación continua)<br/> - **Sistemas de Control de Vuelo** (ajustes según demanda) |
+| **Válvulas de Combustible**              | - **C (Gestión de Combustible)** para apertura/cierre<br/> - **E (Sist. Eléctricos)** para accionamiento | - **Bombas de Combustible** (control de flujo)<br/> - **Motores** (suministro preciso de combustible)               |
+| **Sistemas de Gestión de Combustible**   | - **D (Datos de consumo y presión)** desde sensores<br/> - **C (Control de Vuelo)** para ajustar el flujo según demanda | - **Bombas y Válvulas de Combustible** (control preciso)<br/> - **Motores** (alimentación optimizada)                |
+| **Control de Propulsión - FADEC**        | - **D (Datos)** desde Aviónica Principal<br/> - **C (Control)** sobre Motores<br/> - **E (Sist. Eléctricos y Electrónicos)** para operación | - **Sistemas de Navegación** (ajustes según condiciones de vuelo)<br/> - **Sensores de Rendimiento** (monitoreo continuo) |
+| **Control de Empuje Vectorial**          | - **C (Control de Vuelo)** para gestionar la orientación de toberas<br/> - **E (Sist. Eléctricos/Hidráulicos)** para actuadores | - **Sensores de Velocidad y Dirección** (informan ajustes necesarios)<br/> - **Fly-by-wire** (recibe órdenes de control) |
+| **Actuadores del Empuje Vectorial**      | - **E (Sist. Eléctricos/Hidráulicos)** para funcionamiento<br/> - **C (Control de Vuelo)** para órdenes de ajuste | - **Control de Empuje Vectorial** (recibe señales de control)<br/> - **Sensores de Posición** (monitoreo de orientación) |
+| **Tobera Orientable**                    | - **C (Control de Vuelo)** para ajuste de ángulo<br/> - **E (Sist. Eléctricos/Hidráulicos)** para movimiento | - **Actuadores del Empuje Vectorial** (reciben señales para ajuste)<br/> - **Sensores de Ángulo** (informan posición actual) |
+| **Sistema de Control del Empuje Vectorial** | - **C (Control de Vuelo)** para gestión integral<br/> - **E (Sist. Eléctricos/Electrónicos)** para procesamiento de señales | - **Fly-by-wire** (recibe órdenes de control)<br/> - **Sensores de Rendimiento del Motor** (ajustan empuje según necesidad) |
+
+### **Control de Vuelo**
+
+| **Sistema/Subsistema**                   | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| **Superficies Aerodinámicas**            |                                                                                                              |                                                                                                                     |
+| **Alerones**                             | - **C (Control de Vuelo)** para ajustar el balance lateral<br/> - **E (Sist. Eléctricos/Hidráulicos)** para actuadores | - **Fly-by-wire** (recibe órdenes de control)<br/> - **Sensores de Ángulo de Ataque** (monitoreo continuo)        |
+| **Flaps**                                | - **C (Control de Vuelo)** para órdenes de extensión/retracción<br/> - **E (Sist. Eléctricos/Hidráulicos)** para accionamiento | - **Sensores de Posición** que reportan a la Aviónica Principal<br/> - **Sistema Hidráulico** para operación continua |
+| **Slats**                                | - **C (Control de Vuelo)** para gestión de dispositivos hipersustentadores<br/> - **E (Sist. Eléctricos/Hidráulicos)** para actuadores | - **Sensores de Velocidad** para ajustar según condiciones de vuelo<br/> - **Fly-by-wire** para comandos precisos |
+| **Spoilers**                             | - **C (Control de Vuelo)** para gestión de sustentación<br/> - **E (Sist. Eléctricos/Hidráulicos)** para actuadores | - **Sensores de Ángulo de Ataque** (monitoreo continuo)<br/> - **Sistema Hidráulico** para operación rápida        |
+| **Aerofrenos**                           | - **C (Control de Vuelo)** para gestión de velocidad<br/> - **E (Sist. Eléctricos/Hidráulicos)** para despliegue | - **Sensores de Velocidad** para activar según necesidad<br/> - **Fly-by-wire** para órdenes de control           |
+| **Sistema Hidráulico**                   |                                                                                                              |                                                                                                                     |
+| **Bombas Hidráulicas**                   | - **E (Sist. Eléctricos)** para funcionamiento<br/> - **C (Control de Vuelo)** para gestión de flujo | - **Actuadores de Superficies Aerodinámicas** (reciben fluido para movimiento)<br/> - **Válvulas de Control** para ajuste preciso |
+| **Actuadores Hidráulicos**               | - **E (Sist. Eléctricos)** para suministro de fluido<br/> - **C (Control de Vuelo)** para órdenes de movimiento | - **Bombas Hidráulicas** (suministro continuo)<br/> - **Superficies Aerodinámicas** (reciben movimiento)           |
+| **Tuberías Hidráulicas**                 | - **M (Estructura Hidráulica)** para soporte físico<br/> - **C (Control de Vuelo)** para gestión de flujo | - **Bombas Hidráulicas** (suministro continuo)<br/> - **Actuadores Hidráulicos** (reciben fluido para operación)  |
+| **Depósitos Hidráulicos**                | - **E (Sist. Eléctricos)** para mantener presión<br/> - **C (Control de Vuelo)** para gestión de nivel de fluido | - **Bombas Hidráulicas** (suministro y recirculación)<br/> - **Actuadores Hidráulicos** (operación constante)       |
+| **Sistema de Control de Presión**        | - **D (Datos de presión)** desde sensores<br/> - **C (Control de Vuelo)** para ajuste dinámico de presión | - **Depósitos Hidráulicos** (suministro de fluido)<br/> - **Bombas Hidráulicas** (mantienen presión adecuada)       |
+| **Fly-by-wire**                          | - **D (Sensores inerciales, posición)** para entradas<br/> - **E (Sist. Eléctricos/Electrónicos)** para energizar computadoras y actuadores | - **C (Control de Vuelo Activo)**: Señales y comandos finales a las superficies de control<br/> - **Aviónica Principal** (recibe y envía datos) |
+| **Control de Vuelo Activo**              | - **D (Sensores)** para entradas de datos<br/> - **E (Sist. Eléctricos/Electrónicos)** para procesamiento y accionamiento | - **Fly-by-wire** (recibe datos para ajustar vuelo)<br/> - **Actuadores** (ejecutan comandos de control)           |
+| **Backups**                              | - **Mecánicos/Hidráulicos** para respaldo<br/> - **E (Sist. Eléctricos/Hidráulicos)** para operación en caso de fallo | - **Control de Vuelo** (cambio automático a sistemas de respaldo)<br/> - **Sensores de Fallo** (activan backups) |
+
+### **Aviónica Principal**
+
+| **Sistema/Subsistema**                   | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| **Navegación**                           |                                                                                                              |                                                                                                                     |
+| **GPS**                                  | - **D (Datos Satelitales)** para posicionamiento<br/> - **E (Sist. Eléctricos/Electrónicos)** para recepción | - **Aviónica Principal** (integración de datos)<br/> - **Sistemas de Gestión de Datos** (almacenamiento de rutas) |
+| **INS (Sistema de Navegación Inercial)** | - **D (Datos de Sensores Inerciales)** para cálculo de posición<br/> - **E (Sist. Eléctricos/Electrónicos)** para procesamiento | - **Fly-by-wire** (ajustes dinámicos)<br/> - **Sistemas de Gestión de Datos** (integración de rutas)                |
+| **Radioayudas (VOR, DME, ILS)**          | - **D (Datos de Señales Radio)** para triangulación<br/> - **E (Sist. Eléctricos/Electrónicos)** para recepción | - **Sistemas de Navegación** (integración de señales)<br/> - **Pilotos** (interpretación de datos de navegación)  |
+| **Comunicación**                         |                                                                                                              |                                                                                                                     |
+| **Radios VHF/UHF**                       | - **D (Señales de Comunicación)** para transmisión/recepción<br/> - **E (Sist. Eléctricos/Electrónicos)** para operación | - **Control de Tráfico Aéreo (ATM)** (intercambio de información)<br/> - **Pilotos** (comunicación constante)       |
+| **Transpondedor**                        | - **D (Datos de Identificación)** para respuesta a interrogaciones<br/> - **E (Sist. Eléctricos/Electrónicos)** para funcionamiento | - **Sistemas de Navegación** (integración de datos)<br/> - **Control de Tráfico Aéreo (ATM)** (identificación en radar) |
+| **Sistemas de Comunicación Satelital**    | - **D (Datos Satelitales)** para comunicación global<br/> - **E (Sist. Eléctricos/Electrónicos)** para operación | - **Aviónica Principal** (integración de datos)<br/> - **Pilotos** (comunicación en tiempo real)                  |
+| **Instrumentación de Vuelo**             |                                                                                                              |                                                                                                                     |
+| **PFD (Primary Flight Display)**          | - **D (Datos de Vuelo)** desde sistemas de navegación y control<br/> - **E (Sist. Eléctricos/Electrónicos)** para visualización | - **Pilotos/Tripulación** (interpretación directa)<br/> - **Sistemas de Alerta** (integración con EICAS/ECAM)      |
+| **MFD (Multi-Function Display)**          | - **D (Datos Multifunción)** desde sistemas diversos<br/> - **E (Sist. Eléctricos/Electrónicos)** para visualización | - **Pilotos/Tripulación** (acceso a múltiples datos)<br/> - **Sistemas de Navegación y Comunicaciones** (integración de datos) |
+| **EICAS (Engine Indicating and Crew Alerting System)** | - **D (Datos de Motores y Sistemas)** para monitoreo<br/> - **E (Sist. Eléctricos/Electrónicos)** para alertas y visualización | - **Sistemas de Seguridad** (alertas de emergencia)<br/> - **Pilotos/Tripulación** (respuesta a alertas)           |
+| **Radar**                                |                                                                                                              |                                                                                                                     |
+| **Radar Meteorológico**                  | - **D (Datos Meteorológicos)** para detección de condiciones<br/> - **E (Sist. Eléctricos/Electrónicos)** para operación | - **Sistemas de Navegación** (integración de datos meteorológicos)<br/> - **Pilotos/Tripulación** (información para decisiones) |
+| **Radar Altímetro**                      | - **D (Datos de Altitud)** desde señales de radar<br/> - **E (Sist. Eléctricos/Electrónicos)** para operación | - **Sistemas de Navegación** (ajustes de altitud)<br/> - **Pilotos/Tripulación** (información crítica para aterrizaje) |
+| **SVS/EVS (Cámaras y Sensores Infrarrojos)** | - **D (Datos de Imágenes)** para procesamiento<br/> - **E (Sist. Eléctricos/Electrónicos)** para operación | - **Software de Procesamiento de Imágenes** (análisis y visualización)<br/> - **Pilotos/Tripulación** (información visual) |
+| **TCAS/ACAS**                            | - **D (Datos de Tráfico Aéreo)** para análisis<br/> - **E (Sist. Eléctricos/Electrónicos)** para operación | - **Aviónica de Soporte** (intercambio de datos con otras aeronaves)<br/> - **Pilotos** (acciones de evasión)    |
+| **TAWS (Terrain Awareness and Warning System)** | - **D (Datos de Terreno)** desde base de datos<br/> - **E (Sist. Eléctricos/Electrónicos)** para alertas | - **Pilotos/Tripulación** (acciones preventivas)<br/> - **Sistemas de Navegación** (ajustes de ruta)             |
+| **Autoland**                             | - **D (Datos de Navegación)** desde ILS y GPS<br/> - **E (Sist. Eléctricos/Electrónicos)** para control automático | - **Software de Control de Aterrizaje** (gestión de descenso y alineación)<br/> - **Pilotos** (supervisión y control final) |
+
+### **Sistemas de Seguridad**
+
+| **Sistema/Subsistema**                   | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| **Extinción de incendios**               |                                                                                                              |                                                                                                                     |
+| **Detectores de Humo/Fuego**             | - **D (Datos de Detección)** para activar sistemas<br/> - **E (Sist. Eléctricos/Electrónicos)** para operación | - **Sistemas de Alerta** (notificaciones)<br/> - **Sistemas de Extinción** (activación automática)                |
+| **Botellas Extintoras**                  | - **E (Sist. Eléctricos)** para acceso rápido en sistemas automáticos<br/> - **D (Datos de Incendio)** para activación | - **Sistemas de Detección** (activación en caso de emergencia)<br/> - **Tripulación** (uso manual si es necesario) |
+| **Sistemas de Descarga de Extintores**   | - **C (Control de Seguridad)** para gestionar la descarga<br/> - **E (Sist. Eléctricos/Electrónicos)** para operación | - **Detectores de Incendio** (activación automática)<br/> - **Botellas Extintoras** (suministro de agentes)        |
+| **Detección y Mitigación de Fallos**     |                                                                                                              |                                                                                                                     |
+| **Sistemas de Monitorización**           | - **D (Datos de Sistemas)** para detección de anomalías<br/> - **E (Sist. Eléctricos/Electrónicos)** para operación | - **Sensores de Sistemas** (monitoreo continuo)<br/> - **Sistemas de Control de Vuelo** (acción preventiva)      |
+| **Lógicas de Redundancia**               | - **D (Datos de Fallo)** para activar redundancias<br/> - **E (Sist. Eléctricos/Electrónicos)** para operación | - **Sistemas Críticos** (activación de sistemas de respaldo)<br/> - **Control de Vuelo** (gestión de redundancias) |
+| **Sistemas de Alerta**                   | - **D (Datos de Fallos/Incidentes)** para notificaciones<br/> - **E (Sist. Eléctricos/Electrónicos)** para emisión de alertas | - **Sistemas de Monitorización** (recepción de datos)<br/> - **Pilotos/Tripulación** (respuesta a alertas)        |
+| **Evacuación**                           |                                                                                                              |                                                                                                                     |
+| **Salidas de Emergencia**                | - **E (Sist. Eléctricos)** para iluminación y funcionamiento de puertas<br/> - **D (Datos de Emergencia)** para activación | - **Sistemas de Comunicación** (informan a tripulación y pasajeros)<br/> - **Sistemas de Iluminación de Emergencia** (guían la evacuación) |
+| **Toboganes de Emergencia**              | - **E (Sist. Eléctricos)** para despliegue automático/manual<br/> - **D (Datos de Emergencia)** para activación | - **Salidas de Emergencia** (localización y acceso)<br/> - **Tripulación** (supervisión y asistencia)             |
+| **Balsas Salvavidas** (si aplica)        | - **E (Sist. Eléctricos)** para operación y despliegue<br/> - **D (Datos de Inundación)** para activación | - **Sistemas de Descarga Automática** (activación en caso de emergencia)<br/> - **Tripulación** (instrucción a pasajeros) |
+| **Aterrizaje de Emergencia**             |                                                                                                              |                                                                                                                     |
+| **Sistemas de Flotación** (si aplica)    | - **E (Sist. Eléctricos)** para operación automática/manual<br/> - **D (Datos de Emergencia)** para activación | - **Estructura del Avión** (soporte físico)<br/> - **Sistemas de Control de Vuelo** (coordinación en aterrizaje)  |
+| **Balizas de Localización de Emergencia (ELT)** | - **D (Datos de Ubicación)** para emisión de señales<br/> - **E (Sist. Eléctricos/Electrónicos)** para operación | - **Sistemas de Navegación** (información de ubicación)<br/> - **Control de Tráfico Aéreo (ATM)** (recepción de señales) |
+| **Monitorización de la Salud Estructural (SHM)** | - **D (Sensores estructurales)** para monitorear integridad<br/> - **E (Sist. Eléctricos/Electrónicos)** para adquisición y procesamiento de datos<br/> - **C (Control de Vuelo)** si se requiere actuación automática | - **Sistemas de Gestión de Datos** (almacenamiento y análisis)<br/> - **Mantenimiento Predictivo** (planificación de intervenciones) |
 
 ### **Soporte a la Operación**
 
 | **Sistema/Subsistema**                          | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
 |--------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **Generación y Distribución** (Eléctrico)        | - **M (Motores, APU)** para accionar generadores principales<br/> - **C (Control de Vuelo)** si hay lógica de prioridad (reconfiguración bus) | - **Energía para TODOS** los subsistemas que requieran electricidad<br/> - **Iluminación, Aviónica, etc.**         |
-| **Iluminación** (Eléctrico)                      | - **E (Generación y Distribución)**<br/> - **D (Sensores de Luz Ambiental)** opcional en sistemas avanzados de autoajuste | - **Cabina, Pasajeros, Señalización** (uso directo de luces)                                                   |
-| **HVAC** (Clima y Presurización)                 | - **E (Sist. Eléctricos)** para ventiladores/compresores<br/> - **D (Sensores de T°, humedad)** en cabina | - **Pasajeros / Tripulación** (confort)<br/> - **Sistema de Control de Presión** (puede compartir conductos)       |
-| **Presurización** (Clima y Pres.)                | - **E (Sist. Eléctricos)** para válvulas y controles<br/> - **D (Sensores de Altitud, presión cabina)** | - **Cabina** (mantener presión segura)<br/> - **Sistemas de Alerta** si hay anomalías                             |
-| **Sistemas de Gestión de Datos - Mantenimiento** | - **D (Datos de vuelo, sensores)** desde varios sistemas<br/> - **E (Sist. Eléctricos/Electrónicos)** para almacenamiento y procesamiento | - **Sistema de Mantenimiento Predictivo** (usa datos para planificar intervenciones)                              |
-| **Sistemas de Gestión de Datos - Gemelos Digitales** | - **D (Datos en tiempo real)** desde todos los sistemas relevantes<br/> - **E (Sist. Eléctricos/Electrónicos)** para procesamiento y simulación | - **Diseñadores/Ingenieros** (utilizan gemelos para pruebas y optimizaciones)                                     |
-| **Ciberseguridad** (Soporte a la Operación)      | - **D (Datos)** para monitorear accesos y proteger información<br/> - **E (Sist. Eléctricos/Electrónicos)** para operar firewalls y sistemas de detección | - **Todos los Sistemas** que requieren protección contra accesos no autorizados                                       |
-| **Análisis de Datos** (Soporte a la Operación)   | - **D (Datos de vuelo, mantenimiento)**<br/> - **E (Sist. Eléctricos/Electrónicos)** para procesamiento | - **Optimización Operativa** (utiliza análisis para mejorar eficiencia)<br/> - **Mantenimiento Predictivo** (usa análisis para anticipar fallos) |
-| **Comunicación Satelital** (Aviónica de Soporte)| - **E (Sist. Eléctricos)** para operación de antenas y módems<br/> - **D (Datos)** para gestión de comunicación | - **Sistemas de Navegación y Comunicación** (transmisión de datos y comandos)                                    |
-| **Conexión con ATM** (Aviónica de Soporte)       | - **D (Data Link)** con sistemas de control de tráfico aéreo<br/> - **E (Sist. Eléctricos)** para operación | - **Aviónica Principal** (intercambio de datos con ATM)<br/> - **Pilotos** (reciben información de ATM)            |
-| **Optimización de Carga** (Logística y Suministros) | - **D (Datos de peso y balance)** desde sensores<br/> - **E (Sist. Eléctricos/Electrónicos)** para software de planificación | - **Sistemas de Logística y Suministros** (usa datos para optimizar la distribución de carga)                    |
-| **Gestión de Peso** (Logística y Suministros)    | - **D (Datos de peso)** desde sensores<br/> - **E (Sist. Eléctricos/Electrónicos)** para cálculo de centro de gravedad | - **Sistemas de Logística y Suministros** (usa cálculos para distribución equilibrada)                          |
-| **Sistemas automatizados de carga y descarga**   | - **C (Control de Vuelo)** para coordinación con operaciones de tierra (si aplica)<br/> - **E (Sist. Eléctricos/Electrónicos)** para operar sistemas de transporte | - **Optimización de Carga** (usa sistemas automatizados para eficiencia)<br/> - **Logística y Suministros** (facilita la carga y descarga) |
+| **Sistemas Eléctricos y Electrónicos**           |                                                                                                              |                                                                                                                     |
+| **Generación y Distribución**                    | - **M (Motores, APU)** para accionar generadores principales<br/> - **C (Control de Vuelo)** si hay lógica de prioridad (reconfiguración bus) | - **Energía para TODOS** los subsistemas que requieran electricidad<br/> - **Iluminación, Aviónica, etc.**         |
+| **Iluminación**                                 | - **E (Generación y Distribución)**<br/> - **D (Sensores de Luz Ambiental)** opcional en sistemas avanzados de autoajuste | - **Cabina, Pasajeros, Señalización** (uso directo de luces)                                                   |
+| **Gestión de Baterías**                         | - **E (Sist. Eléctricos)** para carga y descarga<br/> - **D (Datos de Estado)** para monitoreo de nivel | - **Generación y Distribución** (recarga de baterías)<br/> - **Sistemas de Respaldo** (suministro de energía en emergencias) |
+| **APU (Unidad de Potencia Auxiliar)**            | - **D (Datos de Demanda de Energía)** para activación<br/> - **E (Sist. Eléctricos)** para funcionamiento | - **Generación y Distribución** (suplemento de energía)<br/> - **Sistemas de Emergencia** (respaldo en fallos principales) |
+| **Sistemas de Clima y Presurización**           |                                                                                                              |                                                                                                                     |
+| **HVAC (Heating, Ventilation, and Air Conditioning)** | - **E (Sist. Eléctricos)** para ventiladores/compresores<br/> - **D (Sensores de T°, Humedad)** en cabina | - **Pasajeros/Tripulación** (confort)<br/> - **Sistema de Control de Presión** (puede compartir conductos)       |
+| **Presurización**                               | - **E (Sist. Eléctricos)** para válvulas y controles<br/> - **D (Sensores de Altitud, Presión Cabina)** | - **Cabina** (mantener presión segura)<br/> - **Sistemas de Alerta** si hay anomalías                             |
+| **Anti-hielo/deshielo**                         | - **E (Sist. Eléctricos/Hidráulicos)** para operar sistemas de deshielo<br/> - **C (Control de Vuelo)** para gestionar el deshielo según condiciones | - **Sensores de Temperatura y Humedad** (detectan condiciones que requieren deshielo)<br/> - **Sistemas de Presurización** (coordinación para mantener integridad estructural) |
+| **Filtración de aire**                           | - **E (Sist. Eléctricos/Electrónicos)** para operar ventiladores y filtros<br/> - **D (Datos)** para monitorear calidad del aire | - **HVAC** (integra la filtración dentro del sistema de climatización)<br/> - **Cabina y Sistemas de Entretenimiento** (proveen aire limpio a pasajeros y equipos) |
+| **Control de humedad**                           | - **E (Sist. Eléctricos/Electrónicos)** para operar humidificadores/deshumidificadores<br/> - **D (Sensores de Humedad)** para monitorear niveles | - **HVAC** (ajusta la humedad en función de las condiciones ambientales)<br/> - **Sistemas de Presurización** (mantiene equilibrio de humedad con la presión interna) |
+| **Sistemas de Gestión de Datos**                 |                                                                                                              |                                                                                                                     |
+| **Mantenimiento**                                | - **D (Datos de Vuelo y Sensores)** para diagnóstico<br/> - **E (Sist. Eléctricos/Electrónicos)** para operación de software | - **Sistemas de Navegación y Control de Vuelo** (datos para diagnóstico)<br/> - **Tripulación de Mantenimiento** (uso de registros) |
+| **Gemelos Digitales**                            | - **D (Datos en Tiempo Real)** desde todos los sistemas relevantes<br/> - **E (Sist. Eléctricos/Electrónicos)** para procesamiento y simulación | - **Diseñadores/Ingenieros** (utilizan gemelos para pruebas y optimizaciones)<br/> - **Sistemas de Gestión de Datos** (alimentación continua) |
+| **Ciberseguridad**                               | - **D (Datos)** para monitorear accesos y proteger información<br/> - **E (Sist. Eléctricos/Electrónicos)** para operar firewalls y sistemas de detección | - **Todos los Sistemas** que requieren protección contra accesos no autorizados<br/> - **Aviónica Principal** (protección de datos de navegación y comunicación) |
+| **Análisis de Datos**                            | - **D (Datos de Vuelo, Mantenimiento)** para análisis<br/> - **E (Sist. Eléctricos/Electrónicos)** para procesamiento | - **Optimización Operativa** (utiliza análisis para mejorar eficiencia)<br/> - **Mantenimiento Predictivo** (usa análisis para anticipar fallos) |
+| **Aviónica de Soporte**                          |                                                                                                              |                                                                                                                     |
+| **Comunicación Satelital**                        | - **E (Sist. Eléctricos)** para operación de antenas y módems<br/> - **D (Datos)** para gestión de comunicación | - **Sistemas de Navegación y Comunicación** (transmisión de datos y comandos)<br/> - **Pilotos** (reciben información de comunicaciones) |
+| **Conexión con ATM**                             | - **D (Data Link)** con sistemas de control de tráfico aéreo<br/> - **E (Sist. Eléctricos)** para operación | - **Aviónica Principal** (intercambio de datos con ATM)<br/> - **Pilotos** (reciben información de ATM)            |
+| **Sistemas de Logística y Suministros**           |                                                                                                              |                                                                                                                     |
+| **Optimización de Carga**                         | - **D (Datos de Peso y Balance)** desde sensores<br/> - **E (Sist. Eléctricos/Electrónicos)** para software de planificación | - **Sistemas Automatizados de Carga y Descarga** (usa software para eficiencia)<br/> - **Gestión de Peso** (usa datos para distribución equilibrada) |
+| **Gestión de Peso**                              | - **D (Datos de Peso)** desde sensores<br/> - **E (Sist. Eléctricos/Electrónicos)** para cálculo de centro de gravedad | - **Sistemas de Logística y Suministros** (usa cálculos para distribución equilibrada)<br/> - **Sistemas de Control de Vuelo** (información sobre peso para estabilidad) |
+| **Sistemas Automatizados de Carga y Descarga**     | - **C (Control de Vuelo)** para coordinación con operaciones de tierra (si aplica)<br/> - **E (Sist. Eléctricos/Electrónicos)** para operar sistemas de transporte | - **Optimización de Carga** (usa sistemas automatizados para eficiencia)<br/> - **Logística y Suministros** (facilita la carga y descarga) |
 
 ### **Confort y Experiencia del Pasajero**
 
 | **Sistema/Subsistema**                             | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
 |-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **Pantallas** (Entretenimiento y Confort)           | - **E (Sist. Eléctricos/Electrónicos)** para funcionamiento<br/> - **D (Datos)** para contenido multimedia | - **Pasajeros** (interacción directa)<br/> - **Sistemas de Gestión de Datos** (actualización de contenido)         |
-| **Conectividad** (Entretenimiento y Confort)        | - **E (Sist. Eléctricos/Electrónicos)** para funcionamiento<br/> - **D (Datos)** para acceso a Internet y servicios | - **Pasajeros** (uso de dispositivos conectados)<br/> - **Aviónica de Soporte** (gestión de la conectividad)          |
-| **Asientos** (Entretenimiento y Confort)            | - **C (Control de Vuelo)** para ajustes automáticos en función de la posición del avión<br/> - **E (Sist. Eléctricos/Electrónicos)** para mecanismos de ajuste | - **Pasajeros** (ajuste y confort)<br/> - **Sistemas Eléctricos** (alimentación para funciones de ajuste)          |
-| **Iluminación ambiental** (Entretenimiento y Confort)| - **E (Sist. Eléctricos/Electrónicos)** para funcionamiento<br/> - **D (Datos)** para control de intensidad y color | - **Pasajeros** (experiencia de confort visual)<br/> - **Sistemas de Gestión de Datos** (ajuste según fase de vuelo) |
+| **Sistemas de Entretenimiento y Confort**           |                                                                                                              |                                                                                                                     |
+| **Pantallas**                                       | - **E (Sist. Eléctricos/Electrónicos)** para funcionamiento<br/> - **D (Datos)** para contenido multimedia | - **Pasajeros** (interacción directa)<br/> - **Sistemas de Gestión de Datos** (actualización de contenido)         |
+| **Conectividad**                                    | - **E (Sist. Eléctricos/Electrónicos)** para funcionamiento<br/> - **D (Datos)** para acceso a Internet y servicios | - **Pasajeros** (uso de dispositivos conectados)<br/> - **Aviónica de Soporte** (gestión de la conectividad)          |
+| **Asientos**                                        | - **C (Control de Vuelo)** para ajustes automáticos en función de la posición del avión<br/> - **E (Sist. Eléctricos/Electrónicos)** para mecanismos de ajuste | - **Pasajeros** (ajuste y confort)<br/> - **Sistemas Eléctricos** (alimentación para funciones de ajuste)          |
+| **Iluminación Ambiental**                           | - **E (Sist. Eléctricos/Electrónicos)** para funcionamiento<br/> - **D (Datos)** para control de intensidad y color | - **Pasajeros** (experiencia de confort visual)<br/> - **Sistemas de Gestión de Datos** (ajuste según fase de vuelo) |
 
 ### **Desarrollo y Producción**
 
 | **Sistema/Subsistema**                             | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
 |-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **Materiales avanzados** (Fabricación y Producción) | - **M (Sistemas de Producción)** para procesos de fabricación<br/> - **C (Control de Calidad)** para garantizar especificaciones | - **Estructura y Sistemas Críticos** (usa materiales avanzados para mayor resistencia y menor peso)               |
-| **Producción aditiva** (Fabricación y Producción)   | - **E (Sist. Eléctricos)** para operar impresoras 3D<br/> - **D (Datos)** para diseño y modelado digital | - **Fabricación de Componentes** (crea piezas complejas sin desperdicio)<br/> - **Prototipado Rápido** (facilita el desarrollo) |
-| **Montaje robotizado** (Fabricación y Producción)   | - **E (Sist. Eléctricos)** para operar robots<br/> - **C (Control de Producción)** para coordinar procesos | - **Montaje de Estructuras y Sistemas** (ensambla componentes con precisión)<br/> - **Calidad del Producto Final** (garantiza precisión y consistencia) |
-| **Validación estructural** (Pruebas y Certificación)| - **D (Datos de pruebas)** desde sensores y equipos de medición<br/> - **E (Sist. Eléctricos/Electrónicos)** para operar equipos de prueba | - **Diseño y Desarrollo** (proporciona feedback para mejoras)<br/> - **Certificación** (demuestra cumplimiento de normativas) |
-| **Pruebas de vuelo** (Pruebas y Certificación)      | - **E (Sist. Eléctricos/Electrónicos)** para instrumentación de vuelo<br/> - **D (Datos)** de sensores de vuelo | - **Validación del Diseño** (confirma comportamiento en condiciones reales)<br/> - **Certificación Regulativa** (proporciona evidencia de cumplimiento) |
-| **Certificación** (Pruebas y Certificación)        | - **D (Documentación)** de pruebas y validaciones<br/> - **E (Sist. Eléctricos/Electrónicos)** para sistemas que requieren certificación específica | - **Mercado y Reguladores** (garantiza legalidad y seguridad para operar)<br/> - **Validación Continua** (requiere actualizaciones conforme a cambios) |
-| **Documentación** (Pruebas y Certificación)        | - **D (Datos de Sistemas)** para documentación técnica<br/> - **C (Control de Versiones)** para gestión de cambios | - **Certificación** (proporciona documentación requerida)<br/> - **Mantenimiento y Soporte** (usa documentación para referencias) |
+| **Sistemas de Fabricación y Producción**           |                                                                                                              |                                                                                                                     |
+| **Materiales Avanzados**                           | - **M (Sistemas de Producción)** para procesos de fabricación<br/> - **C (Control de Calidad)** para garantizar especificaciones | - **Estructura y Sistemas Críticos** (usa materiales avanzados para mayor resistencia y menor peso)<br/> - **Sistemas de Pruebas** (validación de materiales) |
+| **Producción Aditiva**                             | - **E (Sist. Eléctricos)** para operar impresoras 3D<br/> - **D (Datos)** para diseño y modelado digital | - **Fabricación de Componentes** (crea piezas complejas sin desperdicio)<br/> - **Prototipado Rápido** (facilita el desarrollo) |
+| **Montaje Robotizado**                             | - **E (Sist. Eléctricos)** para operar robots<br/> - **C (Control de Producción)** para coordinar procesos | - **Montaje de Estructuras y Sistemas** (ensambla componentes con precisión)<br/> - **Calidad del Producto Final** (garantiza precisión y consistencia) |
+| **Sistemas de Pruebas y Certificación**            |                                                                                                              |                                                                                                                     |
+| **Validación Estructural**                         | - **D (Datos de Pruebas)** desde sensores y equipos de medición<br/> - **E (Sist. Eléctricos/Electrónicos)** para operar equipos de prueba | - **Diseño y Desarrollo** (proporciona feedback para mejoras)<br/> - **Certificación** (demuestra cumplimiento de normativas) |
+| **Pruebas de Vuelo**                               | - **E (Sist. Eléctricos/Electrónicos)** para instrumentación de vuelo<br/> - **D (Datos)** de sensores de vuelo | - **Validación del Diseño** (confirma comportamiento en condiciones reales)<br/> - **Certificación Regulativa** (proporciona evidencia de cumplimiento) |
+| **Certificación**                                  | - **D (Documentación)** de pruebas y validaciones<br/> - **E (Sist. Eléctricos/Electrónicos)** para sistemas que requieren certificación específica | - **Mercado y Reguladores** (garantiza legalidad y seguridad para operar)<br/> - **Validación Continua** (requiere actualizaciones conforme a cambios) |
+| **Documentación**                                  | - **D (Datos de Sistemas)** para documentación técnica<br/> - **C (Control de Versiones)** para gestión de cambios | - **Certificación** (proporciona documentación requerida)<br/> - **Mantenimiento y Soporte** (usa documentación para referencias) |
 
 ---
 
-## Próximos Pasos
-
-### 1. **Completar la Tabla de Dependencias**
-
-A continuación, continuaré definiendo las dependencias para los subsistemas restantes. Es fundamental que esta tabla sea lo más completa posible para reflejar todas las interacciones entre los sistemas del **AMPEL A360XWLRGA**.
-
-### 2. **Crear la Matriz de Interdependencias**
-
-Una vez que tengamos todas las dependencias definidas en la tabla, procederemos a construir la **Matriz de Interdependencias**. Utilizaremos **Microsoft Excel** o **Google Sheets** para estructurarla, siguiendo estos pasos:
-
-1. **Listar todos los subsistemas** en las filas y columnas.
-2. **Marcar las intersecciones** con los códigos de dependencia (**D, E, M, C**) según corresponda.
-3. **Utilizar combinaciones** de códigos si hay múltiples tipos de dependencia (por ejemplo, **D + E**).
-4. **Aplicar formato** (como colores) para resaltar dependencias críticas o de alta prioridad.
-
-### 3. **Analizar la Matriz**
-
-Con la matriz completa, realizaremos un análisis para identificar:
-
-- **Zonas de alta criticidad**: Donde múltiples dependencias convergen, lo que podría indicar puntos vulnerables.
-- **Necesidades de redundancia**: Sistemas críticos que requieren duplicación para asegurar la operatividad en caso de fallo.
-- **Oportunidades de optimización**: Reducir dependencias innecesarias o simplificar rutas de datos y energía.
-
-### 4. **Revisar y Validar**
-
-Finalmente, presentaremos la tabla y la matriz al **equipo multidisciplinario** para:
-
-- **Verificar la precisión** de las dependencias definidas.
-- **Añadir o corregir** según las observaciones del equipo.
-- **Asegurar la integridad** del diseño antes de proceder a fases más avanzadas.
-
----
-
-## Continuación de la Tabla de Dependencias
-
-A continuación, continúo con la definición de dependencias para algunos subsistemas restantes. Por favor, revisa y proporciona retroalimentación o detalles adicionales si es necesario.
-
-### **Soporte a la Operación (Continuación)**
-
-| **Sistema/Subsistema**                          | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
-|--------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **Sistemas de Gestión de Datos - Ciberseguridad**| - **D (Datos)** para monitorear accesos y proteger información<br/> - **E (Sist. Eléctricos/Electrónicos)** para operar firewalls y sistemas de detección | - **Todos los Sistemas** que requieren protección contra accesos no autorizados<br/> - **Aviónica Principal** (protección de datos de navegación y comunicación) |
-| **Sistemas de Gestión de Datos - Análisis de Datos**| - **D (Datos de vuelo, mantenimiento)**<br/> - **E (Sist. Eléctricos/Electrónicos)** para procesamiento | - **Optimización Operativa** (utiliza análisis para mejorar eficiencia)<br/> - **Mantenimiento Predictivo** (usa análisis para anticipar fallos) |
-| **Gemelos Digitales** (Soporte a la Operación)     | - **D (Datos en tiempo real)** desde todos los sistemas relevantes<br/> - **E (Sist. Eléctricos/Electrónicos)** para procesamiento y simulación | - **Diseñadores/Ingenieros** (utilizan gemelos para pruebas y optimizaciones)<br/> - **Sistemas de Gestión de Datos** (alimentación continua) |
-| **Sistemas de Gestión de Datos - Mantenimiento** | - **D (Datos de vuelo, sensores)** desde varios sistemas<br/> - **E (Sist. Eléctricos/Electrónicos)** para almacenamiento y procesamiento | - **Sistema de Mantenimiento Predictivo** (usa datos para planificar intervenciones)<br/> - **Operaciones de Mantenimiento** (acceso a registros y diagnósticos) |
-
-### **Sistemas de Logística y Suministros (Continuación)**
-
-| **Sistema/Subsistema**                             | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
-|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **Sistemas de Logística y Suministros - Optimización de Carga** | - **D (Datos de peso y balance)** desde sensores<br/> - **E (Sist. Eléctricos/Electrónicos)** para software de planificación | - **Sistemas automatizados de carga y descarga** (usa software para eficiencia)<br/> - **Gestión de Peso** (usa datos para distribución equilibrada) |
-| **Sistemas de Logística y Suministros - Gestión de Peso**      | - **D (Datos de peso)** desde sensores<br/> - **E (Sist. Eléctricos/Electrónicos)** para cálculo de centro de gravedad | - **Sistemas de Logística y Suministros** (usa cálculos para distribución equilibrada)<br/> - **Sistemas de Control de Vuelo** (información sobre peso para estabilidad) |
-| **Sistemas de Logística y Suministros - Sistemas automatizados de carga y descarga** | - **C (Control de Vuelo)** para coordinación con operaciones de tierra (si aplica)<br/> - **E (Sist. Eléctricos/Electrónicos)** para operar sistemas de transporte | - **Optimización de Carga** (usa sistemas automatizados para eficiencia)<br/> - **Logística y Suministros** (facilita la carga y descarga) |
-
-### **Sistemas de Entretenimiento y Confort (Continuación)**
-
-| **Sistema/Subsistema**                             | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
-|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **Asientos** (Entretenimiento y Confort)            | - **C (Control de Vuelo)** para ajustes automáticos en función de la posición del avión<br/> - **E (Sist. Eléctricos/Electrónicos)** para mecanismos de ajuste | - **Pasajeros** (ajuste y confort)<br/> - **Sistemas Eléctricos** (alimentación para funciones de ajuste)          |
-| **Iluminación ambiental** (Entretenimiento y Confort)| - **E (Sist. Eléctricos/Electrónicos)** para funcionamiento<br/> - **D (Datos)** para control de intensidad y color | - **Pasajeros** (experiencia de confort visual)<br/> - **Sistemas de Gestión de Datos** (ajuste según fase de vuelo) |
-
----
-
-## **Acción Inmediata: Completar la Tabla de Dependencias**
-
-Para asegurar que la **Tabla de Dependencias** sea lo más completa y precisa posible, te propongo continuar definiendo las dependencias para los subsistemas restantes siguiendo el formato que hemos establecido. Aquí tienes algunos ejemplos adicionales para continuar:
-
-### **Sistemas de Gestión de Datos - Ciberseguridad**
-
-| **Sistema/Subsistema**                             | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
-|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **Ciberseguridad** (Soporte a la Operación)        | - **D (Datos)** para monitorear accesos y proteger información<br/> - **E (Sist. Eléctricos/Electrónicos)** para operar firewalls y sistemas de detección | - **Todos los Sistemas** que requieren protección contra accesos no autorizados<br/> - **Aviónica Principal** (protección de datos de navegación y comunicación) |
-
-### **Sistemas de Gestión de Datos - Análisis de Datos**
-
-| **Sistema/Subsistema**                             | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
-|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **Análisis de Datos** (Soporte a la Operación)     | - **D (Datos de vuelo, mantenimiento)**<br/> - **E (Sist. Eléctricos/Electrónicos)** para procesamiento | - **Optimización Operativa** (utiliza análisis para mejorar eficiencia)<br/> - **Mantenimiento Predictivo** (usa análisis para anticipar fallos) |
-
-### **Gemelos Digitales** (Soporte a la Operación)
-
-| **Sistema/Subsistema**                             | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
-|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **Gemelos Digitales** (Soporte a la Operación)     | - **D (Datos en tiempo real)** desde todos los sistemas relevantes<br/> - **E (Sist. Eléctricos/Electrónicos)** para procesamiento y simulación | - **Diseñadores/Ingenieros** (utilizan gemelos para pruebas y optimizaciones)<br/> - **Sistemas de Gestión de Datos** (alimentación continua) |
-
----
-
-## **Completar el Resto de la Tabla**
-
-Para asegurar que todos los sistemas y subsistemas estén cubiertos, aquí te proporciono una guía para completar el resto de la tabla. Puedes seguir añadiendo filas utilizando el formato establecido:
-
-### **Sistemas de Fabricación y Producción**
-
-| **Sistema/Subsistema**                             | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
-|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **Materiales avanzados** (Fabricación y Producción)| - **M (Sistemas de Producción)** para procesos de fabricación<br/> - **C (Control de Calidad)** para garantizar especificaciones | - **Estructura y Sistemas Críticos** (usa materiales avanzados para mayor resistencia y menor peso)               |
-| **Producción aditiva** (Fabricación y Producción)   | - **E (Sist. Eléctricos)** para operar impresoras 3D<br/> - **D (Datos)** para diseño y modelado digital | - **Fabricación de Componentes** (crea piezas complejas sin desperdicio)<br/> - **Prototipado Rápido** (facilita el desarrollo) |
-| **Montaje robotizado** (Fabricación y Producción)   | - **E (Sist. Eléctricos)** para operar robots<br/> - **C (Control de Producción)** para coordinar procesos | - **Montaje de Estructuras y Sistemas** (ensambla componentes con precisión)<br/> - **Calidad del Producto Final** (garantiza precisión y consistencia) |
-
-### **Sistemas de Pruebas y Certificación**
-
-| **Sistema/Subsistema**                             | **Dependencia en**                                                                                          | **Dependencia de**                                                                                                 |
-|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| **Validación estructural** (Pruebas y Certificación)| - **D (Datos de pruebas)** desde sensores y equipos de medición<br/> - **E (Sist. Eléctricos/Electrónicos)** para operar equipos de prueba | - **Diseño y Desarrollo** (proporciona feedback para mejoras)<br/> - **Certificación** (demuestra cumplimiento de normativas) |
-| **Pruebas de vuelo** (Pruebas y Certificación)      | - **E (Sist. Eléctricos/Electrónicos)** para instrumentación de vuelo<br/> - **D (Datos)** de sensores de vuelo | - **Validación del Diseño** (confirma comportamiento en condiciones reales)<br/> - **Certificación Regulativa** (proporciona evidencia de cumplimiento) |
-| **Certificación** (Pruebas y Certificación)        | - **D (Documentación)** de pruebas y validaciones<br/> - **E (Sist. Eléctricos/Electrónicos)** para sistemas que requieren certificación específica | - **Mercado y Reguladores** (garantiza legalidad y seguridad para operar)<br/> - **Validación Continua** (requiere actualizaciones conforme a cambios) |
-| **Documentación** (Pruebas y Certificación)        | - **D (Datos de Sistemas)** para documentación técnica<br/> - **C (Control de Versiones)** para gestión de cambios | - **Certificación** (proporciona documentación requerida)<br/> - **Mantenimiento y Soporte** (usa documentación para referencias) |
-
----
-
-## **Resumen y Siguientes Pasos**
-
-### 1. **Completar la Tabla de Dependencias**
-
-Continúa definiendo las dependencias para los subsistemas restantes utilizando el formato establecido. Asegúrate de considerar todas las interacciones posibles entre sistemas.
-
-### 2. **Construir la Matriz de Interdependencias**
-
-Una vez que la tabla de dependencias esté completa:
-
-1. **Transfiere los datos a Excel o Google Sheets**.
-2. **Lista todos los subsistemas** tanto en las filas como en las columnas.
-3. **Marca las intersecciones** con los códigos de dependencia (**D, E, M, C**) según corresponda.
-4. **Utiliza colores** para resaltar dependencias críticas o de alta prioridad.
-
-### 3. **Análisis de la Matriz**
-
-Identifica áreas de alta criticidad, puntos vulnerables y oportunidades para redundancias u optimizaciones.
-
-### 4. **Revisión y Validación**
-
-Presenta la tabla y la matriz al equipo multidisciplinario para asegurar la precisión y completitud de las dependencias definidas.
-
----
-
-## **Herramientas Recomendadas**
-
-- **Microsoft Excel o Google Sheets**: Para crear y gestionar la tabla y matriz de dependencias de manera estructurada.
-- **Lucidchart o Microsoft Visio**: Para visualizar las interdependencias mediante diagramas de flujo o mapas de relaciones.
-- **Tableau o Power BI**: Para análisis más avanzados y visualización de datos, especialmente útil para identificar patrones y áreas críticas.
-
----
-¡Hola! Entiendo la importancia de contar con una **Matriz de Interdependencias Completa** para tu proyecto **GAIA AIR – AMPEL-360XWLRGA**. Dado el tamaño y la complejidad de la matriz (35x35), dividiré la información en **varias partes** para asegurar una presentación clara y manejable. A continuación, encontrarás la **Parte 1** de la matriz. Continuaré con las siguientes partes en mensajes sucesivos.
-
----
-
-¡Hola! A continuación, presento la **Matriz de Interdependencias Completa** para tu proyecto **GAIA AIR – AMPEL-360XWLRGA**, abarcando los capítulos ATA 00 a 99 y evaluando el impacto de diversas tecnologías emergentes. Dada la extensión de la matriz, se dividirá en **tres partes** para una mejor legibilidad.
-
----
-
-## **Matriz de Interdependencias - GAIA AIR – AMPEL-360XWLRGA**
+## **Matriz de Interdependencias Completa**
 
 ### **Leyenda de Dependencias:**
 
-- **X**: Directo/Impacto Significativo
-- **O**: Indirecto/Potencial Impacto
-- **(Rec.)**: Impacto relacionado con Advanced Coatings
+- **O**: Aplicable/Relevante
+- **X**: No Aplicable/Conflicto
+- **X(Rec.)**: No Aplicable Ahora, Recomendado en el Futuro
+- **X(Conf.)**: Conflicto con la Configuración
+- **X(Mat.)**: Incompatible con los Materiales Utilizados
+- **X(Estr.)**: Estimación de Aplicabilidad
+- **X(Pred.)**: No Aplicable desde un Punto de Vista Predictivo
+- **X (PQ)**: Post Quantum Tecnologías No Maduras
 
 ### **Tecnologías Incluidas (Columnas):**
 
@@ -621,159 +422,204 @@ Presenta la tabla y la matriz al equipo multidisciplinario para asegurar la prec
 18. **Edge AI/Dist. Comp. (Edge AI & Distributed Computing)**
 19. **Hyp./Adv.Prop. (Hypersonic & Advanced Propulsion)**
 
----
+### **Matriz de Interdependencias (Parte 1)**
 
-### **Tabla Completa de Interdependencias: Parte 1 de 3 (ATA 00-33)**
+```markdown
+| **ATA** | **Descripción**                               | **Quantum Opt.** | **Predict. Maint.** | **ML/AI/AGI** | **Advanced Mat.** | **Secure Comms (PQ)** | **Digital Twins/Sim.** | **Robotics** | **3D Printing** | **AR/VR/XR** | **Metamaterials & Smart Surfaces** | **Quantum Metrology & Sensing** | **HPC & Neuromorphic Computing** | **Advanced ECLSS** | **Wireless Power Transfer & Energy Harvesting** | **Self-Healing** | **Holographic Displays** | **Blockchain Supply** | **Edge AI/Distributed Computing** | **Hypersonic & Advanced Propulsion** |
+|---------|-----------------------------------------------|-------------------|----------------------|---------------|-------------------|-----------------------|------------------------|--------------|-----------------|--------------|--------------------------------------|-----------------------------------|-----------------------------------|------------------|-------------------------------------------------|-----------------|--------------------------|----------------------|-----------------------------------|------------------------------------------|
+| **00**  | General (Conceptual)                          | O                 | O                    | O             | O                 | O                     | O                      | O            | O               | O            | O                                    | O                                 | O                                 | O                | O                                               | O               | O                        | O                    | O                                 | O                                        |
+| **01-04**| (Hypothetical Chapters)                      | O                 | O                    | O             | O                 | O                     | O                      | O            | O               | O            | O                                    | O                                 | O                                 | O                | O                                               | O               | O                        | O                    | O                                 | O                                        |
+| **05**  | Periodic Inspections/Maintenance              | O                 | X                    | X             | O                 | O                     | X                      | X            | X               | O            | X                                    | O                                 | O                                 | X                | X                                               | X               | X                        | X                    | O                                 | O                                        |
+| **06-09**| Dimensions and Areas, Lifting & Shoring, etc.| O                 | O                    | O             | O                 | O                     | O                      | O            | O               | O            | O                                    | O                                 | O                                 | O                | O                                               | O               | O                        | O                    | O                                 | O                                        |
+| **10-11**| Parking, Mooring, Storage & Return to Service, Placards & Markings | O                 | O                    | O             | O                 | O                     | O                      | O            | O               | O            | O                                    | O                                 | O                                 | O                | O                                               | O               | O                        | O                    | O                                 | O                                        |
+| **12**  | Servicing - Routine Maintenance               | O                 | X                    | X             | O                 | O                     | X                      | O            | X               | X            | O                                    | X                                 | O                                 | O                | O                                               | O               | X                        | O                    | X                                 | O                                        |
+| **20**  | Standard Practices - Airframe                 | O                 | O                    | X             | X                 | O                     | X                      | X            | X               | X            | X                                    | X                                 | X                                 | O                | O                                               | O               | O                        | O                    | O                                 | O                                        |
+| **21**  | Air Conditioning & Pressurization             | O                 | O                    | X             | X (Rec.)          | O                     | X                      | O            | O               | O            | O                                    | O                                 | O                                 | O                | O                                               | O               | O                        | O                    | O                                 | O                                        |
+| **22**  | Auto Flight (Avionics & Intelligence)         | X                 | X                    | X             | O                 | X                     | X                      | O            | O               | X            | X                                    | X                                 | X                                 | X                | O                                               | O               | O                        | X                    | X                                 | X                                        |
+| **23**  | Communications                                 | X                 | O                    | X             | O                 | X (PQ)                | X                      | O            | O               | X            | X                                    | X                                 | X                                 | O                | O                                               | O               | X                        | X                    | X                                 | O                                        |
+| **24**  | Electrical Power                               | X                 | X                    | X             | O                 | O                     | X                      | O            | X               | O            | O                                    | X                                 | O                                 | O                | X                                               | O               | O                        | O                    | O                                 | X                                        |
+| **25**  | Equipment/Furnishings                          | O                 | O                    | X (Conf.)        | X (Mat.)           | O                     | X                      | X            | X               | X            | O                                    | X                                 | O                                 | O                | O                                               | O               | X                        | O                    | X                                 | O                                        |
+| **26**  | Fire Protection                                | O                 | X                    | X             | X                 | O                     | X                      | O            | X               | O            | X                                    | X                                 | X                                 | O                | O                                               | O               | X                        | O                    | O                                 | O                                        |
+| **27**  | Flight Controls                                | X                 | X                    | X                 | X (Estr.)          | O                     | X                      | X            | X               | X            | X                                    | X                                 | X                                 | X                | O                                               | O               | X                        | O                    | X                                 | O                                        |
+| **28**  | Fuel                                           | X                 | X                    | X                 | O                 | O                     | X                      | X            | X               | O            | O                                    | X                                 | O                                 | O                | O                                               | O               | X                        | O                    | X                                 | O                                        |
+| **29**  | Hydraulic Power                                | O                 | X                    | X                 | O                 | O                     | X                      | O            | X               | O            | O                                    | X                                 | O                                 | O                | O                                               | O               | O                        | O                    | X                                 | O                                        |
+| **30**  | Ice & Rain Protection                          | O                 | O                    | X (Pred.)         | X (Rec.)           | O                     | X                      | O            | O               | O            | O                                    | O                                 | O                                 | O                | O                                               | O               | O                        | O                    | O                                 | O                                        |
+| **31**  | Instruments                                    | X                 | X                    | X                 | O                 | O                     | X                      | O            | X               | X            | O                                    | X                                 | O                                 | O                | O                                               | O               | O                        | O                    | O                                 | O                                        |
+| **33**  | Lights                                         | O                 | X                    | X                 | O                 | O                     | X                      | O            | X               | X            | O                                    | O                                 | O                                 | O                | O                                               | O               | O                        | O                    | O                                 | O                                        |
+| **34**  | Navigation                                     | X                 | O                    | X                 | O                 | X                     | X                      | O            | O               | X            | X                                    | X                                 | X                                 | X                | O                                               | O               | O                        | O                    | X                                 | O                                        |
+| **35**  | Oxygen                                         | O                 | X                    | X                 | O                 | O                     | X                      | O            | X               | X            | O                                    | O                                 | X                                 | O                | X                                               | O               | O                        | O                    | O                                 | O                                        |
+| **36**  | Pneumatic                                      | O                 | X                    | X                 | O                 | O                     | X                      | O            | X               | O            | O                                    | O                                 | X                                 | O                | O                                               | O               | O                        | O                    | O                                 | O                                        |
+| **37-39**| Vacuum / Water/Waste / Elec. Flight Control (Hyp.) | O                 | O                    | X                 | O                 | O                     | X                      | O            | X               | X            | O                                    | X                                 | O                                 | O                | O                                               | O               | X                        | O                    | O                                 | O                                        |
+| **40-44**| Various Hypothetical Chapters                 | O                 | O                    | X                 | O                 | O                     | X                      | O            | X               | X            | O                                    | X                                 | O                                 | O                | O                                               | O               | X                        | O                    | O                                 | O                                        |
+| **45**  | Central Maintenance System                    | X                 | X                    | X                 | O                 | O                     | X                      | X            | X               | X            | O                                    | X                                 | O                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **46**  | Information Systems                           | X                 | X                    | X                 | O                 | X                     | X                      | O            | X               | X            | O                                    | X                                 | X                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **47**  | Neutralization of GHG & Toxic Particulates     | X                 | X                    | X                 | X                 | O                     | X                      | O            | X               | X            | X                                    | X                                 | X                                 | O                | O                                               | X               | X                        | X                    | X                                 | O                                        |
+| **48-49**| In-Flight Entertainment / Aux Power          | O                 | X                    | X                 | O                 | O                     | X                      | O            | X               | X            | O                                    | X                                 | O                                 | O                | O                                               | O               | X                        | X                    | X                                 | O                                        |
+| **50-59**| Cargo & Access / Various Hypothetical         | O                 | X                    | X                 | X                 | O                     | X                      | X            | X               | X            | O                                    | X                                 | O                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **60-69**| Various Hypothetical Chapters                 | O                 | X                    | X                 | O                 | O                     | X                      | O            | X               | X            | O                                    | X                                 | O                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **70**  | Standard Practices - Powerplant               | O                 | O                    | X                 | X                 | O                     | X                      | X            | X               | X            | X                                    | X                                 | O                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **71**  | Powerplant                                     | X                 | X                    | X                 | X                 | O                     | X                      | X            | X               | X            | X                                    | X                                 | X                                 | X                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **72**  | Engine - Turbine/Prop/Controls                 | X                 | X                    | X                 | X                 | O                     | X                      | X            | X               | X            | X                                    | X                                 | X                                 | X                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **73**  | Engine - Fuel & Control                         | X                 | X                    | X                 | O                 | O                     | X                      | X            | X               | O            | O                                    | X                                 | O                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **74**  | Ignition                                        | O                 | X                    | X                 | O                 | O                     | X                      | O            | X               | X            | O                                    | O                                 | O                                 | O                | O                                               | O               | O                        | O                    | O                                 | O                                        |
+| **75**  | Air (Engine) (Hyp.)                             | O                 | X                    | X                 | O                 | O                     | X                      | O            | X               | O            | O                                    | O                                 | O                                 | O                | O                                               | O               | O                        | O                    | O                                 | O                                        |
+| **76**  | Engine Controls                                | X                 | X                    | X                 | O                 | O                     | X                      | O            | X               | X            | O                                    | X                                 | O                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **77**  | Engine Indicating                              | X                 | X                    | X                 | O                 | O                     | X                      | O            | X               | X            | O                                    | X                                 | O                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **78**  | Exhaust                                         | O                 | X                    | X                 | X                 | O                     | X                      | O            | X               | X            | X                                    | X                                 | X                                 | X                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **79**  | Oil                                             | O                 | X                    | X                 | O                 | O                     | X                      | O            | X               | X            | O                                    | O                                 | O                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **80**  | Virtualized Systems Management (Hyp.)           | X                 | X                    | X                 | O                 | X                     | X                      | O            | X               | X            | O                                    | X                                 | X                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **81**  | Bio-Inspired Control Systems (Hyp.)             | X                 | X                    | X                 | X                 | O                     | X                      | X            | X               | X            | X                                    | X                                 | X                                 | O                | O                                               | X               | X                        | O                    | X                                 | O                                        |
+| **82**  | Hypersonic & High-Speed Flight Integration       | X                 | X                    | X                 | X                 | O                     | X                      | X            | X               | X            | X                                    | X                                 | X                                 | O                | O                                               | X               | O                        | O                    | X                                 | X                                        |
+| **83**  | Advanced Thermal & Energy Management             | X                 | X                    | X                 | X                 | O                     | X                      | X            | X               | O            | X                                    | X                                 | X                                 | X                | X                                               | O               | X                        | O                    | X                                 | O                                        |
+| **84**  | Composite & Smart Interiors (Hyp.)               | O                 | X                    | X                 | X                 | O                     | X                      | X            | X               | X            | X                                    | X                                 | X                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **85**  | Drone Integration & Swarming (Hyp.)              | X                 | X                    | X                 | O                 | X                     | X                      | X            | X               | X            | O                                    | X                                 | X                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **86**  | Post-Quantum Navigation & Positioning             | X                 | X                    | X                 | O                 | X (PQ)                | X                      | O            | X               | X            | X                                    | X                                 | X                                 | O                | O                                               | X               | X                        | O                    | X                                 | O                                        |
+| **87**  | AGI-driven Flight Planning & Scheduling          | X                 | X                    | X                 | O                 | O                     | X                      | O            | X               | X            | O                                    | X                                 | X                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **88**  | Onboard Quantum Computing Modules                | X                 | X                    | X                 | O                 | X                     | X                      | O            | X               | X            | O                                    | X                                 | X                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **89**  | Advanced Biofuels & Synthetic Fuels              | X                 | X                    | X                 | O                 | O                     | X                      | O            | X               | O            | O                                    | X                                 | X                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+| **90**  | Interoperability w/ Space & Trans-Atmospheric      | X                 | X                    | X                 | X                 | O                     | X                      | X            | X               | X            | X                                    | X                                 | X                                 | X                | X                                               | O               | O                        | O                    | X                                 | X                                        |
+| **91-99**| Various Hypothetical Chapters                    | O                 | O                    | X                 | O                 | O                     | X                      | O            | X               | X            | O                                    | X                                 | O                                 | O                | O                                               | O               | O                        | X                    | X                                 | O                                        |
+```
 
-| **ATA** | **Descripción** | **Q.Opt.** | **P.Maint.** | **ML/AGI** | **Adv.Mat.** | **Sec.Comms(PQ)** | **Dig.Twins/Sim.** | **Robotics** | **3DPrnt** | **AR/VR/XR** | **Meta.&Surf.** | **Q.Met./Sens.** | **HPC/Neur.Comp.** | **Adv.ECLSS** | **WPT/EH** | **Self-Heal** | **Holo Disp.** | **Blockchain Supply** | **Edge AI/Dist.Comp.** | **Hyp./Adv.Prop.** |
-|---------|------------------|------------|--------------|------------|--------------|-------------------|--------------------|--------------|------------|--------------|-----------------|-------------------|---------------------|---------------|-----------|---------------|----------------|------------------------|-----------------------|---------------------|
-| **00** | General (Conceptual) | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O |
-| **01-04** | (Hypothetical Chapters) | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O |
-| **05** | Periodic Inspections/Maintenance | O | X | X | O | O | X | X | X | O | X | O | O | X | X | X | X | O | X | O |
-| **06-09** | Dimensions and Areas, Lifting & Shoring, Leveling & Weighing, Towing & Taxiing | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O |
-| **10-11** | Parking, Mooring, Storage & Return to Service, Placards & Markings | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O | O |
-| **12** | Servicing - Routine Maintenance | O | X | X | O | O | X | O | X | X | O | X | O | O | O | O | X | O | X | O |
-| **20** | Standard Practices - Airframe | O | O | X | X | O | X | X | X | X | X | X | O | O | O | X | X | X | O | O |
-| **21** | Air Conditioning & Pressurization | O | O | X | X (Rec.) | O | X | O | O | O | O | O | O | O | O | O | O | O | O | O |
-| **22** | Auto Flight (Avionics & Intelligence) | X | X | X | O | X | X | O | O | X | X | X | X | O | O | O | X | X | X | X |
-| **23** | Communications | X | O | X | O | X (PQ) | X | O | O | X | X | X | O | O | O | X | X | X | X | O |
-| **24** | Electrical Power | X | X | X | O | O | X | O | X | O | O | X | O | X | O | O | O | O | X | O |
-| **25** | Equipment/Furnishings | O | O | X (Conf.) | X (Mat.) | O | X | X | X | X | O | X | O | O | O | O | X | O | X | O |
-| **26** | Fire Protection | O | X | X | X | O | X | O | X | O | X | X | O | O | O | X | O | O | X | O |
-| **27** | Flight Controls | X | X | X | X (Estr.) | O | X | X | X | X | X | X | X | O | O | X | O | X | X | O |
-| **28** | Fuel | X | X | X | O | O | X | X | X | O | O | X | O | O | O | X | O | X | X | O |
-| **29** | Hydraulic Power | O | X | X | O | O | X | O | X | O | O | X | O | O | O | O | O | O | X | O |
-| **30** | Ice & Rain Protection | O | O | X (Pred.) | X (Rec.) | O | X | O | O | O | O | O | O | O | O | O | O | O | O | O |
-| **31** | Instruments | X | X | X | O | O | X | O | X | X | O | X | O | O | O | O | X | O | X | O |
-| **33** | Lights | O | X | X | O | O | X | O | X | X | O | O | O | O | O | O | X | O | O | O |
+### **Matriz de Interdependencias (Parte 2)**
 
----
-
-### **Tabla Completa de Interdependencias: Parte 2 de 3 (ATA 34-70)**
-
-| **ATA** | **Descripción** | **Q.Opt.** | **P.Maint.** | **ML/AGI** | **Adv.Mat.** | **Sec.Comms(PQ)** | **Dig.Twins/Sim.** | **Robotics** | **3DPrnt** | **AR/VR/XR** | **Meta.&Surf.** | **Q.Met./Sens.** | **HPC/Neur.Comp.** | **Adv.ECLSS** | **WPT/EH** | **Self-Heal** | **Holo Disp.** | **Blockchain Supply Chain** | **Edge AI/Dist.Comp.** | **Hypersonic & Advanced Propulsion** |
-|---------|------------------|------------|--------------|------------|--------------|-------------------|--------------------|--------------|------------|--------------|-----------------|-------------------|---------------------|---------------|-----------|---------------|----------------|------------------------|-----------------------|---------------------|
-| **34** | Navigation | X | O | X | O | X | X | O | O | X | X | X | X | O | O | X | X | X | X | O |
-| **35** | Oxygen | O | X | X | O | O | X | O | X | X | O | X | O | X (Life Support) | O | O | O | O | X | O |
-| **36** | Pneumatic | O | X | X | O | O | X | O | X | O | O | X | O | O | O | O | O | O | X | O |
-| **37-39** | Vacuum (Hypothetical), Water/Waste (Hypothetical), Electrical - Flight Control & Utility (Hypothetical) | O | O | X | O | O | X | O | X | X | O | X | O | O | O | O | X | X | O |
-| **40-44** | Various Hypothetical Chapters | O | O | X | O | O | X | O | X | X | O | X | O | O | O | O | X | X | X | O |
-| **45** | Central Maintenance System | X | X | X | O | O | X | X | X | X | O | X | O | O | O | O | X | X | X | O |
-| **46** | Information Systems | X | X | X | O | X | X | O | X | X | O | X | X | O | O | O | X | X | X | O |
-| **47** | Neutralization of GHG & Toxic Particulates (Hypothetical) | X | X | X | X | O | X | O | X | X | X | X | O | O | X | X | X | X | O |
-| **48-49** | In-Flight Entertainment (Hypothetical), Airborne Auxiliary Power | O | X | X | O | O | X | O | X | X | O | X | O | O | O | O | X | X | X | O |
-| **50-59** | Cargo & Access (Hypothetical), Various Hypothetical Systems | O | X | X | X | O | X | X | X | X | O | X | O | O | O | O | X | X | X | O |
-| **60-69** | Various Hypothetical Chapters | O | X | X | O | O | X | O | X | X | O | X | O | O | O | O | X | X | X | O |
-| **70** | Standard Practices - Powerplant | O | O | X | X | O | X | X | X | X | X | X | O | O | O | X | O | X | X | O |
-
----
-
-### **Tabla Completa de Interdependencias: Parte 3 de 3 (ATA 71-99)**
-
-| **ATA** | **Descripción** | **Q.Opt.** | **P.Maint.** | **ML/AGI** | **Adv.Mat.** | **Sec.Comms(PQ)** | **Dig.Twins/Sim.** | **Robotics** | **3DPrnt** | **AR/VR/XR** | **Meta.&Surf.** | **Q.Met./Sens.** | **HPC/Neur.Comp.** | **Adv.ECLSS** | **WPT/EH** | **Self-Heal** | **Holo Disp.** | **Blockchain Supply Chain** | **Edge AI/Dist.Comp.** | **Hypersonic & Advanced Propulsion** |
-|---------|------------------|------------|--------------|------------|--------------|-------------------|--------------------|--------------|------------|--------------|-----------------|-------------------|---------------------|---------------|-----------|---------------|----------------|------------------------|-----------------------|---------------------|
-| **71** | Powerplant | X | X | X | X | O | X | X | X | X | X | X | X | O | O | X | O | X | X | X |
-| **72** | Engine - Turbine/Prop/Controls | X | X | X | X | O | X | X | X | X | X | X | X | O | O | X | O | X | X | X |
-| **73** | Engine - Fuel & Control | X | X | X | O | O | X | X | X | O | O | X | O | O | O | X | O | X | X | O |
-| **74** | Ignition | O | X | X | O | O | X | O | X | X | O | X | O | O | O | O | O | O | X | O |
-| **75** | Air (Engine) - (Hypothetical) | O | X | X | O | O | X | O | X | O | O | X | O | O | O | O | O | O | X | O |
-| **76** | Engine Controls | X | X | X | O | O | X | O | X | X | O | X | O | O | O | O | O | O | X | O |
-| **77** | Engine Indicating | X | X | X | O | O | X | O | X | X | O | X | O | O | O | O | O | O | X | O |
-| **78** | Exhaust | O | X | X | X | O | X | O | X | X | X | X | X | O | O | X | O | X | X | O |
-| **79** | Oil | O | X | X | O | O | X | O | X | X | O | X | O | O | O | O | O | O | X | O |
-| **80** | Virtualized Systems Management (Hypothetical) | X | X | X | O | X | X | O | X | X | O | X | X | O | O | O | X | X | X | O |
-| **81** | Bio-Inspired Control Systems (Hypothetical) | X | X | X | X | O | X | X | X | X | X | X | X | O | O | X | O | X | X | O |
-| **82** | Hypersonic & High-Speed Flight Integration (Hypothetical) | X | X | X | X | O | X | X | X | X | X | X | X | O | O | X | O | X | X | X |
-| **83** | Advanced Thermal & Energy Management (Hypothetical) | X | X | X | X | O | X | X | X | O | X | X | X | X | X | O | X | O | X | O |
-| **84** | Composite & Smart Interiors (Hypothetical) | O | X | X | X | O | X | X | X | X | X | X | O | O | O | O | X | X | X | O |
-| **85** | Drone Integration & Swarming (Hypothetical) | X | X | X | O | X | X | X | X | X | O | X | X | O | O | O | X | X | X | O |
-| **86** | Post-Quantum Navigation & Positioning (Hypothetical) | X | X | X | O | X (PQ) | X | O | X | X | X | X | O | O | O | X | X | X | O |
-| **87** | AGI-driven Flight Planning & Scheduling (Hypothetical) | X | X | X | O | O | X | O | X | X | O | X | X | O | O | O | X | X | X | O |
-| **88** | Onboard Quantum Computing Modules (Hypothetical) | X | X | X | O | X | X | O | X | X | O | X | X | O | O | O | X | X | X | O |
-| **89** | Advanced Biofuels & Synthetic Fuels (Hypothetical) | X | X | X | O | O | X | O | X | O | O | X | O | O | O | X | O | X | X | O |
-| **90** | Interoperability with Space & Trans-Atmospheric (Hypothetical) | X | X | X | X | O | X | X | X | X | X | X | X | X | O | X | O | X | X | X |
-| **91-99** | Various Hypothetical Chapters | O | O | X | O | O | X | O | X | X | O | X | O | O | O | O | X | X | X | O |
+```markdown
+| **ATA** | **Descripción**                               | **Quantum Opt.** | **Predict. Maint.** | **ML/AI/AGI** | **Adv.Mat.** | **Sec.Comms (PQ)** | **Dig.Twins/Sim.** | **Robotics** | **3DPrnt** | **AR/VR/XR** | **Meta.&Surf.** | **Q.Met./Sens.** | **HPC/Neur. Comp.** | **Adv.ECLSS** | **WPT/EH** | **Self-Heal** | **Holo Disp.** | **Blockchain Supply** | **Edge AI/Dist. Comp.** | **Hyp./Adv.Prop.** |
+|---------|-----------------------------------------------|-------------------|----------------------|---------------|--------------|---------------------|----------------------|--------------|------------|---------------|-------------------|--------------------|---------------------|----------------|------------|--------------|----------------|------------------------|-------------------------|------------------------|
+| **00**  | General (Conceptual)                          | O                 | O                    | O             | O            | O                   | O                    | O            | O          | O             | O                 | O                  | O                   | O              | O          | O            | O              | O                      | O                       | O                      |
+| **01-04**| (Hypothetical Chapters)                      | O                 | O                    | O             | O            | O                   | O                    | O            | O          | O             | O                 | O                  | O                   | O              | O          | O            | O              | O                      | O                       | O                      |
+| **05**  | Periodic Inspections/Maintenance              | O                 | X                    | X             | O            | O                   | X                    | X            | X          | O             | X                 | O                  | O                   | X              | X          | X            | X              | X                      | O                       | O                      |
+| **06-09**| Dimensions and Areas, Lifting & Shoring, etc.| O                 | O                    | O             | O            | O                   | O                    | O            | O          | O             | O                 | O                  | O                   | O              | O          | O            | O              | O                      | O                       | O                      |
+| **10-11**| Parking, Mooring, Storage & Return to Service, Placards & Markings | O                 | O                    | O             | O            | O                   | O                    | O            | O          | O             | O                 | O                  | O                   | O              | O          | O            | O              | O                      | O                       | O                      |
+| **12**  | Servicing - Routine Maintenance               | O                 | X                    | X             | O            | O                   | X                    | O            | X          | X             | O                 | X                  | O                   | O              | O          | O            | O              | X                      | O                       | O                      |
+| **20**  | Standard Practices - Airframe                 | O                 | O                    | X             | X            | O                   | X                    | X            | X          | X             | X                 | X                  | X                   | O              | O          | O            | O              | O                      | O                       | O                      |
+| **21**  | Air Conditioning & Pressurization             | O                 | O                    | X             | X (Rec.)     | O                   | X                    | O            | O          | O             | O                 | O                  | O                   | O              | O          | O            | O              | O                      | O                       | O                      |
+| **22**  | Auto Flight (Avionics & Intelligence)         | X                 | X                    | X             | O            | X                   | X                    | O            | O          | X             | X                 | X                  | X                   | X              | O          | O            | O              | O                      | X                       | X                      |
+| **23**  | Communications                                 | X                 | O                    | X             | O            | X (PQ)              | X                    | O            | O          | X             | X                 | X                  | X                   | O              | O          | O            | X              | X                      | X                       | O                      |
+| **24**  | Electrical Power                               | X                 | X                    | X             | O            | O                   | X                    | O            | X          | O             | O                 | X                  | O                   | O              | X          | O            | O              | O                      | O                       | X                      |
+| **25**  | Equipment/Furnishings                          | O                 | O                    | X (Conf.)     | X (Mat.)     | O                   | X                    | X            | X          | X             | O                 | X                  | O                   | O              | O          | O            | X              | O                      | X                       | O                      |
+| **26**  | Fire Protection                                | O                 | X                    | X             | X            | O                   | X                    | O            | X          | O             | X                 | X                  | X                   | O              | O          | O            | X              | O                      | O                       | O                      |
+| **27**  | Flight Controls                                | X                 | X                    | X             | X (Estr.)     | O                   | X                    | X            | X          | X             | X                 | X                  | X                   | X              | O          | O            | O              | O                      | O                       | O                      |
+| **28**  | Fuel                                           | X                 | X                    | X             | O            | O                   | X                    | X            | X          | O             | O                 | X                  | O                   | O              | O          | O            | O              | O                      | X                       | O                      |
+| **29**  | Hydraulic Power                                | O                 | X                    | X             | O            | O                   | X                    | O            | X          | O             | O                 | X                  | O                   | O              | O          | O            | O              | O                      | X                       | O                      |
+| **30**  | Ice & Rain Protection                          | O                 | O                    | X (Pred.)     | X (Rec.)     | O                   | X                    | O            | O          | O             | O                 | O                  | O                   | O              | O          | O            | O              | O                      | O                       | O                      |
+| **31**  | Instruments                                    | X                 | X                    | X             | O            | O                   | X                    | O            | X          | X             | O                 | X                  | O                   | O              | O          | O            | O              | O                      | O                       | O                      |
+| **33**  | Lights                                         | O                 | X                    | X             | O            | O                   | X                    | O            | X          | X             | O                 | O                  | O                   | O              | O          | O            | O              | O                      | O                       | O                      |
+| **34**  | Navigation                                     | X                 | O                    | X             | O            | X                   | X                    | O            | O          | X             | X                 | X                  | X                   | X              | O          | O            | O              | O                      | X                       | O                      |
+| **35**  | Oxygen                                         | O                 | X                    | X             | O            | O                   | X                    | O            | X          | X             | O                 | O                  | X                   | O              | X          | O            | O              | O                      | O                       | O                      |
+| **36**  | Pneumatic                                      | O                 | X                    | X             | O            | O                   | X                    | O            | X          | O             | O                 | O                  | X                   | O              | O          | O            | O              | O                      | O                       | O                      |
+| **37-39**| Vacuum / Water/Waste / Elec. Flight Control (Hyp.) | O                 | O                    | X             | O            | O                   | X                    | O            | X          | X             | O                 | X                  | O                   | O              | O          | O            | O              | X                      | X                       | O                      |
+| **40-44**| Various Hypothetical Chapters                 | O                 | O                    | X             | O            | O                   | X                    | O            | X          | X             | O                 | X                  | O                   | O              | O          | O            | O              | X                      | X                       | O                      |
+| **45**  | Central Maintenance System                    | X                 | X                    | X             | O            | O                   | X                    | X            | X          | X             | O                 | X                  | O                   | O              | O          | O            | O              | X                      | X                       | O                      |
+| **46**  | Information Systems                           | X                 | X                    | X             | O            | X                   | X                    | O            | X          | X             | O                 | X                  | X                   | O              | O          | O            | O              | X                      | X                       | O                      |
+| **47**  | Neutralization of GHG & Toxic Particulates     | X                 | X                    | X             | X            | O                   | X                    | O            | X          | X             | X                 | X                  | X                   | O              | O          | X            | X              | X                      | X                       | O                      |
+| **48-49**| In-Flight Entertainment / Aux Power          | O                 | X                    | X             | O            | O                   | X                    | O            | X          | X             | O                 | X                  | O                   | O              | O          | O            | O              | X                      | X                       | O                      |
+| **50-59**| Cargo & Access / Various Hypothetical         | O                 | X                    | X             | X            | O                   | X                    | X            | X          | X             | O                 | X                  | O                   | O              | O          | O            | O              | X                      | X                       | O                      |
+| **60-69**| Various Hypothetical Chapters                 | O                 | X                    | X             | O            | O                   | X                    | O            | X          | X             | O                 | X                  | O                   | O              | O          | O            | O              | X                      | X                       | O                      |
+| **70**  | Standard Practices - Powerplant               | O                 | O                    | X             | X            | O                   | X                    | X            | X          | X             | X                 | X                  | O                   | O              | O          | O            | O              | O                      | X                       | O                      |
+| **71**  | Powerplant                                     | X                 | X                    | X             | X            | O                   | X                    | X            | X          | X             | X                 | X                  | X                   | X              | O          | O            | O              | O                      | X                       | O                      |
+| **72**  | Engine - Turbine/Prop/Controls                 | X                 | X                    | X             | X            | O                   | X                    | X            | X          | X             | X                 | X                  | X                   | X              | O          | O            | O              | O                      | X                       | O                      |
+| **73**  | Engine - Fuel & Control                         | X                 | X                    | X             | O            | O                   | X                    | X            | X          | O             | O                 | X                  | O                   | O              | O          | O            | O              | O                      | X                       | O                      |
+| **74**  | Ignition                                        | O                 | X                    | X             | O            | O                   | X                    | O            | X          | X             | O                 | O                  | O                   | O              | O          | O            | O              | O                      | O                       | O                      |
+| **75**  | Air (Engine) (Hyp.)                             | O                 | X                    | X             | O            | O                   | X                    | O            | X          | O             | O                 | O                  | O                   | O              | O          | O            | O              | O                      | O                       | O                      |
+| **76**  | Engine Controls                                | X                 | X                    | X             | O            | O                   | X                    | O            | X          | X             | O                 | X                  | O                   | O              | O          | O            | O              | O                      | X                       | O                      |
+| **77**  | Engine Indicating                              | X                 | X                    | X             | O            | O                   | X                    | O            | X          | X             | O                 | X                  | O                   | O              | O          | O            | O              | O                      | X                       | O                      |
+| **78**  | Exhaust                                         | O                 | X                    | X             | X            | O                   | X                    | O            | X          | X             | X                 | X                  | X                   | X              | O          | O            | O              | O                      | X                       | O                      |
+| **79**  | Oil                                             | O                 | X                    | X             | O            | O                   | X                    | O            | X          | X             | O                 | O                  | O                   | O              | O          | O            | O              | O                      | X                       | O                      |
+| **80**  | Virtualized Systems Management (Hyp.)           | X                 | X                    | X             | O            | X                   | X                    | O            | X          | X             | O                 | X                  | X                   | O              | O          | O            | O              | X                      | X                       | O                      |
+| **81**  | Bio-Inspired Control Systems (Hyp.)             | X                 | X                    | X             | X            | O                   | X                    | X            | X          | X             | X                 | X                  | X                   | O              | O          | X            | X              | X                      | X                       | O                      |
+| **82**  | Hypersonic & High-Speed Flight Integration       | X                 | X                    | X             | X            | O                   | X                    | X            | X          | X             | X                 | X                  | X                   | O              | O          | X            | O              | O                      | X                       | X                      |
+| **83**  | Advanced Thermal & Energy Management             | X                 | X                    | X             | X            | O                   | X                    | X            | X          | O             | X                 | X                  | X                   | X              | X          | O            | X              | O                      | X                       | O                      |
+| **84**  | Composite & Smart Interiors (Hyp.)               | O                 | X                    | X             | X            | O                   | X                    | X            | X          | X             | X                 | X                  | X                   | O              | O          | O            | O              | X                      | X                       | O                      |
+| **85**  | Drone Integration & Swarming (Hyp.)              | X                 | X                    | X             | O            | X                   | X                    | X            | X          | X             | O                 | X                  | X                   | O              | O          | O            | X              | X                      | X                       | O                      |
+| **86**  | Post-Quantum Navigation & Positioning             | X                 | X                    | X             | O            | X (PQ)              | X                    | O            | X          | X             | X                 | X                  | X                   | O              | O          | X            | X              | O                      | X                       | O                      |
+| **87**  | AGI-driven Flight Planning & Scheduling          | X                 | X                    | X             | O            | O                   | X                    | O            | X          | X             | O                 | X                  | X                   | O              | O          | O            | O              | X                      | X                       | O                      |
+| **88**  | Onboard Quantum Computing Modules                | X                 | X                    | X             | O            | X                   | X                    | O            | X          | X             | O                 | X                  | X                   | O              | O          | O            | O              | X                      | X                       | O                      |
+| **89**  | Advanced Biofuels & Synthetic Fuels              | X                 | X                    | X             | O            | O                   | X                    | O            | X          | O             | O                 | X                  | X                   | O              | O          | O            | O              | X                      | X                       | O                      |
+| **90**  | Interoperability w/ Space & Trans-Atmospheric      | X                 | X                    | X             | X            | O                   | X                    | X            | X          | X             | X                 | X                  | X                   | X              | O          | X            | O              | O                      | X                       | X                      |
+| **91-99**| Various Hypothetical Chapters                    | O                 | O                    | X             | O            | O                   | X                    | O            | X          | X             | O                 | X                  | O                   | O              | O          | O            | O              | X                      | X                       | O                      |
+```
 
 ---
 
 ### **Descripción de Nuevos Capítulos ATA:**
 
 - **33: Lights**
-  - **Descripción:** Aircraft lighting systems, including navigation lights, landing lights, and internal signaling systems.
+  - **Descripción:** Sistemas de iluminación de la aeronave, incluyendo luces de navegación, luces de aterrizaje y sistemas de señalización interna.
 
 - **35: Oxygen**
-  - **Descripción:** Oxygen supply and control systems for crew and passengers, including generators and gas distribution.
+  - **Descripción:** Sistemas de suministro y control de oxígeno para la tripulación y pasajeros, incluyendo generadores y distribución de gas.
 
 - **46: Information Systems**
-  - **Descripción:** Onboard information systems, including entertainment, advanced navigation, and operational data management.
+  - **Descripción:** Sistemas de información a bordo, incluyendo entretenimiento, navegación avanzada y gestión de datos operativos.
 
 - **47: Neutralization of GHG & Toxic Particulates**
-  - **Descripción:** Systems designed to neutralize greenhouse gases and toxic particulates, including advanced filters, catalysts, and environmental monitoring systems.
+  - **Descripción:** Sistemas diseñados para neutralizar gases de efecto invernadero y partículas tóxicas, incluyendo filtros avanzados, catalizadores y sistemas de monitoreo ambiental.
 
 - **8X: Distributed Propulsion Components (Hypothetical)**
-  - **Descripción:** Distributed propulsion components, such as multiple propulsion units integrated into various parts of the aircraft to optimize efficiency and performance.
+  - **Descripción:** Componentes de propulsión distribuida, como múltiples unidades de propulsión integradas en varias partes de la aeronave para optimizar la eficiencia y el rendimiento.
 
 - **9X: Miscellaneous (New/Future Systems)**
-  - **Descripción:** Various systems that do not fit into existing categories or are newly developed, encompassing emerging technological innovations.
+  - **Descripción:** Varios sistemas que no encajan en categorías existentes o que están recién desarrollados, abarcando innovaciones tecnológicas emergentes.
 
 - **80-90: Additional Hypothetical Chapters**
-  - **Descripción:** Hypothetical chapters to include additional emerging technologies and future systems not covered in the current ATA standard.
+  - **Descripción:** Capítulos hipotéticos para incluir tecnologías emergentes adicionales y sistemas futuros no cubiertos en el estándar ATA actual.
 
 ---
 
-### **Análisis de Impacto por Tecnología y Capítulo ATA:**
+## **Análisis de Impacto por Tecnología y Capítulo ATA**
 
-1. **Quantum Optimization & ML/AI/AGI Integration:**
-   - **Alta Impacto en:** Avionics (22), Navigation (34), Powerplant (71), Engine Controls (76).
-   - **Razón:** Optimización de rutas, flujos de combustible y control inteligente de sistemas críticos.
+### **1. Quantum Optimization & ML/AI/AGI Integration:**
+- **Alta Impacto en:** Avionics (22), Navigation (34), Powerplant (71), Engine Controls (76).
+- **Razón:** Optimización de rutas, flujos de combustible y control inteligente de sistemas críticos.
 
-2. **Predictive Maintenance:**
-   - **Alta Impacto en:** Maintenance (05), Powerplant (71), Engine - Turbine/Prop/Controls (72), Engine - Fuel & Control (73), Central Maintenance System (45).
-   - **Razón:** Monitoreo continuo y predicción de fallas para reducir tiempos de inactividad y costos de mantenimiento.
+### **2. Predictive Maintenance:**
+- **Alta Impacto en:** Maintenance (05), Powerplant (71), Engine - Turbine/Prop/Controls (72), Engine - Fuel & Control (73), Central Maintenance System (45).
+- **Razón:** Monitoreo continuo y predicción de fallas para reducir tiempos de inactividad y costos de mantenimiento.
 
-3. **Advanced Materials & Self-Healing Materials:**
-   - **Alta Impacto en:** Structures (51), Powerplant (71), Engine - Turbine/Prop/Controls (72), Exhaust (78).
-   - **Razón:** Uso de materiales avanzados para mejorar la durabilidad, reducir peso y permitir reparaciones automáticas.
+### **3. Advanced Materials & Self-Healing Materials:**
+- **Alta Impacto en:** Structures (51), Powerplant (71), Engine - Turbine/Prop/Controls (72), Exhaust (78).
+- **Razón:** Uso de materiales avanzados para mejorar la durabilidad, reducir peso y permitir reparaciones automáticas.
 
-4. **Secure Communications (Post-Quantum) & Blockchain Supply Chain:**
-   - **Alta Impacto en:** Communications (23), Navigation (34), Information Systems (46).
-   - **Razón:** Mejora de la seguridad de los datos y trazabilidad de la cadena de suministro.
+### **4. Secure Communications (Post-Quantum) & Blockchain Supply Chain:**
+- **Alta Impacto en:** Communications (23), Navigation (34), Information Systems (46).
+- **Razón:** Mejora de la seguridad de los datos y trazabilidad de la cadena de suministro.
 
-5. **Digital Twins & Simulation:**
-   - **Alta Impacto en:** Maintenance (05), Powerplant (71), Engine Controls (76), Navigation (34).
-   - **Razón:** Modelado en tiempo real y simulación para optimizar operaciones y mantenimiento.
+### **5. Digital Twins & Simulation:**
+- **Alta Impacto en:** Maintenance (05), Powerplant (71), Engine Controls (76), Navigation (34).
+- **Razón:** Modelado en tiempo real y simulación para optimizar operaciones y mantenimiento.
 
-6. **Advanced Robotics & 3D Printing:**
-   - **Alta Impacto en:** Maintenance (05), Powerplant (71), Engine - Turbine/Prop/Controls (72), Central Maintenance System (45), Structures (51).
-   - **Razón:** Automatización de tareas de mantenimiento, fabricación de piezas bajo demanda y reparaciones automatizadas.
+### **6. Advanced Robotics & 3D Printing:**
+- **Alta Impacto en:** Maintenance (05), Powerplant (71), Engine - Turbine/Prop/Controls (72), Central Maintenance System (45), Structures (51).
+- **Razón:** Automatización de tareas de mantenimiento, fabricación de piezas bajo demanda y reparaciones automatizadas.
 
-7. **AR/VR/XR Visualization & Training & Holographic Displays:**
-   - **Alta Impacto en:** Maintenance (05), Flight Controls (27), Information Systems (46), Navigation (34), Structures (51).
-   - **Razón:** Entrenamiento inmersivo, asistencia en mantenimiento en tiempo real y visualización avanzada de datos.
+### **7. AR/VR/XR Visualization & Training & Holographic Displays:**
+- **Alta Impacto en:** Maintenance (05), Flight Controls (27), Information Systems (46), Navigation (34), Structures (51).
+- **Razón:** Entrenamiento inmersivo, asistencia en mantenimiento en tiempo real y visualización avanzada de datos.
 
-8. **Metamaterials & Smart Surfaces:**
-   - **Alta Impacto en:** Aerodynamics (21), Avionics (22), Flight Controls (27), Navigation (34), Structures (51), Powerplant (71), Engine - Turbine/Prop/Controls (72).
-   - **Razón:** Mejoras aerodinámicas, reducción de arrastre y optimización de superficies para eficiencia energética.
+### **8. Metamaterials & Smart Surfaces:**
+- **Alta Impacto en:** Aerodynamics (21), Avionics (22), Flight Controls (27), Navigation (34), Structures (51), Powerplant (71), Engine - Turbine/Prop/Controls (72).
+- **Razón:** Mejoras aerodinámicas, reducción de arrastre y optimización de superficies para eficiencia energética.
 
-9. **Quantum Metrology & Quantum Sensing:**
-   - **Alta Impacto en:** Navigation (34), Powerplant (71), Engine - Turbine/Prop/Controls (72), Engine Indicating (77).
-   - **Razón:** Sensores de alta precisión para monitoreo y control de sistemas críticos.
+### **9. Quantum Metrology & Quantum Sensing:**
+- **Alta Impacto en:** Navigation (34), Powerplant (71), Engine - Turbine/Prop/Controls (72), Engine Indicating (77).
+- **Razón:** Sensores de alta precisión para monitoreo y control de sistemas críticos.
 
-10. **HPC & Neuromorphic Computing:**
-    - **Alta Impacto en:** Avionics (22), Navigation (34), Powerplant (71), Engine - Turbine/Prop/Controls (72).
-    - **Razón:** Procesamiento de grandes volúmenes de datos para simulaciones y optimizaciones en tiempo real.
+### **10. HPC & Neuromorphic Computing:**
+- **Alta Impacto en:** Avionics (22), Navigation (34), Powerplant (71), Engine - Turbine/Prop/Controls (72).
+- **Razón:** Procesamiento de grandes volúmenes de datos para simulaciones y optimizaciones en tiempo real.
 
-11. **Advanced ECLSS (Environmental Control & Life Support Systems):**
-    - **Alta Impacto en:** Oxygen (35), Fuel (28), Hydraulic Power (29).
-    - **Razón:** Sistemas de soporte vital avanzados para misiones de larga duración y sostenibilidad.
+### **11. Advanced ECLSS (Environmental Control & Life Support Systems):**
+- **Alta Impacto en:** Oxygen (35), Fuel (28), Hydraulic Power (29).
+- **Razón:** Sistemas de soporte vital avanzados para misiones de larga duración y sostenibilidad.
 
-12. **WPT & Energy Harvesting:**
-    - **Alta Impacto en:** Electrical Power (24), Airborne Auxiliary Power (49), Fuel (28).
-    - **Razón:** Transferencia inalámbrica de energía y recolección de energía ambiental para optimizar el consumo energético.
+### **12. WPT & Energy Harvesting:**
+- **Alta Impacto en:** Electrical Power (24), Airborne Auxiliary Power (49), Fuel (28).
+- **Razón:** Transferencia inalámbrica de energía y recolección de energía ambiental para optimizar el consumo energético.
 
-13. **Hypersonic & Advanced Propulsion:**
-    - **Alta Impacto en:** Powerplant (71), Engine - Turbine/Prop/Controls (72), Engine - Fuel & Control (73).
-    - **Razón:** Desarrollo de motores avanzados para vuelos hipersónicos y eficiencia de propulsión.
+### **13. Hypersonic & Advanced Propulsion:**
+- **Alta Impacto en:** Powerplant (71), Engine - Turbine/Prop/Controls (72), Engine - Fuel & Control (73).
+- **Razón:** Desarrollo de motores avanzados para vuelos hipersónicos y eficiencia de propulsión.
 
 ---
 
@@ -789,78 +635,65 @@ Esta matriz integral muestra el impacto transversal de tecnologías emergentes e
 - **Mejorar la Sostenibilidad:** Implementar materiales avanzados y sistemas energéticamente eficientes para alinearse con objetivos ambientales.
 - **Garantizar la Seguridad y Resiliencia:** Adoptar comunicaciones post-cuánticas y blockchain para operaciones seguras y trazables.
 
-### **Próximos Pasos:**
+---
 
-1. **Revisar y Validar:**
-   - Asegurar que todas las tecnologías relevantes estén correctamente mapeadas a sus respectivos capítulos ATA.
-   
-2. **Automatizar la Inserción de Datos:**
-   - Utilizar scripts (por ejemplo, Python) para generar sentencias INSERT basadas en esta matriz para integración en bases de datos.
-   
-3. **Desarrollar Documentación Detallada:**
-   - Para cada "X" en la matriz, crear descripciones técnicas completas, diagramas y especificaciones para acompañar las entradas en la base de datos.
-   
-4. **Capacitar al Equipo:**
-   - Educar a los miembros del equipo sobre la estructura del código y la importancia del impacto de cada tecnología en diferentes capítulos ATA.
-   
-5. **Monitoreo Continuo y Actualizaciones:**
-   - Actualizar regularmente la matriz a medida que emergen nuevas tecnologías o evolucionan las existentes para mantener su relevancia y precisión.
+## **Próximos Pasos**
+
+### 1. **Revisión y Validación de la Tabla de Dependencias**
+- **Verificación:** Asegúrate de que cada subsistema tiene sus dependencias correctamente definidas.
+- **Consistencia:** Revisa que la codificación de las dependencias (**D, E, M, C**) sea consistente en toda la tabla.
+- **Cobertura:** Confirma que todos los subsistemas identificados en el **Paso 1** estén incluidos en la tabla.
+
+### 2. **Crear la Matriz de Interdependencias**
+- **Transfiere los datos a Microsoft Excel o Google Sheets.**
+- **Lista todos los subsistemas** tanto en las filas como en las columnas.
+- **Marca las intersecciones** con los códigos de dependencia (**D, E, M, C**) según corresponda.
+- **Utiliza combinaciones** de códigos si hay múltiples tipos de dependencia (por ejemplo, **D + E**).
+- **Aplica formato** (como colores) para resaltar dependencias críticas o de alta prioridad.
+
+### 3. **Analizar la Matriz**
+Realiza un análisis detallado de la matriz para identificar:
+- **Zonas de Alta Criticidad:** Donde múltiples dependencias convergen, indicando posibles puntos vulnerables.
+- **Necesidades de Redundancia:** Sistemas críticos que requieren duplicación para asegurar la operatividad en caso de fallo.
+- **Oportunidades de Optimización:** Reducir dependencias innecesarias o simplificar rutas de datos y energía.
+
+### 4. **Revisar y Validar con el Equipo Multidisciplinario**
+Presenta la **Tabla de Dependencias** y la **Matriz de Interdependencias** al **equipo multidisciplinario** para:
+- **Verificar la Precisión:** Asegurar que todas las dependencias estén correctamente identificadas.
+- **Añadir o Corregir:** Incorporar observaciones y correcciones según la experiencia del equipo.
+- **Asegurar la Integridad del Diseño:** Validar que el diseño sea robusto y eficiente antes de proceder a fases más avanzadas.
 
 ---
 
-### **Beneficios Clave:**
+## **Herramientas Recomendadas**
 
-1. **Mejor Visibilidad de Complejidad:**
-   - Comprender de un vistazo cómo se interconectan numerosos subsistemas.
-   
-2. **Reducción de Riesgos:**
-   - Identificar “cuellos de botella” y subsistemas críticos para anticipar fallas potenciales e implementar planes de contingencia.
-   
-3. **Optimización de Recursos:**
-   - Priorizar esfuerzos y presupuestos en los elementos con mayor dependencia cruzada y, por tanto, mayor impacto global.
-   
-4. **Comunicación Efectiva:**
-   - Facilitar el diálogo entre equipos multidisciplinares como mecánica, eléctrica, software, IA, etc., ya que todos ven claramente dónde encaja su parte en el proyecto.
-   
-5. **Preparación para Certificaciones:**
-   - La trazabilidad de dependencias es clave para cumplir con normas como **ATA100, iSPEC2200, S1000D** y estándares de aviación (**DO-178, DO-254**, etc.).
+- **Microsoft Excel o Google Sheets:** Para crear y gestionar la tabla y matriz de dependencias de manera estructurada.
+- **Lucidchart o Microsoft Visio:** Para visualizar las interdependencias mediante diagramas de flujo o mapas de relaciones.
+- **Python/R:** Para automatizar el procesamiento de datos y generar reportes.
+- **Bases de Datos Relacionales (MySQL, PostgreSQL):** Para almacenar y consultar las dependencias de manera eficiente.
+- **Power BI o Tableau:** Para análisis avanzados y visualización de datos, especialmente útil para identificar patrones y áreas críticas.
 
 ---
 
-### **Recursos Adicionales para Soporte:**
+## **Comentarios y Sugerencias Finales**
 
-- **Plantillas de Excel para Matrices de Interdependencias:**
-  - [Vertex42 Dependency Matrix Template](https://www.vertex42.com/ExcelTemplates/dependency-matrix.html)
-  
-- **Tutoriales y Cursos:**
-  - [Formato Condicional en Excel](https://support.microsoft.com/es-es/office/aplicar-formato-condicional-a-celdas-basado-en-el-contenido-de-las-mismas-27bcff48-ec27-4b73-893f-4f15d5c7794b)
-  - [Introducción a VBA en Excel](https://www.excel-easy.com/vba.html)
-  - [Crear Diagramas de Red en Lucidchart](https://www.lucidchart.com/pages/es/redes-de-ordenadores)
-  - [Guía de Tablas Dinámicas en Excel](https://support.microsoft.com/es-es/office/crear-una-tabla-din%C3%A1mica-ya-la-fuente-de-datos-para-la-tabla-din%C3%A1mica-36a32ed8-0e4c-4d59-98a4-ffaf50f2f0c0)
-  
-- **Foros y Comunidades de Soporte:**
-  - [Microsoft Excel Community](https://answers.microsoft.com/es-es/msoffice/forum/msoffice_excel)
-  - [Stack Overflow - Excel](https://stackoverflow.com/questions/tagged/excel)
+1. **Consistencia en la Codificación:** Mantén una codificación uniforme de las dependencias en toda la tabla. Si un subsistema depende de múltiples elementos, utiliza símbolos separados (como comas) o combinaciones claras (como **D + E**).
+2. **Revisión Colaborativa:** Involucra a expertos de diferentes áreas (ingeniería, aviónica, seguridad, confort, etc.) para revisar y validar las dependencias. Esto ayudará a identificar dependencias que podrían haberse pasado por alto.
+3. **Actualización Continua:** A medida que el proyecto avance y se realicen cambios en el diseño, actualiza la tabla de dependencias para reflejar cualquier modificación en los sistemas y subsistemas.
+4. **Documentación Adicional:** Considera complementar la tabla con descripciones detalladas de cada dependencia, explicando cómo y por qué existe cada interacción.
+5. **Automatización del Proceso:** Si la complejidad de la matriz aumenta, podrías explorar herramientas de gestión de dependencias que permitan automatizar la identificación y seguimiento de dependencias entre sistemas.
 
 ---
 
-### **Conclusión:**
+## **Conclusión**
 
-Incorporar y comprender las **combinaciones de dependencias** (**D, E, M, C**) en tu **Matriz de Interdependencias** es esencial para el éxito de tu proyecto **GAIA AIR – AMPEL-360XWLRGA**. Esta guía te permitirá:
+La **Tabla de Dependencias Completa** y la **Matriz de Interdependencias** son herramientas esenciales para asegurar la integridad y eficiencia del diseño del **AMPEL A360XWLRGA**. Al seguir los próximos pasos recomendados, podrás:
 
 - **Visualizar** claramente las interacciones entre subsistemas.
 - **Identificar** zonas críticas y dependencias de alto riesgo.
 - **Optimizar** la asignación de recursos y priorizar acciones estratégicas.
 - **Facilitar** la comunicación y colaboración entre equipos multidisciplinares.
 - **Prepararte** eficazmente para cumplir con estándares y certificaciones necesarias.
-
-Recuerda que una matriz bien gestionada no solo mejora la eficiencia operativa, sino que también anticipa y mitiga posibles riesgos antes de que se conviertan en problemas significativos.
-
----
-
-**Nota:** La tabla proporcionada cubre los capítulos ATA 00-90 y algunas entradas hipotéticas. Para los capítulos ATA 91-99 y cualquier otro subsistema adicional, se siguen los mismos criterios de asignación de dependencias basados en el impacto de las tecnologías emergentes descritas anteriormente.
-
-Si necesitas completar los capítulos ATA 91-99 o tienes otros subsistemas específicos que requieran análisis, por favor indícalo, y estaré encantado de asistirte.
 
 ---
 
