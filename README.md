@@ -1551,7 +1551,8 @@ graph TB
     classDef quality fill:#fcc,stroke:#333,stroke-width:2px;
     
     %% Grupos Principales
-    subgraph Airframe ["Airframe [Estructura Principal]"]
+    subgraph Airframe
+    ["Airframe - Estructura Principal"]
         A1[Diseño Aerodinámico]
         A2[Selección de Materiales]
         A3[Fabricación de Componentes]
@@ -1559,7 +1560,8 @@ graph TB
         A5[Control de Calidad]
     end
     
-    subgraph OptimizaciónTopologica ["Optimización Topológica"]
+    subgraph OptimizaciónTopologica
+    ["Optimización Topológica"]
         B1[Análisis Estructural]
         B2[Implementación de Optimización]
         B3[Validación del Diseño Optimizado]
@@ -1568,17 +1570,19 @@ graph TB
         B6[Integración con el Diseño General]
     end
     
-    subgraph SistemasAuxiliares ["Integración de Sistemas Auxiliares"]
+    subgraph SistemasAuxiliares
+    ["Integración de Sistemas Auxiliares"]
         C1[Sistemas de HVAC]
         C2[Sistemas de Iluminación]
         C3[Sistemas de Control Ambiental]
     end
     
-    subgraph Empennage ["Empennage [Conjunto de Cola]"]
+    subgraph Empennage
+    ["Empennage - Conjunto de Cola"]
         D1[Estabilizador Vertical]
         D2[Estabilizador Horizontal]
-        D3[Timón [Rudder]]
-        D4[Elevador [Elevator]]
+        D3[Timón - Rudder]
+        D4[Elevador - Elevator]
         D5[Integración de los Componentes del Empennage]
         D6[Consideraciones de Seguridad]
         D7[Sistemas de Control de Vuelo Avanzados]
@@ -1586,7 +1590,8 @@ graph TB
         D9[Monitorización de la Salud Estructural]
     end
     
-    subgraph Propulsion ["Propulsión"]
+    subgraph Propulsion
+    ["Propulsión"]
         E1[Diseño de los Sistemas de Propulsión]
         E2[Selección de Motores]
         E3[Diseño de Sistemas de Combustible]
@@ -1595,14 +1600,16 @@ graph TB
         E6[Control de Calidad]
     end
     
-    subgraph Avionica ["Aviónica"]
+    subgraph Avionica
+    ["Aviónica"]
         F1[Diseño de Sistemas de Aviónica]
         F2[Desarrollo e Integración de Sistemas de Aviónica]
         F3[Pruebas y Validación de Sistemas de Aviónica]
         F4[Control de Calidad]
     end
     
-    subgraph SistemasElectricos ["Sistemas Eléctricos y Electrónicos"]
+    subgraph SistemasElectricos
+    ["Sistemas Eléctricos y Electrónicos"]
         G1[Diseño de los Sistemas Eléctricos]
         G2[Selección de Componentes Electrónicos]
         G3[Integración de Sistemas Eléctricos y Electrónicos]
@@ -1610,7 +1617,8 @@ graph TB
         G5[Control de Calidad]
     end
     
-    subgraph InteriorConfort ["Interior y Confort"]
+    subgraph InteriorConfort
+    ["Interior y Confort"]
         H1[Diseño del Interior]
         H2[Selección de Materiales para el Interior]
         H3[Fabricación e Instalación del Interior]
@@ -1618,21 +1626,24 @@ graph TB
         H5[Documentación y Reporte]
     end
     
-    subgraph SistemasSeguridad ["Sistemas de Seguridad"]
+    subgraph SistemasSeguridad
+    ["Sistemas de Seguridad"]
         I1[Diseño de Sistemas de Seguridad]
         I2[Implementación de Sistemas de Seguridad]
         I3[Pruebas y Validación de Sistemas de Seguridad]
         I4[Control de Calidad de Sistemas de Seguridad]
     end
     
-    subgraph EntretenimientoConfort ["Sistemas de Entretenimiento y Confort para Pasajeros"]
+    subgraph EntretenimientoConfort
+    ["Sistemas de Entretenimiento y Confort para Pasajeros"]
         J1[Diseño de Sistemas de Entretenimiento a Bordo]
         J2[Diseño e Instalación de Asientos Ergonómicos]
         J3[Diseño de Iluminación Ambiental]
         J4[Control de Calidad de Sistemas de Entretenimiento y Confort]
     end
     
-    subgraph ManufacturaProduccion ["Manufactura y Producción"]
+    subgraph ManufacturaProduccion
+    ["Manufactura y Producción"]
         K1[Planificación de la Producción]
         K2[Adquisición de Equipos y Herramientas]
         K3[Proceso de Manufactura]
@@ -1640,7 +1651,8 @@ graph TB
         K5[Documentación y Reporte de Manufactura]
     end
     
-    subgraph PruebasCertificacion ["Pruebas y Certificación"]
+    subgraph PruebasCertificacion
+    ["Pruebas y Certificación"]
         L1[Pruebas Finales de Integración]
         L2[Validación de Diseño]
         L3[Obtención de Certificaciones]
@@ -1648,14 +1660,16 @@ graph TB
         L5[Documentación Final y Entrega]
     end
     
-    subgraph ControlClima ["Sistemas de Control de Clima y Ambientales"]
+    subgraph ControlClima
+    ["Sistemas de Control de Clima y Ambientales"]
         M1[Diseño de Sistemas de HVAC]
         M2[Instalación de Sistemas de Clima]
         M3[Pruebas y Validación de Sistemas de Clima]
         M4[Control de Calidad de Sistemas de Clima]
     end
     
-    subgraph MantenimientoDiagnostico ["Gestión de Mantenimiento y Diagnóstico"]
+    subgraph MantenimientoDiagnostico
+    ["Gestión de Mantenimiento y Diagnóstico"]
         N1[Desarrollo de Sistemas de Mantenimiento Preventivo]
         N2[Desarrollo de Sistemas de Diagnóstico Predictivo]
         N3[Pruebas y Validación de Sistemas de Mantenimiento y Diagnóstico]
@@ -1663,13 +1677,15 @@ graph TB
         N5[Documentación y Reporte]
     end
     
-    subgraph GestionDatosTecnologia ["Gestión de Datos y Tecnología"]
+    subgraph GestionDatosTecnologia
+    ["Gestión de Datos y Tecnología"]
         O1[Sistemas de Gestión de Datos]
         O2[Implementación de Tecnologías Avanzadas]
         O3[Seguridad de la Información]
     end
     
-    subgraph LogisticaSuministros ["Logística y Suministros"]
+    subgraph LogisticaSuministros
+    ["Logística y Suministros"]
         P1[Planificación de Logística]
         P2[Gestión de Suministros]
         P3[Gestión de Inventarios]
@@ -1709,6 +1725,7 @@ graph TB
     class MantenimientoDiagnostico general;
     class GestionDatosTecnologia general;
     class LogisticaSuministros general;
+
 ```
 
 ## 2.4.2. Diagrama de Secuencia
