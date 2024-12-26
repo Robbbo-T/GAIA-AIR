@@ -1726,6 +1726,7 @@ graph TB
     class GestionDatosTecnologia general;
     class LogisticaSuministros general;
 
+
 ```
 
 ## 2.4.2. Diagrama de Secuencia
