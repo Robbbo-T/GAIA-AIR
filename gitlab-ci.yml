@@ -1,0 +1,45 @@
+stages:
+  - validate
+  - test
+  - deploy
+
+variables:
+  CSV_PATH: "matriz_dependencias.csv"
+
+validate:
+  stage: validate
+  image: python:3.9
+  script:
+    - pip install -r requirements.txt
+    - python scripts/analizar_matriz.py --csv $CSV_PATH --umbral 3
+  only:
+    - main
+    - develop
+  tags:
+    - docker-python
+
+test:
+  stage: test
+  image: python:3.9
+  script:
+    - pip install -r requirements.txt
+    - pytest tests/
+  only:
+    - main
+    - develop
+  tags:
+    - docker-python
+
+deploy:
+  stage: deploy
+  image: python:3.9
+  script:
+    - echo "Generando reporte..."
+    - python scripts/generar_reporte.py --csv $CSV_PATH --output "reporte_interdependencias.pdf"
+    - echo "Reporte generado. Subiendo a servidor..."
+    - scp reporte_interdependencias.pdf user@server:/path/to/reports/
+  only:
+    - main
+  when: on_success
+  tags:
+    - docker-python
