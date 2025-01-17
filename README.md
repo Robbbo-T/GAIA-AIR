@@ -1,5 +1,6 @@
 ![LOGO-GAIA_AIR](https://github.com/user-attachments/assets/4f1b426c-6289-4559-a99e-e8006b145642)
 
+![image](https://github.com/user-attachments/assets/27e38821-f05a-485e-9636-eb8b2716f34b)
 
 ---
 
