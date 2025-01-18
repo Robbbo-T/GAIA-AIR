@@ -9,3 +9,6 @@ fastapi==0.95.2
 uvicorn==0.22.0
 pymongo==4.6.3
 mermaid==8.13.5
+eslint==8.0.0
+pylint==2.12.2
+prettier==2.5.1

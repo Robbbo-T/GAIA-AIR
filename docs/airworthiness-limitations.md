@@ -224,4 +224,3 @@ La inclusión del **ATA 04 - Limitaciones de Aeronavegabilidad (Airworthiness Li
 - **Integración con Otros Capítulos:** Mantener una coherencia entre **ATA 04** y otros capítulos relevantes, como **ATA 12 - Servicio** y **ATA 20 - Prácticas Estándar - Fuselaje**, para una documentación integral y completa.
 
 ---
-
