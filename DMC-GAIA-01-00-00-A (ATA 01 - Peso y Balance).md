@@ -105,6 +105,29 @@ El módulo abarca desde los cálculos iniciales de balance hasta la supervisión
 - **Mantenimiento Predictivo:**
   - Identificación temprana de posibles desequilibrios que podrían llevar a fallos mecánicos.
 
+### **01-03-03 Optimización Dinámica del Balance para el Sistema de Propulsión de Hidrógeno**
+
+- **Sensores IoT y Algoritmos de IA:**
+  - Implementación de sensores avanzados y algoritmos de inteligencia artificial para monitorear y ajustar la distribución de peso del sistema de propulsión de hidrógeno en tiempo real.
+
+- **Actuadores Automáticos:**
+  - Mecanismos integrados que redistribuyen automáticamente el peso del sistema de propulsión de hidrógeno para mantener el equilibrio óptimo sin intervención manual.
+
+**[Insertar Diagrama 4: Arquitectura de Optimización Dinámica del Balance para el Sistema de Propulsión de Hidrógeno]**
+
+![Diagrama 4: Arquitectura de Optimización Dinámica del Balance para el Sistema de Propulsión de Hidrógeno](ruta/al/diagrama4.png)
+
+### **01-03-04 Beneficios de la Optimización Dinámica para el Sistema de Propulsión de Hidrógeno**
+
+- **Eficiencia Energética:**
+  - Reducción del consumo de combustible gracias a una distribución de peso optimizada del sistema de propulsión de hidrógeno.
+
+- **Estabilidad de Vuelo:**
+  - Mejora en la estabilidad y maniobrabilidad de la aeronave, reduciendo riesgos operativos asociados con el sistema de propulsión de hidrógeno.
+
+- **Mantenimiento Predictivo:**
+  - Identificación temprana de posibles desequilibrios en el sistema de propulsión de hidrógeno que podrían llevar a fallos mecánicos.
+
 ---
 
 ## **01-04-00 Impacto en el Consumo de Combustible y Estabilidad de Vuelo**
@@ -123,9 +146,9 @@ El módulo abarca desde los cálculos iniciales de balance hasta la supervisión
 | **Turbulencias**            | Alta              | Baja                                 | Reducción significativa.      |
 | **Maneuverabilidad**        | Moderada          | Alta                                 | Mejora en la respuesta de vuelo.|
 
-**[Insertar Diagrama 4: Comparativa de Consumo de Combustible y Estabilidad de Vuelo]**
+**[Insertar Diagrama 5: Comparativa de Consumo de Combustible y Estabilidad de Vuelo]**
 
-![Diagrama 4: Comparativa de Consumo de Combustible y Estabilidad de Vuelo](ruta/al/diagrama4.png)
+![Diagrama 5: Comparativa de Consumo de Combustible y Estabilidad de Vuelo](ruta/al/diagrama5.png)
 
 ---
 
@@ -187,9 +210,9 @@ Identificar, evaluar y mitigar los riesgos asociados con la implementación y op
 - **Matriz de Riesgos:**
   - Herramienta visual para priorizar riesgos según su severidad.
 
-**[Insertar Diagrama 5: Matriz de Riesgos de Weight and Balance]**
+**[Insertar Diagrama 6: Matriz de Riesgos de Weight and Balance]**
 
-![Diagrama 5: Matriz de Riesgos de Weight and Balance](ruta/al/diagrama5.png)
+![Diagrama 6: Matriz de Riesgos de Weight and Balance](ruta/al/diagrama6.png)
 
 #### **01-06-03 Mitigación de Riesgos**
 
@@ -209,9 +232,9 @@ Identificar, evaluar y mitigar los riesgos asociados con la implementación y op
 - **Revisiones Periódicas:**
   - Evaluaciones regulares de la efectividad de las medidas de mitigación implementadas.
 
-**[Insertar Diagrama 6: Procedimiento de Monitoreo y Revisión de Riesgos]**
+**[Insertar Diagrama 7: Procedimiento de Monitoreo y Revisión de Riesgos]**
 
-![Diagrama 6: Procedimiento de Monitoreo y Revisión de Riesgos](ruta/al/diagrama6.png)
+![Diagrama 7: Procedimiento de Monitoreo y Revisión de Riesgos](ruta/al/diagrama7.png)
 
 ---
 
@@ -305,10 +328,6 @@ Identificar, evaluar y mitigar los riesgos asociados con la implementación y op
 
 4. **Cumplimiento de Estándares:**
    - Revisa que todas las modificaciones y adiciones cumplan con los estándares ATA y S1000D, asegurando la interoperabilidad y consistencia en la documentación aeronáutica.
-
----
-
-**Nota:** Las referencias a los diagramas (e.g., [Insertar Diagrama 1: ...]) deben ser reemplazadas con las ubicaciones reales de los archivos gráficos una vez que los diagramas sean creados y alojados en un servidor accesible o incluidos en el documento final.
 
 ---
 
