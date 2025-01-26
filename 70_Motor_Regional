@@ -198,6 +198,30 @@ El motor termoeléctrico opera de la siguiente manera:
 
 ---
 
+## Integración del Sistema de Propulsión de Hidrógeno con Sistemas Eléctricos y Gestión Térmica
+
+### Integración con Sistemas Eléctricos
+
+#### Distribución de Energía
+
+- **Conexión con Redes Eléctricas:** El sistema de propulsión de hidrógeno está integrado con las redes eléctricas de la aeronave para asegurar una distribución eficiente de la energía generada.
+
+- **Gestión de Carga:** Los sistemas de gestión de energía optimizan la carga y descarga de las baterías, asegurando un suministro constante y eficiente de energía eléctrica.
+
+**Referencia:** Para más detalles sobre la integración eléctrica, consulte **DMC-GAIA-24-00-00-R: Energía Eléctrica**.
+
+### Gestión Térmica Avanzada
+
+#### Sistemas de Enfriamiento
+
+- **Enfriamiento Activo:** Utilización de sistemas de enfriamiento activo para mantener las temperaturas óptimas de operación del sistema de propulsión de hidrógeno.
+
+- **Materiales de Alta Conductividad Térmica:** Uso de materiales avanzados con alta conductividad térmica para mejorar la disipación de calor.
+
+**Referencia:** Para más detalles sobre la gestión térmica, consulte **DMC-GAIA-03-04-02-R: Propiedades de las Estructuras**.
+
+---
+
 ## Referencias Cruzadas
 
 - **DMC-GAIA-03-00-00-R: Introducción General (Dimensiones y Áreas)**
