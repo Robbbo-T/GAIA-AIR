@@ -38,6 +38,8 @@
       background-color: yellow;
     }
   </style>
+  <!-- CNOT-related code -->
+  <script src="https://cdn.jsdelivr.net/npm/@cnot/cnot.js"></script>
 </head>
 <body>
   <div class="search-bar">
@@ -121,6 +123,14 @@
         }
       });
     }
+
+    // CNOT-related code
+    document.addEventListener("DOMContentLoaded", function() {
+      CNOT.init({
+        apiKey: "your-api-key-here",
+        targetElement: "#hierarchyTree"
+      });
+    });
   </script>
 </body>
 </html>

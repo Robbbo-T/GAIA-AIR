@@ -1,5 +1,7 @@
 {
   "scripts": {
-    "build": "your-build-command-here"
+    "build": "your-build-command-here",
+    "cnot-init": "cnot init --api-key $CNOT_API_KEY",
+    "cnot-start": "cnot start"
   }
 }
