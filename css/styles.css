@@ -13,4 +13,42 @@ body.dark-mode {
   background-color: #121212;
   color: #ffffff;
 }
-/* ... Resto de estilos ... */
+
+/* CNOT-related styles */
+.cnot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cnot-header {
+  font-size: 24px;
+  font-weight: bold;
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.cnot-content {
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+.cnot-button {
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cnot-button:hover {
+  background-color: #005cbf;
+}

@@ -1,32 +1,470 @@
-<link rel="stylesheet" href="css/styles.css">
-<!-- Antes -->
-<script src="js/jquery.min.js" integrity="sha384-..." crossorigin="anonymous" defer></script>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GAIA AIR - Página de Inicio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/@cnot/cnot.js"></script>
+</head>
+<body>
+  <header>
+    <h1>GAIA AIR</h1>
+    <p>Sistema Aeronáutico Avanzado</p>
+  </header>
+  
+  <nav aria-label="Navegación principal">
+    <a href="#tecnicos" aria-label="Técnicos de Mantenimiento">Técnicos de Mantenimiento</a>
+    <a href="#servicios" aria-label="Servicios al Cliente">Servicios al Cliente</a>
+    <a href="#consulta" aria-label="Consulta Técnica">Consulta Técnica</a>
+    <a href="#interface" aria-label="Transferencia de Información">Transferencia de Información</a>
+    <a href="#reguladores" aria-label="Sistemas Reguladores">Sistemas Reguladores</a>
+    <a href="#transversales" aria-label="Equipos Transversales">Equipos Transversales</a>
+  </nav>
+  
+  <div class="container">
+    <!-- Sección para Técnicos de Mantenimiento -->
+    <div class="section" id="tecnicos">
+      <h2>Técnicos de Mantenimiento</h2>
+      <ul>
+        <li><a href="#mantenimiento-programado">Mantenimiento Programado</a></li>
+        <li><a href="#herramientas">Herramientas y Equipos</a></li>
+        <li><a href="#manuales">Manuales de Servicio</a></li>
+      </ul>
+    </div>
+    
+    <!-- Sección para Servicios al Cliente -->
+    <div class="section" id="servicios">
+      <h2>Servicios al Cliente</h2>
+      <ul>
+        <li><a href="#soporte">Soporte Técnico</a></li>
+        <li><a href="#consultas">Consultas y Reclamaciones</a></li>
+        <li><a href="#documentacion">Documentación para Clientes</a></li>
+      </ul>
+    </div>
+    
+    <!-- Sección para Consulta Técnica -->
+    <div class="section" id="consulta">
+      <h2>Consulta Técnica</h2>
+      <ul>
+        <li><a href="#soporte-tecnico">Soporte Técnico</a></li>
+        <li><a href="#bases-datos">Bases de Datos Técnicas</a></li>
+        <li><a href="#contacto-experto">Contacto con Expertos</a></li>
+      </ul>
+    </div>
+    
+    <!-- Sección para Transferencia de Información -->
+    <div class="section" id="interface">
+      <h2>Transferencia de Información</h2>
+      <ul>
+        <li><a href="#constructora-operadoras">Constructora y Operadoras</a></li>
+        <li><a href="#sistemas-reguladores">Sistemas Reguladores</a></li>
+        <li><a href="#validaciones-auditorias">Validaciones y Auditorías</a></li>
+      </ul>
+    </div>
+    
+    <!-- Sección para Sistemas Reguladores -->
+    <div class="section" id="reguladores">
+      <h2>Sistemas Reguladores</h2>
+      <ul>
+        <li><a href="#normativas">Normativas y Regulaciones</a></li>
+        <li><a href="#certificaciones">Certificaciones</a></li>
+        <li><a href="#auditorias">Auditorías Internas</a></li>
+      </ul>
+    </div>
+    
+    <!-- Sección para Equipos Transversales -->
+    <div class="section" id="transversales">
+      <h2>Equipos Transversales</h2>
+      <ul>
+        <li><a href="#gestion-proyectos">Gestión de Proyectos</a></li>
+        <li><a href="#comunicacion">Comunicación Interna</a></li>
+        <li><a href="#innovacion">Innovación y Mejora Continua</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Índice Jerárquico Buscable -->
+  <div class="container">
+    <div class="section">
+      <h2>Índice Jerárquico Buscable</h2>
+      <input type="text" id="searchInput" placeholder="Buscar por número de parte o descripción..." oninput="searchTree()" style="width: 100%; padding: 10px; margin-bottom: 20px;">
+      <ul id="hierarchyTree" class="tree" role="tree">
+        <li role="treeitem" aria-expanded="false">
+          <span><span class="toggle-icon">▶</span>1 - Sistema de Propulsión</span>
+          <ul role="group">
+            <li role="treeitem" aria-expanded="false">
+              <span><span class="toggle-icon">▶</span>1.1 - Motor Principal</span>
+              <ul role="group">
+                <li role="treeitem"><span>1.1.1 - Turbina</span></li>
+                <li role="treeitem"><span>1.1.2 - Compresor</span></li>
+              </ul>
+            </li>
+            <li role="treeitem" aria-expanded="false">
+              <span><span class="toggle-icon">▶</span>1.2 - Sistema de Combustible</span>
+              <ul role="group">
+                <li role="treeitem"><span>1.2.1 - Tanques de Combustible</span></li>
+                <li role="treeitem"><span>1.2.2 - Bombas de Combustible</span></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li role="treeitem" aria-expanded="false">
+          <span><span class="toggle-icon">▶</span>2 - Sistema de Control de Vuelo</span>
+          <ul role="group">
+            <li role="treeitem"><span>2.1 - Computadora de Vuelo</span></li>
+            <li role="treeitem"><span>2.2 - Sensores de Navegación</span></li>
+          </ul>
+        </li>
+        <li role="treeitem" aria-expanded="false">
+          <span><span class="toggle-icon">▶</span>3 - Sistema Eléctrico</span>
+          <ul role="group">
+            <li role="treeitem"><span>3.1 - Generadores</span></li>
+            <li role="treeitem"><span>3.2 - Distribución Eléctrica</span></li>
+          </ul>
+        </li>
+        <li role="treeitem" aria-expanded="false">
+          <span><span class="toggle-icon">▶</span>4 - Sistema de Comunicaciones</span>
+          <ul role="group">
+            <li role="treeitem"><span>4.1 - Transceptores</span></li>
+            <li role="treeitem"><span>4.2 - Antenas</span></li>
+          </ul>
+        </li>
+        <!-- Puedes añadir más secciones según necesites -->
+      </ul>
+    </div>
+  </div>
+  
+  <!-- Sección de Anexos con Tabla de Partes y Componentes -->
+  <div class="container">
+    <div class="section" id="tablas">
+      <h2>6.1 - Tablas Técnicas y Especificaciones de Componentes</h2>
+      <table id="partsTable">
+        <thead>
+          <tr>
+            <th>Número de Parte</th>
+            <th>Denominación</th>
+            <th>Efecto</th>
+            <th>Desde</th>
+            <th>Hasta</th>
+            <th>Unidades</th>
+            <th>PER</th>
+            <th>ASSY</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>S1002100001-001</td>
+            <td>SYSTEM, AIR CONDITIONING</td>
+            <td>001500</td>
+            <td>RF</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>264A020000</td>
+            <td>
+              .CONVERTER, OZONE (VF1958)<br>
+              (LIFE LIMITED ITEM)<br>
+              (OPTIONAL P/N 264A030000 FOR A/C 20003 AND 20005)<br>
+              (FUTURE PROC: 264A030000)<br>
+              (DISCARDED AMM PARTS: E-SEAL PN EIS0037031440P0 OR A0250102-9)<br>
+              (PRE SB 100-21-02)<br>
+              (REF CMM 21-51-71)
+            </td>
+            <td>001038</td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>264A030000</td>
+            <td>
+              .CONVERTER, OZONE (VF1958)<br>
+              (LIFE LIMITED ITEM)<br>
+              (DISCARDED AMM PARTS: E-SEAL PN EIS0037031440P0 OR A0250102-9)<br>
+              (POST SB 100-21-02)<br>
+              (REF CMM 21-51-71)
+            </td>
+            <td>006038</td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>264A030000</td>
+            <td>
+              .CONVERTER, OZONE (VF1958)<br>
+              (LIFE LIMITED ITEM)<br>
+              (DISCARDED AMM PARTS: E-SEAL PN EIS0037031440P0 OR A0250102-9)<br>
+              (REF CMM 21-51-71)
+            </td>
+            <td>001500</td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>264A040000</td>
+            <td>
+              .CONVERTER, OZONE (VF1958)<br>
+              (LIFE LIMITED ITEM)<br>
+              (DISCARDED AMM PARTS: E-SEAL PN EIS0037031440P0 OR A0250102-9)<br>
+              (REF CMM 21-51-71)
+            </td>
+            <td>001500</td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>NAS77-3-005</td>
+            <td>.BUSHING-FLANGED, PRESS FIT</td>
+            <td>001500</td>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>NAS77-5-005</td>
+            <td>.BUSHING-FLANGED, PRESS FIT</td>
+            <td>001500</td>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>1005355700-001</td>
+            <td>DUCTING INSTL, ACS BLEED, FUSELAGE (AFT)</td>
+            <td>001500</td>
+            <td>RF</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>EIS0037031440P0</td>
+            <td>
+              .E-SEAL, DUCT, 2 INCH (VU1596)<br>
+              (TRUE PN EIS003703144OPO)
+            </td>
+            <td>001500</td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>A0250102-9</td>
+            <td>.E-SEAL, DUCT, 2 INCH (VF1958)</td>
+            <td>001500</td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>BA56108-1</td>
+            <td>.COUPLING, V-BAND, 2 INCH (VF1958)</td>
+            <td>001500</td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>VC1443A200Z</td>
+            <td>
+              .COUPLING, V-BAND (V14242)<br>
+              (TRUE PN VC1443A-200-Z)
+            </td>
+            <td>001500</td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>20202-3</td>
+            <td>
+              .COVER, COUPLING (VF1958)<br>
+              (OPTIONAL P/N 20202-11 FOR A/C 20078-20086)<br>
+              (FUTURE PROC:20202-11)
+            </td>
+            <td>001086</td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>20202-11</td>
+            <td>.COVER, COUPLING (VF1958)</td>
+            <td>001500</td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>NAS6703DU14</td>
+            <td>.BOLT, DRILLED, HEX HD</td>
+            <td>001500</td>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>NAS73-3E004</td>
+            <td>.BUSHING</td>
+            <td>001500</td>
+            <td>2</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>NAS1149C0332R</td>
+            <td>.WASHER, FLAT</td>
+            <td>001500</td>
+            <td>8</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>MS21225-3</td>
+            <td>.NUT, SELF-LKG, CSTL</td>
+            <td>001500</td>
+            <td>4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  
+  <!-- Scripts -->
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha384-tsQFqpERiuum+3a1XrHkNhxNV6qIjK8VbBtTmz1dF7cHnLemvTQfSVcfJ9eXKkR/" crossorigin="anonymous"></script>
+  
+  <!-- DataTables JS -->
+  <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js"></script>
+  
+  <script>
+    // Inicializar DataTables
+    $(document).ready(function() {
+      $('#partsTable').DataTable({
+        "language": {
+          "url": "//cdn.datatables.net/plug-ins/1.10.20/i18n/Spanish.json"
+        }
+      });
+    });
+    
+    // Funcionalidad para el Índice Jerárquico Buscable
+    // Toggle tree visibility on click
+    document.querySelectorAll(".tree li > span").forEach(item => {
+      item.addEventListener("click", function (e) {
+        e.stopPropagation(); // Evitar que el evento se propague
+        const parent = this.parentElement;
+        parent.classList.toggle("expanded");
+      });
+    });
 
-<!-- Después -->
-<script src="js/jquery.min.js" defer></script>
-document.addEventListener("keydown", function(e) {
-  if (e.target.classList.contains("toggle-icon") && (e.key === "Enter" || e.key === " ")) {
-    e.preventDefault();
-    e.target.click();
-  }
-});
-<main>
-  <!-- Contenido principal -->
-</main>
-<footer>
-  <!-- Información de pie de página -->
-</footer>
-<td>
-  <p>.CONVERTER, OZONE (VF1958)</p>
-  <ul>
-    <li>LIFE LIMITED ITEM</li>
-    <li>OPTIONAL P/N 264A030000 FOR A/C 20003 AND 20005</li>
-    <!-- Más elementos -->
-  </ul>
-</td>
-<footer>
-  <p>&copy; 2024 GAIA AIR. Todos los derechos reservados.</p>
-  <p>Contacto: <a href="mailto:info@gaiaair.com">info@gaiaair.com</a></p>
-</footer>
-<link rel="icon" href="favicon.ico" type="image/x-icon">
-<img src="imagen.jpg" alt="Descripción" loading="lazy">
+    // Función de búsqueda
+    function searchTree() {
+      const query = document.getElementById("searchInput").value.toLowerCase();
+      const treeItems = document.querySelectorAll(".tree li");
+      const hierarchyTree = document.getElementById("hierarchyTree");
+
+      // Ocultar todos los elementos y eliminar resaltes
+      treeItems.forEach(item => {
+        item.style.display = "none";
+        item.classList.remove("highlight");
+      });
+
+      if (query === "") {
+        // Si la búsqueda está vacía, mostrar todos los elementos de nivel superior
+        document.querySelectorAll(".tree > li").forEach(item => {
+          item.style.display = "block";
+          item.classList.remove("expanded");
+        });
+        return;
+      }
+
+      const matchingItems = Array.from(treeItems).filter(item => {
+        const text = item.innerText.toLowerCase();
+        return text.includes(query);
+      });
+
+      matchingItems.forEach(item => {
+        item.style.display = "block";
+        item.classList.add("highlight");
+
+        // Mostrar todos los nodos padres
+        let parent = item.parentElement;
+        while (parent && parent !== hierarchyTree) {
+          if (parent.tagName === "UL") {
+            parent.style.display = "block";
+            const parentLi = parent.parentElement;
+            if (parentLi.tagName === "LI") {
+              parentLi.classList.add("expanded");
+              parentLi.style.display = "block";
+            }
+          }
+          parent = parent.parentElement;
+        }
+      });
+
+      // Opcional: ocultar ramas que no tienen elementos resaltados
+      treeItems.forEach(item => {
+        if (!item.classList.contains("highlight") && !hasHighlightedDescendant(item)) {
+          item.style.display = "none";
+        }
+      });
+    }
+
+    // Función auxiliar para verificar si algún descendiente tiene el resalte
+    function hasHighlightedDescendant(element) {
+      const descendants = element.querySelectorAll(".highlight");
+      return descendants.length > 0;
+    }
+
+    // CNOT-related code
+    document.addEventListener("DOMContentLoaded", function() {
+      CNOT.init({
+        apiKey: "your-api-key-here",
+        targetElement: "#hierarchyTree"
+      });
+    });
+  </script>
+</body>
+</html>
