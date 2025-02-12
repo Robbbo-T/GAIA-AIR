@@ -17,7 +17,12 @@ class PDFReport(FPDF):
         self.multi_cell(0, 10, body)
         self.ln()
 
-def generar_reporte(csv_path, output):
+def retrieve_coafi(csv_path, coafi_column):
+    df = pd.read_csv(csv_path)
+    coafi_data = df[coafi_column].dropna().unique()
+    return coafi_data
+
+def generar_reporte(csv_path, output, coafi_column):
     df = pd.read_csv(csv_path)
     pdf = PDFReport()
     pdf.add_page()
@@ -25,11 +30,15 @@ def generar_reporte(csv_path, output):
     for index, row in df.iterrows():
         content = f"Tecnología/Sistema: {row['Tecnología/Sistema']}\nPrioridad: {row['Prioridad de Implementación']}\nEstado de Madurez: {row['Estado de Madurez']}\n"
         pdf.chapter_body(content)
+    coafi_data = retrieve_coafi(csv_path, coafi_column)
+    pdf.chapter_title("Datos COAFI")
+    pdf.chapter_body(", ".join(coafi_data))
     pdf.output(output)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Generar reporte de interdependencias.')
     parser.add_argument('--csv', type=str, required=True, help='Ruta al archivo CSV')
     parser.add_argument('--output', type=str, required=True, help='Ruta de salida del reporte PDF')
+    parser.add_argument('--coafi', type=str, required=True, help='Nombre de la columna COAFI')
     args = parser.parse_args()
-    generar_reporte(args.csv, args.output)
+    generar_reporte(args.csv, args.output, args.coafi)

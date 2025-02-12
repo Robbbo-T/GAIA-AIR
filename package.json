@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "build": "your-build-command-here"
+  }
+}
