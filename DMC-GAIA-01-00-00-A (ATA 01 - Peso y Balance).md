@@ -128,6 +128,20 @@ El módulo abarca desde los cálculos iniciales de balance hasta la supervisión
 - **Mantenimiento Predictivo:**
   - Identificación temprana de posibles desequilibrios en el sistema de propulsión de hidrógeno que podrían llevar a fallos mecánicos.
 
+### **01-03-05 Integración del Sistema de Propulsión de Hidrógeno con Otros Sistemas**
+
+- **Integración con Sistemas Eléctricos:**
+  - El sistema de propulsión de hidrógeno está integrado con las redes eléctricas de la aeronave para asegurar una distribución eficiente de la energía generada.
+  - Los sistemas de gestión de energía optimizan la carga y descarga de las baterías, asegurando un suministro constante y eficiente de energía eléctrica.
+
+- **Gestión Térmica Avanzada:**
+  - Utilización de sistemas de enfriamiento activo para mantener las temperaturas óptimas de operación del sistema de propulsión de hidrógeno.
+  - Uso de materiales avanzados con alta conductividad térmica para mejorar la disipación de calor.
+
+**[Insertar Diagrama 5: Integración del Sistema de Propulsión de Hidrógeno con Otros Sistemas]**
+
+![Diagrama 5: Integración del Sistema de Propulsión de Hidrógeno con Otros Sistemas](ruta/al/diagrama5.png)
+
 ---
 
 ## **01-04-00 Impacto en el Consumo de Combustible y Estabilidad de Vuelo**
@@ -146,9 +160,9 @@ El módulo abarca desde los cálculos iniciales de balance hasta la supervisión
 | **Turbulencias**            | Alta              | Baja                                 | Reducción significativa.      |
 | **Maneuverabilidad**        | Moderada          | Alta                                 | Mejora en la respuesta de vuelo.|
 
-**[Insertar Diagrama 5: Comparativa de Consumo de Combustible y Estabilidad de Vuelo]**
+**[Insertar Diagrama 6: Comparativa de Consumo de Combustible y Estabilidad de Vuelo]**
 
-![Diagrama 5: Comparativa de Consumo de Combustible y Estabilidad de Vuelo](ruta/al/diagrama5.png)
+![Diagrama 6: Comparativa de Consumo de Combustible y Estabilidad de Vuelo](ruta/al/diagrama6.png)
 
 ---
 
@@ -210,9 +224,9 @@ Identificar, evaluar y mitigar los riesgos asociados con la implementación y op
 - **Matriz de Riesgos:**
   - Herramienta visual para priorizar riesgos según su severidad.
 
-**[Insertar Diagrama 6: Matriz de Riesgos de Weight and Balance]**
+**[Insertar Diagrama 7: Matriz de Riesgos de Weight and Balance]**
 
-![Diagrama 6: Matriz de Riesgos de Weight and Balance](ruta/al/diagrama6.png)
+![Diagrama 7: Matriz de Riesgos de Weight and Balance](ruta/al/diagrama7.png)
 
 #### **01-06-03 Mitigación de Riesgos**
 
@@ -232,9 +246,9 @@ Identificar, evaluar y mitigar los riesgos asociados con la implementación y op
 - **Revisiones Periódicas:**
   - Evaluaciones regulares de la efectividad de las medidas de mitigación implementadas.
 
-**[Insertar Diagrama 7: Procedimiento de Monitoreo y Revisión de Riesgos]**
+**[Insertar Diagrama 8: Procedimiento de Monitoreo y Revisión de Riesgos]**
 
-![Diagrama 7: Procedimiento de Monitoreo y Revisión de Riesgos](ruta/al/diagrama7.png)
+![Diagrama 8: Procedimiento de Monitoreo y Revisión de Riesgos](ruta/al/diagrama8.png)
 
 ---
 

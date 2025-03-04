@@ -240,6 +240,41 @@ Implementar estrategias de gestión de riesgos para identificar, evaluar y mitig
 
 ---
 
+## **DMC-GAIA-04-50-00-A: Integración del Sistema de Propulsión de Hidrógeno con Sistemas Eléctricos y Gestión Térmica**
+
+### **Descripción General**
+Este apartado detalla la integración del sistema de propulsión de hidrógeno con los sistemas eléctricos y la gestión térmica de **GAIA-AIR**, asegurando una operación eficiente y segura.
+
+### **DMC-GAIA-04-50-01-A: Integración con Sistemas Eléctricos**
+
+#### **Propósito**
+Establecer los procedimientos y especificaciones para la integración del sistema de propulsión de hidrógeno con los sistemas eléctricos de **GAIA-AIR**, garantizando una distribución eficiente de la energía y la seguridad operativa.
+
+#### **Especificaciones de Integración**
+- **Conexión con Redes Eléctricas:** El sistema de propulsión de hidrógeno está integrado con las redes eléctricas de la aeronave para asegurar una distribución eficiente de la energía generada.
+- **Gestión de Carga:** Los sistemas de gestión de energía optimizan la carga y descarga de las baterías, asegurando un suministro constante y eficiente de energía eléctrica.
+
+#### **Procedimientos de Mantenimiento**
+- **Inspección de Conexiones Eléctricas:** Verificar regularmente las conexiones eléctricas para asegurar su integridad y ausencia de corrosión.
+- **Pruebas de Aislamiento:** Realizar pruebas periódicas para garantizar que los sistemas eléctricos estén adecuadamente aislados.
+- **Actualizaciones de Software:** Implementar actualizaciones regulares para los sistemas de control electrónico, asegurando la compatibilidad y seguridad.
+
+### **DMC-GAIA-04-50-02-A: Gestión Térmica Avanzada**
+
+#### **Propósito**
+Establecer los procedimientos y especificaciones para la gestión térmica del sistema de propulsión de hidrógeno, asegurando que las temperaturas de operación se mantengan dentro de los límites seguros.
+
+#### **Especificaciones de Gestión Térmica**
+- **Enfriamiento Activo:** Utilización de sistemas de enfriamiento activo para mantener las temperaturas óptimas de operación del sistema de propulsión de hidrógeno.
+- **Materiales de Alta Conductividad Térmica:** Uso de materiales avanzados con alta conductividad térmica para mejorar la disipación de calor.
+
+#### **Procedimientos de Mantenimiento**
+- **Inspección de Sistemas de Enfriamiento:** Verificar regularmente los sistemas de enfriamiento para asegurar su funcionamiento adecuado.
+- **Pruebas de Eficiencia Térmica:** Realizar pruebas periódicas para garantizar que los sistemas de gestión térmica mantengan las temperaturas dentro de los límites especificados.
+- **Reemplazo de Componentes:** Sustituir componentes del sistema de enfriamiento que presenten desgaste o fallos según el programa de mantenimiento preventivo.
+
+---
+
 ## **Referencias Cruzadas**
 
 ### **Véase también:**
@@ -260,4 +295,3 @@ La inclusión del **ATA 04 - Limitaciones de Aeronavegabilidad (Airworthiness Li
 - **Integración con Otros Capítulos:** Mantener una coherencia entre **ATA 04** y otros capítulos relevantes, como **ATA 12 - Servicio** y **ATA 20 - Prácticas Estándar - Fuselaje**, para una documentación integral y completa.
 
 ---
-

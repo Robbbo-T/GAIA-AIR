@@ -220,6 +220,28 @@ El motor híbrido opera en diferentes modos:
 
 ---
 
+## Optimización Dinámica del Peso y Balance
+
+### Sensores y Algoritmos de IA
+
+#### Sensores de Peso y Balance
+
+- **Sensores Integrados:** Sensores distribuidos a lo largo de la aeronave para monitorear el peso y balance en tiempo real.
+
+- **Datos en Tiempo Real:** Los datos recopilados por los sensores se transmiten al sistema de gestión de vuelo para ajustes dinámicos.
+
+**Referencia:** Para más detalles sobre la integración de sensores, consulte **DMC-GAIA-01-00-00-A: Peso y Balance**.
+
+#### Algoritmos de IA
+
+- **Optimización Dinámica:** Algoritmos de inteligencia artificial que analizan los datos de los sensores y ajustan el peso y balance en tiempo real.
+
+- **Mejora de la Estabilidad:** Los ajustes dinámicos mejoran la estabilidad y eficiencia del vuelo, reduciendo el consumo de combustible y mejorando la seguridad.
+
+**Referencia:** Para más detalles sobre los algoritmos de IA, consulte **DMC-GAIA-00-00-00-A: Introducción General**.
+
+---
+
 ## Referencias Cruzadas
 
 - **DMC-GAIA-03-00-00-A: Introducción General (Dimensiones y Áreas)**
