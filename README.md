@@ -1,4 +1,4 @@
-WWW.gaia-air.net
+https://gaia-air.net
 
 # GAIA AIR – Cosmic Omnidevelopable Aero Foresights Index (COAFI)
 
