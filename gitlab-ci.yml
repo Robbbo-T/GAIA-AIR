@@ -11,7 +11,7 @@ validate:
   image: python:3.9
   script:
     - pip install -r requirements.txt
-    - python scripts/analizar_matriz.py --csv $CSV_PATH --umbral 3
+    - python scripts/analizar_matriz.py --csv $CSV_PATH --umbral 3 --coafi "COAFI Column Name"
   only:
     - main
     - develop
@@ -35,7 +35,7 @@ deploy:
   image: python:3.9
   script:
     - echo "Generando reporte..."
-    - python scripts/generar_reporte.py --csv $CSV_PATH --output "reporte_interdependencias.pdf"
+    - python scripts/generar_reporte.py --csv $CSV_PATH --output "reporte_interdependencias.pdf" --coafi "COAFI Column Name"
     - echo "Reporte generado. Subiendo a servidor..."
     - scp reporte_interdependencias.pdf user@server:/path/to/reports/
   only:
