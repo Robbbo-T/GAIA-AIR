@@ -1,4 +1,18 @@
-https://gaia-air.net
+El proyecto GAIA AIR es una iniciativa integral de la división GAIA DS (Sustainable Development) cuyo propósito es diseñar y documentar todo un ecosistema de aeronaves inteligentes y sostenibles, que abarca tanto:
+
+Vehículos de transporte atmosférico (aviones de corto y medio alcance)
+Naves espaciales reutilizables para acceso a Órbita Baja Terrestre
+Sus objetivos clave son:
+
+Optimizar la operación mediante inteligencia artificial (navegación autónoma, planificación de ruta, mantenimiento predictivo).
+Acelerar la toma de decisiones energéticas y de trayectoria con algoritmos de computación cuántica.
+Garantizar la trazabilidad y seguridad de datos de diseño, vuelo y mantenimiento a través de blockchain.
+Facilitar la interoperabilidad semántica y reducir la carga cognitiva de ingenieros y operadores con especificaciones de datos “artifact‑of‑record” estandarizadas citeturn0search0.
+¿Por qué importa?
+
+La aviación es responsable de alrededor del 2,5 % de las emisiones globales de CO₂ y más del 4 % de su forzamiento climático cuando se incluyen efectos no‑CO₂.
+GAIA AIR propone un marco de diseño, materiales avanzados (CFRP, aleaciones ligeras, TPS), sistemas de propulsión eficientes (turbofanes de alto bypass, cohetes criogénicos) y una infraestructura digital federada que apunta a minimizar la huella ambiental, aumentar la resiliencia operativa y democratizar la innovación aeronáutica en clave de sostenibilidad citeturn0search8.
+En suma, GAIA AIR engloba desde el concepto de aeronave hasta la arquitectura de datos que la respalda, sentando las bases para un transporte aéreo y espacial más verde, seguro y colaborativo.
 
 # GAIA AIR – Cosmic Omnidevelopable Aero Foresights Index (COAFI)
 
