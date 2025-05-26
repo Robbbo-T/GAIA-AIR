@@ -1652,36 +1652,42 @@ This sequence diagram shows the initialization process for the Quantum Resource 
 ## 8. Deployment Architecture
 
 ```mermaid
-graph TD
-    subgraph "Flight Control Computers"
+graph TD;
+    %% Flight Control Computers %%
+    subgraph FCS ["Flight Control Computers"]
         F1["Primary Flight Control Computer"]
-        F1 -->|Core| QRA1["QuantumResourceAllocator (Core)"]
-        F1 -->|Agent| Agent1["Agent Manager (Primary)"]
-        F1 -->|Ethics| Ethics1["AMEDEO Framework (Primary)"]
-        
         F2["Backup Flight Control Computer"]
-        F2 -->|Backup| QRA2["QuantumResourceAllocator (Backup)"]
-        F2 -->|Agent| Agent2["Agent Manager (Backup)"]
-        F2 -->|Ethics| Ethics2["AMEDEO Framework (Backup)"]
+        
+        F1 -- Core --> QRA1["QuantumResourceAllocator (Core)"]
+        F1 -- Agent --> Agent1["Agent Manager (Primary)"]
+        F1 -- Ethics --> Ethics1["AMEDEO Framework (Primary)"]
+        
+        F2 -- Backup --> QRA2["QuantumResourceAllocator (Backup)"]
+        F2 -- Agent --> Agent2["Agent Manager (Backup)"]
+        F2 -- Ethics --> Ethics2["AMEDEO Framework (Backup)"]
     end
     
-    subgraph "QPU Management System"
+    %% QPU Management System %%
+    subgraph QPU_System ["QPU Management System"]
         QMgr["QPU Manager"]
         QMon["Quantum Monitor"]
     end
     
-    subgraph "Quantum Processing Units"
+    %% Quantum Processing Units %%
+    subgraph QPUs ["Quantum Processing Units"]
         QPU1["QPU-1: Critical Workloads (QW1)"]
         QPU2["QPU-2: Essential Workloads (QW2)"]
         QPU3["QPU-3: Standard & Background Workloads (QW3, QW4)"]
     end
     
-    subgraph "Digital Twin System"
+    %% Digital Twin System %%
+    subgraph DTS ["Digital Twin System"]
         DServer["Digital Twin Server"]
         Sync["Sync Service"]
     end
     
-    subgraph "Flight Systems Network"
+    %% Flight Systems Network %%
+    subgraph FSN ["Flight Systems Network"]
         FC["Flight Control Module"]
         Nav["Navigation System"]
         EC["Environmental Control"]
@@ -1689,17 +1695,23 @@ graph TD
         PC["Propulsion Control"]
     end
 
-    subgraph "Human Interface Systems"
+    %% Human Interface Systems %%
+    subgraph HIS ["Human Interface Systems"]
         Crew["Crew Interface"]
         Maint["Maintenance Interface"]
     end
     
+    %% Connections %%
     F1 --> F2
     F1 --> QMgr
-    F1 --> Flight Systems Network
-    Sync -->|Synchronizes| Flight Systems Network
-    Crew --> Flight Systems Network
-    Maint --> Flight Systems Network
+    F1 --> FC
+    F1 --> Nav
+    F1 --> EC
+    F1 --> Comm
+    F1 --> PC
+    Sync -- Synchronizes --> FSN
+    Crew --> FSN
+    Maint --> FSN
 ```
 
 **Description:**
